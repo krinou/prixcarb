@@ -1,8 +1,10 @@
 name: Générer stations.json manuellement
 
 on:
-  # Exécution uniquement à la demande (bouton "Run workflow")
-  workflow_dispatch:
+  workflow_dispatch:  # lancement manuel
+
+permissions:
+  contents: write     # autorise le push sur le repo
 
 jobs:
   build:
@@ -12,6 +14,8 @@ jobs:
       # 1) Récupérer le dépôt
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       # 2) Installer Python
       - name: Set up Python
@@ -19,21 +23,21 @@ jobs:
         with:
           python-version: "3.11"
 
-      # 3) Télécharger les données officielles (ZIP flux instantané)
-      #    Source open data gouvernementale (DGCCRF) : donnnees.roulez-eco.fr/opendata/instantane
+      # 3) Télécharger les données officielles (ZIP "flux instantané")
+      #    Réf. open data : https://www.prix-carburants.gouv.fr/rubrique/opendata/
       - name: Download carburant data (XML in ZIP)
         run: |
           set -e
           curl -L -o data.zip "https://donnees.roulez-eco.fr/opendata/instantane"
 
-      # 4) Extraire le XML (généralement PrixCarburants_instantane.xml)
+      # 4) Extraire le XML
       - name: Extract XML
         run: |
           set -e
           unzip -o data.zip
           ls -l
 
-      # 5) Générer le script de conversion (XML -> JSON filtré + calculs)
+      # 5) Script de conversion XML -> JSON filtré + calculs
       - name: Create convert.py
         run: |
           set -e
@@ -59,8 +63,7 @@ jobs:
                    math.sin(dlon/2)**2)
               return 2 * R * math.asin(math.sqrt(a))
 
-          # Le ZIP officiel contient un XML de type "PrixCarburants_instantane.xml"
-          xml_file = "PrixCarburants_instantane.xml"
+          xml_file = "PrixCarburants_instantane.xml"  # présent dans le ZIP officiel
           tree = ET.parse(xml_file)
           root = tree.getroot()
 
@@ -71,11 +74,11 @@ jobs:
               if not cp or cp[:2] not in DEPS:
                   continue
 
-              # Coordonnées WGS84 *100000 dans le flux officiel → on divise par 100000
+              # Coordonnées WGS84 *100000 -> diviser par 100000
               lat = float(pdv.get("latitude"))/100000
               lon = float(pdv.get("longitude"))/100000
 
-              # Trouver le prix du carburant ciblé
+              # Prix carburant ciblé
               prix_elem = None
               for p in pdv.findall("prix"):
                   if p.get("nom") == FUEL_TAG:
@@ -84,12 +87,13 @@ jobs:
               if prix_elem is None:
                   continue
 
-              # Les valeurs sont en milli-euros/L → on convertit en €/L
+              # milli-euros/L -> €/L
               prix = float(prix_elem.get("valeur"))/1000
 
               dist = haversine(REF_LAT, REF_LON, lat, lon)
               cout_total = prix * VOLUME + (2*dist/100)*CONSO*prix
 
+              # Pour l'affichage, on va chercher adresse/ville si elles existent
               stations_out.append({
                   "station": pdv.findtext("adresse") or "",
                   "ville": pdv.findtext("ville") or "",
@@ -112,13 +116,16 @@ jobs:
           python3 convert.py
           test -f stations.json && echo "stations.json présent"
 
-      # 7) Commit + push du fichier JSON
-      - name: Commit and push stations.json
+      # 7) Commit + push uniquement si changements
+      - name: Commit and push stations.json (if changed)
         run: |
           set -e
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add stations.json
-          # Évite une erreur si rien n'a changé
-          git diff --cached --quiet || git commit -m "Mise à jour manuelle stations.json"
-          git push
+          if git diff --cached --quiet; then
+            echo "Aucun changement à pousser."
+          else
+            git commit -m "Mise à jour manuelle stations.json"
+            git push
+          fi
