@@ -34,46 +34,53 @@ async function charger() {
     const res = await fetch("stations.json", { cache: "no-cache" });
     const rows = await res.json();
 
-    // Tri par coût total
-    rows.sort((a,b) => (a.coutTotal ?? 0) - (b.coutTotal ?? 0));
+    // Tri par coût recalculé (sécurité)
+    const CONSO = 10;   // L/100 km
+    const VOLUME = 50;  // L
+
+    // On mappe d'abord en recalculant prix (€/L) et coût
+    const enriched = rows.map(r => {
+      // 1) Prix : si <0.1, c'est probablement du milli-euros -> x1000
+      const pRaw  = typeof r.prix === "number" ? r.prix : Number(r.prix);
+      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw * 1000 : pRaw) : 0;
+
+      // 2) Distance (km)
+      const dist = typeof r.distance === "number" ? r.distance : Number(r.distance);
+
+      // 3) Coût total (€/plein) = prix × volume + (2×dist/100)×conso×prix
+      const cout = (prixEur * VOLUME) + ((2 * (Number.isFinite(dist) ? dist : 0) / 100) * CONSO * prixEur);
+
+      return {
+        station: (typeof r.station === "string") ? r.station.trim() : (r.station ?? ""),
+        cp: r.cp ?? "",
+        ville: r.ville ?? "",
+        prixEur,
+        dist,
+        cout
+      };
+    });
+
+    enriched.sort((a,b) => a.cout - b.cout);
 
     const tbody = document.querySelector("#table tbody");
     tbody.innerHTML = "";
 
-    rows.forEach((r, i) => {
-      // 1) STATION : laisser BLANC si pas de nom -> or, ton JSON "station" contient l'adresse.
-      //    Donc on met "stationName" vide, et on place l'adresse dans la colonne Adresse (voir plus bas).
-      const stationName = ""; // BLANC comme demandé
-
-      // 2) ADRESSE = contenu de r.station (puisque c'est ce que tu as réellement)
-      const adresseAff = (typeof r.station === "string") ? r.station.trim() : (r.station ?? "");
-
-      // 3) Prix : si <0.1, on considère que c'est du milli-euros -> *1000 ; sinon, on laisse tel quel.
-      const prixVal = typeof r.prix === "number" ? r.prix : Number(r.prix);
-      const prixEuros = Number.isFinite(prixVal)
-        ? (prixVal < 0.1 ? prixVal * 1000 : prixVal)
-        : 0;
-      const prixAff = prixEuros.toFixed(3); // 1 entier + 3 décimales
-
-      // 4) Distance / Coût total
-      const distVal = typeof r.distance === "number" ? r.distance : Number(r.distance);
-      const coutVal = typeof r.coutTotal === "number" ? r.coutTotal : Number(r.coutTotal);
-      const distAff = Number.isFinite(distVal) ? distVal.toFixed(2) : "0.00";
-      const coutAff = Number.isFinite(coutVal) ? coutVal.toFixed(2) : "0.00";
-
-      const cp    = r.cp ?? "";
-      const ville = r.ville ?? "";
+    enriched.forEach((r, i) => {
+      // Colonne Station voulue blanche
+      const stationName = ""; 
+      // Colonne Adresse = contenu de r.station (ton besoin)
+      const adresseAff  = r.station;
 
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td>${i+1}</td>
-        <td>${stationName}</td>   <!-- Station : blanc -->
-        <td>${adresseAff}</td>    <!-- Adresse : l'ancienne "station" -->
-        <td>${cp}</td>
-        <td>${ville}</td>
-        <td>${prixAff}</td>       <!-- Prix : 1 entier + 3 décimales -->
-        <td>${distAff}</td>
-        <td>${coutAff}</td>
+        <td>${stationName}</td>                   <!-- Station : blanc -->
+        <td>${adresseAff}</td>                   <!-- Adresse : ex-"station" -->
+        <td>${r.cp}</td>
+        <td>${r.ville}</td>
+        <td>${r.prixEur.toFixed(3)}</td>         <!-- Prix : 1 entier + 3 décimales -->
+        <td>${(Number.isFinite(r.dist)?r.dist:0).toFixed(2)}</td>
+        <td>${r.cout.toFixed(2)}</td>            <!-- Coût recalculé -->
       `;
       tbody.appendChild(tr);
     });
