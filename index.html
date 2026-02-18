@@ -31,36 +31,38 @@
 async function charger() {
   const status = document.getElementById("status");
   try {
-    // Toujours lire le JSON local généré par le workflow
     const res = await fetch("stations.json", { cache: "no-cache" });
     const rows = await res.json();
 
-    // Tri par coût total (au cas où il ne serait pas trié)
+    // Tri par coût total (sécurité)
     rows.sort((a,b) => a.coutTotal - b.coutTotal);
 
     const tbody = document.querySelector("#table tbody");
     tbody.innerHTML = "";
 
     rows.forEach((r, i) => {
-      // Sécurités : certaines clés peuvent être absentes selon les stations
-      const station   = r.station   ?? "";
-      const adresse   = r.adresse   ?? "";   // seulement si tu l'as dans ton JSON
-      const cp        = r.cp        ?? "";
-      const ville     = r.ville     ?? "";
-      const prix      = typeof r.prix === "number" ? r.prix : Number(r.prix);
-      const distance  = typeof r.distance === "number" ? r.distance : Number(r.distance);
-      const coutTotal = typeof r.coutTotal === "number" ? r.coutTotal : Number(r.coutTotal);
+      // 1) Adresse = contenu de "station"
+      const adresseAff = r.station ?? "";
+
+      // 2) Prix affiché = prix * 1000 (format demandé)
+      const prixNum = typeof r.prix === "number" ? r.prix : Number(r.prix);
+      const prixAff = (prixNum || 0) * 1000;
+
+      const cp       = r.cp ?? "";
+      const ville    = r.ville ?? "";
+      const dist     = typeof r.distance === "number" ? r.distance : Number(r.distance);
+      const cout     = typeof r.coutTotal === "number" ? r.coutTotal : Number(r.coutTotal);
 
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td>${i+1}</td>
-        <td>${station}</td>
-        <td>${adresse}</td>
+        <td>${adresseAff}</td>             <!-- Colonne "Station" inchangée -->
+        <td>${adresseAff}</td>             <!-- Colonne "Adresse" = Station -->
         <td>${cp}</td>
         <td>${ville}</td>
-        <td>${(prix || 0).toFixed(3)}</td>
-        <td>${(distance || 0).toFixed(2)}</td>
-        <td>${(coutTotal || 0).toFixed(2)}</td>
+        <td>${prixAff.toFixed(0)}</td>     <!-- prix x1000 -->
+        <td>${(dist || 0).toFixed(2)}</td>
+        <td>${(cout || 0).toFixed(2)}</td>
       `;
       tbody.appendChild(tr);
     });
