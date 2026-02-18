@@ -29,29 +29,49 @@
 
 <script>
 async function charger() {
-  const res = await fetch("stations.json");
-  const rows = await res.json();
+  const status = document.getElementById("status");
+  try {
+    // Toujours lire le JSON local généré par le workflow
+    const res = await fetch("stations.json", { cache: "no-cache" });
+    const rows = await res.json();
 
-  const tbody = document.querySelector("#table tbody");
-  tbody.innerHTML = "";
+    // Tri par coût total (au cas où il ne serait pas trié)
+    rows.sort((a,b) => a.coutTotal - b.coutTotal);
 
-  rows.sort((a,b)=>a.coutTotal - b.coutTotal);
+    const tbody = document.querySelector("#table tbody");
+    tbody.innerHTML = "";
 
-  rows.forEach((r, i) => {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${i+1}</td>
-      <td>${r.station}</td>
-      <td>${r.cp}</td>
-      <td>${r.ville}</td>
-      <td>${r.prix.toFixed(3)}</td>
-      <td>${r.distance.toFixed(2)}</td>
-      <td>${r.coutTotal.toFixed(2)}</td>`;
-    tbody.appendChild(tr);
-  });
+    rows.forEach((r, i) => {
+      // Sécurités : certaines clés peuvent être absentes selon les stations
+      const station   = r.station   ?? "";
+      const adresse   = r.adresse   ?? "";   // seulement si tu l'as dans ton JSON
+      const cp        = r.cp        ?? "";
+      const ville     = r.ville     ?? "";
+      const prix      = typeof r.prix === "number" ? r.prix : Number(r.prix);
+      const distance  = typeof r.distance === "number" ? r.distance : Number(r.distance);
+      const coutTotal = typeof r.coutTotal === "number" ? r.coutTotal : Number(r.coutTotal);
 
-  document.getElementById("status").style.display = "none";
-  document.getElementById("table").style.display = "table";
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${i+1}</td>
+        <td>${station}</td>
+        <td>${adresse}</td>
+        <td>${cp}</td>
+        <td>${ville}</td>
+        <td>${(prix || 0).toFixed(3)}</td>
+        <td>${(distance || 0).toFixed(2)}</td>
+        <td>${(coutTotal || 0).toFixed(2)}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    status.style.display = "none";
+    document.getElementById("table").style.display = "table";
+  } catch (e) {
+    document.getElementById("status").textContent =
+      "❌ Erreur lors du chargement : " + (e.message || e);
+    console.error(e);
+  }
 }
 charger();
 </script>
