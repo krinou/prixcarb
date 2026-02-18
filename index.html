@@ -5,19 +5,16 @@
 <title>Stations – Classement pondéré depuis Nanterre</title>
 <style>
   body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
-  h1 { color: #333; }
-  table { border-collapse: collapse; width: 100%; margin-top: 20px; background: #fff; }
+  table { border-collapse: collapse; width: 100%; background: #fff; margin-top: 20px; }
   th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
   th { background: #eee; }
-  .loading { font-size: 18px; color: #666; }
+  .loading { font-size: 18px; color: #555; }
   .error { color: #b00020; font-weight: bold; white-space: pre-wrap; }
 </style>
 </head>
 <body>
 
-<h1>⛽ Classement pondéré des stations autour de Nanterre</h1>
-<p>Carburant : <b>E10</b> – Volume : <b>50 L</b> – Conso : <b>10 L/100 km</b></p>
-
+<h1>⛽ Classement des stations pondéré (E10) – Nanterre</h1>
 <div id="status" class="loading">⏳ Chargement…</div>
 
 <table id="table" style="display:none;">
@@ -31,63 +28,51 @@
 </table>
 
 <script>
-// ===== Paramètres =====
-const REF_LAT = 48.8925;
-const REF_LON = 2.2060;
-const DEPS = ["78", "91", "92", "93", "95"];
-const CONSO = 10;   // L/100km
-const VOLUME = 50;  // L
-const FUEL = "E10"; // "E10", "SP95", "SP98", "Gazole", "E85", "GPLc"
+const REF_LAT = 48.8925, REF_LON = 2.2060;
+const DEPS = ["78","91","92","93","95"];
+const CONSO = 10, VOLUME = 50;
+const FUEL = "E10";
 
-// ===== Distance Haversine (km) =====
 function haversine(lat1, lon1, lat2, lon2) {
-  const R = 6371;
-  const dLat = (lat2 - lat1) * Math.PI/180;
-  const dLon = (lon2 - lon1) * Math.PI/180;
-  const a = Math.sin(dLat/2)**2 +
-            Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) *
-            Math.sin(dLon/2)**2;
-  return 2 * R * Math.asin(Math.sqrt(a));
+  const R=6371, dLat=(lat2-lat1)*Math.PI/180, dLon=(lon2-lon1)*Math.PI/180;
+  const a=Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return 2*R*Math.asin(Math.sqrt(a));
 }
 
-// ===== Chargement (API 2Aaz, CORS ok) =====
 async function charger() {
   const status = document.getElementById('status');
   try {
-    // API réutilisation (CORS ouvert) : https://www.data.gouv.fr/fr/reuses/api-prix-carburants/
-    // Endpoint de stations au format opendata (lat/lon, prix par carburant, etc.)
-    const url = "https://api.prix-carburants.2aaz.fr/opendata/stations";
-    const resp = await fetch(url, { headers: { "Accept": "application/json" } });
-
-    if (!resp.ok) {
-      throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
-    }
+    // Route documentée dans le Swagger 2AàZ : /stations/?opendata
+    // (CORS est permis côté 2AàZ ; la réutilisation est référencée sur data.gouv.fr)
+    const url = "https://api.prix-carburants.2aaz.fr/stations/?opendata";
+    const resp = await fetch(url, { headers: { "Accept":"application/json" } });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
     const stations = await resp.json();
 
+    // Le format opendata retourne des champs proches des jeux officiels (nom/adresse/ville/coordonnées/prix par carburant)
     const rows = stations
-      .filter(s => s.cp && DEPS.includes(String(s.cp).substring(0,2)))
-      .filter(s => s.position && typeof s.position.lat === "number" && typeof s.position.lon === "number")
-      .filter(s => s.prix && typeof s.prix[FUEL] === "number" && s.prix[FUEL] > 0)
+      .filter(s => s.code_postal && DEPS.includes(String(s.code_postal).substring(0,2)))
+      .filter(s => typeof s.latitude === "number" && typeof s.longitude === "number")
+      .filter(s => typeof s.prix_e10 === "number" && s.prix_e10 > 0) // E10
       .map(s => {
-        const prix = s.prix[FUEL];
-        const dist = haversine(REF_LAT, REF_LON, s.position.lat, s.position.lon);
-        const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
+        const prix = s.prix_e10;
+        const dist = haversine(REF_LAT, REF_LON, s.latitude, s.longitude);
+        const coutTotal = prix * VOLUME + (2*dist/100)*CONSO*prix;
         return {
           station: s.nom || "",
           adresse: s.adresse || "",
-          cp: s.cp || "",
+          cp: s.code_postal || "",
           ville: s.ville || "",
-          prix,
-          distance: dist,
-          coutTotal
+          prix, distance: dist, coutTotal
         };
       })
-      .sort((a,b) => a.coutTotal - b.coutTotal);
+      .sort((a,b)=> a.coutTotal - b.coutTotal);
 
     afficher(rows);
   } catch (e) {
+    const status = document.getElementById('status');
     status.className = "error";
-    status.textContent = "❌ Erreur lors du chargement des données : " + (e && e.message ? e.message : e);
+    status.textContent = "❌ Erreur lors du chargement des données : " + (e?.message || e);
     console.error(e);
   }
 }
@@ -96,9 +81,8 @@ function afficher(rows) {
   const status = document.getElementById('status');
   const table = document.getElementById('table');
   const tbody = table.querySelector("tbody");
-
   tbody.innerHTML = "";
-  rows.forEach((r, i) => {
+  rows.forEach((r,i)=>{
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${i+1}</td>
@@ -111,13 +95,11 @@ function afficher(rows) {
       <td>${r.coutTotal.toFixed(2)}</td>`;
     tbody.appendChild(tr);
   });
-
   status.style.display = "none";
   table.style.display = "table";
 }
 
 charger();
 </script>
-
 </body>
 </html>
