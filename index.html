@@ -20,8 +20,15 @@
 <table id="table" style="display:none;">
   <thead>
     <tr>
-      <th>Rang</th><th>Station</th><th>Adresse</th><th>CP</th>
-      <th>Ville</th><th>Prix (€/L)</th><th>Distance (km)</th><th>Coût total (€)</th>
+      <th>Rang</th>
+      <th>Station</th>
+      <th>Adresse</th>
+      <th>CP</th>
+      <th>Ville</th>
+      <th>Prix (€/L)</th>
+      <th>Distance (km)</th>
+      <th>Coût total (€)</th>
+      <th>Prix pondéré (€/L)</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -34,53 +41,61 @@ async function charger() {
     const res = await fetch("stations.json", { cache: "no-cache" });
     const rows = await res.json();
 
-    // Tri par coût recalculé (sécurité)
-    const CONSO = 10;   // L/100 km
-    const VOLUME = 50;  // L
+    // Paramètres de pondération
+    const CONSO  = 10;   // L/100 km
+    const VOLUME = 50;   // L
 
-    // On mappe d'abord en recalculant prix (€/L) et coût
+    // Préparation : on corrige le prix si besoin, on recalcule prix total et pondéré
     const enriched = rows.map(r => {
-      // 1) Prix : si <0.1, c'est probablement du milli-euros -> x1000
-      const pRaw  = typeof r.prix === "number" ? r.prix : Number(r.prix);
-      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw * 1000 : pRaw) : 0;
+      // 1) Prix (€/L) : si <0.1, on considère milli-euros -> x1000 ; sinon on garde
+      const pRaw     = typeof r.prix === "number" ? r.prix : Number(r.prix);
+      const prixEur  = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw * 1000 : pRaw) : 0;
 
       // 2) Distance (km)
-      const dist = typeof r.distance === "number" ? r.distance : Number(r.distance);
+      const dist     = typeof r.distance === "number" ? r.distance : Number(r.distance);
+      const distKm   = Number.isFinite(dist) ? dist : 0;
 
-      // 3) Coût total (€/plein) = prix × volume + (2×dist/100)×conso×prix
-      const cout = (prixEur * VOLUME) + ((2 * (Number.isFinite(dist) ? dist : 0) / 100) * CONSO * prixEur);
+      // 3) Coûts
+      const coutTotal = (prixEur * VOLUME) + ((2 * distKm / 100) * CONSO * prixEur);
+      const prixPondere = coutTotal / VOLUME;
+
+      // 4) Colonnes d'affichage
+      const stationName = ""; // Station en blanc, comme souhaité
+      const adresseAff  = (typeof r.station === "string") ? r.station.trim() : (r.station ?? "");
+      const cpAff       = r.cp ?? "";
+      const villeAff    = r.ville ?? "";
 
       return {
-        station: (typeof r.station === "string") ? r.station.trim() : (r.station ?? ""),
-        cp: r.cp ?? "",
-        ville: r.ville ?? "",
+        stationName,
+        adresseAff,
+        cpAff,
+        villeAff,
         prixEur,
-        dist,
-        cout
+        distKm,
+        coutTotal,
+        prixPondere
       };
     });
 
-    enriched.sort((a,b) => a.cout - b.cout);
+    // Tri par prix pondéré (du meilleur au moins bon)
+    enriched.sort((a,b) => a.prixPondere - b.prixPondere);
 
+    // Injection dans le tableau
     const tbody = document.querySelector("#table tbody");
     tbody.innerHTML = "";
 
     enriched.forEach((r, i) => {
-      // Colonne Station voulue blanche
-      const stationName = ""; 
-      // Colonne Adresse = contenu de r.station (ton besoin)
-      const adresseAff  = r.station;
-
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td>${i+1}</td>
-        <td>${stationName}</td>                   <!-- Station : blanc -->
-        <td>${adresseAff}</td>                   <!-- Adresse : ex-"station" -->
-        <td>${r.cp}</td>
-        <td>${r.ville}</td>
-        <td>${r.prixEur.toFixed(3)}</td>         <!-- Prix : 1 entier + 3 décimales -->
-        <td>${(Number.isFinite(r.dist)?r.dist:0).toFixed(2)}</td>
-        <td>${r.cout.toFixed(2)}</td>            <!-- Coût recalculé -->
+        <td>${r.stationName}</td>                         <!-- Station : blanc -->
+        <td>${r.adresseAff}</td>                          <!-- Adresse -->
+        <td>${r.cpAff}</td>
+        <td>${r.villeAff}</td>
+        <td>${r.prixEur.toFixed(3)}</td>                  <!-- 1 entier + 3 décimales -->
+        <td>${r.distKm.toFixed(2)}</td>
+        <td>${r.coutTotal.toFixed(2)}</td>                <!-- Prix total (€) -->
+        <td>${r.prixPondere.toFixed(3)}</td>              <!-- Prix pondéré (€/L) -->
       `;
       tbody.appendChild(tr);
     });
