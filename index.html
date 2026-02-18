@@ -6,120 +6,103 @@
 
 <style>
 body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
-h1 { color: #333; }
-table { border-collapse: collapse; width: 100%; margin-top: 20px; background: white; }
+table { border-collapse: collapse; width: 100%; background: white; margin-top: 20px; }
 th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
 th { background: #eee; cursor: pointer; }
-.loading { font-size: 20px; color: #666; }
+.loading { font-size: 18px; }
 </style>
-
 </head>
 <body>
 
-<h1>⛽ Classement pondéré des stations autour de Nanterre</h1>
-<p>Carburant : <b>E10</b> – Volume : <b>50 L</b> – Conso : <b>10 L/100 km</b></p>
+<h1>⛽ Classement des stations pondéré (E10) depuis Nanterre</h1>
+<div id="loading" class="loading">⏳ Chargement…</div>
 
-<div id="loading" class="loading">⏳ Chargement en cours…</div>
-
-<table id="resultTable" style="display:none;">
-    <thead>
-        <tr>
-            <th>Rang</th>
-            <th>Station</th>
-            <th>Adresse</th>
-            <th>CP</th>
-            <th>Ville</th>
-            <th>Prix (€/L)</th>
-            <th>Distance (km)</th>
-            <th>Coût total (€)</th>
-        </tr>
-    </thead>
-    <tbody></tbody>
+<table id="table" style="display:none;">
+<thead>
+<tr>
+<th>Rang</th><th>Station</th><th>Adresse</th><th>CP</th>
+<th>Ville</th><th>Prix (€/L)</th><th>Distance (km)</th><th>Coût total (€)</th>
+</tr>
+</thead>
+<tbody></tbody>
 </table>
 
 <script>
 const REF_LAT = 48.8925;
 const REF_LON = 2.2060;
 const DEPS = ["78","91","92","93","95"];
-const CONSO = 10;
-const VOLUME = 50;
-const FUEL = "prix_e10";
+const CONSO = 10;  // L/100 km
+const VOLUME = 50; // L
+const FUEL = "E10";
 
-// Fonction distance
 function haversine(lat1, lon1, lat2, lon2) {
-    const R = 6371;
-    const dLat = (lat2-lat1)*Math.PI/180;
-    const dLon = (lon2-lon1)*Math.PI/180;
-    const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
-    return 2 * R * Math.asin(Math.sqrt(a));
+    const R=6371;
+    const dLat=(lat2-lat1)*Math.PI/180;
+    const dLon=(lon2-lon1)*Math.PI/180;
+    const a=Math.sin(dLat/2)**2 +
+            Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*
+            Math.sin(dLon/2)**2;
+    return 2*R*Math.asin(Math.sqrt(a));
 }
 
-// Proxy CORS
-function proxy(url) {
-    return "https://prixcarb-proxy.onrender.com/?url=" + encodeURIComponent(url);
-}
-
-async function chargerStations() {
-    const apiURL = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/"
-    + "prix-des-carburants-en-france-flux-instantane-v2/records?limit=20000";
-
+async function charger() {
     try {
-        const res = await fetch(proxy(apiURL));
-        const data = await res.json();
+        const res = await fetch("https://api.prix-carburants.2aaz.fr/opendata/stations");
+        const stations = await res.json();
 
-        const rows = data.results
-            .filter(s => s.code_postal && DEPS.includes(String(s.code_postal).substring(0,2)))
-            .filter(s => s.latitude && s.longitude)
-            .filter(s => s[FUEL] && Number(s[FUEL]) > 0)
+        const rows = stations
+            .filter(s => s.cp && DEPS.includes(String(s.cp).substring(0,2)))
+            .filter(s => s.position && s.position.lat && s.position.lon)
+            .filter(s => s.prix && s.prix[FUEL])
             .map(s => {
-                const prix = parseFloat(s[FUEL]);
-                const dist = haversine(REF_LAT, REF_LON, s.latitude, s.longitude);
+                const prix = s.prix[FUEL];
+                const dist = haversine(REF_LAT, REF_LON, s.position.lat, s.position.lon);
                 const coutTotal = prix * VOLUME + (2*dist/100)*CONSO*prix;
 
                 return {
                     station: s.nom,
                     adresse: s.adresse,
-                    cp: s.code_postal,
+                    cp: s.cp,
                     ville: s.ville,
-                    prix: prix,
+                    prix,
                     distance: dist,
-                    coutTotal: coutTotal
+                    coutTotal
                 };
             })
-            .sort((a,b) => a.coutTotal - b.coutTotal);
+            .sort((a,b)=>a.coutTotal - b.coutTotal);
 
-        afficherTable(rows);
+        afficher(rows);
 
-    } catch (e) {
-        document.getElementById("loading").innerHTML = "❌ Erreur lors du chargement des données via proxy";
+    } catch(e) {
+        document.getElementById("loading").innerText = "❌ Erreur lors du chargement des données";
         console.error(e);
     }
 }
 
-function afficherTable(rows) {
-    const tbody = document.querySelector("#resultTable tbody");
+function afficher(rows) {
+    const tbody = document.querySelector("#table tbody");
     tbody.innerHTML = "";
 
-    rows.forEach((row, index) => {
+    rows.forEach((r, i) => {
         const tr = document.createElement("tr");
         tr.innerHTML = `
-            <td>${index+1}</td>
-            <td>${row.station}</td>
-            <td>${row.adresse}</td>
-            <td>${row.cp}</td>
-            <td>${row.ville}</td>
-            <td>${row.prix.toFixed(3)}</td>
-            <td>${row.distance.toFixed(2)}</td>
-            <td>${row.coutTotal.toFixed(2)}</td>
+            <td>${i+1}</td>
+            <td>${r.station}</td>
+            <td>${r.adresse}</td>
+            <td>${r.cp}</td>
+            <td>${r.ville}</td>
+            <td>${r.prix.toFixed(3)}</td>
+            <td>${r.distance.toFixed(2)}</td>
+            <td>${r.coutTotal.toFixed(2)}</td>
         `;
         tbody.appendChild(tr);
     });
 
     document.getElementById("loading").style.display = "none";
-    document.getElementById("resultTable").style.display = "table";
+    document.getElementById("table").style.display = "table";
 }
 
-chargerStations();
+charger();
 </script>
 
 </body>
