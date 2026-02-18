@@ -1,0 +1,106 @@
+name: Générer stations.json manuellement
+
+on:
+  workflow_dispatch:   # Lancement manuel uniquement
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # --- 1) Récupère le repo ---
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # --- 2) Installer Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # --- 3) Télécharger le fichier officiel ---
+      - name: Download carburant data (XML in ZIP)
+        run: |
+          curl -L -o data.zip "https://donnees.roulez-eco.fr/opendata/instantane" 
+
+      # --- 4) Extraire XML ---
+      - name: Extract XML
+        run: unzip data.zip
+
+      # À ce stade, un fichier du type PrixCarburants_instantane.xml existe
+
+      # --- 5) Créer le script python de conversion ---
+      - name: Create convert.py
+        run: |
+          cat > convert.py << 'EOF'
+import xml.etree.ElementTree as ET
+import math
+import json
+
+DEPS = {"78","91","92","93","95"}
+REF_LAT, REF_LON = 48.8925, 2.2060
+CONSO = 10
+VOLUME = 50
+FUEL_TAG = "E10"
+
+def haversine(lat1, lon1, lat2, lon2):
+    R=6371
+    dlat = math.radians(lat2-lat1)
+    dlon = math.radians(lon2-lon1)
+    a = math.sin(dlat/2)**2 + math.cos(math.radians(lat1))*math.cos(math.radians(lat2))*math.sin(dlon/2)**2
+    return 2*R*math.asin(math.sqrt(a))
+
+xml_file = "PrixCarburants_instantane.xml"
+tree = ET.parse(xml_file)
+root = tree.getroot()
+
+out = []
+for pdv in root.findall("pdv"):
+    cp = pdv.get("cp")
+    if not cp or cp[:2] not in DEPS:
+        continue
+
+    lat = float(pdv.get("latitude"))/100000
+    lon = float(pdv.get("longitude"))/100000
+
+    prix_elem = None
+    for p in pdv.findall("prix"):
+        if p.get("nom") == FUEL_TAG:
+            prix_elem = p
+            break
+    if prix_elem is None:
+        continue
+
+    prix = float(prix_elem.get("valeur"))/1000
+    dist = haversine(REF_LAT, REF_LON, lat, lon)
+    cout = prix * VOLUME + (2*dist/100)*CONSO*prix
+
+    out.append({
+        "station": pdv.findtext("adresse") or "",
+        "ville": pdv.findtext("ville") or "",
+        "cp": cp,
+        "prix": prix,
+        "distance": dist,
+        "coutTotal": cout
+    })
+
+with open("stations.json", "w", encoding="utf-8") as f:
+    json.dump(out, f, ensure_ascii=False, indent=2)
+
+print("OK : stations.json généré !")
+EOF
+
+      # --- 6) Exécuter la conversion ---
+      - name: Run convert.py
+        run: python3 convert.py
+
+      # --- 7) Commit + push automatiquement ---
+      - name: Commit and push stations.json
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add stations.json
+          git commit -m "Mise à jour manuelle stations.json"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
