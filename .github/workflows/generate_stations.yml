@@ -1,106 +1,124 @@
 name: Générer stations.json manuellement
 
 on:
-  workflow_dispatch:   # Lancement manuel uniquement
+  # Exécution uniquement à la demande (bouton "Run workflow")
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # --- 1) Récupère le repo ---
+      # 1) Récupérer le dépôt
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # --- 2) Installer Python ---
+      # 2) Installer Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # --- 3) Télécharger le fichier officiel ---
+      # 3) Télécharger les données officielles (ZIP flux instantané)
+      #    Source open data gouvernementale (DGCCRF) : donnnees.roulez-eco.fr/opendata/instantane
       - name: Download carburant data (XML in ZIP)
         run: |
-          curl -L -o data.zip "https://donnees.roulez-eco.fr/opendata/instantane" 
+          set -e
+          curl -L -o data.zip "https://donnees.roulez-eco.fr/opendata/instantane"
 
-      # --- 4) Extraire XML ---
+      # 4) Extraire le XML (généralement PrixCarburants_instantane.xml)
       - name: Extract XML
-        run: unzip data.zip
+        run: |
+          set -e
+          unzip -o data.zip
+          ls -l
 
-      # À ce stade, un fichier du type PrixCarburants_instantane.xml existe
-
-      # --- 5) Créer le script python de conversion ---
+      # 5) Générer le script de conversion (XML -> JSON filtré + calculs)
       - name: Create convert.py
         run: |
+          set -e
           cat > convert.py << 'EOF'
-import xml.etree.ElementTree as ET
-import math
-import json
+          import xml.etree.ElementTree as ET
+          import math
+          import json
 
-DEPS = {"78","91","92","93","95"}
-REF_LAT, REF_LON = 48.8925, 2.2060
-CONSO = 10
-VOLUME = 50
-FUEL_TAG = "E10"
+          # --- Paramètres ---
+          DEPS = {"78","91","92","93","95"}   # départements à conserver
+          REF_LAT, REF_LON = 48.8925, 2.2060  # Nanterre (approx.)
+          CONSO = 10                          # L/100 km
+          VOLUME = 50                         # L
+          FUEL_TAG = "E10"                    # carburant ciblé (E10)
 
-def haversine(lat1, lon1, lat2, lon2):
-    R=6371
-    dlat = math.radians(lat2-lat1)
-    dlon = math.radians(lon2-lon1)
-    a = math.sin(dlat/2)**2 + math.cos(math.radians(lat1))*math.cos(math.radians(lat2))*math.sin(dlon/2)**2
-    return 2*R*math.asin(math.sqrt(a))
+          def haversine(lat1, lon1, lat2, lon2):
+              R = 6371
+              dlat = math.radians(lat2 - lat1)
+              dlon = math.radians(lon2 - lon1)
+              a = (math.sin(dlat/2)**2 +
+                   math.cos(math.radians(lat1)) *
+                   math.cos(math.radians(lat2)) *
+                   math.sin(dlon/2)**2)
+              return 2 * R * math.asin(math.sqrt(a))
 
-xml_file = "PrixCarburants_instantane.xml"
-tree = ET.parse(xml_file)
-root = tree.getroot()
+          # Le ZIP officiel contient un XML de type "PrixCarburants_instantane.xml"
+          xml_file = "PrixCarburants_instantane.xml"
+          tree = ET.parse(xml_file)
+          root = tree.getroot()
 
-out = []
-for pdv in root.findall("pdv"):
-    cp = pdv.get("cp")
-    if not cp or cp[:2] not in DEPS:
-        continue
+          stations_out = []
 
-    lat = float(pdv.get("latitude"))/100000
-    lon = float(pdv.get("longitude"))/100000
+          for pdv in root.findall("pdv"):
+              cp = pdv.get("cp")
+              if not cp or cp[:2] not in DEPS:
+                  continue
 
-    prix_elem = None
-    for p in pdv.findall("prix"):
-        if p.get("nom") == FUEL_TAG:
-            prix_elem = p
-            break
-    if prix_elem is None:
-        continue
+              # Coordonnées WGS84 *100000 dans le flux officiel → on divise par 100000
+              lat = float(pdv.get("latitude"))/100000
+              lon = float(pdv.get("longitude"))/100000
 
-    prix = float(prix_elem.get("valeur"))/1000
-    dist = haversine(REF_LAT, REF_LON, lat, lon)
-    cout = prix * VOLUME + (2*dist/100)*CONSO*prix
+              # Trouver le prix du carburant ciblé
+              prix_elem = None
+              for p in pdv.findall("prix"):
+                  if p.get("nom") == FUEL_TAG:
+                      prix_elem = p
+                      break
+              if prix_elem is None:
+                  continue
 
-    out.append({
-        "station": pdv.findtext("adresse") or "",
-        "ville": pdv.findtext("ville") or "",
-        "cp": cp,
-        "prix": prix,
-        "distance": dist,
-        "coutTotal": cout
-    })
+              # Les valeurs sont en milli-euros/L → on convertit en €/L
+              prix = float(prix_elem.get("valeur"))/1000
 
-with open("stations.json", "w", encoding="utf-8") as f:
-    json.dump(out, f, ensure_ascii=False, indent=2)
+              dist = haversine(REF_LAT, REF_LON, lat, lon)
+              cout_total = prix * VOLUME + (2*dist/100)*CONSO*prix
 
-print("OK : stations.json généré !")
-EOF
+              stations_out.append({
+                  "station": pdv.findtext("adresse") or "",
+                  "ville": pdv.findtext("ville") or "",
+                  "cp": cp,
+                  "prix": prix,
+                  "distance": dist,
+                  "coutTotal": cout_total
+              })
 
-      # --- 6) Exécuter la conversion ---
+          with open("stations.json", "w", encoding="utf-8") as f:
+              json.dump(stations_out, f, ensure_ascii=False, indent=2)
+
+          print("OK : stations.json généré.")
+          EOF
+
+      # 6) Exécuter la conversion
       - name: Run convert.py
-        run: python3 convert.py
+        run: |
+          set -e
+          python3 convert.py
+          test -f stations.json && echo "stations.json présent"
 
-      # --- 7) Commit + push automatiquement ---
+      # 7) Commit + push du fichier JSON
       - name: Commit and push stations.json
         run: |
+          set -e
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add stations.json
-          git commit -m "Mise à jour manuelle stations.json"
+          # Évite une erreur si rien n'a changé
+          git diff --cached --quiet || git commit -m "Mise à jour manuelle stations.json"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
