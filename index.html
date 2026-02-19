@@ -10,6 +10,12 @@
   th { background: #eee; }
   .loading { font-size: 18px; color: #555; }
   .error { color: #b00020; font-weight: bold; white-space: pre-wrap; }
+
+  // style petites fleches pour le tri 
+  th.sortable-header { cursor: pointer; user-select: none; }
+  th.sort-asc::after  { content: " ▲"; font-size: 0.9em; color: #666; }
+  th.sort-desc::after { content: " ▼"; font-size: 0.9em; color: #666; }
+
 </style>
 </head>
 <body>
@@ -17,7 +23,7 @@
 <h1>⛽ Classement des stations pondéré (E10) – Nanterre</h1>
 <div id="status" class="loading">⏳ Chargement…</div>
 
-<table id="table" style="display:none;">
+<table id="table" class="sortable" style="display:none;">
   <thead>
     <tr>
       <th>Rang</th>
@@ -38,77 +44,175 @@
 async function charger() {
   const status = document.getElementById("status");
   try {
-    const res = await fetch("stations.json", { cache: "no-cache" });
+    const res  = await fetch("stations.json", { cache: "no-cache" });
     const rows = await res.json();
 
-    // Paramètres de pondération
-    const CONSO  = 10;   // L/100 km
-    const VOLUME = 50;   // L
+    // Paramètres
+    const CONSO  = 10;
+    const VOLUME = 50;
 
-    // Préparation : on corrige le prix si besoin, on recalcule prix total et pondéré
-    const enriched = rows.map(r => {
-      // 1) Prix (€/L) : si <0.1, on considère milli-euros -> x1000 ; sinon on garde
-      const pRaw     = typeof r.prix === "number" ? r.prix : Number(r.prix);
-      const prixEur  = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw * 1000 : pRaw) : 0;
+    // Préparer données enrichies
+    const data = rows.map(r => {
+      const pRaw    = typeof r.prix === "number" ? r.prix : Number(r.prix);
+      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw * 1000 : pRaw) : 0;
 
-      // 2) Distance (km)
-      const dist     = typeof r.distance === "number" ? r.distance : Number(r.distance);
-      const distKm   = Number.isFinite(dist) ? dist : 0;
+      const dRaw    = typeof r.distance === "number" ? r.distance : Number(r.distance);
+      const distKm  = Number.isFinite(dRaw) ? dRaw : 0;
 
-      // 3) Coûts
-      const coutTotal = (prixEur * VOLUME) + ((2 * distKm / 100) * CONSO * prixEur);
+      const coutTotal   = prixEur * VOLUME + ((2 * distKm / 100) * CONSO * prixEur);
       const prixPondere = coutTotal / VOLUME;
 
-      // 4) Colonnes d'affichage
-      const stationName = ""; // Station en blanc, comme souhaité
-      const adresseAff  = (typeof r.station === "string") ? r.station.trim() : (r.station ?? "");
-      const cpAff       = r.cp ?? "";
-      const villeAff    = r.ville ?? "";
-
       return {
-        stationName,
-        adresseAff,
-        cpAff,
-        villeAff,
-        prixEur,
-        distKm,
-        coutTotal,
+        station: "",        // blanc comme tu veux
+        adresse: (typeof r.station === "string") ? r.station.trim() : "",
+        cp: r.cp ?? "",
+        ville: r.ville ?? "",
+        prix: prixEur,
+        distance: distKm,
+        prixTotal: coutTotal,
         prixPondere
       };
     });
 
-    // Tri par prix pondéré (du meilleur au moins bon)
-    enriched.sort((a,b) => a.prixPondere - b.prixPondere);
+    // Charger config tri mémorisée
+    let triCol = localStorage.getItem("triCol") ?? "prixPondere";
+    let triDir = localStorage.getItem("triDir") ?? "asc";
 
-    // Injection dans le tableau
-    const tbody = document.querySelector("#table tbody");
-    tbody.innerHTML = "";
+    // Appliquer tri au chargement
+    trierData(data, triCol, triDir);
 
-    enriched.forEach((r, i) => {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td>${i+1}</td>
-        <td>${r.stationName}</td>                         <!-- Station : blanc -->
-        <td>${r.adresseAff}</td>                          <!-- Adresse -->
-        <td>${r.cpAff}</td>
-        <td>${r.villeAff}</td>
-        <td>${r.prixEur.toFixed(3)}</td>                  <!-- 1 entier + 3 décimales -->
-        <td>${r.distKm.toFixed(2)}</td>
-        <td>${r.coutTotal.toFixed(2)}</td>                <!-- Prix total (€) -->
-        <td>${r.prixPondere.toFixed(3)}</td>              <!-- Prix pondéré (€/L) -->
-      `;
-      tbody.appendChild(tr);
-    });
+    // Affichage
+    const table = document.getElementById("table");
+    const tbody = table.querySelector("tbody");
+    remplirTableau(data, tbody);
+
+    // Activer tri
+    setupTri(table, data);
 
     status.style.display = "none";
-    document.getElementById("table").style.display = "table";
+    table.style.display  = "table";
+
   } catch (e) {
     document.getElementById("status").textContent =
       "❌ Erreur lors du chargement : " + (e.message || e);
     console.error(e);
   }
 }
-charger();
+
+
+// ----------------------------
+//   CONSTRUCTION D’UNE LIGNE
+// ----------------------------
+function buildRow(r, index) {
+  const tr = document.createElement("tr");
+  tr.innerHTML = `
+    <td>${index+1}</td>
+    <td>${r.station}</td>
+    <td>${r.adresse}</td>
+    <td>${r.cp}</td>
+    <td>${r.ville}</td>
+    <td>${r.prix.toFixed(3)}</td>
+    <td>${r.distance.toFixed(2)}</td>
+    <td>${r.prixTotal.toFixed(2)}</td>
+    <td>${r.prixPondere.toFixed(3)}</td>
+  `;
+  return tr;
+}
+
+function remplirTableau(data, tbody) {
+  tbody.innerHTML = "";
+  data.forEach((r, i) => tbody.appendChild(buildRow(r, i)));
+}
+
+
+// -----------------------------------------
+//   ALGORITHME DE TRI MULTI-CRITERES
+// -----------------------------------------
+function trierData(data, col, dir) {
+
+  data.sort((a, b) => {
+
+    const cmp = compare(a[col], b[col], dir);
+
+    if (cmp !== 0) return cmp;
+
+    // 2) Distance
+    const cmp2 = compare(a.distance, b.distance, "asc");
+    if (cmp2 !== 0) return cmp2;
+
+    // 3) Prix simple
+    const cmp3 = compare(a.prix, b.prix, "asc");
+    if (cmp3 !== 0) return cmp3;
+
+    return 0;
+  });
+}
+
+
+// -----------------------------------------
+//    COMPARATEUR DE BASE
+// -----------------------------------------
+function compare(a, b, dir) {
+  const na = Number(a);
+  const nb = Number(b);
+  const res = na - nb;
+  return dir === "asc" ? res : -res;
+}
+
+
+// -----------------------------------------
+//   ACTIVATION DU TRI SUR 3 COLONNES
+// -----------------------------------------
+function setupTri(table, data) {
+
+  // Colonnes utilisables : Prix, Distance, Prix total, Prix pondéré
+  // Indices : 5, 6, 7, 8
+  const COLMAP = {
+    5: "prix",
+    6: "distance",
+    7: "prixTotal",
+    8: "prixPondere"
+  };
+
+  const headers = table.querySelectorAll("th");
+  const tbody   = table.querySelector("tbody");
+
+  headers.forEach((th, idx) => {
+
+    if (!(idx in COLMAP)) return; // ignorer autres colonnes
+
+    th.classList.add("sortable-header");
+
+    th.addEventListener("click", () => {
+
+      const col = COLMAP[idx];
+
+      // Charger ancienne direction
+      let dir = localStorage.getItem("triDir");
+      let lastCol = localStorage.getItem("triCol");
+
+      // Alterner si même colonne
+      if (lastCol === col) {
+        dir = dir === "asc" ? "desc" : "asc";
+      } else {
+        dir = "asc";
+      }
+
+      // Stocker
+      localStorage.setItem("triCol", col);
+      localStorage.setItem("triDir", dir);
+
+      // Appliquer
+      trierData(data, col, dir);
+      remplirTableau(data, tbody);
+
+      // Mettre à jour les flèches
+      headers.forEach(h => h.classList.remove("sort-asc", "sort-desc"));
+      th.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
+    });
+  });
+
+}
 </script>
 </body>
 </html>
