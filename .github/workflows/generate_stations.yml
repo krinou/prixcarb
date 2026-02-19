@@ -43,72 +43,98 @@ jobs:
           set -e
           cat > convert.py << 'EOF'
           import xml.etree.ElementTree as ET
-          import math
-          import json
+          import math, json, requests
+          
+          # ---------------------
+          # PARAMÈTRES
+          # ---------------------
+          DEPS = {"78","91","92","93","95"}
+          REF_LAT, REF_LON = 48.8925, 2.2060
+          CONSO  = 10
+          VOLUME = 50
+          FUEL   = "E10"
+          
+          # ---------------------
+          # 1) CHARGER XML LOCAL
+          # ---------------------
+          xml_file = "PrixCarburants_instantane.xml"
+          xml_tree = ET.parse(xml_file)
+          xml_root = xml_tree.getroot()
 
-          # --- Paramètres ---
-          DEPS = {"78","91","92","93","95"}   # départements à conserver
-          REF_LAT, REF_LON = 48.8925, 2.2060  # Nanterre (approx.)
-          CONSO = 10                          # L/100 km
-          VOLUME = 50                         # L
-          FUEL_TAG = "E10"                    # carburant ciblé (E10)
+          # ---------------------
+          # 2) CHARGER JSON V2.1 (avec enseignes)
+          # ---------------------
+          url_json = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?limit=20000"
+          j = requests.get(url_json).json()
+          records = j.get("results", [])
 
-          def haversine(lat1, lon1, lat2, lon2):
-              R = 6371
-              dlat = math.radians(lat2 - lat1)
-              dlon = math.radians(lon2 - lon1)
-              a = (math.sin(dlat/2)**2 +
-                   math.cos(math.radians(lat1)) *
-                   math.cos(math.radians(lat2)) *
-                   math.sin(dlon/2)**2)
-              return 2 * R * math.asin(math.sqrt(a))
+          # construire un mapping id -> enseigne
+          brand_map = {}
+          for r in records:
+              sid = str(r.get("id"))
+              brand = r.get("brand") or ""
+              brand_map[sid] = brand.strip()
 
-          xml_file = "PrixCarburants_instantane.xml"  # présent dans le ZIP officiel
-          tree = ET.parse(xml_file)
-          root = tree.getroot()
+          # ---------------------
+          # 3) FUSION XML + JSON
+          # ---------------------
+          def haversine(a,b,x,y):
+              R=6371
+              dlat=math.radians(x-a)
+              dlon=math.radians(y-b)
+              v=math.sin(dlat/2)**2 + math.cos(math.radians(a))*math.cos(math.radians(x))*math.sin(dlon/2)**2
+              return 2*R*math.asin(math.sqrt(v))
 
-          stations_out = []
-
-          for pdv in root.findall("pdv"):
+          out=[]
+          for pdv in xml_root.findall("pdv"):
               cp = pdv.get("cp")
               if not cp or cp[:2] not in DEPS:
                   continue
 
-              # Coordonnées WGS84 *100000 -> diviser par 100000
+              sid = pdv.get("id")
+              enseigne = brand_map.get(sid, "")
+
               lat = float(pdv.get("latitude"))/100000
               lon = float(pdv.get("longitude"))/100000
 
-              # Prix carburant ciblé
-              prix_elem = None
+              # prix carburant
+              prix_val = None
               for p in pdv.findall("prix"):
-                  if p.get("nom") == FUEL_TAG:
-                      prix_elem = p
+                  if p.get("nom") == FUEL:
+                      raw = p.get("valeur")
+                      try:
+                          val = float(raw.replace(",",".")) if "," in raw else float(raw)
+                          prix_val = val/1000 if val>10 else val
+                      except:
+                          prix_val = None
                       break
-              if prix_elem is None:
+              if prix_val is None:
                   continue
 
-              # milli-euros/L -> €/L
-              prix = float(prix_elem.get("valeur"))/1000
+              dist = haversine(REF_LAT,REF_LON,lat,lon)
+              cout_total = prix_val*VOLUME + (2*dist/100)*CONSO*prix_val
 
-              dist = haversine(REF_LAT, REF_LON, lat, lon)
-              cout_total = prix * VOLUME + (2*dist/100)*CONSO*prix
+              adresse = (pdv.findtext("adresse") or "").strip()
+              ville   = (pdv.findtext("ville") or "").strip()
 
-              # Pour l'affichage, on va chercher adresse/ville si elles existent
-              stations_out.append({
-                  "station": pdv.findtext("adresse") or "",
-                  "ville": pdv.findtext("ville") or "",
-                  "cp": cp,
-                  "prix": prix,
+              out.append({
+                  "enseigne": enseigne,
+                  "station" : "",              # reste blanc si pas de nom vrai
+                  "adresse" : adresse,
+                  "cp"      : cp,
+                  "ville"   : ville,
+                  "prix"    : prix_val,
                   "distance": dist,
-                  "coutTotal": cout_total
+                  "prixTotal": cout_total,
+                  "prixPondere": cout_total/VOLUME
               })
 
-          with open("stations.json", "w", encoding="utf-8") as f:
-              json.dump(stations_out, f, ensure_ascii=False, indent=2)
+          with open("stations.json","w",encoding="utf-8") as f:
+              json.dump(out,f,ensure_ascii=False,indent=2)
 
-          print("OK : stations.json généré.")
+          print("OK : stations.json enrichi avec enseignes.")
           EOF
-
+          
       # 6) Exécuter la conversion
       - name: Run convert.py
         run: |
