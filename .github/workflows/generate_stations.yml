@@ -1,15 +1,14 @@
 name: Générer stations.json manuellement
 
 on:
-  workflow_dispatch:  # lancement manuel
+  workflow_dispatch:
 
 permissions:
-  contents: write     # autorise le push sur le repo
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       # 1) Récupérer le dépôt
       - name: Checkout repository
@@ -23,14 +22,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      # 2.1) installer requests
+      # 2.1) Installer requests
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      # 3) Télécharger les données officielles (ZIP "flux instantané")
-      #    Réf. open data : https://www.prix-carburants.gouv.fr/rubrique/opendata/
+      # 3) Télécharger le flux instantané (ZIP)
+      # Réf. ancienne page open data : https://www.prix-carburants.gouv.fr/rubrique/opendata/
       - name: Download carburant data (XML in ZIP)
         run: |
           set -e
@@ -43,104 +42,14 @@ jobs:
           unzip -o data.zip
           ls -l
 
-      # 5) Script de conversion XML -> JSON filtré + calculs
+      # 5) Script de conversion (avec 2aaz pour les enseignes)
       - name: Create convert.py
         run: |
           set -e
           cat > convert.py << 'EOF'
-          import xml.etree.ElementTree as ET
-          import math, json, requests
-          
-          # ---------------------
-          # PARAMÈTRES
-          # ---------------------
-          DEPS = {"78","91","92","93","95"}
-          REF_LAT, REF_LON = 48.8925, 2.2060
-          CONSO  = 10
-          VOLUME = 50
-          FUEL   = "E10"
-          
-          # ---------------------
-          # 1) CHARGER XML LOCAL
-          # ---------------------
-          xml_file = "PrixCarburants_instantane.xml"
-          xml_tree = ET.parse(xml_file)
-          xml_root = xml_tree.getroot()
-
-          # ---------------------
-          # 2) CHARGER JSON V2.1 (avec enseignes)
-          # ---------------------
-          url_json = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?limit=20000"
-          j = requests.get(url_json).json()
-          records = j.get("results", [])
-
-          # construire un mapping id -> enseigne
-          brand_map = {}
-          for r in records:
-              sid = str(r.get("id"))
-              brand = r.get("brand") or ""
-              brand_map[sid] = brand.strip()
-
-          # ---------------------
-          # 3) FUSION XML + JSON
-          # ---------------------
-          def haversine(a,b,x,y):
-              R=6371
-              dlat=math.radians(x-a)
-              dlon=math.radians(y-b)
-              v=math.sin(dlat/2)**2 + math.cos(math.radians(a))*math.cos(math.radians(x))*math.sin(dlon/2)**2
-              return 2*R*math.asin(math.sqrt(v))
-
-          out=[]
-          for pdv in xml_root.findall("pdv"):
-              cp = pdv.get("cp")
-              if not cp or cp[:2] not in DEPS:
-                  continue
-
-              sid = pdv.get("id")
-              enseigne = brand_map.get(sid, "")
-
-              lat = float(pdv.get("latitude"))/100000
-              lon = float(pdv.get("longitude"))/100000
-
-              # prix carburant
-              prix_val = None
-              for p in pdv.findall("prix"):
-                  if p.get("nom") == FUEL:
-                      raw = p.get("valeur")
-                      try:
-                          val = float(raw.replace(",",".")) if "," in raw else float(raw)
-                          prix_val = val/1000 if val>10 else val
-                      except:
-                          prix_val = None
-                      break
-              if prix_val is None:
-                  continue
-
-              dist = haversine(REF_LAT,REF_LON,lat,lon)
-              cout_total = prix_val*VOLUME + (2*dist/100)*CONSO*prix_val
-
-              adresse = (pdv.findtext("adresse") or "").strip()
-              ville   = (pdv.findtext("ville") or "").strip()
-
-              out.append({
-                  "enseigne": enseigne,
-                  "station" : "",              # reste blanc si pas de nom vrai
-                  "adresse" : adresse,
-                  "cp"      : cp,
-                  "ville"   : ville,
-                  "prix"    : prix_val,
-                  "distance": dist,
-                  "prixTotal": cout_total,
-                  "prixPondere": cout_total/VOLUME
-              })
-
-          with open("stations.json","w",encoding="utf-8") as f:
-              json.dump(out,f,ensure_ascii=False,indent=2)
-
-          print("OK : stations.json enrichi avec enseignes.")
+          # (==> COLLer ICI le script Python corrigé fourni plus haut <==)
           EOF
-          
+
       # 6) Exécuter la conversion
       - name: Run convert.py
         run: |
@@ -154,10 +63,10 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stations.json
+          git add stations.json brand_cache.json || true
           if git diff --cached --quiet; then
             echo "Aucun changement à pousser."
           else
-            git commit -m "Mise à jour manuelle stations.json"
+            git commit -m "Mise à jour manuelle stations.json (+ cache enseignes)"
             git push
           fi
