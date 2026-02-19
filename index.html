@@ -2,158 +2,162 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8" />
-<title>Stations – Classement pondéré depuis Nanterre</title>
-<style>
-  body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
-  table { border-collapse: collapse; width: 100%; background: #fff; margin-top: 20px; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-  th { background: #eee; }
-  .loading { font-size: 18px; color: #555; }
-  .error { color: #b00020; font-weight: bold; white-space: pre-wrap; }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stations – Classement carburants</title>
 
-  // style petites fleches pour le tri 
+<!-- Bootstrap 5 (mise en forme professionnelle) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
   th.sortable-header { cursor: pointer; user-select: none; }
   th.sort-asc::after  { content: " ▲"; font-size: 0.9em; color: #666; }
   th.sort-desc::after { content: " ▼"; font-size: 0.9em; color: #666; }
-
 </style>
+
 </head>
-<body>
+<body class="bg-light">
 
-<h1>⛽ Classement des stations pondéré (E10) – Nanterre</h1>
-<div id="status" class="loading">⏳ Chargement…</div>
+<div class="container mt-4 mb-5">
 
-<table id="table" class="sortable" style="display:none;">
-  <thead>
-    <tr>
-      <th>Rang</th>
-      <th>Station</th>
-      <th>Adresse</th>
-      <th>CP</th>
-      <th>Ville</th>
-      <th>Prix (€/L)</th>
-      <th>Distance (km)</th>
-      <th>Coût total (€)</th>
-      <th>Prix pondéré (€/L)</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+  <h1 class="mb-4 text-center">⛽ Classement des stations</h1>
+
+  <div id="status" class="alert alert-info text-center">⏳ Chargement…</div>
+
+  <table id="table" class="table table-striped table-hover table-bordered align-middle" style="display:none;">
+    <thead class="table-dark">
+      <tr>
+        <th>Rang</th>
+        <th>Station</th>
+        <th>Adresse</th>
+        <th>CP</th>
+        <th>Ville</th>
+        <th>Prix (€/L)</th>
+        <th>Distance (km)</th>
+        <th>Prix total (€)</th>
+        <th>Prix pondéré (€/L)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
 
 <script>
+// --------------------------------------------------
+// Chargement JSON + Calculs + Tri + Affichage
+// --------------------------------------------------
+
 async function charger() {
-  const status = document.getElementById("status");      // peut être null
-  const table  = document.getElementById("table");       // peut être null
+  const status = document.getElementById("status");
+  const table  = document.getElementById("table");
 
   try {
-    if (!table) {
-      console.warn("🟡 Pas de #table dans le DOM.");
-      if (status) status.textContent = "❌ Table manquante (#table).";
-      return;
-    }
-
-    const tbody = table.querySelector("tbody");
-    if (!tbody) {
-      console.warn("🟡 Pas de <tbody> dans #table.");
-      if (status) status.textContent = "❌ Corps de tableau manquant.";
-      return;
-    }
-
-    const res = await fetch("stations.json", { cache: "no-cache" });
-    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-
+    const res = await fetch("stations.json", { cache:"no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const rows = await res.json();
-    if (!Array.isArray(rows)) throw new Error("stations.json n'est pas un tableau JSON.");
+    if (!Array.isArray(rows)) throw new Error("JSON invalide");
 
-    // Paramètres
-    const CONSO  = 10;
-    const VOLUME = 50;
+    const CONSO  = 10;   // L/100 km
+    const VOLUME = 50;   // L
 
-    // Préparer données enrichies (et robustifier les valeurs)
-    const data = rows.map((r,i) => {
+    // Convertit les données brutes en données affichables
+    const data = rows.map(r => {
+      // Prix (corriger milli‑euros si <0.1)
       const pRaw    = (typeof r.prix === "number") ? r.prix : Number(r.prix);
-      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw * 1000 : pRaw) : 0;
+      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw*1000 : pRaw) : 0;
 
+      // Distance
       const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
       const distKm  = Number.isFinite(dRaw) ? dRaw : 0;
 
-      const coutTotal   = (prixEur * VOLUME) + ((2 * distKm / 100) * CONSO * prixEur);
+      // Coût total & Prix pondéré
+      const coutTotal   = prixEur*VOLUME + ((2*distKm/100)*CONSO*prixEur);
       const prixPondere = coutTotal / VOLUME;
 
       return {
-        station: "", // blanc, comme souhaité
-        adresse: (typeof r.station === "string") ? r.station.trim() : (r.station ?? ""),
-        cp: r.cp ?? "",
-        ville: r.ville ?? "",
-        prix: prixEur,
-        distance: distKm,
-        prixTotal: coutTotal,
-        prixPondere
+        station    : "",  // vide (comme souhaité)
+        adresse    : (typeof r.station === "string") ? r.station.trim() : "",
+        cp         : r.cp ?? "",
+        ville      : r.ville ?? "",
+        prix       : prixEur,
+        distance   : distKm,
+        prixTotal  : coutTotal,
+        prixPondere: prixPondere
       };
     });
 
-    // Lire tri mémorisé (par défaut: prix pondéré asc)
+    // Charger tri mémorisé
     let triCol = localStorage.getItem("triCol") ?? "prixPondere";
     let triDir = localStorage.getItem("triDir") ?? "asc";
 
-    trierData(data, triCol, triDir);
+    appliquerTri(data, triCol, triDir);
 
-    // Afficher
-    remplirTableau(data, table.querySelector("tbody"));
+    // Afficher lignes
+    const tbody = table.querySelector("tbody");
+    remplirTableau(data, tbody);
 
-    // Activer tri (seulement sur Prix, Distance, Prix pondéré)
-    safeEnableSorting(table, data, triCol, triDir);
+    // Activer tri cliquable
+    activerTri(table, data, triCol, triDir);
 
-    if (status) status.style.display = "none";
-    table.style.display = "table";
+    status.style.display = "none";
+    table.style.display  = "table";
+
   } catch (e) {
+    if (status) status.textContent = "❌ Erreur : " + e.message;
     console.error(e);
-    if (status) {
-      status.textContent = "❌ Erreur : " + (e.message || e);
-      status.style.display = "block";
-    }
   }
 }
 
-// Construit une ligne
-function buildRow(r, i) {
+
+// --------------------------------------------------
+// Construction visuelle d'une ligne <tr>
+// --------------------------------------------------
+
+function buildRow(obj, i) {
   const tr = document.createElement("tr");
   tr.innerHTML = `
     <td>${i+1}</td>
-    <td>${r.station}</td>
-    <td>${r.adresse}</td>
-    <td>${r.cp}</td>
-    <td>${r.ville}</td>
-    <td>${r.prix.toFixed(3)}</td>
-    <td>${r.distance.toFixed(2)}</td>
-    <td>${r.prixTotal.toFixed(2)}</td>
-    <td>${r.prixPondere.toFixed(3)}</td>
+    <td>${obj.station}</td>
+    <td>${obj.adresse}</td>
+    <td>${obj.cp}</td>
+    <td>${obj.ville}</td>
+    <td>${obj.prix.toFixed(3)}</td>
+    <td>${obj.distance.toFixed(2)}</td>
+    <td>${obj.prixTotal.toFixed(2)}</td>
+    <td>${obj.prixPondere.toFixed(3)}</td>
   `;
   return tr;
 }
 
 function remplirTableau(data, tbody) {
   tbody.innerHTML = "";
-  data.forEach((r, i) => tbody.appendChild(buildRow(r, i)));
+  data.forEach((o,i) => tbody.appendChild(buildRow(o,i)));
 }
 
-// Tri multi-critères : col principale, puis distance, puis prix simple
-function trierData(data, col, dir) {
-  const sens = (dir === "asc") ? 1 : -1;
 
-  data.sort((a, b) => {
-    const p = cmp(a[col], b[col]) * sens;
-    if (p !== 0) return p;
+// --------------------------------------------------
+// Tri principal + tri secondaire + tri tertiaire
+// --------------------------------------------------
 
-    const q = cmp(a.distance, b.distance); // asc
-    if (q !== 0) return q;
+function appliquerTri(data, col, dir) {
+  const sens = (dir === "asc" ? 1 : -1);
 
-    const r = cmp(a.prix, b.prix);         // asc
-    return r;
+  data.sort((a,b) => {
+    // 1) Tri principal
+    const c1 = compare(a[col], b[col]) * sens;
+    if (c1 !== 0) return c1;
+
+    // 2) Tri secondaire : distance
+    const c2 = compare(a.distance, b.distance);
+    if (c2 !== 0) return c2;
+
+    // 3) Tri tertiaire : prix simple
+    const c3 = compare(a.prix, b.prix);
+    return c3;
   });
 }
 
-function cmp(a, b) {
+function compare(a,b) {
   const na = Number(a), nb = Number(b);
   if (!Number.isFinite(na) && !Number.isFinite(nb)) return 0;
   if (!Number.isFinite(na)) return 1;
@@ -161,69 +165,59 @@ function cmp(a, b) {
   return na - nb;
 }
 
-// Active tri uniquement sur Prix (col 5), Distance (6), Prix pondéré (8)
-function safeEnableSorting(table, data, currentCol, currentDir) {
-  const thead = table.querySelector("thead");
-  const tbody = table.querySelector("tbody");
-  if (!thead || !tbody) {
-    console.warn("🟡 thead/tbody manquants : tri désactivé.");
-    return;
-  }
 
-  const headers = Array.from(thead.querySelectorAll("th"));
-  if (headers.length < 9) {
-    console.warn("🟡 Entête inattendu (moins de 9 colonnes) : tri désactivé.");
-    return;
-  }
+// --------------------------------------------------
+// Activer le tri SUR 3 COLONNES SEULEMENT :
+// Prix (col 5), Distance (6), Prix pondéré (8)
+// --------------------------------------------------
 
-  // Ajoute le CSS si absent (facultatif si tu l'as déjà)
-  headers.forEach(h => h.classList.remove("sort-asc","sort-desc","sortable-header"));
+function activerTri(table, data, triCol, triDir) {
+  const tbody   = table.querySelector("tbody");
+  const headers = table.querySelectorAll("th");
 
-  // mapping index -> clé (0-based, conforme à ton thead actuel)
-  const ALLOWED = {
-    5: "prix",         // Prix (€/L)
-    6: "distance",     // Distance (km)
-    8: "prixPondere"   // Prix pondéré (€/L)
+  // colonnes triables (alignées sur ton <thead>)
+  const COL = {
+    5: "prix",
+    6: "distance",
+    8: "prixPondere"
   };
 
-  // Positionner flèche initiale si on est sur une colonne autorisée
-  const idxInit = Object.entries(ALLOWED).find(([idx,key]) => key === currentCol)?.[0];
-  if (idxInit !== undefined) {
-    const initHeader = headers[Number(idxInit)];
-    if (initHeader) initHeader.classList.add(currentDir === "asc" ? "sort-asc" : "sort-desc");
-  }
+  // marquage visuel
+  Object.entries(COL).forEach(([idx,key]) => {
+    headers[idx].classList.add("sortable-header");
+    if (key === triCol) headers[idx].classList.add(triDir === "asc" ? "sort-asc" : "sort-desc");
+  });
 
   headers.forEach((th, idx) => {
-    const key = ALLOWED[idx];
-    if (!key) return; // colonne non triable
+    if (!(idx in COL)) return; // ignorer autres colonnes
 
-    th.classList.add("sortable-header");
+    const key = COL[idx];
 
     th.addEventListener("click", () => {
-      // Charger anciens choix
-      let lastCol = localStorage.getItem("triCol") ?? "prixPondere";
-      let lastDir = localStorage.getItem("triDir") ?? "asc";
+      let col = key;
+      let oldCol = localStorage.getItem("triCol") ?? "prixPondere";
+      let oldDir = localStorage.getItem("triDir") ?? "asc";
 
-      // Déterminer nouveau sens
-      let dir = (lastCol === key) ? (lastDir === "asc" ? "desc" : "asc") : "asc";
+      // sens du tri
+      let dir = (oldCol === col) ? (oldDir==="asc"?"desc":"asc") : "asc";
 
-      // Mémoriser
-      localStorage.setItem("triCol", key);
+      // mémoriser
+      localStorage.setItem("triCol", col);
       localStorage.setItem("triDir", dir);
 
-      // Appliquer tri + réaffichage
-      trierData(data, key, dir);
+      // appliquer tri
+      appliquerTri(data, col, dir);
       remplirTableau(data, tbody);
 
-      // Flèches
-      headers.forEach(h => h.classList.remove("sort-asc","sort-desc"));
-      th.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
+      // mettre à jour flèches
+      headers.forEach(h=>h.classList.remove("sort-asc","sort-desc"));
+      th.classList.add(dir==="asc" ? "sort-asc":"sort-desc");
     });
   });
 }
 
-// Lancer
 charger();
 </script>
+
 </body>
 </html>
