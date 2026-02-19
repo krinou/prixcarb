@@ -42,29 +42,47 @@
 
 <script>
 async function charger() {
-  const status = document.getElementById("status");
+  const status = document.getElementById("status");      // peut être null
+  const table  = document.getElementById("table");       // peut être null
+
   try {
-    const res  = await fetch("stations.json", { cache: "no-cache" });
+    if (!table) {
+      console.warn("🟡 Pas de #table dans le DOM.");
+      if (status) status.textContent = "❌ Table manquante (#table).";
+      return;
+    }
+
+    const tbody = table.querySelector("tbody");
+    if (!tbody) {
+      console.warn("🟡 Pas de <tbody> dans #table.");
+      if (status) status.textContent = "❌ Corps de tableau manquant.";
+      return;
+    }
+
+    const res = await fetch("stations.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+
     const rows = await res.json();
+    if (!Array.isArray(rows)) throw new Error("stations.json n'est pas un tableau JSON.");
 
     // Paramètres
     const CONSO  = 10;
     const VOLUME = 50;
 
-    // Préparer données enrichies
-    const data = rows.map(r => {
-      const pRaw    = typeof r.prix === "number" ? r.prix : Number(r.prix);
+    // Préparer données enrichies (et robustifier les valeurs)
+    const data = rows.map((r,i) => {
+      const pRaw    = (typeof r.prix === "number") ? r.prix : Number(r.prix);
       const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw * 1000 : pRaw) : 0;
 
-      const dRaw    = typeof r.distance === "number" ? r.distance : Number(r.distance);
+      const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
       const distKm  = Number.isFinite(dRaw) ? dRaw : 0;
 
-      const coutTotal   = prixEur * VOLUME + ((2 * distKm / 100) * CONSO * prixEur);
+      const coutTotal   = (prixEur * VOLUME) + ((2 * distKm / 100) * CONSO * prixEur);
       const prixPondere = coutTotal / VOLUME;
 
       return {
-        station: "",        // blanc comme tu veux
-        adresse: (typeof r.station === "string") ? r.station.trim() : "",
+        station: "", // blanc, comme souhaité
+        adresse: (typeof r.station === "string") ? r.station.trim() : (r.station ?? ""),
         cp: r.cp ?? "",
         ville: r.ville ?? "",
         prix: prixEur,
@@ -74,39 +92,34 @@ async function charger() {
       };
     });
 
-    // Charger config tri mémorisée
+    // Lire tri mémorisé (par défaut: prix pondéré asc)
     let triCol = localStorage.getItem("triCol") ?? "prixPondere";
     let triDir = localStorage.getItem("triDir") ?? "asc";
 
-    // Appliquer tri au chargement
     trierData(data, triCol, triDir);
 
-    // Affichage
-    const table = document.getElementById("table");
-    const tbody = table.querySelector("tbody");
-    remplirTableau(data, tbody);
+    // Afficher
+    remplirTableau(data, table.querySelector("tbody"));
 
-    // Activer tri
-    setupTri(table, data);
+    // Activer tri (seulement sur Prix, Distance, Prix pondéré)
+    safeEnableSorting(table, data, triCol, triDir);
 
-    status.style.display = "none";
-    table.style.display  = "table";
-
+    if (status) status.style.display = "none";
+    table.style.display = "table";
   } catch (e) {
-    document.getElementById("status").textContent =
-      "❌ Erreur lors du chargement : " + (e.message || e);
     console.error(e);
+    if (status) {
+      status.textContent = "❌ Erreur : " + (e.message || e);
+      status.style.display = "block";
+    }
   }
 }
 
-
-// ----------------------------
-//   CONSTRUCTION D’UNE LIGNE
-// ----------------------------
-function buildRow(r, index) {
+// Construit une ligne
+function buildRow(r, i) {
   const tr = document.createElement("tr");
   tr.innerHTML = `
-    <td>${index+1}</td>
+    <td>${i+1}</td>
     <td>${r.station}</td>
     <td>${r.adresse}</td>
     <td>${r.cp}</td>
@@ -124,95 +137,93 @@ function remplirTableau(data, tbody) {
   data.forEach((r, i) => tbody.appendChild(buildRow(r, i)));
 }
 
-
-// -----------------------------------------
-//   ALGORITHME DE TRI MULTI-CRITERES
-// -----------------------------------------
+// Tri multi-critères : col principale, puis distance, puis prix simple
 function trierData(data, col, dir) {
+  const sens = (dir === "asc") ? 1 : -1;
 
   data.sort((a, b) => {
+    const p = cmp(a[col], b[col]) * sens;
+    if (p !== 0) return p;
 
-    const cmp = compare(a[col], b[col], dir);
+    const q = cmp(a.distance, b.distance); // asc
+    if (q !== 0) return q;
 
-    if (cmp !== 0) return cmp;
-
-    // 2) Distance
-    const cmp2 = compare(a.distance, b.distance, "asc");
-    if (cmp2 !== 0) return cmp2;
-
-    // 3) Prix simple
-    const cmp3 = compare(a.prix, b.prix, "asc");
-    if (cmp3 !== 0) return cmp3;
-
-    return 0;
+    const r = cmp(a.prix, b.prix);         // asc
+    return r;
   });
 }
 
-
-// -----------------------------------------
-//    COMPARATEUR DE BASE
-// -----------------------------------------
-function compare(a, b, dir) {
-  const na = Number(a);
-  const nb = Number(b);
-  const res = na - nb;
-  return dir === "asc" ? res : -res;
+function cmp(a, b) {
+  const na = Number(a), nb = Number(b);
+  if (!Number.isFinite(na) && !Number.isFinite(nb)) return 0;
+  if (!Number.isFinite(na)) return 1;
+  if (!Number.isFinite(nb)) return -1;
+  return na - nb;
 }
 
+// Active tri uniquement sur Prix (col 5), Distance (6), Prix pondéré (8)
+function safeEnableSorting(table, data, currentCol, currentDir) {
+  const thead = table.querySelector("thead");
+  const tbody = table.querySelector("tbody");
+  if (!thead || !tbody) {
+    console.warn("🟡 thead/tbody manquants : tri désactivé.");
+    return;
+  }
 
-// -----------------------------------------
-//   ACTIVATION DU TRI SUR 3 COLONNES
-// -----------------------------------------
-function setupTri(table, data) {
+  const headers = Array.from(thead.querySelectorAll("th"));
+  if (headers.length < 9) {
+    console.warn("🟡 Entête inattendu (moins de 9 colonnes) : tri désactivé.");
+    return;
+  }
 
-  // Colonnes utilisables : Prix, Distance, Prix total, Prix pondéré
-  // Indices : 5, 6, 7, 8
-  const COLMAP = {
-    5: "prix",
-    6: "distance",
-    7: "prixTotal",
-    8: "prixPondere"
+  // Ajoute le CSS si absent (facultatif si tu l'as déjà)
+  headers.forEach(h => h.classList.remove("sort-asc","sort-desc","sortable-header"));
+
+  // mapping index -> clé (0-based, conforme à ton thead actuel)
+  const ALLOWED = {
+    5: "prix",         // Prix (€/L)
+    6: "distance",     // Distance (km)
+    8: "prixPondere"   // Prix pondéré (€/L)
   };
 
-  const headers = table.querySelectorAll("th");
-  const tbody   = table.querySelector("tbody");
+  // Positionner flèche initiale si on est sur une colonne autorisée
+  const idxInit = Object.entries(ALLOWED).find(([idx,key]) => key === currentCol)?.[0];
+  if (idxInit !== undefined) {
+    const initHeader = headers[Number(idxInit)];
+    if (initHeader) initHeader.classList.add(currentDir === "asc" ? "sort-asc" : "sort-desc");
+  }
 
   headers.forEach((th, idx) => {
-
-    if (!(idx in COLMAP)) return; // ignorer autres colonnes
+    const key = ALLOWED[idx];
+    if (!key) return; // colonne non triable
 
     th.classList.add("sortable-header");
 
     th.addEventListener("click", () => {
+      // Charger anciens choix
+      let lastCol = localStorage.getItem("triCol") ?? "prixPondere";
+      let lastDir = localStorage.getItem("triDir") ?? "asc";
 
-      const col = COLMAP[idx];
+      // Déterminer nouveau sens
+      let dir = (lastCol === key) ? (lastDir === "asc" ? "desc" : "asc") : "asc";
 
-      // Charger ancienne direction
-      let dir = localStorage.getItem("triDir");
-      let lastCol = localStorage.getItem("triCol");
-
-      // Alterner si même colonne
-      if (lastCol === col) {
-        dir = dir === "asc" ? "desc" : "asc";
-      } else {
-        dir = "asc";
-      }
-
-      // Stocker
-      localStorage.setItem("triCol", col);
+      // Mémoriser
+      localStorage.setItem("triCol", key);
       localStorage.setItem("triDir", dir);
 
-      // Appliquer
-      trierData(data, col, dir);
+      // Appliquer tri + réaffichage
+      trierData(data, key, dir);
       remplirTableau(data, tbody);
 
-      // Mettre à jour les flèches
-      headers.forEach(h => h.classList.remove("sort-asc", "sort-desc"));
+      // Flèches
+      headers.forEach(h => h.classList.remove("sort-asc","sort-desc"));
       th.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
     });
   });
-
 }
+
+// Lancer
+charger();
 </script>
 </body>
 </html>
