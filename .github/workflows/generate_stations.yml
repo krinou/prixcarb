@@ -70,6 +70,7 @@ jobs:
           stations_out = []
 
           for pdv in root.findall("pdv"):
+              id = pdv.get("id")
               cp = pdv.get("cp")
               if not cp or cp[:2] not in DEPS:
                   continue
@@ -95,7 +96,8 @@ jobs:
 
               # Pour l'affichage, on va chercher adresse/ville si elles existent
               stations_out.append({
-                  "station": pdv.findtext("adresse") or "",
+                  "station": id 
+                  "adresse": pdv.findtext("adresse") or "",
                   "ville": pdv.findtext("ville") or "",
                   "cp": cp,
                   "prix": prix,
