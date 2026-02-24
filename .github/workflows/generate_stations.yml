@@ -96,7 +96,7 @@ jobs:
 
               # Pour l'affichage, on va chercher adresse/ville si elles existent
               stations_out.append({
-                  "station": id 
+                  "station": id, 
                   "adresse": pdv.findtext("adresse") or "",
                   "ville": pdv.findtext("ville") or "",
                   "cp": cp,
