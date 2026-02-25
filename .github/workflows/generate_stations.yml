@@ -199,3 +199,4 @@ jobs:
             git commit -m "Mise à jour manuelle stations.json"
             git push
           fi
+          git add enseigne_cache.json
