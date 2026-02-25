@@ -1,6 +1,7 @@
 [
   {
-    "station": "192 Avenue Louis Roche",
+    "station": "Leclerc",
+    "adresse": "192 Avenue Louis Roche",
     "ville": "GENNEVILLIERS",
     "cp": "92230",
     "prix": 0.001719,
@@ -8,7 +9,8 @@
     "coutTotal": 0.08886096101986067
   },
   {
-    "station": "20 avenue robert schumann",
+    "station": "Carrefour",
+    "adresse": "20 avenue robert schumann",
     "ville": "SAINT-BRICE-SOUS-FORêT",
     "cp": "95350",
     "prix": 0.001711,
@@ -16,7 +18,8 @@
     "coutTotal": 0.0912451227607106
   },
   {
-    "station": "42, BOULEVARD JEAN MERMOZ",
+    "station": "TotalEnergies Access",
+    "adresse": "42, BOULEVARD JEAN MERMOZ",
     "ville": "Pierrefitte-sur-Seine",
     "cp": "93380",
     "prix": 0.0017259999999999999,
@@ -24,15 +27,17 @@
     "coutTotal": 0.09118701523345864
   },
   {
-    "station": "180 ROUTE NATIONALE 7",
+    "station": "Carrefour",
+    "adresse": "180 ROUTE NATIONALE 7",
     "ville": "ATHIS-MONS",
     "cp": "91200",
-    "prix": 0.0016979999999999999,
+    "prix": 0.001702,
     "distance": 23.427928630453476,
-    "coutTotal": 0.09285612456290199
+    "coutTotal": 0.09307486690580635
   },
   {
-    "station": "27,RUE LOUIS BREGUET",
+    "station": "Esso",
+    "adresse": "27,RUE LOUIS BREGUET",
     "ville": "VELIZY VILLACOUBLAY",
     "cp": "78140",
     "prix": 0.001799,
@@ -40,7 +45,8 @@
     "coutTotal": 0.09445181389280886
   },
   {
-    "station": "46 avenue du 8 mai 1945",
+    "station": "Esso",
+    "adresse": "46 avenue du 8 mai 1945",
     "ville": "CORBEIL ESSONNES",
     "cp": "91100",
     "prix": 0.001694,
@@ -48,47 +54,62 @@
     "coutTotal": 0.096939248839256
   },
   {
-    "station": "2 Avenue Gabriel Péri",
+    "station": "Carrefour",
+    "adresse": "1 Avenue du Général Sarrail",
+    "ville": "PARIS",
+    "cp": "75016",
+    "prix": 0.001856,
+    "distance": 6.242694518585618,
+    "coutTotal": 0.09511728820529898
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "2 Avenue Gabriel Péri",
     "ville": "Argenteuil",
     "cp": "95100",
-    "prix": 0.001721,
+    "prix": 0.0017230000000000001,
     "distance": 6.58230184615541,
-    "coutTotal": 0.08831562829544669
+    "coutTotal": 0.08841826121618516
   },
   {
-    "station": "119 AVENUE DU PDT POMPIDOU",
+    "station": "TotalEnergies",
+    "adresse": "119 AVENUE DU PDT POMPIDOU",
     "ville": "Rueil-Malmaison",
     "cp": "92500",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 2.7280387315964654,
-    "coutTotal": 0.0927511902144959
+    "coutTotal": 0.09295337264548117
   },
   {
-    "station": "140 AVENUE DE LA REPUBLIQUE",
+    "station": "TotalEnergies",
+    "adresse": "140 AVENUE DE LA REPUBLIQUE",
     "ville": "Le Blanc-Mesnil",
     "cp": "93150",
-    "prix": 0.001824,
+    "prix": 0.001829,
     "distance": 20.075611454870543,
-    "coutTotal": 0.09852358305873678
+    "coutTotal": 0.09879365867019163
   },
   {
-    "station": "12 Avenue Pierre Brossolette",
+    "station": "TotalEnergies Access",
+    "adresse": "12 Avenue Pierre Brossolette",
     "ville": "MALAKOFF",
     "cp": "92242",
-    "prix": 0.0017649999999999999,
+    "prix": 0.001769,
     "distance": 11.106252562297069,
-    "coutTotal": 0.09217050715449086
+    "coutTotal": 0.0923793921565407
   },
   {
-    "station": "5 RUE DE LA CROIX SAINT JACQUES",
+    "station": "Carrefour",
+    "adresse": "5 RUE DE LA CROIX SAINT JACQUES",
     "ville": "LA VILLE-DU-BOIS",
     "cp": "91620",
-    "prix": 0.001684,
+    "prix": 0.001689,
     "distance": 25.281877564099435,
-    "coutTotal": 0.09271493636358868
+    "coutTotal": 0.09299021824115279
   },
   {
-    "station": "69 Avenue Charles de Gaulle",
+    "station": "Leclerc",
+    "adresse": "69 Avenue Charles de Gaulle",
     "ville": "MORANGIS",
     "cp": "91420",
     "prix": 0.0016790000000000002,
@@ -96,7 +117,8 @@
     "coutTotal": 0.09168614930038603
   },
   {
-    "station": "rue Clos Batant",
+    "station": "Leclerc",
+    "adresse": "rue Clos Batant",
     "ville": "RAMBOUILLET",
     "cp": "78120",
     "prix": 0.001699,
@@ -104,7 +126,8 @@
     "coutTotal": 0.09767840737736448
   },
   {
-    "station": "100 AV DU PRESIDENT KENNEDY",
+    "station": "TotalEnergies Access",
+    "adresse": "100 AV DU PRESIDENT KENNEDY",
     "ville": "ANTONY",
     "cp": "92160",
     "prix": 0.001718,
@@ -112,15 +135,17 @@
     "coutTotal": 0.0922133230348479
   },
   {
-    "station": "64 Avenue Lucien-René Duchesne",
+    "station": "Esso Express",
+    "adresse": "64 Avenue Lucien-René Duchesne",
     "ville": "La Celle-Saint-Cloud",
     "cp": "78170",
-    "prix": 0.001709,
+    "prix": 0.001712,
     "distance": 8.306062469378459,
-    "coutTotal": 0.08828901215203355
+    "coutTotal": 0.08844399578951517
   },
   {
-    "station": "56 Rue de la Libération",
+    "station": "Système U",
+    "adresse": "56 Rue de la Libération",
     "ville": "Écouen",
     "cp": "95440",
     "prix": 0.0016870000000000001,
@@ -128,7 +153,8 @@
     "coutTotal": 0.09079862820641933
   },
   {
-    "station": "32 ROUTE DU PONTEL",
+    "station": "TotalEnergies Access",
+    "adresse": "32 ROUTE DU PONTEL",
     "ville": "Jouars-Pontchartrain",
     "cp": "78760",
     "prix": 0.0017050000000000001,
@@ -136,15 +162,17 @@
     "coutTotal": 0.09368158906287559
   },
   {
-    "station": "59 RUE JEAN BLEUZEN",
+    "station": "TotalEnergies",
+    "adresse": "59 RUE JEAN BLEUZEN",
     "ville": "VANVES",
     "cp": "92170",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 10.126035300225428,
-    "coutTotal": 0.09546625495518272
+    "coutTotal": 0.0956743557834229
   },
   {
-    "station": "RN 20",
+    "station": "Esso Express",
+    "adresse": "RN 20",
     "ville": "Saint-Germain-lès-Arpajon",
     "cp": "91180",
     "prix": 0.001709,
@@ -152,7 +180,8 @@
     "coutTotal": 0.09650308852265299
   },
   {
-    "station": "7 Avenue Pierre Brossolette",
+    "station": "Esso Express",
+    "adresse": "7 Avenue Pierre Brossolette",
     "ville": "Chilly-Mazarin",
     "cp": "91380",
     "prix": 0.001688,
@@ -160,7 +189,8 @@
     "coutTotal": 0.09211277709459702
   },
   {
-    "station": "BD DU MARECHAL JUIN",
+    "station": "Esso Express",
+    "adresse": "BD DU MARECHAL JUIN",
     "ville": "Verrières-le-Buisson",
     "cp": "91370",
     "prix": 0.001737,
@@ -168,95 +198,107 @@
     "coutTotal": 0.0925017618827086
   },
   {
-    "station": "4 Boulevard du Maréchal Foch",
+    "station": "Intermarché",
+    "adresse": "4 Boulevard du Maréchal Foch",
     "ville": "NOISY LE GRAND",
     "cp": "93160",
-    "prix": 0.0017050000000000001,
+    "prix": 0.0017150000000000002,
     "distance": 24.136839542484207,
-    "coutTotal": 0.09348066228398712
+    "coutTotal": 0.09402893596307209
   },
   {
-    "station": "115 Avenue du Général de Gaulle",
+    "station": "Esso Express",
+    "adresse": "115 Avenue du Général de Gaulle",
     "ville": "Issy-les-Moulineaux",
     "cp": "92130",
-    "prix": 0.001745,
+    "prix": 0.0017490000000000001,
     "distance": 9.777934843269977,
-    "coutTotal": 0.09066249926030122
+    "coutTotal": 0.09087032160817583
   },
   {
-    "station": "448 AV GENERAL DE GAULLE",
+    "station": "Esso Express",
+    "adresse": "448 AV GENERAL DE GAULLE",
     "ville": "Clamart",
     "cp": "92140",
-    "prix": 0.0017410000000000001,
+    "prix": 0.0017490000000000001,
     "distance": 12.726788551199892,
-    "coutTotal": 0.09148146777352781
+    "coutTotal": 0.09190183063520972
   },
   {
-    "station": "21 Avenue Jeanne et Maurice Dolivet",
+    "station": "Esso Express",
+    "adresse": "21 Avenue Jeanne et Maurice Dolivet",
     "ville": "Fontenay-aux-Roses",
     "cp": "92260",
-    "prix": 0.00175,
+    "prix": 0.001758,
     "distance": 12.65690750724162,
-    "coutTotal": 0.09192991762753458
+    "coutTotal": 0.09235016867954617
   },
   {
-    "station": "24 Rue Pasteur",
+    "station": "Esso Express",
+    "adresse": "24 Rue Pasteur",
     "ville": "Saint-Cloud",
     "cp": "92210",
-    "prix": 0.0017259999999999999,
+    "prix": 0.001729,
     "distance": 5.622960804779008,
-    "coutTotal": 0.0882410460698097
+    "coutTotal": 0.08839441984629258
   },
   {
-    "station": "PLACE JOEL LE THEULE",
+    "station": "Carrefour",
+    "adresse": "PLACE JOEL LE THEULE",
     "ville": "MONTIGNY-LE-BRETONNEUX",
     "cp": "78180",
-    "prix": 0.001692,
+    "prix": 0.001691,
     "distance": 16.809102057359695,
-    "coutTotal": 0.09028820013621051
+    "coutTotal": 0.09023483831579905
   },
   {
-    "station": "191 Rue de Versailles",
+    "station": "Esso Express",
+    "adresse": "191 Rue de Versailles",
     "ville": "Ville-d'Avray",
     "cp": "92410",
-    "prix": 0.0017430000000000002,
+    "prix": 0.001748,
     "distance": 8.632743243985018,
-    "coutTotal": 0.09015937429485318
+    "coutTotal": 0.09041800703809717
   },
   {
-    "station": "48-54 BOULEVARD THEOPHILE SUEUR",
+    "station": "TotalEnergies Access",
+    "adresse": "48-54 BOULEVARD THEOPHILE SUEUR",
     "ville": "MONTREUIL",
     "cp": "93100",
-    "prix": 0.001729,
+    "prix": 0.0017330000000000002,
     "distance": 19.52314611881835,
-    "coutTotal": 0.09320110392788739
+    "coutTotal": 0.09341672244478244
   },
   {
-    "station": "108 Avenue Gallieni",
+    "station": "Esso Express",
+    "adresse": "108 Avenue Gallieni",
     "ville": "Bondy",
     "cp": "93140",
-    "prix": 0.001729,
+    "prix": 0.001734,
     "distance": 20.15787968523809,
-    "coutTotal": 0.09342059479515533
+    "coutTotal": 0.09369075267484057
   },
   {
-    "station": "2 Rue des Hauts-Châteaux",
+    "station": "Esso Express",
+    "adresse": "2 Rue des Hauts-Châteaux",
     "ville": "Noisy-le-Grand",
     "cp": "93160",
-    "prix": 0.0017130000000000001,
+    "prix": 0.0017259999999999999,
     "distance": 27.688957454887888,
-    "coutTotal": 0.0951362368240446
+    "coutTotal": 0.09585822811342729
   },
   {
-    "station": "205 Avenue Gallieni",
+    "station": "Esso Express",
+    "adresse": "205 Avenue Gallieni",
     "ville": "Bondy",
     "cp": "93140",
-    "prix": 0.001729,
+    "prix": 0.001734,
     "distance": 20.74922153593111,
-    "coutTotal": 0.09362508080712498
+    "coutTotal": 0.0938958300286609
   },
   {
-    "station": "22 Route de Neuilly",
+    "station": "Esso Express",
+    "adresse": "22 Route de Neuilly",
     "ville": "Noisy-le-Grand",
     "cp": "93160",
     "prix": 0.001719,
@@ -264,23 +306,26 @@
     "coutTotal": 0.09437340972762791
   },
   {
-    "station": "86 Avenue de Lattre de Tassigny",
+    "station": "Esso Express",
+    "adresse": "86 Avenue de Lattre de Tassigny",
     "ville": "Épinay-sur-Seine",
     "cp": "93800",
-    "prix": 0.001712,
+    "prix": 0.001714,
     "distance": 10.372872711447751,
-    "coutTotal": 0.08915167161639971
+    "coutTotal": 0.08925582076548429
   },
   {
-    "station": "RUE JACQUES BREL",
+    "station": "TotalEnergies",
+    "adresse": "RUE JACQUES BREL",
     "ville": "ARGENTEUIL",
     "cp": "95100",
-    "prix": 0.0018009999999999999,
+    "prix": 0.001803,
     "distance": 9.024932848897675,
-    "coutTotal": 0.09330078081217294
+    "coutTotal": 0.0934043907853125
   },
   {
-    "station": "9 Boulevard du Bel Air",
+    "station": "Esso Express",
+    "adresse": "9 Boulevard du Bel Air",
     "ville": "Franconville",
     "cp": "95130",
     "prix": 0.001668,
@@ -288,15 +333,17 @@
     "coutTotal": 0.08695490962950636
   },
   {
-    "station": "61 Boulevard DU HAVRE",
+    "station": "Esso Express",
+    "adresse": "61 Boulevard DU HAVRE",
     "ville": "Herblay",
     "cp": "95220",
-    "prix": 0.0017130000000000001,
+    "prix": 0.0017079999999999999,
     "distance": 12.86252870065935,
-    "coutTotal": 0.09005670233284589
+    "coutTotal": 0.08979383980414522
   },
   {
-    "station": "100 Avenue de la République",
+    "station": "Esso Express",
+    "adresse": "100 Avenue de la République",
     "ville": "Arnouville-lès-Gonesse",
     "cp": "95400",
     "prix": 0.001718,
@@ -304,15 +351,17 @@
     "coutTotal": 0.09250153992567661
   },
   {
-    "station": "47 AVENUE DU GENERAL DE GAULLE",
+    "station": "TotalEnergies",
+    "adresse": "47 AVENUE DU GENERAL DE GAULLE",
     "ville": "Saint-Brice-sous-Forêt",
     "cp": "95350",
-    "prix": 0.001785,
+    "prix": 0.001799,
     "distance": 15.803356939789003,
-    "coutTotal": 0.09489179842750467
+    "coutTotal": 0.09563604782693609
   },
   {
-    "station": "5 Avenue Voltaire",
+    "station": "Esso Express",
+    "adresse": "5 Avenue Voltaire",
     "ville": "Eaubonne",
     "cp": "95600",
     "prix": 0.001668,
@@ -320,7 +369,8 @@
     "coutTotal": 0.08757451582881949
   },
   {
-    "station": "RN1",
+    "station": "Esso Express",
+    "adresse": "RN1",
     "ville": "Moisselles",
     "cp": "95570",
     "prix": 0.00172,
@@ -328,7 +378,8 @@
     "coutTotal": 0.09264087690623327
   },
   {
-    "station": "Boulevard d'Osny",
+    "station": "Esso Express",
+    "adresse": "Boulevard d'Osny",
     "ville": "Cergy",
     "cp": "95800",
     "prix": 0.001691,
@@ -336,15 +387,17 @@
     "coutTotal": 0.09168286560403921
   },
   {
-    "station": "63 AVENUE DE PARIS",
+    "station": "TotalEnergies",
+    "adresse": "63 AVENUE DE PARIS",
     "ville": "SOISY-SOUS-MONTMORENCY",
     "cp": "95230",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 12.502842054304152,
-    "coutTotal": 0.09371351461338658
+    "coutTotal": 0.09392351688703003
   },
   {
-    "station": "11 Avenue Jean Jaurès",
+    "station": "Leclerc",
+    "adresse": "11 Avenue Jean Jaurès",
     "ville": "Bois-d'Arcy",
     "cp": "78390",
     "prix": 0.0016690000000000001,
@@ -352,39 +405,44 @@
     "coutTotal": 0.08880039978689662
   },
   {
-    "station": "27 AV DU GENERAL LECLERC",
+    "station": "Esso Express",
+    "adresse": "27 AV DU GENERAL LECLERC",
     "ville": "Gif-sur-Yvette",
     "cp": "91190",
-    "prix": 0.001719,
+    "prix": 0.001709,
     "distance": 21.83222575304004,
-    "coutTotal": 0.09345591921389516
+    "coutTotal": 0.09291225476238908
   },
   {
-    "station": "ROUTE NATIONALE 444",
+    "station": "Esso",
+    "adresse": "ROUTE NATIONALE 444",
     "ville": "Igny",
     "cp": "91430",
-    "prix": 0.001719,
+    "prix": 0.001729,
     "distance": 17.568373107298157,
-    "coutTotal": 0.09199000667428911
+    "coutTotal": 0.0925251434205037
   },
   {
-    "station": "64 Rue de Meaux",
+    "station": "Esso",
+    "adresse": "64 Rue de Meaux",
     "ville": "Vaujours",
     "cp": "93410",
-    "prix": 0.001829,
+    "prix": 0.001839,
     "distance": 26.800596152297555,
-    "coutTotal": 0.10125365807251044
+    "coutTotal": 0.10180725926481503
   },
   {
-    "station": "43 Avenue du Président Roosevelt",
+    "station": "Esso Express",
+    "adresse": "43 Avenue du Président Roosevelt",
     "ville": "Aubervilliers",
     "cp": "93300",
-    "prix": 0.0017490000000000001,
+    "prix": 0.001759,
     "distance": 12.958436869198698,
-    "coutTotal": 0.09198286121684571
+    "coutTotal": 0.0925087780905841
   },
   {
-    "station": "9 RD 104",
+    "station": "Esso",
+    "adresse": "9 RD 104",
     "ville": "ATTAINVILLE",
     "cp": "95570",
     "prix": 0.001799,
@@ -392,7 +450,8 @@
     "coutTotal": 0.09761894304455285
   },
   {
-    "station": "52 RUE DE PARIS",
+    "station": "Esso",
+    "adresse": "52 RUE DE PARIS",
     "ville": "Saint-Ouen-l'Aumône",
     "cp": "95310",
     "prix": 0.0017490000000000001,
@@ -400,7 +459,8 @@
     "coutTotal": 0.09363034003885767
   },
   {
-    "station": "RN184, direction St germain",
+    "station": "Esso Express",
+    "adresse": "RN184, direction St germain",
     "ville": "ERAGNY-SUR-OISE",
     "cp": "95610",
     "prix": 0.001799,
@@ -408,23 +468,26 @@
     "coutTotal": 0.0959373004307524
   },
   {
-    "station": "35/37 RUE HENRI DUNANT",
+    "station": "TotalEnergies",
+    "adresse": "35/37 RUE HENRI DUNANT",
     "ville": "Savigny-sur-Orge",
     "cp": "91600",
-    "prix": 0.001785,
+    "prix": 0.0017909999999999998,
     "distance": 25.660379368680644,
-    "coutTotal": 0.09841075543461898
+    "coutTotal": 0.09874154788986139
   },
   {
-    "station": "70 ROUTE DE CORBEIL",
+    "station": "TotalEnergies",
+    "adresse": "70 ROUTE DE CORBEIL",
     "ville": "Sainte-Geneviève-des-Bois",
     "cp": "91700",
-    "prix": 0.001799,
+    "prix": 0.001802,
     "distance": 29.24865884669372,
-    "coutTotal": 0.1004736674530404
+    "coutTotal": 0.10064121664834842
   },
   {
-    "station": "34, AV. DE LA LIBERATION",
+    "station": "TotalEnergies",
+    "adresse": "34, AV. DE LA LIBERATION",
     "ville": "HERBLAY",
     "cp": "95220",
     "prix": 0.001789,
@@ -432,7 +495,8 @@
     "coutTotal": 0.09387074541731051
   },
   {
-    "station": "N104 LIEUDIT BEAUVERT",
+    "station": "Esso",
+    "adresse": "N104 LIEUDIT BEAUVERT",
     "ville": "Marcoussis",
     "cp": "91460",
     "prix": 0.001789,
@@ -440,15 +504,17 @@
     "coutTotal": 0.09918777413665308
   },
   {
-    "station": "ROUTE DE LIMOURS",
+    "station": "TotalEnergies",
+    "adresse": "ROUTE DE LIMOURS",
     "ville": "ARPAJON",
     "cp": "91290",
-    "prix": 0.001776,
+    "prix": 0.001779,
     "distance": 32.619913587194596,
-    "coutTotal": 0.10038659330617153
+    "coutTotal": 0.10055616525432384
   },
   {
-    "station": "54 Avenue Henri Barbusse",
+    "station": "Esso",
+    "adresse": "54 Avenue Henri Barbusse",
     "ville": "VIGNEUX-SUR-SEINE",
     "cp": "91270",
     "prix": 0.001839,
@@ -456,15 +522,17 @@
     "coutTotal": 0.10170803488258193
   },
   {
-    "station": "CD 161",
+    "station": "Auchan",
+    "adresse": "CD 161",
     "ville": "PLAISIR",
     "cp": "78370",
-    "prix": 0.001693,
+    "prix": 0.0016979999999999999,
     "distance": 19.467826177848302,
-    "coutTotal": 0.09124180594381943
+    "coutTotal": 0.09151127376999728
   },
   {
-    "station": "8 R DES MARTYRS CHATEAUBRIANT",
+    "station": "TotalEnergies Access",
+    "adresse": "8 R DES MARTYRS CHATEAUBRIANT",
     "ville": "ARGENTEUIL",
     "cp": "95100",
     "prix": 0.001732,
@@ -472,7 +540,8 @@
     "coutTotal": 0.0889104546015385
   },
   {
-    "station": "VOIE EXPRESS CD 117",
+    "station": "Esso",
+    "adresse": "VOIE EXPRESS CD 117",
     "ville": "Massy",
     "cp": "91300",
     "prix": 0.001729,
@@ -480,7 +549,8 @@
     "coutTotal": 0.092726419703619
   },
   {
-    "station": "52 bld st antoine",
+    "station": "Indépendant sans enseigne",
+    "adresse": "52 bld st antoine",
     "ville": "LE CHESNAY",
     "cp": "78150",
     "prix": 0.001719,
@@ -488,7 +558,8 @@
     "coutTotal": 0.0894960252966577
   },
   {
-    "station": "AV GILBERT BERGER",
+    "station": "Carrefour Market",
+    "adresse": "AV GILBERT BERGER",
     "ville": "TREMBLAY-EN-FRANCE",
     "cp": "93290",
     "prix": 0.001693,
@@ -496,7 +567,8 @@
     "coutTotal": 0.09389613433721587
   },
   {
-    "station": "RN 14",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 14",
     "ville": "CHARMONT",
     "cp": "95420",
     "prix": 0.001699,
@@ -504,7 +576,8 @@
     "coutTotal": 0.09875263950786103
   },
   {
-    "station": "Route d'Angerville",
+    "station": "Intermarché",
+    "adresse": "Route d'Angerville",
     "ville": "MéRéVILLE",
     "cp": "91660",
     "prix": 0.001659,
@@ -512,15 +585,17 @@
     "coutTotal": 0.10456430951293186
   },
   {
-    "station": "136 RUE HENRI BARBUSSE",
+    "station": "TotalEnergies Access",
+    "adresse": "136 RUE HENRI BARBUSSE",
     "ville": "HOUILLES",
     "cp": "78800",
-    "prix": 0.0017330000000000002,
+    "prix": 0.001736,
     "distance": 4.729435211285918,
-    "coutTotal": 0.0882892222442317
+    "coutTotal": 0.08844205990535847
   },
   {
-    "station": "143/145 BLD JEAN JAURES",
+    "station": "TotalEnergies Access",
+    "adresse": "143/145 BLD JEAN JAURES",
     "ville": "CLICHY",
     "cp": "92110",
     "prix": 0.0017439999999999999,
@@ -528,15 +603,17 @@
     "coutTotal": 0.08968657754273995
   },
   {
-    "station": "centre commerciale Brigitte",
+    "station": "Auchan",
+    "adresse": "centre commerciale Brigitte",
     "ville": "PLAISIR",
     "cp": "78370",
-    "prix": 0.001685,
+    "prix": 0.0016979999999999999,
     "distance": 20.23064920360671,
-    "coutTotal": 0.09106772878161547
+    "coutTotal": 0.09177032846954483
   },
   {
-    "station": "RN191 - ROUTE DE CORBEIL",
+    "station": "TotalEnergies Access",
+    "adresse": "RN191 - ROUTE DE CORBEIL",
     "ville": "BAULNE",
     "cp": "91590",
     "prix": 0.001682,
@@ -544,31 +621,35 @@
     "coutTotal": 0.09910749492179248
   },
   {
-    "station": "207-213 AVENUE DU PDT WILSON",
+    "station": "TotalEnergies",
+    "adresse": "207-213 AVENUE DU PDT WILSON",
     "ville": "La plaine-saint-denis",
     "cp": "93210",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 11.31981885045896,
-    "coutTotal": 0.09590437351811844
+    "coutTotal": 0.09611342937319879
   },
   {
-    "station": "Avenue Gutenberg",
+    "station": "Auchan",
+    "adresse": "Avenue Gutenberg",
     "ville": "MAUREPAS",
     "cp": "78310",
-    "prix": 0.001696,
+    "prix": 0.001702,
     "distance": 25.71083184386015,
-    "coutTotal": 0.09352111416143737
+    "coutTotal": 0.09385196715965
   },
   {
-    "station": "AUTOROUTE A86",
+    "station": "TotalEnergies Access",
+    "adresse": "AUTOROUTE A86",
     "ville": "Jouy-en-Josas",
     "cp": "78350",
-    "prix": 0.001709,
+    "prix": 0.0017130000000000001,
     "distance": 12.674612981381351,
-    "coutTotal": 0.08978218271703614
+    "coutTotal": 0.08999232240742125
   },
   {
-    "station": "Route Nationale 188 déviée",
+    "station": "Avia",
+    "adresse": "Route Nationale 188 déviée",
     "ville": "Champlan",
     "cp": "91160",
     "prix": 0.001719,
@@ -576,23 +657,26 @@
     "coutTotal": 0.09309162121470793
   },
   {
-    "station": "18-22 BLD DES FRERES VOISIN",
+    "station": "TotalEnergies Access",
+    "adresse": "18-22 BLD DES FRERES VOISIN",
     "ville": "Issy-les-Moulineaux",
     "cp": "92130",
-    "prix": 0.001745,
+    "prix": 0.0017490000000000001,
     "distance": 8.633475187507429,
-    "coutTotal": 0.09026308284044009
+    "coutTotal": 0.0904699896205901
   },
   {
-    "station": "ROUTE NATIONALE 184",
+    "station": "Esso",
+    "adresse": "ROUTE NATIONALE 184",
     "ville": "Conflans-Sainte-Honorine",
     "cp": "78700",
-    "prix": 0.0018089999999999998,
+    "prix": 0.0018189999999999999,
     "distance": 14.602837455448006,
-    "coutTotal": 0.09573330659138107
+    "coutTotal": 0.09626251226629197
   },
   {
-    "station": "A13 Aire de Rosny Sud",
+    "station": "Esso",
+    "adresse": "A13 Aire de Rosny Sud",
     "ville": "ROSNY-SUR-SEINE",
     "cp": "78710",
     "prix": 0.001689,
@@ -600,7 +684,8 @@
     "coutTotal": 0.09909611391173195
   },
   {
-    "station": "60 - 68 PAUL VAILLANT COUTURIER",
+    "station": "Esso",
+    "adresse": "60 - 68 PAUL VAILLANT COUTURIER",
     "ville": "Le Blanc-Mesnil",
     "cp": "93150",
     "prix": 0.001789,
@@ -608,15 +693,17 @@
     "coutTotal": 0.09659875116221711
   },
   {
-    "station": "100 Rue de Versailles",
+    "station": "Esso",
+    "adresse": "100 Rue de Versailles",
     "ville": "Le Chesnay",
     "cp": "78150",
-    "prix": 0.001709,
+    "prix": 0.001699,
     "distance": 9.517268628693307,
-    "coutTotal": 0.08870300241728737
+    "coutTotal": 0.08818396788002998
   },
   {
-    "station": "104 RTE DE CHATOU",
+    "station": "Esso Express",
+    "adresse": "104 RTE DE CHATOU",
     "ville": "Carrières-sur-Seine",
     "cp": "78420",
     "prix": 0.0017490000000000001,
@@ -624,7 +711,8 @@
     "coutTotal": 0.0885429594068595
   },
   {
-    "station": "18 Avenue du Général de Gaulle",
+    "station": "Esso",
+    "adresse": "18 Avenue du Général de Gaulle",
     "ville": "Maisons-Laffitte",
     "cp": "78600",
     "prix": 0.0018189999999999999,
@@ -632,31 +720,35 @@
     "coutTotal": 0.09365463077828248
   },
   {
-    "station": "12/14 BD.GABRIEL PERI - TOTAL",
+    "station": "TotalEnergies",
+    "adresse": "12/14 BD.GABRIEL PERI - TOTAL",
     "ville": "Rosny-sous-Bois",
     "cp": "93110",
-    "prix": 0.001832,
+    "prix": 0.001839,
     "distance": 20.244961967948143,
-    "coutTotal": 0.0990177540650562
+    "coutTotal": 0.09939609701181132
   },
   {
-    "station": "RN 370",
+    "station": "TotalEnergies",
+    "adresse": "RN 370",
     "ville": "GONESSE",
     "cp": "95500",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 20.65480632519918,
-    "coutTotal": 0.09662376585809611
+    "coutTotal": 0.09684028970315627
   },
   {
-    "station": "CD 916 - ROUTE DE GISORS",
+    "station": "TotalEnergies Access",
+    "adresse": "CD 916 - ROUTE DE GISORS",
     "ville": "GENICOURT",
     "cp": "95650",
-    "prix": 0.0016950000000000001,
+    "prix": 0.001702,
     "distance": 23.32253015155161,
-    "coutTotal": 0.092656337721376
+    "coutTotal": 0.09303898926358817
   },
   {
-    "station": "184 RN HAUTES COUTURES",
+    "station": "Esso Express",
+    "adresse": "184 RN HAUTES COUTURES",
     "ville": "Conflans-Sainte-Honorine",
     "cp": "78700",
     "prix": 0.0018189999999999999,
@@ -664,23 +756,26 @@
     "coutTotal": 0.09627916264511349
   },
   {
-    "station": "ROUTE de Corbeil",
+    "station": "Carrefour Market",
+    "adresse": "ROUTE de Corbeil",
     "ville": "ÉPINAY-SUR-ORGE",
     "cp": "91360",
-    "prix": 0.001724,
+    "prix": 0.001728,
     "distance": 26.7136863997213,
-    "coutTotal": 0.0954108790706239
+    "coutTotal": 0.09563225001974367
   },
   {
-    "station": "151 Avenue Gabriel Péri",
+    "station": "TotalEnergies Access",
+    "adresse": "151 Avenue Gabriel Péri",
     "ville": "BEZONS",
     "cp": "95870",
-    "prix": 0.0017330000000000002,
+    "prix": 0.001736,
     "distance": 4.790420591351054,
-    "coutTotal": 0.08831035977696228
+    "coutTotal": 0.08846323402931709
   },
   {
-    "station": "Avenue de Domont",
+    "station": "Intermarché",
+    "adresse": "Avenue de Domont",
     "ville": "MONTMORENCY",
     "cp": "95160",
     "prix": 0.001681,
@@ -688,47 +783,44 @@
     "coutTotal": 0.08916811747809719
   },
   {
-    "station": "50 Rue des Lys",
+    "station": "Leclerc",
+    "adresse": "50 Rue des Lys",
     "ville": "ÉTAMPES",
     "cp": "91150",
-    "prix": 0.001639,
+    "prix": 0.0016519999999999998,
     "distance": 50.45225006056815,
-    "coutTotal": 0.09848824756985425
+    "coutTotal": 0.09926942342001172
   },
   {
-    "station": "5 A 11 Avenue JEAN-JAURES",
+    "station": "Esso",
+    "adresse": "5 A 11 Avenue JEAN-JAURES",
     "ville": "Persan",
     "cp": "95340",
-    "prix": 0.001719,
+    "prix": 0.001709,
     "distance": 28.824873069563093,
-    "coutTotal": 0.09585999136131579
+    "coutTotal": 0.09530234161517666
   },
   {
-    "station": "84-90 AVENUE LENINE",
+    "station": "TotalEnergies",
+    "adresse": "84-90 AVENUE LENINE",
     "ville": "NANTERRE",
     "cp": "92000",
-    "prix": 0.001832,
+    "prix": 0.001839,
     "distance": 1.0113732355115574,
-    "coutTotal": 0.09197056715349143
+    "coutTotal": 0.09232198307602114
   },
   {
-    "station": "AUTOROUTE A6 - AIRE DE VILLABÉ",
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A6 - AIRE DE VILLABÉ",
     "ville": "VILLABE",
     "cp": "91100",
-    "prix": 0.001879,
+    "prix": 0.0018839999999999998,
     "distance": 37.49987046209459,
-    "coutTotal": 0.10804245131965515
+    "coutTotal": 0.10832995119011724
   },
   {
-    "station": "6 AVENUE DE L'EUROPE",
-    "ville": "DRAVEIL",
-    "cp": "91210",
-    "prix": 0.0016799999999999999,
-    "distance": 28.615299809997968,
-    "coutTotal": 0.0936147407361593
-  },
-  {
-    "station": "ROUTE DE LA BOELE",
+    "station": "Esso",
+    "adresse": "ROUTE DE LA BOELE",
     "ville": "Saint-Michel-sur-Orge",
     "cp": "91240",
     "prix": 0.0018089999999999998,
@@ -736,7 +828,8 @@
     "coutTotal": 0.10128269471996416
   },
   {
-    "station": "AUTOROUTE A6 - AIRE DES LISSES",
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A6 - AIRE DES LISSES",
     "ville": "CORBEIL ESSONNES",
     "cp": "91100",
     "prix": 0.001879,
@@ -744,31 +837,44 @@
     "coutTotal": 0.10806110554828115
   },
   {
-    "station": "46 RUE DES PONTS",
+    "station": "Système U",
+    "adresse": "6 AVENUE DE L'EUROPE",
+    "ville": "DRAVEIL",
+    "cp": "91210",
+    "prix": 0.001692,
+    "distance": 28.615299809997968,
+    "coutTotal": 0.0942834174557033
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "46 RUE DES PONTS",
     "ville": "Croissy-sur-Seine",
     "cp": "78290",
-    "prix": 0.001804,
+    "prix": 0.0018189999999999999,
     "distance": 5.203501222240656,
-    "coutTotal": 0.09207742324098443
+    "coutTotal": 0.09284303374465114
   },
   {
-    "station": "139 Route de Corbeil",
+    "station": "Carrefour",
+    "adresse": "139 Route de Corbeil",
     "ville": "SAINTE-GENEVIèVE-DES-BOIS",
     "cp": "91700",
-    "prix": 0.0017259999999999999,
+    "prix": 0.00173,
     "distance": 29.708083150387267,
-    "coutTotal": 0.09655523030351368
+    "coutTotal": 0.09677899677003399
   },
   {
-    "station": "Avenue des Cévennes",
+    "station": "Esso Express",
+    "adresse": "Avenue des Cévennes",
     "ville": "Les Ulis",
     "cp": "91940",
-    "prix": 0.001689,
+    "prix": 0.001699,
     "distance": 23.531057132584216,
-    "coutTotal": 0.09239879109938695
+    "coutTotal": 0.09294585321365212
   },
   {
-    "station": "55, Route d'Andresy",
+    "station": "Leclerc",
+    "adresse": "55, Route d'Andresy",
     "ville": "Carrières-sous-Poissy",
     "cp": "78955",
     "prix": 0.001658,
@@ -776,7 +882,8 @@
     "coutTotal": 0.08751181037153816
   },
   {
-    "station": "19 RUE GABRIEL PERI",
+    "station": "TotalEnergies Access",
+    "adresse": "19 RUE GABRIEL PERI",
     "ville": "GONESSE",
     "cp": "95500",
     "prix": 0.001699,
@@ -784,15 +891,17 @@
     "coutTotal": 0.09158311554487787
   },
   {
-    "station": "13 Avenue de Verdun-1916",
+    "station": "Esso Express",
+    "adresse": "13 Avenue de Verdun-1916",
     "ville": "La Garenne-Colombes",
     "cp": "92250",
-    "prix": 0.001748,
+    "prix": 0.0017529999999999998,
     "distance": 2.657511408191397,
-    "coutTotal": 0.08832906598830371
+    "coutTotal": 0.0885817234997119
   },
   {
-    "station": "40 ROUTE DE PALAISEAU",
+    "station": "TotalEnergies Access",
+    "adresse": "40 ROUTE DE PALAISEAU",
     "ville": "MASSY",
     "cp": "91300",
     "prix": 0.0017150000000000002,
@@ -800,7 +909,8 @@
     "coutTotal": 0.09208112295440811
   },
   {
-    "station": "18 Rue Jean Moulin",
+    "station": "Esso Express",
+    "adresse": "18 Rue Jean Moulin",
     "ville": "Antony",
     "cp": "92160",
     "prix": 0.001718,
@@ -808,7 +918,8 @@
     "coutTotal": 0.09181525495875177
   },
   {
-    "station": "105 Avenue de la République",
+    "station": "Esso Express",
+    "adresse": "105 Avenue de la République",
     "ville": "Montgeron",
     "cp": "91230",
     "prix": 0.001688,
@@ -816,23 +927,35 @@
     "coutTotal": 0.0939389594375019
   },
   {
-    "station": "Chemin des Hayettes",
+    "station": "TotalEnergies Access",
+    "adresse": "181, BOULEVARD VINCENT AURIOL",
+    "ville": "PARIS",
+    "cp": "75013",
+    "prix": 0.0017439999999999999,
+    "distance": 13.0584421684541,
+    "coutTotal": 0.09175478462835679
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Chemin des Hayettes",
     "ville": "Osny",
     "cp": "95520",
-    "prix": 0.001676,
+    "prix": 0.001686,
     "distance": 21.330321823467454,
-    "coutTotal": 0.0909499238752263
+    "coutTotal": 0.09149258451887322
   },
   {
-    "station": "69, AVENUE ARISTIDE BRIAND",
+    "station": "Esso",
+    "adresse": "69, AVENUE ARISTIDE BRIAND",
     "ville": "LIVRY GARGAN",
     "cp": "93190",
-    "prix": 0.001799,
+    "prix": 0.0018089999999999998,
     "distance": 22.980770686491873,
-    "coutTotal": 0.09821848129299977
+    "coutTotal": 0.09876444283437275
   },
   {
-    "station": "37 AVENUE LUCIEN LANTERNIER",
+    "station": "TotalEnergies Access",
+    "adresse": "37 AVENUE LUCIEN LANTERNIER",
     "ville": "GENNEVILLIERS",
     "cp": "92230",
     "prix": 0.0017439999999999999,
@@ -840,39 +963,44 @@
     "coutTotal": 0.08983278458290185
   },
   {
-    "station": "100 RUE CHARLES TILLON",
+    "station": "Esso",
+    "adresse": "100 RUE CHARLES TILLON",
     "ville": "AUBERVILLIERS",
     "cp": "93300",
-    "prix": 0.001829,
+    "prix": 0.001839,
     "distance": 14.053015760498804,
-    "coutTotal": 0.09659059316519045
+    "coutTotal": 0.09711869919671146
   },
   {
-    "station": "44-50 BD DE VALMY",
+    "station": "Esso",
+    "adresse": "44-50 BD DE VALMY",
     "ville": "COLOMBES",
     "cp": "92700",
-    "prix": 0.001769,
+    "prix": 0.001779,
     "distance": 5.0669987928464035,
-    "coutTotal": 0.09024270417290906
+    "coutTotal": 0.09075283817049475
   },
   {
-    "station": "175 AV MAL GALLIENI",
+    "station": "Esso",
+    "adresse": "175 AV MAL GALLIENI",
     "ville": "BONDY",
     "cp": "93140",
-    "prix": 0.001829,
+    "prix": 0.001839,
     "distance": 20.457730099053173,
-    "coutTotal": 0.09893343767023365
+    "coutTotal": 0.09947435313043175
   },
   {
-    "station": "222/224 ROUTE NATIONALE 10",
+    "station": "TotalEnergies Access",
+    "adresse": "222/224 ROUTE NATIONALE 10",
     "ville": "Coignières",
     "cp": "78310",
-    "prix": 0.001693,
+    "prix": 0.001699,
     "distance": 26.95617953369582,
-    "coutTotal": 0.0937773623901094
+    "coutTotal": 0.09410970980554983
   },
   {
-    "station": "162 RUE VICTOR HUGO",
+    "station": "Esso",
+    "adresse": "162 RUE VICTOR HUGO",
     "ville": "Levallois-Perret",
     "cp": "92300",
     "prix": 0.001729,
@@ -880,15 +1008,26 @@
     "coutTotal": 0.08868854981351622
   },
   {
-    "station": "4 AVENUE SIMON VOUET",
-    "ville": "Le Port-Marly",
-    "cp": "78560",
-    "prix": 0.0017250000000000002,
-    "distance": 6.846331618506598,
-    "coutTotal": 0.08861198440838479
+    "station": "TotalEnergies",
+    "adresse": "114 BD DE L HOPITAL",
+    "ville": "PARIS",
+    "cp": "75013",
+    "prix": 0.001839,
+    "distance": 12.826005697161234,
+    "coutTotal": 0.09666740489541589
   },
   {
-    "station": "AUT A1 Aire de Vémars Ouest",
+    "station": "TotalEnergies Access",
+    "adresse": "4 AVENUE SIMON VOUET",
+    "ville": "Le Port-Marly",
+    "cp": "78560",
+    "prix": 0.001729,
+    "distance": 6.846331618506598,
+    "coutTotal": 0.08881746147367958
+  },
+  {
+    "station": "Shell",
+    "adresse": "AUT A1 Aire de Vémars Ouest",
     "ville": "VEMARS",
     "cp": "95470",
     "prix": 0.0017800000000000001,
@@ -896,39 +1035,44 @@
     "coutTotal": 0.10041333210717253
   },
   {
-    "station": "82 BLD GABRIEL PERI",
+    "station": "TotalEnergies Access",
+    "adresse": "82 BLD GABRIEL PERI",
     "ville": "SANNOIS",
     "cp": "95110",
-    "prix": 0.001712,
+    "prix": 0.001714,
     "distance": 8.832766681359727,
-    "coutTotal": 0.08862433931169757
+    "coutTotal": 0.08872787241837012
   },
   {
-    "station": "1 AV DE L OCEANIE ZAC COURTABOEU",
+    "station": "TotalEnergies Access",
+    "adresse": "1 AV DE L OCEANIE ZAC COURTABOEU",
     "ville": "LES ULIS",
     "cp": "91940",
-    "prix": 0.0016950000000000001,
+    "prix": 0.001701,
     "distance": 23.856824763655208,
-    "coutTotal": 0.09283746359487913
+    "coutTotal": 0.0931660917845955
   },
   {
-    "station": "RN10",
+    "station": "Auchan",
+    "adresse": "RN10",
     "ville": "Coignières",
     "cp": "78310",
-    "prix": 0.001693,
+    "prix": 0.001699,
     "distance": 26.483148198675476,
-    "coutTotal": 0.09361719398007153
+    "coutTotal": 0.09394897375790992
   },
   {
-    "station": "159 Route de Saint-Leu",
+    "station": "Leclerc",
+    "adresse": "159 Route de Saint-Leu",
     "ville": "EPINAY SUR SEINE",
     "cp": "93800",
-    "prix": 0.001678,
+    "prix": 0.001694,
     "distance": 11.644627455231694,
-    "coutTotal": 0.08780793697397576
+    "coutTotal": 0.0886451997818325
   },
   {
-    "station": "16 Rue du 18 Juin",
+    "station": "Esso",
+    "adresse": "16 Rue du 18 Juin",
     "ville": "Ermont",
     "cp": "95120",
     "prix": 0.001789,
@@ -936,23 +1080,26 @@
     "coutTotal": 0.09355165531204031
   },
   {
-    "station": "BLD MARC CHAGALL",
+    "station": "TotalEnergies",
+    "adresse": "BLD MARC CHAGALL",
     "ville": "Aulnay-sous-Bois",
     "cp": "93600",
-    "prix": 0.001824,
+    "prix": 0.001829,
     "distance": 22.300367117495224,
-    "coutTotal": 0.09933517392446226
+    "coutTotal": 0.09960747429157975
   },
   {
-    "station": "AUTOROUTE A1 - AIRE DE LA COURNEUVE EST",
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A1 - AIRE DE LA COURNEUVE EST",
     "ville": "LA COURNEUVE",
     "cp": "93120",
-    "prix": 0.001829,
+    "prix": 0.001839,
     "distance": 14.210157370453052,
-    "coutTotal": 0.09664807556611171
+    "coutTotal": 0.09717649588085263
   },
   {
-    "station": "Avenue Nagelmackers.",
+    "station": "Carrefour Market",
+    "adresse": "Avenue Nagelmackers.",
     "ville": "VILLEPREUX",
     "cp": "78450",
     "prix": 0.001699,
@@ -960,15 +1107,26 @@
     "coutTotal": 0.09068852112497132
   },
   {
-    "station": "120, ROUTE DE VERSAILLES",
+    "station": "TotalEnergies",
+    "adresse": "120, ROUTE DE VERSAILLES",
     "ville": "Marly-le-Roi",
     "cp": "78160",
-    "prix": 0.001803,
+    "prix": 0.001806,
     "distance": 7.72917763897803,
-    "coutTotal": 0.09293714145661547
+    "coutTotal": 0.09309177896319887
   },
   {
-    "station": "182, RUE ALBERT SARRAUT",
+    "station": "TotalEnergies",
+    "adresse": "32 AVENUE DE LA PORTE DE ST OUEN",
+    "ville": "PARIS",
+    "cp": "75018",
+    "prix": 0.001839,
+    "distance": 9.089178109197809,
+    "coutTotal": 0.09529299970856295
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "182, RUE ALBERT SARRAUT",
     "ville": "GOUSSAINVILLE",
     "cp": "95190",
     "prix": 0.001703,
@@ -976,23 +1134,26 @@
     "coutTotal": 0.09343834314818238
   },
   {
-    "station": "65 QUAI MARCEL DASSAULT",
+    "station": "TotalEnergies Access",
+    "adresse": "65 QUAI MARCEL DASSAULT",
     "ville": "Saint-Cloud",
     "cp": "92210",
-    "prix": 0.001736,
+    "prix": 0.001739,
     "distance": 4.3512185507851955,
-    "coutTotal": 0.08831074308083262
+    "coutTotal": 0.08846335381196309
   },
   {
-    "station": "112 AV P. VAILLANT COUTURIER",
+    "station": "Esso",
+    "adresse": "112 AV P. VAILLANT COUTURIER",
     "ville": "Saint-Denis",
     "cp": "93200",
-    "prix": 0.001889,
+    "prix": 0.001909,
     "distance": 12.746811278800054,
-    "coutTotal": 0.09926574530113066
+    "coutTotal": 0.10031673254624587
   },
   {
-    "station": "RN 1 - BP4",
+    "station": "Esso Express",
+    "adresse": "RN 1 - BP4",
     "ville": "Domont",
     "cp": "95331",
     "prix": 0.001729,
@@ -1000,15 +1161,17 @@
     "coutTotal": 0.09276009208424399
   },
   {
-    "station": "ANGLE RN 307 ET 317",
+    "station": "Esso",
+    "adresse": "ANGLE RN 307 ET 317",
     "ville": "ROCQUENCOURT",
     "cp": "78150",
-    "prix": 0.001739,
+    "prix": 0.0017490000000000001,
     "distance": 9.626391330629245,
-    "coutTotal": 0.09029805890479285
+    "coutTotal": 0.0908173116874541
   },
   {
-    "station": "158 RN 7",
+    "station": "Esso",
+    "adresse": "158 RN 7",
     "ville": "Viry-Châtillon",
     "cp": "91170",
     "prix": 0.001709,
@@ -1016,7 +1179,8 @@
     "coutTotal": 0.09444532269908061
   },
   {
-    "station": "10 Rue Pierre Brossolette",
+    "station": "Esso",
+    "adresse": "10 Rue Pierre Brossolette",
     "ville": "Chilly-Mazarin",
     "cp": "91380",
     "prix": 0.001699,
@@ -1024,23 +1188,26 @@
     "coutTotal": 0.09264953200633681
   },
   {
-    "station": "300 Avenue Paul Vaillant-Couturier",
+    "station": "Esso",
+    "adresse": "300 Avenue Paul Vaillant-Couturier",
     "ville": "Bobigny",
     "cp": "93000",
-    "prix": 0.001769,
+    "prix": 0.001779,
     "distance": 18.336014396426165,
-    "coutTotal": 0.09493728189345557
+    "coutTotal": 0.09547395392224843
   },
   {
-    "station": "176 AVE STALINGRAD",
+    "station": "TotalEnergies Access",
+    "adresse": "176 AVE STALINGRAD",
     "ville": "ARGENTEUIL",
     "cp": "95100",
-    "prix": 0.001701,
+    "prix": 0.001706,
     "distance": 8.500626244646197,
-    "coutTotal": 0.08794191304842863
+    "coutTotal": 0.08820041367467328
   },
   {
-    "station": "Rue des Buttes",
+    "station": "Esso Express",
+    "adresse": "Rue des Buttes",
     "ville": "Villepinte",
     "cp": "93420",
     "prix": 0.001729,
@@ -1048,7 +1215,8 @@
     "coutTotal": 0.094432701661151
   },
   {
-    "station": "38 AV DE MORANGIS",
+    "station": "Esso",
+    "adresse": "38 AV DE MORANGIS",
     "ville": "ATHIS MONS",
     "cp": "91200",
     "prix": 0.001759,
@@ -1056,15 +1224,17 @@
     "coutTotal": 0.09636818711516028
   },
   {
-    "station": "32/38 AV DE LA GARE",
+    "station": "TotalEnergies",
+    "adresse": "32/38 AV DE LA GARE",
     "ville": "GOUSSAINVILLE",
     "cp": "95190",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 23.65945465382685,
-    "coutTotal": 0.09769642531141619
+    "coutTotal": 0.09791535287513925
   },
   {
-    "station": "38 ROUTE DE LONGJUMEAU",
+    "station": "Intermarché",
+    "adresse": "38 ROUTE DE LONGJUMEAU",
     "ville": "Chilly-Mazarin",
     "cp": "91380",
     "prix": 0.001689,
@@ -1072,23 +1242,26 @@
     "coutTotal": 0.09181609099141394
   },
   {
-    "station": "320 AV DU GENERAL DE GAULLE",
+    "station": "TotalEnergies",
+    "adresse": "320 AV DU GENERAL DE GAULLE",
     "ville": "CLAMART",
     "cp": "92140",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 12.398848484293847,
-    "coutTotal": 0.09630037739373584
+    "coutTotal": 0.09651029647252327
   },
   {
-    "station": "22 AVENUE GERARD ANNEL - D912",
+    "station": "TotalEnergies Access",
+    "adresse": "22 AVENUE GERARD ANNEL - D912",
     "ville": "MAULETTE",
     "cp": "78550",
-    "prix": 0.001692,
+    "prix": 0.001696,
     "distance": 44.2878702919266,
-    "coutTotal": 0.09958701530678796
+    "coutTotal": 0.0998224456030215
   },
   {
-    "station": "CHEMIN DEPARTEMENTAL 43",
+    "station": "Esso Express",
+    "adresse": "CHEMIN DEPARTEMENTAL 43",
     "ville": "ECQUEVILLY",
     "cp": "78920",
     "prix": 0.001759,
@@ -1096,15 +1269,17 @@
     "coutTotal": 0.09593935559089314
   },
   {
-    "station": "17 RUE ARCHANGE",
+    "station": "TotalEnergies",
+    "adresse": "17 RUE ARCHANGE",
     "ville": "ORSAY",
     "cp": "91400",
-    "prix": 0.0017829999999999999,
+    "prix": 0.001789,
     "distance": 21.71775841325441,
-    "coutTotal": 0.09689455265016651
+    "coutTotal": 0.09722061396026244
   },
   {
-    "station": "182 RUE P.VAILLANT COUTURIER",
+    "station": "TotalEnergies Access",
+    "adresse": "182 RUE P.VAILLANT COUTURIER",
     "ville": "NANTERRE",
     "cp": "92000",
     "prix": 0.001739,
@@ -1112,7 +1287,17 @@
     "coutTotal": 0.08739474634810017
   },
   {
-    "station": "151 AVENUE DIVISION LECLERC",
+    "station": "TotalEnergies",
+    "adresse": "BLD DU PERIPHERIQUE EXTERIEUR",
+    "ville": "Paris",
+    "cp": "75019",
+    "prix": 0.001839,
+    "distance": 12.370052422403786,
+    "coutTotal": 0.09649970528096011
+  },
+  {
+    "station": "Esso",
+    "adresse": "151 AVENUE DIVISION LECLERC",
     "ville": "Châtenay-Malabry",
     "cp": "92290",
     "prix": 0.001869,
@@ -1120,7 +1305,8 @@
     "coutTotal": 0.09918184818939732
   },
   {
-    "station": "ROUTE NATIONALE 118",
+    "station": "Esso",
+    "adresse": "ROUTE NATIONALE 118",
     "ville": "Bièvres",
     "cp": "91570",
     "prix": 0.001779,
@@ -1128,7 +1314,8 @@
     "coutTotal": 0.09467168101282354
   },
   {
-    "station": "238 RUE DE PARIS",
+    "station": "TotalEnergies Access",
+    "adresse": "238 RUE DE PARIS",
     "ville": "LES LILAS",
     "cp": "93260",
     "prix": 0.0017330000000000002,
@@ -1136,7 +1323,8 @@
     "coutTotal": 0.09203304713544763
   },
   {
-    "station": "28 Avenue de la Division Leclerc",
+    "station": "Esso",
+    "adresse": "28 Avenue de la Division Leclerc",
     "ville": "Deuil-la-Barre",
     "cp": "95170",
     "prix": 0.001849,
@@ -1144,7 +1332,8 @@
     "coutTotal": 0.09674753688642224
   },
   {
-    "station": "ROUTE NATIONALE 184",
+    "station": "Esso",
+    "adresse": "ROUTE NATIONALE 184",
     "ville": "Eragny-sur-Oise",
     "cp": "95610",
     "prix": 0.0018189999999999999,
@@ -1152,15 +1341,17 @@
     "coutTotal": 0.09699190629126825
   },
   {
-    "station": "ROUTE DE GARGENVILLE",
+    "station": "TotalEnergies Access",
+    "adresse": "ROUTE DE GARGENVILLE",
     "ville": "EPONE",
     "cp": "78680",
-    "prix": 0.001686,
+    "prix": 0.001689,
     "distance": 29.775395422549696,
-    "coutTotal": 0.09434026333648375
+    "coutTotal": 0.09450812857373728
   },
   {
-    "station": "RN 12 - LA PRAIRIE",
+    "station": "Avia",
+    "adresse": "RN 12 - LA PRAIRIE",
     "ville": "MAULETTE",
     "cp": "78550",
     "prix": 0.001829,
@@ -1168,15 +1359,35 @@
     "coutTotal": 0.10732434906849081
   },
   {
-    "station": "29 Avenue du Général Leclerc",
-    "ville": "SEVRAN",
-    "cp": "93270",
-    "prix": 0.001829,
-    "distance": 24.019770963129314,
-    "coutTotal": 0.10023643221831269
+    "station": "TotalEnergies",
+    "adresse": "30 AV PTE CLIGNANCOURT",
+    "ville": "PARIS",
+    "cp": "75018",
+    "prix": 0.001839,
+    "distance": 10.122524907863099,
+    "coutTotal": 0.09567306466111204
   },
   {
-    "station": "38, AVENUE DU DELATTRE DE TASSIGNY",
+    "station": "TotalEnergies",
+    "adresse": "FACE 55 AV. GEORGES V - PARKG GE",
+    "ville": "PARIS",
+    "cp": "75008",
+    "prix": 0.001839,
+    "distance": 7.311100608815202,
+    "coutTotal": 0.09463902280392222
+  },
+  {
+    "station": "Esso",
+    "adresse": "29 Avenue du Général Leclerc",
+    "ville": "SEVRAN",
+    "cp": "93270",
+    "prix": 0.0018189999999999999,
+    "distance": 24.019770963129314,
+    "coutTotal": 0.09968839267638643
+  },
+  {
+    "station": "Esso",
+    "adresse": "38, AVENUE DU DELATTRE DE TASSIGNY",
     "ville": "Meudon-la-Forêt",
     "cp": "92360",
     "prix": 0.001759,
@@ -1184,15 +1395,17 @@
     "coutTotal": 0.0921866356794657
   },
   {
-    "station": "32 Boulevard Saint-Michel",
+    "station": "Intermarché",
+    "adresse": "32 Boulevard Saint-Michel",
     "ville": "ÉTAMPES",
     "cp": "91150",
-    "prix": 0.001657,
+    "prix": 0.001667,
     "distance": 50.18905888553877,
-    "coutTotal": 0.09948265411466756
+    "coutTotal": 0.10008303223243864
   },
   {
-    "station": "2 Route de Gometz",
+    "station": "Esso Express",
+    "adresse": "2 Route de Gometz",
     "ville": "Gif-sur-Yvette",
     "cp": "91190",
     "prix": 0.001699,
@@ -1200,15 +1413,17 @@
     "coutTotal": 0.09305156141408451
   },
   {
-    "station": "53 ROUTE DE SAINT LEU",
+    "station": "TotalEnergies",
+    "adresse": "53 ROUTE DE SAINT LEU",
     "ville": "Épinay-sur-Seine",
     "cp": "93800",
-    "prix": 0.001823,
+    "prix": 0.0018260000000000001,
     "distance": 11.818293387788032,
-    "coutTotal": 0.0954589497691875
+    "coutTotal": 0.09561604074522019
   },
   {
-    "station": "30 RUE DE LA DEMENERIE",
+    "station": "Système U",
+    "adresse": "30 RUE DE LA DEMENERIE",
     "ville": "FONTENAY-LE-FLEURY",
     "cp": "78330",
     "prix": 0.0016690000000000001,
@@ -1216,7 +1431,8 @@
     "coutTotal": 0.08848954450278936
   },
   {
-    "station": "4 BLD HENRI BARBUSSE",
+    "station": "TotalEnergies Access",
+    "adresse": "4 BLD HENRI BARBUSSE",
     "ville": "Saint-Cyr-l'École",
     "cp": "78210",
     "prix": 0.001699,
@@ -1224,15 +1440,17 @@
     "coutTotal": 0.08997872636173877
   },
   {
-    "station": "19 AV JEAN JAURES",
+    "station": "Esso",
+    "adresse": "19 AV JEAN JAURES",
     "ville": "BOBIGNY",
     "cp": "93000",
-    "prix": 0.001739,
+    "prix": 0.0017490000000000001,
     "distance": 17.53476136152487,
-    "coutTotal": 0.09304859000153835
+    "coutTotal": 0.0935836595242614
   },
   {
-    "station": "62-68 ROUTE DES PETITS PONTS",
+    "station": "TotalEnergies Access",
+    "adresse": "62-68 ROUTE DES PETITS PONTS",
     "ville": "Tremblay-en-France",
     "cp": "93290",
     "prix": 0.001712,
@@ -1240,7 +1458,8 @@
     "coutTotal": 0.09496164741250522
   },
   {
-    "station": "138 BOULEVARD HENRI SELLIER",
+    "station": "Esso Express",
+    "adresse": "138 BOULEVARD HENRI SELLIER",
     "ville": "Suresnes",
     "cp": "92150",
     "prix": 0.001759,
@@ -1248,15 +1467,26 @@
     "coutTotal": 0.08917053314926035
   },
   {
-    "station": "107 RUE DE BREMENT",
-    "ville": "Noisy-le-Sec",
-    "cp": "93130",
-    "prix": 0.001759,
-    "distance": 18.576938220251122,
-    "coutTotal": 0.09448536686588435
+    "station": "TotalEnergies",
+    "adresse": "238 RUE DE CHARENTON",
+    "ville": "Paris",
+    "cp": "75012",
+    "prix": 0.001839,
+    "distance": 14.65000063503015,
+    "coutTotal": 0.09733827023356408
   },
   {
-    "station": "61 Rue de Brunoy",
+    "station": "Esso",
+    "adresse": "107 RUE DE BREMENT",
+    "ville": "Noisy-le-Sec",
+    "cp": "93130",
+    "prix": 0.001769,
+    "distance": 18.576938220251122,
+    "coutTotal": 0.09502252074232485
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "61 Rue de Brunoy",
     "ville": "Quincy-sous-Sénart",
     "cp": "91480",
     "prix": 0.001813,
@@ -1264,7 +1494,8 @@
     "coutTotal": 0.10281168988286912
   },
   {
-    "station": "ROND-POINT DE L'HOTEL DE VILLE",
+    "station": "TotalEnergies Access",
+    "adresse": "ROND-POINT DE L'HOTEL DE VILLE",
     "ville": "ELANCOURT",
     "cp": "78990",
     "prix": 0.001703,
@@ -1272,31 +1503,35 @@
     "coutTotal": 0.09304523203506024
   },
   {
-    "station": "24 Avenue de la Jonchère",
+    "station": "Esso",
+    "adresse": "24 Avenue de la Jonchère",
     "ville": "LA CELLE-SAINT-CLOUD",
     "cp": "78170",
-    "prix": 0.001759,
+    "prix": 0.001769,
     "distance": 5.956847856542664,
-    "coutTotal": 0.09004561907593171
+    "coutTotal": 0.0905575327716448
   },
   {
-    "station": "108 Boulevard Émile Zola",
+    "station": "Auchan",
+    "adresse": "108 Boulevard Émile Zola",
     "ville": "HOUILLES",
     "cp": "78800",
-    "prix": 0.0017259999999999999,
+    "prix": 0.0017330000000000002,
     "distance": 3.50340258495494,
-    "coutTotal": 0.08750937457232644
+    "coutTotal": 0.08786427933594539
   },
   {
-    "station": "137 Avenue Aristide Briand",
+    "station": "Esso",
+    "adresse": "137 Avenue Aristide Briand",
     "ville": "LIVRY-GARGAN",
     "cp": "93190",
-    "prix": 0.0018189999999999999,
+    "prix": 0.001829,
     "distance": 23.51129628911192,
-    "coutTotal": 0.0995034095899789
+    "coutTotal": 0.10005043218255713
   },
   {
-    "station": "37 Avenue de Verdun",
+    "station": "Esso",
+    "adresse": "37 Avenue de Verdun",
     "ville": "Villeneuve-la-Garenne",
     "cp": "92390",
     "prix": 0.001879,
@@ -1304,7 +1539,8 @@
     "coutTotal": 0.09781496454532193
   },
   {
-    "station": "66 Boulevard Victor Bordier",
+    "station": "Carrefour",
+    "adresse": "66 Boulevard Victor Bordier",
     "ville": "MONTIGNY-LèS-CORMEILLES",
     "cp": "95370",
     "prix": 0.001544,
@@ -1312,7 +1548,8 @@
     "coutTotal": 0.08065558121048275
   },
   {
-    "station": "RN12 E12-LE VAL RAYMOND",
+    "station": "Avia",
+    "adresse": "RN12 E12-LE VAL RAYMOND",
     "ville": "Maulette",
     "cp": "78550",
     "prix": 0.001829,
@@ -1320,7 +1557,8 @@
     "coutTotal": 0.10736554817811327
   },
   {
-    "station": "239 Route d'Enghien",
+    "station": "Esso",
+    "adresse": "239 Route d'Enghien",
     "ville": "Argenteuil",
     "cp": "95100",
     "prix": 0.0018089999999999998,
@@ -1328,7 +1566,8 @@
     "coutTotal": 0.09376425558392433
   },
   {
-    "station": "4 Route de Marolles",
+    "station": "Netto",
+    "adresse": "4 Route de Marolles",
     "ville": "La Norville",
     "cp": "91290",
     "prix": 0.0016790000000000002,
@@ -1336,31 +1575,35 @@
     "coutTotal": 0.09576281265681534
   },
   {
-    "station": "Rue de la Chasse",
+    "station": "Esso",
+    "adresse": "Rue de la Chasse",
     "ville": "Noisy-le-Sec",
     "cp": "93130",
-    "prix": 0.001889,
+    "prix": 0.001879,
     "distance": 18.404892125284253,
-    "coutTotal": 0.1014033682449324
+    "coutTotal": 0.10086655846068182
   },
   {
-    "station": "AVENUE DE LANGRES",
+    "station": "TotalEnergies",
+    "adresse": "AVENUE DE LANGRES",
     "ville": "MAUREPAS",
     "cp": "78310",
-    "prix": 0.001784,
+    "prix": 0.001789,
     "distance": 23.946953605381417,
-    "coutTotal": 0.09774427304640008
+    "coutTotal": 0.09801822000000547
   },
   {
-    "station": "Boulevard André Brémond",
+    "station": "Esso Express",
+    "adresse": "Boulevard André Brémond",
     "ville": "Saint-Leu-la-Forêt",
     "cp": "95320",
-    "prix": 0.001709,
+    "prix": 0.001699,
     "distance": 13.109301523844728,
-    "coutTotal": 0.08993075926085013
+    "coutTotal": 0.08940454065780244
   },
   {
-    "station": "93 Avenue Vladimir Illitch Lénine",
+    "station": "Esso",
+    "adresse": "93 Avenue Vladimir Illitch Lénine",
     "ville": "Nanterre",
     "cp": "92000",
     "prix": 0.0018189999999999999,
@@ -1368,15 +1611,26 @@
     "coutTotal": 0.09146220022143396
   },
   {
-    "station": "Rue de Corbeil",
+    "station": "Intermarché",
+    "adresse": "Rue de Corbeil",
     "ville": "LISSES",
     "cp": "91090",
-    "prix": 0.001714,
+    "prix": 0.001736,
     "distance": 36.59649346572894,
-    "coutTotal": 0.09824527796005188
+    "coutTotal": 0.09950630253130109
   },
   {
-    "station": "RUE DE LONGJUMEAU RUE AMPERE",
+    "station": "TotalEnergies",
+    "adresse": "27 AVENUE DE LA PORTE D'ITALIE",
+    "ville": "Paris",
+    "cp": "75013",
+    "prix": 0.001839,
+    "distance": 14.050869444929702,
+    "coutTotal": 0.09711790978184513
+  },
+  {
+    "station": "Esso",
+    "adresse": "RUE DE LONGJUMEAU RUE AMPERE",
     "ville": "Chilly-Mazarin",
     "cp": "91380",
     "prix": 0.001699,
@@ -1384,15 +1638,17 @@
     "coutTotal": 0.09210826746187352
   },
   {
-    "station": "RN 6",
+    "station": "Esso",
+    "adresse": "RN 6",
     "ville": "Montgeron",
     "cp": "91230",
-    "prix": 0.001769,
+    "prix": 0.0017490000000000001,
     "distance": 28.845541633006725,
-    "coutTotal": 0.09865555262975778
+    "coutTotal": 0.09754017046322576
   },
   {
-    "station": "ZA LE CHENET",
+    "station": "Carrefour Market",
+    "adresse": "ZA LE CHENET",
     "ville": "Milly-la-Forêt",
     "cp": "91490",
     "prix": 0.001711,
@@ -1400,7 +1656,8 @@
     "coutTotal": 0.10520563295429076
   },
   {
-    "station": "RUE MICHEL ANGE ROUTE N 370",
+    "station": "Esso",
+    "adresse": "RUE MICHEL ANGE ROUTE N 370",
     "ville": "AULNAY SOUS BOIS",
     "cp": "93600",
     "prix": 0.0018189999999999999,
@@ -1408,15 +1665,17 @@
     "coutTotal": 0.0987846063502272
   },
   {
-    "station": "211 Boulevard de Pontoise",
+    "station": "Esso",
+    "adresse": "211 Boulevard de Pontoise",
     "ville": "MONTIGNY-LES-CORMEILLES",
     "cp": "95370",
-    "prix": 0.001829,
+    "prix": 0.0018189999999999999,
     "distance": 11.201884656824127,
-    "coutTotal": 0.09554764940746625
+    "coutTotal": 0.09502524563815261
   },
   {
-    "station": "50 avenue john fitzgerald kennedy",
+    "station": "Esso",
+    "adresse": "50 avenue john fitzgerald kennedy",
     "ville": "SEVRAN",
     "cp": "93270",
     "prix": 0.001849,
@@ -1424,7 +1683,8 @@
     "coutTotal": 0.1009896829611721
   },
   {
-    "station": "Quai de Dion-Bouton",
+    "station": "Esso",
+    "adresse": "Quai de Dion-Bouton",
     "ville": "PUTEAUX",
     "cp": "92800",
     "prix": 0.001839,
@@ -1432,15 +1692,17 @@
     "coutTotal": 0.09311676180243433
   },
   {
-    "station": "43-47 BOULEVARD DE VERDUN",
+    "station": "TotalEnergies Access",
+    "adresse": "43-47 BOULEVARD DE VERDUN",
     "ville": "COURBEVOIE",
     "cp": "92400",
-    "prix": 0.001739,
+    "prix": 0.0017439999999999999,
     "distance": 4.106204899455284,
-    "coutTotal": 0.08837813806403055
+    "coutTotal": 0.08863224426893
   },
   {
-    "station": "AUTOROUTE F 18 - RN 118",
+    "station": "Shell",
+    "adresse": "AUTOROUTE F 18 - RN 118",
     "ville": "SACLAY",
     "cp": "91400",
     "prix": 0.001943,
@@ -1448,31 +1710,35 @@
     "coutTotal": 0.10455355637884248
   },
   {
-    "station": "RN 184 - ZI VERT GALANT",
+    "station": "TotalEnergies",
+    "adresse": "RN 184 - ZI VERT GALANT",
     "ville": "Saint-Ouen-l'Aumône",
     "cp": "95310",
-    "prix": 0.001782,
+    "prix": 0.001789,
     "distance": 18.090132584325477,
-    "coutTotal": 0.0955473232530536
+    "coutTotal": 0.09592264943867165
   },
   {
-    "station": "AV DE GANAY - RN 148",
+    "station": "TotalEnergies Access",
+    "adresse": "AV DE GANAY - RN 148",
     "ville": "Milly-la-Forêt",
     "cp": "91490",
-    "prix": 0.0016790000000000002,
+    "prix": 0.001681,
     "distance": 57.274373333021195,
-    "coutTotal": 0.10318273456522853
+    "coutTotal": 0.10330564431456173
   },
   {
-    "station": "12 Allée de la Fosse-Maussoin",
+    "station": "Leclerc",
+    "adresse": "12 Allée de la Fosse-Maussoin",
     "ville": "CLICHY-SOUS-BOIS",
     "cp": "93390",
-    "prix": 0.0016439999999999998,
+    "prix": 0.0016519999999999998,
     "distance": 23.88413801567633,
-    "coutTotal": 0.09005310457955437
+    "coutTotal": 0.09049131920037945
   },
   {
-    "station": "77 Avenue Ãdouard Depreux",
+    "station": "Esso",
+    "adresse": "77 Avenue Ãdouard Depreux",
     "ville": "SCEAUX",
     "cp": "92330",
     "prix": 0.001839,
@@ -1480,7 +1746,8 @@
     "coutTotal": 0.09718982580885518
   },
   {
-    "station": "AVENUE ROBERT SHUMANN",
+    "station": "Carrefour",
+    "adresse": "AVENUE ROBERT SHUMANN",
     "ville": "SARTROUVILLE",
     "cp": "78500",
     "prix": 0.001732,
@@ -1488,7 +1755,8 @@
     "coutTotal": 0.08874731275582594
   },
   {
-    "station": "5 Avenue Henri Barbusse",
+    "station": "Intermarché",
+    "adresse": "5 Avenue Henri Barbusse",
     "ville": "VIGNEUX-SUR-SEINE",
     "cp": "91270",
     "prix": 0.0016790000000000002,
@@ -1496,7 +1764,8 @@
     "coutTotal": 0.09287838301645986
   },
   {
-    "station": "LIEUDIT BUTTE DE GRAVOIS RN104",
+    "station": "Esso",
+    "adresse": "LIEUDIT BUTTE DE GRAVOIS RN104",
     "ville": "Saint-Germain-lès-Corbeil",
     "cp": "91250",
     "prix": 0.001779,
@@ -1504,15 +1773,17 @@
     "coutTotal": 0.101613260195407
   },
   {
-    "station": "155 AVENUE DU GENERAL LECLERC",
+    "station": "TotalEnergies Access",
+    "adresse": "155 AVENUE DU GENERAL LECLERC",
     "ville": "Gif-sur-Yvette",
     "cp": "91190",
-    "prix": 0.001704,
+    "prix": 0.001699,
     "distance": 22.234683764819742,
-    "coutTotal": 0.09277758022705057
+    "coutTotal": 0.09250534554328575
   },
   {
-    "station": "RN 104 Aire Des Chevreaux",
+    "station": "Esso",
+    "adresse": "RN 104 Aire Des Chevreaux",
     "ville": "Saint-Germain-lès-Corbeil",
     "cp": "91250",
     "prix": 0.001769,
@@ -1520,23 +1791,26 @@
     "coutTotal": 0.10108921536739411
   },
   {
-    "station": "AVENUE DES ERABLES",
+    "station": "TotalEnergies Access",
+    "adresse": "AVENUE DES ERABLES",
     "ville": "Villiers-le-Bel",
     "cp": "95400",
-    "prix": 0.001701,
+    "prix": 0.001699,
     "distance": 18.236586736658186,
-    "coutTotal": 0.09125408680781112
+    "coutTotal": 0.09114679217311646
   },
   {
-    "station": "64 BD CHARLES DE GAULLE",
+    "station": "Esso",
+    "adresse": "64 BD CHARLES DE GAULLE",
     "ville": "COLOMBES",
     "cp": "92700",
-    "prix": 0.0018189999999999999,
+    "prix": 0.001829,
     "distance": 2.9538030376732247,
-    "coutTotal": 0.0920245935451055
+    "coutTotal": 0.09253050115118086
   },
   {
-    "station": "40 RUE DE FONTENAY",
+    "station": "Esso",
+    "adresse": "40 RUE DE FONTENAY",
     "ville": "CHATILLON",
     "cp": "92320",
     "prix": 0.001779,
@@ -1544,31 +1818,35 @@
     "coutTotal": 0.09326439277798866
   },
   {
-    "station": "A10 AIRE DE LIMOURS JANVRY",
+    "station": "TotalEnergies",
+    "adresse": "A10 AIRE DE LIMOURS JANVRY",
     "ville": "JANVRY",
     "cp": "91640",
-    "prix": 0.0018859999999999999,
+    "prix": 0.001899,
     "distance": 28.752713634498964,
-    "coutTotal": 0.105145523582933
+    "coutTotal": 0.10587028063838272
   },
   {
-    "station": "ROUTE DE VILLOISON",
+    "station": "Carrefour",
+    "adresse": "ROUTE DE VILLOISON",
     "ville": "VILLABE",
     "cp": "91100",
-    "prix": 0.001732,
+    "prix": 0.001736,
     "distance": 38.48833622206493,
-    "coutTotal": 0.09993235966732329
+    "coutTotal": 0.10016315033630094
   },
   {
-    "station": "RN 13",
+    "station": "Carrefour",
+    "adresse": "RN 13",
     "ville": "CHAMBOURCY",
     "cp": "78240",
-    "prix": 0.001711,
+    "prix": 0.0017150000000000002,
     "distance": 12.794270780654921,
-    "coutTotal": 0.08992819946114011
+    "coutTotal": 0.09013843487776464
   },
   {
-    "station": "27 Route Départementale 307",
+    "station": "TotalEnergies",
+    "adresse": "27 Route Départementale 307",
     "ville": "Crespières",
     "cp": "78121",
     "prix": 0.001789,
@@ -1576,15 +1854,17 @@
     "coutTotal": 0.09703579066674281
   },
   {
-    "station": "Avenue de l'Orme à Martin",
+    "station": "Esso",
+    "adresse": "Avenue de l'Orme à Martin",
     "ville": "Courcouronnes",
     "cp": "91080",
-    "prix": 0.0018089999999999998,
+    "prix": 0.0018189999999999999,
     "distance": 32.93471771080517,
-    "coutTotal": 0.10236578086776929
+    "coutTotal": 0.1029316503031909
   },
   {
-    "station": "130-132 AVENUE DU GENERAL LECLERC",
+    "station": "TotalEnergies Access",
+    "adresse": "130-132 AVENUE DU GENERAL LECLERC",
     "ville": "PANTIN",
     "cp": "93500",
     "prix": 0.001729,
@@ -1592,15 +1872,17 @@
     "coutTotal": 0.09164016369267992
   },
   {
-    "station": "82 Quai du Maréchal Joffre",
+    "station": "Esso",
+    "adresse": "82 Quai du Maréchal Joffre",
     "ville": "Courbevoie",
     "cp": "92400",
-    "prix": 0.0017490000000000001,
+    "prix": 0.001759,
     "distance": 5.368218312019667,
-    "coutTotal": 0.08932780276554447
+    "coutTotal": 0.08983853920216851
   },
   {
-    "station": "AVENUE G CLEMENCEAU CD 40",
+    "station": "Esso",
+    "adresse": "AVENUE G CLEMENCEAU CD 40",
     "ville": "VILLEPINTE",
     "cp": "93420",
     "prix": 0.001719,
@@ -1608,7 +1890,8 @@
     "coutTotal": 0.09517739633743985
   },
   {
-    "station": "4 Route de VERSAILLES",
+    "station": "G20",
+    "adresse": "4 Route de VERSAILLES",
     "ville": "Thoiry",
     "cp": "78770",
     "prix": 0.001699,
@@ -1616,23 +1899,26 @@
     "coutTotal": 0.09514900714151484
   },
   {
-    "station": "AIRE DU VAL DE GRACE",
+    "station": "Shell",
+    "adresse": "AIRE DU VAL DE GRACE",
     "ville": "VELIZY-VILLACOUBLAY",
     "cp": "78140",
-    "prix": 0.00195,
+    "prix": 0.0019450000000000001,
     "distance": 13.590372200881392,
-    "coutTotal": 0.10280024515834374
+    "coutTotal": 0.10253665478614286
   },
   {
-    "station": "44 AVENUE DE PARIS",
+    "station": "TotalEnergies",
+    "adresse": "44 AVENUE DE PARIS",
     "ville": "L'Isle-Adam",
     "cp": "95290",
-    "prix": 0.001776,
+    "prix": 0.0017829999999999999,
     "distance": 24.27296096657361,
-    "coutTotal": 0.09742175573532695
+    "coutTotal": 0.09780573788068014
   },
   {
-    "station": "145, rue de Versailles",
+    "station": "Système U",
+    "adresse": "145, rue de Versailles",
     "ville": "LE CHESNAY",
     "cp": "78150",
     "prix": 0.001629,
@@ -1640,15 +1926,17 @@
     "coutTotal": 0.08446441595442329
   },
   {
-    "station": "CD 36",
+    "station": "Esso",
+    "adresse": "CD 36",
     "ville": "VOISINS LE BRETONNEUX",
     "cp": "78960",
-    "prix": 0.001769,
+    "prix": 0.001759,
     "distance": 18.833334605512203,
-    "coutTotal": 0.09511323378343021
+    "coutTotal": 0.09457556711421919
   },
   {
-    "station": "RN7 DOMAINE DE L'AUNETTE",
+    "station": "Intermarché",
+    "adresse": "RN7 DOMAINE DE L'AUNETTE",
     "ville": "Ris-Orangis",
     "cp": "91130",
     "prix": 0.001684,
@@ -1656,15 +1944,17 @@
     "coutTotal": 0.09473412799805375
   },
   {
-    "station": "29-31 AVENUE MORIZET",
+    "station": "TotalEnergies",
+    "adresse": "29-31 AVENUE MORIZET",
     "ville": "BOULOGNE BILLANCOURT",
     "cp": "92100",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 6.745352949771216,
-    "coutTotal": 0.09422554453256604
+    "coutTotal": 0.09443094081492584
   },
   {
-    "station": "18 Boulevard Jean jaures",
+    "station": "Avia",
+    "adresse": "18 Boulevard Jean jaures",
     "ville": "CORBEIL ESSONNES",
     "cp": "91100",
     "prix": 0.001703,
@@ -1672,7 +1962,8 @@
     "coutTotal": 0.097794760007683
   },
   {
-    "station": "Aire de Rosny Nord - Autoroute A13 - Sens Paris",
+    "station": "Esso",
+    "adresse": "Aire de Rosny Nord - Autoroute A13 - Sens Paris",
     "ville": "ROSNY SUR SEINE",
     "cp": "78710",
     "prix": 0.001806,
@@ -1680,15 +1971,17 @@
     "coutTotal": 0.10591985284215945
   },
   {
-    "station": "48 AVENUE KELLERMANN",
+    "station": "TotalEnergies",
+    "adresse": "48 AVENUE KELLERMANN",
     "ville": "EAUBONNE",
     "cp": "95600",
-    "prix": 0.001789,
+    "prix": 0.0017909999999999998,
     "distance": 11.354995272098964,
-    "coutTotal": 0.093512817308357
+    "coutTotal": 0.09361735930646584
   },
   {
-    "station": "17 AVENUE MARCEL CACHIN",
+    "station": "TotalEnergies Access",
+    "adresse": "17 AVENUE MARCEL CACHIN",
     "ville": "STAINS",
     "cp": "93240",
     "prix": 0.001729,
@@ -1696,7 +1989,8 @@
     "coutTotal": 0.09156490317371897
   },
   {
-    "station": "265 AV GEORGES CLEMENCEAU",
+    "station": "Esso",
+    "adresse": "265 AV GEORGES CLEMENCEAU",
     "ville": "NANTERRE",
     "cp": "92000",
     "prix": 0.001739,
@@ -1704,23 +1998,26 @@
     "coutTotal": 0.08742825025073607
   },
   {
-    "station": "32-40 AVENUE DU 18 JUIN 1940",
+    "station": "TotalEnergies",
+    "adresse": "32-40 AVENUE DU 18 JUIN 1940",
     "ville": "Rueil-Malmaison",
     "cp": "92500",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 2.9368069170126874,
-    "coutTotal": 0.09282780813854366
+    "coutTotal": 0.09303015758407726
   },
   {
-    "station": "63 Avenue Jean Jaurès",
+    "station": "Esso Express",
+    "adresse": "63 Avenue Jean Jaurès",
     "ville": "Argenteuil",
     "cp": "95100",
-    "prix": 0.001789,
+    "prix": 0.001799,
     "distance": 5.638226168218526,
-    "coutTotal": 0.0914673573229886
+    "coutTotal": 0.09197863377532503
   },
   {
-    "station": "76 avenue Pierre LAROUSSE",
+    "station": "Esso",
+    "adresse": "76 avenue Pierre LAROUSSE",
     "ville": "Malakoff",
     "cp": "92240",
     "prix": 0.001839,
@@ -1728,7 +2025,17 @@
     "coutTotal": 0.09593600325904594
   },
   {
-    "station": "CD55 ROUTE DE POISSY CHANTELOUP",
+    "station": "TotalEnergies",
+    "adresse": "154 Rue d'Alésia",
+    "ville": "Paris",
+    "cp": "75014",
+    "prix": 0.001839,
+    "distance": 10.488379541756869,
+    "coutTotal": 0.09580762599545817
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "CD55 ROUTE DE POISSY CHANTELOUP",
     "ville": "Andrésy",
     "cp": "78570",
     "prix": 0.001779,
@@ -1736,7 +2043,8 @@
     "coutTotal": 0.09432215899846945
   },
   {
-    "station": "91 Avenue Aristide Briand",
+    "station": "Avia",
+    "adresse": "91 Avenue Aristide Briand",
     "ville": "MONTROUGE",
     "cp": "92120",
     "prix": 0.001879,
@@ -1744,7 +2052,8 @@
     "coutTotal": 0.09858102405570032
   },
   {
-    "station": "Route de Palaiseau",
+    "station": "Leclerc",
+    "adresse": "Route de Palaiseau",
     "ville": "MASSY",
     "cp": "91300",
     "prix": 0.001699,
@@ -1752,7 +2061,8 @@
     "coutTotal": 0.09120344448349461
   },
   {
-    "station": "Rue de la gare",
+    "station": "Carrefour Market",
+    "adresse": "Rue de la gare",
     "ville": "MAROLLES-EN-HUREPOIX",
     "cp": "91630",
     "prix": 0.0016699999999999998,
@@ -1760,15 +2070,17 @@
     "coutTotal": 0.0958649693941207
   },
   {
-    "station": "Rue du Centre Centre Reg Mont D'Est",
+    "station": "TotalEnergies",
+    "adresse": "Rue du Centre Centre Reg Mont D'Est",
     "ville": "Noisy-le-Grand",
     "cp": "93160",
-    "prix": 0.001829,
+    "prix": 0.0018340000000000001,
     "distance": 25.705654105539733,
-    "coutTotal": 0.10085312827180642
+    "coutTotal": 0.10112883392591197
   },
   {
-    "station": "116 Avenue Pasteur",
+    "station": "TotalEnergies",
+    "adresse": "116 Avenue Pasteur",
     "ville": "Orgeval",
     "cp": "78630",
     "prix": 0.001776,
@@ -1776,23 +2088,26 @@
     "coutTotal": 0.09490709306893587
   },
   {
-    "station": "RN 13 RTE D'EVREUX",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 13 RTE D'EVREUX",
     "ville": "Chaufour-lès-Bonnières",
     "cp": "78270",
-    "prix": 0.001663,
+    "prix": 0.001671,
     "distance": 54.236884639145124,
-    "coutTotal": 0.10118918783097967
+    "coutTotal": 0.1016759668464023
   },
   {
-    "station": "RN7 RUE ALBERT REMY",
+    "station": "TotalEnergies Access",
+    "adresse": "RN7 RUE ALBERT REMY",
     "ville": "Ris-Orangis",
     "cp": "91130",
-    "prix": 0.001703,
+    "prix": 0.001706,
     "distance": 30.044577518767174,
-    "coutTotal": 0.09538318310289211
+    "coutTotal": 0.09555120984940337
   },
   {
-    "station": "70-74 AV ARISTIDE BRIAND",
+    "station": "Esso",
+    "adresse": "70-74 AV ARISTIDE BRIAND",
     "ville": "MONTROUGE",
     "cp": "92120",
     "prix": 0.001879,
@@ -1800,31 +2115,44 @@
     "coutTotal": 0.09926733399050529
   },
   {
-    "station": "CHEVRY BELLEVILLE",
+    "station": "Carrefour Market",
+    "adresse": "CHEVRY BELLEVILLE",
     "ville": "GIF-SUR-YVETTE",
     "cp": "91190",
-    "prix": 0.001682,
+    "prix": 0.0017150000000000002,
     "distance": 22.933613770876477,
-    "coutTotal": 0.09181486767252284
+    "coutTotal": 0.09361622952341064
   },
   {
-    "station": "8, rue Berthollet",
+    "station": "Intermarché",
+    "adresse": "8, rue Berthollet",
     "ville": "VERT-LE-PETIT",
     "cp": "91710",
-    "prix": 0.001648,
+    "prix": 0.001699,
     "distance": 40.94162060409333,
-    "coutTotal": 0.09589435815110917
+    "coutTotal": 0.09886196268127091
   },
   {
-    "station": "2 Rue Charles de Gaulle",
+    "station": "Esso",
+    "adresse": "26 AV PAUL DOUMER",
+    "ville": "PARIS",
+    "cp": "75016",
+    "prix": 0.001939,
+    "distance": 6.63154875066991,
+    "coutTotal": 0.09952171460550978
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "2 Rue Charles de Gaulle",
     "ville": "FRENEUSE",
     "cp": "78840",
-    "prix": 0.001689,
+    "prix": 0.001709,
     "distance": 47.69060302427494,
-    "coutTotal": 0.10055988570160007
+    "coutTotal": 0.10175064811369718
   },
   {
-    "station": "3 avenue Wolfgang Amadeus Mozart",
+    "station": "Leclerc",
+    "adresse": "3 avenue Wolfgang Amadeus Mozart",
     "ville": "ACHERES",
     "cp": "78260",
     "prix": 0.001665,
@@ -1832,7 +2160,8 @@
     "coutTotal": 0.08765588898037431
   },
   {
-    "station": "246 ROUTE DE L'EMPEREUR",
+    "station": "Esso",
+    "adresse": "246 ROUTE DE L'EMPEREUR",
     "ville": "RUEIL MALMAISON",
     "cp": "92500",
     "prix": 0.001759,
@@ -1840,7 +2169,8 @@
     "coutTotal": 0.0892705550112309
   },
   {
-    "station": "179 avenue Gabriel Péri",
+    "station": "TotalEnergies",
+    "adresse": "179 avenue Gabriel Péri",
     "ville": "Bezons",
     "cp": "95870",
     "prix": 0.0018189999999999999,
@@ -1848,15 +2178,17 @@
     "coutTotal": 0.09274582982134318
   },
   {
-    "station": "262 AVENUE ARISTIDE BRIAND",
+    "station": "TotalEnergies",
+    "adresse": "262 AVENUE ARISTIDE BRIAND",
     "ville": "Les Pavillons-sous-Bois",
     "cp": "93320",
-    "prix": 0.001829,
+    "prix": 0.0018340000000000001,
     "distance": 22.305894227865252,
-    "coutTotal": 0.0996094961085531
+    "coutTotal": 0.09988180200278098
   },
   {
-    "station": "42 QUAI DE DION BOUTON",
+    "station": "Esso",
+    "adresse": "42 QUAI DE DION BOUTON",
     "ville": "PUTEAUX",
     "cp": "92800",
     "prix": 0.001839,
@@ -1864,15 +2196,26 @@
     "coutTotal": 0.09314440464837631
   },
   {
-    "station": "Centre Commercial Val d'Yerres 2",
-    "ville": "Boussy-Saint-Antoine",
-    "cp": "91800",
-    "prix": 0.001664,
-    "distance": 33.85833457927201,
-    "coutTotal": 0.09446805374798171
+    "station": "Avia",
+    "adresse": "PLACE TATTEGRAIN",
+    "ville": "PARIS",
+    "cp": "75116",
+    "prix": 0.001909,
+    "distance": 5.773897118578024,
+    "coutTotal": 0.0976544739198731
   },
   {
-    "station": "8 Rue de la Longueraie",
+    "station": "Carrefour",
+    "adresse": "Centre Commercial Val d'Yerres 2",
+    "ville": "Boussy-Saint-Antoine",
+    "cp": "91800",
+    "prix": 0.0016790000000000002,
+    "distance": 33.85833457927201,
+    "coutTotal": 0.09531962875171955
+  },
+  {
+    "station": "Auchan",
+    "adresse": "8 Rue de la Longueraie",
     "ville": "VIGNEUX-SUR-SEINE",
     "cp": "91270",
     "prix": 0.0016790000000000002,
@@ -1880,31 +2223,35 @@
     "coutTotal": 0.09262003083914744
   },
   {
-    "station": "14 AVENUE DU GENERAL DE GAULLE",
+    "station": "TotalEnergies Access",
+    "adresse": "14 AVENUE DU GENERAL DE GAULLE",
     "ville": "FREPILLON",
     "cp": "95740",
-    "prix": 0.001699,
+    "prix": 0.001702,
     "distance": 17.294662499069,
-    "coutTotal": 0.09082672631718364
+    "coutTotal": 0.09098710311468308
   },
   {
-    "station": "RUE DES GRIVES - ZAC FOSSE AUX L",
+    "station": "TotalEnergies Access",
+    "adresse": "RUE DES GRIVES - ZAC FOSSE AUX L",
     "ville": "ARGENTEUIL",
     "cp": "95100",
-    "prix": 0.001732,
+    "prix": 0.001736,
     "distance": 6.275766181190284,
-    "coutTotal": 0.08877392540516431
+    "coutTotal": 0.08897894601810927
   },
   {
-    "station": "44-48 AVENUE DE LA REPUBLIQUE",
+    "station": "TotalEnergies",
+    "adresse": "44-48 AVENUE DE LA REPUBLIQUE",
     "ville": "BAGNOLET",
     "cp": "93170",
-    "prix": 0.001833,
+    "prix": 0.001839,
     "distance": 15.761829082422484,
-    "coutTotal": 0.09742828654161607
+    "coutTotal": 0.09774720073651498
   },
   {
-    "station": "RN 104 ZI DES CIROLIERS",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 104 ZI DES CIROLIERS",
     "ville": "FLEURY MEROGIS",
     "cp": "91700",
     "prix": 0.001693,
@@ -1912,7 +2259,8 @@
     "coutTotal": 0.09554794613523333
   },
   {
-    "station": "RN 14 LIEUDIT LA MARLIERE",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 14 LIEUDIT LA MARLIERE",
     "ville": "SAGY",
     "cp": "95450",
     "prix": 0.001699,
@@ -1920,7 +2268,8 @@
     "coutTotal": 0.09355200887098654
   },
   {
-    "station": "7/9 AV DU 8 MAI 1945",
+    "station": "TotalEnergies Access",
+    "adresse": "7/9 AV DU 8 MAI 1945",
     "ville": "LE BOURGET",
     "cp": "93350",
     "prix": 0.001722,
@@ -1928,15 +2277,17 @@
     "coutTotal": 0.09209506604696863
   },
   {
-    "station": "15 AV DU GENERAL PERSHING",
+    "station": "TotalEnergies",
+    "adresse": "15 AV DU GENERAL PERSHING",
     "ville": "VERSAILLES",
     "cp": "78000",
-    "prix": 0.001789,
+    "prix": 0.0017909999999999998,
     "distance": 9.241812926574882,
-    "coutTotal": 0.0927567206651285
+    "coutTotal": 0.09286041739029911
   },
   {
-    "station": "VOIE E8 LES SAULES - Avenue du 8 Mai 1945",
+    "station": "TotalEnergies Access",
+    "adresse": "VOIE E8 LES SAULES - Avenue du 8 Mai 1945",
     "ville": "GUYANCOURT",
     "cp": "78280",
     "prix": 0.001696,
@@ -1944,7 +2295,8 @@
     "coutTotal": 0.09023840802140033
   },
   {
-    "station": "Route de Fleury",
+    "station": "Leclerc",
+    "adresse": "Route de Fleury",
     "ville": "Viry-Châtillon",
     "cp": "91170",
     "prix": 0.001719,
@@ -1952,47 +2304,53 @@
     "coutTotal": 0.09573636903562036
   },
   {
-    "station": "7 AVENUE DU GENERAL LECLERC",
+    "station": "TotalEnergies Access",
+    "adresse": "7 AVENUE DU GENERAL LECLERC",
     "ville": "Saint-Germain-lès-Corbeil",
     "cp": "91250",
-    "prix": 0.001699,
+    "prix": 0.001703,
     "distance": 36.265156823074534,
-    "coutTotal": 0.09727290028848072
+    "coutTotal": 0.09750191241393918
   },
   {
-    "station": "41 BIS RUE PAUL VAILLANT COUTURI",
+    "station": "TotalEnergies Access",
+    "adresse": "41 BIS RUE PAUL VAILLANT COUTURI",
     "ville": "Bois-d'Arcy",
     "cp": "78390",
-    "prix": 0.0016950000000000001,
+    "prix": 0.001699,
     "distance": 16.643423142715168,
-    "coutTotal": 0.09039212044538045
+    "coutTotal": 0.0906054351838946
   },
   {
-    "station": "RUE DE VILLEROY",
+    "station": "TotalEnergies",
+    "adresse": "RUE DE VILLEROY",
     "ville": "BONDOUFLE",
     "cp": "91070",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 33.512105393744044,
-    "coutTotal": 0.10121382162556662
+    "coutTotal": 0.10144063130988162
   },
   {
-    "station": "Avenue Camille Desmoulins",
+    "station": "Intermarché",
+    "adresse": "Avenue Camille Desmoulins",
     "ville": "JUVISY-SUR-ORGE",
     "cp": "91260",
-    "prix": 0.00171,
+    "prix": 0.001719,
     "distance": 24.556398925278486,
-    "coutTotal": 0.09389828843244523
+    "coutTotal": 0.09439248995051075
   },
   {
-    "station": "27, 29, 31, Boulevard Clemenceau",
+    "station": "TotalEnergies",
+    "adresse": "27, 29, 31, Boulevard Clemenceau",
     "ville": "CORMEILLES-EN-PARISIS",
     "cp": "95240",
-    "prix": 0.0017909999999999998,
+    "prix": 0.001794,
     "distance": 8.788509787752215,
-    "coutTotal": 0.09269804420597283
+    "coutTotal": 0.0928533173118455
   },
   {
-    "station": "185 BD JEAN MERMOZ",
+    "station": "TotalEnergies Access",
+    "adresse": "185 BD JEAN MERMOZ",
     "ville": "Pierrefitte-sur-Seine",
     "cp": "93380",
     "prix": 0.001724,
@@ -2000,15 +2358,17 @@
     "coutTotal": 0.09127604674902483
   },
   {
-    "station": "1 RUE AUGUSTE MOUTIE",
+    "station": "TotalEnergies",
+    "adresse": "1 RUE AUGUSTE MOUTIE",
     "ville": "RAMBOUILLET",
     "cp": "78120",
-    "prix": 0.0017829999999999999,
+    "prix": 0.001789,
     "distance": 38.510225177198656,
-    "coutTotal": 0.10288274629818903
+    "coutTotal": 0.10322895856840168
   },
   {
-    "station": "RN 10 LIEU DIT L'ABBE",
+    "station": "TotalEnergies",
+    "adresse": "RN 10 LIEU DIT L'ABBE",
     "ville": "SONCHAMP",
     "cp": "78120",
     "prix": 0.001686,
@@ -2016,31 +2376,35 @@
     "coutTotal": 0.09956883561151707
   },
   {
-    "station": "56-74 AVENUE MICHELET",
+    "station": "TotalEnergies",
+    "adresse": "56-74 AVENUE MICHELET",
     "ville": "Saint-Ouen",
     "cp": "93400",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 10.233486935024242,
-    "coutTotal": 0.0955056897051539
+    "coutTotal": 0.09571387649470191
   },
   {
-    "station": "RUE NEUVE",
+    "station": "Carrefour Market",
+    "adresse": "RUE NEUVE",
     "ville": "PUISEUX-PONTOISE",
     "cp": "95650",
-    "prix": 0.001681,
+    "prix": 0.0016950000000000001,
     "distance": 22.720124199220677,
-    "coutTotal": 0.091688505755778
+    "coutTotal": 0.09245212210353582
   },
   {
-    "station": "RN 191 / AV COQUERIVE",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 191 / AV COQUERIVE",
     "ville": "ETAMPES",
     "cp": "91150",
-    "prix": 0.001665,
+    "prix": 0.0016690000000000001,
     "distance": 51.04398576322542,
-    "coutTotal": 0.10024764725915407
+    "coutTotal": 0.10048848244776465
   },
   {
-    "station": "AUTOROUTE A13 - AIRE DE MORAINVILLIERS NORD",
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A13 - AIRE DE MORAINVILLIERS NORD",
     "ville": "MORAINVILLIERS",
     "cp": "78630",
     "prix": 0.001859,
@@ -2048,15 +2412,17 @@
     "coutTotal": 0.10006381333279604
   },
   {
-    "station": "71 RUE DES CHANTIERS",
+    "station": "TotalEnergies Access",
+    "adresse": "71 RUE DES CHANTIERS",
     "ville": "VERSAILLES",
     "cp": "78000",
-    "prix": 0.001734,
+    "prix": 0.001739,
     "distance": 11.986044549497585,
-    "coutTotal": 0.09085676024976576
+    "coutTotal": 0.09111874629431527
   },
   {
-    "station": "190 AVENUE DU MARÉCHAL LECLERC",
+    "station": "TotalEnergies Access",
+    "adresse": "190 AVENUE DU MARÉCHAL LECLERC",
     "ville": "MASSY",
     "cp": "91300",
     "prix": 0.001728,
@@ -2064,7 +2430,8 @@
     "coutTotal": 0.0927794734367114
   },
   {
-    "station": "145 Rue de Paris",
+    "station": "Avia",
+    "adresse": "145 Rue de Paris",
     "ville": "LOUVRES",
     "cp": "95380",
     "prix": 0.00183,
@@ -2072,23 +2439,35 @@
     "coutTotal": 0.10164195123007015
   },
   {
-    "station": "7 BD GEORGES CLEMENCEAU",
+    "station": "TotalEnergies",
+    "adresse": "234 RUE DE CRIMEE",
+    "ville": "PARIS",
+    "cp": "75019",
+    "prix": 0.001828,
+    "distance": 12.20994958978752,
+    "coutTotal": 0.09586395757002632
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "7 BD GEORGES CLEMENCEAU",
     "ville": "Verneuil-sur-Seine",
     "cp": "78480",
-    "prix": 0.001794,
+    "prix": 0.001795,
     "distance": 19.176857044944907,
-    "coutTotal": 0.09658065630772623
+    "coutTotal": 0.09663449167913522
   },
   {
-    "station": "Route de Pontoise",
+    "station": "Intermarché",
+    "adresse": "Route de Pontoise",
     "ville": "MéRY-SUR-OISE",
     "cp": "95540",
-    "prix": 0.001659,
+    "prix": 0.001673,
     "distance": 18.919673693830934,
-    "coutTotal": 0.08922754773161311
+    "coutTotal": 0.08998052281795584
   },
   {
-    "station": "4/6/8 RUE DE CHANTEREINE RN.13",
+    "station": "TotalEnergies",
+    "adresse": "4/6/8 RUE DE CHANTEREINE RN.13",
     "ville": "MANTES-LA-VILLE",
     "cp": "78711",
     "prix": 0.0017749999999999999,
@@ -2096,7 +2475,8 @@
     "coutTotal": 0.10183782156104942
   },
   {
-    "station": "Boulevard Gambetta",
+    "station": "Carrefour Market",
+    "adresse": "Boulevard Gambetta",
     "ville": "Marines",
     "cp": "95640",
     "prix": 0.001699,
@@ -2104,15 +2484,26 @@
     "coutTotal": 0.09613881933274117
   },
   {
-    "station": "CENTRE COMMERCIAL LES PORTES DE TAVERNY",
-    "ville": "TAVERNY",
-    "cp": "95150",
-    "prix": 0.001659,
-    "distance": 13.6338763982389,
-    "coutTotal": 0.08747372018893568
+    "station": "TotalEnergies",
+    "adresse": "55 BLD DE PICPUS",
+    "ville": "PARIS",
+    "cp": "75012",
+    "prix": 0.001839,
+    "distance": 15.17094308000169,
+    "coutTotal": 0.09752987286482462
   },
   {
-    "station": "RN 10 HAMEAU DE L'ABBE",
+    "station": "Auchan",
+    "adresse": "CENTRE COMMERCIAL LES PORTES DE TAVERNY",
+    "ville": "TAVERNY",
+    "cp": "95150",
+    "prix": 0.001665,
+    "distance": 13.6338763982389,
+    "coutTotal": 0.08779008084061356
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RN 10 HAMEAU DE L'ABBE",
     "ville": "Prunay-en-Yvelines",
     "cp": "78660",
     "prix": 0.001689,
@@ -2120,79 +2511,89 @@
     "coutTotal": 0.09967126471843285
   },
   {
-    "station": "38-42 BOULEVARD GABRIEL PERI",
+    "station": "TotalEnergies Access",
+    "adresse": "38-42 BOULEVARD GABRIEL PERI",
     "ville": "SANNOIS",
     "cp": "95110",
-    "prix": 0.001712,
+    "prix": 0.001714,
     "distance": 9.239109997355456,
-    "coutTotal": 0.0887634712630945
+    "coutTotal": 0.08886716690709345
   },
   {
-    "station": "AUTOROUTE A13 - AIRE DE MORAINVILLIERS SUD",
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A13 - AIRE DE MORAINVILLIERS SUD",
     "ville": "MORAINVILLIERS",
     "cp": "78630",
-    "prix": 0.0018520000000000001,
+    "prix": 0.0018549999999999999,
     "distance": 19.251457122704274,
-    "coutTotal": 0.09973073971824967
+    "coutTotal": 0.09989229059252329
   },
   {
-    "station": "177 BD VICTOR BORDIER",
+    "station": "TotalEnergies Access",
+    "adresse": "177 BD VICTOR BORDIER",
     "ville": "Montigny-lès-Cormeilles",
     "cp": "95370",
-    "prix": 0.001704,
+    "prix": 0.001699,
     "distance": 11.67767685689305,
-    "coutTotal": 0.08917975227282915
+    "coutTotal": 0.08891807459597226
   },
   {
-    "station": "RUE SIGMUND FREUD",
+    "station": "TotalEnergies Access",
+    "adresse": "RUE SIGMUND FREUD",
     "ville": "CORBEIL ESSONNES",
     "cp": "91100",
-    "prix": 0.001712,
+    "prix": 0.001714,
     "distance": 36.30654729505926,
-    "coutTotal": 0.09803136179382829
+    "coutTotal": 0.09814588441274631
   },
   {
-    "station": "INTERMARCHE FLOTIN",
+    "station": "Intermarché",
+    "adresse": "INTERMARCHE FLOTIN",
     "ville": "Morsang-sur-Orge",
     "cp": "91390",
-    "prix": 0.0016799999999999999,
+    "prix": 0.001709,
     "distance": 27.944318323995553,
-    "coutTotal": 0.09338929095686249
+    "coutTotal": 0.09500136800314168
   },
   {
-    "station": "59 Avenue Charles Vaillant",
+    "station": "Auchan",
+    "adresse": "59 Avenue Charles Vaillant",
     "ville": "ARNOUVILLE",
     "cp": "95400",
-    "prix": 0.0016699999999999998,
+    "prix": 0.001668,
     "distance": 18.348847904219152,
-    "coutTotal": 0.08962851520000918
+    "coutTotal": 0.08952117566084751
   },
   {
-    "station": "17 ROUTE DE CORBEIL",
+    "station": "TotalEnergies Access",
+    "adresse": "17 ROUTE DE CORBEIL",
     "ville": "GRIGNY",
     "cp": "91350",
-    "prix": 0.0017050000000000001,
+    "prix": 0.001709,
     "distance": 29.255210670303814,
-    "coutTotal": 0.0952260268385736
+    "coutTotal": 0.09544943100710984
   },
   {
-    "station": "BOULEVARD TILSIT",
+    "station": "Carrefour",
+    "adresse": "BOULEVARD TILSIT",
     "ville": "L'ISLE-ADAM",
     "cp": "95290",
-    "prix": 0.0016970000000000002,
+    "prix": 0.00171,
     "distance": 25.923265728647387,
-    "coutTotal": 0.09364835638830293
+    "coutTotal": 0.0943657568791974
   },
   {
-    "station": "141 RUE PV COUTURIER",
+    "station": "TotalEnergies Access",
+    "adresse": "141 RUE PV COUTURIER",
     "ville": "NANTERRE",
     "cp": "92000",
-    "prix": 0.001739,
+    "prix": 0.0017439999999999999,
     "distance": 1.0376943865226451,
-    "coutTotal": 0.08731091010763257
+    "coutTotal": 0.0875619478020191
   },
   {
-    "station": "Route Nationale 1",
+    "station": "Leclerc",
+    "adresse": "Route Nationale 1",
     "ville": "MOISSELLES",
     "cp": "95570",
     "prix": 0.001659,
@@ -2200,55 +2601,62 @@
     "coutTotal": 0.08935100971890972
   },
   {
-    "station": "18 BD MARECHAL JOFFRE",
+    "station": "TotalEnergies",
+    "adresse": "18 BD MARECHAL JOFFRE",
     "ville": "Bourg-la-Reine",
     "cp": "92340",
-    "prix": 0.0018260000000000001,
+    "prix": 0.001839,
     "distance": 14.360776563696016,
-    "coutTotal": 0.09654455560106179
+    "coutTotal": 0.09723189362012738
   },
   {
-    "station": "86 RUE DE PARIS",
+    "station": "TotalEnergies",
+    "adresse": "86 RUE DE PARIS",
     "ville": "MONTREUIL",
     "cp": "93100",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 16.850822612892028,
-    "coutTotal": 0.09793425189893137
+    "coutTotal": 0.09814773255702168
   },
   {
-    "station": "av arbre quenée",
+    "station": "TotalEnergies",
+    "adresse": "av arbre quenée",
     "ville": "Méré",
     "cp": "78490",
-    "prix": 0.001747,
+    "prix": 0.0017490000000000001,
     "distance": 29.94492159143127,
-    "coutTotal": 0.09781275560404608
+    "coutTotal": 0.09792473357268267
   },
   {
-    "station": "LE BUISSON RONDEAU",
+    "station": "Carrefour Market",
+    "adresse": "LE BUISSON RONDEAU",
     "ville": "Breuillet",
     "cp": "91650",
-    "prix": 0.001703,
+    "prix": 0.0017150000000000002,
     "distance": 36.109546007095325,
-    "coutTotal": 0.09744891137001667
+    "coutTotal": 0.09813557428043371
   },
   {
-    "station": "Rue de Chanteloup",
+    "station": "Intermarché",
+    "adresse": "Rue de Chanteloup",
     "ville": "Saint-Germain-lès-Arpajon",
     "cp": "91180",
-    "prix": 0.001659,
+    "prix": 0.001665,
     "distance": 33.15662337662527,
-    "coutTotal": 0.09395136763636427
+    "coutTotal": 0.09429115558441623
   },
   {
-    "station": "AUTOROUTE A15 - AIRE DE PIERRELAYE",
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A15 - AIRE DE PIERRELAYE",
     "ville": "PIERRELAYE",
     "cp": "95480",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 13.992347659774834,
-    "coutTotal": 0.09424526811453961
+    "coutTotal": 0.09445646199266744
   },
   {
-    "station": "Rue des Belles Hâtes",
+    "station": "Leclerc",
+    "adresse": "Rue des Belles Hâtes",
     "ville": "CONFLANS-SAINTE-HONORINE",
     "cp": "78700",
     "prix": 0.001675,
@@ -2256,39 +2664,44 @@
     "coutTotal": 0.08898925848479672
   },
   {
-    "station": "280 Avenue Gabriel Péri",
-    "ville": "MONTESSON",
-    "cp": "78360",
-    "prix": 0.0017439999999999999,
-    "distance": 6.104112286788898,
-    "coutTotal": 0.08932911436563197
-  },
-  {
-    "station": "14 Rue du Pont Lafleur",
+    "station": "Leclerc",
+    "adresse": "14 Rue du Pont Lafleur",
     "ville": "ANGERVILLE",
     "cp": "91670",
-    "prix": 0.0016279999999999999,
+    "prix": 0.0016519999999999998,
     "distance": 65.38537042603946,
-    "coutTotal": 0.10268947661071845
+    "coutTotal": 0.10420332638876342
   },
   {
-    "station": "chemin du Poirier Charles Guérin",
+    "station": "Carrefour",
+    "adresse": "280 Avenue Gabriel Péri",
+    "ville": "MONTESSON",
+    "cp": "78360",
+    "prix": 0.0017490000000000001,
+    "distance": 6.104112286788898,
+    "coutTotal": 0.08958521847791875
+  },
+  {
+    "station": "Auchan",
+    "adresse": "chemin du Poirier Charles Guérin",
     "ville": "OSNY",
     "cp": "95520",
-    "prix": 0.001677,
+    "prix": 0.001686,
     "distance": 22.572053569569313,
-    "coutTotal": 0.09142066676723355
+    "coutTotal": 0.09191129646365877
   },
   {
-    "station": "90/94 RUE DE VERSAILLES",
+    "station": "TotalEnergies",
+    "adresse": "90/94 RUE DE VERSAILLES",
     "ville": "LE CHESNAY",
     "cp": "78150",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 9.606525236434099,
-    "coutTotal": 0.09267952950940697
+    "coutTotal": 0.09288721472959613
   },
   {
-    "station": "rd28",
+    "station": "Auchan",
+    "adresse": "rd28",
     "ville": "TESSANCOURT-SUR-AUBETTE",
     "cp": "78250",
     "prix": 0.0016690000000000001,
@@ -2296,23 +2709,35 @@
     "coutTotal": 0.0919465311152854
   },
   {
-    "station": "33 Avenue Médéric",
+    "station": "TotalEnergies",
+    "adresse": "33 Avenue Médéric",
     "ville": "Noisy-le-Grand",
     "cp": "93160",
-    "prix": 0.0018189999999999999,
+    "prix": 0.0018340000000000001,
     "distance": 26.88326759657368,
-    "coutTotal": 0.10073013275163349
+    "coutTotal": 0.10156078255442323
   },
   {
-    "station": "54 AVENUE LOUIS ARAGON",
+    "station": "TotalEnergies Access",
+    "adresse": "54 AVENUE LOUIS ARAGON",
     "ville": "BOBIGNY",
     "cp": "93000",
-    "prix": 0.001729,
+    "prix": 0.001734,
     "distance": 17.342195411795565,
-    "coutTotal": 0.0924469311733989
+    "coutTotal": 0.0927142733688107
   },
   {
-    "station": "6 AVENUE DE LA GARE",
+    "station": "TotalEnergies",
+    "adresse": "188 Avenue du Maréchal Foch",
+    "ville": "CONFLANS-SAINTE-HONORINE",
+    "cp": "78700",
+    "prix": 0.001789,
+    "distance": 14.331847058225756,
+    "coutTotal": 0.09457793487743318
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "6 AVENUE DE LA GARE",
     "ville": "MéZIèRES-SUR-SEINE",
     "cp": "78970",
     "prix": 0.0016790000000000002,
@@ -2320,31 +2745,26 @@
     "coutTotal": 0.09404134651116558
   },
   {
-    "station": "188 Avenue du Maréchal Foch",
-    "ville": "CONFLANS-SAINTE-HONORINE",
-    "cp": "78700",
-    "prix": 0.001785,
-    "distance": 14.331847058225756,
-    "coutTotal": 0.09436646939978659
-  },
-  {
-    "station": "RUE DE LA POINTE DE L'ANGE- RD",
-    "ville": "Les Clayes-sous-Bois",
-    "cp": "78340",
-    "prix": 0.001785,
-    "distance": 17.04039440585336,
-    "coutTotal": 0.09533342080288965
-  },
-  {
-    "station": "Rue Jean Cocteau",
+    "station": "Intermarché",
+    "adresse": "Rue Jean Cocteau",
     "ville": "Mennecy",
     "cp": "91540",
-    "prix": 0.0016950000000000001,
+    "prix": 0.0017050000000000001,
     "distance": 40.4605304211826,
-    "coutTotal": 0.0984661198127809
+    "coutTotal": 0.09904704087362327
   },
   {
-    "station": "Avenue guyemer",
+    "station": "TotalEnergies",
+    "adresse": "RUE DE LA POINTE DE L'ANGE- RD",
+    "ville": "Les Clayes-sous-Bois",
+    "cp": "78340",
+    "prix": 0.001789,
+    "distance": 17.04039440585336,
+    "coutTotal": 0.09554705311841434
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue guyemer",
     "ville": "BUC",
     "cp": "78530",
     "prix": 0.0016790000000000002,
@@ -2352,23 +2772,44 @@
     "coutTotal": 0.0890915673740954
   },
   {
-    "station": "11, AV DU GENERAL GABRIEL DELARUE",
+    "station": "TotalEnergies Access",
+    "adresse": "11, AV DU GENERAL GABRIEL DELARUE",
     "ville": "PONTOISE",
     "cp": "95300",
-    "prix": 0.001699,
+    "prix": 0.001706,
     "distance": 18.76223611560446,
-    "coutTotal": 0.09132540783208239
+    "coutTotal": 0.09170167496264424
   },
   {
-    "station": "122 RUE DU PRESIDENT ROOSEVELT",
+    "station": "TotalEnergies",
+    "adresse": "37 RUE FABERT",
+    "ville": "Paris",
+    "cp": "75007",
+    "prix": 0.001839,
+    "distance": 8.569671954403779,
+    "coutTotal": 0.0951019253448297
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "122 RUE DU PRESIDENT ROOSEVELT",
     "ville": "Saint-Germain-en-Laye",
     "cp": "78100",
-    "prix": 0.001805,
+    "prix": 0.0018160000000000001,
     "distance": 9.562024165128278,
-    "coutTotal": 0.0937018907236113
+    "coutTotal": 0.0942729271767746
   },
   {
-    "station": "32 AV DE ROSNY",
+    "station": "TotalEnergies",
+    "adresse": "2 AV DE LA PORTE DE ST CLOUD",
+    "ville": "PARIS",
+    "cp": "75016",
+    "prix": 0.001839,
+    "distance": 6.93621766533186,
+    "coutTotal": 0.09450114085730905
+  },
+  {
+    "station": "Esso",
+    "adresse": "32 AV DE ROSNY",
     "ville": "VILLEMOMBLE",
     "cp": "93250",
     "prix": 0.001899,
@@ -2376,95 +2817,143 @@
     "coutTotal": 0.10325878855187928
   },
   {
-    "station": "9 TER QUAI CONTI RN 13",
+    "station": "TotalEnergies",
+    "adresse": "9 TER QUAI CONTI RN 13",
     "ville": "LOUVECIENNES",
     "cp": "78430",
-    "prix": 0.001806,
+    "prix": 0.0018089999999999998,
     "distance": 6.652450433711905,
-    "coutTotal": 0.09270286509665675
+    "coutTotal": 0.09285685656691696
   },
   {
-    "station": "108 AV.A MORIZET",
+    "station": "TotalEnergies",
+    "adresse": "108 AV.A MORIZET",
     "ville": "BOULOGNE BILLANCOURT",
     "cp": "92100",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 6.117442795197809,
-    "coutTotal": 0.09399510150583759
+    "coutTotal": 0.09419999546007374
   },
   {
-    "station": "AV JEAN ROSTAND",
+    "station": "TotalEnergies Access",
+    "adresse": "AV JEAN ROSTAND",
     "ville": "Saint-Leu-la-Forêt",
     "cp": "95320",
-    "prix": 0.001702,
+    "prix": 0.001699,
     "distance": 13.761958298405638,
-    "coutTotal": 0.08978457060477728
+    "coutTotal": 0.08962631342979824
   },
   {
-    "station": "37- RN 10",
+    "station": "TotalEnergies Access",
+    "adresse": "37- RN 10",
     "ville": "LES ESSARTS LE ROI",
     "cp": "78690",
-    "prix": 0.0016950000000000001,
+    "prix": 0.001699,
     "distance": 30.59496554306121,
-    "coutTotal": 0.09512169331909776
+    "coutTotal": 0.0953461692915322
   },
   {
-    "station": "Autoroute A1 - Aire de vémars Est",
+    "station": "Esso",
+    "adresse": "Autoroute A1 - Aire de vémars Est",
     "ville": "VEMARS",
     "cp": "95470",
-    "prix": 0.0017980000000000001,
+    "prix": 0.0017649999999999999,
     "distance": 32.243181776021764,
-    "coutTotal": 0.10149464816665743
+    "coutTotal": 0.09963184316693567
   },
   {
-    "station": "5-7 BLD DES MARTYRS DE CHATEAUBRIAND",
+    "station": "TotalEnergies Access",
+    "adresse": "5-7 BLD DES MARTYRS DE CHATEAUBRIAND",
     "ville": "Argenteuil",
     "cp": "95100",
-    "prix": 0.001732,
+    "prix": 0.001735,
     "distance": 6.5914691195189254,
-    "coutTotal": 0.08888328490300135
+    "coutTotal": 0.08903723978447306
   },
   {
-    "station": "22 Avenue d'Arpajon",
+    "station": "Intermarché",
+    "adresse": "22 Avenue d'Arpajon",
     "ville": "ÉGLY",
     "cp": "91520",
-    "prix": 0.001659,
+    "prix": 0.001675,
     "distance": 34.574666476561504,
-    "coutTotal": 0.09442187433692312
+    "coutTotal": 0.09533251326964812
   },
   {
-    "station": "126 Avenue Victor Hugo",
+    "station": "Esso",
+    "adresse": "126 Avenue Victor Hugo",
     "ville": "Aubervilliers",
     "cp": "93300",
-    "prix": 0.0018189999999999999,
+    "prix": 0.001829,
     "distance": 12.901776036704945,
-    "coutTotal": 0.09564366612215325
+    "coutTotal": 0.09616946967422665
   },
   {
-    "station": "274 avenue Jean-Jaures",
+    "station": "Esso Express",
+    "adresse": "2/6 RUE LOUIS BLANC",
+    "ville": "Paris",
+    "cp": "75010",
+    "prix": 0.001742,
+    "distance": 12.084883287803573,
+    "coutTotal": 0.09131037333747076
+  },
+  {
+    "station": "Esso",
+    "adresse": "274 avenue Jean-Jaures",
     "ville": "DRANCY",
     "cp": "93700",
-    "prix": 0.0017490000000000001,
+    "prix": 0.001759,
     "distance": 18.92263290640676,
-    "coutTotal": 0.09406913699066108
+    "coutTotal": 0.0946069822564739
   },
   {
-    "station": "12 AV JEAN MOULIN",
+    "station": "TotalEnergies",
+    "adresse": "RUE JEAN-BAPTISTE BERLIER - QUAI",
+    "ville": "PARIS 13",
+    "cp": "75013",
+    "prix": 0.001839,
+    "distance": 15.003543469786411,
+    "coutTotal": 0.09746830328818742
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "1 QUATER BOULEVARD VICTOR",
+    "ville": "PARIS",
+    "cp": "75015",
+    "prix": 0.0018189999999999999,
+    "distance": 8.701111005050702,
+    "coutTotal": 0.09411546418363743
+  },
+  {
+    "station": "Esso",
+    "adresse": "3-5 AVENUE DE LA PORTE D'ASNIERES",
+    "ville": "PARIS",
+    "cp": "75017",
+    "prix": 0.00188,
+    "distance": 7.118554408241868,
+    "coutTotal": 0.09667657645749894
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "12 AV JEAN MOULIN",
     "ville": "Bougival",
     "cp": "78380",
-    "prix": 0.001709,
+    "prix": 0.001719,
     "distance": 6.292194676906498,
-    "coutTotal": 0.08760067214056665
+    "coutTotal": 0.08811325652992046
   },
   {
-    "station": "50 Rue du Pont Colbert",
+    "station": "Esso Express",
+    "adresse": "50 Rue du Pont Colbert",
     "ville": "Versailles",
     "cp": "78000",
-    "prix": 0.0017430000000000002,
+    "prix": 0.001748,
     "distance": 12.321424775449817,
-    "coutTotal": 0.09144524867672181
+    "coutTotal": 0.09170757010149726
   },
   {
-    "station": "Avenue Clément Ader",
+    "station": "Esso Express",
+    "adresse": "Avenue Clément Ader",
     "ville": "Versailles",
     "cp": "78000",
     "prix": 0.001699,
@@ -2472,15 +2961,17 @@
     "coutTotal": 0.08941562280652839
   },
   {
-    "station": "29 AV. PAUL RAOULT",
+    "station": "TotalEnergies Access",
+    "adresse": "29 AV. PAUL RAOULT",
     "ville": "LES MUREAUX",
     "cp": "78130",
-    "prix": 0.001689,
+    "prix": 0.001694,
     "distance": 24.056125729476406,
-    "coutTotal": 0.09257615927141713
+    "coutTotal": 0.09285021539714661
   },
   {
-    "station": "69, BOULEVARD VAUBAN",
+    "station": "TotalEnergies Access",
+    "adresse": "69, BOULEVARD VAUBAN",
     "ville": "MONTIGNY LE BRETONNEUX",
     "cp": "78180",
     "prix": 0.001699,
@@ -2488,15 +2979,17 @@
     "coutTotal": 0.09084848380403335
   },
   {
-    "station": "48 BD ROGER SALENGRO",
+    "station": "TotalEnergies",
+    "adresse": "48 BD ROGER SALENGRO",
     "ville": "Mantes-la-Ville",
     "cp": "78711",
-    "prix": 0.001779,
+    "prix": 0.0017829999999999999,
     "distance": 38.445415339143594,
-    "coutTotal": 0.1026288787776673
+    "coutTotal": 0.10285963510993859
   },
   {
-    "station": "11 avenue des Près",
+    "station": "Esso Express",
+    "adresse": "11 avenue des Près",
     "ville": "Montigny le Bretonneux",
     "cp": "78180",
     "prix": 0.001699,
@@ -2504,31 +2997,35 @@
     "coutTotal": 0.09134586033528859
   },
   {
-    "station": "46 Avenue du Président John F. Kennedy",
+    "station": "Esso Express",
+    "adresse": "46 Avenue du Président John F. Kennedy",
     "ville": "Le Pecq",
     "cp": "78230",
-    "prix": 0.001729,
+    "prix": 0.001735,
     "distance": 8.071597444227958,
-    "coutTotal": 0.08924115839621402
+    "coutTotal": 0.0895508443131471
   },
   {
-    "station": "138 BOULEVARD JEAN JAURES",
+    "station": "Esso Express",
+    "adresse": "138 BOULEVARD JEAN JAURES",
     "ville": "Houilles",
     "cp": "78800",
-    "prix": 0.0017330000000000002,
+    "prix": 0.001736,
     "distance": 3.293251844848726,
-    "coutTotal": 0.08779144108942458
+    "coutTotal": 0.08794341704053148
   },
   {
-    "station": "9 TER BD MARECHAL FOCH",
+    "station": "TotalEnergies",
+    "adresse": "9 TER BD MARECHAL FOCH",
     "ville": "Neuilly-sur-Marne",
     "cp": "93330",
-    "prix": 0.0018189999999999999,
+    "prix": 0.001822,
     "distance": 23.36839380053734,
-    "coutTotal": 0.09945142166463547
+    "coutTotal": 0.09961544270091581
   },
   {
-    "station": "263 BOULEVARD JEAN JAURES",
+    "station": "Esso Express",
+    "adresse": "263 BOULEVARD JEAN JAURES",
     "ville": "Boulogne-Billancourt",
     "cp": "92100",
     "prix": 0.0018189999999999999,
@@ -2536,7 +3033,8 @@
     "coutTotal": 0.09386309866690636
   },
   {
-    "station": "RN 311 QUAI ST DENIS",
+    "station": "Esso",
+    "adresse": "RN 311 QUAI ST DENIS",
     "ville": "Argenteuil",
     "cp": "95100",
     "prix": 0.001829,
@@ -2544,31 +3042,35 @@
     "coutTotal": 0.09407322136875222
   },
   {
-    "station": "BD DES CHAMPS ELYSEES",
+    "station": "Esso Express",
+    "adresse": "BD DES CHAMPS ELYSEES",
     "ville": "Évry",
     "cp": "91000",
-    "prix": 0.001676,
+    "prix": 0.001683,
     "distance": 32.51035032237295,
-    "coutTotal": 0.09469746942805941
+    "coutTotal": 0.09509298391851073
   },
   {
-    "station": "75 RUE DE LA LIBERATION",
+    "station": "TotalEnergies Access",
+    "adresse": "75 RUE DE LA LIBERATION",
     "ville": "RIS ORANGIS",
     "cp": "91130",
-    "prix": 0.001703,
+    "prix": 0.001706,
     "distance": 31.415822314995822,
-    "coutTotal": 0.09585022908048758
+    "coutTotal": 0.09601907857387658
   },
   {
-    "station": "38 RUE PIERRE BROSSOLETTE",
+    "station": "Esso Express",
+    "adresse": "38 RUE PIERRE BROSSOLETTE",
     "ville": "Ris-Orangis",
     "cp": "91130",
-    "prix": 0.001714,
+    "prix": 0.001718,
     "distance": 30.956319092091125,
-    "coutTotal": 0.09631182618476883
+    "coutTotal": 0.0965365912400425
   },
   {
-    "station": "RN20 - Ville Sauvage",
+    "station": "Esso",
+    "adresse": "RN20 - Ville Sauvage",
     "ville": "Étampes",
     "cp": "91150",
     "prix": 0.0016979999999999999,
@@ -2576,47 +3078,44 @@
     "coutTotal": 0.10327526455180108
   },
   {
-    "station": "Chemin des Échassons",
-    "ville": "LONGPONT-SUR-ORGE",
-    "cp": "91310",
-    "prix": 0.001659,
-    "distance": 27.093400586636346,
-    "coutTotal": 0.09193959031464595
-  },
-  {
-    "station": "1 avenue le Verrier",
+    "station": "Auchan",
+    "adresse": "1 avenue le Verrier",
     "ville": "Trappes",
     "cp": "78190",
-    "prix": 0.001693,
+    "prix": 0.0016979999999999999,
     "distance": 20.511463522052484,
-    "coutTotal": 0.09159518154856697
+    "coutTotal": 0.09186569301208901
   },
   {
-    "station": "1 rue Jacques Anquetil",
+    "station": "Intermarché",
+    "adresse": "Chemin des Échassons",
+    "ville": "LONGPONT-SUR-ORGE",
+    "cp": "91310",
+    "prix": 0.0016690000000000001,
+    "distance": 27.093400586636346,
+    "coutTotal": 0.09249377711581923
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "1 rue Jacques Anquetil",
     "ville": "GOUSSAINVILLE",
     "cp": "95190",
-    "prix": 0.001718,
+    "prix": 0.001717,
     "distance": 23.249365721894097,
-    "coutTotal": 0.0938884820620428
+    "coutTotal": 0.09383383218889843
   },
   {
-    "station": "ZAC DES MEUNIERS - 7 RUE STEPHANE HESSEL",
-    "ville": "Bessancourt",
-    "cp": "95550",
-    "prix": 0.001658,
-    "distance": 15.623057766535482,
-    "coutTotal": 0.08808060595538317
-  },
-  {
-    "station": "Centre Commercial Ulis 2",
+    "station": "Carrefour",
+    "adresse": "Centre Commercial Ulis 2",
     "ville": "LES ULIS",
     "cp": "91940",
-    "prix": 0.0016970000000000002,
+    "prix": 0.001701,
     "distance": 24.209889360676485,
-    "coutTotal": 0.0930668364490136
+    "coutTotal": 0.09328620436050214
   },
   {
-    "station": "35 Boulevard de la République",
+    "station": "Esso",
+    "adresse": "35 Boulevard de la République",
     "ville": "SAINT-CLOUD",
     "cp": "92210",
     "prix": 0.001759,
@@ -2624,23 +3123,35 @@
     "coutTotal": 0.08981097130552938
   },
   {
-    "station": "150 AVE PAUL DOUMER",
+    "station": "Système U",
+    "adresse": "ZAC DES MEUNIERS - 7 RUE STEPHANE HESSEL",
+    "ville": "Bessancourt",
+    "cp": "95550",
+    "prix": 0.001664,
+    "distance": 15.623057766535482,
+    "coutTotal": 0.088399353624703
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "150 AVE PAUL DOUMER",
     "ville": "MONTESSON",
     "cp": "78360",
-    "prix": 0.001734,
+    "prix": 0.001739,
     "distance": 3.8947178865516854,
-    "coutTotal": 0.08805068816305613
+    "coutTotal": 0.08830458288094267
   },
   {
-    "station": "AVENUE JEAN JAURES",
+    "station": "Système U",
+    "adresse": "AVENUE JEAN JAURES",
     "ville": "Neuilly-sur-Marne",
     "cp": "93330",
-    "prix": 0.001704,
+    "prix": 0.001717,
     "distance": 26.252088130754895,
-    "coutTotal": 0.09414671163496127
+    "coutTotal": 0.09486496706410123
   },
   {
-    "station": "22 Boulevard Gabriel Péri",
+    "station": "Avia",
+    "adresse": "22 Boulevard Gabriel Péri",
     "ville": "MALAKOFF",
     "cp": "92240",
     "prix": 0.001849,
@@ -2648,7 +3159,17 @@
     "coutTotal": 0.09632482640306841
   },
   {
-    "station": "AUTOROUTE A 15",
+    "station": "TotalEnergies",
+    "adresse": "173 Avenue Daumesnil",
+    "ville": "Paris",
+    "cp": "75012",
+    "prix": 0.00199,
+    "distance": 14.707736510796074,
+    "coutTotal": 0.10535367913129684
+  },
+  {
+    "station": "Esso",
+    "adresse": "AUTOROUTE A 15",
     "ville": "Pierrelaye",
     "cp": "95480",
     "prix": 0.001785,
@@ -2656,15 +3177,17 @@
     "coutTotal": 0.09435816800343926
   },
   {
-    "station": "ANGLE AV GROUETTES BLD L'HAUTIL",
+    "station": "Esso",
+    "adresse": "ANGLE AV GROUETTES BLD L'HAUTIL",
     "ville": "Cergy",
     "cp": "95000",
-    "prix": 0.001739,
+    "prix": 0.0017490000000000001,
     "distance": 18.456651297084488,
-    "coutTotal": 0.09336922332112599
+    "coutTotal": 0.09390613662372016
   },
   {
-    "station": "5 Rue de Vanves",
+    "station": "Esso",
+    "adresse": "5 Rue de Vanves",
     "ville": "CLAMART",
     "cp": "92140",
     "prix": 0.0018089999999999998,
@@ -2672,15 +3195,35 @@
     "coutTotal": 0.09411726234126262
   },
   {
-    "station": "134 Rue Pascal",
-    "ville": "ANTONY",
-    "cp": "92160",
-    "prix": 0.00172,
-    "distance": 18.74145055444663,
-    "coutTotal": 0.09244705899072964
+    "station": "Avia",
+    "adresse": "164 Boulevard Haussmann",
+    "ville": "PARIS",
+    "cp": "75008",
+    "prix": 0.00183,
+    "distance": 7.849557430015873,
+    "coutTotal": 0.0943729380193858
   },
   {
-    "station": "106, rue du président wilson",
+    "station": "Esso",
+    "adresse": "7 BOULEVARD MURAT",
+    "ville": "PARIS",
+    "cp": "75016",
+    "prix": 0.0019590000000000002,
+    "distance": 6.373716614034672,
+    "coutTotal": 0.10044722216937879
+  },
+  {
+    "station": "Avia",
+    "adresse": "32 rue de Reuilly",
+    "ville": "Paris",
+    "cp": "75012",
+    "prix": 0.001839,
+    "distance": 14.218749777263366,
+    "coutTotal": 0.09717965616807746
+  },
+  {
+    "station": "Esso",
+    "adresse": "106, rue du président wilson",
     "ville": "Levallois-Perret",
     "cp": "92300",
     "prix": 0.001829,
@@ -2688,7 +3231,17 @@
     "coutTotal": 0.09362076562136455
   },
   {
-    "station": "Avenue de la Division Leclerc N20",
+    "station": "Auchan",
+    "adresse": "134 Rue Pascal",
+    "ville": "ANTONY",
+    "cp": "92160",
+    "prix": 0.0017259999999999999,
+    "distance": 18.74145055444663,
+    "coutTotal": 0.09276954873139497
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "Avenue de la Division Leclerc N20",
     "ville": "Ballainvilliers",
     "cp": "91160",
     "prix": 0.001699,
@@ -2696,7 +3249,8 @@
     "coutTotal": 0.0935933772495912
   },
   {
-    "station": "ROND POINT DES CHENES (BD DE LOISE)",
+    "station": "Esso",
+    "adresse": "ROND POINT DES CHENES (BD DE LOISE)",
     "ville": "CERGY",
     "cp": "95800",
     "prix": 0.001739,
@@ -2704,7 +3258,8 @@
     "coutTotal": 0.09448107959983289
   },
   {
-    "station": "LIEUDIT LES 4 CHEMINS-RN1",
+    "station": "Esso",
+    "adresse": "LIEUDIT LES 4 CHEMINS-RN1",
     "ville": "MERY SUR OISE",
     "cp": "95540",
     "prix": 0.001769,
@@ -2712,7 +3267,8 @@
     "coutTotal": 0.09485376791272235
   },
   {
-    "station": "BD ROBERT BALLANGER D115",
+    "station": "TotalEnergies Access",
+    "adresse": "BD ROBERT BALLANGER D115",
     "ville": "VILLEPINTE",
     "cp": "93420",
     "prix": 0.001719,
@@ -2720,23 +3276,35 @@
     "coutTotal": 0.0945099660780433
   },
   {
-    "station": "35-39 AVENUE HENRI BARBUSSE",
+    "station": "TotalEnergies",
+    "adresse": "35-39 AVENUE HENRI BARBUSSE",
     "ville": "DRANCY",
     "cp": "93700",
-    "prix": 0.0018260000000000001,
+    "prix": 0.001829,
     "distance": 17.56230784798836,
-    "coutTotal": 0.09771375482608535
+    "coutTotal": 0.09787429221079413
   },
   {
-    "station": "10 AV DE L'EUROPE",
+    "station": "TotalEnergies",
+    "adresse": "10 AV DE L'EUROPE",
     "ville": "GUYANCOURT",
     "cp": "78280",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 17.31327437129945,
-    "coutTotal": 0.0954308389505539
+    "coutTotal": 0.09564468957005094
   },
   {
-    "station": "LIEUDIT LE CHAMP POURRI CD 915",
+    "station": "TotalEnergies",
+    "adresse": "121 RUE MANIN",
+    "ville": "PARIS",
+    "cp": "75019",
+    "prix": 0.001839,
+    "distance": 13.486128752941429,
+    "coutTotal": 0.09691019815533185
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "LIEUDIT LE CHAMP POURRI CD 915",
     "ville": "OSNY",
     "cp": "95520",
     "prix": 0.001719,
@@ -2744,135 +3312,161 @@
     "coutTotal": 0.09308195221556784
   },
   {
-    "station": "60 AV.DE LA PAIX",
+    "station": "TotalEnergies Access",
+    "adresse": "60 AV.DE LA PAIX",
     "ville": "LIMAY",
     "cp": "78520",
-    "prix": 0.001694,
+    "prix": 0.001699,
     "distance": 35.54417534671294,
-    "coutTotal": 0.09674236660746634
+    "coutTotal": 0.09702791078281306
   },
   {
-    "station": "193 AVENUE HENRI BARBUSSE",
+    "station": "TotalEnergies Access",
+    "adresse": "193 AVENUE HENRI BARBUSSE",
     "ville": "ARGENTEUIL",
     "cp": "95100",
-    "prix": 0.001729,
+    "prix": 0.0017310000000000001,
     "distance": 4.916678155737838,
-    "coutTotal": 0.08815018730625414
+    "coutTotal": 0.08825215397751644
   },
   {
-    "station": "62-64 AVENUE DE LA REPUBLIQUE",
+    "station": "TotalEnergies",
+    "adresse": "62-64 AVENUE DE LA REPUBLIQUE",
     "ville": "AUBERVILLIERS",
     "cp": "93300",
-    "prix": 0.0018260000000000001,
+    "prix": 0.001839,
     "distance": 13.28452751379343,
-    "coutTotal": 0.09615150944803737
+    "coutTotal": 0.09683604921957321
   },
   {
-    "station": "AVENUE DE LA DIVISION LECLERC",
+    "station": "Esso",
+    "adresse": "AVENUE DE LA DIVISION LECLERC",
     "ville": "TAVERNY",
     "cp": "95150",
-    "prix": 0.001719,
+    "prix": 0.001709,
     "distance": 13.992352881306392,
-    "coutTotal": 0.09076057092059314
+    "coutTotal": 0.09023258621483052
   },
   {
-    "station": "133 AV DU MARECHAL FOCH",
+    "station": "TotalEnergies",
+    "adresse": "190 AVENUE DE CLICHY",
+    "ville": "PARIS",
+    "cp": "75017",
+    "prix": 0.001839,
+    "distance": 7.998609843034214,
+    "coutTotal": 0.09489188870026798
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "133 AV DU MARECHAL FOCH",
     "ville": "CHATOU",
     "cp": "78400",
-    "prix": 0.001822,
+    "prix": 0.001825,
     "distance": 4.528658272536601,
-    "coutTotal": 0.09275024307451234
+    "coutTotal": 0.09290296026947585
   },
   {
-    "station": "LIAISON CD 25 A CD 17",
+    "station": "TotalEnergies Access",
+    "adresse": "LIAISON CD 25 A CD 17",
     "ville": "Épinay-sur-Orge",
     "cp": "91360",
-    "prix": 0.0017250000000000002,
+    "prix": 0.001729,
     "distance": 26.735176267511395,
-    "coutTotal": 0.09547363581229144
+    "coutTotal": 0.09569502395330544
   },
   {
-    "station": "151, RUE NOUVELLE France",
+    "station": "Esso",
+    "adresse": "151, RUE NOUVELLE France",
     "ville": "MONTREUIL",
     "cp": "93100",
-    "prix": 0.001739,
+    "prix": 0.0017490000000000001,
     "distance": 19.15038300019397,
-    "coutTotal": 0.09361050320746746
+    "coutTotal": 0.09414880397346785
   },
   {
-    "station": "2 AVENUE HENRI BARBUSSE",
+    "station": "TotalEnergies",
+    "adresse": "2 AVENUE HENRI BARBUSSE",
     "ville": "FOSSES",
     "cp": "95470",
-    "prix": 0.0017649999999999999,
+    "prix": 0.001789,
     "distance": 32.733821539175516,
-    "coutTotal": 0.09980503900332895
+    "coutTotal": 0.101162161346717
   },
   {
-    "station": "CC ART DE VIVRE - CD 113",
+    "station": "TotalEnergies Access",
+    "adresse": "CC ART DE VIVRE - CD 113",
     "ville": "ORGEVAL",
     "cp": "78630",
-    "prix": 0.001709,
+    "prix": 0.0017130000000000001,
     "distance": 16.067841016816192,
-    "coutTotal": 0.09094198805954777
+    "coutTotal": 0.09115484233236124
   },
   {
-    "station": "21 AV.DE STALINGRAD - COURS ST L",
+    "station": "TotalEnergies",
+    "adresse": "21 AV.DE STALINGRAD - COURS ST L",
     "ville": "STAINS",
     "cp": "93240",
-    "prix": 0.001824,
+    "prix": 0.001829,
     "distance": 14.161042697295775,
-    "coutTotal": 0.09636594837597351
+    "coutTotal": 0.09663010941867078
   },
   {
-    "station": "101 Avenue de Paris",
+    "station": "TotalEnergies",
+    "adresse": "101 Avenue de Paris",
     "ville": "DOURDAN",
     "cp": "91410",
-    "prix": 0.0017529999999999998,
+    "prix": 0.001759,
     "distance": 42.24275108411379,
-    "coutTotal": 0.10246030853009029
+    "coutTotal": 0.10281099983139123
   },
   {
-    "station": "ROUTE D'ECOUEN RN 370",
+    "station": "TotalEnergies",
+    "adresse": "ROUTE D'ECOUEN RN 370",
     "ville": "EZANVILLE",
     "cp": "95460",
-    "prix": 0.001782,
+    "prix": 0.001789,
     "distance": 19.063668612589773,
-    "coutTotal": 0.09589429149352699
+    "coutTotal": 0.09627098062958463
   },
   {
-    "station": "10 Rue jacques Cartier",
+    "station": "Intermarché",
+    "adresse": "10 Rue jacques Cartier",
     "ville": "Lardy",
     "cp": "91510",
-    "prix": 0.001649,
+    "prix": 0.0016690000000000001,
     "distance": 40.71221557168625,
-    "coutTotal": 0.09587688869554213
+    "coutTotal": 0.09703973755782888
   },
   {
-    "station": "45 AV DE LA MALADRERIE",
+    "station": "TotalEnergies",
+    "adresse": "45 AV DE LA MALADRERIE",
     "ville": "POISSY",
     "cp": "78300",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 12.964243877645508,
-    "coutTotal": 0.09387823506431944
+    "coutTotal": 0.09408860645942156
   },
   {
-    "station": "RN 12 ROUTE DE DREUX",
+    "station": "TotalEnergies",
+    "adresse": "RN 12 ROUTE DE DREUX",
     "ville": "Bois-d'Arcy",
     "cp": "78390",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 18.115780223880112,
-    "coutTotal": 0.0957173335399252
+    "coutTotal": 0.09593182616410431
   },
   {
-    "station": "175 BOULEVARD DE PONTOISE",
+    "station": "TotalEnergies Access",
+    "adresse": "175 BOULEVARD DE PONTOISE",
     "ville": "Montigny-lès-Cormeilles",
     "cp": "95370",
-    "prix": 0.001701,
+    "prix": 0.001699,
     "distance": 10.442085895950086,
-    "coutTotal": 0.08860239762180222
+    "coutTotal": 0.08849822078744383
   },
   {
-    "station": "ROUTE DES PETITS PONTS",
+    "station": "Carrefour",
+    "adresse": "ROUTE DES PETITS PONTS",
     "ville": "Sevran",
     "cp": "93270",
     "prix": 0.001688,
@@ -2880,15 +3474,17 @@
     "coutTotal": 0.09264068261139748
   },
   {
-    "station": "53-55 RUE DE L'ALMA",
+    "station": "TotalEnergies",
+    "adresse": "53-55 RUE DE L'ALMA",
     "ville": "COURBEVOIE",
     "cp": "92400",
-    "prix": 0.001832,
+    "prix": 0.001839,
     "distance": 3.555960614892987,
-    "coutTotal": 0.09290290396929679
+    "coutTotal": 0.09325788231415763
   },
   {
-    "station": "Avenue Henri Barbusse",
+    "station": "Esso Express",
+    "adresse": "Avenue Henri Barbusse",
     "ville": "Les Clayes-sous-Bois",
     "cp": "78340",
     "prix": 0.001719,
@@ -2896,31 +3492,53 @@
     "coutTotal": 0.09201521987105343
   },
   {
-    "station": "1 AVENUE CLAUDE TREBIGNAUD",
+    "station": "TotalEnergies Access",
+    "adresse": "1 AVENUE CLAUDE TREBIGNAUD",
     "ville": "CLAMART",
     "cp": "92140",
-    "prix": 0.0017410000000000001,
+    "prix": 0.0017490000000000001,
     "distance": 11.458332907225882,
-    "coutTotal": 0.09103979151829605
+    "coutTotal": 0.09145812485094762
   },
   {
-    "station": "44 AVENUE DE L UNION",
+    "station": "TotalEnergies",
+    "adresse": "BLD DU PERIPHERIQUE INTERIEUR",
+    "ville": "Paris",
+    "cp": "75019",
+    "prix": 0.001835,
+    "distance": 12.236529419870841,
+    "coutTotal": 0.0962408062970926
+  },
+  {
+    "station": "Esso",
+    "adresse": "85 RUE JEANNE DARC",
+    "ville": "PARIS",
+    "cp": "75013",
+    "prix": 0.0018189999999999999,
+    "distance": 13.436531194631804,
+    "coutTotal": 0.09583821004860704
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "44 AVENUE DE L UNION",
     "ville": "AUBERGENVILLE",
     "cp": "78410",
-    "prix": 0.001794,
+    "prix": 0.001799,
     "distance": 27.561821926858148,
-    "coutTotal": 0.0995891817073567
+    "coutTotal": 0.09986674352928357
   },
   {
-    "station": "1 RUE DE L'OR - BP.20212",
+    "station": "TotalEnergies",
+    "adresse": "1 RUE DE L'OR - BP.20212",
     "ville": "Roissy-en-France",
     "cp": "95700",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 27.451399939218664,
-    "coutTotal": 0.09905014977830105
+    "coutTotal": 0.09927211089825244
   },
   {
-    "station": "4 Espace trois quartiers",
+    "station": "Leclerc",
+    "adresse": "4 Espace trois quartiers",
     "ville": "Gometz-la-Ville",
     "cp": "91400",
     "prix": 0.0016690000000000001,
@@ -2928,31 +3546,44 @@
     "coutTotal": 0.09197214449102459
   },
   {
-    "station": "55 Rue de la Commune de Paris",
+    "station": "Auchan",
+    "adresse": "55 Rue de la Commune de Paris",
     "ville": "AUBERVILLIERS",
     "cp": "93300",
-    "prix": 0.0017410000000000001,
+    "prix": 0.001746,
     "distance": 12.866520132945688,
-    "coutTotal": 0.09153012231029169
+    "coutTotal": 0.09179298883042464
   },
   {
-    "station": "80, rue Saint Stenay",
+    "station": "Carrefour",
+    "adresse": "80, rue Saint Stenay",
     "ville": "DRANCY",
     "cp": "93700",
-    "prix": 0.0017310000000000001,
+    "prix": 0.001736,
     "distance": 15.752187217047098,
-    "coutTotal": 0.09200340721454171
+    "coutTotal": 0.09226915940175875
   },
   {
-    "station": "AUTOROUTE A86 - AIRE DE VELIZY OUEST",
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A86 - AIRE DE VELIZY OUEST",
     "ville": "Vélizy-Villacoublay",
     "cp": "78140",
-    "prix": 0.001804,
+    "prix": 0.0018089999999999998,
     "distance": 12.631295040351889,
-    "coutTotal": 0.09475737125055897
+    "coutTotal": 0.09502000254559931
   },
   {
-    "station": "rue Marguerite Yourcenar",
+    "station": "TotalEnergies",
+    "adresse": "QUAI D'ISSY LES MOULINEAUX",
+    "ville": "Paris",
+    "cp": "75015",
+    "prix": 0.001839,
+    "distance": 7.755172972695466,
+    "coutTotal": 0.09480235261935738
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "rue Marguerite Yourcenar",
     "ville": "SAINT-PIERRE-DU-PERRAY",
     "cp": "91280",
     "prix": 0.001675,
@@ -2960,7 +3591,8 @@
     "coutTotal": 0.09647429488823818
   },
   {
-    "station": "173 179 RUE DE LA PORTE JAUNE",
+    "station": "Esso",
+    "adresse": "173 179 RUE DE LA PORTE JAUNE",
     "ville": "GARCHES",
     "cp": "92380",
     "prix": 0.0017490000000000001,
@@ -2968,7 +3600,8 @@
     "coutTotal": 0.08906499415645577
   },
   {
-    "station": "31 ROUTE D'ORLEANS",
+    "station": "TotalEnergies Access",
+    "adresse": "31 ROUTE D'ORLEANS",
     "ville": "BALLAINVILLIERS",
     "cp": "91160",
     "prix": 0.001711,
@@ -2976,15 +3609,17 @@
     "coutTotal": 0.09396843917546029
   },
   {
-    "station": "98T AV DE BOURG LA REINE",
+    "station": "Esso",
+    "adresse": "98T AV DE BOURG LA REINE",
     "ville": "BAGNEUX",
     "cp": "92220",
-    "prix": 0.0018189999999999999,
+    "prix": 0.001829,
     "distance": 13.97789273467618,
-    "coutTotal": 0.09603515737687518
+    "coutTotal": 0.09656311316234453
   },
   {
-    "station": "RD 370 RUE NUNGESSER ET COLI",
+    "station": "TotalEnergies Access",
+    "adresse": "RD 370 RUE NUNGESSER ET COLI",
     "ville": "GONESSE",
     "cp": "95500",
     "prix": 0.001709,
@@ -2992,7 +3627,8 @@
     "coutTotal": 0.0923036295716875
   },
   {
-    "station": "12 Avenue du Général de Gaulle",
+    "station": "Esso",
+    "adresse": "12 Avenue du Général de Gaulle",
     "ville": "Bagneux",
     "cp": "92220",
     "prix": 0.001829,
@@ -3000,15 +3636,17 @@
     "coutTotal": 0.09604934258024796
   },
   {
-    "station": "ZAC DE LA CROIX DE BELLEJAME",
+    "station": "Simply Market",
+    "adresse": "ZAC DE LA CROIX DE BELLEJAME",
     "ville": "Marcoussis",
     "cp": "91460",
-    "prix": 0.001659,
+    "prix": 0.0016690000000000001,
     "distance": 28.179335895262316,
-    "coutTotal": 0.09229990365004805
+    "coutTotal": 0.09285626232183858
   },
   {
-    "station": "Route Départementale 316",
+    "station": "Indépendant sans enseigne",
+    "adresse": "Route Départementale 316",
     "ville": "ÉCOUEN",
     "cp": "95440",
     "prix": 0.0017900000000000001,
@@ -3016,23 +3654,26 @@
     "coutTotal": 0.09678612540377776
   },
   {
-    "station": "70 Boulevard Marx Dormoy",
+    "station": "Carrefour Market",
+    "adresse": "70 Boulevard Marx Dormoy",
     "ville": "LIVRY-GARGAN",
     "cp": "93190",
-    "prix": 0.0016790000000000002,
+    "prix": 0.001709,
     "distance": 23.144411915156788,
-    "coutTotal": 0.09172189352110965
+    "coutTotal": 0.09336075999260059
   },
   {
-    "station": "233, Avenue de Paris",
+    "station": "Système U",
+    "adresse": "233, Avenue de Paris",
     "ville": "Juziers",
     "cp": "78820",
-    "prix": 0.001639,
+    "prix": 0.001689,
     "distance": 29.20829306135622,
-    "coutTotal": 0.09152447846551258
+    "coutTotal": 0.09431656139612613
   },
   {
-    "station": "20-30 RUE JULES AUFFRET",
+    "station": "TotalEnergies Access",
+    "adresse": "20-30 RUE JULES AUFFRET",
     "ville": "Noisy-le-Sec",
     "cp": "93130",
     "prix": 0.001729,
@@ -3040,23 +3681,35 @@
     "coutTotal": 0.0927475431884963
   },
   {
-    "station": "421 Route de Conflans",
+    "station": "Esso",
+    "adresse": "151 Rue de la Convention",
+    "ville": "Paris",
+    "cp": "75015",
+    "prix": 0.001839,
+    "distance": 8.658046371856667,
+    "coutTotal": 0.09513442945556887
+  },
+  {
+    "station": "Système U",
+    "adresse": "421 Route de Conflans",
     "ville": "Herblay",
     "cp": "95220",
-    "prix": 0.001699,
+    "prix": 0.001719,
     "distance": 13.754757071267608,
-    "coutTotal": 0.08962386645281673
+    "coutTotal": 0.0906788854811018
   },
   {
-    "station": "1 AV MARTIN LUTHER KING",
+    "station": "Esso",
+    "adresse": "1 AV MARTIN LUTHER KING",
     "ville": "TRAPPES",
     "cp": "78190",
-    "prix": 0.001759,
+    "prix": 0.0017490000000000001,
     "distance": 20.59651149555135,
-    "coutTotal": 0.09519585274413496
+    "coutTotal": 0.09465465972114387
   },
   {
-    "station": "BD REPUBLIQUE ZAC PEPINIERE",
+    "station": "Esso",
+    "adresse": "BD REPUBLIQUE ZAC PEPINIERE",
     "ville": "VAUCRESSON",
     "cp": "92420",
     "prix": 0.0017490000000000001,
@@ -3064,15 +3717,17 @@
     "coutTotal": 0.08980397486948366
   },
   {
-    "station": "Boulevard de la MUETTE",
+    "station": "Carrefour",
+    "adresse": "Boulevard de la MUETTE",
     "ville": "GARGES-LèS-GONESSE",
     "cp": "95140",
-    "prix": 0.001668,
+    "prix": 0.0016719999999999999,
     "distance": 17.999224596875525,
-    "coutTotal": 0.08940454132551767
+    "coutTotal": 0.08961894070519517
   },
   {
-    "station": "60 AV DE LA REPUBLIQUE",
+    "station": "Esso",
+    "adresse": "60 AV DE LA REPUBLIQUE",
     "ville": "VERSAILLES",
     "cp": "78000",
     "prix": 0.001789,
@@ -3080,7 +3735,8 @@
     "coutTotal": 0.09319758416013382
   },
   {
-    "station": "zi de la briquetterie",
+    "station": "Auchan",
+    "adresse": "zi de la briquetterie",
     "ville": "LOUVRES",
     "cp": "95380",
     "prix": 0.001719,
@@ -3088,39 +3744,44 @@
     "coutTotal": 0.0954099111631378
   },
   {
-    "station": "20 RUE DE CHARTRES",
+    "station": "TotalEnergies",
+    "adresse": "20 RUE DE CHARTRES",
     "ville": "LIMOURS",
     "cp": "91470",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 29.740214081054024,
-    "coutTotal": 0.09986725642693628
+    "coutTotal": 0.10009104859820113
   },
   {
-    "station": "136 Rue Jules Ferry",
+    "station": "Intermarché",
+    "adresse": "136 Rue Jules Ferry",
     "ville": "Montmagny",
     "cp": "95360",
-    "prix": 0.0016979999999999999,
+    "prix": 0.001717,
     "distance": 12.484531122916259,
-    "coutTotal": 0.08913974676934235
+    "coutTotal": 0.09013718798760943
   },
   {
-    "station": "RN10 CENTRE COMMERCIAL DU BEL AIR",
+    "station": "Carrefour",
+    "adresse": "RN10 CENTRE COMMERCIAL DU BEL AIR",
     "ville": "RAMBOUILLET",
     "cp": "78120",
-    "prix": 0.00171,
+    "prix": 0.001709,
     "distance": 40.55118099765555,
-    "coutTotal": 0.0993685039011982
+    "coutTotal": 0.09931039366499866
   },
   {
-    "station": "RUE AUX FLEURS",
+    "station": "Carrefour Market",
+    "adresse": "RUE AUX FLEURS",
     "ville": "Voisins-le-Bretonneux",
     "cp": "78960",
-    "prix": 0.001675,
+    "prix": 0.001686,
     "distance": 18.776925203041785,
-    "coutTotal": 0.090040269943019
+    "coutTotal": 0.09063157917846569
   },
   {
-    "station": "192 Avenue Charles Floquet",
+    "station": "Leclerc",
+    "adresse": "192 Avenue Charles Floquet",
     "ville": "Le Blanc-Mesnil",
     "cp": "93150",
     "prix": 0.001675,
@@ -3128,7 +3789,8 @@
     "coutTotal": 0.08989167382700373
   },
   {
-    "station": "31 rue René Dhal",
+    "station": "Intermarché",
+    "adresse": "31 rue René Dhal",
     "ville": "Bréval",
     "cp": "78980",
     "prix": 0.001674,
@@ -3136,7 +3798,26 @@
     "coutTotal": 0.10049822175438095
   },
   {
-    "station": "Boulevard Robert Ballanger",
+    "station": "Auchan",
+    "adresse": "141 Av. de la Division Leclerc",
+    "ville": "SARCELLES",
+    "cp": "95200",
+    "prix": 0.001711,
+    "distance": 15.687185657452106,
+    "coutTotal": 0.0909181549319801
+  },
+  {
+    "station": "Auchan",
+    "adresse": "109 Rue de l'Ambassadeur",
+    "ville": "CONFLANS-SAINTE-HONORINE",
+    "cp": "78700",
+    "prix": 0.001711,
+    "distance": 15.393929138113451,
+    "coutTotal": 0.09081780255106242
+  },
+  {
+    "station": "Simply Market",
+    "adresse": "Boulevard Robert Ballanger",
     "ville": "VILLEPINTE",
     "cp": "93420",
     "prix": 0.001688,
@@ -3144,23 +3825,8 @@
     "coutTotal": 0.09289478657462819
   },
   {
-    "station": "141 Av. de la Division Leclerc",
-    "ville": "SARCELLES",
-    "cp": "95200",
-    "prix": 0.001675,
-    "distance": 15.687185657452106,
-    "coutTotal": 0.08900520719524646
-  },
-  {
-    "station": "109 Rue de l'Ambassadeur",
-    "ville": "CONFLANS-SAINTE-HONORINE",
-    "cp": "78700",
-    "prix": 0.0017050000000000001,
-    "distance": 15.393929138113451,
-    "coutTotal": 0.0904993298360967
-  },
-  {
-    "station": "22 Avenue du Général de Gaulle",
+    "station": "Carrefour Market",
+    "adresse": "22 Avenue du Général de Gaulle",
     "ville": "Croissy-sur-Seine",
     "cp": "78290",
     "prix": 0.001709,
@@ -3168,7 +3834,17 @@
     "coutTotal": 0.08715831847848439
   },
   {
-    "station": "Rue de la Reine Blanche",
+    "station": "Carrefour Market",
+    "adresse": "Route de rouen",
+    "ville": "MAGNY-EN-VEXIN",
+    "cp": "95420",
+    "prix": 0.001718,
+    "distance": 42.56499834077928,
+    "coutTotal": 0.10052533342989176
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Rue de la Reine Blanche",
     "ville": "Carrières-sous-Poissy",
     "cp": "78955",
     "prix": 0.001658,
@@ -3176,15 +3852,8 @@
     "coutTotal": 0.08756101817812195
   },
   {
-    "station": "Route de rouen",
-    "ville": "MAGNY-EN-VEXIN",
-    "cp": "95420",
-    "prix": 0.001694,
-    "distance": 42.56499834077928,
-    "coutTotal": 0.09912102143785602
-  },
-  {
-    "station": "Rue Isaac Newton",
+    "station": "Intermarché",
+    "adresse": "Rue Isaac Newton",
     "ville": "AULNAY-SOUS-BOIS",
     "cp": "93600",
     "prix": 0.001699,
@@ -3192,7 +3861,8 @@
     "coutTotal": 0.09266468723922784
   },
   {
-    "station": "Avenue de l'Europe",
+    "station": "Carrefour",
+    "adresse": "Avenue de l'Europe",
     "ville": "Massy",
     "cp": "91300",
     "prix": 0.0017,
@@ -3200,7 +3870,8 @@
     "coutTotal": 0.09155884364930421
   },
   {
-    "station": "17 rue de la vallée Jean Leloup - Route de Béhoust",
+    "station": "Auchan",
+    "adresse": "17 rue de la vallée Jean Leloup - Route de Béhoust",
     "ville": "Orgerus",
     "cp": "78910",
     "prix": 0.0016690000000000001,
@@ -3208,15 +3879,17 @@
     "coutTotal": 0.09576123305115584
   },
   {
-    "station": "4 Rue Dewoitine",
+    "station": "Auchan",
+    "adresse": "4 Rue Dewoitine",
     "ville": "VéLIZY-VILLACOUBLAY",
     "cp": "78140",
-    "prix": 0.0017410000000000001,
+    "prix": 0.0017490000000000001,
     "distance": 12.193648365894461,
-    "coutTotal": 0.09129582836100446
+    "coutTotal": 0.09171533819838988
   },
   {
-    "station": "2 allée de l est",
+    "station": "Carrefour",
+    "adresse": "2 allée de l est",
     "ville": "LIVRY-GARGAN",
     "cp": "93190",
     "prix": 0.001653,
@@ -3224,7 +3897,8 @@
     "coutTotal": 0.09118813200286457
   },
   {
-    "station": "362 Rue du Général Leclerc",
+    "station": "Leclerc",
+    "adresse": "362 Rue du Général Leclerc",
     "ville": "FRANCONVILLE",
     "cp": "95130",
     "prix": 0.001659,
@@ -3232,15 +3906,17 @@
     "coutTotal": 0.08652089111969817
   },
   {
-    "station": "RD.191",
+    "station": "TotalEnergies",
+    "adresse": "RD.191",
     "ville": "Beynes",
     "cp": "78650",
-    "prix": 0.001782,
+    "prix": 0.001785,
     "distance": 24.522322756051175,
-    "coutTotal": 0.09783975583025664
+    "coutTotal": 0.09800446922391026
   },
   {
-    "station": "41/45 BOULEVARD ROBERT SCHUMAN",
+    "station": "Netto",
+    "adresse": "41/45 BOULEVARD ROBERT SCHUMAN",
     "ville": "Livry-Gargan",
     "cp": "93190",
     "prix": 0.001689,
@@ -3248,55 +3924,71 @@
     "coutTotal": 0.09302199259847249
   },
   {
-    "station": "16, Route de Mante",
+    "station": "Intermarché",
+    "adresse": "16, Route de Mante",
     "ville": "Mareil sur Mauldre",
     "cp": "78124",
-    "prix": 0.001699,
+    "prix": 0.001719,
     "distance": 24.280803687854032,
-    "coutTotal": 0.09320061709313279
+    "coutTotal": 0.09429774030788421
   },
   {
-    "station": "PLACE DE BEAUPLAN",
+    "station": "Carrefour Market",
+    "adresse": "PLACE DE BEAUPLAN",
     "ville": "SAINT-RéMY-LèS-CHEVREUSE",
     "cp": "78470",
-    "prix": 0.001677,
+    "prix": 0.0016790000000000002,
     "distance": 21.533799632296425,
-    "coutTotal": 0.09107243639667223
+    "coutTotal": 0.09118104991652515
   },
   {
-    "station": "104/106 AV MEDERIC",
+    "station": "TotalEnergies",
+    "adresse": "104/106 AV MEDERIC",
     "ville": "Noisy-le-Grand",
     "cp": "93160",
-    "prix": 0.001825,
+    "prix": 0.001829,
     "distance": 27.447758453336018,
-    "coutTotal": 0.10126843183546765
+    "coutTotal": 0.1014903900422303
   },
   {
-    "station": "56 Avenue du Président John Fitzgerald Kennedy",
+    "station": "TotalEnergies",
+    "adresse": "FACE 35 BLD MALESHERBES",
+    "ville": "Paris",
+    "cp": "75008",
+    "prix": 0.001839,
+    "distance": 7.978114435632739,
+    "coutTotal": 0.09488435048942571
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "56 Avenue du Président John Fitzgerald Kennedy",
     "ville": "Le Pecq",
     "cp": "78230",
-    "prix": 0.001729,
+    "prix": 0.001735,
     "distance": 8.115205956491181,
-    "coutTotal": 0.08925623821975465
+    "coutTotal": 0.08956597646690244
   },
   {
-    "station": "ZONE DE PARINOR SECTEUR N°2",
+    "station": "Carrefour",
+    "adresse": "ZONE DE PARINOR SECTEUR N°2",
     "ville": "AULNAY-SOUS-BOIS",
     "cp": "93600",
-    "prix": 0.0016690000000000001,
+    "prix": 0.0016699999999999998,
     "distance": 20.915121912737444,
-    "coutTotal": 0.09043146769447177
+    "coutTotal": 0.0904856507188543
   },
   {
-    "station": "58 QUAI BOISSY D'ANGLAS",
+    "station": "TotalEnergies Access",
+    "adresse": "58 QUAI BOISSY D'ANGLAS",
     "ville": "BOUGIVAL",
     "cp": "78380",
-    "prix": 0.0017259999999999999,
+    "prix": 0.001729,
     "distance": 6.04498934876853,
-    "coutTotal": 0.08838673032319488
+    "coutTotal": 0.08854035731680415
   },
   {
-    "station": "41 Avenue du Général Leclerc",
+    "station": "Leclerc",
+    "adresse": "41 Avenue du Général Leclerc",
     "ville": "Saint-Prix",
     "cp": "95390",
     "prix": 0.001659,
@@ -3304,7 +3996,8 @@
     "coutTotal": 0.08725070806748984
   },
   {
-    "station": "94 BLD ST MICHEL",
+    "station": "TotalEnergies Access",
+    "adresse": "94 BLD ST MICHEL",
     "ville": "ETAMPES",
     "cp": "91150",
     "prix": 0.0016690000000000001,
@@ -3312,31 +4005,35 @@
     "coutTotal": 0.09981997445240975
   },
   {
-    "station": "1 Rue Georges Pompidou",
+    "station": "Carrefour",
+    "adresse": "Avenue de Bonnevaux",
+    "ville": "ETAMPES",
+    "cp": "91150",
+    "prix": 0.0016870000000000001,
+    "distance": 51.64666228534101,
+    "coutTotal": 0.10177558385507407
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "1 Rue Georges Pompidou",
     "ville": "GONESSE",
     "cp": "95500",
-    "prix": 0.001635,
+    "prix": 0.001649,
     "distance": 19.8071375630998,
-    "coutTotal": 0.08822693398313364
+    "coutTotal": 0.08898239396831033
   },
   {
-    "station": "41 QUAI PAUL DOUMER",
+    "station": "TotalEnergies",
+    "adresse": "41 QUAI PAUL DOUMER",
     "ville": "COURBEVOIE",
     "cp": "92400",
-    "prix": 0.001832,
+    "prix": 0.001839,
     "distance": 3.953919695542107,
-    "coutTotal": 0.09304871617644662
+    "coutTotal": 0.09340425166402037
   },
   {
-    "station": "avenue blaise pascal",
-    "ville": "MORANGIS",
-    "cp": "91420",
-    "prix": 0.001674,
-    "distance": 23.645490239949336,
-    "coutTotal": 0.09161651013233503
-  },
-  {
-    "station": "RN 152, Route d'Arpajon",
+    "station": "Carrefour Market",
+    "adresse": "RN 152, Route d'Arpajon",
     "ville": "LIMOURS",
     "cp": "91470",
     "prix": 0.0016970000000000002,
@@ -3344,7 +4041,17 @@
     "coutTotal": 0.09468374810498348
   },
   {
-    "station": "Rue du 8 Mai 1945",
+    "station": "Carrefour Market",
+    "adresse": "avenue blaise pascal",
+    "ville": "MORANGIS",
+    "cp": "91420",
+    "prix": 0.001716,
+    "distance": 23.645490239949336,
+    "coutTotal": 0.09391513225035061
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Rue du 8 Mai 1945",
     "ville": "PERSAN",
     "cp": "95340",
     "prix": 0.0016790000000000002,
@@ -3352,31 +4059,35 @@
     "coutTotal": 0.0935967163785284
   },
   {
-    "station": "101 AV.DE POISSY - RN.306",
-    "ville": "Le Mesnil-le-Roi",
-    "cp": "78600",
-    "prix": 0.001721,
-    "distance": 7.949154473778771,
-    "coutTotal": 0.08878609896987466
-  },
-  {
-    "station": "39 ROUTE DE MANTES",
+    "station": "TotalEnergies",
+    "adresse": "39 ROUTE DE MANTES",
     "ville": "LONGNES",
     "cp": "78980",
-    "prix": 0.0017729999999999998,
+    "prix": 0.001779,
     "distance": 45.0751979846783,
-    "coutTotal": 0.1046336652053669
+    "coutTotal": 0.10498775544294854
   },
   {
-    "station": "Rue de la Grosse Pierre",
+    "station": "TotalEnergies Access",
+    "adresse": "101 AV.DE POISSY - RN.306",
+    "ville": "Le Mesnil-le-Roi",
+    "cp": "78600",
+    "prix": 0.001724,
+    "distance": 7.949154473778771,
+    "coutTotal": 0.08894086846255891
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Rue de la Grosse Pierre",
     "ville": "VERNOUILLET",
     "cp": "78540",
-    "prix": 0.001699,
+    "prix": 0.001722,
     "distance": 17.993407307923654,
-    "coutTotal": 0.09106415980323246
+    "coutTotal": 0.09229692947684891
   },
   {
-    "station": "48 RUE DE L'ISLE ADAM - RN322",
+    "station": "TotalEnergies Access",
+    "adresse": "48 RUE DE L'ISLE ADAM - RN322",
     "ville": "Beaumont-sur-Oise",
     "cp": "95260",
     "prix": 0.0016950000000000001,
@@ -3384,15 +4095,17 @@
     "coutTotal": 0.09416005245083095
   },
   {
-    "station": "rue vincent van gogh",
+    "station": "Intermarché",
+    "adresse": "rue vincent van gogh",
     "ville": "MAGNY-LES-HAMEAUX",
     "cp": "78114",
-    "prix": 0.0016619999999999998,
+    "prix": 0.001682,
     "distance": 20.688825984619577,
-    "coutTotal": 0.08997696575728754
+    "coutTotal": 0.09105972106122602
   },
   {
-    "station": "CD 110 - BP 1525",
+    "station": "Auchan",
+    "adresse": "CD 110 - BP 1525",
     "ville": "Buchelay",
     "cp": "78200",
     "prix": 0.001689,
@@ -3400,7 +4113,8 @@
     "coutTotal": 0.09763241005992421
   },
   {
-    "station": "1 Avenue Armand Esders",
+    "station": "Leclerc",
+    "adresse": "1 Avenue Armand Esders",
     "ville": "LE BLANC-MESNIL",
     "cp": "93150",
     "prix": 0.001675,
@@ -3408,31 +4122,44 @@
     "coutTotal": 0.09046480629702372
   },
   {
-    "station": "Route de Mantes",
-    "ville": "Magny-en-Vexin",
-    "cp": "95420",
-    "prix": 0.0016790000000000002,
-    "distance": 41.64592654496653,
-    "coutTotal": 0.09793470213379978
-  },
-  {
-    "station": "40 Avenue Gabriel Péri",
+    "station": "Carrefour Market",
+    "adresse": "40 Avenue Gabriel Péri",
     "ville": "MONTESSON",
     "cp": "78360",
-    "prix": 0.00173,
+    "prix": 0.0017490000000000001,
     "distance": 6.746789307394394,
-    "coutTotal": 0.08883438910035846
+    "coutTotal": 0.08981002689972656
   },
   {
-    "station": "10 bis, Rue des États-Généraux",
+    "station": "Leclerc",
+    "adresse": "Route de Mantes",
+    "ville": "Magny-en-Vexin",
+    "cp": "95420",
+    "prix": 0.0016950000000000001,
+    "distance": 41.64592654496653,
+    "coutTotal": 0.09886796909874367
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "10 bis, Rue des États-Généraux",
     "ville": "VERSAILLES",
     "cp": "78000",
-    "prix": 0.001805,
+    "prix": 0.0018089999999999998,
     "distance": 11.589950633501978,
-    "coutTotal": 0.09443397217869422
+    "coutTotal": 0.094643244139201
   },
   {
-    "station": "RUE DE TRIEL",
+    "station": "Leclerc",
+    "adresse": "2/10 BLD FORT DE VAUX",
+    "ville": "PARIS",
+    "cp": "75017",
+    "prix": 0.001728,
+    "distance": 7.0185296117095435,
+    "coutTotal": 0.0888256038338068
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RUE DE TRIEL",
     "ville": "ANDRESY",
     "cp": "78570",
     "prix": 0.001659,
@@ -3440,23 +4167,17 @@
     "coutTotal": 0.08790219605723228
   },
   {
-    "station": "ROUTE DE 40 SOUS - RN113",
+    "station": "TotalEnergies Access",
+    "adresse": "ROUTE DE 40 SOUS - RN113",
     "ville": "ORGEVAL",
     "cp": "78630",
-    "prix": 0.001709,
+    "prix": 0.0017130000000000001,
     "distance": 15.978369108795535,
-    "coutTotal": 0.09091140656138631
+    "coutTotal": 0.09112418925667336
   },
   {
-    "station": "4 Rue des Rosiers",
-    "ville": "Verneuil-sur-Seine",
-    "cp": "78480",
-    "prix": 0.001709,
-    "distance": 20.192545936133786,
-    "coutTotal": 0.09235181220097052
-  },
-  {
-    "station": "Route Renault",
+    "station": "Carrefour",
+    "adresse": "Route Renault",
     "ville": "FLINS-SUR-SEINE",
     "cp": "78410",
     "prix": 0.001732,
@@ -3464,15 +4185,26 @@
     "coutTotal": 0.09564465245402215
   },
   {
-    "station": "lieudit le village",
-    "ville": "Les Essarts-le-Roi",
-    "cp": "78690",
-    "prix": 0.0016699999999999998,
-    "distance": 28.539043437337877,
-    "coutTotal": 0.09303204050807085
+    "station": "Auchan",
+    "adresse": "4 Rue des Rosiers",
+    "ville": "Verneuil-sur-Seine",
+    "cp": "78480",
+    "prix": 0.001709,
+    "distance": 20.192545936133786,
+    "coutTotal": 0.09235181220097052
   },
   {
-    "station": "48 rue Raymond Laubier",
+    "station": "TotalEnergies",
+    "adresse": "183 Route de Melun",
+    "ville": "SAINTRY-SUR-SEINE",
+    "cp": "91250",
+    "prix": 0.001789,
+    "distance": 39.698268711239145,
+    "coutTotal": 0.10365404054488137
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "48 rue Raymond Laubier",
     "ville": "DOURDAN",
     "cp": "91410",
     "prix": 0.001663,
@@ -3480,23 +4212,35 @@
     "coutTotal": 0.09735096121159241
   },
   {
-    "station": "183 Route de Melun",
-    "ville": "SAINTRY-SUR-SEINE",
-    "cp": "91250",
-    "prix": 0.001776,
-    "distance": 39.698268711239145,
-    "coutTotal": 0.10290082504623214
-  },
-  {
-    "station": "30 Avenue du Professeur Emile SERGENT",
+    "station": "TotalEnergies",
+    "adresse": "30 Avenue du Professeur Emile SERGENT",
     "ville": "ÉPôNE",
     "cp": "78680",
-    "prix": 0.001786,
+    "prix": 0.001789,
     "distance": 20.703960428337332,
-    "coutTotal": 0.0966954546650021
+    "coutTotal": 0.0968578770412591
   },
   {
-    "station": "80 BOULEVARD MAXIME GORKI",
+    "station": "Système U",
+    "adresse": "lieudit le village",
+    "ville": "Les Essarts-le-Roi",
+    "cp": "78690",
+    "prix": 0.0017150000000000002,
+    "distance": 28.539043437337877,
+    "coutTotal": 0.0955388918990069
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "97 TER ROUTE DU PAVE DES GARDES",
+    "ville": "MEUDON",
+    "cp": "92190",
+    "prix": 0.001839,
+    "distance": 8.85372169610502,
+    "coutTotal": 0.09520639883982741
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "80 BOULEVARD MAXIME GORKI",
     "ville": "STAINS",
     "cp": "93240",
     "prix": 0.001729,
@@ -3504,23 +4248,17 @@
     "coutTotal": 0.09146740510918466
   },
   {
-    "station": "97 TER ROUTE DU PAVE DES GARDES",
-    "ville": "MEUDON",
-    "cp": "92190",
-    "prix": 0.001835,
-    "distance": 8.85372169610502,
-    "coutTotal": 0.09499931586247054
-  },
-  {
-    "station": "13 Avenue Ampère",
+    "station": "TotalEnergies",
+    "adresse": "13 Avenue Ampère",
     "ville": "MONTIGNY-LE-BRETONNEUX",
     "cp": "78180",
-    "prix": 0.001784,
+    "prix": 0.001789,
     "distance": 15.623528007343165,
-    "coutTotal": 0.09477447479302004
+    "coutTotal": 0.09504009832102739
   },
   {
-    "station": "Route de la Ferté-Alais",
+    "station": "Intermarché",
+    "adresse": "Route de la Ferté-Alais",
     "ville": "ITTEVILLE",
     "cp": "91760",
     "prix": 0.001682,
@@ -3528,7 +4266,8 @@
     "coutTotal": 0.0990970826306772
   },
   {
-    "station": "130 Avenue du Maréchal Foch",
+    "station": "TotalEnergies",
+    "adresse": "130 Avenue du Maréchal Foch",
     "ville": "SAINT-GERMAIN-EN-LAYE",
     "cp": "78100",
     "prix": 0.001792,
@@ -3536,15 +4275,17 @@
     "coutTotal": 0.09282356082399112
   },
   {
-    "station": "70 BLD HENRI BARBUSSE",
+    "station": "TotalEnergies",
+    "adresse": "70 BLD HENRI BARBUSSE",
     "ville": "DRAVEIL",
     "cp": "91210",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 28.37476795384192,
-    "coutTotal": 0.09937979215952156
+    "coutTotal": 0.09960249197388464
   },
   {
-    "station": "108 AV DU GENERAL DE GAULLE",
+    "station": "TotalEnergies Access",
+    "adresse": "108 AV DU GENERAL DE GAULLE",
     "ville": "DRAVEIL",
     "cp": "91210",
     "prix": 0.001709,
@@ -3552,7 +4293,8 @@
     "coutTotal": 0.09466096317116943
   },
   {
-    "station": "2 AV DU 8 MAI 1945",
+    "station": "Esso Express",
+    "adresse": "2 AV DU 8 MAI 1945",
     "ville": "Le Blanc-Mesnil",
     "cp": "93150",
     "prix": 0.001722,
@@ -3560,7 +4302,8 @@
     "coutTotal": 0.09231297066851045
   },
   {
-    "station": "17 Route de Saint-Denis",
+    "station": "Esso Express",
+    "adresse": "17 Route de Saint-Denis",
     "ville": "Deuil-la-Barre",
     "cp": "95170",
     "prix": 0.001724,
@@ -3568,15 +4311,35 @@
     "coutTotal": 0.09020436267841571
   },
   {
-    "station": "101 Boulevard Carnot",
-    "ville": "Le Vésinet",
-    "cp": "78110",
-    "prix": 0.001734,
-    "distance": 5.861350546777475,
-    "coutTotal": 0.08873271636962243
+    "station": "Esso Express",
+    "adresse": "19 BD DES FRERES VOISINS",
+    "ville": "Paris",
+    "cp": "75015",
+    "prix": 0.0017490000000000001,
+    "distance": 8.645829050360765,
+    "coutTotal": 0.0904743110018162
   },
   {
-    "station": "96 Avenue d'Argenteuil",
+    "station": "Esso Express",
+    "adresse": "101 Boulevard Carnot",
+    "ville": "Le Vésinet",
+    "cp": "78110",
+    "prix": 0.001738,
+    "distance": 5.861350546777475,
+    "coutTotal": 0.08893740545005986
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "36 Quai de la Rapée",
+    "ville": "Paris",
+    "cp": "75012",
+    "prix": 0.0017529999999999998,
+    "distance": 13.444037063108896,
+    "coutTotal": 0.09236347939432597
+  },
+  {
+    "station": "Esso",
+    "adresse": "96 Avenue d'Argenteuil",
     "ville": "ASNIèRES-SUR-SEINE",
     "cp": "92600",
     "prix": 0.001889,
@@ -3584,7 +4347,8 @@
     "coutTotal": 0.09677689708925304
   },
   {
-    "station": "21 Rue Louis Calmel",
+    "station": "Carrefour",
+    "adresse": "21 Rue Louis Calmel",
     "ville": "GENNEVILLIERS",
     "cp": "92230",
     "prix": 0.001761,
@@ -3592,39 +4356,44 @@
     "coutTotal": 0.09062320809356615
   },
   {
-    "station": "4 AV DE L'OCEANIE - ZAC COURTAB",
+    "station": "TotalEnergies Access",
+    "adresse": "4 AV DE L'OCEANIE - ZAC COURTAB",
     "ville": "LES ULIS",
     "cp": "91940",
-    "prix": 0.0016950000000000001,
+    "prix": 0.001701,
     "distance": 23.856824763655208,
-    "coutTotal": 0.09283746359487913
+    "coutTotal": 0.0931660917845955
   },
   {
-    "station": "CCIAL MAISON NEUVE",
+    "station": "Auchan",
+    "adresse": "CCIAL MAISON NEUVE",
     "ville": "BRéTIGNY-SUR-ORGE",
     "cp": "91220",
-    "prix": 0.001659,
+    "prix": 0.001665,
     "distance": 34.72187202050274,
-    "coutTotal": 0.09447071713640282
+    "coutTotal": 0.09481238338282741
   },
   {
-    "station": "27 Rue d'Épluches",
+    "station": "Leclerc",
+    "adresse": "27 Rue d'Épluches",
     "ville": "SAINT-OUEN-L'AUMONE",
     "cp": "95310",
-    "prix": 0.001658,
+    "prix": 0.001664,
     "distance": 19.245806800928488,
-    "coutTotal": 0.08928190953518789
+    "coutTotal": 0.089605004503349
   },
   {
-    "station": "32 AV. PIERRE BROSSOLETTE",
+    "station": "TotalEnergies",
+    "adresse": "32 AV. PIERRE BROSSOLETTE",
     "ville": "Chilly-Mazarin",
     "cp": "91380",
-    "prix": 0.0017829999999999999,
+    "prix": 0.001789,
     "distance": 22.769028572655376,
-    "coutTotal": 0.0972694355890089
+    "coutTotal": 0.0975967584232961
   },
   {
-    "station": "Grande Rue",
+    "station": "Intermarché",
+    "adresse": "Grande Rue",
     "ville": "Oncy-sur-École",
     "cp": "91490",
     "prix": 0.001676,
@@ -3632,7 +4401,8 @@
     "coutTotal": 0.10348310906394133
   },
   {
-    "station": "F6 VOIE EXPRESS FONDS PRES",
+    "station": "Esso",
+    "adresse": "F6 VOIE EXPRESS FONDS PRES",
     "ville": "Marcoussis",
     "cp": "91460",
     "prix": 0.001799,
@@ -3640,7 +4410,8 @@
     "coutTotal": 0.10013256573892253
   },
   {
-    "station": "59 Avenue Kellermann",
+    "station": "Esso",
+    "adresse": "59 Avenue Kellermann",
     "ville": "Soisy-sous-Montmorency",
     "cp": "95230",
     "prix": 0.001759,
@@ -3648,7 +4419,8 @@
     "coutTotal": 0.09195879619656747
   },
   {
-    "station": "Route de Gambais",
+    "station": "Intermarché",
+    "adresse": "Route de Gambais",
     "ville": "Maulette",
     "cp": "78550",
     "prix": 0.0016870000000000001,
@@ -3656,31 +4428,35 @@
     "coutTotal": 0.09912098700026119
   },
   {
-    "station": "60 RUE DU VEXIN",
+    "station": "Intermarché",
+    "adresse": "60 RUE DU VEXIN",
     "ville": "HARDRICOURT",
     "cp": "78250",
-    "prix": 0.001659,
+    "prix": 0.0016790000000000002,
     "distance": 25.94456611223688,
-    "coutTotal": 0.0915584070360402
+    "coutTotal": 0.09266218530048916
   },
   {
-    "station": "5 BD CHARLES DE GAULLE",
+    "station": "Esso",
+    "adresse": "5 BD CHARLES DE GAULLE",
     "ville": "BRUNOY",
     "cp": "91800",
-    "prix": 0.001729,
+    "prix": 0.001719,
     "distance": 31.01606060002112,
-    "coutTotal": 0.0971753537554873
+    "coutTotal": 0.09661332163428726
   },
   {
-    "station": "16 Boulevard Aristide Briand",
+    "station": "Esso",
+    "adresse": "16 Boulevard Aristide Briand",
     "ville": "Montreuil",
     "cp": "93100",
-    "prix": 0.001739,
+    "prix": 0.0017490000000000001,
     "distance": 17.888115002771066,
-    "coutTotal": 0.09317148639796377
+    "coutTotal": 0.09370726262796931
   },
   {
-    "station": "201-203 avenue de Stalingrad, 93240 Stains",
+    "station": "Esso",
+    "adresse": "201-203 avenue de Stalingrad, 93240 Stains",
     "ville": "Stains",
     "cp": "93240",
     "prix": 0.001829,
@@ -3688,7 +4464,8 @@
     "coutTotal": 0.09725049091865631
   },
   {
-    "station": "57 Rue de Chartres",
+    "station": "Auchan",
+    "adresse": "57 Rue de Chartres",
     "ville": "LE PERRAY-EN-YVELINES",
     "cp": "78610",
     "prix": 0.001709,
@@ -3696,7 +4473,17 @@
     "coutTotal": 0.09747114693882829
   },
   {
-    "station": "18 Boulevard de la République",
+    "station": "TotalEnergies",
+    "adresse": "101 BLD MORTIER",
+    "ville": "Paris",
+    "cp": "75020",
+    "prix": 0.001839,
+    "distance": 15.035343619967236,
+    "coutTotal": 0.09747999938342394
+  },
+  {
+    "station": "Système U",
+    "adresse": "18 Boulevard de la République",
     "ville": "VAUCRESSON",
     "cp": "92420",
     "prix": 0.001619,
@@ -3704,15 +4491,17 @@
     "coutTotal": 0.0830966374874787
   },
   {
-    "station": "140 Rue de Paris",
+    "station": "Esso",
+    "adresse": "140 Rue de Paris",
     "ville": "NOISY-LE-SEC",
     "cp": "93130",
-    "prix": 0.001759,
+    "prix": 0.001769,
     "distance": 18.743590040519617,
-    "coutTotal": 0.0945439949762548
+    "coutTotal": 0.09508148215633584
   },
   {
-    "station": "Route Nationale 20",
+    "station": "Avia",
+    "adresse": "Route Nationale 20",
     "ville": "AVRAINVILLE",
     "cp": "91630",
     "prix": 0.002056,
@@ -3720,15 +4509,17 @@
     "coutTotal": 0.11765793446486143
   },
   {
-    "station": "3 Rue André Lebourblanc",
+    "station": "Système U",
+    "adresse": "3 Rue André Lebourblanc",
     "ville": "NOISY-LE-ROI",
     "cp": "78590",
-    "prix": 0.001655,
+    "prix": 0.0016979999999999999,
     "distance": 11.55076446478925,
-    "coutTotal": 0.08657330303784525
+    "coutTotal": 0.08882263961224242
   },
   {
-    "station": "27 ROUTE DE LA GARE",
+    "station": "Netto",
+    "adresse": "27 ROUTE DE LA GARE",
     "ville": "GARANCIERES",
     "cp": "78890",
     "prix": 0.0016790000000000002,
@@ -3736,23 +4527,35 @@
     "coutTotal": 0.0952276502989388
   },
   {
-    "station": "VOIE P5 ET F2 BP 20212",
+    "station": "TotalEnergies",
+    "adresse": "VOIE P5 ET F2 BP 20212",
     "ville": "Roissy-en-France",
     "cp": "95700",
-    "prix": 0.001785,
+    "prix": 0.001789,
     "distance": 26.054114145485435,
-    "coutTotal": 0.09855131874993829
+    "coutTotal": 0.09877216204125469
   },
   {
-    "station": "47 BLD DU HAVRE",
+    "station": "TotalEnergies",
+    "adresse": "47 BLD DU HAVRE",
     "ville": "NANTERRE",
     "cp": "92000",
-    "prix": 0.0018260000000000001,
+    "prix": 0.001833,
     "distance": 3.1979134191658187,
-    "coutTotal": 0.09246787798067936
+    "coutTotal": 0.09282235505946619
   },
   {
-    "station": "ROUTE NATIONALE 190",
+    "station": "TotalEnergies",
+    "adresse": "RN 445 / 29 ROUTE DE FLEURY",
+    "ville": "Viry-Châtillon",
+    "cp": "91170",
+    "prix": 0.001795,
+    "distance": 29.187393010328027,
+    "coutTotal": 0.10022827409070775
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "ROUTE NATIONALE 190",
     "ville": "LIMAY",
     "cp": "78520",
     "prix": 0.001712,
@@ -3760,23 +4563,17 @@
     "coutTotal": 0.09815020228455242
   },
   {
-    "station": "RN 445 / 29 ROUTE DE FLEURY",
-    "ville": "Viry-Châtillon",
-    "cp": "91170",
-    "prix": 0.001792,
-    "distance": 29.187393010328027,
-    "coutTotal": 0.10006076165490156
-  },
-  {
-    "station": "AUTOROUTE A1 - AIRE DE LA COURNEUVE OUEST - SENS LILLE/PARIS",
+    "station": "TotalEnergies Access",
+    "adresse": "AUTOROUTE A1 - AIRE DE LA COURNEUVE OUEST - SENS LILLE/PARIS",
     "ville": "LA COURNEUVE",
     "cp": "93120",
-    "prix": 0.001699,
+    "prix": 0.001704,
     "distance": 14.528488427907819,
-    "coutTotal": 0.08988678036780308
+    "coutTotal": 0.09015130885623099
   },
   {
-    "station": "29-33 BLD DU MARECHAL FOCH",
+    "station": "TotalEnergies Access",
+    "adresse": "29-33 BLD DU MARECHAL FOCH",
     "ville": "Neuilly-sur-Marne",
     "cp": "93330",
     "prix": 0.001719,
@@ -3784,23 +4581,35 @@
     "coutTotal": 0.0940979943011691
   },
   {
-    "station": "272 AVENUE DES GRESILLONS",
+    "station": "TotalEnergies",
+    "adresse": "272 AVENUE DES GRESILLONS",
     "ville": "Asnières-sur-Seine",
     "cp": "92600",
-    "prix": 0.001832,
+    "prix": 0.001833,
     "distance": 8.39695289652028,
-    "coutTotal": 0.09467664354128504
+    "coutTotal": 0.09472832293186433
   },
   {
-    "station": "Avenue du Président Georges Pompidou",
+    "station": "Avia",
+    "adresse": "21 AVENUE EMILE ZOLA",
+    "ville": "PARIS",
+    "cp": "75015",
+    "prix": 0.0018189999999999999,
+    "distance": 7.458041470074877,
+    "coutTotal": 0.09366323548681323
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "Avenue du Président Georges Pompidou",
     "ville": "ERMONT",
     "cp": "95120",
-    "prix": 0.00166,
+    "prix": 0.0016719999999999999,
     "distance": 10.926294873549224,
-    "coutTotal": 0.08662752989801835
+    "coutTotal": 0.08725375300571485
   },
   {
-    "station": "32, RUE JACQUES DUCLOS",
+    "station": "Esso",
+    "adresse": "32, RUE JACQUES DUCLOS",
     "ville": "Aulnay-sous-Bois",
     "cp": "93600",
     "prix": 0.001779,
@@ -3808,7 +4617,8 @@
     "coutTotal": 0.09674988889513399
   },
   {
-    "station": "CHEMIN DE BRIIS CD 59",
+    "station": "TotalEnergies Access",
+    "adresse": "CHEMIN DE BRIIS CD 59",
     "ville": "Villebon-sur-Yvette",
     "cp": "91140",
     "prix": 0.001711,
@@ -3816,7 +4626,8 @@
     "coutTotal": 0.09278527067014557
   },
   {
-    "station": "RN 20 DIRECTION PARIS",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 20 DIRECTION PARIS",
     "ville": "AVRAINVILLE",
     "cp": "91630",
     "prix": 0.0016950000000000001,
@@ -3824,7 +4635,8 @@
     "coutTotal": 0.09721916215983303
   },
   {
-    "station": "RN 20",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 20",
     "ville": "Saint-Germain-lès-Arpajon",
     "cp": "91180",
     "prix": 0.001709,
@@ -3832,7 +4644,8 @@
     "coutTotal": 0.09627101983388874
   },
   {
-    "station": "8 avenue d'Orléans",
+    "station": "Intermarché",
+    "adresse": "8 avenue d'Orléans",
     "ville": "ETRéCHY",
     "cp": "91580",
     "prix": 0.001619,
@@ -3840,31 +4653,35 @@
     "coutTotal": 0.09559093860676866
   },
   {
-    "station": "ZAC DES PRES CD N° 136",
+    "station": "Intermarché",
+    "adresse": "ZAC DES PRES CD N° 136",
     "ville": "COUBRON",
     "cp": "93470",
-    "prix": 0.001653,
+    "prix": 0.001674,
     "distance": 28.105517846848226,
-    "coutTotal": 0.09194168420016803
+    "coutTotal": 0.09310972737512478
   },
   {
-    "station": "16 Rue Jean Hoët",
+    "station": "Intermarché",
+    "adresse": "16 Rue Jean Hoët",
     "ville": "Mantes-la-Jolie",
     "cp": "78200",
-    "prix": 0.0016799999999999999,
+    "prix": 0.001689,
     "distance": 37.97201651188779,
-    "coutTotal": 0.09675859754799429
+    "coutTotal": 0.09727694717771569
   },
   {
-    "station": "131 BOULEVARD HENRI SELLIER",
+    "station": "TotalEnergies",
+    "adresse": "131 BOULEVARD HENRI SELLIER",
     "ville": "SURESNES",
     "cp": "92150",
-    "prix": 0.001835,
+    "prix": 0.001839,
     "distance": 3.202228806926592,
-    "coutTotal": 0.09292521797214205
+    "coutTotal": 0.09312777975518759
   },
   {
-    "station": "BOULEVARD DES COQUIBUS",
+    "station": "TotalEnergies Access",
+    "adresse": "BOULEVARD DES COQUIBUS",
     "ville": "EVRY",
     "cp": "91000",
     "prix": 0.001702,
@@ -3872,7 +4689,8 @@
     "coutTotal": 0.09683327418425826
   },
   {
-    "station": "RN 16",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 16",
     "ville": "CHAUMONTEL",
     "cp": "95270",
     "prix": 0.001694,
@@ -3880,31 +4698,44 @@
     "coutTotal": 0.0949581822110375
   },
   {
-    "station": "18 ROUTE DE MAULE- D 307",
+    "station": "TotalEnergies Access",
+    "adresse": "18 ROUTE DE MAULE- D 307",
     "ville": "ROCQUENCOURT",
     "cp": "78150",
-    "prix": 0.001709,
+    "prix": 0.001712,
     "distance": 10.093636404198756,
-    "coutTotal": 0.08890000492295513
+    "coutTotal": 0.08905606110479765
   },
   {
-    "station": "RN 10",
+    "station": "TotalEnergies Access",
+    "adresse": "RN 10",
     "ville": "TRAPPES",
     "cp": "78190",
-    "prix": 0.0016950000000000001,
+    "prix": 0.001702,
     "distance": 18.15564642574803,
-    "coutTotal": 0.09090476413832858
+    "coutTotal": 0.09128018204332462
   },
   {
-    "station": "72 BLD DE VERDUN",
+    "station": "TotalEnergies",
+    "adresse": "RUE LEGION ETRANGERE",
+    "ville": "Paris",
+    "cp": "75014",
+    "prix": 0.001839,
+    "distance": 11.265789974641342,
+    "coutTotal": 0.09609355755267307
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "72 BLD DE VERDUN",
     "ville": "COURBEVOIE",
     "cp": "92400",
-    "prix": 0.001832,
+    "prix": 0.001839,
     "distance": 4.015770547999463,
-    "coutTotal": 0.09307137832878701
+    "coutTotal": 0.0934270004075542
   },
   {
-    "station": "25 ROUTE D'ORLEANS RN 20",
+    "station": "TotalEnergies Access",
+    "adresse": "25 ROUTE D'ORLEANS RN 20",
     "ville": "Saint-Germain-lès-Arpajon",
     "cp": "91180",
     "prix": 0.001699,
@@ -3912,7 +4743,8 @@
     "coutTotal": 0.09593041254870294
   },
   {
-    "station": "6 AVENUE CLAUDE TREBIGNAUD",
+    "station": "TotalEnergies Access",
+    "adresse": "6 AVENUE CLAUDE TREBIGNAUD",
     "ville": "CLAMART",
     "cp": "92140",
     "prix": 0.0017410000000000001,
@@ -3920,7 +4752,8 @@
     "coutTotal": 0.09108431141740998
   },
   {
-    "station": "2 avenue du lycée",
+    "station": "TotalEnergies",
+    "adresse": "2 avenue du lycée",
     "ville": "Domont",
     "cp": "95330",
     "prix": 0.0017749999999999999,
@@ -3928,15 +4761,17 @@
     "coutTotal": 0.0951133054893743
   },
   {
-    "station": "22 AVENUE LENINE",
+    "station": "TotalEnergies",
+    "adresse": "22 AVENUE LENINE",
     "ville": "ROMAINVILLE",
     "cp": "93230",
-    "prix": 0.001838,
+    "prix": 0.001839,
     "distance": 16.404774417813286,
-    "coutTotal": 0.09793039507598816
+    "coutTotal": 0.09798367603087171
   },
   {
-    "station": "3 Pl. de l'Europe",
+    "station": "Auchan",
+    "adresse": "3 Pl. de l'Europe",
     "ville": "Saint-Germain-lès-Corbeil",
     "cp": "91250",
     "prix": 0.001675,
@@ -3944,7 +4779,17 @@
     "coutTotal": 0.09611711476124613
   },
   {
-    "station": "CHEMIN DEPARTEMENTAL 19",
+    "station": "TotalEnergies",
+    "adresse": "217 BOULEVARD MARECHAL DAVOUT",
+    "ville": "PARIS",
+    "cp": "75020",
+    "prix": 0.001839,
+    "distance": 15.060555597707861,
+    "coutTotal": 0.09748927234883695
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "CHEMIN DEPARTEMENTAL 19",
     "ville": "Le Plessis-Pâté",
     "cp": "91220",
     "prix": 0.001709,
@@ -3952,7 +4797,8 @@
     "coutTotal": 0.0967074030571041
   },
   {
-    "station": "Rue du Docteur Rémond",
+    "station": "Auchan",
+    "adresse": "Rue du Docteur Rémond",
     "ville": "Saint-Arnoult-en-Yvelines",
     "cp": "78730",
     "prix": 0.001699,
@@ -3960,7 +4806,17 @@
     "coutTotal": 0.09846189051510754
   },
   {
-    "station": "110 BD DE STRASBOURG",
+    "station": "TotalEnergies",
+    "adresse": "99 AVENUE DE VERSAILLES",
+    "ville": "PARIS",
+    "cp": "75016",
+    "prix": 0.001863,
+    "distance": 7.1063332297784365,
+    "coutTotal": 0.09579781976141545
+  },
+  {
+    "station": "Avia",
+    "adresse": "110 BD DE STRASBOURG",
     "ville": "AULNAY SOUS BOIS",
     "cp": "93600",
     "prix": 0.00188,
@@ -3968,7 +4824,8 @@
     "coutTotal": 0.10180786811157673
   },
   {
-    "station": "RN118",
+    "station": "TotalEnergies Access",
+    "adresse": "RN118",
     "ville": "Bièvres",
     "cp": "91570",
     "prix": 0.001739,
@@ -3976,19 +4833,30 @@
     "coutTotal": 0.09262031494058917
   },
   {
-    "station": "186, avenue jean-jaurès",
+    "station": "Auchan",
+    "adresse": "186, avenue jean-jaurès",
     "ville": "MONTFERMEIL",
     "cp": "93370",
-    "prix": 0.0016719999999999999,
+    "prix": 0.001665,
     "distance": 25.08472495093018,
-    "coutTotal": 0.09198833202359105
+    "coutTotal": 0.09160321340865976
   },
   {
-    "station": "Réservée aux Membres Costco, 3 avenue de Bréhat",
+    "station": "Esso",
+    "adresse": "231 Rue de Tolbiac",
+    "ville": "Paris",
+    "cp": "75013",
+    "prix": 0.001825,
+    "distance": 12.51394047156816,
+    "coutTotal": 0.09581758827212238
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "Réservée aux Membres Costco, 3 avenue de Bréhat",
     "ville": "VILLEBON-SUR-YVETTE",
     "cp": "91140",
-    "prix": 0.0016339999999999998,
+    "prix": 0.001639,
     "distance": 22.884469585533925,
-    "coutTotal": 0.08917864466055248
+    "coutTotal": 0.08945152913013803
   }
 ]
