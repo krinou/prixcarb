@@ -112,7 +112,7 @@ jobs:
               return ""
 
           # --- Paramètres ---
-          DEPS = {"78","91","92","93","95"}   # départements à conserver
+          DEPS = {"75","78","91","92","93","95"}   # départements à conserver
           REF_LAT, REF_LON = 48.8925, 2.2060  # Nanterre (approx.)
           CONSO = 10                          # L/100 km
           VOLUME = 50                         # L
@@ -135,13 +135,14 @@ jobs:
           stations_out = []
 
           for pdv in root.findall("pdv"):
-              id = pdv.get("id")
-              print(f"Recherche enseigne a partir de l'id {id} ...")
-              enseigne = get_enseigne(id)
               cp = pdv.get("cp")
               if not cp or cp[:2] not in DEPS:
                   continue
 
+              id = pdv.get("id")
+              print(f"Recherche enseigne a partir de l'id {id} ...")
+              enseigne = get_enseigne(id)
+              print(f"enseigne trouvee {enseigne} ...")
               # Coordonnées WGS84 *100000 -> diviser par 100000
               lat = float(pdv.get("latitude"))/100000
               lon = float(pdv.get("longitude"))/100000
