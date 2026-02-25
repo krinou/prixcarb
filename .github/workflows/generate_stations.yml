@@ -48,6 +48,7 @@ jobs:
         run: |
           set -e
           cat > convert.py << 'EOF'
+          import os
           import xml.etree.ElementTree as ET
           import math
           import requests, time, json
