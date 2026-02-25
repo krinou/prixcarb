@@ -15,6 +15,20 @@
 </style>
 
 </head>
+
+<button onclick="runStationsUpdate()">🔄 Mettre à jour les stations</button>
+
+<script>
+function runStationsUpdate() {
+  fetch("https://prixcarb-workers.krinou.workers.dev/", {
+    method: "POST"
+  })
+  .then(r => r.text())
+  .then(msg => alert(msg))
+  .catch(err => alert("Erreur worker : " + err));
+}
+</script>
+
 <body class="bg-light">
 
 <div class="container mt-4 mb-5">
