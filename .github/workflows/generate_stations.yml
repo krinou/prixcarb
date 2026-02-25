@@ -52,6 +52,7 @@ jobs:
           import xml.etree.ElementTree as ET
           import math
           import requests, time, json
+          from bs4 import BeautifulSoup
           
           # definition d'un fichier cache pour le nom des enseignes
           ENSEIGNE_CACHE_FILE = "enseigne_cache.json"
@@ -86,23 +87,27 @@ jobs:
               if sid in cache and cache[sid]:
                  return cache[sid]
 
-              # 1) requete FTP
+              # 1) requete HTTP
               url = f"https://www.prix-carburants.gouv.fr/station/{sid}"
               try:
                  r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
                  if r.status_code != 200:
                     return ""
-
+                 # a) recupere le code source de la page
                  soup = BeautifulSoup(r.text, "html.parser")
                  enseigne = extract_enseigne_from_block(soup).strip()
 
-                 ENSEIGNE_CACHE[sid] = enseigne
-                 json.dump(ENSEIGNE_CACHE, open(ENSEIGNE_CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-
-                 return enseigne
-
+                 # b) ecriture dans le fichier cache si enseigne trouvee
+                 if enseigne:
+                    cache[sid] = enseigne
+                    try:
+                       json.dump(cache, open(ENSEIGNE_CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+                       return enseigne
+                    except Exception:
+                      print(f"Erreur ecriture fichier enseigne {enseigne} de l'id {sid} ...")
+                      
               except Exception:
-                 pass
+                 print(f"Erreur recup URL de l'id {sid} ...")
 
               return ""
 
@@ -131,6 +136,7 @@ jobs:
 
           for pdv in root.findall("pdv"):
               id = pdv.get("id")
+              print(f"Recherche enseigne a partir de l'id {id} ...")
               enseigne = get_enseigne(id)
               cp = pdv.get("cp")
               if not cp or cp[:2] not in DEPS:
