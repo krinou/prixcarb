@@ -75,8 +75,8 @@ async function charger() {
       const prixPondere = coutTotal / VOLUME;
 
       return {
-        station    : "",  // vide (comme souhaité)
-        adresse    : (typeof r.station === "string") ? r.station.trim() : "",
+        station    : r.station, 
+        adresse    : r.adresse,
         cp         : r.cp ?? "",
         ville      : r.ville ?? "",
         prix       : prixEur,
