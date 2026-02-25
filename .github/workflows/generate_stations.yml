@@ -1,10 +1,10 @@
 name: Générer stations.json manuellement
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # lancement manuel
 
 permissions:
-  contents: write
+  contents: write     # autorise le push sur le repo
 
 jobs:
   build:
@@ -22,16 +22,15 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          
 
-      # 2.1) Installer les dépendances
+          
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+           python -m pip install --upgrade pip
+           pip install requests beautifulsoup4
 
-      # 3) Télécharger le flux instantané (ZIP)
-      # Réf. ancienne page open data : https://www.prix-carburants.gouv.fr/rubrique/opendata/
+      # 3) Télécharger les données officielles (ZIP "flux instantané")
+      #    Réf. open data : https://www.prix-carburants.gouv.fr/rubrique/opendata/
       - name: Download carburant data (XML in ZIP)
         run: |
           set -e
@@ -44,173 +43,141 @@ jobs:
           unzip -o data.zip
           ls -l
 
-      # 5) Script de conversion (avec enseignes)
+      # 5) Script de conversion XML -> JSON filtré + calculs
       - name: Create convert.py
-        shell: bash
         run: |
-          set -euo pipefail
+          set -e
           cat > convert.py << 'EOF'
-          #!/usr/bin/env python3
-          # -*- coding: utf-8 -*-
-
           import os
-          import sys
-          import json
-          import time
           import xml.etree.ElementTree as ET
-          from functools import lru_cache
-
-          import requests
+          import math
+          import requests, time, json
           from bs4 import BeautifulSoup
+          
+          # definition d'un fichier cache pour le nom des enseignes
+          ENSEIGNE_CACHE_FILE = "enseigne_cache.json"
+          HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-          # --------- Réglages ---------
-          XML_CANDIDATES = [
-              "PrixCarburants_instantane.xml",
-              "prixcarburants_instantane.xml",
-          ]
-          OUTPUT_JSON = "stations.json"
-          CACHE_FILE = "brand_cache.json"
-          HEADERS = {
-              "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-          }
+          # --- parseur : extraction pure depuis soup ---
+          def extract_enseigne_from_block(soup):
+              # 1) ciblage précis d’après ton HTML : <div class="fr-pb-3v">Marque : ...</div>
+              block = soup.find("div", class_="fr-pb-3v")
+              if block:
+                 parts = list(block.stripped_strings)
+                 # ["Marque :", "TotalEnergies", "16 bd ...", "44200", "Nantes"]
+                 if parts and parts[0].lower().startswith("marque"):
+                    parts = parts[1:]
+                 if parts:
+                    return parts[0].strip()  # "TotalEnergies"
+              return ""
 
-          # --------- Cache des enseignes ---------
-          def load_cache():
-              if os.path.exists(CACHE_FILE):
-                  try:
-                      with open(CACHE_FILE, "r", encoding="utf-8") as f:
-                          return json.load(f)
-                  except Exception:
-                      return {}
-              return {}
+          #definition de la fonction get_enseigne pour recuperer le nom de l'enseigne
+          def get_enseigne(sid):
+              if not sid:
+                 return ""
+                 
+              # 0) cache disque
+              cache = {}
+              if os.path.exists(ENSEIGNE_CACHE_FILE):
+                 try:
+                    cache = json.load(open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8"))
+                 except Exception:
+                    cache = {}
 
-          def save_cache(cache: dict):
+              if sid in cache and cache[sid]:
+                 return cache[sid]
+
+              # 1) requete HTTP
+              url = f"https://www.prix-carburants.gouv.fr/station/{sid}"
               try:
-                  with open(CACHE_FILE, "w", encoding="utf-8") as f:
-                      json.dump(cache, f, ensure_ascii=False, indent=2)
+                 r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+                 if r.status_code != 200:
+                    return ""
+                 # a) recupere le code source de la page
+                 soup = BeautifulSoup(r.text, "html.parser")
+                 enseigne = extract_enseigne_from_block(soup).strip()
+
+                 # b) ecriture dans le fichier cache si enseigne trouvee
+                 if enseigne:
+                    cache[sid] = enseigne
+                    try:
+                       json.dump(cache, open(ENSEIGNE_CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+                       return enseigne
+                    except Exception:
+                      print(f"Erreur ecriture fichier enseigne {enseigne} de l'id {sid} ...")
+                      
               except Exception:
-                  pass
+                 print(f"Erreur recup URL de l'id {sid} ...")
 
-          BRAND_CACHE = load_cache()
+              return ""
 
-          def _save_brand(station_id: str, brand: str):
-              BRAND_CACHE[station_id] = brand
-              # sauvegarde au fil de l’eau
-              save_cache(BRAND_CACHE)
+          # --- Paramètres ---
+          DEPS = {"75","78","91","92","93","95"}   # départements à conserver
+          REF_LAT, REF_LON = 48.8925, 2.2060  # Nanterre (approx.)
+          CONSO = 10                          # L/100 km
+          VOLUME = 50                         # L
+          FUEL_TAG = "E10"                    # carburant ciblé (E10)
 
-          # --------- Scraping enseigne (à adapter si besoin) ---------
-          def parse_brand_from_html(html: str) -> str:
-              soup = BeautifulSoup(html, "html.parser")
-              # heuristiques simples
-              for sel in ['[itemprop="name"]', ".brand", ".station-brand", "h1", "h2", "title"]:
-                  el = soup.select_one(sel) if sel != "title" else (soup.title if soup.title else None)
-                  if el:
-                      txt = (el.get_text(strip=True) if sel != "title" else el.string.strip() if el.string else "").strip()
-                      if txt:
-                          return txt
-              return "Inconnue"
+          def haversine(lat1, lon1, lat2, lon2):
+              R = 6371
+              dlat = math.radians(lat2 - lat1)
+              dlon = math.radians(lon2 - lon1)
+              a = (math.sin(dlat/2)**2 +
+                   math.cos(math.radians(lat1)) *
+                   math.cos(math.radians(lat2)) *
+                   math.sin(dlon/2)**2)
+              return 2 * R * math.asin(math.sqrt(a))
 
-          @lru_cache(maxsize=10000)
-          def get_brand_from_html(station_id: str, retries: int = 3, delay: float = 0.8) -> str:
-              if not station_id:
-                  return "Inconnue"
-              # cache disque
-              if station_id in BRAND_CACHE and BRAND_CACHE[station_id]:
-                  return BRAND_CACHE[station_id]
-              # URL à vérifier/adapter si besoin
-              url_candidates = [
-                  f"https://www.prix-carburants.gouv.fr/station/{station_id}",
-                  f"https://www.prix-carburants.gouv.fr/{station_id}",
-              ]
-              for url in url_candidates:
-                  for attempt in range(1, retries + 1):
-                      try:
-                          resp = requests.get(url, headers=HEADERS, timeout=15)
-                          if resp.status_code != 200 or not resp.text:
-                              time.sleep(delay * attempt)
-                              continue
-                          brand = parse_brand_from_html(resp.text).strip()
-                          if brand and brand.lower() != "inconnue":
-                              _save_brand(station_id, brand)
-                              return brand
-                      except Exception:
-                          time.sleep(delay * attempt)
-              _save_brand(station_id, "")
-              return "Inconnue"
+          xml_file = "PrixCarburants_instantane.xml"  # présent dans le ZIP officiel
+          tree = ET.parse(xml_file)
+          root = tree.getroot()
 
-          # --------- Lecture XML OpenData ---------
-          def find_xml_path() -> str:
-              # Cherche un des noms standard
-              for cand in XML_CANDIDATES:
-                  if os.path.exists(cand):
-                      return cand
-              # Sinon, cherche le premier .xml à la racine
-              for f in os.listdir("."):
-                  if f.lower().endswith(".xml"):
-                      return f
-              raise FileNotFoundError("Fichier XML introuvable après extraction du ZIP.")
+          stations_out = []
 
-          def parse_xml(xml_path: str):
-              """
-              Retourne une liste de dicts 'stations-prix' aplatis :
-              id, adresse, cp, ville, latitude, longitude, carburant, prix, date_maj
-              """
-              tree = ET.parse(xml_path)
-              root = tree.getroot()
-              rows = []
-              for pdv in root.findall(".//pdv"):
-                  sid = pdv.get("id")
-                  lat = pdv.get("latitude")
-                  lon = pdv.get("longitude")
-                  cp = pdv.get("cp")
-                  adresse_el = pdv.find("adresse")
-                  ville_el = pdv.find("ville")
-                  adresse = (adresse_el.text or "").strip() if adresse_el is not None else ""
-                  ville = (ville_el.text or "").strip() if ville_el is not None else ""
-                  for prix in pdv.findall("prix"):
-                      carburant = prix.get("nom") or ""
-                      valeur = prix.get("valeur") or ""
-                      maj = prix.get("maj") or ""
-                      rows.append({
-                          "id": sid,
-                          "adresse": adresse,
-                          "cp": cp,
-                          "ville": ville,
-                          "latitude": lat,
-                          "longitude": lon,
-                          "carburant": carburant,
-                          "prix": valeur,
-                          "date_maj": maj,
-                      })
-              return rows
+          for pdv in root.findall("pdv"):
+              cp = pdv.get("cp")
+              if not cp or cp[:2] not in DEPS:
+                  continue
 
-          # --------- Enrichissement + sortie ---------
-          def main():
-              xml_path = find_xml_path()
-              rows = parse_xml(xml_path)
+              id = pdv.get("id")
+              print(f"Recherche enseigne a partir de l'id {id} ...")
+              enseigne = get_enseigne(id)
+              print(f"enseigne trouvee {enseigne} ...")
+              # Coordonnées WGS84 *100000 -> diviser par 100000
+              lat = float(pdv.get("latitude"))/100000
+              lon = float(pdv.get("longitude"))/100000
 
-              # Dédupliquer les SIDs pour limiter les requêtes
-              unique_sids = {r["id"] for r in rows if r.get("id")}
-              for sid in unique_sids:
-                  _ = get_brand_from_html(sid)
+              # Prix carburant ciblé
+              prix_elem = None
+              for p in pdv.findall("prix"):
+                  if p.get("nom") == FUEL_TAG:
+                      prix_elem = p
+                      break
+              if prix_elem is None:
+                  continue
 
-              # Ajoute la colonne 'enseigne'
-              for r in rows:
-                  sid = r.get("id")
-                  r["enseigne"] = get_brand_from_html(sid) if sid else "Inconnue"
+              # milli-euros/L -> €/L
+              prix = float(prix_elem.get("valeur"))/1000
 
-              with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-                  json.dump(rows, f, ensure_ascii=False, indent=2)
+              dist = haversine(REF_LAT, REF_LON, lat, lon)
+              cout_total = prix * VOLUME + (2*dist/100)*CONSO*prix
 
-              # Sauvegarde cache finale
-              save_cache(BRAND_CACHE)
+              # Pour l'affichage, on va chercher adresse/ville si elles existent
+              stations_out.append({
+                  "station": enseigne, 
+                  "adresse": pdv.findtext("adresse") or "",
+                  "ville": pdv.findtext("ville") or "",
+                  "cp": cp,
+                  "prix": prix,
+                  "distance": dist,
+                  "coutTotal": cout_total
+              })
 
-              print(f"[OK] {len(rows)} lignes écrites dans {OUTPUT_JSON}")
+          with open("stations.json", "w", encoding="utf-8") as f:
+              json.dump(stations_out, f, ensure_ascii=False, indent=2)
 
-          if __name__ == "__main__":
-              main()
+          print("OK : stations.json généré.")
           EOF
-          chmod +x convert.py
 
       # 6) Exécuter la conversion
       - name: Run convert.py
@@ -219,32 +186,23 @@ jobs:
           python3 convert.py
           test -f stations.json && echo "stations.json présent"
 
-      # (Optionnel) Aperçu rapide
-      - name: Show first lines
-        run: |
-          if command -v jq >/dev/null 2>&1; then
-            jq '.[0:5]' stations.json
-          else
-            head -n 80 stations.json || true
-          fi
-
       # 7) Commit + push uniquement si changements
       - name: Commit and push stations.json (if changed)
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stations.json brand_cache.json || true
+          git add stations.json
           if git diff --cached --quiet; then
-            echo "Aucun changement à pousser."
+            echo "Aucun changement pour le fichier des stations stations.json  à pousser."
           else
-            git commit -m "Mise à jour manuelle stations.json (+ cache enseignes)"
+            git commit -m "Mise à jour du fichier des stations.json"
             git push
           fi
-
-      # 8) Publier l'artifact (pratique pour vérifier)
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: stations-json
-          path: stations.json
+          git add enseigne_cache.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement pour le fichier cache enseigne_cache.json  à pousser."
+          else
+            git commit -m "Mise à jour manuelle du fichier cache enseigne_cache.json"
+            git push
+          fi
