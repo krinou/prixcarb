@@ -23,6 +23,12 @@ jobs:
         with:
           python-version: "3.11"
 
+          
+      - name: Install dependencies
+        run: |
+           python -m pip install --upgrade pip
+           pip install requests beautifulsoup4
+
       # 3) Télécharger les données officielles (ZIP "flux instantané")
       #    Réf. open data : https://www.prix-carburants.gouv.fr/rubrique/opendata/
       - name: Download carburant data (XML in ZIP)
@@ -44,7 +50,56 @@ jobs:
           cat > convert.py << 'EOF'
           import xml.etree.ElementTree as ET
           import math
-          import json
+          import requests, time, json
+          
+          # definition d'un fichier cache pour le nom des enseignes
+          ENSEIGNE_CACHE_FILE = "enseigne_cache.json"
+          # Charger cache
+          try:
+             with open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8") as f:
+             ENSEIGNE_CACHE = json.load(f)
+          except:
+             ENSEIGNE_CACHE = {}
+
+
+          # --- parseur : extraction pure depuis soup ---
+          def extract_enseigne_from_block(soup):
+              # 1) ciblage précis d’après ton HTML : <div class="fr-pb-3v">Marque : ...</div>
+              block = soup.find("div", class_="fr-pb-3v")
+              if block:
+                 parts = list(block.stripped_strings)
+                 # ["Marque :", "TotalEnergies", "16 bd ...", "44200", "Nantes"]
+                 if parts and parts[0].lower().startswith("marque"):
+                    parts = parts[1:]
+                 if parts:
+                    return parts[0].strip()  # "TotalEnergies"
+              return ""
+
+          #definition de la fonction get_enseigne pour recuperer le nom de l'enseigne
+          def get_enseigne(sid):
+              if not sid:
+                 return ""
+              if sid in ENSEIGNE_CACHE:
+                 return ENSEIGNE_CACHE[sid]
+
+              url = f"https://www.prix-carburants.gouv.fr/station/{sid}"
+              try:
+                 r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+                 if r.status_code != 200:
+                    return ""
+
+                 soup = BeautifulSoup(r.text, "html.parser")
+                 enseigne = extract_enseigne_from_block(soup).strip()
+
+                 ENSEIGNE_CACHE[sid] = enseigne
+                 json.dump(ENSEIGNE_CACHE, open(ENSEIGNE_CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+                 return enseigne
+
+              except Exception:
+                 pass
+
+             return ""
 
           # --- Paramètres ---
           DEPS = {"78","91","92","93","95"}   # départements à conserver
@@ -71,6 +126,7 @@ jobs:
 
           for pdv in root.findall("pdv"):
               id = pdv.get("id")
+              enseigne = get_enseigne(id)
               cp = pdv.get("cp")
               if not cp or cp[:2] not in DEPS:
                   continue
@@ -96,7 +152,7 @@ jobs:
 
               # Pour l'affichage, on va chercher adresse/ville si elles existent
               stations_out.append({
-                  "station": id, 
+                  "station": enseigne, 
                   "adresse": pdv.findtext("adresse") or "",
                   "ville": pdv.findtext("ville") or "",
                   "cp": cp,
