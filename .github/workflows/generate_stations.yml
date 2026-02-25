@@ -54,13 +54,7 @@ jobs:
           
           # definition d'un fichier cache pour le nom des enseignes
           ENSEIGNE_CACHE_FILE = "enseigne_cache.json"
-          # Charger cache
-          try:
-             with open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8") as f:
-             ENSEIGNE_CACHE = json.load(f)
-          except:
-             ENSEIGNE_CACHE = {}
-
+          HEADERS = {"User-Agent": "Mozilla/5.0"}
 
           # --- parseur : extraction pure depuis soup ---
           def extract_enseigne_from_block(soup):
@@ -79,9 +73,19 @@ jobs:
           def get_enseigne(sid):
               if not sid:
                  return ""
-              if sid in ENSEIGNE_CACHE:
-                 return ENSEIGNE_CACHE[sid]
+                 
+              # 0) cache disque
+              cache = {}
+              if os.path.exists(ENSEIGNE_CACHE_FILE):
+                 try:
+                    cache = json.load(open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8"))
+                 except Exception:
+                    cache = {}
 
+              if sid in cache and cache[sid]:
+                 return cache[sid]
+
+              # 1) requete FTP
               url = f"https://www.prix-carburants.gouv.fr/station/{sid}"
               try:
                  r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
