@@ -35,6 +35,15 @@ function runStationsUpdate() {
 
   <h1 class="mb-4 text-center">⛽ Classement des stations</h1>
 
+  <div class="input-group mb-3">
+
+    <input id="cpInput" class="form-control"
+         placeholder="Entrez un code postal ou une adresse">
+
+    <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
+
+  </div>
+  
   <div id="summary" class="alert alert-secondary text-center"></div>
 
   <div id="status" class="alert alert-info text-center">⏳ Chargement…</div>
@@ -247,5 +256,49 @@ function activerTri(table, data, triCol, triDir) {
 charger();
 </script>
 
+<script>
+  // ------------------------------------------------------
+  // 1) Fonction de géolocalisation navigateur
+  // ------------------------------------------------------
+  function geolocaliser() {
+
+    if (!navigator.geolocation) {
+        alert("La géolocalisation n'est pas supportée par votre navigateur.");
+        return;
+    }
+
+    navigator.geolocation.getCurrentPosition(async pos => {
+
+        const lat = pos.coords.latitude;
+        const lon = pos.coords.longitude;
+
+        // Appel à Nominatim (gratuit) pour convertir GPS -> Adresse
+        const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
+
+        try {
+            const res = await fetch(url, { headers: {'User-Agent':'prixcarb'} });
+            const json = await res.json();
+
+            // Extraction du code postal
+            const cp = json.address.postcode;
+
+            if (!cp) {
+                alert("Impossible de déterminer le code postal.");
+                return;
+            }
+
+            // Remplir champ de saisie
+            document.getElementById("cpInput").value = cp;
+
+        } catch(err) {
+            alert("Erreur géolocalisation : " + err);
+        }
+
+    }, err => {
+        alert("Géolocalisation refusée ou impossible.");
+        console.error(err);
+    });
+  }
+  </script>
 </body>
 </html>
