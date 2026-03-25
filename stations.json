@@ -922,9 +922,9 @@
     "adresse": "69, AVENUE ARISTIDE BRIAND",
     "ville": "LIVRY GARGAN",
     "cp": "93190",
-    "prix": 0.002019,
+    "prix": 0.001999,
     "distance": 22.980770686491873,
-    "coutTotal": 0.11022963520320542
+    "coutTotal": 0.10913771212045945
   },
   {
     "station": "Esso",
@@ -1120,9 +1120,9 @@
     "adresse": "RN 1 - BP4",
     "ville": "Domont",
     "cp": "95331",
-    "prix": 0.001999,
+    "prix": 0.0019790000000000003,
     "distance": 18.24780822511277,
-    "coutTotal": 0.10724547372840008
+    "coutTotal": 0.10617248249549964
   },
   {
     "station": "Esso",
@@ -1633,9 +1633,9 @@
     "adresse": "RUE MICHEL ANGE ROUTE N 370",
     "ville": "AULNAY SOUS BOIS",
     "cp": "93600",
-    "prix": 0.002049,
+    "prix": 0.002029,
     "distance": 21.535476498700437,
-    "coutTotal": 0.11127523826916744
+    "coutTotal": 0.11018909636317263
   },
   {
     "station": "Esso",
@@ -1849,9 +1849,9 @@
     "adresse": "AVENUE G CLEMENCEAU CD 40",
     "ville": "VILLEPINTE",
     "cp": "93420",
-    "prix": 0.002019,
+    "prix": 0.001999,
     "distance": 26.83943088260575,
-    "coutTotal": 0.1117877621903962
+    "coutTotal": 0.11068040446686578
   },
   {
     "station": "G20",
@@ -2592,6 +2592,15 @@
     "coutTotal": 0.10506895436859039
   },
   {
+    "station": "Carrefour Market",
+    "adresse": "LE BUISSON RONDEAU",
+    "ville": "Breuillet",
+    "cp": "91650",
+    "prix": 0.001957,
+    "distance": 36.109546007095325,
+    "coutTotal": 0.11198327630717711
+  },
+  {
     "station": "Intermarché",
     "adresse": "Rue de Chanteloup",
     "ville": "Saint-Germain-lès-Arpajon",
@@ -2599,15 +2608,6 @@
     "prix": 0.001929,
     "distance": 33.15662337662527,
     "coutTotal": 0.10924182529870202
-  },
-  {
-    "station": "Carrefour Market",
-    "adresse": "LE BUISSON RONDEAU",
-    "ville": "Breuillet",
-    "cp": "91650",
-    "prix": 0.001984,
-    "distance": 36.109546007095325,
-    "coutTotal": 0.11352826785561544
   },
   {
     "station": "Leclerc",
@@ -2641,9 +2641,9 @@
     "adresse": "chemin du Poirier Charles Guérin",
     "ville": "OSNY",
     "cp": "95520",
-    "prix": 0.0019790000000000003,
+    "prix": 0.0019690000000000003,
     "distance": 22.572053569569313,
-    "coutTotal": 0.10788401880283555
+    "coutTotal": 0.1073388746956964
   },
   {
     "station": "TotalEnergies",
@@ -2992,9 +2992,9 @@
     "adresse": "BD DES CHAMPS ELYSEES",
     "ville": "Évry",
     "cp": "91000",
-    "prix": 0.001928,
+    "prix": 0.00198,
     "distance": 32.51035032237295,
-    "coutTotal": 0.10893599108430702
+    "coutTotal": 0.11187409872765969
   },
   {
     "station": "TotalEnergies Access",
@@ -3325,9 +3325,9 @@
     "adresse": "151, RUE NOUVELLE France",
     "ville": "MONTREUIL",
     "cp": "93100",
-    "prix": 0.002019,
+    "prix": 0.002009,
     "distance": 19.15038300019397,
-    "coutTotal": 0.10868292465547832
+    "coutTotal": 0.10814462388947793
   },
   {
     "station": "TotalEnergies",
@@ -3424,9 +3424,9 @@
     "adresse": "ROUTE DES PETITS PONTS",
     "ville": "Sevran",
     "cp": "93270",
-    "prix": 0.001968,
+    "prix": 0.0019590000000000002,
     "distance": 24.40960489158021,
-    "coutTotal": 0.10800762048532597
+    "coutTotal": 0.10751368319652113
   },
   {
     "station": "TotalEnergies",
@@ -4000,9 +4000,9 @@
     "adresse": "avenue blaise pascal",
     "ville": "MORANGIS",
     "cp": "91420",
-    "prix": 0.00199,
+    "prix": 0.001958,
     "distance": 23.645490239949336,
-    "coutTotal": 0.10891090511549983
+    "coutTotal": 0.10715957397796416
   },
   {
     "station": "Leclerc",
@@ -4131,15 +4131,6 @@
     "coutTotal": 0.10585939090530062
   },
   {
-    "station": "Auchan",
-    "adresse": "4 Rue des Rosiers",
-    "ville": "Verneuil-sur-Seine",
-    "cp": "78480",
-    "prix": 0.00197,
-    "distance": 20.192545936133786,
-    "coutTotal": 0.10645586309883671
-  },
-  {
     "station": "Carrefour",
     "adresse": "Route Renault",
     "ville": "FLINS-SUR-SEINE",
@@ -4147,6 +4138,15 @@
     "prix": 0.001978,
     "distance": 26.110428562419617,
     "coutTotal": 0.1092292855392932
+  },
+  {
+    "station": "Auchan",
+    "adresse": "4 Rue des Rosiers",
+    "ville": "Verneuil-sur-Seine",
+    "cp": "78480",
+    "prix": 0.00197,
+    "distance": 20.192545936133786,
+    "coutTotal": 0.10645586309883671
   },
   {
     "station": "TotalEnergies",
@@ -4185,15 +4185,6 @@
     "coutTotal": 0.11529991094707318
   },
   {
-    "station": "Carrefour",
-    "adresse": "80 BOULEVARD MAXIME GORKI",
-    "ville": "STAINS",
-    "cp": "93240",
-    "prix": 0.00199,
-    "distance": 14.509557863460588,
-    "coutTotal": 0.10527480402965732
-  },
-  {
     "station": "TotalEnergies",
     "adresse": "97 TER ROUTE DU PAVE DES GARDES",
     "ville": "MEUDON",
@@ -4201,6 +4192,15 @@
     "prix": 0.00199,
     "distance": 8.85372169610502,
     "coutTotal": 0.10302378123504981
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "80 BOULEVARD MAXIME GORKI",
+    "ville": "STAINS",
+    "cp": "93240",
+    "prix": 0.00199,
+    "distance": 14.509557863460588,
+    "coutTotal": 0.10527480402965732
   },
   {
     "station": "TotalEnergies",
@@ -4360,9 +4360,9 @@
     "adresse": "59 Avenue Kellermann",
     "ville": "Soisy-sous-Montmorency",
     "cp": "95230",
-    "prix": 0.002059,
+    "prix": 0.002029,
     "distance": 11.395100047093418,
-    "coutTotal": 0.10764250219939307
+    "coutTotal": 0.10607413159911051
   },
   {
     "station": "Intermarché",
@@ -4774,9 +4774,9 @@
     "adresse": "186, avenue jean-jaurès",
     "ville": "MONTFERMEIL",
     "cp": "93370",
-    "prix": 0.0019690000000000003,
+    "prix": 0.001964,
     "distance": 25.08472495093018,
-    "coutTotal": 0.10832836468567632
+    "coutTotal": 0.10805327996072538
   },
   {
     "station": "Esso",
@@ -4792,9 +4792,9 @@
     "adresse": "Réservée aux Membres Costco, 3 avenue de Bréhat",
     "ville": "VILLEBON-SUR-YVETTE",
     "cp": "91140",
-    "prix": 0.001929,
+    "prix": 0.001895,
     "distance": 22.884469585533925,
-    "coutTotal": 0.10527882836609898
+    "coutTotal": 0.10342321397291736
   },
   {
     "station": "TotalEnergies",
