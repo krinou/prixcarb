@@ -70,6 +70,9 @@ async function charger() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const rows = await res.json();
     if (!Array.isArray(rows)) throw new Error("JSON invalide");
+    
+    // Nombre de stations = nombre de lignes
+    const nbStations = res.length;
 
     const CONSO  = 10;   // L/100 km
     const VOLUME = 50;   // L
