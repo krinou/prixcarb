@@ -44,6 +44,18 @@ function runStationsUpdate() {
 
   </div>
   
+  <div class="card p-3 mb-3">
+     <label class="form-label fw-bold">Adresse ou code postal :</label>
+
+     <div class="input-group mb-2">
+       <input id="adresseInput" class="form-control" placeholder="Entrez une adresse ou un code postal">
+       <button class="btn btn-success" onclick="calculerDepuisSaisie()">OK</button>
+       <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
+     </div>
+
+     <div id="adresseTrouvee" class="text-muted"></div>
+  </div>
+  
   <div id="summary" class="alert alert-secondary text-center"></div>
 
   <div id="status" class="alert alert-info text-center">⏳ Chargement…</div>
@@ -260,7 +272,7 @@ charger();
   // ------------------------------------------------------
   // 1) Fonction de géolocalisation navigateur
   // ------------------------------------------------------
-  function geolocaliser() {
+  async function geolocaliser() {
 
     if (!navigator.geolocation) {
         alert("La géolocalisation n'est pas supportée par votre navigateur.");
@@ -279,6 +291,9 @@ charger();
             const res = await fetch(url, { headers: {'User-Agent':'prixcarb'} });
             const json = await res.json();
 
+            // Extraction adresse
+            const adresse = json.display_name ?? "Adresse inconnue";
+          
             // Extraction du code postal
             const cp = json.address.postcode;
 
@@ -288,16 +303,52 @@ charger();
             }
 
             // Remplir champ de saisie
-            document.getElementById("cpInput").value = cp;
+            document.getElementById("adresseInput").value = cp;
+            document.getElementById("adresseTrouvee").textContent = adresse;
 
-        } catch(err) {
+             } catch (err) {
             alert("Erreur géolocalisation : " + err);
         }
 
     }, err => {
-        alert("Géolocalisation refusée ou impossible.");
-        console.error(err);
+        alert("Géolocalisation refusée.");
     });
+
+  // ------------------------------------------------------
+  // 2) Saisie manuelle -> rechercher adresse + CP
+  // ------------------------------------------------------
+  async function calculerDepuisSaisie() {
+
+    const texte = document.getElementById("adresseInput").value.trim();
+
+    if (!texte) {
+        alert("Veuillez entrer une adresse ou un CP.");
+        return;
+    }
+
+    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(texte)}&format=json&addressdetails=1&limit=1`;
+
+    try {
+        const res = await fetch(url, { headers: { "User-Agent": "prixcarb" }});
+        const json = await res.json();
+
+        if (json.length === 0) {
+            alert("Adresse introuvable.");
+            return;
+        }
+
+        const adresse = json[0].display_name;
+        const cp = json[0].address.postcode ?? "";
+
+        document.getElementById("adresseTrouvee").textContent = adresse;
+
+        // Tu peux ensuite utiliser ce CP pour filtrer ton JSON
+        console.log("Code postal détecté :", cp);
+
+    } catch (err) {
+        alert("Erreur de recherche : " + err);
+    }
+}
   }
   </script>
 </body>
