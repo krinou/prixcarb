@@ -2592,15 +2592,6 @@
     "coutTotal": 0.10506895436859039
   },
   {
-    "station": "Carrefour Market",
-    "adresse": "LE BUISSON RONDEAU",
-    "ville": "Breuillet",
-    "cp": "91650",
-    "prix": 0.001957,
-    "distance": 36.109546007095325,
-    "coutTotal": 0.11198327630717711
-  },
-  {
     "station": "Intermarché",
     "adresse": "Rue de Chanteloup",
     "ville": "Saint-Germain-lès-Arpajon",
@@ -2608,6 +2599,15 @@
     "prix": 0.001929,
     "distance": 33.15662337662527,
     "coutTotal": 0.10924182529870202
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "LE BUISSON RONDEAU",
+    "ville": "Breuillet",
+    "cp": "91650",
+    "prix": 0.001984,
+    "distance": 36.109546007095325,
+    "coutTotal": 0.11352826785561544
   },
   {
     "station": "Leclerc",
@@ -3289,9 +3289,9 @@
     "adresse": "AVENUE DE LA DIVISION LECLERC",
     "ville": "TAVERNY",
     "cp": "95150",
-    "prix": 0.002009,
+    "prix": 0.002029,
     "distance": 13.992352881306392,
-    "coutTotal": 0.10607212738770891
+    "coutTotal": 0.10712809679923413
   },
   {
     "station": "TotalEnergies",
