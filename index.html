@@ -280,7 +280,12 @@ charger();
             const json = await res.json();
 
             // Extraction adresse
-            const adresse = json.display_name ?? "Adresse inconnue";
+            const addr = json.address;
+            const voie = addr.road ?? addr.pedestrian ?? addr.path ?? "";
+            const numero = addr.house_number ? addr.house_number + " " : ""
+            const cp = addr.postcode ?? "";
+            const ville = addr.city ?? addr.town ?? addr.village ?? "";
+            const adresseCourte = `${numero}${voie}, ${cp} ${ville}`.trim();
           
             // Extraction du code postal
             const cp = json.address.postcode;
@@ -292,7 +297,7 @@ charger();
 
             // Remplir champ de saisie
             document.getElementById("adresseInput").value = cp;
-            document.getElementById("adresseTrouvee").textContent = adresse;
+            document.getElementById("adresseTrouvee").textContent = adresseCourte;
 
              } catch (err) {
             alert("Erreur géolocalisation : " + err);
@@ -328,7 +333,7 @@ charger();
         const adresse = json[0].display_name;
         const cp = json[0].address.postcode ?? "";
 
-        document.getElementById("adresseTrouvee").textContent = adresse;
+        document.getElementById("adresseTrouvee").textContent = adresseCourte;
 
         // Tu peux ensuite utiliser ce CP pour filtrer ton JSON
         console.log("Code postal détecté :", cp);
