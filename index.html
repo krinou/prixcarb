@@ -12,6 +12,15 @@
   th.sortable-header { cursor: pointer; user-select: none; }
   th.sort-asc::after  { content: " ▲"; font-size: 0.9em; color: #666; }
   th.sort-desc::after { content: " ▼"; font-size: 0.9em; color: #666; }
+  #autocompleteList {
+    max-height: 220px;
+    overflow-y: auto;
+    width: 100%;
+    cursor: pointer;
+  }
+  #autocompleteList li:hover {
+    background: #eee;
+  } 
 </style>
 
 </head>
@@ -39,6 +48,7 @@ function runStationsUpdate() {
 
     <input id="cpInput" class="form-control"
          placeholder="Entrez un code postal ou une adresse">
+    <ul id="autocompleteList" class="list-group position-absolute" style="z-index: 2000;"></ul> 
     <button class="btn btn-success" onclick="calculerDepuisSaisie()">OK</button> 
     <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
 
@@ -66,15 +76,105 @@ function runStationsUpdate() {
   </table>
 </div>
 
-
 <script>
-// --------------------------------------------------
-// Chargement JSON + Calculs + Tri + Affichage
-// --------------------------------------------------
+  async function geolocaliser() {
+    if (!navigator.geolocation) { alert("Géolocalisation non supportée."); return; }
+    navigator.geolocation.getCurrentPosition(async pos => {
+    const lat = pos.coords.latitude, lon = pos.coords.longitude;
+    const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
+    const res = await fetch(url, { headers:{"User-Agent":"prixcarb"}});
+    const json = await res.json();
+    const addr = json.address;
+    const voie = addr.road ?? addr.pedestrian ?? addr.path ?? "";
+    const numero = addr.house_number ? addr.house_number + " " : "";
+    const cp = addr.postcode ?? "";
+    const ville = addr.city ?? addr.town ?? addr.village ?? "";
+    const adresseCourte = `${numero}${voie}, ${cp} ${ville}`;
+    document.getElementById("adresseInput").value = adresseCourte;
+    document.getElementById("autocompleteList").innerHTML = "";  
+    }, err => { alert("Géolocalisation refusée."); }); 
+  }
 
-async function charger() {
-  const status = document.getElementById("status");
-  const table  = document.getElementById("table");
+  async function calculerDepuisSaisie() {
+    try {
+      const texte = document.getElementById("adresseInput").value.trim();
+      if (!texte) { alert("Veuillez entrer une adresse ou un CP."); return; }
+      const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(texte)}&format=json&addressdetails=1&limit=1`;
+      const res = await fetch(url, { headers:{"User-Agent":"prixcarb"}});
+      const json = await res.json();
+      if (json.length === 0) { alert("Adresse introuvable."); return; }
+      const addr = json[0].address;
+      const voie = addr.road ?? "";
+      const numero = addr.house_number ? addr.house_number + " " : "";
+      const cp = addr.postcode ?? "";
+      const ville = addr.city ?? addr.town ?? addr.village ?? "";
+      const adresseCourte = `${numero}${voie}, ${cp} ${ville}`;
+      document.getElementById("adresseInput").value = adresseCourte;
+      document.getElementById("autocompleteList").innerHTML = "";
+    } catch(err) { alert("Erreur recherche : " + err); }
+  }
+
+  // ------------------------------------------------------
+// AUTOCOMPLÉTION avec API Adresse (gouv.fr)
+// ------------------------------------------------------
+let autocompleteTimeout = null;
+
+document.getElementById("adresseInput").addEventListener("input", function () {
+    const query = this.value.trim();
+    if (!query) {
+        document.getElementById("autocompleteList").innerHTML = "";
+        return;
+    }
+
+    clearTimeout(autocompleteTimeout);
+    autocompleteTimeout = setTimeout(() => autocomplete(query), 250);
+});
+
+async function autocomplete(query) {
+    const url =
+        `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=5`;
+
+    try {
+        const res = await fetch(url);
+        const json = await res.json();
+
+        const list = document.getElementById("autocompleteList");
+        list.innerHTML = "";
+
+        json.features.forEach(feat => {
+
+            const props = feat.properties;
+            const label = props.label;        // Exemple : "25 Rue Thomas Lemaître 92000 Nanterre"
+            const voie = props.name;          // Exemple : "Rue Thomas Lemaître"
+            const cp = props.postcode;
+            const ville = props.city;
+
+            const adresseCourte = `${voie}, ${cp} ${ville}`;
+
+            const li = document.createElement("li");
+            li.className = "list-group-item";
+            li.textContent = adresseCourte;
+
+            li.onclick = () => {
+                document.getElementById("adresseInput").value = adresseCourte;
+                list.innerHTML = "";
+            };
+
+            list.appendChild(li);
+        });
+
+    } catch (e) {
+        console.error("Erreur autocomplétion", e);
+    }
+}
+  
+  // --------------------------------------------------
+  // Chargement JSON + Calculs + Tri + Affichage
+  // --------------------------------------------------
+
+  async function charger() {
+    const status = document.getElementById("status");
+    const table  = document.getElementById("table");
 
   try {
     const res = await fetch("stations.json", { cache:"no-cache" });
@@ -171,7 +271,6 @@ function remplirTableau(data, tbody) {
   data.forEach((o,i) => tbody.appendChild(buildRow(o,i)));
 }
 
-
 // --------------------------------------------------
 // Tri principal + tri secondaire + tri tertiaire
 // --------------------------------------------------
@@ -201,7 +300,6 @@ function compare(a,b) {
   if (!Number.isFinite(nb)) return -1;
   return na - nb;
 }
-
 
 // --------------------------------------------------
 // Activer le tri SUR 3 COLONNES SEULEMENT :
@@ -256,93 +354,5 @@ function activerTri(table, data, triCol, triDir) {
 charger();
 </script>
 
-<script>
-  // ------------------------------------------------------
-  // 1) Fonction de géolocalisation navigateur
-  // ------------------------------------------------------
-  async function geolocaliser() {
-
-    if (!navigator.geolocation) {
-        alert("La géolocalisation n'est pas supportée par votre navigateur.");
-        return;
-    }
-
-    navigator.geolocation.getCurrentPosition(async pos => {
-
-        const lat = pos.coords.latitude;
-        const lon = pos.coords.longitude;
-
-        // Appel à Nominatim (gratuit) pour convertir GPS -> Adresse
-        const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
-
-        try {
-            const res = await fetch(url, { headers: {'User-Agent':'prixcarb'} });
-            const json = await res.json();
-
-            // Extraction adresse
-            const addr = json.address;
-            const voie = addr.road ?? addr.pedestrian ?? addr.path ?? "";
-            const numero = addr.house_number ? addr.house_number + " " : ""
-            const cp = addr.postcode ?? "";
-            const ville = addr.city ?? addr.town ?? addr.village ?? "";
-            const adresseCourte = `${numero}${voie}, ${cp} ${ville}`.trim();
-          
-            // Extraction du code postal
-            const cp = json.address.postcode;
-
-            if (!cp) {
-                alert("Impossible de déterminer le code postal.");
-                return;
-            }
-
-            // Remplir champ de saisie
-            document.getElementById("adresseInput").value = cp;
-            document.getElementById("adresseTrouvee").textContent = adresseCourte;
-
-             } catch (err) {
-            alert("Erreur géolocalisation : " + err);
-        }
-
-    }, err => {
-        alert("Géolocalisation refusée.");
-    });
-
-  // ------------------------------------------------------
-  // 2) Saisie manuelle -> rechercher adresse + CP
-  // ------------------------------------------------------
-  async function calculerDepuisSaisie() {
-
-    const texte = document.getElementById("adresseInput").value.trim();
-
-    if (!texte) {
-        alert("Veuillez entrer une adresse ou un CP.");
-        return;
-    }
-
-    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(texte)}&format=json&addressdetails=1&limit=1`;
-
-    try {
-        const res = await fetch(url, { headers: { "User-Agent": "prixcarb" }});
-        const json = await res.json();
-
-        if (json.length === 0) {
-            alert("Adresse introuvable.");
-            return;
-        }
-
-        const adresse = json[0].display_name;
-        const cp = json[0].address.postcode ?? "";
-
-        document.getElementById("adresseTrouvee").textContent = adresseCourte;
-
-        // Tu peux ensuite utiliser ce CP pour filtrer ton JSON
-        console.log("Code postal détecté :", cp);
-
-    } catch (err) {
-        alert("Erreur de recherche : " + err);
-    }
-}
-  }
-  </script>
 </body>
 </html>
