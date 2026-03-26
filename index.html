@@ -57,6 +57,8 @@ function runStationsUpdate() {
     <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
 
   </div>
+
+  <div id="depsLimitrophes" class="mt-2 text-secondary" style="font-size: 0.9em;"></div>
   
   <div id="summary" class="alert alert-secondary text-center"></div>
 
@@ -81,6 +83,32 @@ function runStationsUpdate() {
 </div>
 
 <script>
+  
+  async function chargerDepartements() {
+    if (!depsLimitrophes) {
+        depsLimitrophes = await fetch("departements.json")
+            .then(r => r.json());
+    }
+    return depsLimitrophes;
+  }
+
+  async function getDepsVoisins(dep) {
+    const deps = await chargerDepartements();
+    return deps[dep] ?? [];
+  }
+
+  
+  function afficherDepsLimitrophes(dep, voisins) {
+    const zone = document.getElementById("depsLimitrophes");
+    if (!zone) return;
+
+    const txt = voisins.join(", ");
+
+    zone.innerHTML = `
+        <strong>Départements limitrophes :</strong> ${txt}
+    `;
+  }
+
   async function geolocaliser() {
     if (!navigator.geolocation) { alert("Géolocalisation non supportée."); return; }
     navigator.geolocation.getCurrentPosition(async pos => {
@@ -96,7 +124,12 @@ function runStationsUpdate() {
     const adresseCourte = `${numero}${voie}, ${cp} ${ville}`;
     document.getElementById("adresseInput").value = adresseCourte;
     document.getElementById("autocompleteList").innerHTML = "";  
-    }, err => { alert("Géolocalisation refusée."); }); 
+    }, err => { alert("Géolocalisation refusée."); });
+
+    const dep = cp.substring(0, 2);
+    const voisins = await getDepsVoisins(dep);
+    afficherDepsLimitrophes(dep, voisins);
+    console.log("Départements limitrophes :", voisins);
   }
 
   async function calculerDepuisSaisie() {
@@ -115,6 +148,12 @@ function runStationsUpdate() {
       const adresseCourte = `${numero}${voie}, ${cp} ${ville}`;
       document.getElementById("adresseInput").value = adresseCourte;
       document.getElementById("autocompleteList").innerHTML = "";
+      
+      const dep = cp.substring(0, 2);
+      const voisins = await getDepsVoisins(dep);
+      afficherDepsLimitrophes(dep, voisins);
+      console.log("Départements limitrophes :", voisins);
+
     } catch(err) { alert("Erreur recherche : " + err); }
   }
 
@@ -159,10 +198,16 @@ async function autocomplete(query) {
             li.className = "list-group-item";
             li.textContent = adresseCourte;
 
-            li.onclick = () => {
+            li.onclick = async () => {
                 document.getElementById("adresseInput").value = adresseCourte;
                 list.innerHTML = "";
+                const dep = cp.substring(0, 2);
+                const voisins = await getDepsVoisins(dep);
+                afficherDepsLimitrophes(dep, voisins);
+                console.log("Départements limitrophes :", voisins);
             };
+};
+
 
             list.appendChild(li);
         });
