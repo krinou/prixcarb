@@ -48,7 +48,11 @@ function runStationsUpdate() {
 
     <input id="adresseInput" class="form-control"
          placeholder="Entrez un code postal ou une adresse">
-    <ul id="autocompleteList" class="list-group position-absolute" style="z-index: 2000;"></ul> 
+    <ul id="autocompleteList" 
+        class="list-group position-absolute" 
+        style="z-index: 2000;
+        top:100%; left:0; width:100%;"
+    ></ul> 
     <button class="btn btn-success" onclick="calculerDepuisSaisie()">OK</button> 
     <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
 
