@@ -25,8 +25,6 @@
 
 </head>
 
-<button onclick="runStationsUpdate()">🔄 Mettre à jour les stations</button>
-
 <script>
 function runStationsUpdate() {
   fetch("https://prixcarb-workers.krinou.workers.dev/", {
@@ -44,14 +42,14 @@ function runStationsUpdate() {
 
   <h1 class="mb-4 text-center">⛽ Classement des stations</h1>
 
-  <div class="input-group mb-3">
+  <div class="input-group mb-3 position-relative">
 
     <input id="adresseInput" class="form-control"
          placeholder="Entrez un code postal ou une adresse">
     <ul id="autocompleteList" 
         class="list-group position-absolute" 
         style="z-index: 2000;
-        top:100%; left:0; width:100%;"
+        top:100%; left:0; width:100%;margin-top;"
     ></ul> 
     <button class="btn btn-success" onclick="calculerDepuisSaisie()">OK</button> 
     <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
@@ -123,13 +121,13 @@ function runStationsUpdate() {
     const ville = addr.city ?? addr.town ?? addr.village ?? "";
     const adresseCourte = `${numero}${voie}, ${cp} ${ville}`;
     document.getElementById("adresseInput").value = adresseCourte;
-    document.getElementById("autocompleteList").innerHTML = "";  
-    }, err => { alert("Géolocalisation refusée."); });
-
+    document.getElementById("autocompleteList").innerHTML = "";
     const dep = cp.substring(0, 2);
     const voisins = await getDepsVoisins(dep);
     afficherDepsLimitrophes(dep, voisins);
     console.log("Départements limitrophes :", voisins);
+    }, err => { alert("Géolocalisation refusée."); });
+
   }
 
   async function calculerDepuisSaisie() {
@@ -206,9 +204,6 @@ async function autocomplete(query) {
                 afficherDepsLimitrophes(dep, voisins);
                 console.log("Départements limitrophes :", voisins);
             };
-};
-
-
             list.appendChild(li);
         });
 
