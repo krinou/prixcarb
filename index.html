@@ -42,7 +42,7 @@ function runStationsUpdate() {
 
   <h1 class="mb-4 text-center">⛽ Classement des stations</h1>
 
-  <div class="input-group mb-3 position-relative">
+  <div class="input-group mb-0 position-relative">
 
     <input id="adresseInput" class="form-control"
          placeholder="Entrez un code postal ou une adresse">
@@ -56,7 +56,7 @@ function runStationsUpdate() {
 
   </div>
 
-  <div id="depsLimitrophes" class="mt-2 text-secondary" style="font-size: 0.9em;"></div>
+  <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
   
   <div id="summary" class="alert alert-secondary text-center"></div>
 
@@ -81,7 +81,7 @@ function runStationsUpdate() {
 </div>
 
 <script>
-  
+  let depsLimitrophes = null;
   async function chargerDepartements() {
     if (!depsLimitrophes) {
         depsLimitrophes = await fetch("departements.json")
