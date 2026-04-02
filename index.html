@@ -27,6 +27,7 @@
 
 <script>
 async function runStationsUpdate() {
+  const statusEl = document.getElementById("status");
   try {
        const adresse = (currentAdresse || document.getElementById("adresseInput").value || "").trim();
        if (!adresse) {
@@ -42,34 +43,38 @@ async function runStationsUpdate() {
                         carburant: carburant             // ex "E10", "Gazole"
                        };
 
+       // Affichage en cours
+       statusEl.style.display = "block";
+       statusEl.className = "alert alert-info text-center";
+       statusEl.textContent = "⏳ Lancement du workflow…";
+
        const r = await fetch("https://prixcarb-workers.krinou.workers.dev/", {
                               method: "POST",
                               headers: { "Content-Type": "application/json" },
                               body: JSON.stringify(payload)
                              })
     
-       const statusEl = document.getElementById("status");
-      statusEl.style.display = "block";
-
        const ct = r.headers.get("content-type") || "";
-      let body = ct.includes("application/json") ? await r.json() : await r.text();
+       const body = ct.includes("application/json") ? await r.json() : await r.text();
 
-      if (!r.ok) {
-         statusEl.className = "alert alert-danger text-center";
-         statusEl.textContent = (typeof body === "string")
-         ? ("❌ " + body)
-         : (`❌ ${body.error || "Erreur"} (HTTP ${body.status || r.status})`);
-         // Détails utiles en console si présents
-         if (typeof body !== "string" && body.details) console.error(body.details);
-            return;
+       if (!r.ok) {
+          statusEl.className = "alert alert-danger text-center";
+          statusEl.textContent = (typeof body === "string")
+          ? ("❌ " + body)
+          : (`❌ ${body.error || "Erreur"} (HTTP ${body.status || r.status})`);
+          // Détails utiles en console si présents
+          if (typeof body !== "string" && body.details) console.error(body.details);
+             return;
          }
 
       statusEl.className = "alert alert-success text-center";
       statusEl.textContent = (typeof body === "string")
       ? body
       : (body.status || "✅ Workflow lancé");  
+
+      // ⚠️ Ne recharge pas stations.json tout de suite : le workflow peut mettre 30s–2min.
+      statusEl.textContent += " — Patiente 1–2 minutes puis clique OK (ou rafraîchis).";
   } catch (err) {
-                const statusEl = document.getElementById("status");
                 if (statusEl) {
                    statusEl.style.display = "block";
                    statusEl.className = "alert alert-danger text-center";
@@ -78,8 +83,6 @@ async function runStationsUpdate() {
                   alert("Erreur worker : " + (err?.message || err));
                 }
                 console.error("Erreur runStationsUpdate()", err);
-                }
-
                 }
 }
 </script>
@@ -192,11 +195,11 @@ async function runStationsUpdate() {
     const voisins = await getDepsVoisins(dep);
     afficherDepsLimitrophes(dep, voisins);
     console.log("Départements limitrophes :", voisins);
-    }, err => { alert("Géolocalisation refusée."); });
 
     document.getElementById("status").style.display = "block";
     document.getElementById("status").textContent = "⏳ Chargement des résultats…";
     await charger();
+    }, err => { alert("Géolocalisation refusée."); });
 
   }
 
@@ -237,11 +240,6 @@ document.getElementById("adresseInput").addEventListener("input", function () {
         document.getElementById("autocompleteList").innerHTML = "";
         return;
     }
-
-document.getElementById("status").style.display = "block";
-document.getElementById("status").textContent = "⏳ Chargement des résultats…";
-await charger();
-
     clearTimeout(autocompleteTimeout);
     autocompleteTimeout = setTimeout(() => autocomplete(query), 250);
 });
