@@ -2,6 +2,21 @@ name: Générer stations.json manuellement
 
 on:
   workflow_dispatch:  # lancement manuel
+    inputs:
+      adresse:
+        description: "Adresse de référence"
+        required: true
+        type: string
+
+      carburant:
+        description: "Type de carburant (E10, SP95, etc.)"
+        required: true
+        type: string
+
+      departements:
+        description: "Départements CSV (ex: 92,78,91)"
+        required: true
+        type: string
 
 permissions:
   contents: write     # autorise le push sur le repo
@@ -28,6 +43,14 @@ jobs:
         run: |
            python -m pip install --upgrade pip
            pip install requests beautifulsoup4
+
+      # 2.5) Affichage des parametres transmis
+      - name: Debug inputs
+        run: |
+           echo "Adresse        = ${{ github.event.inputs.adresse }}"
+           echo "Carburant      = ${{ github.event.inputs.carburant }}"
+           echo "Départements   = ${{ github.event.inputs.departements }}"
+
 
       # 3) Télécharger les données officielles (ZIP "flux instantané")
       #    Réf. open data : https://www.prix-carburants.gouv.fr/rubrique/opendata/
@@ -58,7 +81,36 @@ jobs:
           ENSEIGNE_CACHE_FILE = "enseigne_cache.json"
           HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-          # --- parseur : extraction pure depuis soup ---
+          def geocode_address(address):
+            if not address:
+               raise ValueError("Adresse vide, impossible de géocoder")
+
+            url = "https://nominatim.openstreetmap.org/search"
+                  params = {
+                    "q": address,
+                    "format": "json",
+                    "limit": 1
+                    }
+                  headers = {
+                    "User-Agent": "prixcarb-github-actions"
+                    }
+
+            r = requests.get(url, params=params, headers=headers, timeout=10)
+            if r.status_code != 200:
+               raise RuntimeError(f"Nominatim HTTP error {r.status_code}")
+
+            data = r.json()
+            if not data:
+               raise ValueError(f"Aucun résultat pour l'adresse : {address}")
+
+            lat = float(data[0]["lat"])
+            lon = float(data[0]["lon"])
+
+            # Respect politesse API
+            time.sleep(1)
+
+            return lat, lon          # --- parseur : extraction pure depuis soup ---
+            
           def extract_enseigne_from_block(soup):
               # 1) ciblage précis d’après ton HTML : <div class="fr-pb-3v">Marque : ...</div>
               block = soup.find("div", class_="fr-pb-3v")
@@ -111,12 +163,18 @@ jobs:
 
               return ""
 
-          # --- Paramètres ---
-          DEPS = {"75","78","91","92","93","95"}   # départements à conserver
-          REF_LAT, REF_LON = 48.8925, 2.2060  # Nanterre (approx.)
+          # --- paramètres dynamiques venant du workflow ---
+          DEPS = set(os.environ.get("INPUT_DEPARTEMENTS", "").split(","))
+          FUEL_TAG = os.environ.get("INPUT_CARBURANT", "E10")
+          ADRESSE_REF = os.environ.get("INPUT_ADRESSE", "")
+          
+          print(f"Géocodage de l'adresse : {ADRESSE_REF}")
+          REF_LAT, REF_LON = geocode_address(ADRESSE_REF)
+          print(f"Coordonnées trouvées : lat={REF_LAT}, lon={REF_LON}")
+
+          # --- paramètres statiques
           CONSO = 10                          # L/100 km
           VOLUME = 50                         # L
-          FUEL_TAG = "E10"                    # carburant ciblé (E10)
 
           def haversine(lat1, lon1, lat2, lon2):
               R = 6371
@@ -181,6 +239,10 @@ jobs:
 
       # 6) Exécuter la conversion
       - name: Run convert.py
+        env:
+          INPUT_ADRESSE: ${{ github.event.inputs.adresse }}
+          INPUT_CARBURANT: ${{ github.event.inputs.carburant }}
+          INPUT_DEPARTEMENTS: ${{ github.event.inputs.departements }}
         run: |
           set -e
           python3 convert.py
