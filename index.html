@@ -26,13 +26,32 @@
 </head>
 
 <script>
-function runStationsUpdate() {
-  fetch("https://prixcarb-workers.krinou.workers.dev/", {
-    method: "POST"
-  })
-  .then(r => r.text())
-  .then(msg => alert(msg))
-  .catch(err => alert("Erreur worker : " + err));
+async function runStationsUpdate() {
+  try {
+       const adresse = (currentAdresse || document.getElementById("adresseInput").value || "").trim();
+       if (!adresse) {
+          alert("Veuillez d'abord saisir une adresse (OK) ou vous géolocaliser.");
+          return;
+       }
+
+       const carburant = document.getElementById("carburantSelect")?.value || "E10";
+       const deps = Array.isArray(currentVoisins) ? currentVoisins : [];
+       const payload = {
+                        adresse: adresse,
+                        departements_limitrophes: deps,  // tableau ["92","91",...]
+                        carburant: carburant             // ex "E10", "Gazole"
+                       };
+
+       const r = await fetch("https://prixcarb-workers.krinou.workers.dev/", {
+                              method: "POST",
+                              headers: { "Content-Type": "application/json" },
+                              body: JSON.stringify(payload)
+                             })
+       const msg = await r.text();
+       alert(msg);
+  } catch (err) {
+                  alert("Erreur worker : " + err);
+                }
 }
 </script>
 
@@ -46,13 +65,26 @@ function runStationsUpdate() {
 
     <input id="adresseInput" class="form-control"
          placeholder="Entrez un code postal ou une adresse">
+    
+    <select id="carburantSelect" class="form-select" style="max-width: 180px;">
+         <option value="E10" selected>SP95-E10</option>
+         <option value="SP95">SP95</option>
+         <option value="SP98">SP98</option>
+         <option value="Gazole">Gazole</option>
+         <option value="E85">E85</option>
+    </select>
+
     <ul id="autocompleteList" 
         class="list-group position-absolute" 
         style="z-index: 2000;
         top:100%; left:0; width:100%;margin-top;"
-    ></ul> 
+    ></ul>
+    
     <button class="btn btn-success" onclick="calculerDepuisSaisie()">OK</button> 
     <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
+    
+    <!-- Nouveau bouton : déclenche Worker + paramètres -->
+    <button class="btn btn-warning" onclick="runStationsUpdate()">🔄 Mettre à jour</button>
 
   </div>
 
@@ -82,6 +114,9 @@ function runStationsUpdate() {
 
 <script>
   let depsLimitrophes = null;
+  let currentAdresse = "";      // dernière adresse validée
+  let currentVoisins = [];      // derniers départements limitrophes calculés
+
   async function chargerDepartements() {
     if (!depsLimitrophes) {
         depsLimitrophes = await fetch("departements.json")
@@ -97,6 +132,7 @@ function runStationsUpdate() {
 
   
   function afficherDepsLimitrophes(dep, voisins) {
+    currentVoisins = voisins || [];   // mémorise
     const zone = document.getElementById("depsLimitrophes");
     if (!zone) return;
 
@@ -121,6 +157,7 @@ function runStationsUpdate() {
     const ville = addr.city ?? addr.town ?? addr.village ?? "";
     const adresseCourte = `${numero}${voie}, ${cp} ${ville}`;
     document.getElementById("adresseInput").value = adresseCourte;
+    currentAdresse = adresseCourte;
     document.getElementById("autocompleteList").innerHTML = "";
     const dep = cp.substring(0, 2);
     const voisins = await getDepsVoisins(dep);
@@ -145,6 +182,7 @@ function runStationsUpdate() {
       const ville = addr.city ?? addr.town ?? addr.village ?? "";
       const adresseCourte = `${numero}${voie}, ${cp} ${ville}`;
       document.getElementById("adresseInput").value = adresseCourte;
+      currentAdresse = adresseCourte;
       document.getElementById("autocompleteList").innerHTML = "";
       
       const dep = cp.substring(0, 2);
@@ -198,6 +236,7 @@ async function autocomplete(query) {
 
             li.onclick = async () => {
                 document.getElementById("adresseInput").value = adresseCourte;
+                currentAdresse = adresseCourte;
                 list.innerHTML = "";
                 const dep = cp.substring(0, 2);
                 const voisins = await getDepsVoisins(dep);
