@@ -38,7 +38,7 @@ async function runStationsUpdate() {
        const deps = Array.isArray(currentVoisins) ? currentVoisins : [];
        const payload = {
                         adresse: adresse,
-                        departements_limitrophes: deps,  // tableau ["92","91",...]
+                        departements_a_scanner: deps,  // tableau ["92","91",...]
                         carburant: carburant             // ex "E10", "Gazole"
                        };
 
