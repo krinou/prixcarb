@@ -226,6 +226,12 @@ async function runStationsUpdate() {
       afficherDepsLimitrophes(dep, voisins);
       console.log("Départements limitrophes :", voisins);
 
+      const statusEl = document.getElementById("status");
+      statusEl.style.display = "block";
+      statusEl.className = "alert alert-info text-center";
+      statusEl.textContent = "⏳ Chargement des résultats…";
+      await charger();
+
     } catch(err) { alert("Erreur recherche : " + err); }
   }
 
