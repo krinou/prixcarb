@@ -47,10 +47,39 @@ async function runStationsUpdate() {
                               headers: { "Content-Type": "application/json" },
                               body: JSON.stringify(payload)
                              })
-       const msg = await r.text();
-       alert(msg);
+    
+       const statusEl = document.getElementById("status");
+      statusEl.style.display = "block";
+
+       const ct = r.headers.get("content-type") || "";
+      let body = ct.includes("application/json") ? await r.json() : await r.text();
+
+      if (!r.ok) {
+         statusEl.className = "alert alert-danger text-center";
+         statusEl.textContent = (typeof body === "string")
+         ? ("❌ " + body)
+         : (`❌ ${body.error || "Erreur"} (HTTP ${body.status || r.status})`);
+         // Détails utiles en console si présents
+         if (typeof body !== "string" && body.details) console.error(body.details);
+            return;
+         }
+
+      statusEl.className = "alert alert-success text-center";
+      statusEl.textContent = (typeof body === "string")
+      ? body
+      : (body.status || "✅ Workflow lancé");  
   } catch (err) {
-                  alert("Erreur worker : " + err);
+                const statusEl = document.getElementById("status");
+                if (statusEl) {
+                   statusEl.style.display = "block";
+                   statusEl.className = "alert alert-danger text-center";
+                   statusEl.textContent = "❌ Erreur côté navigateur : " + (err?.message || err);
+                } else {
+                  alert("Erreur worker : " + (err?.message || err));
+                }
+                console.error("Erreur runStationsUpdate()", err);
+                }
+
                 }
 }
 </script>
