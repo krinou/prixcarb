@@ -165,6 +165,10 @@ async function runStationsUpdate() {
     console.log("Départements limitrophes :", voisins);
     }, err => { alert("Géolocalisation refusée."); });
 
+    document.getElementById("status").style.display = "block";
+    document.getElementById("status").textContent = "⏳ Chargement des résultats…";
+    await charger();
+
   }
 
   async function calculerDepuisSaisie() {
@@ -204,6 +208,10 @@ document.getElementById("adresseInput").addEventListener("input", function () {
         document.getElementById("autocompleteList").innerHTML = "";
         return;
     }
+
+document.getElementById("status").style.display = "block";
+document.getElementById("status").textContent = "⏳ Chargement des résultats…";
+await charger();
 
     clearTimeout(autocompleteTimeout);
     autocompleteTimeout = setTimeout(() => autocomplete(query), 250);
@@ -260,7 +268,7 @@ async function autocomplete(query) {
     const table  = document.getElementById("table");
 
   try {
-    const res = await fetch("stations.json", { cache:"no-cache" });
+    const res = await fetch(`stations.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const rows = await res.json();
     if (!Array.isArray(rows)) throw new Error("JSON invalide");
@@ -434,7 +442,10 @@ function activerTri(table, data, triCol, triDir) {
   });
 }
 
-charger();
+// Au chargement : ne rien afficher
+document.getElementById("table").style.display = "none";
+document.getElementById("status").style.display = "none";
+
 </script>
 
 </body>
