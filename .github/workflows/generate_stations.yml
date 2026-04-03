@@ -91,14 +91,8 @@ jobs:
                raise ValueError("Adresse vide, impossible de géocoder")
 
             url = "https://nominatim.openstreetmap.org/search"
-                  params = {
-                    "q": address,
-                    "format": "json",
-                    "limit": 1
-                    }
-                  headers = {
-                    "User-Agent": "prixcarb-github-actions"
-                    }
+            params = {"q": address, "format": "json", "limit": 1}
+            headers = {"User-Agent": "prixcarb-github-actions"}
 
             r = requests.get(url, params=params, headers=headers, timeout=10)
             if r.status_code != 200:
