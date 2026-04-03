@@ -1,497 +1,4601 @@
 [
   {
-    "station": "Leclerc",
-    "adresse": "192 Avenue Louis Roche",
-    "ville": "GENNEVILLIERS",
-    "cp": "92230",
-    "prix": 0.002049,
-    "distance": 9.546232672935304,
-    "coutTotal": 0.1063620461493689
+    "station": "Système U",
+    "adresse": "Avenue du Médoc ZAC Eyrialis",
+    "ville": "LE BARP",
+    "cp": "33114",
+    "prix": 0.0019950000000000002,
+    "distance": 113.21695551487747,
+    "coutTotal": 0.14492356525043612
   },
   {
-    "station": "Esso Express",
-    "adresse": "115 Avenue du Général de Gaulle",
-    "ville": "Issy-les-Moulineaux",
-    "cp": "92130",
-    "prix": 0.002019,
-    "distance": 10.326612697020376,
-    "coutTotal": 0.10511988620705683
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "448 AV GENERAL DE GAULLE",
-    "ville": "Clamart",
-    "cp": "92140",
-    "prix": 0.002011,
-    "distance": 12.849342493333213,
-    "coutTotal": 0.10571800555081863
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "21 Avenue Jeanne et Maurice Dolivet",
-    "ville": "Fontenay-aux-Roses",
-    "cp": "92260",
-    "prix": 0.002028,
-    "distance": 13.138841320641458,
-    "coutTotal": 0.10672911403965217
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "24 Rue Pasteur",
-    "ville": "Saint-Cloud",
-    "cp": "92210",
-    "prix": 0.002038,
-    "distance": 5.536359437718369,
-    "coutTotal": 0.104156620106814
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "191 Rue de Versailles",
-    "ville": "Ville-d'Avray",
-    "cp": "92410",
-    "prix": 0.002005,
-    "distance": 8.185598816216382,
-    "coutTotal": 0.10353242512530277
-  },
-  {
-    "station": "TotalEnergies Access",
-    "adresse": "143/145 BLD JEAN JAURES",
-    "ville": "CLICHY",
-    "cp": "92110",
-    "prix": 0.00199,
-    "distance": 8.297348877591352,
-    "coutTotal": 0.10280234485328137
-  },
-  {
-    "station": "TotalEnergies",
-    "adresse": "84-90 AVENUE LENINE",
-    "ville": "NANTERRE",
-    "cp": "92000",
-    "prix": 0.00199,
-    "distance": 0.3924637733855696,
-    "coutTotal": 0.09965620058180746
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "13 Avenue de Verdun-1916",
-    "ville": "La Garenne-Colombes",
-    "cp": "92250",
-    "prix": 0.0020310000000000003,
-    "distance": 3.740342146208267,
-    "coutTotal": 0.10306932697978981
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "18 Rue Jean Moulin",
-    "ville": "Antony",
-    "cp": "92160",
-    "prix": 0.002029,
-    "distance": 17.623118154957012,
-    "coutTotal": 0.10860146134728155
-  },
-  {
-    "station": "Esso",
-    "adresse": "44-50 BD DE VALMY",
-    "ville": "COLOMBES",
-    "cp": "92700",
-    "prix": 0.002059,
-    "distance": 6.012558586165414,
-    "coutTotal": 0.10542597162578292
-  },
-  {
-    "station": "Esso",
-    "adresse": "162 RUE VICTOR HUGO",
-    "ville": "Levallois-Perret",
-    "cp": "92300",
-    "prix": 0.002039,
-    "distance": 7.6471135642745445,
-    "coutTotal": 0.10506849291151116
-  },
-  {
-    "station": "TotalEnergies Access",
-    "adresse": "65 QUAI MARCEL DASSAULT",
-    "ville": "Saint-Cloud",
-    "cp": "92210",
-    "prix": 0.00199,
-    "distance": 4.687485204714515,
-    "coutTotal": 0.10136561911147639
-  },
-  {
-    "station": "TotalEnergies",
-    "adresse": "320 AV DU GENERAL DE GAULLE",
-    "ville": "CLAMART",
-    "cp": "92140",
-    "prix": 0.00199,
-    "distance": 12.619347904828977,
-    "coutTotal": 0.10452250046612194
-  },
-  {
-    "station": "TotalEnergies Access",
-    "adresse": "182 RUE P.VAILLANT COUTURIER",
-    "ville": "NANTERRE",
-    "cp": "92000",
-    "prix": 0.00199,
-    "distance": 1.6230056142050822,
-    "coutTotal": 0.10014595623445363
-  },
-  {
-    "station": "Esso",
-    "adresse": "151 AVENUE DIVISION LECLERC",
-    "ville": "Châtenay-Malabry",
-    "cp": "92290",
-    "prix": 0.002189,
-    "distance": 15.637646091980935,
-    "coutTotal": 0.11629616145906925
-  },
-  {
-    "station": "Esso",
-    "adresse": "38, AVENUE DU DELATTRE DE TASSIGNY",
-    "ville": "Meudon-la-Forêt",
-    "cp": "92360",
-    "prix": 0.002059,
-    "distance": 12.094573856992591,
-    "coutTotal": 0.10793054551430956
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "138 BOULEVARD HENRI SELLIER",
-    "ville": "Suresnes",
-    "cp": "92150",
-    "prix": 0.002029,
-    "distance": 3.756820381422413,
-    "coutTotal": 0.10297451771078121
-  },
-  {
-    "station": "Esso",
-    "adresse": "37 Avenue de Verdun",
-    "ville": "Villeneuve-la-Garenne",
-    "cp": "92390",
-    "prix": 0.002229,
-    "distance": 11.393598270750765,
-    "coutTotal": 0.1165292661091007
-  },
-  {
-    "station": "Esso",
-    "adresse": "93 Avenue Vladimir Illitch Lénine",
-    "ville": "Nanterre",
-    "cp": "92000",
-    "prix": 0.002129,
-    "distance": 0.38351220616381265,
-    "coutTotal": 0.10661329949738454
-  },
-  {
-    "station": "Esso",
-    "adresse": "Quai de Dion-Bouton",
-    "ville": "PUTEAUX",
-    "cp": "92800",
-    "prix": 0.002049,
-    "distance": 4.203636186924402,
-    "coutTotal": 0.10417265010940162
-  },
-  {
-    "station": "Esso",
-    "adresse": "77 Avenue Ãdouard Depreux",
-    "ville": "SCEAUX",
-    "cp": "92330",
-    "prix": 0.002139,
-    "distance": 14.596750295210471,
-    "coutTotal": 0.11319448977629103
-  },
-  {
-    "station": "Esso",
-    "adresse": "64 BD CHARLES DE GAULLE",
-    "ville": "COLOMBES",
-    "cp": "92700",
-    "prix": 0.002089,
-    "distance": 3.955582319259047,
-    "coutTotal": 0.10610264229298644
-  },
-  {
-    "station": "Esso",
-    "adresse": "40 RUE DE FONTENAY",
-    "ville": "CHATILLON",
-    "cp": "92320",
-    "prix": 0.002069,
-    "distance": 12.606240580982153,
-    "coutTotal": 0.10866646235241041
-  },
-  {
-    "station": "Esso",
-    "adresse": "82 Quai du Maréchal Joffre",
-    "ville": "Courbevoie",
-    "cp": "92400",
-    "prix": 0.002029,
-    "distance": 6.5393874008883435,
-    "coutTotal": 0.10410368340728049
-  },
-  {
-    "station": "TotalEnergies",
-    "adresse": "29-31 AVENUE MORIZET",
-    "ville": "BOULOGNE BILLANCOURT",
-    "cp": "92100",
-    "prix": 0.00199,
-    "distance": 7.115727214766934,
-    "coutTotal": 0.10233205943147725
-  },
-  {
-    "station": "Esso",
-    "adresse": "265 AV GEORGES CLEMENCEAU",
-    "ville": "NANTERRE",
-    "cp": "92000",
-    "prix": 0.002059,
-    "distance": 2.40386913050329,
-    "coutTotal": 0.10393991330794125
-  },
-  {
-    "station": "TotalEnergies",
-    "adresse": "32-40 AVENUE DU 18 JUIN 1940",
-    "ville": "Rueil-Malmaison",
-    "cp": "92500",
-    "prix": 0.00199,
-    "distance": 2.577030481443122,
-    "coutTotal": 0.10052565813161436
-  },
-  {
-    "station": "Esso",
-    "adresse": "76 avenue Pierre LAROUSSE",
-    "ville": "Malakoff",
-    "cp": "92240",
-    "prix": 0.0021190000000000002,
-    "distance": 11.546437863346721,
-    "coutTotal": 0.11084338036648636
-  },
-  {
-    "station": "Avia",
-    "adresse": "91 Avenue Aristide Briand",
-    "ville": "MONTROUGE",
-    "cp": "92120",
-    "prix": 0.002179,
-    "distance": 13.081429772965278,
-    "coutTotal": 0.11465088709505826
-  },
-  {
-    "station": "Esso",
-    "adresse": "70-74 AV ARISTIDE BRIAND",
-    "ville": "MONTROUGE",
-    "cp": "92120",
-    "prix": 0.002199,
-    "distance": 14.990515336092711,
-    "coutTotal": 0.11654282864481358
-  },
-  {
-    "station": "Esso",
-    "adresse": "246 ROUTE DE L'EMPEREUR",
-    "ville": "RUEIL MALMAISON",
-    "cp": "92500",
-    "prix": 0.002069,
-    "distance": 3.273594269010243,
-    "coutTotal": 0.10480461330851644
-  },
-  {
-    "station": "Esso",
-    "adresse": "42 QUAI DE DION BOUTON",
-    "ville": "PUTEAUX",
-    "cp": "92800",
-    "prix": 0.002029,
-    "distance": 4.331540553874125,
-    "coutTotal": 0.10320773915676212
-  },
-  {
-    "station": "TotalEnergies Access",
-    "adresse": "141 RUE PV COUTURIER",
-    "ville": "NANTERRE",
-    "cp": "92000",
-    "prix": 0.00199,
-    "distance": 1.3393338158579464,
-    "coutTotal": 0.10003305485871147
-  },
-  {
-    "station": "TotalEnergies",
-    "adresse": "108 AV.A MORIZET",
-    "ville": "BOULOGNE BILLANCOURT",
-    "cp": "92100",
-    "prix": 0.00199,
-    "distance": 6.429077095752551,
-    "coutTotal": 0.10205877268410952
-  },
-  {
-    "station": "Esso Express",
-    "adresse": "263 BOULEVARD JEAN JAURES",
-    "ville": "Boulogne-Billancourt",
-    "cp": "92100",
-    "prix": 0.002149,
-    "distance": 8.394468567955515,
-    "coutTotal": 0.11105794259050727
-  },
-  {
-    "station": "Esso",
-    "adresse": "35 Boulevard de la République",
-    "ville": "SAINT-CLOUD",
-    "cp": "92210",
-    "prix": 0.002069,
-    "distance": 5.33649304522245,
-    "coutTotal": 0.10565824082211304
-  },
-  {
-    "station": "Avia",
-    "adresse": "22 Boulevard Gabriel Péri",
-    "ville": "MALAKOFF",
-    "cp": "92240",
-    "prix": 0.002149,
-    "distance": 11.13933860741959,
-    "coutTotal": 0.11223768773346893
-  },
-  {
-    "station": "Esso",
-    "adresse": "5 Rue de Vanves",
-    "ville": "CLAMART",
-    "cp": "92140",
-    "prix": 0.002109,
-    "distance": 10.609118622172769,
-    "coutTotal": 0.10992492623483249
-  },
-  {
-    "station": "Auchan",
-    "adresse": "134 Rue Pascal",
-    "ville": "ANTONY",
-    "cp": "92160",
-    "prix": 0.00206,
-    "distance": 19.13671899681346,
-    "coutTotal": 0.11088432822668716
-  },
-  {
-    "station": "Esso",
-    "adresse": "106, rue du président wilson",
-    "ville": "Levallois-Perret",
-    "cp": "92300",
-    "prix": 0.002139,
-    "distance": 7.10618777372683,
-    "coutTotal": 0.10999002712960032
-  },
-  {
-    "station": "Avia",
-    "adresse": "155 AVENUE PAUL DOUMER",
-    "ville": "Rueil-Malmaison",
-    "cp": "92500",
-    "prix": 0.002169,
-    "distance": 2.3904484626330866,
-    "coutTotal": 0.10948697654309023
-  },
-  {
-    "station": "TotalEnergies Access",
-    "adresse": "1 AVENUE CLAUDE TREBIGNAUD",
-    "ville": "CLAMART",
-    "cp": "92140",
-    "prix": 0.00199,
-    "distance": 11.716456279525032,
-    "coutTotal": 0.10416314959925096
-  },
-  {
-    "station": "Esso",
-    "adresse": "173 179 RUE DE LA PORTE JAUNE",
-    "ville": "GARCHES",
-    "cp": "92380",
-    "prix": 0.002059,
-    "distance": 4.581107807729282,
-    "coutTotal": 0.10483650019522292
-  },
-  {
-    "station": "Esso",
-    "adresse": "98T AV DE BOURG LA REINE",
-    "ville": "BAGNEUX",
-    "cp": "92220",
-    "prix": 0.002079,
-    "distance": 14.495231790316817,
-    "coutTotal": 0.10997711737841373
-  },
-  {
-    "station": "Esso",
-    "adresse": "12 Avenue du Général de Gaulle",
-    "ville": "Bagneux",
-    "cp": "92220",
-    "prix": 0.002109,
-    "distance": 13.115524167792797,
-    "coutTotal": 0.11098212809397502
-  },
-  {
-    "station": "Esso",
-    "adresse": "BD REPUBLIQUE ZAC PEPINIERE",
-    "ville": "VAUCRESSON",
-    "cp": "92420",
-    "prix": 0.002079,
-    "distance": 6.168696851749811,
-    "coutTotal": 0.10651494415095757
-  },
-  {
-    "station": "Esso",
-    "adresse": "96 Avenue d'Argenteuil",
-    "ville": "ASNIèRES-SUR-SEINE",
-    "cp": "92600",
-    "prix": 0.002169,
-    "distance": 7.290790035350137,
-    "coutTotal": 0.11161274471733489
-  },
-  {
-    "station": "Carrefour",
-    "adresse": "21 Rue Louis Calmel",
-    "ville": "GENNEVILLIERS",
-    "cp": "92230",
-    "prix": 0.0020499999999999997,
-    "distance": 8.39589610463326,
-    "coutTotal": 0.10594231740289961
+    "station": "Netto",
+    "adresse": "route de Bazas ZI dumes",
+    "ville": "LANGON",
+    "cp": "33210",
+    "prix": 0.001953,
+    "distance": 74.63987648385009,
+    "coutTotal": 0.12680433575459185
   },
   {
     "station": "Système U",
-    "adresse": "18 Boulevard de la République",
-    "ville": "VAUCRESSON",
-    "cp": "92420",
+    "adresse": " Rue des Marchats",
+    "ville": "NEGREPELISSE",
+    "cp": "82800",
+    "prix": 0.002039,
+    "distance": 91.08540764435799,
+    "coutTotal": 0.13909462923736918
+  },
+  {
+    "station": "Avia",
+    "adresse": "avenue des Industries",
+    "ville": "Ambarès-et-Lagrave",
+    "cp": "33440",
+    "prix": 0.002029,
+    "distance": 121.74925431099076,
+    "coutTotal": 0.15085584739940006
+  },
+  {
+    "station": "Esso",
+    "adresse": "A630 ROC.PRESQU'ILE LAC COTE2",
+    "ville": "Bruges",
+    "cp": "33520",
+    "prix": 0.00206,
+    "distance": 121.20731790032457,
+    "coutTotal": 0.15293741497493374
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "25 COURS GEORGES MANDEL",
+    "ville": "Lesparre-Médoc",
+    "cp": "33340",
+    "prix": 0.00199,
+    "distance": 175.58864928614162,
+    "coutTotal": 0.16938428241588438
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Fumel",
+    "ville": "GOURDON",
+    "cp": "46300",
+    "prix": 0.0019790000000000003,
+    "distance": 109.87340163934768,
+    "coutTotal": 0.14243789236885382
+  },
+  {
+    "station": "Esso",
+    "adresse": "Aire de Nauze Vert, RN 20",
+    "ville": "BRESSOLS",
+    "cp": "82710",
+    "prix": 0.00216,
+    "distance": 77.17947094483834,
+    "coutTotal": 0.14134153144817016
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "avenue Guyenne",
+    "ville": "ARTIGUES-PRèS-BORDEAUX",
+    "cp": "33370",
+    "prix": 0.001951,
+    "distance": 113.64246954570989,
+    "coutTotal": 0.141893291616736
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "AVENUE DE LA LIBERATION",
+    "ville": "LE BUGUE",
+    "cp": "24260",
+    "prix": 0.0019890000000000003,
+    "distance": 106.4908061099728,
+    "coutTotal": 0.1418120426705472
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "642, avenue Robert Labeyrie",
+    "ville": "Pontonx-sur-l'Adour",
+    "cp": "40465",
+    "prix": 0.001955,
+    "distance": 108.67736991427077,
+    "coutTotal": 0.14024285163647987
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "170 Avenue du Taillan Médoc",
+    "ville": "Eysines",
+    "cp": "33320",
+    "prix": 0.0019850000000000002,
+    "distance": 124.28657930230028,
+    "coutTotal": 0.1485917719830132
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "1 Route de Créon",
+    "ville": "Langoiran",
+    "cp": "33550",
+    "prix": 0.0019950000000000002,
+    "distance": 96.98574543838448,
+    "coutTotal": 0.13844731242991543
+  },
+  {
+    "station": "Netto",
+    "adresse": "NETTO, 530 AVENUE LEON BLUM",
+    "ville": "AGEN",
+    "cp": "47000",
+    "prix": 0.002029,
+    "distance": 28.68136724555905,
+    "coutTotal": 0.11308889882824787
+  },
+  {
+    "station": "Système U",
+    "adresse": "Bois Menu - Val Laurence",
+    "ville": "FARGUES-SAINT-HILAIRE",
+    "cp": "33370",
+    "prix": 0.001954,
+    "distance": 109.12435325078054,
+    "coutTotal": 0.14034579725040502
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "1, AVENUE MARCEL LACASSAGNE",
+    "ville": "Septfonds",
+    "cp": "82240",
+    "prix": 0.002049,
+    "distance": 100.50678238800715,
+    "coutTotal": 0.14363767942260533
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "26 Boulevard Pierre 1er",
+    "ville": "BORDEAUX",
+    "cp": "33000",
+    "prix": 0.002019,
+    "distance": 119.05147674130374,
+    "coutTotal": 0.14902298630813846
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue de la Myre Mory",
+    "ville": "SAINT-SYLVESTRE-SUR-LOT",
+    "cp": "47140",
+    "prix": 0.0019890000000000003,
+    "distance": 52.35044643819793,
+    "coutTotal": 0.12027500759311514
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de castillonnes",
+    "ville": "Villeréal",
+    "cp": "47210",
+    "prix": 0.0019590000000000002,
+    "distance": 72.14828767477391,
+    "coutTotal": 0.12621769911097644
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route du Blanc - Voie de Contournement",
+    "ville": "Beaumont-de-Lomagne",
+    "cp": "82500",
+    "prix": 0.002009,
+    "distance": 51.92445165414448,
+    "coutTotal": 0.12131324467463525
+  },
+  {
+    "station": "Avia",
+    "adresse": "8 boulevard Jean Moulin",
+    "ville": "Bergerac",
+    "cp": "24100",
+    "prix": 0.002029,
+    "distance": 91.1479003742828,
+    "coutTotal": 0.13843781797188395
+  },
+  {
+    "station": "Netto",
+    "adresse": "94 ROUTE DE PUYMIROL",
+    "ville": "LAFOX",
+    "cp": "47240",
+    "prix": 0.0019690000000000003,
+    "distance": 29.47652286465162,
+    "coutTotal": 0.11005785470409982
+  },
+  {
+    "station": "Elan",
+    "adresse": "395 AVENUE DE BORDEAUX",
+    "ville": "MONTAUBAN",
+    "cp": "82000",
+    "prix": 0.00199,
+    "distance": 76.11332208880765,
+    "coutTotal": 0.12979310219134543
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "16 rue Pierre Dufiet",
+    "ville": "Casteljaloux",
+    "cp": "47700",
+    "prix": 0.0019890000000000003,
+    "distance": 38.59163451711838,
+    "coutTotal": 0.1148017522109097
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "38 RD 820",
+    "ville": "Réalville",
+    "cp": "82440",
+    "prix": 0.00199,
+    "distance": 88.35583585363906,
+    "coutTotal": 0.13466562266974835
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Avenue de Verdun",
+    "ville": "SOUILLAC",
+    "cp": "46200",
+    "prix": 0.001955,
+    "distance": 128.5243509431913,
+    "coutTotal": 0.1480030212187878
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "ROUTE DE MERCUES",
+    "ville": "Cahors",
+    "cp": "46000",
+    "prix": 0.00199,
+    "distance": 96.5863061655935,
+    "coutTotal": 0.13794134985390621
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "CC LES SIGALERES - Avenue de Toulouse - RD 3",
+    "ville": "AUCAMVILLE",
+    "cp": "82600",
+    "prix": 0.00199,
+    "distance": 72.48252693151052,
+    "coutTotal": 0.1283480457187412
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "1234 Avenue du Vignau",
+    "ville": "Mont-de-Marsan",
+    "cp": "40000",
     "prix": 0.001999,
-    "distance": 6.062207248883927,
-    "coutTotal": 0.10237367045810379
+    "distance": 70.08242028740176,
+    "coutTotal": 0.12796895163090322
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "12 AVENUE DE VERDUN",
+    "ville": "BAZAS",
+    "cp": "33430",
+    "prix": 0.001965,
+    "distance": 65.75895194127685,
+    "coutTotal": 0.1240932681129218
+  },
+  {
+    "station": "Supermarchés Spar",
+    "adresse": "LIEU DIT LA BERGERIE SUD - ROUTE DE CAHORS",
+    "ville": "LUZECH",
+    "cp": "46140",
+    "prix": 0.002144,
+    "distance": 87.69421981341068,
+    "coutTotal": 0.1448032814559905
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RN 137 Château - Sec",
+    "ville": "PUGNAC",
+    "cp": "33710",
+    "prix": 0.002009,
+    "distance": 134.6622486938227,
+    "coutTotal": 0.15455729152517794
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "445 Route du Nord - ZI AUSSONNE",
+    "ville": "Montauban",
+    "cp": "82000",
+    "prix": 0.002019,
+    "distance": 79.61216756398275,
+    "coutTotal": 0.13309739326233622
   },
   {
     "station": "TotalEnergies",
-    "adresse": "131 BOULEVARD HENRI SELLIER",
-    "ville": "SURESNES",
-    "cp": "92150",
+    "adresse": "13 avenue de notre dame",
+    "ville": "St Nicolas de la Grave",
+    "cp": "82210",
     "prix": 0.00199,
-    "distance": 3.597349263607751,
-    "coutTotal": 0.10093174500691589
+    "distance": 51.608955147277456,
+    "coutTotal": 0.12004036414861644
   },
   {
     "station": "TotalEnergies",
-    "adresse": "72 BLD DE VERDUN",
-    "ville": "COURBEVOIE",
-    "cp": "92400",
+    "adresse": "209 avenue Clément Fayat",
+    "ville": "LIBOURNE",
+    "cp": "33500",
     "prix": 0.00199,
-    "distance": 5.1805377207338745,
-    "coutTotal": 0.10156185401285209
+    "distance": 106.29799777880578,
+    "coutTotal": 0.1418066031159647
   },
   {
     "station": "TotalEnergies",
-    "adresse": "RUE ACHILE PERETTI - TOTAL",
-    "ville": "Neuilly-sur-Seine",
-    "cp": "92200",
+    "adresse": "lieu dit les Barths",
+    "ville": "Samazan",
+    "cp": "47250",
+    "prix": 0.001956,
+    "distance": 47.918071915639864,
+    "coutTotal": 0.11654554973339831
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Mussidan",
+    "ville": "RIBéRAC",
+    "cp": "24600",
+    "prix": 0.001973,
+    "distance": 133.33566186517936,
+    "coutTotal": 0.15126425217199976
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue de Souillac",
+    "ville": "Martel",
+    "cp": "46600",
+    "prix": 0.001949,
+    "distance": 139.06713184095327,
+    "coutTotal": 0.1516583679916036
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "200 boulevard oscar niemeyer",
+    "ville": "Saint-Pierre-du-Mont",
+    "cp": "40280",
+    "prix": 0.001999,
+    "distance": 71.76973811772824,
+    "coutTotal": 0.12864354129946776
+  },
+  {
+    "station": "Netto",
+    "adresse": "180 ZONE DU BOSCLA",
+    "ville": "Saint-Vite",
+    "cp": "47500",
+    "prix": 0.001967,
+    "distance": 66.5922128215329,
+    "coutTotal": 0.12454737652399103
+  },
+  {
+    "station": "Avia",
+    "adresse": "A62 Aire de Garonne",
+    "ville": "Saint-Nicolas-de-la-Grave",
+    "cp": "82210",
+    "prix": 0.002169,
+    "distance": 49.94961483057028,
+    "coutTotal": 0.13011814291350138
+  },
+  {
+    "station": "Avia",
+    "adresse": "AUTOROUTE A63",
+    "ville": "Saugnacq-et-Muret",
+    "cp": "40410",
+    "prix": 0.00215,
+    "distance": 104.35066718592726,
+    "coutTotal": 0.15237078688994873
+  },
+  {
+    "station": "Esso",
+    "adresse": "Autoroute A89 - Aire de Manoire",
+    "ville": "Saint-Laurent-sur-Manoire",
+    "cp": "24330",
+    "prix": 0.001986,
+    "distance": 128.03057269031495,
+    "coutTotal": 0.15015374347259308
+  },
+  {
+    "station": "Avia",
+    "adresse": "617 route de Dax, RD 810",
+    "ville": "Bénesse-Maremne",
+    "cp": "40230",
+    "prix": 0.001999,
+    "distance": 145.95386917847725,
+    "coutTotal": 0.1583023568975552
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Tosse",
+    "ville": "SOUSTONS",
+    "cp": "40140",
+    "prix": 0.0019790000000000003,
+    "distance": 141.11376760967488,
+    "coutTotal": 0.15480282921990934
+  },
+  {
+    "station": "Système U",
+    "adresse": "3 rue Jean Moulin",
+    "ville": "L'Isle-Jourdain",
+    "cp": "32600",
+    "prix": 0.002079,
+    "distance": 74.00802522608751,
+    "coutTotal": 0.1347225368890072
+  },
+  {
+    "station": "Avia",
+    "adresse": "A64 - Aire d'Hastingues",
+    "ville": "HASTINGUES",
+    "cp": "40300",
+    "prix": 0.0021190000000000002,
+    "distance": 135.36631202413307,
+    "coutTotal": 0.16331824303582762
+  },
+  {
+    "station": "Netto",
+    "adresse": "270 BOULEVARD DE LA RÉPUBLIQUE",
+    "ville": "Andernos-les-Bains",
+    "cp": "33510",
+    "prix": 0.0019590000000000002,
+    "distance": 141.24788753907387,
+    "coutTotal": 0.15329092233780917
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "1000D Avenue des Mourets",
+    "ville": "Montauban",
+    "cp": "82000",
+    "prix": 0.002019,
+    "distance": 79.95903372716762,
+    "coutTotal": 0.1332374578190303
+  },
+  {
+    "station": "Esso",
+    "adresse": "12 Place Jean Moulin",
+    "ville": "Libourne",
+    "cp": "33500",
+    "prix": 0.0020510000000000003,
+    "distance": 109.5496154771303,
+    "coutTotal": 0.1474872522687189
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Rue Cousiné",
+    "ville": "Cazaubon",
+    "cp": "32150",
+    "prix": 0.001999,
+    "distance": 37.140157039146665,
+    "coutTotal": 0.11479863478425083
+  },
+  {
+    "station": "Intermarché Contact",
+    "adresse": "Route de Sainte-Foy",
+    "ville": "PELLEGRUE",
+    "cp": "33790",
+    "prix": 0.0019790000000000003,
+    "distance": 81.9656715473409,
+    "coutTotal": 0.13139201279843754
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Bld De Lattre De Tassigny",
+    "ville": "SAINT-ASTIER",
+    "cp": "24110",
+    "prix": 0.0019690000000000003,
+    "distance": 123.51627728994443,
+    "coutTotal": 0.14709070999678014
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "520 avenue Jean Jaurès",
+    "ville": "Montfort-en-Chalosse",
+    "cp": "40380",
+    "prix": 0.0019790000000000003,
+    "distance": 103.90814386066364,
+    "coutTotal": 0.1400768433400507
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "14 rue Durou",
+    "ville": "Bergerac",
+    "cp": "24100",
+    "prix": 0.0019590000000000002,
+    "distance": 91.42439294098651,
+    "coutTotal": 0.13377007715427852
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Edouard Herriot",
+    "ville": "CAHORS",
+    "cp": "46000",
+    "prix": 0.001982,
+    "distance": 103.33689262301738,
+    "coutTotal": 0.1400627442357641
+  },
+  {
+    "station": "",
+    "adresse": "47 rue Roger Salengro",
+    "ville": "MORCENX",
+    "cp": "40110",
+    "prix": 0.002039,
+    "distance": 103.13385337739498,
+    "coutTotal": 0.14400798540730167
+  },
+  {
+    "station": "",
+    "adresse": "ZAC AGEN SUD",
+    "ville": "AGEN",
+    "cp": "47000",
+    "prix": 0.0019690000000000003,
+    "distance": 24.754158433884612,
+    "coutTotal": 0.10819818759126378
+  },
+  {
+    "station": "Système U",
+    "adresse": "D3",
+    "ville": "BAZAS",
+    "cp": "33430",
+    "prix": 0.0019890000000000003,
+    "distance": 64.78577936609493,
+    "coutTotal": 0.12522178303183257
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "21 Rue de la République",
+    "ville": "PAUILLAC",
+    "cp": "33250",
+    "prix": 0.0019690000000000003,
+    "distance": 157.08980693027647,
+    "coutTotal": 0.1603119659691429
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Avenue Pierre Mendes France",
+    "ville": "TONNEINS",
+    "cp": "47400",
+    "prix": 0.0019619999999999998,
+    "distance": 40.6361890534212,
+    "coutTotal": 0.11404564058456247
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "PLACE DU FOIRAIL",
+    "ville": "Cajarc",
+    "cp": "46160",
     "prix": 0.00199,
-    "distance": 6.08610169839447,
-    "coutTotal": 0.101922268475961
+    "distance": 126.7217887397452,
+    "coutTotal": 0.1499352719184186
+  },
+  {
+    "station": "Elan",
+    "adresse": "1, Avenue de l'Europe",
+    "ville": "VENDAYS-MONTALIVET",
+    "cp": "33930",
+    "prix": 0.00199,
+    "distance": 191.35735733041508,
+    "coutTotal": 0.1756602282175052
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Bordeaux",
+    "ville": "BLAYE",
+    "cp": "33390",
+    "prix": 0.0019199999999999998,
+    "distance": 145.5524331901035,
+    "coutTotal": 0.15189213434499974
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Chemin de Perrot",
+    "ville": "Aire-sur-l'Adour",
+    "cp": "40800",
+    "prix": 0.0019690000000000003,
+    "distance": 63.09602834971585,
+    "coutTotal": 0.12329721596411812
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "Lieu dit Sepat",
+    "ville": "CAMPSAS",
+    "cp": "82370",
+    "prix": 0.002069,
+    "distance": 76.18044034539618,
+    "coutTotal": 0.13497346621492495
+  },
+  {
+    "station": "Avia",
+    "adresse": "AUTOROUTE A10",
+    "ville": "SAUGON",
+    "cp": "33920",
+    "prix": 0.002159,
+    "distance": 145.24877348057217,
+    "coutTotal": 0.17066842038891106
+  },
+  {
+    "station": "ENI",
+    "adresse": "A 630 AIRE DE THOUARS",
+    "ville": "GRADIGNAN",
+    "cp": "33170",
+    "prix": 0.002129,
+    "distance": 113.50703544077804,
+    "coutTotal": 0.15478129569068327
+  },
+  {
+    "station": "Proxi",
+    "adresse": "32 impasse du coulabio",
+    "ville": "Tour-de-Faure",
+    "cp": "46330",
+    "prix": 0.002169,
+    "distance": 114.70012988553532,
+    "coutTotal": 0.15820691634434522
+  },
+  {
+    "station": "Netto",
+    "adresse": "9 AVENUE DE CRAMAT",
+    "ville": "SOUSTONS",
+    "cp": "40140",
+    "prix": 0.0019790000000000003,
+    "distance": 140.04671118263386,
+    "coutTotal": 0.1543804882860865
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route Départementale 927",
+    "ville": "MOISSAC",
+    "cp": "82200",
+    "prix": 0.001999,
+    "distance": 59.17328498495632,
+    "coutTotal": 0.12360747933698553
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "ALLEE JEAN JACQUES ROUSSEAU",
+    "ville": "Saint-Jean-d'Illac",
+    "cp": "33127",
+    "prix": 0.001944,
+    "distance": 125.48860406964907,
+    "coutTotal": 0.14598996926227956
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "71 Route de Pontenx",
+    "ville": "Parentis-en-Born",
+    "cp": "40160",
+    "prix": 0.002019,
+    "distance": 121.00851346080346,
+    "coutTotal": 0.14981323773547245
+  },
+  {
+    "station": "Système U",
+    "adresse": "120 route de st Etienne de fougères",
+    "ville": "Castelmoron-sur-Lot",
+    "cp": "47260",
+    "prix": 0.0019790000000000003,
+    "distance": 41.43924478613032,
+    "coutTotal": 0.1153516530863504
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "15 rue Saint Georges",
+    "ville": "Figeac",
+    "cp": "46100",
+    "prix": 0.002012,
+    "distance": 144.45334232636725,
+    "coutTotal": 0.15872802495213018
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Au Rébéquet",
+    "ville": "Saint-Pardoux-Isaac",
+    "cp": "47800",
+    "prix": 0.001999,
+    "distance": 63.90490904685199,
+    "coutTotal": 0.1254991826369314
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "33 Avenue des Pyrénées",
+    "ville": "Condom",
+    "cp": "32100",
+    "prix": 0.00199,
+    "distance": 10.144469903000354,
+    "coutTotal": 0.10353749902139414
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "450 Avenue du Général de Gaulle",
+    "ville": "Cadaujac",
+    "cp": "33140",
+    "prix": 0.001939,
+    "distance": 107.36713893411259,
+    "coutTotal": 0.13858697647864884
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Avenue Georges Clémenceau",
+    "ville": "Dax",
+    "cp": "40100",
+    "prix": 0.0019690000000000003,
+    "distance": 119.86431870952345,
+    "coutTotal": 0.14565256870781035
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "34, Avenue Descartes",
+    "ville": "Saint-Médard-en-Jalles",
+    "cp": "33160",
+    "prix": 0.00195,
+    "distance": 126.64296684142532,
+    "coutTotal": 0.14689075706815585
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "Le Bourg - RN 20",
+    "ville": "CRESSENSAC",
+    "cp": "46600",
+    "prix": 0.00199,
+    "distance": 141.77105314052244,
+    "coutTotal": 0.15592487914992792
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "37 BIS RUE PRINCIPALE RD811",
+    "ville": "ESPERE",
+    "cp": "46090",
+    "prix": 0.001958,
+    "distance": 94.88489300743475,
+    "coutTotal": 0.13505692410171144
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "113 Avenue de Bordeaux",
+    "ville": "PORT-SAINTE-FOY-ET-PONCHAPT",
+    "cp": "33220",
+    "prix": 0.001957,
+    "distance": 90.98293447640019,
+    "coutTotal": 0.13346072055406302
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Rue François Mitterrand",
+    "ville": "COUTRAS",
+    "cp": "33230",
+    "prix": 0.0019590000000000002,
+    "distance": 118.77110497024168,
+    "coutTotal": 0.1444845189273407
+  },
+  {
+    "station": "Système U",
+    "adresse": "15 Avenue du Maréchal Juin",
+    "ville": "PINEUILH",
+    "cp": "33220",
+    "prix": 0.0019690000000000003,
+    "distance": 89.95088722754413,
+    "coutTotal": 0.1338726593902069
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "67 allée de Genets",
+    "ville": "Labouheyre",
+    "cp": "40210",
+    "prix": 0.001968,
+    "distance": 105.97737402057659,
+    "coutTotal": 0.14011269441449895
+  },
+  {
+    "station": "Système U",
+    "adresse": "190 Avenue des Landes",
+    "ville": "brax",
+    "cp": "47310",
+    "prix": 0.0020350000000000004,
+    "distance": 22.69462056689936,
+    "coutTotal": 0.11098671057072806
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RN230 - AIRE DE FONTBELLEAU",
+    "ville": "LORMONT",
+    "cp": "33310",
+    "prix": 0.00199,
+    "distance": 116.41992903954566,
+    "coutTotal": 0.14583513175773918
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "39 cours du general leclerc",
+    "ville": "BAZAS",
+    "cp": "33430",
+    "prix": 0.00199,
+    "distance": 65.95121821956013,
+    "coutTotal": 0.12574858485138493
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A10 - AIRE DE L'ESTALOT",
+    "ville": "ST ANDRE DE CUBZAC",
+    "cp": "33240",
+    "prix": 0.00199,
+    "distance": 122.67169274365398,
+    "coutTotal": 0.1483233337119743
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "17 Avenue de la Marne",
+    "ville": "AUCH",
+    "cp": "32000",
+    "prix": 0.002039,
+    "distance": 46.70352504724765,
+    "coutTotal": 0.12099569751426759
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "18/20 Cours Fénelon",
+    "ville": "PERIGUEUX",
+    "cp": "24000",
+    "prix": 0.002029,
+    "distance": 129.9354057804813,
+    "coutTotal": 0.1541777876657193
+  },
+  {
+    "station": "Auchan",
+    "adresse": "Zac DE LA GAROSSE AVENUE DE L'EUROPE",
+    "ville": "ST ANDRE DE CUBZAC",
+    "cp": "33240",
+    "prix": 0.001925,
+    "distance": 125.66090431823615,
+    "coutTotal": 0.14462944816252093
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "70 route de bibes",
+    "ville": "Colayrac-Saint-Cirq",
+    "cp": "47450",
+    "prix": 0.001978,
+    "distance": 25.794582097032087,
+    "coutTotal": 0.1091043366775859
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Lieu dit Aulery",
+    "ville": "LAUZERTE",
+    "cp": "82110",
+    "prix": 0.001999,
+    "distance": 65.89981140349629,
+    "coutTotal": 0.1262967445991178
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "ROUTE DE FUMEL",
+    "ville": "PRAYSSAC",
+    "cp": "46220",
+    "prix": 0.002019,
+    "distance": 81.84975077070462,
+    "coutTotal": 0.13400092936121052
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "ZA Bellevue",
+    "ville": "SAINT-CLAR",
+    "cp": "32380",
+    "prix": 0.001999,
+    "distance": 34.985906552221,
+    "coutTotal": 0.11393736543957796
+  },
+  {
+    "station": "Avia",
+    "adresse": "A63 Aire de l'Ocean Ouest",
+    "ville": "Lesperon",
+    "cp": "40260",
+    "prix": 0.00215,
+    "distance": 118.31749177475417,
+    "coutTotal": 0.1583765214631443
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "240 Boulevard Jean-Jacques Bosc",
+    "ville": "Bègles",
+    "cp": "33130",
+    "prix": 0.002049,
+    "distance": 113.58564242413733,
+    "coutTotal": 0.14899739626541147
+  },
+  {
+    "station": "Shell",
+    "adresse": "Aire de l'Océan EST",
+    "ville": "LESPERON",
+    "cp": "40260",
+    "prix": 0.0024300000000000003,
+    "distance": 117.83971601194366,
+    "coutTotal": 0.17877010198180465
   },
   {
     "station": "TotalEnergies Access",
-    "adresse": "6 AVENUE CLAUDE TREBIGNAUD",
-    "ville": "CLAMART",
-    "cp": "92140",
+    "adresse": "243 AV DE LA MARNE",
+    "ville": "MERIGNAC",
+    "cp": "33700",
+    "prix": 0.001956,
+    "distance": 119.93083057947857,
+    "coutTotal": 0.144716940922692
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "40 BD DES SPORTS",
+    "ville": "DAX",
+    "cp": "40100",
+    "prix": 0.0019690000000000003,
+    "distance": 119.56544275312413,
+    "coutTotal": 0.14553487135618032
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "593 AVENUE HENRI GUILLAUMET",
+    "ville": "Parentis-en-Born",
+    "cp": "40160",
+    "prix": 0.002019,
+    "distance": 121.44564412097303,
+    "coutTotal": 0.1499897510960489
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "21 Rue André Maginot",
+    "ville": "Bordeaux",
+    "cp": "33200",
+    "prix": 0.001944,
+    "distance": 119.65832856538714,
+    "coutTotal": 0.14372315814622252
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RN 21 - MONPLAISIR",
+    "ville": "CASTILLONNES",
+    "cp": "47330",
+    "prix": 0.0019890000000000003,
+    "distance": 69.2922710923767,
+    "coutTotal": 0.12701446544054745
+  },
+  {
+    "station": "Système U",
+    "adresse": "8 D933N",
+    "ville": "LOSSE",
+    "cp": "40240",
+    "prix": 0.0019890000000000003,
+    "distance": 34.9626609820401,
+    "coutTotal": 0.11335814653865556
+  },
+  {
+    "station": "Système U",
+    "adresse": "2, rue Bir-Hakeim",
+    "ville": "PUJOLS",
+    "cp": "47300",
+    "prix": 0.002049,
+    "distance": 46.58822027486493,
+    "coutTotal": 0.12154185266863965
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "5 AV DE MAGUDAS",
+    "ville": "LE HAILLAN",
+    "cp": "33187",
     "prix": 0.00199,
-    "distance": 11.847345199684751,
-    "coutTotal": 0.10421524338947454
+    "distance": 124.93121322367156,
+    "coutTotal": 0.1492226228630213
+  },
+  {
+    "station": "Supermarchés Spar",
+    "adresse": "ZA DES PEYRETTES SUD",
+    "ville": "CASTELNAU MONTRATIER",
+    "cp": "46170",
+    "prix": 0.002009,
+    "distance": 82.6252058736776,
+    "coutTotal": 0.13364880772004367
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "493 Avenue du Maréchal de Lattre de Tassigny",
+    "ville": "BORDEAUX CAUDERAN",
+    "cp": "33200",
+    "prix": 0.002043,
+    "distance": 121.6510851076845,
+    "coutTotal": 0.15185663337499988
+  },
+  {
+    "station": "Système U",
+    "adresse": "Route de Libourne",
+    "ville": "SAUVETERRE-DE-GUYENNE",
+    "cp": "33540",
+    "prix": 0.001999,
+    "distance": 82.1743604383779,
+    "coutTotal": 0.13280330930326348
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue de Bordeaux",
+    "ville": "Aire-sur-l'Adour",
+    "cp": "40800",
+    "prix": 0.002029,
+    "distance": 62.90094850639415,
+    "coutTotal": 0.12697520490389475
+  },
+  {
+    "station": "Aire C",
+    "adresse": "2 rue du champ de foire",
+    "ville": "Monbahus",
+    "cp": "47290",
+    "prix": 0.00207,
+    "distance": 58.06504977573588,
+    "coutTotal": 0.12753893060715465
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A20 - AIRE DE BOIS DE DOURRE",
+    "ville": "MONTALZAT",
+    "cp": "82270",
+    "prix": 0.00199,
+    "distance": 94.27187448242678,
+    "coutTotal": 0.13702020604400586
+  },
+  {
+    "station": "Aire C",
+    "adresse": "rd813 avenue de bordeau",
+    "ville": "VALENCE-D'AGEN",
+    "cp": "82400",
+    "prix": 0.00204,
+    "distance": 40.69670451835771,
+    "coutTotal": 0.11860425544348996
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "D8  le bourg est",
+    "ville": "Noaillan",
+    "cp": "33730",
+    "prix": 0.001968,
+    "distance": 77.12686761982694,
+    "coutTotal": 0.1287571350951639
+  },
+  {
+    "station": "Système U",
+    "adresse": "606 Avenue Bremontier",
+    "ville": "PARENTIS-EN-BORN",
+    "cp": "40160",
+    "prix": 0.002019,
+    "distance": 120.37305053573743,
+    "coutTotal": 0.14955663780633077
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Bordeaux",
+    "ville": "Avensan",
+    "cp": "33480",
+    "prix": 0.001999,
+    "distance": 143.32559517077345,
+    "coutTotal": 0.15725157294927522
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Lieu-dit Escoula",
+    "ville": "Verdun-sur-Garonne",
+    "cp": "82600",
+    "prix": 0.002009,
+    "distance": 72.40439784076023,
+    "coutTotal": 0.12954208705241746
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Bergerac",
+    "ville": "VERGT",
+    "cp": "24380",
+    "prix": 0.001999,
+    "distance": 112.5243515799125,
+    "coutTotal": 0.14493723576164902
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Au Caillou",
+    "ville": "Villeréal",
+    "cp": "47210",
+    "prix": 0.00204,
+    "distance": 71.12389002691062,
+    "coutTotal": 0.13101854713097955
+  },
+  {
+    "station": "Aire C",
+    "adresse": "rue notre dame",
+    "ville": "Lavit",
+    "cp": "82120",
+    "prix": 0.00207,
+    "distance": 44.25008852466966,
+    "coutTotal": 0.12181953664921323
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Route des Lacs",
+    "ville": "LéON",
+    "cp": "40550",
+    "prix": 0.002011,
+    "distance": 135.05620874141542,
+    "coutTotal": 0.15486960715579728
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "ROUTE DE FUMEL",
+    "ville": "Gourdon",
+    "cp": "46300",
+    "prix": 0.002039,
+    "distance": 109.31822353038457,
+    "coutTotal": 0.1465299715556908
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Bordeaux",
+    "ville": "MARMANDE",
+    "cp": "47200",
+    "prix": 0.0019479999999999999,
+    "distance": 56.06181070696642,
+    "coutTotal": 0.1192416814514341
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "STATION TOTAL",
+    "ville": "SAUGNAC-ET-CAMBRAN",
+    "cp": "40180",
+    "prix": 0.00199,
+    "distance": 117.09546812083161,
+    "coutTotal": 0.14610399631209098
+  },
+  {
+    "station": "",
+    "adresse": "7 avenue de cavernes",
+    "ville": "Izon",
+    "cp": "33450",
+    "prix": 0.0019690000000000003,
+    "distance": 114.7660408450145,
+    "coutTotal": 0.14364486688476671
+  },
+  {
+    "station": "",
+    "adresse": "226 Rue Maurice Menton",
+    "ville": "Saint-Paul-lès-Dax",
+    "cp": "40990",
+    "prix": 0.0019690000000000003,
+    "distance": 119.12658982473961,
+    "coutTotal": 0.14536205107298247
+  },
+  {
+    "station": "",
+    "adresse": "CHEMIN DU TUCAT",
+    "ville": "Bégaar",
+    "cp": "40400",
+    "prix": 0.001968,
+    "distance": 99.98452754155382,
+    "coutTotal": 0.1377539100403556
+  },
+  {
+    "station": "",
+    "adresse": "1 rue Jean Marie Pelt - CS50510",
+    "ville": "MIOS",
+    "cp": "33380",
+    "prix": 0.0019590000000000002,
+    "distance": 121.54952256607287,
+    "coutTotal": 0.14557310294138737
+  },
+  {
+    "station": "",
+    "adresse": "Route de Bordeaux",
+    "ville": "BIAS",
+    "cp": "47300",
+    "prix": 0.0019590000000000002,
+    "distance": 46.691269983019865,
+    "coutTotal": 0.11624363957934719
+  },
+  {
+    "station": "",
+    "adresse": "Avenue René Cassagne",
+    "ville": "CENON",
+    "cp": "33150",
+    "prix": 0.002069,
+    "distance": 115.19889991012326,
+    "coutTotal": 0.15111930478280902
+  },
+  {
+    "station": "",
+    "adresse": "ZA LE GUINASSOU",
+    "ville": "LA FEUILLADE",
+    "cp": "24120",
+    "prix": 0.00211,
+    "distance": 145.09606798809912,
+    "coutTotal": 0.1667305406909778
+  },
+  {
+    "station": "",
+    "adresse": "Av. des Frères Robinson",
+    "ville": "Mérignac",
+    "cp": "33700",
+    "prix": 0.001966,
+    "distance": 121.96436530577674,
+    "coutTotal": 0.1462563884382314
+  },
+  {
+    "station": "",
+    "adresse": "8 RUE DU MARCHE",
+    "ville": "Saint-Étienne-de-Tulmont",
+    "cp": "82410",
+    "prix": 0.002019,
+    "distance": 86.63903459274515,
+    "coutTotal": 0.13593484216855048
+  },
+  {
+    "station": "",
+    "adresse": "Centre Commercial Grand Large Avenue de Césarée",
+    "ville": "GUJAN-MESTRAS",
+    "cp": "33470",
+    "prix": 0.0019850000000000002,
+    "distance": 132.35107516401385,
+    "coutTotal": 0.15179337684011351
+  },
+  {
+    "station": "",
+    "adresse": "Place du Foirail",
+    "ville": "Fleurance",
+    "cp": "32500",
+    "prix": 0.001963,
+    "distance": 30.739653994144167,
+    "coutTotal": 0.110218388158101
+  },
+  {
+    "station": "",
+    "adresse": "18 ROUTE DE L'OCEAN",
+    "ville": "SAINTE-HéLèNE",
+    "cp": "33480",
+    "prix": 0.0019850000000000002,
+    "distance": 144.30092208528808,
+    "coutTotal": 0.15653746606785937
+  },
+  {
+    "station": "",
+    "adresse": "463 Route du Médoc",
+    "ville": "BRUGES",
+    "cp": "33520",
+    "prix": 0.002079,
+    "distance": 122.63519580194485,
+    "coutTotal": 0.15494171441444865
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "1 lieu dit moleon",
+    "ville": "Langon",
+    "cp": "33210",
+    "prix": 0.001953,
+    "distance": 75.2758745908637,
+    "coutTotal": 0.12705275661519136
+  },
+  {
+    "station": "",
+    "adresse": "TRAVERS DE CAZES",
+    "ville": "Cazes-Mondenard",
+    "cp": "82110",
+    "prix": 0.00207,
+    "distance": 69.56570604676038,
+    "coutTotal": 0.1323002023033588
+  },
+  {
+    "station": "",
+    "adresse": "1187 Route de Toulouse",
+    "ville": "Escatalens",
+    "cp": "82700",
+    "prix": 0.00207,
+    "distance": 65.43331049403663,
+    "coutTotal": 0.13058939054453117
+  },
+  {
+    "station": "Esso",
+    "adresse": "ZAE Atlantisud 90 rue du pays d'orthe",
+    "ville": "Saint-Geours-de-Maremne",
+    "cp": "40230",
+    "prix": 0.001999,
+    "distance": 134.17414641513014,
+    "coutTotal": 0.15359282373676902
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "169 RUE DE L'AIGUILLE",
+    "ville": "Sanguinet",
+    "cp": "40460",
+    "prix": 0.001999,
+    "distance": 125.10167848685987,
+    "coutTotal": 0.14996565105904658
   },
   {
     "station": "TotalEnergies Access",
-    "adresse": "77, AVENUE LENINE",
-    "ville": "NANTERRE",
-    "cp": "92000",
+    "adresse": "740 avenue des jardins",
+    "ville": "Terrasson-Lavilledieu",
+    "cp": "24120",
+    "prix": 0.001986,
+    "distance": 141.83495861120036,
+    "coutTotal": 0.15563684556036878
+  },
+  {
+    "station": "Dyneff",
+    "adresse": "Avenue du 1er Mai",
+    "ville": "TARNOS",
+    "cp": "40220",
+    "prix": 0.002129,
+    "distance": 159.30714287783132,
+    "coutTotal": 0.17428298143738058
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Montfort",
+    "ville": "YZOSSE",
+    "cp": "40100",
+    "prix": 0.001958,
+    "distance": 118.29086079671836,
+    "coutTotal": 0.1442227010879949
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "2 CHEMIN DES ROUGES",
+    "ville": "Monteils",
+    "cp": "82300",
+    "prix": 0.002049,
+    "distance": 94.74219193257372,
+    "coutTotal": 0.1412753502539687
+  },
+  {
+    "station": "Avia",
+    "adresse": "1500 Avenue du Docteur Jean Noguès",
+    "ville": "BOE",
+    "cp": "47550",
+    "prix": 0.002029,
+    "distance": 27.938258461640803,
+    "coutTotal": 0.11278734528373384
+  },
+  {
+    "station": "Auchan",
+    "adresse": "AVENUE MARECHAL GALLIENI",
+    "ville": "MéRIGNAC",
+    "cp": "33700",
+    "prix": 0.0019850000000000002,
+    "distance": 118.60503127466723,
+    "coutTotal": 0.1463361974160429
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Boulevard des Cigales",
+    "ville": "CAPBRETON",
+    "cp": "40130",
+    "prix": 0.0019890000000000003,
+    "distance": 151.2520514527844,
+    "coutTotal": 0.15961806606791765
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "21 Route de Léognan",
+    "ville": "VILLENAVE D'ORNON",
+    "cp": "33140",
+    "prix": 0.002019,
+    "distance": 111.34657747698252,
+    "coutTotal": 0.14591174798520554
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "Avenue Pierre Mendès France",
+    "ville": "Lesparre-Médoc",
+    "cp": "33340",
+    "prix": 0.0019370000000000001,
+    "distance": 175.81541773224626,
+    "coutTotal": 0.16496089282947224
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RUE MARGUERITE DURAS",
+    "ville": "AUCH",
+    "cp": "32000",
+    "prix": 0.001999,
+    "distance": 45.89647833439787,
+    "coutTotal": 0.11829941203809227
+  },
+  {
+    "station": "Système U",
+    "adresse": "AVENUE GAMBETTA",
+    "ville": "Gourdon",
+    "cp": "46300",
+    "prix": 0.002045,
+    "distance": 111.78593540443302,
+    "coutTotal": 0.1479704475804131
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "AVENUE DANIATE",
+    "ville": "NOGARO",
+    "cp": "32110",
+    "prix": 0.002095,
+    "distance": 44.38725677294297,
+    "coutTotal": 0.1233482605878631
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "118 Avenue Jean Jaurès",
+    "ville": "Marmande",
+    "cp": "47200",
+    "prix": 0.0019479999999999999,
+    "distance": 55.31861062806873,
+    "coutTotal": 0.11895213070069556
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "10 ROUTE DE LALANDE",
+    "ville": "Montussan",
+    "cp": "33450",
+    "prix": 0.0019690000000000003,
+    "distance": 112.84818804554475,
+    "coutTotal": 0.14288961645233555
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "313 Cours Maréchal-Gallieni",
+    "ville": "BORDEAUX",
+    "cp": "33000",
+    "prix": 0.002029,
+    "distance": 116.57490691525263,
+    "coutTotal": 0.14875609722620953
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "8 ROUTE DE VILLANDRAUT",
+    "ville": "LANGON",
+    "cp": "33210",
     "prix": 0.00199,
-    "distance": 0.35228551234702254,
-    "coutTotal": 0.09964020963391412
+    "distance": 76.60276728105048,
+    "coutTotal": 0.1299879013778581
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RN 89",
+    "ville": "ARVEYRES",
+    "cp": "33500",
+    "prix": 0.00199,
+    "distance": 109.40965515351415,
+    "coutTotal": 0.14304504275109864
+  },
+  {
+    "station": "Système U",
+    "adresse": "17  Rue Pierre Ralle",
+    "ville": "SAINT-LAURENT-MéDOC",
+    "cp": "33112",
+    "prix": 0.001939,
+    "distance": 155.49189712833464,
+    "coutTotal": 0.15724975770636818
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Rue Fernand Aude RD8",
+    "ville": "Houeillès",
+    "cp": "47420",
+    "prix": 0.00207,
+    "distance": 32.45037541224769,
+    "coutTotal": 0.11693445542067053
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "La Ville",
+    "ville": "LE PASSAGE",
+    "cp": "47520",
+    "prix": 0.0019790000000000003,
+    "distance": 24.6331150629983,
+    "coutTotal": 0.10869978694193475
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "MARAMBAT",
+    "ville": "VIC-FEZENSAC",
+    "cp": "32190",
+    "prix": 0.001999,
+    "distance": 30.852396714741136,
+    "coutTotal": 0.1122847882065535
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Route de Blaye - 13-274 Au Mas",
+    "ville": "Bourg",
+    "cp": "33710",
+    "prix": 0.001939,
+    "distance": 134.0909884885053,
+    "coutTotal": 0.14895048533584235
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Place du Foirail",
+    "ville": "MIRADOUX",
+    "cp": "32340",
+    "prix": 0.00207,
+    "distance": 30.560223805450065,
+    "coutTotal": 0.11615193265545631
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "RTE DE MANCIET",
+    "ville": "EAUZE",
+    "cp": "32800",
+    "prix": 0.0019690000000000003,
+    "distance": 29.21255545226022,
+    "coutTotal": 0.10995390433710009
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "1155 Avenue de l'Europe",
+    "ville": "MONTAUBAN",
+    "cp": "82000",
+    "prix": 0.002019,
+    "distance": 76.32378193781912,
+    "coutTotal": 0.13176954314649136
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "4 RUE NATIONALE",
+    "ville": "Saint-André-de-Cubzac",
+    "cp": "33240",
+    "prix": 0.00199,
+    "distance": 124.36933106786066,
+    "coutTotal": 0.14899899376500855
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "LE BOURG",
+    "ville": "GIMAT",
+    "cp": "82500",
+    "prix": 0.00199,
+    "distance": 49.60937338789064,
+    "coutTotal": 0.11924453060838047
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "114 RTE DE TOULOUSE",
+    "ville": "CAHORS",
+    "cp": "46000",
+    "prix": 0.00199,
+    "distance": 94.52342039346354,
+    "coutTotal": 0.1371203213165985
+  },
+  {
+    "station": "Intermarché Contact",
+    "adresse": "ROUTE D'AURILLAC",
+    "ville": "BAGNAC-SUR-CéLé",
+    "cp": "46270",
+    "prix": 0.002019,
+    "distance": 158.41522712005587,
+    "coutTotal": 0.16491806871107856
+  },
+  {
+    "station": "Aire C",
+    "adresse": "313 AVENUE SAINT ROCH PICADOU",
+    "ville": "Beauville",
+    "cp": "47470",
+    "prix": 0.00207,
+    "distance": 48.04501472829382,
+    "coutTotal": 0.12339063609751363
+  },
+  {
+    "station": "Avia",
+    "adresse": "21 Rue J B Peres",
+    "ville": "Agen",
+    "cp": "47000",
+    "prix": 0.001999,
+    "distance": 27.6574268819232,
+    "coutTotal": 0.1110074392673929
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "127 COURS DU MEDOC",
+    "ville": "BORDEAUX",
+    "cp": "33000",
+    "prix": 0.001958,
+    "distance": 118.43980617310109,
+    "coutTotal": 0.14428102809738638
+  },
+  {
+    "station": "Système U",
+    "adresse": "Le Mayne",
+    "ville": "Saint-Martial-d'Albarède",
+    "cp": "24160",
+    "prix": 0.001958,
+    "distance": 153.148962594384,
+    "coutTotal": 0.15787313375196077
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RUE LAGRUA",
+    "ville": "LA TESTE-DE-BUCH",
+    "cp": "33260",
+    "prix": 0.0019590000000000002,
+    "distance": 139.22222336305921,
+    "coutTotal": 0.1524972671136466
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "19 Boulevard Yves Mainguy",
+    "ville": "MONT-DE-MARSAN",
+    "cp": "40000",
+    "prix": 0.001999,
+    "distance": 71.07412055450924,
+    "coutTotal": 0.1283654333976928
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "41 AVENUE GEORGES POMPIDOU",
+    "ville": "Marmande",
+    "cp": "47200",
+    "prix": 0.00199,
+    "distance": 54.2489347104163,
+    "coutTotal": 0.1210910760147457
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "1281 ROUTE DE TOULOUSE",
+    "ville": "SAMATAN",
+    "cp": "32130",
+    "prix": 0.00199,
+    "distance": 75.09437395592244,
+    "coutTotal": 0.12938756083445713
+  },
+  {
+    "station": "Intermarché Contact",
+    "adresse": "LE VILLAGE",
+    "ville": "Vazerac",
+    "cp": "82220",
+    "prix": 0.002069,
+    "distance": 74.2402245730995,
+    "coutTotal": 0.13417060492834856
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "LIEUDIT LE BOURG C.C.",
+    "ville": "Pont-du-Casse",
+    "cp": "47480",
+    "prix": 0.0019890000000000003,
+    "distance": 31.87177317295257,
+    "coutTotal": 0.11212859136820054
+  },
+  {
+    "station": "TotalEnergies Contact",
+    "adresse": "1403 ROUTE DES RESISTANTS",
+    "ville": "LA ROQUE GAGEAC",
+    "cp": "24250",
+    "prix": 0.00199,
+    "distance": 108.6221452838466,
+    "coutTotal": 0.14273161382297095
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "lieu dit hontaut",
+    "ville": "Condom",
+    "cp": "32100",
+    "prix": 0.001986,
+    "distance": 8.294946265829008,
+    "coutTotal": 0.10259475265678727
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RUE CHANZY",
+    "ville": "TARTAS",
+    "cp": "40400",
+    "prix": 0.00199,
+    "distance": 97.57516286439572,
+    "coutTotal": 0.13833491482002952
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "32 Route de Lussac",
+    "ville": "Saint-Denis-de-Pile",
+    "cp": "33910",
+    "prix": 0.00199,
+    "distance": 115.57710581350031,
+    "coutTotal": 0.14549968811377312
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A62 - AIRE AGEN PORTE D'AQUITAINE NORD",
+    "ville": "LAPLUME",
+    "cp": "47310",
+    "prix": 0.00199,
+    "distance": 20.602945409887067,
+    "coutTotal": 0.10769997227313506
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "ZI LABARRE",
+    "ville": "NéRAC",
+    "cp": "47600",
+    "prix": 0.001935,
+    "distance": 11.158938588237564,
+    "coutTotal": 0.10106850923364794
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "ROUTE DE CASTILLON",
+    "ville": "LIBOURNE",
+    "cp": "33500",
+    "prix": 0.00196,
+    "distance": 106.91183736780118,
+    "coutTotal": 0.13990944024817806
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Lieu-dit La Garenne",
+    "ville": "Fals",
+    "cp": "47220",
+    "prix": 0.00207,
+    "distance": 27.329378174819738,
+    "coutTotal": 0.11481436256437537
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Route de Sauveterre",
+    "ville": "Créon",
+    "cp": "33670",
+    "prix": 0.001949,
+    "distance": 99.30633891006516,
+    "coutTotal": 0.1361596109071434
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "8 lieu dit farideuil",
+    "ville": "La Lande-de-Fronsac",
+    "cp": "33240",
+    "prix": 0.0019950000000000002,
+    "distance": 120.40016546919841,
+    "coutTotal": 0.14778966602221016
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Lieudit Lamarque - Route d'Hagetmau",
+    "ville": "Samadet",
+    "cp": "40320",
+    "prix": 0.0020800000000000003,
+    "distance": 84.04702864543398,
+    "coutTotal": 0.13896356391650055
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "450 ROUTE D'AQUITAINE",
+    "ville": "Riscle",
+    "cp": "32400",
+    "prix": 0.00199,
+    "distance": 55.24442166134965,
+    "coutTotal": 0.12148727982121717
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "AVENUE DE LA REPUBLIQUE",
+    "ville": "BIARS-SUR-CERE",
+    "cp": "46130",
+    "prix": 0.0019790000000000003,
+    "distance": 149.81417604374215,
+    "coutTotal": 0.15824645087811318
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "Route de TOULOUSE",
+    "ville": "Cahors",
+    "cp": "46000",
+    "prix": 0.001982,
+    "distance": 94.47415998394243,
+    "coutTotal": 0.13654955701763477
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Avenue Ernest Aimé Touyarou",
+    "ville": "Eauze",
+    "cp": "32800",
+    "prix": 0.0019690000000000003,
+    "distance": 29.196504304925398,
+    "coutTotal": 0.10994758339527963
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "27 Avenue du Général de Gaulle",
+    "ville": "Tosse",
+    "cp": "40230",
+    "prix": 0.0019690000000000003,
+    "distance": 142.65814355422734,
+    "coutTotal": 0.15462877693165475
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RN.124",
+    "ville": "Saint-Vincent-de-Paul",
+    "cp": "40990",
+    "prix": 0.00199,
+    "distance": 116.75921385295014,
+    "coutTotal": 0.14597016711347416
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "RTE DE BORDEAUX",
+    "ville": "Lacanau",
+    "cp": "33680",
+    "prix": 0.001972,
+    "distance": 154.99034984845377,
+    "coutTotal": 0.15972819398023014
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "13 avenue de la Mouscane",
+    "ville": "Montech",
+    "cp": "82700",
+    "prix": 0.002009,
+    "distance": 69.83861721353684,
+    "coutTotal": 0.1285111563963991
+  },
+  {
+    "station": "Système U",
+    "adresse": "6-8 RUE FRANCOIS MAURIAC",
+    "ville": "MARMANDE",
+    "cp": "47200",
+    "prix": 0.0019479999999999999,
+    "distance": 54.134474688664305,
+    "coutTotal": 0.11849079133870359
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "LA PLANCHE",
+    "ville": "LANOUAILLE",
+    "cp": "24270",
+    "prix": 0.001999,
+    "distance": 161.2890663243118,
+    "coutTotal": 0.16443336871645986
+  },
+  {
+    "station": "Netto",
+    "adresse": "51 rue de la Récège",
+    "ville": "SOUILLAC",
+    "cp": "46200",
+    "prix": 0.001954,
+    "distance": 129.24520006135654,
+    "coutTotal": 0.14820902418397813
+  },
+  {
+    "station": "Système U",
+    "adresse": " Avenue de Bordeaux",
+    "ville": "LACANAU",
+    "cp": "33680",
+    "prix": 0.001972,
+    "distance": 154.85274647476083,
+    "coutTotal": 0.15967392320964566
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Chemin des Sables",
+    "ville": "SARLAT-LA-CANéDA",
+    "cp": "24200",
+    "prix": 0.0019690000000000003,
+    "distance": 114.71204074702693,
+    "coutTotal": 0.1436236016461792
+  },
+  {
+    "station": "Système U",
+    "adresse": "627 route de Tyrosse",
+    "ville": "Angresse",
+    "cp": "40150",
+    "prix": 0.0019690000000000003,
+    "distance": 146.3621227703649,
+    "coutTotal": 0.1560874039469697
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Route de Lectoure",
+    "ville": "FLEURANCE",
+    "cp": "32500",
+    "prix": 0.001999,
+    "distance": 29.97476310211014,
+    "coutTotal": 0.11193391028822362
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "PONT DES SABLES",
+    "ville": "Marmande",
+    "cp": "47200",
+    "prix": 0.00199,
+    "distance": 50.9417624952698,
+    "coutTotal": 0.11977482147311738
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "VAUREZ NORD",
+    "ville": "PAYS DE BELVES",
+    "cp": "24170",
+    "prix": 0.00199,
+    "distance": 95.64613759718424,
+    "coutTotal": 0.13756716276367933
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "Rocade Périphérique exterieur aire du truc",
+    "ville": "MERIGNAC",
+    "cp": "33700",
+    "prix": 0.001956,
+    "distance": 122.54026778783286,
+    "coutTotal": 0.1457377527586002
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "STATION SERVICE TOTAL ENERGIES - 142 route de Figeac",
+    "ville": "LACAPELLE-MARIVAL",
+    "cp": "46120",
+    "prix": 0.00199,
+    "distance": 144.5019367350282,
+    "coutTotal": 0.15701177082054124
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": " Route de Pauillac",
+    "ville": "LE PIAN-MéDOC",
+    "cp": "33290",
+    "prix": 0.001956,
+    "distance": 128.98748656470534,
+    "coutTotal": 0.1482599047441127
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "410 Avenue du Président John F. Kennedy",
+    "ville": "Mont-de-Marsan",
+    "cp": "40000",
+    "prix": 0.001999,
+    "distance": 72.28945909155904,
+    "coutTotal": 0.1288513257448053
+  },
+  {
+    "station": "Système U",
+    "adresse": "Route des Lacs",
+    "ville": "LIT-ET-MIXE",
+    "cp": "40170",
+    "prix": 0.002013,
+    "distance": 130.9638350540207,
+    "coutTotal": 0.15337603999274874
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Limoges",
+    "ville": "TRéLISSAC",
+    "cp": "24750",
+    "prix": 0.0019690000000000003,
+    "distance": 133.02430646022552,
+    "coutTotal": 0.15083497188403683
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Avenue de l'Europe",
+    "ville": "LA TESTE-DE-BUCH",
+    "cp": "33260",
+    "prix": 0.001975,
+    "distance": 135.71595648770497,
+    "coutTotal": 0.15235780281264347
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "3 Ter, Grand Rue",
+    "ville": "LA VILLE DIEU DU TEMPLE",
+    "cp": "82290",
+    "prix": 0.002009,
+    "distance": 67.14092118899619,
+    "coutTotal": 0.12742722213373867
+  },
+  {
+    "station": "Auchan",
+    "adresse": "1 allée Perrucade",
+    "ville": "La Brède",
+    "cp": "33650",
+    "prix": 0.002009,
+    "distance": 101.30444000253823,
+    "coutTotal": 0.14115412399301985
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "9 AV DE LA LIBERATION",
+    "ville": "LATRESNE",
+    "cp": "33360",
+    "prix": 0.00199,
+    "distance": 108.04579897580595,
+    "coutTotal": 0.14250222799237078
+  },
+  {
+    "station": "Avia",
+    "adresse": "3 AV DE LA RESISTANCE",
+    "ville": "LORMONT",
+    "cp": "33310",
+    "prix": 0.002129,
+    "distance": 117.43684868632393,
+    "coutTotal": 0.15645461017063672
+  },
+  {
+    "station": "Système U",
+    "adresse": "U EXPRESS",
+    "ville": "MARCIAC",
+    "cp": "32230",
+    "prix": 0.002078,
+    "distance": 60.28093003214888,
+    "coutTotal": 0.12895275452136107
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "AIRE DE MAS D'AGENAIS A62",
+    "ville": "Le Mas-d'Agenais",
+    "cp": "47430",
+    "prix": 0.002081,
+    "distance": 43.4487664470706,
+    "coutTotal": 0.12213337659527079
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Redon Lieu-dit Mon Repos - RN 113",
+    "ville": "Bon-Encontre",
+    "cp": "47240",
+    "prix": 0.0019790000000000003,
+    "distance": 27.729772101994108,
+    "coutTotal": 0.10992544379796929
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "rte Nationale 708",
+    "ville": "Duras",
+    "cp": "47120",
+    "prix": 0.0020299999999999997,
+    "distance": 71.13743793434196,
+    "coutTotal": 0.13038179980134282
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "Quai Gambetta",
+    "ville": "CLAIRAC",
+    "cp": "47320",
+    "prix": 0.0019690000000000003,
+    "distance": 35.35096333389694,
+    "coutTotal": 0.11237120936088862
+  },
+  {
+    "station": "Système U",
+    "adresse": "Caunezil",
+    "ville": "Parnac",
+    "cp": "46140",
+    "prix": 0.0019890000000000003,
+    "distance": 88.42335919418254,
+    "coutTotal": 0.13462481228744583
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "99 ROUTE DE GUILLOS",
+    "ville": "LANDIRAS",
+    "cp": "33720",
+    "prix": 0.001999,
+    "distance": 86.10903656113064,
+    "coutTotal": 0.13437639281714003
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "1070 Av. du Marsan",
+    "ville": "Sarbazan",
+    "cp": "40120",
+    "prix": 0.002025,
+    "distance": 57.42799192496076,
+    "coutTotal": 0.12450833672960909
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "1270 ROUTE DE DAX",
+    "ville": "CASTETS",
+    "cp": "40260",
+    "prix": 0.001956,
+    "distance": 122.55754548663057,
+    "coutTotal": 0.14574451179436987
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RUE JEAN DE NASSE",
+    "ville": "CASTETS",
+    "cp": "40260",
+    "prix": 0.001954,
+    "distance": 123.15903017562736,
+    "coutTotal": 0.14583054899263517
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Rue Pacaris BP 109",
+    "ville": "Talence",
+    "cp": "33400",
+    "prix": 0.00195,
+    "distance": 114.0289440249901,
+    "coutTotal": 0.14197128816974613
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "25 Rue Frimont-Ouest",
+    "ville": "La Réole",
+    "cp": "33190",
+    "prix": 0.0019790000000000003,
+    "distance": 70.251823908358,
+    "coutTotal": 0.1267556719029281
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "ROUTE DE BORDEAUX",
+    "ville": "AUDENGE",
+    "cp": "33980",
+    "prix": 0.001949,
+    "distance": 130.34311924655006,
+    "coutTotal": 0.14825774788230522
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "RUE GEORGES CHAULET",
+    "ville": "DAX",
+    "cp": "40100",
+    "prix": 0.001956,
+    "distance": 120.0879367810309,
+    "coutTotal": 0.14477840086873928
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "Rue de Turenne",
+    "ville": "LES QUATRE ROUTES DU LOT",
+    "cp": "46110",
+    "prix": 0.001999,
+    "distance": 146.3181106016497,
+    "coutTotal": 0.15844798061853954
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "54 avenue Michel Grandou",
+    "ville": "Trélissac",
+    "cp": "24750",
+    "prix": 0.00199,
+    "distance": 131.0559513214723,
+    "coutTotal": 0.15166026862594598
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "ZAC du Barraouet",
+    "ville": "Castelsarrasin",
+    "cp": "82100",
+    "prix": 0.001958,
+    "distance": 57.80904203194065,
+    "coutTotal": 0.12053802085970797
+  },
+  {
+    "station": "Auchan",
+    "adresse": "468 Route de Toulouse",
+    "ville": "BèGLES",
+    "cp": "33130",
+    "prix": 0.0019299999999999999,
+    "distance": 112.33145508587421,
+    "coutTotal": 0.13985994166314744
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "LAYGUE BASSE",
+    "ville": "VENDAYS-MONTALIVET",
+    "cp": "33930",
+    "prix": 0.00206,
+    "distance": 185.53011507913163,
+    "coutTotal": 0.17943840741260225
+  },
+  {
+    "station": "Auchan",
+    "adresse": "avenue des 40 journaux",
+    "ville": "BORDEAUX",
+    "cp": "33300",
+    "prix": 0.001955,
+    "distance": 120.06818025426897,
+    "coutTotal": 0.14469665847941918
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Route de Mont-de-Marsan",
+    "ville": "LE HOUGA",
+    "cp": "32460",
+    "prix": 0.00207,
+    "distance": 54.11755048321222,
+    "coutTotal": 0.12590466590004984
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "16, Rue des Fleurs",
+    "ville": "Chancelade",
+    "cp": "24650",
+    "prix": 0.001949,
+    "distance": 131.0966036750239,
+    "coutTotal": 0.14855145611252432
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "51 Pontet Sud Est",
+    "ville": "EYRANS",
+    "cp": "33390",
+    "prix": 0.00199,
+    "distance": 150.39456349146798,
+    "coutTotal": 0.15935703626960426
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "17 AVENUE DE LA DORDOGNE",
+    "ville": "Sarlat-la-Canéda",
+    "cp": "24200",
+    "prix": 0.001958,
+    "distance": 115.46220477699423,
+    "coutTotal": 0.14311499939067096
+  },
+  {
+    "station": "ENI",
+    "adresse": "AIRE DE PECH MONTAT BI-TRAFIC",
+    "ville": "CRESSENSAC",
+    "cp": "46600",
+    "prix": 0.002294,
+    "distance": 142.99504825645937,
+    "coutTotal": 0.18030612814006355
+  },
+  {
+    "station": "Shell",
+    "adresse": "A63 Sens Bordeaux Bayonne",
+    "ville": "Cestas",
+    "cp": "33610",
+    "prix": 0.002347,
+    "distance": 116.49394737237242,
+    "coutTotal": 0.17203225889659163
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Fumel",
+    "ville": "Villeneuve-sur-Lot",
+    "cp": "47300",
+    "prix": 0.002059,
+    "distance": 49.86943091536103,
+    "coutTotal": 0.12348623165094567
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "RUE LAGRUA",
+    "ville": "LA TESTE",
+    "cp": "33260",
+    "prix": 0.001956,
+    "distance": 139.5553639824952,
+    "coutTotal": 0.15239405838995213
+  },
+  {
+    "station": "Avia",
+    "adresse": "Z.A. GRAND SUD LOGISTIQUE",
+    "ville": "LA BASTIDE ST PIERRE",
+    "cp": "82370",
+    "prix": 0.002054,
+    "distance": 75.59721144764067,
+    "coutTotal": 0.13375533446269078
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "le Pesquier",
+    "ville": "BOURRAN",
+    "cp": "47320",
+    "prix": 0.0019890000000000003,
+    "distance": 32.34807072695183,
+    "coutTotal": 0.11231806253518145
+  },
+  {
+    "station": "Avia",
+    "adresse": "Autoroute A20",
+    "ville": "LABASTIDE-MURAT",
+    "cp": "46240",
+    "prix": 0.002159,
+    "distance": 117.05897101920837,
+    "coutTotal": 0.15849606368609415
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Zone Artisanale Coupille",
+    "ville": "LIVERNON",
+    "cp": "46320",
+    "prix": 0.002077,
+    "distance": 135.60959919225616,
+    "coutTotal": 0.1601822275044632
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "le bourg",
+    "ville": "Groléjac",
+    "cp": "24250",
+    "prix": 0.00199,
+    "distance": 113.14593344710828,
+    "coutTotal": 0.1445320815119491
+  },
+  {
+    "station": "Netto",
+    "adresse": "Combe du Paysan",
+    "ville": "Cahors",
+    "cp": "46000",
+    "prix": 0.001999,
+    "distance": 96.38540406126101,
+    "coutTotal": 0.13848488454369215
+  },
+  {
+    "station": "ENI",
+    "adresse": "A 65 - AIRE DE CAPTIEUX",
+    "ville": "CAPTIEUX",
+    "cp": "33840",
+    "prix": 0.002299,
+    "distance": 55.75157333708595,
+    "coutTotal": 0.1405845734203921
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Pauillac",
+    "ville": "LE PIAN-MéDOC",
+    "cp": "33290",
+    "prix": 0.0019790000000000003,
+    "distance": 129.431917240006,
+    "coutTotal": 0.1501791528435944
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Montricoux",
+    "ville": "NEGREPELISSE",
+    "cp": "82800",
+    "prix": 0.002039,
+    "distance": 95.33472061189411,
+    "coutTotal": 0.1408274990655304
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "A62-AIRE DES TERRES DE GRAVES SUD",
+    "ville": "PODENSAC",
+    "cp": "33720",
+    "prix": 0.00199,
+    "distance": 93.49276351973114,
+    "coutTotal": 0.136710119880853
+  },
+  {
+    "station": "Esso",
+    "adresse": "A630 ROC.PRESQU'ILE LAC COTE1",
+    "ville": "Bruges",
+    "cp": "33520",
+    "prix": 0.002054,
+    "distance": 121.3069380373305,
+    "coutTotal": 0.15253289014573534
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "500 Rue de Gouveia",
+    "ville": "Labouheyre",
+    "cp": "40210",
+    "prix": 0.001968,
+    "distance": 105.81199047967286,
+    "coutTotal": 0.14004759945279924
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RN230- FONTBELLEAU ROCADE RIVE DROITE",
+    "ville": "LORMONT",
+    "cp": "33310",
+    "prix": 0.00199,
+    "distance": 116.15954035060372,
+    "coutTotal": 0.1457314970595403
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RN 89 - NIVERSAC",
+    "ville": "Saint-Laurent-sur-Manoire",
+    "cp": "24330",
+    "prix": 0.00199,
+    "distance": 126.80396123448739,
+    "coutTotal": 0.149967976571326
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "106 AVENUE DES PYRENEES",
+    "ville": "Le Passage",
+    "cp": "47520",
+    "prix": 0.001949,
+    "distance": 23.496957889213377,
+    "coutTotal": 0.10660911418521538
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Tarbes",
+    "ville": "MIRANDE",
+    "cp": "32300",
+    "prix": 0.002065,
+    "distance": 59.844588605912804,
+    "coutTotal": 0.12796581509424199
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "25 Route des Prés",
+    "ville": "Belin-Béliet",
+    "cp": "33830",
+    "prix": 0.0019950000000000002,
+    "distance": 106.32443242092644,
+    "coutTotal": 0.14217344853594965
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "80 avenue de la Résistance",
+    "ville": "PINEUILH",
+    "cp": "33220",
+    "prix": 0.001957,
+    "distance": 88.39659889844764,
+    "coutTotal": 0.13244842880885238
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "190 ROUTE DE TOULOUSE",
+    "ville": "POMPIGNAN",
+    "cp": "82170",
+    "prix": 0.00199,
+    "distance": 79.13134075313386,
+    "coutTotal": 0.13099427361974728
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "101, Avenue Pasteur",
+    "ville": "Bergerac",
+    "cp": "24100",
+    "prix": 0.0019590000000000002,
+    "distance": 92.09957591829979,
+    "coutTotal": 0.13403461384478987
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "ZA LOMBARDON",
+    "ville": "MACAU",
+    "cp": "33460",
+    "prix": 0.0019619999999999998,
+    "distance": 132.9003559718599,
+    "coutTotal": 0.1502500996833578
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "46 rue Jacques Vergeron",
+    "ville": "Saint-Savin",
+    "cp": "33920",
+    "prix": 0.0019590000000000002,
+    "distance": 138.55006202204328,
+    "coutTotal": 0.15223391430023658
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "64 Route de Lafrançaise , Station TOTAL",
+    "ville": "CASTELSARRASIN",
+    "cp": "82100",
+    "prix": 0.00199,
+    "distance": 58.80032610187616,
+    "coutTotal": 0.12290252978854671
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "2 Route de la Maladrerie",
+    "ville": "Nontron",
+    "cp": "24300",
+    "prix": 0.001986,
+    "distance": 168.4990647465518,
+    "coutTotal": 0.16622782851733037
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "1400 route de Moissac",
+    "ville": "Castelsarrasin",
+    "cp": "82100",
+    "prix": 0.001998,
+    "distance": 57.504736126614816,
+    "coutTotal": 0.1228788925561953
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "RD 813",
+    "ville": "BON-ENCONTRE",
+    "cp": "47240",
+    "prix": 0.0019790000000000003,
+    "distance": 28.276305051258852,
+    "coutTotal": 0.11014176153928827
+  },
+  {
+    "station": "Avia",
+    "adresse": "47, Avenue du 7 ème R.I.",
+    "ville": "CAHORS",
+    "cp": "46000",
+    "prix": 0.002059,
+    "distance": 95.83616277664832,
+    "coutTotal": 0.1424153318314238
+  },
+  {
+    "station": "Auchan",
+    "adresse": "Centre Commercial L'Univers1 T Avenue Gustave Eiffel",
+    "ville": "Pessac",
+    "cp": "33600",
+    "prix": 0.001946,
+    "distance": 115.67196512603581,
+    "coutTotal": 0.14231952882705315
+  },
+  {
+    "station": "Système U",
+    "adresse": "4 RILLAC",
+    "ville": "CAVIGNAC",
+    "cp": "33620",
+    "prix": 0.001999,
+    "distance": 132.16827867757127,
+    "coutTotal": 0.152790877815293
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "route de Périgueux",
+    "ville": "LA FEUILLADE",
+    "cp": "24120",
+    "prix": 0.001999,
+    "distance": 145.57632048116105,
+    "coutTotal": 0.15815141292836818
+  },
+  {
+    "station": "Avia",
+    "adresse": "203 Rue Victor Hugo",
+    "ville": "AUCH",
+    "cp": "32000",
+    "prix": 0.002079,
+    "distance": 45.26191190911754,
+    "coutTotal": 0.12276990297181108
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "1 QUAI DE PALUDATE",
+    "ville": "BORDEAUX",
+    "cp": "33800",
+    "prix": 0.00199,
+    "distance": 115.28068881400534,
+    "coutTotal": 0.14538171414797413
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route d'Agen",
+    "ville": "VILLENEUVE-SUR-LOT",
+    "cp": "47300",
+    "prix": 0.001949,
+    "distance": 47.531178768811586,
+    "coutTotal": 0.11597765348408276
+  },
+  {
+    "station": "Aire C",
+    "adresse": "le bourg - 292 D710",
+    "ville": "Sauveterre-la-Lémance",
+    "cp": "47500",
+    "prix": 0.00207,
+    "distance": 79.67509587865622,
+    "coutTotal": 0.13648548969376367
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "115 CHEMIN DE FONTALES",
+    "ville": "Saint-Antonin-Noble-Val",
+    "cp": "82140",
+    "prix": 0.001999,
+    "distance": 110.09019267664706,
+    "coutTotal": 0.14396405903212348
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "2 rue des Bouquets",
+    "ville": "COUTRAS",
+    "cp": "33230",
+    "prix": 0.0019590000000000002,
+    "distance": 119.05203216483609,
+    "coutTotal": 0.1445945862021828
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "52 Avenue de Bordeaux",
+    "ville": "MIMIZAN",
+    "cp": "40200",
+    "prix": 0.001968,
+    "distance": 128.96867231588263,
+    "coutTotal": 0.1491620694235314
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "ZA DU BOIS MAJOU NORD",
+    "ville": "AILLAS",
+    "cp": "33124",
+    "prix": 0.002089,
+    "distance": 63.52989213097888,
+    "coutTotal": 0.13099278893232297
+  },
+  {
+    "station": "Shell",
+    "adresse": "A63 SENS BAYONNE-BORDEAUX",
+    "ville": "CESTAS",
+    "cp": "33610",
+    "prix": 0.002347,
+    "distance": 116.44713655769021,
+    "coutTotal": 0.1720102859001798
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "566 rue Vendôme, Puy Laurent",
+    "ville": "BRANTôME",
+    "cp": "24310",
+    "prix": 0.001939,
+    "distance": 150.6967022826561,
+    "coutTotal": 0.15539018114521402
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Georges Pompidou",
+    "ville": "Montpon-Ménestérol",
+    "cp": "24700",
+    "prix": 0.001961,
+    "distance": 109.13287192711292,
+    "coutTotal": 0.14085191236981368
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "60 RN 20",
+    "ville": "Albias",
+    "cp": "82350",
+    "prix": 0.002039,
+    "distance": 85.51125891443286,
+    "coutTotal": 0.13682149138530572
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Lieu-dit Grands Champs de Baunac",
+    "ville": "Tocane-Saint-Apre",
+    "cp": "24350",
+    "prix": 0.0020139999999999997,
+    "distance": 135.9154023566631,
+    "coutTotal": 0.15544672406926385
+  },
+  {
+    "station": "Aire C",
+    "adresse": "centre commercial",
+    "ville": "Montbeton",
+    "cp": "82290",
+    "prix": 0.00207,
+    "distance": 72.65015588938374,
+    "coutTotal": 0.13357716453820487
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "116 QUAI DE LA SOUYS",
+    "ville": "BORDEAUX",
+    "cp": "33100",
+    "prix": 0.00196,
+    "distance": 114.24397219006225,
+    "coutTotal": 0.1427836370985044
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "2, rue du Martinet",
+    "ville": "SALLES",
+    "cp": "33770",
+    "prix": 0.001949,
+    "distance": 114.87646674125853,
+    "coutTotal": 0.14222884673574257
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "160, route d'Estibeaux",
+    "ville": "Pouillon",
+    "cp": "40350",
+    "prix": 0.0019470000000000002,
+    "distance": 120.00808590985287,
+    "coutTotal": 0.14408114865329671
+  },
+  {
+    "station": "Aire C",
+    "adresse": "LE BOURG",
+    "ville": "PRAYSSAS",
+    "cp": "47360",
+    "prix": 0.00207,
+    "distance": 29.449334433075116,
+    "coutTotal": 0.11569202445529309
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Bd mallebay",
+    "ville": "SAINT-ASTIER",
+    "cp": "24110",
+    "prix": 0.0019690000000000003,
+    "distance": 123.97083322366478,
+    "coutTotal": 0.1472697141234792
+  },
+  {
+    "station": "Avia",
+    "adresse": "5 Boulevard de la Madeleine",
+    "ville": "GOURDON",
+    "cp": "46300",
+    "prix": 0.00211,
+    "distance": 111.97693219999022,
+    "coutTotal": 0.15275426538839587
+  },
+  {
+    "station": "Auchan",
+    "adresse": "Rue des Fonderies",
+    "ville": "BIGANOS",
+    "cp": "33380",
+    "prix": 0.0019590000000000002,
+    "distance": 125.54542370056261,
+    "coutTotal": 0.14713869700588045
+  },
+  {
+    "station": "Aire C",
+    "adresse": "ZA LE BOURDET",
+    "ville": "GEAUNE",
+    "cp": "40320",
+    "prix": 0.0020800000000000003,
+    "distance": 75.1103083124692,
+    "coutTotal": 0.1352458882579872
+  },
+  {
+    "station": "Intermarché Contact",
+    "adresse": "Lotissement la Tuine",
+    "ville": "ASTAFFORT",
+    "cp": "47220",
+    "prix": 0.001929,
+    "distance": 22.001180975957187,
+    "coutTotal": 0.10493805562052427
+  },
+  {
+    "station": "Système U",
+    "adresse": "Centre Commercial Le Bourg",
+    "ville": "CESTAS",
+    "cp": "33610",
+    "prix": 0.0019790000000000003,
+    "distance": 114.7517630482844,
+    "coutTotal": 0.14436874781451098
+  },
+  {
+    "station": "",
+    "adresse": "14 Rte de l'Atlantique",
+    "ville": "Lacanau",
+    "cp": "33680",
+    "prix": 0.0020870000000000003,
+    "distance": 163.08708597159915,
+    "coutTotal": 0.1724225496845455
+  },
+  {
+    "station": "Intermarché Contact",
+    "adresse": "15 Route d'Agen",
+    "ville": "Laplume",
+    "cp": "47310",
+    "prix": 0.0019890000000000003,
+    "distance": 14.131544437064793,
+    "coutTotal": 0.10507152837706439
+  },
+  {
+    "station": "",
+    "adresse": "116 AVENUE EDOUARD HERRIOT",
+    "ville": "CAUSSADE",
+    "cp": "82300",
+    "prix": 0.001999,
+    "distance": 92.838349077907,
+    "coutTotal": 0.1370667719613472
+  },
+  {
+    "station": "Système U",
+    "adresse": "Les Peyroutilles",
+    "ville": "Salviac",
+    "cp": "46340",
+    "prix": 0.0019890000000000003,
+    "distance": 99.95473230743339,
+    "coutTotal": 0.13921199251189703
+  },
+  {
+    "station": "Supermarchés Spar",
+    "adresse": "LE CRABOL",
+    "ville": "Catus",
+    "cp": "46150",
+    "prix": 0.002053,
+    "distance": 95.40366431663196,
+    "coutTotal": 0.1418227445684091
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Maquis Meilhan",
+    "ville": "Lombez",
+    "cp": "32220",
+    "prix": 0.002019,
+    "distance": 76.79903582920839,
+    "coutTotal": 0.13196145066783435
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "Route de Pau",
+    "ville": "SARBAZAN",
+    "cp": "40120",
+    "prix": 0.001999,
+    "distance": 55.37756240884216,
+    "coutTotal": 0.12208994945105509
+  },
+  {
+    "station": "Système U",
+    "adresse": "28, avenue Jules-Ferry",
+    "ville": "NONTRON",
+    "cp": "24300",
+    "prix": 0.0019690000000000003,
+    "distance": 167.76113773277393,
+    "coutTotal": 0.16451433603916638
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Rue de l'Abbaye",
+    "ville": "Montauban",
+    "cp": "82000",
+    "prix": 0.002019,
+    "distance": 78.17883935445414,
+    "coutTotal": 0.13251861533132858
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "ZI",
+    "ville": "Saint-Médard-de-Mussidan",
+    "cp": "24400",
+    "prix": 0.001918,
+    "distance": 111.09178378197775,
+    "coutTotal": 0.13851480825876666
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "231 ROUTE DE CAHORS",
+    "ville": "LALBENQUE",
+    "cp": "46230",
+    "prix": 0.001999,
+    "distance": 98.66118538358666,
+    "coutTotal": 0.13939474191635795
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "ROUTE DE PERIGUEUX",
+    "ville": "Ribérac",
+    "cp": "24600",
+    "prix": 0.00198,
+    "distance": 134.46049290487426,
+    "coutTotal": 0.1522463551903302
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue du Colonel Pierre Bourgoin",
+    "ville": "MARTIGNAS-SUR-JALLE",
+    "cp": "33127",
+    "prix": 0.001944,
+    "distance": 127.64352063905358,
+    "coutTotal": 0.14682780082446403
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "59 BIS RD 813",
+    "ville": "Finhan",
+    "cp": "82700",
+    "prix": 0.002099,
+    "distance": 69.02250130964413,
+    "coutTotal": 0.13392564604978863
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Centre Commercial GRAND TOUR",
+    "ville": "Sainte-Eulalie",
+    "cp": "33560",
+    "prix": 0.0019590000000000002,
+    "distance": 118.56620307900873,
+    "coutTotal": 0.14440423836635563
+  },
+  {
+    "station": "Netto",
+    "adresse": "8 RUE CLAUDE BERNARD",
+    "ville": "BERGERAC",
+    "cp": "24100",
+    "prix": 0.001961,
+    "distance": 91.88006629019739,
+    "coutTotal": 0.1340853619990154
+  },
+  {
+    "station": "Aire C",
+    "adresse": "ROUTE DE VILLANDRAUT lieu dit SABLE ROUGE",
+    "ville": "PRECHAC",
+    "cp": "33730",
+    "prix": 0.00207,
+    "distance": 71.98003958724915,
+    "coutTotal": 0.13329973638912113
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue de Sarlat",
+    "ville": "SALIGNAC-EYVIGUES",
+    "cp": "24590",
+    "prix": 0.0019890000000000003,
+    "distance": 128.00632755450434,
+    "coutTotal": 0.15037091710118183
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "127 AV. DE L YSER",
+    "ville": "MERIGNAC",
+    "cp": "33700",
+    "prix": 0.00199,
+    "distance": 121.87983115230661,
+    "coutTotal": 0.14800817279861805
+  },
+  {
+    "station": "Esso",
+    "adresse": "3820 AVENUE DE TOULOUSE",
+    "ville": "CADAUJAC",
+    "cp": "33140",
+    "prix": 0.001964,
+    "distance": 105.37616315744432,
+    "coutTotal": 0.13959175688824413
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "R.N. 10",
+    "ville": "AMBARèS-ET-LAGRAVE",
+    "cp": "33440",
+    "prix": 0.0019590000000000002,
+    "distance": 119.24112993566312,
+    "coutTotal": 0.14466867470879283
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RUE JULES FERRY",
+    "ville": "CASTILLON-LA-BATAILLE",
+    "cp": "33350",
+    "prix": 0.001949,
+    "distance": 96.55674563501748,
+    "coutTotal": 0.13508781944852982
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Rue Anatole France",
+    "ville": "AIGUILLON",
+    "cp": "47190",
+    "prix": 0.001991,
+    "distance": 28.763080586768535,
+    "coutTotal": 0.11100345868965125
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Plaine de la Règle RN 117",
+    "ville": "Cauneille",
+    "cp": "40300",
+    "prix": 0.0019790000000000003,
+    "distance": 129.04646829512106,
+    "coutTotal": 0.15002659215120892
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "401 Avenue de Monzie",
+    "ville": "Saint-Céré",
+    "cp": "46400",
+    "prix": 0.00199,
+    "distance": 150.20887975462628,
+    "coutTotal": 0.15928313414234127
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "140 BOULEVARD GODARD",
+    "ville": "BORDEAUX",
+    "cp": "33300",
+    "prix": 0.001941,
+    "distance": 119.31368602237647,
+    "coutTotal": 0.14336757291388655
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "805 Chemin de La Mégère",
+    "ville": "MOISSAC",
+    "cp": "82200",
+    "prix": 0.0019890000000000003,
+    "distance": 59.855099874110365,
+    "coutTotal": 0.12326035872992111
+  },
+  {
+    "station": "Système U",
+    "adresse": "Route d'Auch",
+    "ville": "MAUVEZIN",
+    "cp": "32120",
+    "prix": 0.002009,
+    "distance": 52.833836178888006,
+    "coutTotal": 0.1216786353766772
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "70 avenue de la Libération",
+    "ville": "Béguey",
+    "cp": "33410",
+    "prix": 0.001953,
+    "distance": 87.63865575755284,
+    "coutTotal": 0.13188165893890014
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "Grande Rue d'Ardus",
+    "ville": "Lamothe-Capdeville",
+    "cp": "82130",
+    "prix": 0.002039,
+    "distance": 79.34359727026667,
+    "coutTotal": 0.13430631896681475
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "LA GARE",
+    "ville": "HAUTEFORT",
+    "cp": "24390",
+    "prix": 0.001949,
+    "distance": 149.12310311481124,
+    "coutTotal": 0.15557818559415343
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "77 route de Bayonne",
+    "ville": "Peyrehorade",
+    "cp": "40300",
+    "prix": 0.00199,
+    "distance": 131.669746356771,
+    "coutTotal": 0.15190455904999486
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "355, avenue de l'Océan",
+    "ville": "AMOU",
+    "cp": "40330",
+    "prix": 0.001999,
+    "distance": 103.63489861823928,
+    "coutTotal": 0.14138323246757206
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Chemin de Naudun",
+    "ville": "Saint-Sardos",
+    "cp": "82600",
+    "prix": 0.00207,
+    "distance": 62.44535655184935,
+    "coutTotal": 0.12935237761246562
+  },
+  {
+    "station": "Aire C",
+    "adresse": "LIEU DIT LA FOUGERE, ROUTE DE CAHORS",
+    "ville": "Villefranche-du-Périgord",
+    "cp": "24550",
+    "prix": 0.00207,
+    "distance": 85.92205992111782,
+    "coutTotal": 0.13907173280734278
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "16 ROUTE DE BORDEAUX",
+    "ville": "LANGON",
+    "cp": "33210",
+    "prix": 0.001964,
+    "distance": 80.00137562555953,
+    "coutTotal": 0.12962454034571977
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "427 Route du Médoc",
+    "ville": "Bruges",
+    "cp": "33520",
+    "prix": 0.001944,
+    "distance": 121.93808926043963,
+    "coutTotal": 0.14460952910445893
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "rue Bonnemaison",
+    "ville": "Condom",
+    "cp": "32100",
+    "prix": 0.0019690000000000003,
+    "distance": 8.821069549177539,
+    "coutTotal": 0.10192373718846612
+  },
+  {
+    "station": "Système U",
+    "adresse": "2 AVENUE FERNAND PILLOT",
+    "ville": "GALGON",
+    "cp": "33133",
+    "prix": 0.0020139999999999997,
+    "distance": 118.36868355692805,
+    "coutTotal": 0.1483789057367306
+  },
+  {
+    "station": "Aire C",
+    "adresse": "ROUTE D'ESTANG",
+    "ville": "Toujouse",
+    "cp": "32240",
+    "prix": 0.00207,
+    "distance": 49.003668692263425,
+    "coutTotal": 0.12378751883859705
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "14 rue des platanes",
+    "ville": "Puy-l'Évêque",
+    "cp": "46700",
+    "prix": 0.002019,
+    "distance": 79.60746792281213,
+    "coutTotal": 0.13309549554723155
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "CD 10",
+    "ville": "Béguey",
+    "cp": "33410",
+    "prix": 0.001953,
+    "distance": 88.86408784227041,
+    "coutTotal": 0.13236031271119084
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de la Plage",
+    "ville": "BISCARROSSE",
+    "cp": "40600",
+    "prix": 0.002019,
+    "distance": 130.10281469140492,
+    "coutTotal": 0.1534855165723893
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue des Grands Lacs",
+    "ville": "SANGUINET",
+    "cp": "40460",
+    "prix": 0.001999,
+    "distance": 126.15078181038542,
+    "coutTotal": 0.1503850825677921
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "17 Route D'AVENSAN",
+    "ville": "Castelnau-de-Médoc",
+    "cp": "33480",
+    "prix": 0.002008,
+    "distance": 143.73042882528148,
+    "coutTotal": 0.15812214021623303
+  },
+  {
+    "station": "Aire C",
+    "adresse": "avenue du midi",
+    "ville": "Golfech",
+    "cp": "82400",
+    "prix": 0.00204,
+    "distance": 38.60560318369585,
+    "coutTotal": 0.11775108609894791
+  },
+  {
+    "station": "Système U",
+    "adresse": "2401 AVENUE DES LACS",
+    "ville": "Moliets-et-Maa",
+    "cp": "40660",
+    "prix": 0.002009,
+    "distance": 140.39954043435216,
+    "coutTotal": 0.1568625353465227
+  },
+  {
+    "station": "Système U",
+    "adresse": "6 Avenue Pierre Mendès France",
+    "ville": "Saint-Ciers-sur-Gironde",
+    "cp": "33820",
+    "prix": 0.001935,
+    "distance": 159.55957549885122,
+    "coutTotal": 0.15849955571805543
+  },
+  {
+    "station": "Aire C",
+    "adresse": "Lieu-dit Saint-Étienne",
+    "ville": "Lauzun",
+    "cp": "47410",
+    "prix": 0.00207,
+    "distance": 65.85090943552588,
+    "coutTotal": 0.1307622765063077
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "route de tarbes",
+    "ville": "Aire-sur-l'Adour",
+    "cp": "40800",
+    "prix": 0.001999,
+    "distance": 62.009242354822426,
+    "coutTotal": 0.124741295093458
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "25 Avenue de la Libération",
+    "ville": "Lanton",
+    "cp": "33138",
+    "prix": 0.001949,
+    "distance": 134.60581753168213,
+    "coutTotal": 0.14991934767384968
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Libourne",
+    "ville": "Saint-Magne-de-Castillon",
+    "cp": "33350",
+    "prix": 0.0019590000000000002,
+    "distance": 97.11553802012834,
+    "coutTotal": 0.1359998677962863
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "129 Rue Victor Hugo",
+    "ville": "TARTAS",
+    "cp": "40400",
+    "prix": 0.001968,
+    "distance": 102.93843705159452,
+    "coutTotal": 0.1389165688235076
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "ZA LES MILLEPOISES",
+    "ville": "LE VIGAN",
+    "cp": "46300",
+    "prix": 0.00211,
+    "distance": 114.71262633750189,
+    "coutTotal": 0.15390872831442579
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "600 AVENUE DE SAINT SEVER",
+    "ville": "Saint-Pierre-du-Mont",
+    "cp": "40280",
+    "prix": 0.002025,
+    "distance": 73.2090974187749,
+    "coutTotal": 0.13089968445460382
+  },
+  {
+    "station": "Avia",
+    "adresse": "77 rue de la croix de monjous",
+    "ville": "Gradignan",
+    "cp": "33170",
+    "prix": 0.002079,
+    "distance": 112.7005538934242,
+    "coutTotal": 0.15081089030888578
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "rue des morilles",
+    "ville": "LINXE",
+    "cp": "40260",
+    "prix": 0.001954,
+    "distance": 131.32372236235818,
+    "coutTotal": 0.14902131069920957
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "ROUTE DE BORDEAUX",
+    "ville": "LéOGNAN",
+    "cp": "33850",
+    "prix": 0.001951,
+    "distance": 110.2243484738336,
+    "coutTotal": 0.14055954077448987
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Beauregard",
+    "ville": "TONNEINS",
+    "cp": "47400",
+    "prix": 0.0020150000000000003,
+    "distance": 40.03093930886609,
+    "coutTotal": 0.11688246854147305
+  },
+  {
+    "station": "Intermarché",
+    "adresse": " Route de la Parcelle",
+    "ville": "Dax",
+    "cp": "40100",
+    "prix": 0.001895,
+    "distance": 121.18336250866561,
+    "coutTotal": 0.14067849439078428
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Place du 8 Mai 1945",
+    "ville": "ROQUEFORT",
+    "cp": "47310",
+    "prix": 0.001988,
+    "distance": 20.9846527136298,
+    "coutTotal": 0.10774349791893922
+  },
+  {
+    "station": "Système U",
+    "adresse": "Route de Morillon",
+    "ville": "Camblanes-et-Meynac",
+    "cp": "33360",
+    "prix": 0.001984,
+    "distance": 105.97965703234149,
+    "coutTotal": 0.1412527279104331
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "Route de Salviac",
+    "ville": "GOURDON",
+    "cp": "46300",
+    "prix": 0.00199,
+    "distance": 109.12709737165719,
+    "coutTotal": 0.14293258475391957
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "559 ROUTE DE THONAC",
+    "ville": "Montignac",
+    "cp": "24290",
+    "prix": 0.0019690000000000003,
+    "distance": 128.73128156141024,
+    "coutTotal": 0.14914437867888336
+  },
+  {
+    "station": "Système U",
+    "adresse": "C/C CD 54",
+    "ville": "SAINT-MARTIN-DE-SEIGNANX",
+    "cp": "40390",
+    "prix": 0.0019690000000000003,
+    "distance": 152.11251004522492,
+    "coutTotal": 0.1583519064558096
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "boulevard des cigales",
+    "ville": "CAPBRETON",
+    "cp": "40130",
+    "prix": 0.001968,
+    "distance": 151.45361640229038,
+    "coutTotal": 0.1580121434159415
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "523 avenue de toulouse",
+    "ville": "PAYRAC",
+    "cp": "46350",
+    "prix": 0.00199,
+    "distance": 121.11286961704347,
+    "coutTotal": 0.1477029221075833
+  },
+  {
+    "station": "Système U",
+    "adresse": "lieu dit Beylard RD 813",
+    "ville": "Sainte-Bazeille",
+    "cp": "47180",
+    "prix": 0.0019790000000000003,
+    "distance": 58.589083064252954,
+    "coutTotal": 0.12213955907683133
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "RUE DES FRERES LUMIERES",
+    "ville": "BEGLES",
+    "cp": "33130",
+    "prix": 0.001933,
+    "distance": 110.83529630246274,
+    "coutTotal": 0.1394989255505321
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "8 Avenue de Verdun",
+    "ville": "CESTAS",
+    "cp": "33610",
+    "prix": 0.001957,
+    "distance": 118.31617423465275,
+    "coutTotal": 0.1441589505954431
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "170 Route de Sabres",
+    "ville": "LABRIT",
+    "cp": "40420",
+    "prix": 0.0020259999999999996,
+    "distance": 74.35884272872649,
+    "coutTotal": 0.13143020307367995
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "33, Avenue de Bordeaux",
+    "ville": "Le Porge",
+    "cp": "33680",
+    "prix": 0.0019790000000000003,
+    "distance": 148.94011957513004,
+    "coutTotal": 0.1579004993278365
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Le Couquet CAPDENAC LE HAUT",
+    "ville": "FIGEAC",
+    "cp": "46100",
+    "prix": 0.002019,
+    "distance": 147.46467543405464,
+    "coutTotal": 0.16049623594027126
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "17 Rue de la Fontaine",
+    "ville": "SAINT-ANDRé-DE-CUBZAC",
+    "cp": "33240",
+    "prix": 0.001925,
+    "distance": 124.65576267680954,
+    "coutTotal": 0.14424246863057166
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "AVENUE CHARLES DE GAULLE",
+    "ville": "Labenne",
+    "cp": "40530",
+    "prix": 0.0019690000000000003,
+    "distance": 153.5009484908013,
+    "coutTotal": 0.15889867351567757
+  },
+  {
+    "station": "Système U",
+    "adresse": "RN 21 ZAC DU CERF (SORTIE :15 - A89)",
+    "ville": "NOTRE DAME DE SANILHAC",
+    "cp": "24660",
+    "prix": 0.0019890000000000003,
+    "distance": 124.60592052739982,
+    "coutTotal": 0.14901823518579968
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Boulevard du Nord",
+    "ville": "GIMONT",
+    "cp": "32200",
+    "prix": 0.002059,
+    "distance": 61.025164935328014,
+    "coutTotal": 0.12808016292036808
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "RN.21",
+    "ville": "Sarliac-sur-l'Isle",
+    "cp": "24420",
+    "prix": 0.00199,
+    "distance": 138.60154667272326,
+    "coutTotal": 0.15466341557574387
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "route de Brive",
+    "ville": "Gramat",
+    "cp": "46500",
+    "prix": 0.001955,
+    "distance": 135.12412655512557,
+    "coutTotal": 0.15058353348305412
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "avenue Georges Pompidou",
+    "ville": "Trélissac",
+    "cp": "24750",
+    "prix": 0.0019690000000000003,
+    "distance": 132.00960893258474,
+    "coutTotal": 0.15043538399765188
+  },
+  {
+    "station": "Auchan",
+    "adresse": "Av LOUIS SUDER",
+    "ville": "MARSAC-SUR-L'ISLE",
+    "cp": "24430",
+    "prix": 0.001949,
+    "distance": 130.33042524154598,
+    "coutTotal": 0.14825279975915462
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "241 Avenue d'Albret",
+    "ville": "Rion-des-Landes",
+    "cp": "40370",
+    "prix": 0.0019690000000000003,
+    "distance": 104.49925475159502,
+    "coutTotal": 0.13960180652117815
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "155 Cours Saint-Louis",
+    "ville": "BORDEAUX",
+    "cp": "33300",
+    "prix": 0.002034,
+    "distance": 118.45957328868995,
+    "coutTotal": 0.14988935441383905
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "3 route de Baleste",
+    "ville": "MIMIZAN",
+    "cp": "40200",
+    "prix": 0.001999,
+    "distance": 129.50954441584105,
+    "coutTotal": 0.15172791585745324
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Route Nationale 113",
+    "ville": "BEAUTIRAN",
+    "cp": "33640",
+    "prix": 0.001999,
+    "distance": 99.45728198759255,
+    "coutTotal": 0.1397130213386395
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "1125 avenue Charles de Gaulle",
+    "ville": "SAINT-LAURENT-LES-TOURS",
+    "cp": "46400",
+    "prix": 0.0019790000000000003,
+    "distance": 150.99179510374907,
+    "coutTotal": 0.1587125525020639
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "ROUTE DE TARBES",
+    "ville": "Auch",
+    "cp": "32000",
+    "prix": 0.00199,
+    "distance": 48.207107611251836,
+    "coutTotal": 0.11868642882927824
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "RD 1215 Centre Commercial Terre Rouge",
+    "ville": "LESPARRE-MéDOC",
+    "cp": "33340",
+    "prix": 0.0019850000000000002,
+    "distance": 173.01918616172628,
+    "coutTotal": 0.16793861690620535
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Maryse Bastié",
+    "ville": "Cahors",
+    "cp": "46000",
+    "prix": 0.001966,
+    "distance": 95.46635790591151,
+    "coutTotal": 0.1358373719286044
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "RN 10",
+    "ville": "Saint-Vincent-de-Tyrosse",
+    "cp": "40230",
+    "prix": 0.0019690000000000003,
+    "distance": 139.72540986445046,
+    "coutTotal": 0.1534738664046206
+  },
+  {
+    "station": "Système U",
+    "adresse": "10 AVENUE PLANTAGENET",
+    "ville": "BELIN-BELIET",
+    "cp": "33830",
+    "prix": 0.0019950000000000002,
+    "distance": 106.29771520982696,
+    "coutTotal": 0.14216278836872098
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "LES MOULINS DE LA JUSTICE",
+    "ville": "LECTOURE",
+    "cp": "32700",
+    "prix": 0.001963,
+    "distance": 24.023323697091254,
+    "coutTotal": 0.10758155688347802
+  },
+  {
+    "station": "Intermarché",
+    "adresse": " Rue Jules Ferry",
+    "ville": "LANGON",
+    "cp": "33210",
+    "prix": 0.001953,
+    "distance": 75.7959393302389,
+    "coutTotal": 0.1272558939023913
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "95 Avenue Charles de Gaulle",
+    "ville": "SAUCATS",
+    "cp": "33650",
+    "prix": 0.001982,
+    "distance": 103.8776570309209,
+    "coutTotal": 0.14027710324705706
+  },
+  {
+    "station": "Système U",
+    "adresse": "ZI de Meaux - BP 119",
+    "ville": "CAUSSADE",
+    "cp": "82300",
+    "prix": 0.002039,
+    "distance": 92.55602513346622,
+    "coutTotal": 0.13969434704942751
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "318 ROUTE DE CAHORS",
+    "ville": "LAMAGDELAINE",
+    "cp": "46090",
+    "prix": 0.00199,
+    "distance": 100.0725582322593,
+    "coutTotal": 0.13932887817643919
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "Route D'Auche, Lieu Dit Haut Rege",
+    "ville": "Valence-sur-Baïse",
+    "cp": "32310",
+    "prix": 0.002049,
+    "distance": 18.94103685720007,
+    "coutTotal": 0.11021203690408059
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "15 Avenue de la Côte d'Argent",
+    "ville": "MARCHEPRIME",
+    "cp": "33380",
+    "prix": 0.0019790000000000003,
+    "distance": 122.16885173820573,
+    "coutTotal": 0.14730443151798184
+  },
+  {
+    "station": "Auchan",
+    "adresse": "Rue de la gabarre",
+    "ville": "Bouliac",
+    "cp": "33270",
+    "prix": 0.0019590000000000002,
+    "distance": 112.13557739729687,
+    "coutTotal": 0.14188471922426094
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "192 Route de Lyon",
+    "ville": "Boulazac",
+    "cp": "24750",
+    "prix": 0.001976,
+    "distance": 130.1452355818879,
+    "coutTotal": 0.1502333971019621
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "246 AVENUE DE LA LIBERATION",
+    "ville": "Colayrac-Saint-Cirq",
+    "cp": "47450",
+    "prix": 0.00199,
+    "distance": 24.734545374281097,
+    "coutTotal": 0.10934434905896388
+  },
+  {
+    "station": "Aire C",
+    "adresse": "LA SEOUNE EST",
+    "ville": "Sauzet",
+    "cp": "46140",
+    "prix": 0.00207,
+    "distance": 81.12788777438358,
+    "coutTotal": 0.1370869455385948
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "104 bis Avenue du Général de Gaulle",
+    "ville": "Gironde-sur-Dropt",
+    "cp": "33190",
+    "prix": 0.00199,
+    "distance": 70.8869966802155,
+    "coutTotal": 0.12771302467872578
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "2 BD DU PRESIDENT WILSON",
+    "ville": "BORDEAUX",
+    "cp": "33000",
+    "prix": 0.00199,
+    "distance": 117.90646032297583,
+    "coutTotal": 0.1464267712085444
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "CD 91",
+    "ville": "Piégut-Pluviers",
+    "cp": "24360",
+    "prix": 0.001999,
+    "distance": 177.58979503994357,
+    "coutTotal": 0.17095040005696943
+  },
+  {
+    "station": "Système U",
+    "adresse": "allée Jacques Duclos",
+    "ville": "BOULAZAC",
+    "cp": "24750",
+    "prix": 0.0019690000000000003,
+    "distance": 131.3240351706062,
+    "coutTotal": 0.15016540505018475
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "3 rue henri iv",
+    "ville": "Casteljaloux",
+    "cp": "47700",
+    "prix": 0.0019890000000000003,
+    "distance": 38.72524403716839,
+    "coutTotal": 0.1148549020779856
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "8 Avenue de Selves",
+    "ville": "SARLAT LA CANEDA",
+    "cp": "24200",
+    "prix": 0.00199,
+    "distance": 116.32581787471233,
+    "coutTotal": 0.1457976755141355
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "11 Rue Pierre Benoit",
+    "ville": "LIBOURNE",
+    "cp": "33500",
+    "prix": 0.0019590000000000002,
+    "distance": 107.96247847609476,
+    "coutTotal": 0.14024969906693394
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Mauzac",
+    "ville": "LALINDE",
+    "cp": "24150",
+    "prix": 0.001955,
+    "distance": 93.38279072741155,
+    "coutTotal": 0.13426267117441792
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "rue du moulin neuf CC le Privilège",
+    "ville": "PéRIGUEUX",
+    "cp": "24000",
+    "prix": 0.0019690000000000003,
+    "distance": 131.4710769518898,
+    "coutTotal": 0.15022331010365422
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Zone Le Rouge ZAC de Foulayronnes",
+    "ville": "Foulayronnes",
+    "cp": "47510",
+    "prix": 0.001975,
+    "distance": 30.379062153063987,
+    "coutTotal": 0.11074972955046028
+  },
+  {
+    "station": "Auchan",
+    "adresse": "Domaine de Peychotte2 Allée des Conviviales",
+    "ville": "Mérignac",
+    "cp": "33700",
+    "prix": 0.001954,
+    "distance": 118.32429860457697,
+    "coutTotal": 0.14394113589466867
+  },
+  {
+    "station": "Avia",
+    "adresse": "Aire Portes Landes Ouest",
+    "ville": "Saugnacq-et-Muret",
+    "cp": "40410",
+    "prix": 0.00215,
+    "distance": 104.50986664729548,
+    "coutTotal": 0.15243924265833705
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "103 AVENUE PAUL DOUMER",
+    "ville": "Bergerac",
+    "cp": "24100",
+    "prix": 0.0019590000000000002,
+    "distance": 88.6059124199244,
+    "coutTotal": 0.1326657964861264
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Victor Hugo",
+    "ville": "Terrasson-Lavilledieu",
+    "cp": "24120",
+    "prix": 0.0019590000000000002,
+    "distance": 141.50966490989583,
+    "coutTotal": 0.1533934867116972
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "2 route de Marcillac",
+    "ville": "Étauliers",
+    "cp": "33820",
+    "prix": 0.001949,
+    "distance": 152.06197615792306,
+    "coutTotal": 0.1567237583063584
+  },
+  {
+    "station": "Auchan",
+    "adresse": "C C BORDEAUX SUDAVENUE DES PYRENEES - RTE DE TOULOUSE",
+    "ville": "VILLENAVE D'ORNON",
+    "cp": "33140",
+    "prix": 0.001961,
+    "distance": 110.80757317076115,
+    "coutTotal": 0.1415087301975725
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "Lieu dit La Parade",
+    "ville": "RISCLE",
+    "cp": "32400",
+    "prix": 0.001999,
+    "distance": 55.95683259168632,
+    "coutTotal": 0.12232154167015619
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "235 route de Toulouse",
+    "ville": "TALENCE",
+    "cp": "33400",
+    "prix": 0.0019019999999999998,
+    "distance": 114.05160764243377,
+    "coutTotal": 0.1384852315471818
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "2 rue Bertin Lalande",
+    "ville": "Andernos-les-Bains",
+    "cp": "33510",
+    "prix": 0.001949,
+    "distance": 140.86141668475992,
+    "coutTotal": 0.1523577802237194
+  },
+  {
+    "station": "Coop",
+    "adresse": "RD 68 PARC D'ACTIVITES DU DIAMANT NOIR, 40 BOULEVARD DES SAVEURS",
+    "ville": "SORGES ET LIGUEUX EN PERIGORD",
+    "cp": "24420",
+    "prix": 0.001967,
+    "distance": 146.05491274238108,
+    "coutTotal": 0.15580800267285272
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "2447 ROUTE DES LACS",
+    "ville": "MESSANGES",
+    "cp": "40660",
+    "prix": 0.0019890000000000003,
+    "distance": 144.27796658531918,
+    "coutTotal": 0.15684377510764
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "Centre commercial les 4 pavillons",
+    "ville": "Lormont",
+    "cp": "33310",
+    "prix": 0.00199,
+    "distance": 116.30527803144919,
+    "coutTotal": 0.14578950065651677
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Sore",
+    "ville": "SAINT-SYMPHORIEN",
+    "cp": "33113",
+    "prix": 0.001961,
+    "distance": 81.76326935701454,
+    "coutTotal": 0.1301175542418211
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "20 Avenue du Maréchal Leclerc",
+    "ville": "Castelsarrasin",
+    "cp": "82100",
+    "prix": 0.00199,
+    "distance": 57.99824811380173,
+    "coutTotal": 0.12258330274929309
+  },
+  {
+    "station": "Système U",
+    "adresse": "2 Avenue de Bordeaux",
+    "ville": "LéOGNAN",
+    "cp": "33850",
+    "prix": 0.0019890000000000003,
+    "distance": 109.59702374592003,
+    "coutTotal": 0.143047696046127
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "224 Avenue de Bordeaux",
+    "ville": "BIAS",
+    "cp": "47300",
+    "prix": 0.0019590000000000002,
+    "distance": 47.458590293642644,
+    "coutTotal": 0.1165442756770492
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Bordeaux",
+    "ville": "Arès",
+    "cp": "33740",
+    "prix": 0.001968,
+    "distance": 143.5228417294575,
+    "coutTotal": 0.1548905905047145
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "3 Avenue du Général Leclerc",
+    "ville": "Pessac",
+    "cp": "33600",
+    "prix": 0.001957,
+    "distance": 118.33243592468835,
+    "coutTotal": 0.144165315420923
+  },
+  {
+    "station": "Auchan",
+    "adresse": "RD112 Lieu dit Jaumard",
+    "ville": "La Teste-de-Buch",
+    "cp": "33260",
+    "prix": 0.0020659999999999997,
+    "distance": 134.83532058142555,
+    "coutTotal": 0.15901395446424502
+  },
+  {
+    "station": "Esso",
+    "adresse": "AUTOROUTE A63 COTE EST",
+    "ville": "Labenne",
+    "cp": "40530",
+    "prix": 0.002,
+    "distance": 152.89408673218787,
+    "coutTotal": 0.16115763469287514
+  },
+  {
+    "station": "Esso",
+    "adresse": "AUTOROUTE A63 COTE OUEST",
+    "ville": "Labenne",
+    "cp": "40530",
+    "prix": 0.002065,
+    "distance": 152.8563467146354,
+    "coutTotal": 0.16637967119314442
+  },
+  {
+    "station": "Esso",
+    "adresse": "AUTOROUTE A10 CUBZAC LES PONTS",
+    "ville": "Cubzac-les-Ponts",
+    "cp": "33240",
+    "prix": 0.0021160000000000003,
+    "distance": 122.38188033158555,
+    "coutTotal": 0.15759201175632703
+  },
+  {
+    "station": "Auchan",
+    "adresse": "D124 - Route de VILLENEUVE-sur-Lot - VIGNES DE LA JUSTICE",
+    "ville": "Monflanquin",
+    "cp": "47150",
+    "prix": 0.0019590000000000002,
+    "distance": 61.9566458656979,
+    "coutTotal": 0.12222461385018045
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Centre Commercial Intermarché",
+    "ville": "HAGETMAU",
+    "cp": "40700",
+    "prix": 0.002,
+    "distance": 91.34176974901426,
+    "coutTotal": 0.1365367078996057
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Mézières",
+    "ville": "PORT-SAINTE-FOY-ET-PONCHAPT",
+    "cp": "33220",
+    "prix": 0.001968,
+    "distance": 90.43527912695207,
+    "coutTotal": 0.13399532586436835
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "Av. de Lacapelette",
+    "ville": "Boé",
+    "cp": "47550",
+    "prix": 0.0019690000000000003,
+    "distance": 25.530434829685802,
+    "coutTotal": 0.10850388523593028
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "59 Avenue de Branne",
+    "ville": "TRESSES",
+    "cp": "33370",
+    "prix": 0.0019590000000000002,
+    "distance": 112.28893820070176,
+    "coutTotal": 0.14194480598703496
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "8 rue du Pin",
+    "ville": "Plaisance",
+    "cp": "32160",
+    "prix": 0.001983,
+    "distance": 55.71755443758087,
+    "coutTotal": 0.12124758208994457
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "2264 Avenue saint jean",
+    "ville": "Montcuq",
+    "cp": "46800",
+    "prix": 0.00199,
+    "distance": 73.52772663459214,
+    "coutTotal": 0.12876403520056767
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "745 AVENUE DE SAINT SEVER",
+    "ville": "SAINT PIERRE DU MONT",
+    "cp": "40280",
+    "prix": 0.00199,
+    "distance": 73.11165541013318,
+    "coutTotal": 0.12859843885323302
+  },
+  {
+    "station": "Esso Express",
+    "adresse": "7 Rue Pierre Corneille",
+    "ville": "TALENCE",
+    "cp": "33400",
+    "prix": 0.002009,
+    "distance": 113.31878113395018,
+    "coutTotal": 0.14598148625962118
+  },
+  {
+    "station": "Avia",
+    "adresse": "Boulevard Maréchal Foch / 3 rue Durey",
+    "ville": "NERAC",
+    "cp": "47600",
+    "prix": 0.002029,
+    "distance": 12.257399395537904,
+    "coutTotal": 0.10642405267470928
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "23,AV. DU GENERAL DE GAULLE",
+    "ville": "FLEURANCE",
+    "cp": "32500",
+    "prix": 0.00199,
+    "distance": 31.362190387919046,
+    "coutTotal": 0.11198215177439179
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "43 Avenue du Chasselas",
+    "ville": "Moissac",
+    "cp": "82200",
+    "prix": 0.00199,
+    "distance": 58.363835301764645,
+    "coutTotal": 0.12272880645010234
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "60 Boulevard Jacques Duclos",
+    "ville": "Tarnos",
+    "cp": "40220",
+    "prix": 0.0019690000000000003,
+    "distance": 158.727576033486,
+    "coutTotal": 0.1609569194419868
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "46, AVENUE DE LA GARE",
+    "ville": "CREYSSE",
+    "cp": "24100",
+    "prix": 0.00199,
+    "distance": 91.93019021883586,
+    "coutTotal": 0.13608821570709667
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "28 Avenue de la Libération",
+    "ville": "Thenon",
+    "cp": "24210",
+    "prix": 0.0019890000000000003,
+    "distance": 134.25421881716727,
+    "coutTotal": 0.15285632824546916
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "59 Avenue d'Aquitaine",
+    "ville": "La Roche-Chalais",
+    "cp": "24490",
+    "prix": 0.0019590000000000002,
+    "distance": 126.59727161016436,
+    "coutTotal": 0.1475508110168624
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "AUTOROUTE A65 - AIRE DE L'ADOUR",
+    "ville": "Aire-sur-l'Adour",
+    "cp": "40800",
+    "prix": 0.00199,
+    "distance": 60.1645586950444,
+    "coutTotal": 0.12344549436062768
+  },
+  {
+    "station": "Auchan",
+    "adresse": "6 ave de la prairie",
+    "ville": "Artigues-près-Bordeaux",
+    "cp": "33370",
+    "prix": 0.001961,
+    "distance": 115.45919609230275,
+    "coutTotal": 0.14333309670740113
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "5 avenue du 8 mai 1945",
+    "ville": "Damazan",
+    "cp": "47160",
+    "prix": 0.00199,
+    "distance": 28.955450656273833,
+    "coutTotal": 0.111024269361197
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue Winston Churchill",
+    "ville": "COULOUNIEIX-CHAMIERS",
+    "cp": "24660",
+    "prix": 0.001961,
+    "distance": 128.23125871546566,
+    "coutTotal": 0.14834229966820564
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Route de Villeneuve",
+    "ville": "SAINTE-LIVRADE-SUR-LOT",
+    "cp": "47110",
+    "prix": 0.0019890000000000003,
+    "distance": 44.38301855766421,
+    "coutTotal": 0.11710556478223884
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "71 AVENUE DU 11 NOVEMBRE",
+    "ville": "BLANQUEFORT",
+    "cp": "33290",
+    "prix": 0.001936,
+    "distance": 125.43455647682063,
+    "coutTotal": 0.14536826026782496
+  },
+  {
+    "station": "Auchan",
+    "adresse": "Zac Le Coutal",
+    "ville": "TERRASSON-LAVILLEDIEU",
+    "cp": "24120",
+    "prix": 0.001999,
+    "distance": 142.5143674159557,
+    "coutTotal": 0.15692724409289907
+  },
+  {
+    "station": "Système U",
+    "adresse": "Route des Pastourelles",
+    "ville": "LEGE-CAP-FERRET",
+    "cp": "33950",
+    "prix": 0.0019690000000000003,
+    "distance": 147.02802031183472,
+    "coutTotal": 0.15634963439880054
+  },
+  {
+    "station": "Système U",
+    "adresse": "ROUTE D'AUCH",
+    "ville": "Masseube",
+    "cp": "32140",
+    "prix": 0.001998,
+    "distance": 68.1804983718319,
+    "coutTotal": 0.12714492714938405
+  },
+  {
+    "station": "Système U",
+    "adresse": "rue du 11 juin 1944",
+    "ville": "Saint-Médard-de-Mussidan",
+    "cp": "24400",
+    "prix": 0.001999,
+    "distance": 111.42825775933402,
+    "coutTotal": 0.14449901745218174
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "A89 Aire des Pamobières",
+    "ville": "Gours",
+    "cp": "33660",
+    "prix": 0.00199,
+    "distance": 110.34489376230049,
+    "coutTotal": 0.1434172677173956
+  },
+  {
+    "station": "Intermarché Contact",
+    "adresse": "230 avenue Germain Canet",
+    "ville": "CAJARC",
+    "cp": "46160",
+    "prix": 0.002012,
+    "distance": 127.06854806259302,
+    "coutTotal": 0.15173238374038742
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "1800, Avenue de la Résistance",
+    "ville": "Saint-Paul-lès-Dax",
+    "cp": "40990",
+    "prix": 0.001935,
+    "distance": 121.39634404773147,
+    "coutTotal": 0.14373038514647207
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Chemin des Gaulies",
+    "ville": "PRAYSSAC",
+    "cp": "46220",
+    "prix": 0.002019,
+    "distance": 82.32193413843866,
+    "coutTotal": 0.13419159700510153
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "4 route des eygadoux",
+    "ville": "Lamonzie Saint Martin",
+    "cp": "24680",
+    "prix": 0.0019890000000000003,
+    "distance": 89.27979555783634,
+    "coutTotal": 0.1349655026729073
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "1 RUE LOUIS FAJOLLES",
+    "ville": "Gramat",
+    "cp": "46500",
+    "prix": 0.002072,
+    "distance": 135.15887275376636,
+    "coutTotal": 0.15960983686916078
+  },
+  {
+    "station": "Avia",
+    "adresse": "320 ROUTE DES PLATANES",
+    "ville": "MOISSAC",
+    "cp": "82200",
+    "prix": 0.002052,
+    "distance": 56.85923553482253,
+    "coutTotal": 0.12593503026349118
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "Avenue du Général de Gaulle",
+    "ville": "Souillac",
+    "cp": "46200",
+    "prix": 0.00199,
+    "distance": 129.35202420009492,
+    "coutTotal": 0.15098210563163778
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "20 Avenue Philippe et Hubert Dassier",
+    "ville": "PAREMPUYRE",
+    "cp": "33290",
+    "prix": 0.0019690000000000003,
+    "distance": 127.59575165015428,
+    "coutTotal": 0.14869720699983077
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "309 AVENUE DE CAHORS",
+    "ville": "LIMOGNE EN QUERCY",
+    "cp": "46260",
+    "prix": 0.00198,
+    "distance": 117.58294964728299,
+    "coutTotal": 0.14556284806032407
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "RUE MENDES FRANCE",
+    "ville": "TONNEINS",
+    "cp": "47400",
+    "prix": 0.001963,
+    "distance": 40.745998446856596,
+    "coutTotal": 0.1141468789902359
+  },
+  {
+    "station": "Carrefour",
+    "adresse": "52 avenue de la somme",
+    "ville": "MERIGNAC",
+    "cp": "33700",
+    "prix": 0.001939,
+    "distance": 120.25987773611563,
+    "coutTotal": 0.14358678058606564
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "2 route de nontron",
+    "ville": "st martial de valette",
+    "cp": "24300",
+    "prix": 0.00199,
+    "distance": 166.07094652521698,
+    "coutTotal": 0.16559623671703638
+  },
+  {
+    "station": "Système U",
+    "adresse": "17 PLACE MAUCAILLOU",
+    "ville": "Saint-Sulpice-et-Cameyrac",
+    "cp": "33450",
+    "prix": 0.0019479999999999999,
+    "distance": 114.69333308619389,
+    "coutTotal": 0.14208452257038112
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "8 AVENUE DES GRIFFONS",
+    "ville": "Carbon-Blanc",
+    "cp": "33560",
+    "prix": 0.00199,
+    "distance": 118.18317228991096,
+    "coutTotal": 0.14653690257138458
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "112 BLD DE LA COTE D ARGENT",
+    "ville": "ARCACHON",
+    "cp": "33120",
+    "prix": 0.00199,
+    "distance": 141.85683943667618,
+    "coutTotal": 0.15595902209579712
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Luzech",
+    "ville": "CAHORS",
+    "cp": "46000",
+    "prix": 0.001978,
+    "distance": 95.49042154620882,
+    "coutTotal": 0.13667601076368022
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Boulevard des Pyrénées",
+    "ville": "MIRANDE",
+    "cp": "32300",
+    "prix": 0.002065,
+    "distance": 58.29779032363259,
+    "coutTotal": 0.12732698740366025
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "34 Avenue Georges Clemenceau",
+    "ville": "Nérac",
+    "cp": "47600",
+    "prix": 0.00199,
+    "distance": 10.863366257331819,
+    "coutTotal": 0.10382361977041807
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "PEY DU PRAT",
+    "ville": "GRéZILLAC",
+    "cp": "33420",
+    "prix": 0.0019590000000000002,
+    "distance": 98.85917804285513,
+    "coutTotal": 0.13668302595719067
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "RUE DU VISCONTE",
+    "ville": "Seissan",
+    "cp": "32260",
+    "prix": 0.002029,
+    "distance": 63.019449547209675,
+    "coutTotal": 0.12702329262625767
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "6 avenue Favard",
+    "ville": "GRADIGNAN",
+    "cp": "33170",
+    "prix": 0.001946,
+    "distance": 113.95313270938252,
+    "coutTotal": 0.1416505592504917
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "62 COURS DU GENERAL DE GAULLE",
+    "ville": "GRADIGNAN",
+    "cp": "33170",
+    "prix": 0.001946,
+    "distance": 113.60170742082879,
+    "coutTotal": 0.14151378452818655
+  },
+  {
+    "station": "Avia",
+    "adresse": "61 rue Aurensan - Quatier Saint Orens",
+    "ville": "MONTREAL du GERS",
+    "cp": "32250",
+    "prix": 0.00204,
+    "distance": 16.883464832618277,
+    "coutTotal": 0.10888845365170827
+  },
+  {
+    "station": "Système U",
+    "adresse": "7 Rue Camille Jullian",
+    "ville": "BASSENS",
+    "cp": "33530",
+    "prix": 0.001999,
+    "distance": 119.00131649158355,
+    "coutTotal": 0.14752672633333508
+  },
+  {
+    "station": "Intermarché",
+    "adresse": " Boulevard des Miquelots",
+    "ville": "LA TESTE-DE-BUCH",
+    "cp": "33260",
+    "prix": 0.0019850000000000002,
+    "distance": 136.94160771705,
+    "coutTotal": 0.15361581826366888
+  },
+  {
+    "station": "Avia",
+    "adresse": "313 avenue de la Libération - Charles de Gaulle",
+    "ville": "LE BOUSCAT",
+    "cp": "33110",
+    "prix": 0.002069,
+    "distance": 120.9770678696967,
+    "coutTotal": 0.15351031068448048
+  },
+  {
+    "station": "Avia",
+    "adresse": "7 Boulevard Mestrézat",
+    "ville": "ARCACHON",
+    "cp": "33120",
+    "prix": 0.002059,
+    "distance": 139.17987693607805,
+    "coutTotal": 0.16026427332227694
+  },
+  {
+    "station": "TotalEnergies Contact",
+    "adresse": "17 route du fezensac",
+    "ville": "Dému",
+    "cp": "32190",
+    "prix": 0.00199,
+    "distance": 34.84932027740746,
+    "coutTotal": 0.11337002947040817
+  },
+  {
+    "station": "Avia",
+    "adresse": "AUT A 630  ROCADE PERIPHERIQUE SUD",
+    "ville": "GRADIGNAN",
+    "cp": "33170",
+    "prix": 0.002039,
+    "distance": 113.56118879451851,
+    "coutTotal": 0.14826025279040464
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "AVENUE ZAC 2000",
+    "ville": "MIOS",
+    "cp": "33380",
+    "prix": 0.00199,
+    "distance": 118.29714240245963,
+    "coutTotal": 0.14658226267617894
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "ROCADE PÉRIPHÉRIQUE INTERIEUR",
+    "ville": "MERIGNAC",
+    "cp": "33700",
+    "prix": 0.0019450000000000001,
+    "distance": 122.5828294955831,
+    "coutTotal": 0.14493472067378182
+  },
+  {
+    "station": "Avia",
+    "adresse": "A10 aire de saugon ouest",
+    "ville": "SAUGON",
+    "cp": "33920",
+    "prix": 0.00216,
+    "distance": 145.277730816947,
+    "coutTotal": 0.17075997971292112
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "Route de Bordeaux",
+    "ville": "Bergerac",
+    "cp": "24100",
+    "prix": 0.0019590000000000002,
+    "distance": 88.66307776602216,
+    "coutTotal": 0.1326881938687275
+  },
+  {
+    "station": "Auchan",
+    "adresse": "785 Avenue Jean Moulin",
+    "ville": "MONTAUBAN",
+    "cp": "82000",
+    "prix": 0.001999,
+    "distance": 79.22022021811456,
+    "coutTotal": 0.1316222440432022
+  },
+  {
+    "station": "Shell",
+    "adresse": "Aire des Terres Graves Nord A62",
+    "ville": "SAINT MICHEL DE RIEUFRET",
+    "cp": "33720",
+    "prix": 0.0024300000000000003,
+    "distance": 93.73909805808567,
+    "coutTotal": 0.16705720165622964
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "154 avenue de la roque",
+    "ville": "CREYSSE",
+    "cp": "24100",
+    "prix": 0.001958,
+    "distance": 90.93710682764,
+    "coutTotal": 0.13351097103370382
+  },
+  {
+    "station": "Avia",
+    "adresse": "189, avenue de Saint Céré",
+    "ville": "VAYRAC",
+    "cp": "46110",
+    "prix": 0.00211,
+    "distance": 146.1229822457293,
+    "coutTotal": 0.16716389850769775
+  },
+  {
+    "station": "Leclerc",
+    "adresse": "A CLARAC",
+    "ville": "AUCH",
+    "cp": "32000",
+    "prix": 0.00199,
+    "distance": 45.03586258474754,
+    "coutTotal": 0.11742427330872954
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "Avenue de Bordeaux",
+    "ville": "VALENCE D'AGEN",
+    "cp": "82400",
+    "prix": 0.00196,
+    "distance": 40.940478493683756,
+    "coutTotal": 0.11404866756952403
+  },
+  {
+    "station": "Système U",
+    "adresse": "899 Avenue Jean Jaurès",
+    "ville": "Labastide-Saint-Pierre",
+    "cp": "82370",
+    "prix": 0.0020150000000000003,
+    "distance": 80.3619824629506,
+    "coutTotal": 0.13313587893256912
+  },
+  {
+    "station": "Carrefour Contact",
+    "adresse": "4, rue Emile Baudoux",
+    "ville": "Lacanau-Océan",
+    "cp": "33680",
+    "prix": 0.00204,
+    "distance": 164.75398369987252,
+    "coutTotal": 0.169219625349548
+  },
+  {
+    "station": "Indépendant sans enseigne",
+    "adresse": "302 Avenue Du Corps Franc Pommies",
+    "ville": "Saint-Pierre-du-Mont",
+    "cp": "40280",
+    "prix": 0.002199,
+    "distance": 73.94795405102299,
+    "coutTotal": 0.14247231019163992
+  },
+  {
+    "station": "TotalEnergies Access",
+    "adresse": "138 RUE PIERRE SEMARD LE TOULON",
+    "ville": "PERIGUEUX",
+    "cp": "24000",
+    "prix": 0.0019450000000000001,
+    "distance": 131.2500853636359,
+    "coutTotal": 0.14830628320645436
+  },
+  {
+    "station": "Carrefour Market",
+    "adresse": "Route de Sainte Alvère",
+    "ville": "BERGERAC",
+    "cp": "24100",
+    "prix": 0.001998,
+    "distance": 91.17129095191144,
+    "coutTotal": 0.13633204786438383
+  },
+  {
+    "station": "Intermarché",
+    "adresse": "78 Avenue de Magudas",
+    "ville": "Mérignac",
+    "cp": "33700",
+    "prix": 0.001966,
+    "distance": 122.37764230465785,
+    "coutTotal": 0.14641888895419147
+  },
+  {
+    "station": "TotalEnergies",
+    "adresse": "47 AVENUE DU PRESIDENT HERRIOT",
+    "ville": "PINEUILH",
+    "cp": "33220",
+    "prix": 0.00199,
+    "distance": 90.08210975829427,
+    "coutTotal": 0.13535267968380113
   }
 ]
