@@ -48,7 +48,7 @@ async function runStationsUpdate() {
        statusEl.className = "alert alert-info text-center";
        statusEl.textContent = "⏳ Lancement du workflow…";
 
-       const r = await fetch("https://prixcarb-workers.krinou.workers.dev/", {
+       const r = await fetch("https://prixcarb-workers.krinou.workers.dev/trigger", {
                               method: "POST",
                               headers: { "Content-Type": "application/json" },
                               body: JSON.stringify(payload)
