@@ -18,6 +18,11 @@ on:
         required: true
         type: string
 
+      request_id:
+        description: "ID de suivi côté Worker"
+        required: true
+        type: string
+
 permissions:
   contents: write     # autorise le push sur le repo
 
@@ -268,3 +273,22 @@ jobs:
             git commit -m "Mise à jour manuelle du fichier cache enseigne_cache.json"
             git push
           fi
+
+      # 8) renvoie erreur        
+      - name: Callback status to Worker (always)
+      if: always()
+      run: |
+          set -e
+          payload=$(cat <<'JSON'
+          {
+            "request_id": "${{ github.event.inputs.request_id }}",
+            "conclusion": "${{ job.status }}",
+            "message": "Voir logs GitHub Actions",
+            "run_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          }
+          JSON
+          )
+          curl -sS -X POST "https://prixcarb-workers.krinou.workers.dev/callback" \
+          -H "Content-Type: application/json" \
+          -H "X-Callback-Secret: ${{ secrets.CALLBACK_SECRET }}" \
+          --data "$payload"
