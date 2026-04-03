@@ -247,7 +247,7 @@ jobs:
         env:
           INPUT_ADRESSE: ${{ github.event.inputs.adresse }}
           INPUT_CARBURANT: ${{ github.event.inputs.carburant }}
-          INPUT_DEPARTEMENTS: ${{ github.event.inputs.departements }}
+          INPUT_DEPARTEMENTS: ${{ github.event.inputs.departements_a_scanner }}
         run: |
           set -e
           python3 convert.py
