@@ -217,6 +217,9 @@ jobs:
               if prix_elem is None:
                   continue
 
+              #date de mise à jour
+              maj = prix_elem.get("maj") or ""
+              
               # milli-euros/L -> €/L
               prix = float(prix_elem.get("valeur"))/1000
 
@@ -231,7 +234,8 @@ jobs:
                   "cp": cp,
                   "prix": prix,
                   "distance": dist,
-                  "coutTotal": cout_total
+                  "coutTotal": cout_total,
+                  "maj_gouv": maj
               })
 
           with open("stations.json", "w", encoding="utf-8") as f:
