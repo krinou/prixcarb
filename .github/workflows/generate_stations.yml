@@ -1,6 +1,9 @@
 name: Générer stations.json manuellement
 
 on:
+  concurrency:
+     group: prixcarb-${{ github.event.inputs.departements_a_scanner }}-${{ github.event.inputs.carburant }}
+     cancel-in-progress: true
   workflow_dispatch:  # lancement manuel
     inputs:
       adresse:
