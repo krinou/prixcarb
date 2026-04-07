@@ -296,6 +296,5 @@ jobs:
             -H "X-Callback-Secret: ${{ secrets.CALLBACK_SECRET }}" \
             --data "$payload")
 
-
-    echo "Callback HTTP = $http_code"
-    echo "Callback body = $(cat /tmp/cb_resp.txt)"
+          echo "Callback HTTP = $http_code"
+          echo "Callback body = $(cat /tmp/cb_resp.txt)"
