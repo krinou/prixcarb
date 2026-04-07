@@ -1,9 +1,6 @@
 name: Générer stations.json manuellement
 
 on:
-  concurrency:
-     group: prixcarb-${{ github.event.inputs.departements_a_scanner }}-${{ github.event.inputs.carburant }}
-     cancel-in-progress: true
   workflow_dispatch:  # lancement manuel
     inputs:
       adresse:
@@ -25,6 +22,10 @@ on:
         description: "ID de suivi côté Worker"
         required: true
         type: string
+
+concurrency:
+   group: prixcarb-${{ github.event.inputs.departements_a_scanner }}-${{ github.event.inputs.carburant }}
+   cancel-in-progress: true
 
 permissions:
   contents: write     # autorise le push sur le repo
