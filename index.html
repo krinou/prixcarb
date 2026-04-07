@@ -26,12 +26,114 @@
 </head>
 
 <script>
+async function afficherStations() {
+  const btn = document.querySelector("button.btn.btn-primary"); // ou un id
+  const statusEl = document.getElementById("status");
+  const workerBase = "https://prixcarb-workers.krinou.workers.dev"; // base
+  const triggerUrl = workerBase + "/trigger";
+  const statusUrl = (rid) => workerBase + "/status?rid=" + encodeURIComponent(rid);
+
+  try {
+    btn.disabled = true;
+
+    // 1) Adresse
+    let adresse = (currentAdresse || document.getElementById("adresseInput").value || "").trim();
+    if (!adresse) {
+      statusEl.style.display = "block";
+      statusEl.className = "alert alert-info text-center";
+      statusEl.textContent = "⏳ Adresse vide : utilisez 📍 Me localiser ou saisissez une adresse.";
+      return;
+    }
+
+    // 2) Carburant
+    const carburant = document.getElementById("carburantSelect")?.value || "E10";
+
+    // 3) Départements limitrophes (déjà calculés)
+    const deps = Array.isArray(currentVoisins) ? currentVoisins : [];
+    if (deps.length === 0) {
+      statusEl.style.display = "block";
+      statusEl.className = "alert alert-warning text-center";
+      statusEl.textContent = "⚠️ Départements limitrophes non calculés. Clique 📍 Me localiser ou choisis une adresse complète (avec CP) puis recommence.";
+      return;
+    }
+
+    // 4) Déclenchement Worker /trigger
+    statusEl.style.display = "block";
+    statusEl.className = "alert alert-info text-center";
+    statusEl.textContent = "⏳ Déclenchement de la mise à jour…";
+
+    const payload = { adresse, carburant, departements_a_scanner: deps };
+    const r = await fetch(triggerUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    const out = await r.json().catch(() => ({}));
+
+    if (!r.ok) {
+      statusEl.className = "alert alert-danger text-center";
+      statusEl.textContent = "❌ " + (out.error || "Erreur déclenchement") + (out.details ? " — " + out.details : "");
+      return;
+    }
+
+    const rid = out.requestId;
+    if (!rid) {
+      statusEl.className = "alert alert-danger text-center";
+      statusEl.textContent = "❌ Le Worker n'a pas renvoyé de requestId.";
+      return;
+    }
+
+    // 5) Poll /status
+    statusEl.textContent = "⏳ Workflow en cours…";
+    let tries = 0;
+    const maxTries = 36; // 3 min à 5s
+
+    const timer = setInterval(async () => {
+      tries++;
+      const s = await fetch(statusUrl(rid), { cache: "no-store" });
+      const st = await s.json().catch(() => ({}));
+
+      // états possibles : queued / success / failure / cancelled / dispatch_failed / unknown
+      if (st.state === "queued" || st.state === "unknown") {
+        statusEl.className = "alert alert-info text-center";
+        statusEl.textContent = `⏳ Workflow en cours… (${tries}/${maxTries})`;
+      } else if (st.state === "success") {
+        clearInterval(timer);
+        statusEl.className = "alert alert-success text-center";
+        statusEl.textContent = "✅ Mise à jour terminée. Chargement du tableau…";
+        await charger(); // recharge stations.json (avec ts=Date.now() chez toi)
+      } else {
+        clearInterval(timer);
+        statusEl.className = "alert alert-danger text-center";
+        const msg = st.message || "Voir logs GitHub Actions";
+        statusEl.textContent = `❌ Workflow en échec (${st.state}). ${msg}`;
+        if (st.run_url) statusEl.textContent += " — " + st.run_url;
+      }
+
+      if (tries >= maxTries) {
+        clearInterval(timer);
+        statusEl.className = "alert alert-warning text-center";
+        statusEl.textContent = "⚠️ Timeout : le workflow n'a pas répondu. Regarde l’onglet Actions.";
+      }
+    }, 5000);
+
+  } catch (e) {
+    statusEl.style.display = "block";
+    statusEl.className = "alert alert-danger text-center";
+    statusEl.textContent = "❌ Erreur navigateur : " + (e?.message || e);
+    console.error(e);
+  } finally {
+    btn.disabled = false;
+  }
+}  
+
 async function runStationsUpdate() {
   const statusEl = document.getElementById("status");
   try {
        const adresse = (currentAdresse || document.getElementById("adresseInput").value || "").trim();
        if (!adresse) {
-          alert("Veuillez d'abord saisir une adresse (OK) ou vous géolocaliser.");
+          alert("Veuillez d'abord saisir une adresse ou vous géolocaliser.");
           return;
        }
 
@@ -112,11 +214,8 @@ async function runStationsUpdate() {
         top:100%; left:0; width:100%;margin-top;"
     ></ul>
     
-    <button class="btn btn-success" onclick="calculerDepuisSaisie()">OK</button> 
-    <button class="btn btn-primary" onclick="geolocaliser()">📍 Me localiser</button>
-    
-    <!-- Nouveau bouton : déclenche Worker + paramètres -->
-    <button class="btn btn-warning" onclick="runStationsUpdate()">🔄 Mettre à jour</button>
+    <button class="btn btn-primary" onclick="afficherStations()">🔄 Afficher les stations</button>
+    <button class="btn btn-outline-secondary" onclick="geolocaliser()">📍 Me localiser</button>
 
   </div>
 
