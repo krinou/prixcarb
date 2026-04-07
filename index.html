@@ -29,7 +29,7 @@
 async function afficherStations() {
   const btn = document.querySelector("button.btn.btn-primary"); // ou un id
   const statusEl = document.getElementById("status");
-  const workerBase = "https://-workers.krinou.workers.dev/trigger"; // base
+  const workerBase = "https://-workers.krinou.workers.dev"; // base
   const triggerUrl = workerBase + "/trigger";
   const statusUrl = (rid) => workerBase + "/status?rid=" + encodeURIComponent(rid);
 
