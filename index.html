@@ -237,6 +237,7 @@ async function runStationsUpdate() {
         <th>Distance (km)</th>
         <th>Prix total (€)</th>
         <th>Prix pondéré (€/L)</th>
+        <th>Date de MAJ</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -433,7 +434,8 @@ async function autocomplete(query) {
         prix       : prixEur,
         distance   : distKm,
         prixTotal  : coutTotal,
-        prixPondere: prixPondere
+        prixPondere: prixPondere,
+        maj_gouv: r.maj_gouv ?? ""
       };
     });
 
@@ -485,6 +487,7 @@ function buildRow(obj, i) {
     <td>${obj.distance.toFixed(2)}</td>
     <td>${obj.prixTotal.toFixed(2)}</td>
     <td>${obj.prixPondere.toFixed(3)}</td>
+    <td>${obj.maj_gouv || ""}</td>
   `;
   return tr;
 }
