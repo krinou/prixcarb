@@ -272,22 +272,23 @@ jobs:
             git push
           fi
 
-      # 8) debug callback    
+      # 8) Callback vers le Worker (toujours)
       - name: Callback status to Worker (always)
-      if: always()
-          run: |
+        if: always()
+        run: |
           set -e
-          payload=$(cat <<'JSON'
-                    {
-                     "request_id": "${{ github.event.inputs.request_id }}",
-                     "conclusion": "${{ job.status }}",
-                     "message": "Voir logs GitHub Actions",
-                     "run_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-                    }
-                    JSON
-                   )
 
-          echo "Payload: $payload"
+          payload=$(cat <<'JSON'
+          {
+            "request_id": "${{ github.event.inputs.request_id }}",
+            "conclusion": "${{ job.status }}",
+            "message": "Voir logs GitHub Actions",
+            "run_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          }
+          JSON
+          )
+
+          echo "Payload callback = $payload"
 
           http_code=$(curl -sS -o /tmp/cb_resp.txt -w "%{http_code}" \
             -X POST "https://prixcarb-workers.krinou.workers.dev/callback" \
@@ -295,5 +296,6 @@ jobs:
             -H "X-Callback-Secret: ${{ secrets.CALLBACK_SECRET }}" \
             --data "$payload")
 
-          echo "Callback HTTP = $http_code"
-          echo "Callback body = $(cat /tmp/cb_resp.txt)"
+
+    echo "Callback HTTP = $http_code"
+    echo "Callback body = $(cat /tmp/cb_resp.txt)"
