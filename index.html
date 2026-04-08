@@ -490,9 +490,23 @@ function buildRow(obj, i) {
     <td>${obj.distance.toFixed(2)}</td>
     <td>${obj.prixTotal.toFixed(2)}</td>
     <td>${obj.prixPondere.toFixed(3)}</td>
-    <td>${obj.maj_gouv || ""}</td>
+    <td>${formatDateFR(obj.maj_gouv)}</td>
   `;
   return tr;
+}
+
+function formatDateFR(maj) {
+  if (!maj) return "";
+
+  // maj attendu: "YYYY-MM-DD HH:MM:SS"
+  // On ne dépend pas de Date() (qui peut interpréter selon le navigateur)
+  const m = String(maj).match(/^(\d{4})-(\d{2})-(\d{2})(?:[ T].*)?$/);
+  if (!m) return String(maj); // fallback si format inattendu
+
+  const yy = m[1].slice(-2);
+  const mm = m[2];
+  const dd = m[3];
+  return `${dd}/${mm}/${yy}`;
 }
 
 function remplirTableau(data, tbody) {
