@@ -405,6 +405,8 @@ async function autocomplete(query) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const rows = await res.json();
     if (!Array.isArray(rows)) throw new Error("JSON invalide");
+    console.log("Exemple row[0] =", rows[0]);
+    console.log("maj_gouv row[0] =", rows[0]?.maj_gouv);
     
     // Nombre de stations = nombre de lignes
     const nbStations = rows.length;
@@ -476,6 +478,7 @@ async function autocomplete(query) {
 // --------------------------------------------------
 
 function buildRow(obj, i) {
+  console.log("buildRow maj_gouv =", obj.maj_gouv);
   const tr = document.createElement("tr");
   tr.innerHTML = `
     <td>${i+1}</td>
