@@ -38,6 +38,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
+      # 2.5) Recupere le fichier du gouvernement
+      
+      - name: Télécharger les données officielles carburants   # ✅ étape manquante
+        run: |
+          set -e
+          curl -L -o data.zip "https://donnees.roulez-eco.fr/opendata/instantane"
+          unzip -o data.zip
+          ls -l
+
       # 3) Génération des fichiers par département
       - name: Generate nightly data (all departments)
         env:
