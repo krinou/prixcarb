@@ -195,12 +195,19 @@ async function runStationsUpdate() {
 
   <h1 class="mb-4 text-center">⛽ Classement des stations</h1>
 
-  <div class="input-group mb-0 position-relative">
+  <div class="mb-2 position-relative">
 
     <input id="adresseInput" class="form-control"
-         placeholder="Entrez un code postal ou une adresse">
-    
-    <select id="carburantSelect" class="form-select" style="max-width: 180px;">
+         placeholder="Entrez un code postal ou une adresse"
+         autocomplete="off">
+    <ul id="autocompleteList"
+      class="list-group position-absolute w-100"
+      style="z-index: 2000; top: 100%; left: 0;">
+    </ul>
+  </div> 
+
+  <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
+    <select id="carburantSelect" class="form-select" style="max-width: 220px;">
          <option value="E10" selected>SP95-E10</option>
          <option value="SP95">SP95</option>
          <option value="SP98">SP98</option>
@@ -208,14 +215,8 @@ async function runStationsUpdate() {
          <option value="E85">E85</option>
     </select>
 
-    <ul id="autocompleteList" 
-        class="list-group position-absolute" 
-        style="z-index: 2000;
-        top:100%; left:0; width:100%;margin-top;"
-    ></ul>
-    
-    <button class="btn btn-primary" onclick="afficherStations()">🔄 Afficher les stations</button>
-    <button class="btn btn-outline-secondary" onclick="geolocaliser()">📍 Me localiser</button>
+    <button class="btn btn-primary flex-fill" onclick="afficherStations()">🔄 Afficher les stations</button>
+    <button class="btn btn-outline-secondary flex-fill" onclick="geolocaliser()">📍 Me localiser</button>
 
   </div>
 
