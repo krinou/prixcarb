@@ -20,172 +20,139 @@
   }
   #autocompleteList li:hover {
     background: #eee;
-  } 
+  }
 </style>
 
 </head>
 
 <script>
-async function afficherStations() {
-  const btn = document.querySelector("button.btn.btn-primary"); // ou un id
+
+async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
+  const baseUrl = "data/latest/";
+  const urls = deps.map(dep => `${baseUrl}dep-${dep}.json?ts=${Date.now()}`);
+  const fetches = urls.map(url =>
+    fetch(url, { cache: "no-store" })
+      .then(r => r.ok ? r.json() : null)
+      .catch(() => null)
+  );
+  const results = await Promise.all(fetches);
+  const stations = results
+    .filter(json => json && json.stations)
+    .flatMap(json => json.stations);
+
+  // Calcul dynamique
+  const VOLUME = 50, CONSO = 10;
+  return stations.map(st => {
+    const prix = st.prix[carburant];
+    const dist = haversine(userLat, userLon, st.lat, st.lon);
+    const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
+    const prixPondere = coutTotal / VOLUME;
+    return {
+      ...st,
+      prix,
+      distance: dist,
+      prixTotal: coutTotal,
+      prixPondere
+    };
+  });
+}
+
+
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1 * Math.PI / 180) *
+    Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+async function afficherStationsBrut() {
   const statusEl = document.getElementById("status");
-  const workerBase = "https://prixcarb-workers.krinou.workers.dev"; // base
-  const triggerUrl = workerBase + "/trigger";
-  const statusUrl = (rid) => workerBase + "/status?rid=" + encodeURIComponent(rid);
+  const table = document.getElementById("table");
 
-  try {
-    btn.disabled = true;
+  statusEl.style.display = "block";
+  statusEl.className = "alert alert-info text-center";
+  statusEl.textContent = "⏳ Chargement des résultats…";
 
-    // 1) Adresse
-    let adresse = (currentAdresse || document.getElementById("adresseInput").value || "").trim();
-    if (!adresse) {
-      statusEl.style.display = "block";
-      statusEl.className = "alert alert-info text-center";
-      statusEl.textContent = "⏳ Adresse vide : utilisez 📍 Me localiser ou saisissez une adresse.";
-      return;
-    }
-
-    // 2) Carburant
-    const carburant = document.getElementById("carburantSelect")?.value || "E10";
-
-    // 3) Départements limitrophes (déjà calculés)
-    const deps = Array.isArray(currentVoisins) ? currentVoisins : [];
-    if (deps.length === 0) {
-      statusEl.style.display = "block";
-      statusEl.className = "alert alert-warning text-center";
-      statusEl.textContent = "⚠️ Départements limitrophes non calculés. Clique 📍 Me localiser ou choisis une adresse complète (avec CP) puis recommence.";
-      return;
-    }
-
-    // 4) Déclenchement Worker /trigger
-    statusEl.style.display = "block";
-    statusEl.className = "alert alert-info text-center";
-    statusEl.textContent = "⏳ Déclenchement de la mise à jour…";
-
-    const payload = { adresse, carburant, departements_a_scanner: deps };
-    const r = await fetch(triggerUrl, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    });
-
-    const out = await r.json().catch(() => ({}));
-
-    if (!r.ok) {
-      statusEl.className = "alert alert-danger text-center";
-      statusEl.textContent = "❌ " + (out.error || "Erreur déclenchement") + (out.details ? " — " + out.details : "");
-      return;
-    }
-
-    const rid = out.requestId;
-    if (!rid) {
-      statusEl.className = "alert alert-danger text-center";
-      statusEl.textContent = "❌ Le Worker n'a pas renvoyé de requestId.";
-      return;
-    }
-
-    // 5) Poll /status
-    statusEl.textContent = "⏳ Workflow en cours…";
-    let tries = 0;
-    const maxTries = 36; // 3 min à 5s
-
-    const timer = setInterval(async () => {
-      tries++;
-      const s = await fetch(statusUrl(rid), { cache: "no-store" });
-      const st = await s.json().catch(() => ({}));
-
-      // états possibles : queued / success / failure / cancelled / dispatch_failed / unknown
-      if (st.state === "queued" || st.state === "unknown") {
-        statusEl.className = "alert alert-info text-center";
-        statusEl.textContent = `⏳ Workflow en cours… (${tries}/${maxTries})`;
-      } else if (st.state === "success") {
-        clearInterval(timer);
-        statusEl.className = "alert alert-success text-center";
-        statusEl.textContent = "✅ Mise à jour terminée. Chargement du tableau…";
-        await charger(); // recharge stations.json (avec ts=Date.now() chez toi)
-      } else {
-        clearInterval(timer);
-        statusEl.className = "alert alert-danger text-center";
-        const msg = st.message || "Voir logs GitHub Actions";
-        statusEl.textContent = `❌ Workflow en échec (${st.state}). ${msg}`;
-        if (st.run_url) statusEl.textContent += " — " + st.run_url;
-      }
-
-      if (tries >= maxTries) {
-        clearInterval(timer);
-        statusEl.className = "alert alert-warning text-center";
-        statusEl.textContent = "⚠️ Timeout : le workflow n'a pas répondu. Regarde l’onglet Actions.";
-      }
-    }, 5000);
-
-  } catch (e) {
-    statusEl.style.display = "block";
-    statusEl.className = "alert alert-danger text-center";
-    statusEl.textContent = "❌ Erreur navigateur : " + (e?.message || e);
-    console.error(e);
-  } finally {
-    btn.disabled = false;
+  // 1. Adresse ou géolocalisation
+  let adresse = (currentAdresse || document.getElementById("adresseInput").value || "").trim();
+  if (!adresse) {
+    statusEl.className = "alert alert-warning text-center";
+    statusEl.textContent = "⚠️ Saisis une adresse ou utilise 📍 Me localiser.";
+    return;
   }
-}  
 
-async function runStationsUpdate() {
-  const statusEl = document.getElementById("status");
+  // 2. Carburant
+  const carburant = document.getElementById("carburantSelect")?.value || "E10";
+
+
+  // 1) Si coordonnées absentes, on géocode automatiquement l'adresse
   try {
-       const adresse = (currentAdresse || document.getElementById("adresseInput").value || "").trim();
-       if (!adresse) {
-          alert("Veuillez d'abord saisir une adresse ou vous géolocaliser.");
-          return;
-       }
-
-       const carburant = document.getElementById("carburantSelect")?.value || "E10";
-       const deps = Array.isArray(currentVoisins) ? currentVoisins : [];
-       const payload = {
-                        adresse: adresse,
-                        departements_a_scanner: deps,  // tableau ["92","91",...]
-                        carburant: carburant             // ex "E10", "Gazole"
-                       };
-
-       // Affichage en cours
-       statusEl.style.display = "block";
-       statusEl.className = "alert alert-info text-center";
-       statusEl.textContent = "⏳ Lancement du workflow…";
-
-       const r = await fetch("https://prixcarb-workers.krinou.workers.dev/trigger", {
-                              method: "POST",
-                              headers: { "Content-Type": "application/json" },
-                              body: JSON.stringify(payload)
-                             })
-    
-       const ct = r.headers.get("content-type") || "";
-       const body = ct.includes("application/json") ? await r.json() : await r.text();
-
-       if (!r.ok) {
-          statusEl.className = "alert alert-danger text-center";
-          statusEl.textContent = (typeof body === "string")
-          ? ("❌ " + body)
-          : (`❌ ${body.error || "Erreur"} (HTTP ${body.status || r.status})`);
-          // Détails utiles en console si présents
-          if (typeof body !== "string" && body.details) console.error(body.details);
+       if (userLat == null || userLon == null) {
+          const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(adresse)}&format=json&addressdetails=1&limit=1`;
+          const res = await fetch(url, { headers: { "User-Agent": "prixcarb" } });
+          const json = await res.json();
+          if (!json.length) {
+             statusEl.className = "alert alert-warning text-center";
+             statusEl.textContent = "⚠️ Adresse introuvable.";
              return;
-         }
+             }
+          userLat = parseFloat(json[0].lat);
+          userLon = parseFloat(json[0].lon);
+          // on met aussi à jour l'adresse "propre"
+         const addr = json[0].address || {};
+         const voie = addr.road ?? addr.pedestrian ?? addr.path ?? "";
+         const numero = addr.house_number ? addr.house_number + " " : "";
+         const cp = addr.postcode ?? "";
+         const ville = addr.city ?? addr.town ?? addr.village ?? "";
+         const adresseCourte = `${numero}${voie}, ${cp} ${ville}`.trim();
+         if (adresseCourte) {
+            document.getElementById("adresseInput").value = adresseCourte;
+            currentAdresse = adresseCourte;
+            }
+         const dep = cp.substring(0, 2);
+         const voisins = [dep, ...(await getDepsVoisins(dep))].filter((v, i, a) => v && a.indexOf(v) === i);
+         afficherDepsLimitrophes(dep, voisins);
+       }
+       // 3. Départements à charger
+       const deps = Array.isArray(currentVoisins) ? currentVoisins : [];
+       if (deps.length === 0) {
+           statusEl.className = "alert alert-warning text-center";
+           statusEl.textContent = "⚠️ Départements non déterminés. Utiliser📍Me localiser ou saisir adresse pour calculer les départements limitrophes.";
+           return;
+           }
 
-      statusEl.className = "alert alert-success text-center";
-      statusEl.textContent = (typeof body === "string")
-      ? body
-      : (body.status || "✅ Workflow lancé");  
+       // 4. Géocodage (latitude/longitude utilisateur)
+       // (à adapter selon ta logique, ici on suppose que tu as déjà userLat/userLon)
+       if (userLat == null || userLon == null) {
+          alert("Coordonnées utilisateur non définies !");
+          return;
+          }
 
-      // ⚠️ Ne recharge pas stations.json tout de suite : le workflow peut mettre 30s–2min.
-      statusEl.textContent += " — Patiente 1–2 minutes puis clique OK (ou rafraîchis).";
-  } catch (err) {
-                if (statusEl) {
-                   statusEl.style.display = "block";
-                   statusEl.className = "alert alert-danger text-center";
-                   statusEl.textContent = "❌ Erreur côté navigateur : " + (err?.message || err);
-                } else {
-                  alert("Erreur worker : " + (err?.message || err));
-                }
-                console.error("Erreur runStationsUpdate()", err);
-                }
+       // 5. Chargement des stations
+       console.log("Coordonnées utilisateur :", userLat, userLon)
+       console.log("Départements chargés :", deps);
+       const data = await chargerStationsTousDeps(deps, carburant, userLat, userLon);
+       // Tri, affichage, etc.
+       let triCol = localStorage.getItem("triCol") ?? "prixPondere";
+       let triDir = localStorage.getItem("triDir") ?? "asc";
+       appliquerTri(data, triCol, triDir);
+       const tbody = table.querySelector("tbody");
+       remplirTableau(data, tbody);
+       activerTri(table, data, triCol, triDir);
+       const summary = document.getElementById("summary");
+       if (summary) summary.textContent = `${data.length} stations ${carburant} trouvées`;
+          statusEl.style.display = "none";
+          table.style.display = "table";
+      } catch (e) {
+          statusEl.className = "alert alert-danger text-center";
+          statusEl.textContent = "❌ Erreur : " + (e?.message || e);
+          console.error(e);
+          }
 }
 </script>
 
@@ -204,7 +171,7 @@ async function runStationsUpdate() {
       class="list-group position-absolute w-100"
       style="z-index: 2000; top: 100%; left: 0;">
     </ul>
-  </div> 
+  </div>
 
   <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
     <select id="carburantSelect" class="form-select" style="max-width: 220px;">
@@ -215,13 +182,13 @@ async function runStationsUpdate() {
          <option value="E85">E85</option>
     </select>
 
-    <button class="btn btn-primary flex-fill" onclick="afficherStations()">🔄 Afficher les stations</button>
+    <button class="btn btn-primary flex-fill" onclick="afficherStationsBrut()">🔄 Afficher les stations</button>
     <button class="btn btn-outline-secondary flex-fill" onclick="geolocaliser()">📍 Me localiser</button>
 
   </div>
 
   <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
-  
+
   <div id="summary" class="alert alert-secondary text-center"></div>
 
   <div id="status" class="alert alert-info text-center">⏳ Chargement…</div>
@@ -249,6 +216,7 @@ async function runStationsUpdate() {
   let depsLimitrophes = null;
   let currentAdresse = "";      // dernière adresse validée
   let currentVoisins = [];      // derniers départements limitrophes calculés
+  let userLat = null, userLon = null;
 
   async function chargerDepartements() {
     if (!depsLimitrophes) {
@@ -263,17 +231,13 @@ async function runStationsUpdate() {
     return deps[dep] ?? [];
   }
 
-  
   function afficherDepsLimitrophes(dep, voisins) {
     currentVoisins = voisins || [];   // mémorise
     const zone = document.getElementById("depsLimitrophes");
     if (!zone) return;
 
     const txt = voisins.join(", ");
-
-    zone.innerHTML = `
-        <strong>Départements limitrophes :</strong> ${txt}
-    `;
+    zone.innerHTML = `<strong>Départements limitrophes :</strong> ${txt}`;
   }
 
   async function geolocaliser() {
@@ -281,6 +245,8 @@ async function runStationsUpdate() {
     navigator.geolocation.getCurrentPosition(async pos => {
     const lat = pos.coords.latitude, lon = pos.coords.longitude;
     const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
+    userLat = lat;
+    userLon = lon;
     const res = await fetch(url, { headers:{"User-Agent":"prixcarb"}});
     const json = await res.json();
     const addr = json.address;
@@ -299,9 +265,7 @@ async function runStationsUpdate() {
 
     document.getElementById("status").style.display = "block";
     document.getElementById("status").textContent = "⏳ Chargement des résultats…";
-    await charger();
     }, err => { alert("Géolocalisation refusée."); });
-
   }
 
   async function calculerDepuisSaisie() {
@@ -321,9 +285,9 @@ async function runStationsUpdate() {
       document.getElementById("adresseInput").value = adresseCourte;
       currentAdresse = adresseCourte;
       document.getElementById("autocompleteList").innerHTML = "";
-      
+
       const dep = cp.substring(0, 2);
-      const voisins = await getDepsVoisins(dep);
+      const voisins = [dep, ...(await getDepsVoisins(dep))].filter((v, i, a) => v && a.indexOf(v) === i);
       afficherDepsLimitrophes(dep, voisins);
       console.log("Départements limitrophes :", voisins);
 
@@ -331,8 +295,9 @@ async function runStationsUpdate() {
       statusEl.style.display = "block";
       statusEl.className = "alert alert-info text-center";
       statusEl.textContent = "⏳ Chargement des résultats…";
-      await charger();
 
+      userLat = parseFloat(json[0].lat);
+      userLon = parseFloat(json[0].lon);
     } catch(err) { alert("Erreur recherche : " + err); }
   }
 
@@ -380,8 +345,10 @@ async function autocomplete(query) {
                 document.getElementById("adresseInput").value = adresseCourte;
                 currentAdresse = adresseCourte;
                 list.innerHTML = "";
+                userLon = feat.geometry.coordinates[0];
+                userLat = feat.geometry.coordinates[1];
                 const dep = cp.substring(0, 2);
-                const voisins = await getDepsVoisins(dep);
+                const voisins = [dep, ...(await getDepsVoisins(dep))].filter((v, i, a) => v && a.indexOf(v) === i);
                 afficherDepsLimitrophes(dep, voisins);
                 console.log("Départements limitrophes :", voisins);
             };
@@ -392,87 +359,6 @@ async function autocomplete(query) {
         console.error("Erreur autocomplétion", e);
     }
 }
-  
-  // --------------------------------------------------
-  // Chargement JSON + Calculs + Tri + Affichage
-  // --------------------------------------------------
-
-  async function charger() {
-    const status = document.getElementById("status");
-    const table  = document.getElementById("table");
-
-  try {
-    const res = await fetch(`stations.json?ts=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const rows = await res.json();
-    if (!Array.isArray(rows)) throw new Error("JSON invalide");
-    console.log("Exemple row[0] =", rows[0]);
-    console.log("maj_gouv row[0] =", rows[0]?.maj_gouv);
-    
-    // Nombre de stations = nombre de lignes
-    const nbStations = rows.length;
-
-    const CONSO  = 10;   // L/100 km
-    const VOLUME = 50;   // L
-
-    // Convertit les données brutes en données affichables
-    const data = rows.map(r => {
-      // Prix (corriger milli‑euros si <0.1)
-      const pRaw    = (typeof r.prix === "number") ? r.prix : Number(r.prix);
-      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw*1000 : pRaw) : 0;
-
-      // Distance
-      const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
-      const distKm  = Number.isFinite(dRaw) ? dRaw : 0;
-
-      // Coût total & Prix pondéré
-      const coutTotal   = prixEur*VOLUME + ((2*distKm/100)*CONSO*prixEur);
-      const prixPondere = coutTotal / VOLUME;
-
-      return {
-        station    : r.station, 
-        adresse    : r.adresse,
-        cp         : r.cp ?? "",
-        ville      : r.ville ?? "",
-        prix       : prixEur,
-        distance   : distKm,
-        prixTotal  : coutTotal,
-        prixPondere: prixPondere,
-        maj_gouv: r.maj_gouv ?? ""
-      };
-    });
-
-    // Charger tri mémorisé
-    let triCol = localStorage.getItem("triCol") ?? "prixPondere";
-    let triDir = localStorage.getItem("triDir") ?? "asc";
-
-    appliquerTri(data, triCol, triDir);
-
-    // Afficher lignes
-    const tbody = table.querySelector("tbody");
-    remplirTableau(data, tbody);
-
-    // Activer tri cliquable
-    activerTri(table, data, triCol, triDir);
-
-    
-    // ---------------------------------------
-    // AFFICHAGE DU RÉSUMÉ
-    // ---------------------------------------
-    const summary = document.getElementById("summary");
-    if (summary) {
-       summary.textContent = `${nbStations} stations SP95-E10 trouvées`;
-       }
-
-    status.style.display = "none";
-    table.style.display  = "table";
-
-  } catch (e) {
-    if (status) status.textContent = "❌ Erreur : " + e.message;
-    console.error(e);
-  }
-}
-
 
 // --------------------------------------------------
 // Construction visuelle d'une ligne <tr>
@@ -600,6 +486,5 @@ document.getElementById("table").style.display = "none";
 document.getElementById("status").style.display = "none";
 
 </script>
-
 </body>
 </html>
