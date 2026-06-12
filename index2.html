@@ -42,21 +42,22 @@ async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
 
   // Calcul dynamique
   const VOLUME = 50, CONSO = 10;
-  return stations.map(st => {
-    const prix = st.prix[carburant];
-    const dist = haversine(userLat, userLon, st.lat, st.lon);
-    const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
-    const prixPondere = coutTotal / VOLUME;
-    return {
-      ...st,
-      prix,
-      distance: dist,
-      prixTotal: coutTotal,
-      prixPondere
-    };
-  });
-}
-
+  return stations
+    .filter(st => st.prix && st.prix[carburant] != null)
+    .map(st => {
+       const prix = st.prix[carburant];
+       const dist = haversine(userLat, userLon, st.lat, st.lon);
+       const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
+       const prixPondere = coutTotal / VOLUME;
+       return {
+          ...st,
+          prix,
+          distance: dist,
+          prixTotal: coutTotal,
+          prixPondere
+          };
+       });
+    }
 
 function haversine(lat1, lon1, lat2, lon2) {
   const R = 6371;
@@ -373,10 +374,10 @@ function buildRow(obj, i) {
     <td>${obj.adresse}</td>
     <td>${obj.cp}</td>
     <td>${obj.ville}</td>
-    <td>${obj.prix.toFixed(3)}</td>
-    <td>${obj.distance.toFixed(2)}</td>
-    <td>${obj.prixTotal.toFixed(2)}</td>
-    <td>${obj.prixPondere.toFixed(3)}</td>
+    <td>${obj.prix.toFixed(3) : "-"}</td>
+    <td>${obj.distance.toFixed(2) : "-"}</td>
+    <td>${obj.prixTotal.toFixed(2) : "-"}</td>
+    <td>${obj.prixPondere.toFixed(3) : "-"}</td>
     <td>${formatDateFR(obj.maj_gouv)}</td>
   `;
   return tr;
