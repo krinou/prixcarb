@@ -50,7 +50,10 @@ async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
        const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
        const prixPondere = coutTotal / VOLUME;
        return {
-          ...st,
+          station : st.nom ?? st.enseigne ?? "Inconnue",
+          adresse : st.adresse ?? "",
+          cp      : st.cp ?? st.code_postal ?? "",
+          ville   : st.ville ?? "",
           prix,
           distance: dist,
           prixTotal: coutTotal,
