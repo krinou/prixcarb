@@ -144,6 +144,7 @@ async function afficherStationsBrut() {
        appliquerTri(data, triCol, triDir);
        const tbody = table.querySelector("tbody");
        remplirTableau(data, tbody);
+       
        activerTri(table, data, triCol, triDir);
        const summary = document.getElementById("summary");
        if (summary) summary.textContent = `${data.length} stations ${carburant} trouvées`;
@@ -374,10 +375,10 @@ function buildRow(obj, i) {
     <td>${obj.adresse}</td>
     <td>${obj.cp}</td>
     <td>${obj.ville}</td>
-    <td>${obj.prix.toFixed(3) : "-"}</td>
-    <td>${obj.distance.toFixed(2) : "-"}</td>
-    <td>${obj.prixTotal.toFixed(2) : "-"}</td>
-    <td>${obj.prixPondere.toFixed(3) : "-"}</td>
+    <td>${obj.prix != null ? obj.prix.toFixed(3) : "-"}</td>
+    <td>${obj.distance != null ? obj.distance.toFixed(2) : "-"}</td>
+    <td>${obj.prixTotal != null ? obj.prixTotal.toFixed(2) : "-"}</td>
+    <td>${obj.prixPondere != null ? obj.prixPondere.toFixed(3) : "-"}</td>
     <td>${formatDateFR(obj.maj_gouv)}</td>
   `;
   return tr;
@@ -400,6 +401,11 @@ function formatDateFR(maj) {
 function remplirTableau(data, tbody) {
   tbody.innerHTML = "";
   data.forEach((o,i) => tbody.appendChild(buildRow(o,i)));
+  if (!data.length) {
+      statusEl.className = "alert alert-warning text-center";
+      statusEl.textContent = "⚠️ Aucune station trouvée.";
+      return;
+     }
 }
 
 // --------------------------------------------------
