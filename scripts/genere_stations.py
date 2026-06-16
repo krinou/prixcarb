@@ -18,9 +18,9 @@ def load_cache():
           with open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8") as f:
                cache = json.load(f)
        except Exception:
-          cache {}
+          cache = {}
     else
-        cache {}
+        cache = {}
 
     return normalize_cache(cache)
 
