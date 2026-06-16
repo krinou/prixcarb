@@ -13,16 +13,23 @@ HEADERS = {"User-Agent": "prixcarb/1.0 (contact: krinou@gmail.com)"}
 
 # --- chargement cache ---
 def load_cache():
+    cache_changed = False
     if os.path.exists(ENSEIGNE_CACHE_FILE):
        try:
           with open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8") as f:
                cache = json.load(f)
-       except Exception:
-          cache = {}
+       except Exception as e:
+          print("Erreur lecture cache:", e)
+          cache = {} 
     else:
         cache = {}
+        
+    new-cache = normalize_cache(cache)
+    if new_cache != cache:
+       print("Cache normalisé → mise à jour")
+       save_cache(new_cache)
 
-    return normalize_cache(cache)
+    return new_cache
 
 
 def normalize_cache(cache):
