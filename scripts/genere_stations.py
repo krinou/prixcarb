@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 # --- fichier cache enrichi ---
 ENSEIGNE_CACHE_FILE = "enseigne_cache.json"
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {"User-Agent": "prixcarb/1.0 (contact: krinou@gmail.com)"}
 
 # --- chargement cache ---
 def load_cache():
