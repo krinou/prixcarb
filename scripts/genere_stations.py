@@ -14,12 +14,37 @@ HEADERS = {"User-Agent": "prixcarb/1.0 (contact: krinou@gmail.com)"}
 # --- chargement cache ---
 def load_cache():
     if os.path.exists(ENSEIGNE_CACHE_FILE):
-        try:
-            with open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return {}
-    return {}
+       try:
+          with open(ENSEIGNE_CACHE_FILE, "r", encoding="utf-8") as f:
+               cache = json.load(f)
+       except Exception:
+          cache {}
+    else
+        cache {}
+
+    return normalize_cache(cache)
+
+
+def normalize_cache(cache):
+    """
+    Convertit automatiquement les anciens formats (string)
+    vers le nouveau format dict enrichi
+    """
+    changed = False
+
+    for sid, value in cache.items():
+
+        # ancien format : "TotalEnergies"
+        if isinstance(value, str):
+            cache[sid] = {
+                "enseigne": value
+            }
+            changed = True
+
+    if changed:
+        print("🔄 Cache normalisé (ancien format → nouveau format)")
+
+    return cache
 
 # --- sauvegarde cache ---
 def save_cache(cache):
