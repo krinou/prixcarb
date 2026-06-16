@@ -24,7 +24,7 @@ def load_cache():
         cache = {}
         
     new_cache, changed = normalize_cache(cache)
-    if changed
+    if changed:
        print("Cache normalisé → mise à jour")
        save_cache(new_cache)
 
