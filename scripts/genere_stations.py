@@ -103,11 +103,18 @@ def get_enseigne(sid, cache):
         soup = BeautifulSoup(r.text, "html.parser")
         enseigne = extract_enseigne_from_soup(soup)
 
-        if enseigne:
-            if sid not in cache:
-                cache[sid] = {}
-            cache[sid]["enseigne"] = enseigne
-            save_cache(cache)
+        updated = False
+
+        if sid not in cache:
+           cache[sid] = {}
+           updated = True
+
+        if "enseigne" not in cache[sid] or cache[sid]["enseigne"] != enseigne:
+           cache[sid]["enseigne"] = enseigne
+           updated = True
+
+        if updated:
+           save_cache(cache)
 
         return enseigne
 
