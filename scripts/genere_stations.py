@@ -58,7 +58,7 @@ def save_cache(cache):
         with open(ENSEIGNE_CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
     except Exception as e:
-        print("Erreur écriture cache: ", e:)
+        print("Erreur écriture cache: ", e)
 
 # --- géocodage ---
 def geocode_address(address):
