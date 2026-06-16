@@ -19,7 +19,7 @@ def load_cache():
                cache = json.load(f)
        except Exception:
           cache = {}
-    else
+    else:
         cache = {}
 
     return normalize_cache(cache)
