@@ -153,7 +153,7 @@ def build_station_record(pdv, cache, fuel_tag, ref_lat=None, ref_lon=None):
     return {
         "id": sid,
         "dep": dep,
-        "enseigne": enseigne,
+        "station": enseigne,
         "adresse": adresse,
         "cp": cp,
         "ville": ville,
