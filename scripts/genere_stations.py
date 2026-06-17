@@ -151,18 +151,13 @@ def build_station_record(pdv, cache, fuel_tag, ref_lat=None, ref_lon=None):
         distance_km = round(haversine(ref_lat, ref_lon, lat, lon), 2)
 
     return {
-        "id": sid,
-        "dep": dep,
         "station": enseigne,
         "adresse": adresse,
         "cp": cp,
         "ville": ville,
-        "latitude": lat,
-        "longitude": lon,
-        "distance_km": distance_km,
-        "carburant_choisi": fuel_tag,
-        "prix": selected_price,
-        "prixs": prices,
+        "prix": float(selected_price),
+        "distance": distance_km,
+        "maj_gouv": prices.get(fuel_tag, {}).get("maj", "")
     }
 
 def child_text(node, tag):
