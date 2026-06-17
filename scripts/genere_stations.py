@@ -142,6 +142,11 @@ def build_station_record(pdv, cache, fuel_tag, ref_lat=None, ref_lon=None):
     prices = extract_prices(pdv)
     selected_price = prices.get(fuel_tag, {}).get("valeur", "")
     enseigne = cache.get(sid, {}).get("enseigne", "")
+    
+    try:
+       prix_value = float(selected_price)
+    except (ValueError, TypeError):
+       prix_value = 0.0
 
     distance_km = None
     if (
@@ -155,7 +160,7 @@ def build_station_record(pdv, cache, fuel_tag, ref_lat=None, ref_lon=None):
         "adresse": adresse,
         "cp": cp,
         "ville": ville,
-        "prix": float(selected_price),
+        "prix": prix_value,
         "distance": distance_km,
         "maj_gouv": prices.get(fuel_tag, {}).get("maj", "")
     }
