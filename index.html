@@ -418,8 +418,8 @@ async function autocomplete(query) {
     // Convertit les données brutes en données affichables
     const data = rows.map(r => {
       // Prix (corriger milli‑euros si <0.1)
-      const pRaw    = (typeof r.prix === "number") ? r.prix : Number(r.prix);
-      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw*1000 : pRaw) : 0;
+      const pRaw = parseFloat(r.prix);
+      const prixEur = Number.isFinite(pRaw) ? pRaw : 0;
 
       // Distance
       const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
@@ -434,11 +434,11 @@ async function autocomplete(query) {
         adresse    : r.adresse,
         cp         : r.cp ?? "",
         ville      : r.ville ?? "",
-        prix       : prixEur,
+        prix       : parseFloat(r.prix) || 0,
         distance   : distKm,
         prixTotal  : coutTotal,
         prixPondere: prixPondere,
-        maj_gouv: r.maj_gouv ?? ""
+        maj_gouv: r.prixs?.[r.carburant_choisi]?.maj
       };
     });
 
