@@ -1,97 +1,64 @@
-# -*- coding: utf-8 -*-
-import datetime
+## -*- coding: utf-8 -*-
+
 import json
-import os
 import xml.etree.ElementTree as ET
+from cache_utils import load_cache
 
-from cache_utils import load_cache, save_cache, update_cache_parallel
-
-XML_FILE = os.environ.get("XML_FILE", "PrixCarburants_instantane.xml")
-BASE_DIR = os.environ.get("BASE_DIR", "data")
-LATEST_DIR = os.path.join(BASE_DIR, "latest")
-MAX_WORKERS = int(os.environ.get("SCRAPE_WORKERS", "8"))
-TIMEOUT = int(os.environ.get("SCRAPE_TIMEOUT", "10"))
-FORCE_REFRESH = os.environ.get("FORCE_REFRESH_ENSEIGNE", "false").lower() == "true"
+XML_FILE = "PrixCarburants_instantane.xml"
 
 
-def dep_from_cp(cp):
-    cp = (cp or "").strip()
-    if len(cp) >= 2:
-        return cp[:2]
-    return ""
+def xml_coord_to_float(value, coord_type=None):
+    if value is None:
+        return None
 
+    s = str(value).strip().replace(",", ".")
 
-def extract_prices(pdv):
-    prices = {}
-    for prix in pdv.findall("prix"):
-        nom = prix.get("nom", "").strip()
-        valeur = prix.get("valeur", "").strip()
-        maj = prix.get("maj", "").strip()
-        if nom:
-            prices[nom] = {
-                "valeur": valeur,
-                "maj": maj,
-            }
-    return prices
+    try:
+        num = float(s)
+    except:
+        return None
+
+    if coord_type == "lat":
+        if -90 <= num <= 90:
+            return num
+        return num / 100000
+
+    if coord_type == "lon":
+        if -180 <= num <= 180:
+            return num
+        return num / 100000
 
 
 def build_station_record(pdv, cache):
     sid = str(pdv.get("id", "")).strip()
-    cp = (pdv.get("cp") or "").strip()
+
+    lat = xml_coord_to_float(pdv.get("latitude"), "lat")
+    lon = xml_coord_to_float(pdv.get("longitude"), "lon")
+
     return {
         "id": sid,
         "enseigne": cache.get(sid, {}).get("enseigne", ""),
         "adresse": (pdv.get("adresse") or "").strip(),
-        "cp": cp,
+        "cp": (pdv.get("cp") or "").strip(),
         "ville": (pdv.get("ville") or "").strip(),
-        "latitude": pdv.get("latitude", ""),
-        "longitude": pdv.get("longitude", ""),
-        "carburants": extract_prices(pdv),
+        "latitude": lat,
+        "longitude": lon
     }
 
 
 def main():
-    today = datetime.date.today().isoformat()
-    os.makedirs(BASE_DIR, exist_ok=True)
-    os.makedirs(LATEST_DIR, exist_ok=True)
-
-    print("Génération pour la date :", today)
-
-    if not os.path.exists(XML_FILE):
-        raise FileNotFoundError(f"Fichier XML introuvable: {XML_FILE}")
+    cache = load_cache()
 
     tree = ET.parse(XML_FILE)
     root = tree.getroot()
-    pdvs = list(root.findall("pdv"))
 
-    # 1) Cache commun : charge puis enrichit en parallèle si nécessaire
-    cache = load_cache()
-    sids = [str(pdv.get("id", "")).strip() for pdv in pdvs if pdv.get("id")]
-    updated = update_cache_parallel(
-        sids,
-        cache,
-        max_workers=MAX_WORKERS,
-        force_refresh=FORCE_REFRESH,
-        timeout=TIMEOUT,
-    )
-    if updated:
-        save_cache(cache)
+    data = []
 
-    # 2) Génération d'un JSON par département
-    dep_map = {}
-    for pdv in pdvs:
-        cp = (pdv.get("cp") or "").strip()
-        dep = dep_from_cp(cp)
-        if not dep:
-            continue
-        dep_map.setdefault(dep, []).append(build_station_record(pdv, cache))
+    for pdv in root.findall("pdv"):
+        data.append(build_station_record(pdv, cache))
 
-    # 3) Écriture des fichiers par département
-    for dep_code, stations in sorted(dep_map.items()):
-        output_file = os.path.join(LATEST_DIR, f"stations_{dep_code}.json")
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(stations, f, ensure_ascii=False, indent=2)
-        print(f"{dep_code}: {len(stations)} stations -> {output_file}")
+    with open("departements.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":
