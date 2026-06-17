@@ -81,8 +81,7 @@ def extract_enseigne_from_soup(soup):
     for marker in ["Marque", "Enseigne"]:
         idx = text.lower().find(marker.lower())
         if idx != -1:
-            tail = text[idx + len(marker):].strip(" :.-
-	")
+            tail = text[idx + len(marker):].strip(" :.-\r\n\t")
             if tail:
                 return tail.split()[0].strip()
 
