@@ -202,7 +202,10 @@ def main():
     ]
 
     if ref_lat is not None and ref_lon is not None:
-        stations.sort(key=lambda x: (x["distance_km"] is None, x["distance_km"], x["prix"] or "999"))
+        stations.sort(key=lambda x: (
+            x["distance"] is None, 
+            x["distance"] if x["distance"] is not None else 999,
+            x["prix"] if x["prix"] else 999))
     else:
         stations.sort(key=lambda x: (x["prix"] or "999", x["cp"], x["id"]))
 
