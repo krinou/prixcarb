@@ -135,8 +135,8 @@ def build_station_record(pdv, cache, fuel_tag, ref_lat=None, ref_lon=None):
     sid = str(pdv.get("id", "")).strip()
     cp = (pdv.get("cp") or "").strip()
     dep = dep_from_cp(cp)
-    adresse = (pdv.get("adresse") or "").strip()
-    ville = (pdv.get("ville") or "").strip()
+    adresse = child_text(pdv, "adresse")
+    ville = child_text(pdv, "ville")
     lat = xml_coord_to_float(pdv.get("latitude"), "lat")
     lon = xml_coord_to_float(pdv.get("longitude"), "lon")
     prices = extract_prices(pdv)
@@ -164,6 +164,12 @@ def build_station_record(pdv, cache, fuel_tag, ref_lat=None, ref_lon=None):
         "prix": selected_price,
         "prixs": prices,
     }
+
+def child_text(node, tag):
+    child = node.find(tag)
+    if child is not None and child.text:
+        return child.text.strip()
+    return ""
 
 # -------------------------------
 # Programme principal
