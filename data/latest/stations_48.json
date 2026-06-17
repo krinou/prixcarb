@@ -1,0 +1,845 @@
+[
+  {
+    "id": "48000006",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48000",
+    "ville": "",
+    "latitude": "4453500",
+    "longitude": "350300",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.902",
+        "maj": "2026-06-16 10:16:32"
+      },
+      "E85": {
+        "valeur": "0.839",
+        "maj": "2026-06-08 08:30:02"
+      },
+      "E10": {
+        "valeur": "1.959",
+        "maj": "2026-06-04 08:56:57"
+      }
+    }
+  },
+  {
+    "id": "48170001",
+    "enseigne": "TotalEnergies",
+    "adresse": "",
+    "cp": "48170",
+    "ville": "",
+    "latitude": "4463200",
+    "longitude": "367600",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.936",
+        "maj": "2026-06-17 07:44:36"
+      },
+      "E10": {
+        "valeur": "1.962",
+        "maj": "2026-06-17 07:44:37"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-05-30 07:47:29"
+      }
+    }
+  },
+  {
+    "id": "48400003",
+    "enseigne": "Avia",
+    "adresse": "",
+    "cp": "48400",
+    "ville": "",
+    "latitude": "4432800",
+    "longitude": "359200",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.119",
+        "maj": "2026-06-15 07:25:30"
+      },
+      "SP95": {
+        "valeur": "2.149",
+        "maj": "2026-06-15 07:25:30"
+      },
+      "SP98": {
+        "valeur": "2.188",
+        "maj": "2026-06-15 07:25:30"
+      }
+    }
+  },
+  {
+    "id": "48200007",
+    "enseigne": "Esso",
+    "adresse": "",
+    "cp": "48200",
+    "ville": "",
+    "latitude": "4487100",
+    "longitude": "325300",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.069",
+        "maj": "2026-06-17 06:24:31"
+      },
+      "E10": {
+        "valeur": "1.999",
+        "maj": "2026-06-17 06:24:31"
+      },
+      "SP98": {
+        "valeur": "2.089",
+        "maj": "2026-06-17 06:24:31"
+      }
+    }
+  },
+  {
+    "id": "48200008",
+    "enseigne": "Avia",
+    "adresse": "",
+    "cp": "48200",
+    "ville": "",
+    "latitude": "4487021",
+    "longitude": "324806.1",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.085",
+        "maj": "2026-06-10 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.018",
+        "maj": "2026-06-10 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.112",
+        "maj": "2026-06-10 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "48200001",
+    "enseigne": "TotalEnergies",
+    "adresse": "",
+    "cp": "48200",
+    "ville": "",
+    "latitude": "4479700",
+    "longitude": "327800",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.933",
+        "maj": "2026-06-17 07:47:42"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-06-17 07:47:42"
+      }
+    }
+  },
+  {
+    "id": "48700001",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48700",
+    "ville": "",
+    "latitude": "4463336",
+    "longitude": "347619",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.030",
+        "maj": "2026-06-15 21:33:33"
+      },
+      "E10": {
+        "valeur": "2.080",
+        "maj": "2026-06-08 16:33:16"
+      },
+      "SP98": {
+        "valeur": "2.140",
+        "maj": "2026-06-15 21:33:33"
+      }
+    }
+  },
+  {
+    "id": "48100003",
+    "enseigne": "Système U",
+    "adresse": "",
+    "cp": "48100",
+    "ville": "",
+    "latitude": "4455200",
+    "longitude": "329300",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.888",
+        "maj": "2026-06-16 08:38:06"
+      },
+      "E85": {
+        "valeur": "0.799",
+        "maj": "2026-06-10 10:56:00"
+      },
+      "E10": {
+        "valeur": "1.901",
+        "maj": "2026-06-16 08:38:06"
+      },
+      "SP98": {
+        "valeur": "1.999",
+        "maj": "2026-06-10 10:56:00"
+      }
+    }
+  },
+  {
+    "id": "48200003",
+    "enseigne": "Avia",
+    "adresse": "",
+    "cp": "48200",
+    "ville": "",
+    "latitude": "4480696",
+    "longitude": "327132",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.100",
+        "maj": "2026-06-16 07:51:51"
+      },
+      "SP95": {
+        "valeur": "2.100",
+        "maj": "2026-06-16 07:51:51"
+      },
+      "SP98": {
+        "valeur": "2.300",
+        "maj": "2026-06-16 07:51:51"
+      }
+    }
+  },
+  {
+    "id": "48190003",
+    "enseigne": "Carrefour Express",
+    "adresse": "",
+    "cp": "48190",
+    "ville": "",
+    "latitude": "4449042.8422088",
+    "longitude": "374036.39676617",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.089",
+        "maj": "2026-05-30 09:50:57"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-05-30 09:50:57"
+      },
+      "SP98": {
+        "valeur": "2.129",
+        "maj": "2026-05-30 09:50:57"
+      }
+    }
+  },
+  {
+    "id": "48400007",
+    "enseigne": "Dyneff",
+    "adresse": "",
+    "cp": "48400",
+    "ville": "",
+    "latitude": "4434400",
+    "longitude": "358200",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 23:59:00"
+      },
+      "E10": {
+        "valeur": "1.969",
+        "maj": "2026-06-15 23:59:00"
+      }
+    }
+  },
+  {
+    "id": "48000008",
+    "enseigne": "Avia",
+    "adresse": "",
+    "cp": "48000",
+    "ville": "",
+    "latitude": "4452284.9686909",
+    "longitude": "349825.14507873",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 13:26:02"
+      },
+      "SP95": {
+        "valeur": "2.019",
+        "maj": "2026-06-12 13:26:02"
+      },
+      "E85": {
+        "valeur": "0.849",
+        "maj": "2026-04-23 13:36:51"
+      }
+    }
+  },
+  {
+    "id": "48800002",
+    "enseigne": "Avia",
+    "adresse": "",
+    "cp": "48800",
+    "ville": "",
+    "latitude": "4443500",
+    "longitude": "393300",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.109",
+        "maj": "2026-06-01 22:30:00"
+      },
+      "SP95": {
+        "valeur": "2.068",
+        "maj": "2026-06-10 22:30:00"
+      }
+    }
+  },
+  {
+    "id": "48300001",
+    "enseigne": "Carrefour Contact",
+    "adresse": "",
+    "cp": "48300",
+    "ville": "",
+    "latitude": "4473530",
+    "longitude": "385840",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 09:19:27"
+      },
+      "SP95": {
+        "valeur": "2.079",
+        "maj": "2026-06-08 09:12:46"
+      },
+      "SP98": {
+        "valeur": "2.110",
+        "maj": "2026-06-08 09:12:46"
+      }
+    }
+  },
+  {
+    "id": "48100007",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48100",
+    "ville": "",
+    "latitude": "4454400",
+    "longitude": "328700",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.989",
+        "maj": "2026-06-12 10:54:15"
+      },
+      "E10": {
+        "valeur": "1.969",
+        "maj": "2026-06-12 10:54:15"
+      },
+      "SP98": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 10:54:15"
+      }
+    }
+  },
+  {
+    "id": "48100004",
+    "enseigne": "Carrefour Market",
+    "adresse": "",
+    "cp": "48100",
+    "ville": "",
+    "latitude": "4455700",
+    "longitude": "329100",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-11 08:43:23"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-06-11 08:43:23"
+      },
+      "E10": {
+        "valeur": "1.939",
+        "maj": "2026-06-11 08:43:23"
+      }
+    }
+  },
+  {
+    "id": "48100002",
+    "enseigne": "Avia",
+    "adresse": "",
+    "cp": "48100",
+    "ville": "",
+    "latitude": "4455129.363138",
+    "longitude": "329110.64193346",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.029",
+        "maj": "2026-06-15 09:44:19"
+      },
+      "E10": {
+        "valeur": "2.009",
+        "maj": "2026-06-15 09:44:19"
+      }
+    }
+  },
+  {
+    "id": "48230001",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48230",
+    "ville": "",
+    "latitude": "4447003",
+    "longitude": "334610",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.050",
+        "maj": "2026-06-10 09:14:38"
+      },
+      "SP95": {
+        "valeur": "2.020",
+        "maj": "2026-06-10 09:14:38"
+      },
+      "E85": {
+        "valeur": "0.880",
+        "maj": "2026-05-28 12:10:31"
+      }
+    }
+  },
+  {
+    "id": "48150002",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48150",
+    "ville": "",
+    "latitude": "4418000",
+    "longitude": "343000",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.978",
+        "maj": "2026-06-15 10:12:50"
+      },
+      "E10": {
+        "valeur": "1.998",
+        "maj": "2026-06-15 10:12:50"
+      },
+      "SP98": {
+        "valeur": "2.089",
+        "maj": "2026-06-15 10:12:50"
+      }
+    }
+  },
+  {
+    "id": "48100006",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48100",
+    "ville": "",
+    "latitude": "4450867.69172",
+    "longitude": "325113.007146",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.045",
+        "maj": "2026-06-10 09:15:16"
+      }
+    }
+  },
+  {
+    "id": "48140002",
+    "enseigne": "Carrefour Express",
+    "adresse": "",
+    "cp": "48140",
+    "ville": "",
+    "latitude": "4485600",
+    "longitude": "333200",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.039",
+        "maj": "2026-06-14 11:51:02"
+      },
+      "E10": {
+        "valeur": "2.019",
+        "maj": "2026-06-14 11:51:03"
+      },
+      "SP98": {
+        "valeur": "2.099",
+        "maj": "2026-06-14 11:51:03"
+      }
+    }
+  },
+  {
+    "id": "48000005",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "",
+    "cp": "48000",
+    "ville": "",
+    "latitude": "4451841.20487",
+    "longitude": "349212.097875",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.843",
+        "maj": "2026-06-17 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.819",
+        "maj": "2026-06-17 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.845",
+        "maj": "2026-06-17 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.960",
+        "maj": "2026-06-17 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "48200004",
+    "enseigne": "Intermarché",
+    "adresse": "",
+    "cp": "48200",
+    "ville": "",
+    "latitude": "4480500",
+    "longitude": "328100",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.899",
+        "maj": "2026-06-16 16:19:47"
+      },
+      "SP95": {
+        "valeur": "1.995",
+        "maj": "2026-06-16 16:19:47"
+      },
+      "E85": {
+        "valeur": "0.819",
+        "maj": "2026-04-24 07:15:09"
+      },
+      "E10": {
+        "valeur": "1.905",
+        "maj": "2026-06-16 16:19:47"
+      },
+      "SP98": {
+        "valeur": "2.039",
+        "maj": "2026-06-16 16:19:47"
+      }
+    }
+  },
+  {
+    "id": "48300003",
+    "enseigne": "Intermarché",
+    "adresse": "",
+    "cp": "48300",
+    "ville": "",
+    "latitude": "4472425",
+    "longitude": "386052",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-11 08:23:17"
+      },
+      "E10": {
+        "valeur": "1.955",
+        "maj": "2026-06-11 08:23:27"
+      },
+      "SP98": {
+        "valeur": "2.105",
+        "maj": "2026-06-11 08:23:40"
+      }
+    }
+  },
+  {
+    "id": "48500001",
+    "enseigne": "Intermarché",
+    "adresse": "",
+    "cp": "48500",
+    "ville": "",
+    "latitude": "4443200",
+    "longitude": "321400",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.899",
+        "maj": "2026-06-17 07:21:52"
+      },
+      "E85": {
+        "valeur": "0.809",
+        "maj": "2026-06-12 08:10:32"
+      },
+      "E10": {
+        "valeur": "1.909",
+        "maj": "2026-06-17 07:21:52"
+      },
+      "SP98": {
+        "valeur": "2.049",
+        "maj": "2026-06-12 08:10:33"
+      }
+    }
+  },
+  {
+    "id": "48400006",
+    "enseigne": "Intermarché",
+    "adresse": "",
+    "cp": "48400",
+    "ville": "",
+    "latitude": "4434320.303",
+    "longitude": "358191.84",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.899",
+        "maj": "2026-06-16 14:51:13"
+      },
+      "E85": {
+        "valeur": "0.798",
+        "maj": "2026-05-15 09:23:40"
+      },
+      "E10": {
+        "valeur": "1.889",
+        "maj": "2026-06-16 14:51:13"
+      },
+      "SP98": {
+        "valeur": "2.029",
+        "maj": "2026-06-16 14:51:13"
+      }
+    }
+  },
+  {
+    "id": "48600002",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48600",
+    "ville": "",
+    "latitude": "4485347",
+    "longitude": "366108",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 10:20:54"
+      },
+      "SP95": {
+        "valeur": "2.089",
+        "maj": "2026-05-30 10:37:21"
+      },
+      "SP98": {
+        "valeur": "2.139",
+        "maj": "2026-04-29 14:03:29"
+      }
+    }
+  },
+  {
+    "id": "48310001",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48310",
+    "ville": "",
+    "latitude": "4481700",
+    "longitude": "311700",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 12:00:43"
+      },
+      "SP95": {
+        "valeur": "1.989",
+        "maj": "2026-06-12 12:00:43"
+      },
+      "E10": {
+        "valeur": "1.959",
+        "maj": "2026-06-12 12:00:44"
+      }
+    }
+  },
+  {
+    "id": "48200005",
+    "enseigne": "Système U",
+    "adresse": "",
+    "cp": "48200",
+    "ville": "",
+    "latitude": "4480100",
+    "longitude": "327200",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-02 09:26:44"
+      },
+      "E85": {
+        "valeur": "0.819",
+        "maj": "2026-06-05 10:37:48"
+      },
+      "E10": {
+        "valeur": "1.959",
+        "maj": "2026-06-09 10:43:35"
+      },
+      "SP98": {
+        "valeur": "2.099",
+        "maj": "2026-05-29 10:42:40"
+      }
+    }
+  },
+  {
+    "id": "48100001",
+    "enseigne": "TotalEnergies",
+    "adresse": "",
+    "cp": "48100",
+    "ville": "",
+    "latitude": "4456242.8946",
+    "longitude": "329229.521343",
+    "carburants": {
+      "GPLc": {
+        "valeur": "1.200",
+        "maj": "2026-05-21 10:40:08"
+      }
+    }
+  },
+  {
+    "id": "48100008",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48100",
+    "ville": "",
+    "latitude": "4469766.4560997",
+    "longitude": "312322.40123376",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.039",
+        "maj": "2026-06-12 08:27:06"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-05-12 15:57:39"
+      },
+      "E10": {
+        "valeur": "2.019",
+        "maj": "2026-06-12 08:27:06"
+      }
+    }
+  },
+  {
+    "id": "48600003",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48600",
+    "ville": "",
+    "latitude": "4478400",
+    "longitude": "363600",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 11:11:44"
+      },
+      "SP95": {
+        "valeur": "2.089",
+        "maj": "2026-06-05 20:08:55"
+      },
+      "E85": {
+        "valeur": "0.889",
+        "maj": "2026-05-29 11:57:37"
+      }
+    }
+  },
+  {
+    "id": "48130001",
+    "enseigne": "Carrefour Market",
+    "adresse": "",
+    "cp": "48130",
+    "ville": "",
+    "latitude": "4473400",
+    "longitude": "329200",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 09:40:10"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-03-31 11:39:34"
+      },
+      "E10": {
+        "valeur": "1.969",
+        "maj": "2026-06-12 09:40:11"
+      }
+    }
+  },
+  {
+    "id": "48000001",
+    "enseigne": "Système U",
+    "adresse": "",
+    "cp": "48000",
+    "ville": "",
+    "latitude": "4451600",
+    "longitude": "347800",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.881",
+        "maj": "2026-06-16 08:50:32"
+      },
+      "E85": {
+        "valeur": "0.799",
+        "maj": "2026-06-09 08:22:27"
+      },
+      "E10": {
+        "valeur": "1.890",
+        "maj": "2026-06-16 08:50:33"
+      },
+      "SP98": {
+        "valeur": "1.969",
+        "maj": "2026-06-16 08:50:33"
+      }
+    }
+  },
+  {
+    "id": "48300006",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "",
+    "cp": "48300",
+    "ville": "",
+    "latitude": "4472842",
+    "longitude": "385645",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.866",
+        "maj": "2026-06-17 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.875",
+        "maj": "2026-06-17 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "48120001",
+    "enseigne": "Supermarchés Spar",
+    "adresse": "",
+    "cp": "48120",
+    "ville": "",
+    "latitude": "4477925.4785345",
+    "longitude": "338401.33333129",
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.029",
+        "maj": "2026-06-11 10:08:06"
+      },
+      "E10": {
+        "valeur": "2.039",
+        "maj": "2026-06-11 10:08:06"
+      },
+      "SP98": {
+        "valeur": "2.109",
+        "maj": "2026-06-11 10:08:06"
+      }
+    }
+  },
+  {
+    "id": "48600001",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "",
+    "cp": "48600",
+    "ville": "",
+    "latitude": "4478000",
+    "longitude": "363000",
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.999",
+        "maj": "2026-06-12 18:30:00"
+      },
+      "SP95": {
+        "valeur": "2.089",
+        "maj": "2026-05-29 18:00:00"
+      }
+    }
+  }
+]
