@@ -402,7 +402,7 @@ async function autocomplete(query) {
     const table  = document.getElementById("table");
 
   try {
-    const res = await fetch(`stations.json?ts=${Date.now()}`, { cache: "no-store" });
+    const res = await fetch(`stations.json?v=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const rows = await res.json();
     if (!Array.isArray(rows)) throw new Error("JSON invalide");
