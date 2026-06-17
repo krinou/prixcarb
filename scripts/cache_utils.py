@@ -1,4 +1,6 @@
+
 # -*- coding: utf-8 -*-
+
 import json
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -28,11 +30,13 @@ def normalize_cache(cache):
     for sid, value in cache.items():
         sid = str(sid)
         if isinstance(value, dict):
-            normalized[sid] = dict(value)
-        elif isinstance(value, str):
-            normalized[sid] = {"enseigne": value}
+            normalized[sid] = {
+                "enseigne": (value.get("enseigne") or "").strip()
+            }
         else:
-            normalized[sid] = {}
+            normalized[sid] = {
+                "enseigne": (str(value).strip() if value is not None else "")
+            }
     return normalized
 
 
@@ -42,13 +46,12 @@ def load_cache(cache_file=ENSEIGNE_CACHE_FILE):
             with open(cache_file, "r", encoding="utf-8") as f:
                 cache = json.load(f)
         except Exception as e:
-            print(f"Erreur lecture cache {cache_file}: {e}")
+            print(f"Erreur lecture cache : {e}")
             cache = {}
     else:
         cache = {}
 
-    cache = normalize_cache(cache)
-    return cache
+    return normalize_cache(cache)
 
 
 def save_cache(cache, cache_file=ENSEIGNE_CACHE_FILE):
@@ -57,7 +60,7 @@ def save_cache(cache, cache_file=ENSEIGNE_CACHE_FILE):
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
     except Exception as e:
-        print(f"Erreur écriture cache {cache_file}: {e}")
+        print(f"Erreur écriture cache : {e}")
 
 
 def extract_enseigne_from_soup(soup):
@@ -74,13 +77,14 @@ def extract_enseigne_from_soup(soup):
         if parts:
             return parts[0].strip()
 
-    # Fallback générique : recherche d'un libellé "Marque"
     text = " ".join(soup.stripped_strings)
-    marker = "Marque"
-    if marker in text:
-        after = text.split(marker, 1)[1].strip(" :\n\t")
-        if after:
-            return after.split()[0].strip()
+    for marker in ["Marque", "Enseigne"]:
+        idx = text.lower().find(marker.lower())
+        if idx != -1:
+            tail = text[idx + len(marker):].strip(" :.-
+	")
+            if tail:
+                return tail.split()[0].strip()
 
     return ""
 
@@ -101,77 +105,46 @@ def fetch_enseigne_for_sid(sid, session=None, timeout=10):
         enseigne = extract_enseigne_from_soup(soup)
         return sid, enseigne
     except Exception as e:
-        print(f"Erreur récupération enseigne id {sid}: {e}")
+        print(f"Erreur récupération enseigne id {sid} : {e}")
         return sid, ""
 
 
 def get_enseigne(sid, cache, force_refresh=False, session=None, timeout=10):
     sid = str(sid)
+    cache = normalize_cache(cache)
 
-    if (
-        not force_refresh
-        and sid in cache
-        and isinstance(cache[sid], dict)
-        and cache[sid].get("enseigne")
-    ):
-        return cache[sid]["enseigne"]
+    if not force_refresh and sid in cache and cache[sid].get("enseigne"):
+        return cache[sid].get("enseigne", "")
 
-    sid_result, enseigne = fetch_enseigne_for_sid(sid, session=session, timeout=timeout)
-
-    if sid_result not in cache or not isinstance(cache.get(sid_result), dict):
-        cache[sid_result] = {}
-
-    if enseigne:
-        cache[sid_result]["enseigne"] = enseigne
-
+    sid, enseigne = fetch_enseigne_for_sid(sid, session=session, timeout=timeout)
+    cache[sid] = {"enseigne": enseigne}
     return enseigne
 
 
-def update_cache_parallel(
-    sids,
-    cache,
-    max_workers=8,
-    force_refresh=False,
-    timeout=10,
-):
+def update_cache_parallel(sids, cache, max_workers=8, force_refresh=False, timeout=10):
     """
     Met à jour le cache en parallèle uniquement pour les SID nécessaires.
     Une seule sauvegarde doit être faite ensuite via save_cache(cache).
     """
-    normalized_cache = normalize_cache(cache)
-    to_fetch = []
+    cache = normalize_cache(cache)
+    sids = [str(sid) for sid in sids if str(sid).strip()]
 
+    to_fetch = []
     for sid in sids:
-        sid = str(sid)
-        if force_refresh or not normalized_cache.get(sid, {}).get("enseigne"):
+        if force_refresh or not cache.get(sid, {}).get("enseigne"):
             to_fetch.append(sid)
 
     if not to_fetch:
-        return False
+        return cache
 
-    updated = False
+    with requests.Session() as session:
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {
+                executor.submit(fetch_enseigne_for_sid, sid, session, timeout): sid
+                for sid in to_fetch
+            }
+            for future in as_completed(futures):
+                sid, enseigne = future.result()
+                cache[sid] = {"enseigne": enseigne}
 
-    def worker(one_sid):
-        with requests.Session() as session:
-            return fetch_enseigne_for_sid(one_sid, session=session, timeout=timeout)
-
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(worker, sid): sid for sid in to_fetch}
-        for future in as_completed(futures):
-            sid = futures[future]
-            try:
-                sid_result, enseigne = future.result()
-            except Exception as e:
-                print(f"Erreur future pour {sid}: {e}")
-                continue
-
-            if sid_result not in normalized_cache or not isinstance(normalized_cache.get(sid_result), dict):
-                normalized_cache[sid_result] = {}
-
-            if enseigne and normalized_cache[sid_result].get("enseigne") != enseigne:
-                normalized_cache[sid_result]["enseigne"] = enseigne
-                updated = True
-
-    cache.clear()
-    cache.update(normalized_cache)
-    return updated
+    return cache
