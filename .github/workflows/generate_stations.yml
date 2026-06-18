@@ -81,6 +81,7 @@ jobs:
           INPUT_ADRESSE: ${{ github.event.inputs.adresse }}
           INPUT_CARBURANT: ${{ github.event.inputs.carburant }}
           INPUT_DEPARTEMENTS: ${{ github.event.inputs.departements_a_scanner }}
+          REQUEST_ID: ${{ github.event.inputs.request_id }}
         run: |
           set -e
           python3 scripts/genere_stations.py
@@ -113,9 +114,9 @@ jobs:
         run: |
           set -e
 
-          payload=$(cat <<'JSON'
+          payload=$(cat <<JSON
           {
-            "request_id": "${{ github.event.inputs.request_id }}",
+            "request_id": "$REQUEST_ID",
             "conclusion": "${{ job.status }}",
             "message": "Voir logs GitHub Actions",
             "run_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
