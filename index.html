@@ -113,7 +113,16 @@ async function afficherStations() {
         clearInterval(timer);
         statusEl.className = "alert alert-success text-center";
         statusEl.textContent = "✅ Mise à jour terminée. Chargement du tableau…";
-        await charger(); // recharge stations.json (avec ts=Date.now() chez toi)
+
+        const rows = await chargerAvecRetry();
+        if (rows.length === 0) {
+            statusEl.className = "alert alert-warning text-center";
+            statusEl.textContent = "⚠️ Impossible de récupérer les données mises à jour.";
+            return;
+            }
+
+        // ✅ injecte les données comme dans charger()
+        afficherTable(rows);
       } else {
         clearInterval(timer);
         statusEl.className = "alert alert-danger text-center";
@@ -139,6 +148,35 @@ async function afficherStations() {
   }
 }  
 
+function afficherTable(rows) {
+  const CONSO  = 10;
+  const VOLUME = 50;
+
+  const data = rows
+    .map(r => {
+      const prix = r.prix || 0;
+      const distance = r.distance || 0;
+
+      const prixTotal   = prix * VOLUME + ((2 * distance / 100) * CONSO * prix);
+      const prixPondere = prixTotal / VOLUME;
+
+      return {
+        station: r.station,
+        adresse: r.adresse,
+        cp: r.cp,
+        ville: r.ville,
+        prix: prix,
+        distance: distance,
+        prixTotal: prixTotal,
+        prixPondere: prixPondere,
+        maj_gouv: r.maj_gouv
+      };
+    })
+    .filter(r => r.prix > 0);
+
+  remplirTableau(data, document.querySelector("#table tbody"));
+}
+  
 async function runStationsUpdate() {
   const statusEl = document.getElementById("status");
   try {
@@ -415,7 +453,9 @@ async function autocomplete(query) {
   try {
     const res = await fetch(`stations.json?v=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const rows = await res.json();
+    const json = await res.json();
+    const rows = json.stations;
+    const meta = json.meta;
     if (!Array.isArray(rows)) throw new Error("JSON invalide");
     console.log("Exemple row[0] =", rows[0]);
     console.log("maj_gouv row[0] =", rows[0]?.maj_gouv);
@@ -473,7 +513,7 @@ async function autocomplete(query) {
     // ---------------------------------------
     const summary = document.getElementById("summary");
     if (summary) {
-       summary.textContent = `${nbStations} stations SP95-E10 trouvées`;
+       summary.textContent = `${meta.nb_stations} stations ${meta.carburant} trouvées lors de la génération du ${meta.date_generation} pour les départements ${meta.departements.join(", ")}`;
        }
 
     status.style.display = "none";
@@ -506,6 +546,26 @@ function buildRow(obj, i) {
     <td>${formatDateFR(obj.maj_gouv)}</td>
   `;
   return tr;
+}
+
+async function chargerAvecRetry(max = 5) {
+
+  for (let i = 0; i < max; i++) {
+
+    const res = await fetch(`stations.json?v=${Date.now()}`);
+    const json = await res.json();
+
+    const meta = json.meta;
+
+    // ✅ vérifier si les départements correspondent
+    if (meta && JSON.stringify(meta.departements) === JSON.stringify(currentVoisins)) {
+      return json;
+    }
+
+    await new Promise(r => setTimeout(r, 2000));
+  }
+
+  return null;
 }
 
 function formatDateFR(maj) {
