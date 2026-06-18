@@ -197,8 +197,11 @@ def main():
     save_cache(cache)
 
     stations = [
-        build_station_record(pdv, cache, FUEL_TAG, ref_lat=ref_lat, ref_lon=ref_lon)
-        for pdv in pdvs
+        s for s in (
+          build_station_record(pdv, cache, FUEL_TAG, ref_lat=ref_lat, ref_lon=ref_lon)
+          for pdv in pdvs
+          )
+          if s and s.get("prix", 0) > 0
     ]
 
     if ref_lat is not None and ref_lon is not None:
