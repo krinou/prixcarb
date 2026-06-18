@@ -94,7 +94,8 @@ async function afficherStations() {
       statusEl.textContent = "❌ Le Worker n'a pas renvoyé de requestId.";
       return;
     }
-
+    let currentRequestId = rid;
+    
     // 5) Poll /status
     statusEl.textContent = "⏳ Workflow en cours…";
     let tries = 0;
@@ -556,9 +557,12 @@ async function chargerAvecRetry(max = 5) {
     const json = await res.json();
 
     const meta = json.meta;
+    
+    console.log("requestId attendu =", currentRequestId);
+    console.log("requestId reçu =", meta?.requestId);
 
-    // ✅ vérifier si les départements correspondent
-    if (meta && JSON.stringify(meta.departements) === JSON.stringify(currentVoisins)) {
+    // ✅ vérifier si les requestid correspondent
+    if (meta && meta.requestId === currentRequestId) {
       return json;
     }
 
