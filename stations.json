@@ -1,7 +1,7 @@
 {
   "meta": {
-    "requestId": "7ea09033-2b1a-4868-9b4b-a98bc64d3575",
-    "date_generation": "18/06/2026 15:01",
+    "requestId": "3a84303f-bee2-4389-b88b-cedef27fb962",
+    "date_generation": "18/06/2026 15:07",
     "carburant": "E10",
     "departements": [
       "75",
@@ -12,7 +12,7 @@
       "94",
       "95"
     ],
-    "nb_stations": 593
+    "nb_stations": 594
   },
   "stations": [
     {
@@ -2956,7 +2956,7 @@
       "ville": "ÉCOUEN",
       "prix": 2.09,
       "distance": 20.3,
-      "maj_gouv": "2026-06-18 15:30:23"
+      "maj_gouv": "2026-03-23 18:45:00"
     },
     {
       "station": "Esso",
@@ -3937,6 +3937,15 @@
       "ville": "Savigny-sur-Orge",
       "prix": 1.956,
       "distance": 25.6,
+      "maj_gouv": "2026-06-18 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Rue du Centre Centre Reg Mont D'Est",
+      "cp": "93160",
+      "ville": "Noisy-le-Grand",
+      "prix": 1.99,
+      "distance": 25.62,
       "maj_gouv": "2026-06-18 00:01:00"
     },
     {
