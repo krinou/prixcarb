@@ -424,7 +424,7 @@ async function autocomplete(query) {
       const distance  = r.distance || 0;
 
       // Coût total & Prix pondéré
-      const coutTotal   = prixEur*VOLUME + ((2*distKm/100)*CONSO*prixEur);
+      const coutTotal   = prix*VOLUME + ((2*distKm/100)*CONSO*prix);
       const prixPondere = coutTotal / VOLUME;
 
       return {
