@@ -49,6 +49,17 @@ async function afficherStations() {
     const carburant = document.getElementById("carburantSelect")?.value || "E10";
 
     // 3) Départements limitrophes (déjà calculés)
+    if (!currentVoisins || currentVoisins.length === 0) {
+       const texte = document.getElementById("adresseInput").value.trim();
+       // Si c’est un CP (ex: 92000)
+       const cpMatch = texte.match(/^(\d{5})$/);
+       if (cpMatch) {
+          const dep = cpMatch[1].substring(0, 2);
+          const voisins = await getDepsVoisins(dep);
+          afficherDepsLimitrophes(dep, voisins);
+          }
+       }
+
     const deps = Array.isArray(currentVoisins) ? currentVoisins : [];
     if (deps.length === 0) {
       statusEl.style.display = "block";
@@ -343,7 +354,7 @@ let autocompleteTimeout = null;
 
 document.getElementById("adresseInput").addEventListener("input", function () {
     const query = this.value.trim();
-    if (!query) {
+    if (query.length < 3) {
         document.getElementById("autocompleteList").innerHTML = "";
         return;
     }
@@ -417,8 +428,8 @@ async function autocomplete(query) {
 
     // Convertit les données brutes en données affichables
     const data = rows.map(r => {
-    // Prix (corriger milli‑euros si <0.1)
-    const prixEur = parseFloat(r.prix) || 0;
+      // Prix (corriger milli‑euros si <0.1)
+      const prixEur = parseFloat(r.prix) || 0;
 
       // Distance
       const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
@@ -439,7 +450,9 @@ async function autocomplete(query) {
         prixPondere: prixPondere,
         maj_gouv: r.maj_gouv
       };
-    });
+    })
+    // ✅ FILTRE ICI
+    .filter(r => r.prix > 0);
 
     // Charger tri mémorisé
     let triCol = localStorage.getItem("triCol") ?? "prixPondere";
@@ -486,11 +499,11 @@ function buildRow(obj, i) {
     <td>${obj.adresse}</td>
     <td>${obj.cp}</td>
     <td>${obj.ville}</td>
-    <td>${obj.prix}</td>
+    <td>${obj.prix.toFixed(3)}</td>
     <td>${obj.distance.toFixed(2)}</td>
     <td>${obj.prixTotal.toFixed(2)}</td>
     <td>${obj.prixPondere.toFixed(3)}</td>
-    <td>${obj.maj_gouv}</td>
+    <td>${formatDateFR(obj.maj_gouv)}</td>
   `;
   return tr;
 }
