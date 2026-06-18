@@ -119,7 +119,7 @@ jobs:
           payload=$(cat <<JSON
           {
             "request_id": "$REQUEST_ID",
-            "state": "${{ job.status }}",
+            "conclusion": "${{ job.status }}",
             "message": "Voir logs GitHub Actions",
             "run_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           }
