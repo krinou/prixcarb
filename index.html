@@ -418,13 +418,16 @@ async function autocomplete(query) {
     // Convertit les données brutes en données affichables
     const data = rows.map(r => {
       // Prix (corriger milli‑euros si <0.1)
-      const prix = r.prix || 0;
+      const pRaw    = (typeof r.prix === "number") ? r.prix : Number(r.prix);
+      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw*1000 : pRaw) : 0;
+
 
       // Distance
-      const distance  = r.distance || 0;
+      const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
+      const distKm  = Number.isFinite(dRaw) ? dRaw : 0;
 
       // Coût total & Prix pondéré
-      const coutTotal   = prix*VOLUME + ((2*distKm/100)*CONSO*prix);
+      const coutTotal   = prixEur*VOLUME + ((2*distKm/100)*CONSO*prixEur);
       const prixPondere = coutTotal / VOLUME;
 
       return {
@@ -432,8 +435,8 @@ async function autocomplete(query) {
         adresse    : r.adresse,
         cp         : r.cp,
         ville      : r.ville,
-        prix       : prix,
-        distance   : distance,
+        prix       : prixEur,
+        distance   : distKm,
         prixTotal  : prixTotal,
         prixPondere: prixPondere,
         maj_gouv: r.maj_gouv
