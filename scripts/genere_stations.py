@@ -3,7 +3,10 @@
 
 import json
 import math
+
 import os
+REQUEST_ID = os.environ.get("REQUEST_ID", "unknown")
+
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from urllib.parse import urlencode
@@ -215,7 +218,8 @@ def main():
 
     output = {
       "meta": {
-        "date_generation": datetime.now().strftime("%Y-%m-%d"),
+        "requestId": REQUEST_ID,  
+        "date_generation": datetime.now().strftime("%d/%m/%Y %H:%M"),
         "carburant": FUEL_TAG,
         "departements": sorted(list(DEPS)),
         "nb_stations": len(stations)
