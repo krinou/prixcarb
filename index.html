@@ -105,7 +105,7 @@ async function afficherStations() {
       tries++;
       const s = await fetch(statusUrl(rid), { cache: "no-store" });
       const st = await s.json().catch(() => ({}));
-
+      console.log("status Worker =", st);
       // états possibles : queued / success / failure / cancelled / dispatch_failed / unknown
       if (st.state === "queued" || st.state === "unknown") {
         statusEl.className = "alert alert-info text-center";
