@@ -166,9 +166,9 @@
     "adresse": "108 Boulevard Émile Zola",
     "cp": "78800",
     "ville": "HOUILLES",
-    "prix": 1.92,
+    "prix": 1.894,
     "distance": 3.51,
-    "maj_gouv": "2026-06-17 09:27:40"
+    "maj_gouv": "2026-06-18 09:56:43"
   },
   {
     "station": "Esso",
@@ -1669,9 +1669,9 @@
     "adresse": "3 avenue Wolfgang Amadeus Mozart",
     "cp": "78260",
     "ville": "ACHERES",
-    "prix": 1.907,
+    "prix": 1.894,
     "distance": 13.31,
-    "maj_gouv": "2026-06-16 12:01:00"
+    "maj_gouv": "2026-06-18 10:25:14"
   },
   {
     "station": "Esso",
@@ -1698,7 +1698,7 @@
     "ville": "PARIS",
     "prix": 1.99,
     "distance": 13.4,
-    "maj_gouv": "2026-06-18 00:01:00"
+    "maj_gouv": "2026-06-18 10:28:41"
   },
   {
     "station": "Esso",
@@ -1723,9 +1723,9 @@
     "adresse": "AIRE DU VAL DE GRACE",
     "cp": "78140",
     "ville": "VELIZY-VILLACOUBLAY",
-    "prix": 2.161,
+    "prix": 2.156,
     "distance": 13.57,
-    "maj_gouv": "2026-06-17 09:30:00"
+    "maj_gouv": "2026-06-18 09:30:00"
   },
   {
     "station": "Auchan",
@@ -2124,6 +2124,15 @@
     "maj_gouv": "2026-06-18 00:01:00"
   },
   {
+    "station": "Système U",
+    "adresse": "ZAC DES MEUNIERS - 7 RUE STEPHANE HESSEL",
+    "cp": "95550",
+    "ville": "Bessancourt",
+    "prix": 1.889,
+    "distance": 15.63,
+    "maj_gouv": "2026-06-18 09:36:47"
+  },
+  {
     "station": "Auchan",
     "adresse": "141 Av. de la Division Leclerc",
     "cp": "95200",
@@ -2131,15 +2140,6 @@
     "prix": 1.895,
     "distance": 15.63,
     "maj_gouv": "2026-06-17 10:08:18"
-  },
-  {
-    "station": "Système U",
-    "adresse": "ZAC DES MEUNIERS - 7 RUE STEPHANE HESSEL",
-    "cp": "95550",
-    "ville": "Bessancourt",
-    "prix": 1.903,
-    "distance": 15.63,
-    "maj_gouv": "2026-06-18 07:42:44"
   },
   {
     "station": "TotalEnergies",
@@ -2830,9 +2830,9 @@
     "adresse": "2 Rue Eugène Hénaff",
     "cp": "94400",
     "ville": "VITRY-SUR-SEINE",
-    "prix": 1.91,
+    "prix": 0.0,
     "distance": 18.8,
-    "maj_gouv": "2026-06-15 09:53:41"
+    "maj_gouv": ""
   },
   {
     "station": "Carrefour Market",
@@ -3217,9 +3217,9 @@
     "adresse": "1 avenue le Verrier",
     "cp": "78190",
     "ville": "Trappes",
-    "prix": 1.869,
+    "prix": 1.859,
     "distance": 20.58,
-    "maj_gouv": "2026-06-17 19:27:41"
+    "maj_gouv": "2026-06-18 09:41:15"
   },
   {
     "station": "TotalEnergies",
@@ -3559,9 +3559,9 @@
     "adresse": "119 Avenue du Général de Gaulle",
     "cp": "94000",
     "ville": "Créteil",
-    "prix": 1.903,
+    "prix": 1.863,
     "distance": 22.09,
-    "maj_gouv": "2026-06-11 06:39:24"
+    "maj_gouv": "2026-06-18 09:53:00"
   },
   {
     "station": "Esso",
@@ -3577,9 +3577,9 @@
     "adresse": "8 Place Gaston Viens",
     "cp": "94310",
     "ville": "Orly",
-    "prix": 1.87,
+    "prix": 1.86,
     "distance": 22.19,
-    "maj_gouv": "2026-06-16 07:44:07"
+    "maj_gouv": "2026-06-18 09:45:50"
   },
   {
     "station": "TotalEnergies",
@@ -3721,9 +3721,9 @@
     "adresse": "Réservée aux Membres Costco, 3 avenue de Bréhat",
     "cp": "91140",
     "ville": "VILLEBON-SUR-YVETTE",
-    "prix": 1.849,
+    "prix": 1.833,
     "distance": 22.87,
-    "maj_gouv": "2026-06-17 10:15:00"
+    "maj_gouv": "2026-06-18 10:00:00"
   },
   {
     "station": "Esso",
@@ -3775,9 +3775,9 @@
     "adresse": "70 Boulevard Marx Dormoy",
     "cp": "93190",
     "ville": "LIVRY-GARGAN",
-    "prix": 1.989,
+    "prix": 1.919,
     "distance": 23.06,
-    "maj_gouv": "2026-06-09 09:49:23"
+    "maj_gouv": "2026-06-18 10:16:05"
   },
   {
     "station": "Carrefour Market",
@@ -4398,7 +4398,7 @@
     "ville": "SUCY-EN-BRIE",
     "prix": 1.954,
     "distance": 26.28,
-    "maj_gouv": "2026-06-17 00:01:00"
+    "maj_gouv": "2026-06-18 09:58:12"
   },
   {
     "station": "Avia",
@@ -4900,9 +4900,9 @@
     "adresse": "ROUTE DE ROYAUMONT",
     "cp": "95270",
     "ville": "VIARMES",
-    "prix": 1.929,
+    "prix": 1.864,
     "distance": 29.76,
-    "maj_gouv": "2026-06-12 16:23:43"
+    "maj_gouv": "2026-06-18 09:38:08"
   },
   {
     "station": "TotalEnergies",
@@ -5134,9 +5134,9 @@
     "adresse": "Route Nationale",
     "cp": "78940",
     "ville": "La Queue-lez-Yvelines",
-    "prix": 1.919,
+    "prix": 1.89,
     "distance": 32.62,
-    "maj_gouv": "2026-06-17 10:04:08"
+    "maj_gouv": "2026-06-18 09:50:28"
   },
   {
     "station": "TotalEnergies",
@@ -5188,9 +5188,9 @@
     "adresse": "Rue de Chanteloup",
     "cp": "91180",
     "ville": "Saint-Germain-lès-Arpajon",
-    "prix": 1.899,
+    "prix": 1.879,
     "distance": 33.14,
-    "maj_gouv": "2026-06-12 10:43:18"
+    "maj_gouv": "2026-06-18 09:51:37"
   },
   {
     "station": "TotalEnergies",
@@ -5233,9 +5233,9 @@
     "adresse": "Centre Commercial Val d'Yerres 2",
     "cp": "91800",
     "ville": "Boussy-Saint-Antoine",
-    "prix": 1.855,
+    "prix": 1.85,
     "distance": 33.79,
-    "maj_gouv": "2026-06-17 10:23:02"
+    "maj_gouv": "2026-06-18 10:28:03"
   },
   {
     "station": "TotalEnergies Access",
@@ -5386,9 +5386,9 @@
     "adresse": "3 Pl. de l'Europe",
     "cp": "91250",
     "ville": "Saint-Germain-lès-Corbeil",
-    "prix": 1.935,
+    "prix": 1.875,
     "distance": 36.86,
-    "maj_gouv": "2026-06-09 10:31:52"
+    "maj_gouv": "2026-06-18 10:23:10"
   },
   {
     "station": "TotalEnergies",
@@ -5514,7 +5514,7 @@
     "ville": "Buchelay",
     "prix": 1.869,
     "distance": 39.11,
-    "maj_gouv": "2026-06-17 10:02:30"
+    "maj_gouv": "2026-06-18 09:40:19"
   },
   {
     "station": "TotalEnergies",
@@ -5620,9 +5620,9 @@
     "adresse": "48 rue Raymond Laubier",
     "cp": "91410",
     "ville": "DOURDAN",
-    "prix": 1.897,
+    "prix": 1.849,
     "distance": 42.72,
-    "maj_gouv": "2026-06-16 11:05:56"
+    "maj_gouv": "2026-06-18 10:17:06"
   },
   {
     "station": "Esso",
@@ -5649,7 +5649,7 @@
     "ville": "MAULETTE",
     "prix": 2.119,
     "distance": 43.47,
-    "maj_gouv": "2026-06-17 07:59:06"
+    "maj_gouv": "2026-06-18 09:31:59"
   },
   {
     "station": "Avia",
@@ -5845,9 +5845,9 @@
     "adresse": "RN 13 RTE D'EVREUX",
     "cp": "78270",
     "ville": "Chaufour-lès-Bonnières",
-    "prix": 1.836,
+    "prix": 0.0,
     "distance": 54.32,
-    "maj_gouv": "2026-06-18 00:01:00"
+    "maj_gouv": ""
   },
   {
     "station": "TotalEnergies Access",
@@ -5872,9 +5872,9 @@
     "adresse": "Grande Rue",
     "cp": "91490",
     "ville": "Oncy-sur-École",
-    "prix": 1.93,
+    "prix": 1.883,
     "distance": 58.69,
-    "maj_gouv": "2026-06-16 10:09:04"
+    "maj_gouv": "2026-06-18 09:22:53"
   },
   {
     "station": "Intermarché",
@@ -5890,8 +5890,8 @@
     "adresse": "14 Rue du Pont Lafleur",
     "cp": "91670",
     "ville": "ANGERVILLE",
-    "prix": 1.878,
+    "prix": 1.868,
     "distance": 65.4,
-    "maj_gouv": "2026-06-16 15:46:59"
+    "maj_gouv": "2026-06-18 10:22:52"
   }
 ]
