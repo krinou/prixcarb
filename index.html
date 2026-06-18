@@ -486,11 +486,11 @@ function buildRow(obj, i) {
     <td>${obj.adresse}</td>
     <td>${obj.cp}</td>
     <td>${obj.ville}</td>
-    <td>${obj.prix.toFixed(3)}</td>
+    <td>${obj.prix}</td>
     <td>${obj.distance.toFixed(2)}</td>
     <td>${obj.prixTotal.toFixed(2)}</td>
     <td>${obj.prixPondere.toFixed(3)}</td>
-    <td>${formatDateFR(obj.maj_gouv)}</td>
+    <td>${obj.maj_gouv}</td>
   `;
   return tr;
 }
