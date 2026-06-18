@@ -1,7 +1,7 @@
 {
   "meta": {
-    "requestId": "01cb1ff1-c1e2-4822-8e9a-2cbd90f63785",
-    "date_generation": "18/06/2026 13:57",
+    "requestId": "658ec26a-e76c-43f3-bdbf-d1497c4817c3",
+    "date_generation": "18/06/2026 14:15",
     "carburant": "E10",
     "departements": [
       "75",
@@ -12,7 +12,7 @@
       "94",
       "95"
     ],
-    "nb_stations": 594
+    "nb_stations": 593
   },
   "stations": [
     {
@@ -101,9 +101,9 @@
       "adresse": "155 AVENUE PAUL DOUMER",
       "cp": "92500",
       "ville": "Rueil-Malmaison",
-      "prix": 2.079,
+      "prix": 2.059,
       "distance": 3.11,
-      "maj_gouv": "2026-06-17 14:26:16"
+      "maj_gouv": "2026-06-18 14:25:19"
     },
     {
       "station": "TotalEnergies",
@@ -490,7 +490,7 @@
       "ville": "Argenteuil",
       "prix": 1.912,
       "distance": 6.55,
-      "maj_gouv": "2026-06-17 13:23:00"
+      "maj_gouv": "2026-06-18 15:11:00"
     },
     {
       "station": "Esso",
@@ -1901,9 +1901,9 @@
       "adresse": "30 RUE DE LA DEMENERIE",
       "cp": "78330",
       "ville": "FONTENAY-LE-FLEURY",
-      "prix": 1.849,
+      "prix": 1.839,
       "distance": 15.16,
-      "maj_gouv": "2026-06-17 08:50:15"
+      "maj_gouv": "2026-06-18 14:31:40"
     },
     {
       "station": "TotalEnergies",
@@ -2956,7 +2956,7 @@
       "ville": "ÉCOUEN",
       "prix": 2.09,
       "distance": 20.3,
-      "maj_gouv": "2026-03-23 18:45:00"
+      "maj_gouv": "2026-06-18 15:30:23"
     },
     {
       "station": "Esso",
@@ -3746,9 +3746,9 @@
       "adresse": "ROUTE DES PETITS PONTS",
       "cp": "93270",
       "ville": "Sevran",
-      "prix": 1.905,
+      "prix": 1.9,
       "distance": 24.33,
-      "maj_gouv": "2026-06-17 22:50:00"
+      "maj_gouv": "2026-06-18 14:59:00"
     },
     {
       "station": "Intermarché",
@@ -3937,15 +3937,6 @@
       "ville": "Savigny-sur-Orge",
       "prix": 1.956,
       "distance": 25.6,
-      "maj_gouv": "2026-06-18 00:01:00"
-    },
-    {
-      "station": "TotalEnergies",
-      "adresse": "Rue du Centre Centre Reg Mont D'Est",
-      "cp": "93160",
-      "ville": "Noisy-le-Grand",
-      "prix": 1.99,
-      "distance": 25.62,
       "maj_gouv": "2026-06-18 00:01:00"
     },
     {
