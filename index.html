@@ -26,6 +26,8 @@
 </head>
 
 <script>
+let currentRequestId = null;
+  
 async function afficherStations() {
   const btn = document.querySelector("button.btn.btn-primary"); // ou un id
   const statusEl = document.getElementById("status");
@@ -94,7 +96,7 @@ async function afficherStations() {
       statusEl.textContent = "❌ Le Worker n'a pas renvoyé de requestId.";
       return;
     }
-    let currentRequestId = rid;
+    currentRequestId = rid;
     
     // 5) Poll /status
     statusEl.textContent = "⏳ Workflow en cours…";
