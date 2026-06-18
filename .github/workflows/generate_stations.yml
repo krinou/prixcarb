@@ -33,6 +33,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    env:
+       REQUEST_ID: ${{ github.event.inputs.request_id }}
 
     steps:
       # 1) Récupérer le dépôt
@@ -81,7 +84,6 @@ jobs:
           INPUT_ADRESSE: ${{ github.event.inputs.adresse }}
           INPUT_CARBURANT: ${{ github.event.inputs.carburant }}
           INPUT_DEPARTEMENTS: ${{ github.event.inputs.departements_a_scanner }}
-          REQUEST_ID: ${{ github.event.inputs.request_id }}
         run: |
           set -e
           python3 scripts/genere_stations.py
