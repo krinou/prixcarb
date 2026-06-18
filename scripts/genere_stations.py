@@ -212,8 +212,18 @@ def main():
     else:
         stations.sort(key=lambda x: (x["prix"] or "999", x["cp"], x["id"]))
 
+    output = {
+      "meta": {
+        "date_generation": datetime.now().strftime("%Y-%m-%d"),
+        "carburant": FUEL_TAG,
+        "departements": sorted(list(DEPS)),
+        "nb_stations": len(stations)
+        },
+      "stations": stations
+    }
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(stations, f, ensure_ascii=False, indent=2)
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
