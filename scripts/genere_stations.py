@@ -16,7 +16,7 @@ import requests
 from cache_utils import load_cache, save_cache, update_cache_parallel
 
 XML_FILE = os.environ.get("XML_FILE", "PrixCarburants_instantane.xml")
-OUTPUT_FILE = os.environ.get("OUTPUT_FILE", "stations.json")
+OUTPUT_FILE = os.environ.get("OUTPUT_FILE", "stations_{REQUEST_ID}.json")
 FUEL_TAG = os.environ.get("INPUT_CARBURANT", "E10")
 ADRESSE_REF = os.environ.get("INPUT_ADRESSE", "")
 DEPS = {
