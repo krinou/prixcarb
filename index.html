@@ -417,10 +417,8 @@ async function autocomplete(query) {
 
     // Convertit les données brutes en données affichables
     const data = rows.map(r => {
-      // Prix (corriger milli‑euros si <0.1)
-      const pRaw    = (typeof r.prix === "number") ? r.prix : Number(r.prix);
-      const prixEur = Number.isFinite(pRaw) ? (pRaw < 0.1 ? pRaw*1000 : pRaw) : 0;
-
+    // Prix (corriger milli‑euros si <0.1)
+    const prixEur = parseFloat(r.prix) || 0;
 
       // Distance
       const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
