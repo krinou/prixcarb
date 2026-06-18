@@ -418,12 +418,10 @@ async function autocomplete(query) {
     // Convertit les données brutes en données affichables
     const data = rows.map(r => {
       // Prix (corriger milli‑euros si <0.1)
-      const pRaw = parseFloat(r.prix);
-      const prixEur = Number.isFinite(pRaw) ? pRaw : 0;
+      const prix = r.prix || 0;
 
       // Distance
-      const dRaw    = (typeof r.distance === "number") ? r.distance : Number(r.distance);
-      const distKm  = Number.isFinite(dRaw) ? dRaw : 0;
+      const distance  = r.distance || 0;
 
       // Coût total & Prix pondéré
       const coutTotal   = prixEur*VOLUME + ((2*distKm/100)*CONSO*prixEur);
@@ -432,13 +430,13 @@ async function autocomplete(query) {
       return {
         station    : r.station, 
         adresse    : r.adresse,
-        cp         : r.cp ?? "",
-        ville      : r.ville ?? "",
-        prix       : parseFloat(r.prix) || 0,
-        distance   : distKm,
-        prixTotal  : coutTotal,
+        cp         : r.cp,
+        ville      : r.ville,
+        prix       : prix,
+        distance   : distance,
+        prixTotal  : prixTotal,
         prixPondere: prixPondere,
-        maj_gouv: r.prixs?.[r.carburant_choisi]?.maj
+        maj_gouv: r.maj_gouv
       };
     });
 
