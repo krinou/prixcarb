@@ -555,26 +555,23 @@ async function chargerAvecRetry(max = 5) {
          }
       const text = await res.text();   // 🔍 on lit en texte d'abord
       console.log("Réponse brute :", text);     
-      const data = JSON.parse(text);   // 👈 c’est ici que ça plante
+      const json = JSON.parse(text);   // 👈 c’est ici que ça plante
+      const meta = json.meta;
       console.log("JSON OK :", data);
+
+      console.log("requestId attendu =", currentRequestId);
+      console.log("requestId reçu =", meta?.requestId);
+
+      // ✅ vérifier si les requestid correspondent
+      if (meta && meta.requestId === currentRequestId) {
+         return json;
+         }
       } catch (err) {
         console.error("Erreur :", err);
         }     
-
-    const json = await res.json();
-    const meta = json.meta;
-    
-    console.log("requestId attendu =", currentRequestId);
-    console.log("requestId reçu =", meta?.requestId);
-
-    // ✅ vérifier si les requestid correspondent
-    if (meta && meta.requestId === currentRequestId) {
-      return json;
-    }
-
-    await new Promise(r => setTimeout(r, 2000));
-  }
-
+      await new Promise(r => setTimeout(r, 2000));
+}
+  
   return null;
 }
 
