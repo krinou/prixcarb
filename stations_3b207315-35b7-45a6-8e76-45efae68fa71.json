@@ -1,0 +1,5347 @@
+{
+  "meta": {
+    "requestId": "3b207315-35b7-45a6-8e76-45efae68fa71",
+    "date_generation": "19/06/2026 13:50",
+    "carburant": "E10",
+    "departements": [
+      "75",
+      "78",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95"
+    ],
+    "nb_stations": 592
+  },
+  "stations": [
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "141 RUE PV COUTURIER",
+      "cp": "92000",
+      "ville": "NANTERRE",
+      "prix": 1.897,
+      "distance": 1.05,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "182 RUE P.VAILLANT COUTURIER",
+      "cp": "92000",
+      "ville": "NANTERRE",
+      "prix": 1.897,
+      "distance": 1.27,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "77, AVENUE LENINE",
+      "cp": "92000",
+      "ville": "NANTERRE",
+      "prix": 1.897,
+      "distance": 1.35,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "93 Avenue Vladimir Illitch Lénine",
+      "cp": "92000",
+      "ville": "Nanterre",
+      "prix": 1.999,
+      "distance": 1.48,
+      "maj_gouv": "2026-06-19 06:21:30"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "13 Avenue de Verdun-1916",
+      "cp": "92250",
+      "ville": "La Garenne-Colombes",
+      "prix": 1.906,
+      "distance": 2.59,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "119 AVENUE DU PDT POMPIDOU",
+      "cp": "92500",
+      "ville": "Rueil-Malmaison",
+      "prix": 1.99,
+      "distance": 2.74,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "64 BD CHARLES DE GAULLE",
+      "cp": "92700",
+      "ville": "COLOMBES",
+      "prix": 1.989,
+      "distance": 2.9,
+      "maj_gouv": "2026-06-19 11:39:10"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "32-40 AVENUE DU 18 JUIN 1940",
+      "cp": "92500",
+      "ville": "Rueil-Malmaison",
+      "prix": 1.99,
+      "distance": 2.96,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Quai de Dion-Bouton",
+      "cp": "92800",
+      "ville": "PUTEAUX",
+      "prix": 1.999,
+      "distance": 3.09,
+      "maj_gouv": "2026-06-19 11:31:05"
+    },
+    {
+      "station": "Avia",
+      "adresse": "155 AVENUE PAUL DOUMER",
+      "cp": "92500",
+      "ville": "Rueil-Malmaison",
+      "prix": 2.059,
+      "distance": 3.11,
+      "maj_gouv": "2026-06-19 14:21:08"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "47 BLD DU HAVRE",
+      "cp": "92000",
+      "ville": "NANTERRE",
+      "prix": 1.99,
+      "distance": 3.17,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "131 BOULEVARD HENRI SELLIER",
+      "cp": "92150",
+      "ville": "SURESNES",
+      "prix": 1.99,
+      "distance": 3.17,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "42 QUAI DE DION BOUTON",
+      "cp": "92800",
+      "ville": "PUTEAUX",
+      "prix": 1.999,
+      "distance": 3.17,
+      "maj_gouv": "2026-06-19 11:42:03"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "104 RTE DE CHATOU",
+      "cp": "78420",
+      "ville": "Carrières-sur-Seine",
+      "prix": 1.909,
+      "distance": 3.2,
+      "maj_gouv": "2026-06-19 11:32:25"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "138 BOULEVARD JEAN JAURES",
+      "cp": "78800",
+      "ville": "Houilles",
+      "prix": 1.891,
+      "distance": 3.31,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "138 BOULEVARD HENRI SELLIER",
+      "cp": "92150",
+      "ville": "Suresnes",
+      "prix": 1.929,
+      "distance": 3.45,
+      "maj_gouv": "2026-06-19 11:30:03"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "53-55 RUE DE L'ALMA",
+      "cp": "92400",
+      "ville": "COURBEVOIE",
+      "prix": 1.99,
+      "distance": 3.48,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "108 Boulevard Émile Zola",
+      "cp": "78800",
+      "ville": "HOUILLES",
+      "prix": 1.894,
+      "distance": 3.51,
+      "maj_gouv": "2026-06-18 09:56:43"
+    },
+    {
+      "station": "Esso",
+      "adresse": "246 ROUTE DE L'EMPEREUR",
+      "cp": "92500",
+      "ville": "RUEIL MALMAISON",
+      "prix": 1.909,
+      "distance": 3.78,
+      "maj_gouv": "2026-06-19 11:41:23"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "41 QUAI PAUL DOUMER",
+      "cp": "92400",
+      "ville": "COURBEVOIE",
+      "prix": 1.99,
+      "distance": 3.87,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "72 BLD DE VERDUN",
+      "cp": "92400",
+      "ville": "COURBEVOIE",
+      "prix": 1.99,
+      "distance": 3.94,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "150 AVE PAUL DOUMER",
+      "cp": "78360",
+      "ville": "MONTESSON",
+      "prix": 1.898,
+      "distance": 3.97,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "43-47 BOULEVARD DE VERDUN",
+      "cp": "92400",
+      "ville": "COURBEVOIE",
+      "prix": 1.897,
+      "distance": 4.03,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "65 QUAI MARCEL DASSAULT",
+      "cp": "92210",
+      "ville": "Saint-Cloud",
+      "prix": 1.899,
+      "distance": 4.32,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "173 179 RUE DE LA PORTE JAUNE",
+      "cp": "92380",
+      "ville": "GARCHES",
+      "prix": 1.929,
+      "distance": 4.61,
+      "maj_gouv": "2026-06-19 11:37:25"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "133 AV DU MARECHAL FOCH",
+      "cp": "78400",
+      "ville": "CHATOU",
+      "prix": 1.99,
+      "distance": 4.62,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "136 RUE HENRI BARBUSSE",
+      "cp": "78800",
+      "ville": "HOUILLES",
+      "prix": 1.889,
+      "distance": 4.77,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "151 Avenue Gabriel Péri",
+      "cp": "95870",
+      "ville": "BEZONS",
+      "prix": 1.886,
+      "distance": 4.85,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RUE ACHILE PERETTI - TOTAL",
+      "cp": "92200",
+      "ville": "Neuilly-sur-Seine",
+      "prix": 1.99,
+      "distance": 4.88,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "193 AVENUE HENRI BARBUSSE",
+      "cp": "95100",
+      "ville": "ARGENTEUIL",
+      "prix": 1.885,
+      "distance": 4.89,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "179 avenue Gabriel Péri",
+      "cp": "95870",
+      "ville": "Bezons",
+      "prix": 1.978,
+      "distance": 4.94,
+      "maj_gouv": "2026-06-18 20:38:23"
+    },
+    {
+      "station": "Esso",
+      "adresse": "44-50 BD DE VALMY",
+      "cp": "92700",
+      "ville": "COLOMBES",
+      "prix": 1.909,
+      "distance": 5.02,
+      "maj_gouv": "2026-06-19 11:41:45"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "22 Avenue du Général de Gaulle",
+      "cp": "78290",
+      "ville": "Croissy-sur-Seine",
+      "prix": 1.983,
+      "distance": 5.08,
+      "maj_gouv": "2026-06-15 07:51:56"
+    },
+    {
+      "station": "Esso",
+      "adresse": "35 Boulevard de la République",
+      "cp": "92210",
+      "ville": "SAINT-CLOUD",
+      "prix": 1.939,
+      "distance": 5.28,
+      "maj_gouv": "2026-06-19 11:43:05"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "46 RUE DES PONTS",
+      "cp": "78290",
+      "ville": "Croissy-sur-Seine",
+      "prix": 1.99,
+      "distance": 5.28,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "82 Quai du Maréchal Joffre",
+      "cp": "92400",
+      "ville": "Courbevoie",
+      "prix": 1.909,
+      "distance": 5.29,
+      "maj_gouv": "2026-06-19 11:38:14"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "24 Rue Pasteur",
+      "cp": "92210",
+      "ville": "Saint-Cloud",
+      "prix": 1.901,
+      "distance": 5.62,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "63 Avenue Jean Jaurès",
+      "cp": "95100",
+      "ville": "Argenteuil",
+      "prix": 1.949,
+      "distance": 5.62,
+      "maj_gouv": "2026-06-19 11:39:05"
+    },
+    {
+      "station": "Avia",
+      "adresse": "PLACE TATTEGRAIN",
+      "cp": "75116",
+      "ville": "PARIS",
+      "prix": 2.199,
+      "distance": 5.7,
+      "maj_gouv": "2026-06-03 00:16:46"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "Rue des Grives Zac Fosse Aux Loups",
+      "cp": "95100",
+      "ville": "Argenteuil",
+      "prix": 1.892,
+      "distance": 5.85,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "106, rue du président wilson",
+      "cp": "92300",
+      "ville": "Levallois-Perret",
+      "prix": 1.979,
+      "distance": 5.85,
+      "maj_gouv": "2026-06-19 11:40:44"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "101 Boulevard Carnot",
+      "cp": "78110",
+      "ville": "Le Vésinet",
+      "prix": 1.896,
+      "distance": 5.94,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "24 Avenue de la Jonchère",
+      "cp": "78170",
+      "ville": "LA CELLE-SAINT-CLOUD",
+      "prix": 1.939,
+      "distance": 6.01,
+      "maj_gouv": "2026-06-19 11:38:09"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "108 AV.A MORIZET",
+      "cp": "92100",
+      "ville": "BOULOGNE BILLANCOURT",
+      "prix": 1.99,
+      "distance": 6.09,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "96 Avenue d'Argenteuil",
+      "cp": "92600",
+      "ville": "ASNIèRES-SUR-SEINE",
+      "prix": 2.039,
+      "distance": 6.09,
+      "maj_gouv": "2026-06-19 11:31:26"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "58 QUAI BOISSY D'ANGLAS",
+      "cp": "78380",
+      "ville": "BOUGIVAL",
+      "prix": 1.888,
+      "distance": 6.12,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "280 Avenue Gabriel Péri",
+      "cp": "78360",
+      "ville": "MONTESSON",
+      "prix": 1.913,
+      "distance": 6.17,
+      "maj_gouv": "2026-06-18 05:21:59"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "1 Avenue du Général Sarrail",
+      "cp": "75016",
+      "ville": "PARIS",
+      "prix": 1.995,
+      "distance": 6.19,
+      "maj_gouv": "2026-06-12 06:33:25"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "AVENUE ROBERT SHUMANN",
+      "cp": "78500",
+      "ville": "SARTROUVILLE",
+      "prix": 1.87,
+      "distance": 6.22,
+      "maj_gouv": "2026-06-18 08:30:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "7 BOULEVARD MURAT",
+      "cp": "75016",
+      "ville": "PARIS",
+      "prix": 2.109,
+      "distance": 6.32,
+      "maj_gouv": "2026-06-19 11:37:03"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "12 AV JEAN MOULIN",
+      "cp": "78380",
+      "ville": "Bougival",
+      "prix": 1.889,
+      "distance": 6.35,
+      "maj_gouv": "2026-06-19 11:42:05"
+    },
+    {
+      "station": "Esso",
+      "adresse": "162 RUE VICTOR HUGO",
+      "cp": "92300",
+      "ville": "Levallois-Perret",
+      "prix": 1.879,
+      "distance": 6.39,
+      "maj_gouv": "2026-06-19 11:37:43"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "2 Avenue Gabriel Péri",
+      "cp": "95100",
+      "ville": "Argenteuil",
+      "prix": 1.912,
+      "distance": 6.55,
+      "maj_gouv": "2026-06-18 15:11:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "26 AV PAUL DOUMER",
+      "cp": "75016",
+      "ville": "PARIS",
+      "prix": 2.099,
+      "distance": 6.56,
+      "maj_gouv": "2026-06-19 11:37:09"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "5-7 BLD DES MARTYRS DE CHATEAUBRIAND",
+      "cp": "95100",
+      "ville": "Argenteuil",
+      "prix": 1.889,
+      "distance": 6.59,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "18 Boulevard de la République",
+      "cp": "92420",
+      "ville": "VAUCRESSON",
+      "prix": 1.883,
+      "distance": 6.66,
+      "maj_gouv": "2026-06-19 07:20:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "8 R DES MARTYRS CHATEAUBRIANT",
+      "cp": "95100",
+      "ville": "ARGENTEUIL",
+      "prix": 1.889,
+      "distance": 6.67,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "29-31 AVENUE MORIZET",
+      "cp": "92100",
+      "ville": "BOULOGNE BILLANCOURT",
+      "prix": 1.99,
+      "distance": 6.71,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "9 TER QUAI CONTI RN 13",
+      "cp": "78430",
+      "ville": "LOUVECIENNES",
+      "prix": 1.982,
+      "distance": 6.73,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "40 Avenue Gabriel Péri",
+      "cp": "78360",
+      "ville": "MONTESSON",
+      "prix": 1.89,
+      "distance": 6.83,
+      "maj_gouv": "2026-06-19 07:52:09"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2 AV DE LA PORTE DE ST CLOUD",
+      "cp": "75016",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 6.89,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "4 AVENUE SIMON VOUET",
+      "cp": "78560",
+      "ville": "Le Port-Marly",
+      "prix": 1.887,
+      "distance": 6.92,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "2/10 BLD FORT DE VAUX",
+      "cp": "75017",
+      "ville": "PARIS",
+      "prix": 1.879,
+      "distance": 6.94,
+      "maj_gouv": "2026-06-19 08:46:55"
+    },
+    {
+      "station": "Esso",
+      "adresse": "3-5 AVENUE DE LA PORTE D'ASNIERES",
+      "cp": "75017",
+      "ville": "PARIS",
+      "prix": 1.88,
+      "distance": 7.04,
+      "maj_gouv": "2025-08-04 10:22:45"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "143/145 BLD JEAN JAURES",
+      "cp": "92110",
+      "ville": "CLICHY",
+      "prix": 1.898,
+      "distance": 7.05,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "99 AVENUE DE VERSAILLES",
+      "cp": "75016",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 7.05,
+      "maj_gouv": "2026-06-19 07:25:09"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RN 311 QUAI ST DENIS",
+      "cp": "95100",
+      "ville": "Argenteuil",
+      "prix": 1.999,
+      "distance": 7.13,
+      "maj_gouv": "2026-06-18 11:28:23"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "21 Rue Louis Calmel",
+      "cp": "92230",
+      "ville": "GENNEVILLIERS",
+      "prix": 1.999,
+      "distance": 7.24,
+      "maj_gouv": "2026-06-16 08:58:10"
+    },
+    {
+      "station": "Avia",
+      "adresse": "21 AVENUE EMILE ZOLA",
+      "cp": "75015",
+      "ville": "PARIS",
+      "prix": 2.059,
+      "distance": 7.39,
+      "maj_gouv": "2026-06-17 23:23:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "37 AVENUE LUCIEN LANTERNIER",
+      "cp": "92230",
+      "ville": "GENNEVILLIERS",
+      "prix": 1.893,
+      "distance": 7.49,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "18 Avenue du Général de Gaulle",
+      "cp": "78600",
+      "ville": "Maisons-Laffitte",
+      "prix": 1.969,
+      "distance": 7.49,
+      "maj_gouv": "2026-06-19 11:29:08"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "QUAI D'ISSY LES MOULINEAUX",
+      "cp": "75015",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 7.7,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "164 Boulevard Haussmann",
+      "cp": "75008",
+      "ville": "PARIS",
+      "prix": 2.07,
+      "distance": 7.77,
+      "maj_gouv": "2026-06-17 07:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "120, ROUTE DE VERSAILLES",
+      "cp": "78160",
+      "ville": "Marly-le-Roi",
+      "prix": 1.976,
+      "distance": 7.81,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "190 AVENUE DE CLICHY",
+      "cp": "75017",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 7.92,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "263 BOULEVARD JEAN JAURES",
+      "cp": "92100",
+      "ville": "Boulogne-Billancourt",
+      "prix": 1.979,
+      "distance": 7.97,
+      "maj_gouv": "2026-06-19 11:39:30"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "101 AV.DE POISSY - RN.306",
+      "cp": "78600",
+      "ville": "Le Mesnil-le-Roi",
+      "prix": 1.876,
+      "distance": 8.01,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "46 Avenue du Président John F. Kennedy",
+      "cp": "78230",
+      "ville": "Le Pecq",
+      "prix": 1.91,
+      "distance": 8.15,
+      "maj_gouv": "2026-06-17 13:20:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "56 Avenue du Président John Fitzgerald Kennedy",
+      "cp": "78230",
+      "ville": "Le Pecq",
+      "prix": 1.883,
+      "distance": 8.19,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "272 AVENUE DES GRESILLONS",
+      "cp": "92600",
+      "ville": "Asnières-sur-Seine",
+      "prix": 1.99,
+      "distance": 8.32,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "64 Avenue Lucien-René Duchesne",
+      "cp": "78170",
+      "ville": "La Celle-Saint-Cloud",
+      "prix": 1.895,
+      "distance": 8.36,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "192 Avenue Louis Roche",
+      "cp": "92230",
+      "ville": "GENNEVILLIERS",
+      "prix": 1.899,
+      "distance": 8.4,
+      "maj_gouv": "2026-06-19 15:06:36"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "176 AVE STALINGRAD",
+      "cp": "95100",
+      "ville": "ARGENTEUIL",
+      "prix": 1.869,
+      "distance": 8.46,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "37 RUE FABERT",
+      "cp": "75007",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 8.49,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "18-22 BLD DES FRERES VOISIN",
+      "cp": "92130",
+      "ville": "Issy-les-Moulineaux",
+      "prix": 1.897,
+      "distance": 8.58,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "19 BD DES FRERES VOISINS",
+      "cp": "75015",
+      "ville": "Paris",
+      "prix": 1.905,
+      "distance": 8.59,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "151 Rue de la Convention",
+      "cp": "75015",
+      "ville": "Paris",
+      "prix": 2.059,
+      "distance": 8.59,
+      "maj_gouv": "2026-06-19 06:22:09"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "1 QUATER BOULEVARD VICTOR",
+      "cp": "75015",
+      "ville": "PARIS",
+      "prix": 1.969,
+      "distance": 8.64,
+      "maj_gouv": "2026-06-19 11:36:43"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "191 Rue de Versailles",
+      "cp": "92410",
+      "ville": "Ville-d'Avray",
+      "prix": 1.891,
+      "distance": 8.65,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "82 BLD GABRIEL PERI",
+      "cp": "95110",
+      "ville": "SANNOIS",
+      "prix": 1.872,
+      "distance": 8.75,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "27, 29, 31, Boulevard Clemenceau",
+      "cp": "95240",
+      "ville": "CORMEILLES-EN-PARISIS",
+      "prix": 1.962,
+      "distance": 8.81,
+      "maj_gouv": "2026-06-19 06:43:26"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "97 TER ROUTE DU PAVE DES GARDES",
+      "cp": "92190",
+      "ville": "MEUDON",
+      "prix": 1.99,
+      "distance": 8.84,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RUE JACQUES BREL",
+      "cp": "95100",
+      "ville": "ARGENTEUIL",
+      "prix": 1.969,
+      "distance": 8.98,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "32 AVENUE DE LA PORTE DE ST OUEN",
+      "cp": "75018",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 9.01,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "130 Avenue du Maréchal Foch",
+      "cp": "78100",
+      "ville": "SAINT-GERMAIN-EN-LAYE",
+      "prix": 1.97,
+      "distance": 9.08,
+      "maj_gouv": "2026-06-19 13:48:59"
+    },
+    {
+      "station": "Esso",
+      "adresse": "239 Route d'Enghien",
+      "cp": "95100",
+      "ville": "Argenteuil",
+      "prix": 1.969,
+      "distance": 9.12,
+      "maj_gouv": "2026-06-19 11:31:47"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "15 AV DU GENERAL PERSHING",
+      "cp": "78000",
+      "ville": "VERSAILLES",
+      "prix": 1.972,
+      "distance": 9.27,
+      "maj_gouv": "2026-06-18 20:50:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "145, rue de Versailles",
+      "cp": "78150",
+      "ville": "LE CHESNAY",
+      "prix": 1.899,
+      "distance": 9.3,
+      "maj_gouv": "2026-06-18 09:00:04"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "122 RUE DU PRESIDENT ROOSEVELT",
+      "cp": "78100",
+      "ville": "Saint-Germain-en-Laye",
+      "prix": 1.965,
+      "distance": 9.64,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "90/94 RUE DE VERSAILLES",
+      "cp": "78150",
+      "ville": "LE CHESNAY",
+      "prix": 1.958,
+      "distance": 9.65,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ANGLE RN 307 ET 317",
+      "cp": "78150",
+      "ville": "ROCQUENCOURT",
+      "prix": 1.909,
+      "distance": 9.68,
+      "maj_gouv": "2026-06-19 11:43:43"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "115 Avenue du Général de Gaulle",
+      "cp": "92130",
+      "ville": "Issy-les-Moulineaux",
+      "prix": 1.897,
+      "distance": 9.73,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "30 AV PTE CLIGNANCOURT",
+      "cp": "75018",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 10.04,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "59 RUE JEAN BLEUZEN",
+      "cp": "92170",
+      "ville": "VANVES",
+      "prix": 1.99,
+      "distance": 10.07,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "5 Rue de Vanves",
+      "cp": "92140",
+      "ville": "CLAMART",
+      "prix": 1.959,
+      "distance": 10.09,
+      "maj_gouv": "2026-06-19 11:31:48"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "18 ROUTE DE MAULE- D 307",
+      "cp": "78150",
+      "ville": "ROCQUENCOURT",
+      "prix": 1.874,
+      "distance": 10.15,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "56-74 AVENUE MICHELET",
+      "cp": "93400",
+      "ville": "Saint-Ouen",
+      "prix": 1.99,
+      "distance": 10.15,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "37 Avenue de Verdun",
+      "cp": "92390",
+      "ville": "Villeneuve-la-Garenne",
+      "prix": 2.099,
+      "distance": 10.22,
+      "maj_gouv": "2026-06-19 11:30:47"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "86 Avenue de Lattre de Tassigny",
+      "cp": "93800",
+      "ville": "Épinay-sur-Seine",
+      "prix": 1.896,
+      "distance": 10.32,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "52 bld st antoine",
+      "cp": "78150",
+      "ville": "LE CHESNAY",
+      "prix": 1.929,
+      "distance": 10.36,
+      "maj_gouv": "2026-06-16 10:41:13"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "154 Rue d'Alésia",
+      "cp": "75014",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 10.42,
+      "maj_gouv": "2026-06-09 06:40:34"
+    },
+    {
+      "station": "Avia",
+      "adresse": "22 Boulevard Gabriel Péri",
+      "cp": "92240",
+      "ville": "MALAKOFF",
+      "prix": 2.069,
+      "distance": 10.42,
+      "maj_gouv": "2026-06-18 07:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "175 BOULEVARD DE PONTOISE",
+      "cp": "95370",
+      "ville": "Montigny-lès-Cormeilles",
+      "prix": 1.863,
+      "distance": 10.46,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "60 AV DE LA REPUBLIQUE",
+      "cp": "78000",
+      "ville": "VERSAILLES",
+      "prix": 1.949,
+      "distance": 10.5,
+      "maj_gouv": "2026-06-19 11:44:03"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "9 Boulevard du Bel Air",
+      "cp": "95130",
+      "ville": "Franconville",
+      "prix": 1.868,
+      "distance": 10.65,
+      "maj_gouv": "2026-06-19 11:30:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "362 Rue du Général Leclerc",
+      "cp": "95130",
+      "ville": "FRANCONVILLE",
+      "prix": 1.859,
+      "distance": 10.77,
+      "maj_gouv": "2026-06-19 08:38:33"
+    },
+    {
+      "station": "Esso",
+      "adresse": "76 avenue Pierre LAROUSSE",
+      "cp": "92240",
+      "ville": "Malakoff",
+      "prix": 1.929,
+      "distance": 10.78,
+      "maj_gouv": "2026-06-19 11:30:08"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Avenue du Président Georges Pompidou",
+      "cp": "95120",
+      "ville": "ERMONT",
+      "prix": 1.92,
+      "distance": 10.91,
+      "maj_gouv": "2026-06-16 14:04:58"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "12 Avenue Pierre Brossolette",
+      "cp": "92242",
+      "ville": "MALAKOFF",
+      "prix": 1.923,
+      "distance": 11.04,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "66 Boulevard Victor Bordier",
+      "cp": "95370",
+      "ville": "MONTIGNY-LèS-CORMEILLES",
+      "prix": 1.879,
+      "distance": 11.2,
+      "maj_gouv": "2026-06-19 10:52:28"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RUE LEGION ETRANGERE",
+      "cp": "75014",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 11.2,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "211 Boulevard de Pontoise",
+      "cp": "95370",
+      "ville": "MONTIGNY-LES-CORMEILLES",
+      "prix": 1.979,
+      "distance": 11.22,
+      "maj_gouv": "2026-06-19 11:31:50"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "207-213 AVENUE DU PDT WILSON",
+      "cp": "93210",
+      "ville": "La plaine-saint-denis",
+      "prix": 1.99,
+      "distance": 11.24,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "48 AVENUE KELLERMANN",
+      "cp": "95600",
+      "ville": "EAUBONNE",
+      "prix": 1.961,
+      "distance": 11.32,
+      "maj_gouv": "2026-06-19 12:56:23"
+    },
+    {
+      "station": "Esso",
+      "adresse": "59 Avenue Kellermann",
+      "cp": "95230",
+      "ville": "Soisy-sous-Montmorency",
+      "prix": 1.998,
+      "distance": 11.36,
+      "maj_gouv": "2026-06-19 11:44:06"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "1 AVENUE CLAUDE TREBIGNAUD",
+      "cp": "92140",
+      "ville": "CLAMART",
+      "prix": 1.899,
+      "distance": 11.43,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "16 Rue du 18 Juin",
+      "cp": "95120",
+      "ville": "Ermont",
+      "prix": 1.999,
+      "distance": 11.44,
+      "maj_gouv": "2026-06-19 11:30:24"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "6 AVENUE CLAUDE TREBIGNAUD",
+      "cp": "92140",
+      "ville": "CLAMART",
+      "prix": 1.899,
+      "distance": 11.55,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "17 Route de Saint-Denis",
+      "cp": "95170",
+      "ville": "Deuil-la-Barre",
+      "prix": 1.925,
+      "distance": 11.56,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "28 Avenue de la Division Leclerc",
+      "cp": "95170",
+      "ville": "Deuil-la-Barre",
+      "prix": 2.049,
+      "distance": 11.57,
+      "maj_gouv": "2026-06-19 11:29:47"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "159 Route de Saint-Leu",
+      "cp": "93800",
+      "ville": "EPINAY SUR SEINE",
+      "prix": 1.883,
+      "distance": 11.58,
+      "maj_gouv": "2026-06-19 10:33:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "3 Rue André Lebourblanc",
+      "cp": "78590",
+      "ville": "NOISY-LE-ROI",
+      "prix": 1.909,
+      "distance": 11.62,
+      "maj_gouv": "2026-06-16 12:50:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "10 bis, Rue des États-Généraux",
+      "cp": "78000",
+      "ville": "VERSAILLES",
+      "prix": 1.98,
+      "distance": 11.62,
+      "maj_gouv": "2026-06-19 07:27:27"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "177 BD VICTOR BORDIER",
+      "cp": "95370",
+      "ville": "Montigny-lès-Cormeilles",
+      "prix": 1.865,
+      "distance": 11.69,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "53 ROUTE DE SAINT LEU",
+      "cp": "93800",
+      "ville": "Épinay-sur-Seine",
+      "prix": 1.989,
+      "distance": 11.75,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "2/6 RUE LOUIS BLANC",
+      "cp": "75010",
+      "ville": "Paris",
+      "prix": 1.897,
+      "distance": 12.0,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "71 RUE DES CHANTIERS",
+      "cp": "78000",
+      "ville": "VERSAILLES",
+      "prix": 1.891,
+      "distance": 12.01,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "BLD DU PERIPHERIQUE INTERIEUR",
+      "cp": "75019",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 12.15,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "4 Rue Dewoitine",
+      "cp": "78140",
+      "ville": "VéLIZY-VILLACOUBLAY",
+      "prix": 1.899,
+      "distance": 12.18,
+      "maj_gouv": "2026-06-19 10:32:24"
+    },
+    {
+      "station": "Avia",
+      "adresse": "91 Avenue Aristide Briand",
+      "cp": "92120",
+      "ville": "MONTROUGE",
+      "prix": 2.129,
+      "distance": 12.26,
+      "maj_gouv": "2026-06-03 09:15:51"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "BLD DU PERIPHERIQUE EXTERIEUR",
+      "cp": "75019",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 12.29,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "50 Rue du Pont Colbert",
+      "cp": "78000",
+      "ville": "Versailles",
+      "prix": 1.894,
+      "distance": 12.34,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "320 AV DU GENERAL DE GAULLE",
+      "cp": "92140",
+      "ville": "CLAMART",
+      "prix": 1.99,
+      "distance": 12.37,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "136 Rue Jules Ferry",
+      "cp": "95360",
+      "ville": "Montmagny",
+      "prix": 1.988,
+      "distance": 12.43,
+      "maj_gouv": "2026-06-17 11:11:22"
+    },
+    {
+      "station": "Esso",
+      "adresse": "231 Rue de Tolbiac",
+      "cp": "75013",
+      "ville": "Paris",
+      "prix": 2.1,
+      "distance": 12.44,
+      "maj_gouv": "2026-06-19 09:34:15"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "63 AVENUE DE PARIS",
+      "cp": "95230",
+      "ville": "SOISY-SOUS-MONTMORENCY",
+      "prix": 1.955,
+      "distance": 12.47,
+      "maj_gouv": "2026-06-19 06:59:06"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "5 Avenue Voltaire",
+      "cp": "95600",
+      "ville": "Eaubonne",
+      "prix": 1.928,
+      "distance": 12.49,
+      "maj_gouv": "2026-06-19 11:31:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "27,RUE LOUIS BREGUET",
+      "cp": "78140",
+      "ville": "VELIZY VILLACOUBLAY",
+      "prix": 1.919,
+      "distance": 12.52,
+      "maj_gouv": "2026-06-19 11:39:29"
+    },
+    {
+      "station": "Esso",
+      "adresse": "12 Avenue du Général de Gaulle",
+      "cp": "92220",
+      "ville": "Bagneux",
+      "prix": 1.989,
+      "distance": 12.52,
+      "maj_gouv": "2026-06-19 11:32:05"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "21 Avenue Jeanne et Maurice Dolivet",
+      "cp": "92260",
+      "ville": "Fontenay-aux-Roses",
+      "prix": 1.899,
+      "distance": 12.61,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A86 - AIRE DE VELIZY OUEST",
+      "cp": "78140",
+      "ville": "Vélizy-Villacoublay",
+      "prix": 1.975,
+      "distance": 12.64,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "112 AV P. VAILLANT COUTURIER",
+      "cp": "93200",
+      "ville": "Saint-Denis",
+      "prix": 1.989,
+      "distance": 12.67,
+      "maj_gouv": "2026-06-19 06:24:44"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AUTOROUTE A86",
+      "cp": "78350",
+      "ville": "Jouy-en-Josas",
+      "prix": 1.874,
+      "distance": 12.68,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "448 AV GENERAL DE GAULLE",
+      "cp": "92140",
+      "ville": "Clamart",
+      "prix": 1.899,
+      "distance": 12.7,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "114 BD DE L HOPITAL",
+      "cp": "75013",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 12.75,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "55 Rue de la Commune de Paris",
+      "cp": "93300",
+      "ville": "AUBERVILLIERS",
+      "prix": 1.896,
+      "distance": 12.79,
+      "maj_gouv": "2026-06-19 13:37:46"
+    },
+    {
+      "station": "Esso",
+      "adresse": "126 Avenue Victor Hugo",
+      "cp": "93300",
+      "ville": "Aubervilliers",
+      "prix": 1.989,
+      "distance": 12.82,
+      "maj_gouv": "2026-06-19 11:27:43"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "RN 13",
+      "cp": "78240",
+      "ville": "CHAMBOURCY",
+      "prix": 1.875,
+      "distance": 12.88,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "43 Avenue du Président Roosevelt",
+      "cp": "93300",
+      "ville": "Aubervilliers",
+      "prix": 1.919,
+      "distance": 12.88,
+      "maj_gouv": "2026-06-19 11:31:08"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "61 Boulevard DU HAVRE",
+      "cp": "95220",
+      "ville": "Herblay",
+      "prix": 1.886,
+      "distance": 12.89,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "41 Avenue du Général Leclerc",
+      "cp": "95390",
+      "ville": "Saint-Prix",
+      "prix": 1.919,
+      "distance": 12.94,
+      "maj_gouv": "2026-06-16 08:21:39"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "181, BOULEVARD VINCENT AURIOL",
+      "cp": "75013",
+      "ville": "PARIS",
+      "prix": 1.902,
+      "distance": 12.98,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "45 AV DE LA MALADRERIE",
+      "cp": "78300",
+      "ville": "POISSY",
+      "prix": 1.947,
+      "distance": 13.05,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "89 AV A. BRIAND",
+      "cp": "94110",
+      "ville": "ARCUEIL",
+      "prix": 1.99,
+      "distance": 13.08,
+      "maj_gouv": "2026-06-19 10:45:25"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Boulevard André Brémond",
+      "cp": "95320",
+      "ville": "Saint-Leu-la-Forêt",
+      "prix": 1.869,
+      "distance": 13.1,
+      "maj_gouv": "2026-06-19 11:29:23"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Avenue Clément Ader",
+      "cp": "78000",
+      "ville": "Versailles",
+      "prix": 1.869,
+      "distance": 13.18,
+      "maj_gouv": "2026-06-19 11:31:25"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "62-64 AVENUE DE LA REPUBLIQUE",
+      "cp": "93300",
+      "ville": "AUBERVILLIERS",
+      "prix": 1.99,
+      "distance": 13.2,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "3 avenue Wolfgang Amadeus Mozart",
+      "cp": "78260",
+      "ville": "ACHERES",
+      "prix": 1.894,
+      "distance": 13.31,
+      "maj_gouv": "2026-06-18 10:25:14"
+    },
+    {
+      "station": "Esso",
+      "adresse": "85 RUE JEANNE DARC",
+      "cp": "75013",
+      "ville": "PARIS",
+      "prix": 1.979,
+      "distance": 13.36,
+      "maj_gouv": "2026-06-19 11:37:23"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "36 Quai de la Rapée",
+      "cp": "75012",
+      "ville": "Paris",
+      "prix": 1.911,
+      "distance": 13.37,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "121 RUE MANIN",
+      "cp": "75019",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 13.4,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "23 Avenue Paul Doumer",
+      "cp": "94110",
+      "ville": "Arcueil",
+      "prix": 1.999,
+      "distance": 13.44,
+      "maj_gouv": "2026-06-19 11:32:07"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "67 Avenue Raspail",
+      "cp": "94250",
+      "ville": "Gentilly",
+      "prix": 1.928,
+      "distance": 13.5,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "Shell",
+      "adresse": "AIRE DU VAL DE GRACE",
+      "cp": "78140",
+      "ville": "VELIZY-VILLACOUBLAY",
+      "prix": 2.193,
+      "distance": 13.57,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "CENTRE COMMERCIAL LES PORTES DE TAVERNY",
+      "cp": "95150",
+      "ville": "TAVERNY",
+      "prix": 1.885,
+      "distance": 13.64,
+      "maj_gouv": "2026-06-18 09:05:07"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AV JEAN ROSTAND",
+      "cp": "95320",
+      "ville": "Saint-Leu-la-Forêt",
+      "prix": 1.864,
+      "distance": 13.75,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "421 Route de Conflans",
+      "cp": "95220",
+      "ville": "Herblay",
+      "prix": 1.949,
+      "distance": 13.8,
+      "maj_gouv": "2026-06-18 13:20:10"
+    },
+    {
+      "station": "Esso",
+      "adresse": "98T AV DE BOURG LA REINE",
+      "cp": "92220",
+      "ville": "BAGNEUX",
+      "prix": 1.989,
+      "distance": 13.93,
+      "maj_gouv": "2026-06-19 11:30:07"
+    },
+    {
+      "station": "Esso",
+      "adresse": "100 RUE CHARLES TILLON",
+      "cp": "93300",
+      "ville": "AUBERVILLIERS",
+      "prix": 1.999,
+      "distance": 13.97,
+      "maj_gouv": "2026-06-19 11:29:44"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "55, Route d'Andresy",
+      "cp": "78955",
+      "ville": "Carrières-sous-Poissy",
+      "prix": 1.874,
+      "distance": 13.98,
+      "maj_gouv": "2026-06-19 14:04:54"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "27 AVENUE DE LA PORTE D'ITALIE",
+      "cp": "75013",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 13.98,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "AVENUE DE LA DIVISION LECLERC",
+      "cp": "95150",
+      "ville": "TAVERNY",
+      "prix": 1.879,
+      "distance": 13.99,
+      "maj_gouv": "2026-06-19 11:37:08"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A15 - AIRE DE PIERRELAYE",
+      "cp": "95480",
+      "ville": "PIERRELAYE",
+      "prix": 1.946,
+      "distance": 14.06,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "20 Avenue Paul Vaillant-Couturier",
+      "cp": "94110",
+      "ville": "Arcueil",
+      "prix": 1.891,
+      "distance": 14.07,
+      "maj_gouv": "2026-06-19 11:32:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "70-74 AV ARISTIDE BRIAND",
+      "cp": "92120",
+      "ville": "MONTROUGE",
+      "prix": 2.109,
+      "distance": 14.08,
+      "maj_gouv": "2026-06-19 06:23:09"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "42, BOULEVARD JEAN MERMOZ",
+      "cp": "93380",
+      "ville": "Pierrefitte-sur-Seine",
+      "prix": 1.884,
+      "distance": 14.09,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "21 AV.DE STALINGRAD - COURS ST L",
+      "cp": "93240",
+      "ville": "STAINS",
+      "prix": 1.989,
+      "distance": 14.09,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Rue de la Reine Blanche",
+      "cp": "78955",
+      "ville": "Carrières-sous-Poissy",
+      "prix": 1.874,
+      "distance": 14.14,
+      "maj_gouv": "2026-06-19 13:19:49"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A1 - AIRE DE LA COURNEUVE EST",
+      "cp": "93120",
+      "ville": "LA COURNEUVE",
+      "prix": 1.99,
+      "distance": 14.14,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "32 rue de Reuilly",
+      "cp": "75012",
+      "ville": "Paris",
+      "prix": 2.089,
+      "distance": 14.14,
+      "maj_gouv": "2026-06-18 07:00:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "77 Avenue Ãdouard Depreux",
+      "cp": "92330",
+      "ville": "SCEAUX",
+      "prix": 1.999,
+      "distance": 14.21,
+      "maj_gouv": "2026-06-19 11:29:46"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "18 BD MARECHAL JOFFRE",
+      "cp": "92340",
+      "ville": "Bourg-la-Reine",
+      "prix": 1.99,
+      "distance": 14.31,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "AUTOROUTE A 15",
+      "cp": "95480",
+      "ville": "Pierrelaye",
+      "prix": 2.021,
+      "distance": 14.34,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "188 Avenue du Maréchal Foch",
+      "cp": "78700",
+      "ville": "CONFLANS-SAINTE-HONORINE",
+      "prix": 1.943,
+      "distance": 14.38,
+      "maj_gouv": "2026-06-19 07:18:56"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "80 BOULEVARD MAXIME GORKI",
+      "cp": "93240",
+      "ville": "STAINS",
+      "prix": 1.885,
+      "distance": 14.44,
+      "maj_gouv": "2026-06-19 07:21:48"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AUTOROUTE A1 - AIRE DE LA COURNEUVE OUEST - SENS LILLE/PARIS",
+      "cp": "93120",
+      "ville": "LA COURNEUVE",
+      "prix": 1.866,
+      "distance": 14.45,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "238 RUE DE CHARENTON",
+      "cp": "75012",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 14.57,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "185 BD JEAN MERMOZ",
+      "cp": "93380",
+      "ville": "Pierrefitte-sur-Seine",
+      "prix": 1.879,
+      "distance": 14.66,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ROUTE NATIONALE 184",
+      "cp": "78700",
+      "ville": "Conflans-Sainte-Honorine",
+      "prix": 1.939,
+      "distance": 14.66,
+      "maj_gouv": "2026-06-19 11:18:44"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "184 RN HAUTES COUTURES",
+      "cp": "78700",
+      "ville": "Conflans-Sainte-Honorine",
+      "prix": 1.939,
+      "distance": 14.71,
+      "maj_gouv": "2026-06-19 11:23:43"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "17 AVENUE MARCEL CACHIN",
+      "cp": "93240",
+      "ville": "STAINS",
+      "prix": 1.885,
+      "distance": 14.72,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Avenue de Fontainebleau",
+      "cp": "94270",
+      "ville": "LE KREMLIN-BICêTRE",
+      "prix": 1.919,
+      "distance": 14.77,
+      "maj_gouv": "2026-06-19 00:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "4 BLD HENRI BARBUSSE",
+      "cp": "78210",
+      "ville": "Saint-Cyr-l'École",
+      "prix": 1.862,
+      "distance": 14.85,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "130-132 AVENUE DU GENERAL LECLERC",
+      "cp": "93500",
+      "ville": "PANTIN",
+      "prix": 1.889,
+      "distance": 14.93,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "101 BLD MORTIER",
+      "cp": "75020",
+      "ville": "Paris",
+      "prix": 1.99,
+      "distance": 14.95,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "217 BOULEVARD MARECHAL DAVOUT",
+      "cp": "75020",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 14.98,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RUE DE TRIEL",
+      "cp": "78570",
+      "ville": "ANDRESY",
+      "prix": 1.925,
+      "distance": 14.99,
+      "maj_gouv": "2026-06-15 13:56:04"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "55 BLD DE PICPUS",
+      "cp": "75012",
+      "ville": "PARIS",
+      "prix": 1.99,
+      "distance": 15.09,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "30 RUE DE LA DEMENERIE",
+      "cp": "78330",
+      "ville": "FONTENAY-LE-FLEURY",
+      "prix": 1.839,
+      "distance": 15.16,
+      "maj_gouv": "2026-06-19 08:46:13"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "CD55 ROUTE DE POISSY CHANTELOUP",
+      "cp": "78570",
+      "ville": "Andrésy",
+      "prix": 1.976,
+      "distance": 15.17,
+      "maj_gouv": "2026-06-18 08:19:50"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Avenue de Domont",
+      "cp": "95160",
+      "ville": "MONTMORENCY",
+      "prix": 1.918,
+      "distance": 15.19,
+      "maj_gouv": "2026-06-17 09:00:34"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Avenue guyemer",
+      "cp": "78530",
+      "ville": "BUC",
+      "prix": 1.869,
+      "distance": 15.34,
+      "maj_gouv": "2026-06-19 15:12:15"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "109 Rue de l'Ambassadeur",
+      "cp": "78700",
+      "ville": "CONFLANS-SAINTE-HONORINE",
+      "prix": 1.839,
+      "distance": 15.44,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "238 RUE DE PARIS",
+      "cp": "93260",
+      "ville": "LES LILAS",
+      "prix": 1.888,
+      "distance": 15.45,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "141 Av. de la Division Leclerc",
+      "cp": "95200",
+      "ville": "SARCELLES",
+      "prix": 1.875,
+      "distance": 15.63,
+      "maj_gouv": "2026-06-19 09:59:11"
+    },
+    {
+      "station": "Système U",
+      "adresse": "ZAC DES MEUNIERS - 7 RUE STEPHANE HESSEL",
+      "cp": "95550",
+      "ville": "Bessancourt",
+      "prix": 1.882,
+      "distance": 15.63,
+      "maj_gouv": "2026-06-19 13:18:59"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "80, rue Saint Stenay",
+      "cp": "93700",
+      "ville": "DRANCY",
+      "prix": 1.896,
+      "distance": 15.67,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "13 Avenue Ampère",
+      "cp": "78180",
+      "ville": "MONTIGNY-LE-BRETONNEUX",
+      "prix": 1.953,
+      "distance": 15.68,
+      "maj_gouv": "2026-06-17 08:21:18"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "44-48 AVENUE DE LA REPUBLIQUE",
+      "cp": "93170",
+      "ville": "BAGNOLET",
+      "prix": 1.99,
+      "distance": 15.68,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Rue des Belles Hâtes",
+      "cp": "78700",
+      "ville": "CONFLANS-SAINTE-HONORINE",
+      "prix": 1.894,
+      "distance": 15.69,
+      "maj_gouv": "2026-06-19 12:51:50"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "47 AVENUE DU GENERAL DE GAULLE",
+      "cp": "95350",
+      "ville": "Saint-Brice-sous-Forêt",
+      "prix": 1.945,
+      "distance": 15.75,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "201-203 avenue de Stalingrad, 93240 Stains",
+      "cp": "93240",
+      "ville": "Stains",
+      "prix": 1.99,
+      "distance": 15.79,
+      "maj_gouv": "2026-06-19 13:08:30"
+    },
+    {
+      "station": "Esso",
+      "adresse": "79 AV. GEORGES GOSNAT",
+      "cp": "94200",
+      "ville": "IVRY SUR SEINE",
+      "prix": 2.039,
+      "distance": 15.97,
+      "maj_gouv": "2026-06-19 11:40:47"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "10 Rue Westermeyer",
+      "cp": "94200",
+      "ville": "IVRY-SUR-SEINE",
+      "prix": 1.911,
+      "distance": 16.05,
+      "maj_gouv": "2026-06-18 07:11:51"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "ROUTE DE 40 SOUS - RN113",
+      "cp": "78630",
+      "ville": "ORGEVAL",
+      "prix": 1.866,
+      "distance": 16.06,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "VOIE E8 LES SAULES - Avenue du 8 Mai 1945",
+      "cp": "78280",
+      "ville": "GUYANCOURT",
+      "prix": 1.861,
+      "distance": 16.08,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ROUTE NATIONALE 118",
+      "cp": "91570",
+      "ville": "Bièvres",
+      "prix": 1.899,
+      "distance": 16.08,
+      "maj_gouv": "2026-06-19 11:17:43"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "11 Avenue Jean Jaurès",
+      "cp": "78390",
+      "ville": "Bois-d'Arcy",
+      "prix": 1.849,
+      "distance": 16.09,
+      "maj_gouv": "2026-06-19 07:50:48"
+    },
+    {
+      "station": "Avia",
+      "adresse": "186 Avenue Gallieni",
+      "cp": "94160",
+      "ville": "SAINT-MANDé",
+      "prix": 2.199,
+      "distance": 16.09,
+      "maj_gouv": "2026-06-03 06:00:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "110 Boulevard Paul Vaillant-Couturier",
+      "cp": "94240",
+      "ville": "L'Hay-les-Roses",
+      "prix": 1.999,
+      "distance": 16.1,
+      "maj_gouv": "2026-06-19 11:31:12"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "CC ART DE VIVRE - CD 113",
+      "cp": "78630",
+      "ville": "ORGEVAL",
+      "prix": 1.866,
+      "distance": 16.15,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "BD DU MARECHAL JUIN",
+      "cp": "91370",
+      "ville": "Verrières-le-Buisson",
+      "prix": 1.897,
+      "distance": 16.24,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "117 BLD MAXIME GORKI",
+      "cp": "94800",
+      "ville": "VILLEJUIF",
+      "prix": 1.891,
+      "distance": 16.26,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN118",
+      "cp": "91570",
+      "ville": "Bièvres",
+      "prix": 1.874,
+      "distance": 16.3,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "22 AVENUE LENINE",
+      "cp": "93230",
+      "ville": "ROMAINVILLE",
+      "prix": 1.99,
+      "distance": 16.32,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "14 AV DU GENERAL DE GAULLE",
+      "cp": "94550",
+      "ville": "Chevilly-Larue",
+      "prix": 1.99,
+      "distance": 16.35,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "114 Rue de Paris",
+      "cp": "94220",
+      "ville": "Charenton-le-Pont",
+      "prix": 2.229,
+      "distance": 16.5,
+      "maj_gouv": "2026-06-03 06:00:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "20 avenue robert schumann",
+      "cp": "95350",
+      "ville": "SAINT-BRICE-SOUS-FORêT",
+      "prix": 1.875,
+      "distance": 16.6,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ROUTE NATIONALE 184",
+      "cp": "95610",
+      "ville": "Eragny-sur-Oise",
+      "prix": 1.989,
+      "distance": 16.65,
+      "maj_gouv": "2026-06-19 11:31:23"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "60 AV DE STALINGRAD",
+      "cp": "94800",
+      "ville": "VILLEJUIF",
+      "prix": 1.891,
+      "distance": 16.67,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "RN184, direction St germain",
+      "cp": "95610",
+      "ville": "ERAGNY-SUR-OISE",
+      "prix": 1.979,
+      "distance": 16.69,
+      "maj_gouv": "2026-06-18 11:24:45"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "41 BIS RUE PAUL VAILLANT COUTURI",
+      "cp": "78390",
+      "ville": "Bois-d'Arcy",
+      "prix": 1.858,
+      "distance": 16.7,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "86 RUE DE PARIS",
+      "cp": "93100",
+      "ville": "MONTREUIL",
+      "prix": 1.99,
+      "distance": 16.77,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "PLACE JOEL LE THEULE",
+      "cp": "78180",
+      "ville": "MONTIGNY-LE-BRETONNEUX",
+      "prix": 1.907,
+      "distance": 16.86,
+      "maj_gouv": "2026-06-19 06:19:31"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Avenue Nagelmackers.",
+      "cp": "78450",
+      "ville": "VILLEPREUX",
+      "prix": 1.909,
+      "distance": 16.96,
+      "maj_gouv": "2026-06-15 12:41:18"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RUE DE LA POINTE DE L'ANGE- RD",
+      "cp": "78340",
+      "ville": "Les Clayes-sous-Bois",
+      "prix": 1.947,
+      "distance": 17.11,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "18 Rue Jean Moulin",
+      "cp": "92160",
+      "ville": "Antony",
+      "prix": 1.901,
+      "distance": 17.17,
+      "maj_gouv": "2026-06-18 11:21:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "54 AVENUE LOUIS ARAGON",
+      "cp": "93000",
+      "ville": "BOBIGNY",
+      "prix": 1.891,
+      "distance": 17.26,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "116 Avenue Pasteur",
+      "cp": "78630",
+      "ville": "Orgeval",
+      "prix": 1.94,
+      "distance": 17.28,
+      "maj_gouv": "2026-06-19 08:03:32"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "14 AVENUE DU GENERAL DE GAULLE",
+      "cp": "95740",
+      "ville": "FREPILLON",
+      "prix": 1.861,
+      "distance": 17.3,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "7/9 AV DU 8 MAI 1945",
+      "cp": "93350",
+      "ville": "LE BOURGET",
+      "prix": 1.875,
+      "distance": 17.33,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "34 AV. HENRI BARBUSSE",
+      "cp": "94400",
+      "ville": "Vitry-sur-Seine",
+      "prix": 1.888,
+      "distance": 17.36,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "10 AV DE L'EUROPE",
+      "cp": "78280",
+      "ville": "GUYANCOURT",
+      "prix": 1.952,
+      "distance": 17.36,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "69, BOULEVARD VAUBAN",
+      "cp": "78180",
+      "ville": "MONTIGNY LE BRETONNEUX",
+      "prix": 1.866,
+      "distance": 17.41,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "19 AV JEAN JAURES",
+      "cp": "93000",
+      "ville": "BOBIGNY",
+      "prix": 1.909,
+      "distance": 17.45,
+      "maj_gouv": "2026-06-19 11:43:23"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "35-39 AVENUE HENRI BARBUSSE",
+      "cp": "93700",
+      "ville": "DRANCY",
+      "prix": 1.99,
+      "distance": 17.48,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ROUTE NATIONALE 444",
+      "cp": "91430",
+      "ville": "Igny",
+      "prix": 1.869,
+      "distance": 17.55,
+      "maj_gouv": "2026-06-19 11:21:03"
+    },
+    {
+      "station": "Esso",
+      "adresse": "52 RUE DE PARIS",
+      "cp": "95310",
+      "ville": "Saint-Ouen-l'Aumône",
+      "prix": 1.909,
+      "distance": 17.71,
+      "maj_gouv": "2026-06-19 11:31:45"
+    },
+    {
+      "station": "Esso",
+      "adresse": "16 Boulevard Aristide Briand",
+      "cp": "93100",
+      "ville": "Montreuil",
+      "prix": 1.899,
+      "distance": 17.81,
+      "maj_gouv": "2026-06-19 11:37:10"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2 avenue du lycée",
+      "cp": "95330",
+      "ville": "Domont",
+      "prix": 1.959,
+      "distance": 17.89,
+      "maj_gouv": "2026-06-17 07:08:43"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "43 QUAI AUGUSTE BLANQUI",
+      "cp": "94140",
+      "ville": "ALFORTVILLE",
+      "prix": 1.99,
+      "distance": 17.92,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Boulevard de la MUETTE",
+      "cp": "95140",
+      "ville": "GARGES-LèS-GONESSE",
+      "prix": 1.93,
+      "distance": 17.93,
+      "maj_gouv": "2026-06-16 10:52:40"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "103 Boulevard Circulaire E Fruileg",
+      "cp": "94594",
+      "ville": "RUNGIS",
+      "prix": 1.99,
+      "distance": 17.94,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "2 AV DU 8 MAI 1945",
+      "cp": "93150",
+      "ville": "Le Blanc-Mesnil",
+      "prix": 1.892,
+      "distance": 17.97,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue de la Grosse Pierre",
+      "cp": "78540",
+      "ville": "VERNOUILLET",
+      "prix": 1.923,
+      "distance": 18.07,
+      "maj_gouv": "2026-06-19 08:55:43"
+    },
+    {
+      "station": "Esso",
+      "adresse": "LIEUDIT LES 4 CHEMINS-RN1",
+      "cp": "95540",
+      "ville": "MERY SUR OISE",
+      "prix": 1.929,
+      "distance": 18.12,
+      "maj_gouv": "2026-06-19 11:19:06"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 184 - ZI VERT GALANT",
+      "cp": "95310",
+      "ville": "Saint-Ouen-l'Aumône",
+      "prix": 1.954,
+      "distance": 18.12,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "VOIE EXPRESS CD 117",
+      "cp": "91300",
+      "ville": "Massy",
+      "prix": 1.879,
+      "distance": 18.13,
+      "maj_gouv": "2026-06-19 11:17:23"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "20-30 RUE JULES AUFFRET",
+      "cp": "93130",
+      "ville": "Noisy-le-Sec",
+      "prix": 1.892,
+      "distance": 18.13,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AVENUE DES ERABLES",
+      "cp": "95400",
+      "ville": "Villiers-le-Bel",
+      "prix": 1.867,
+      "distance": 18.18,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 12 ROUTE DE DREUX",
+      "cp": "78390",
+      "ville": "Bois-d'Arcy",
+      "prix": 1.949,
+      "distance": 18.18,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 10",
+      "cp": "78190",
+      "ville": "TRAPPES",
+      "prix": 1.861,
+      "distance": 18.21,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "RN 1 - BP4",
+      "cp": "95331",
+      "ville": "Domont",
+      "prix": 1.889,
+      "distance": 18.21,
+      "maj_gouv": "2026-06-19 11:40:45"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A106 - AIRE DE RUNGIS DELTA PONDO",
+      "cp": "94150",
+      "ville": "RUNGIS",
+      "prix": 1.99,
+      "distance": 18.21,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "264 Avenue de Stalingrad",
+      "cp": "94550",
+      "ville": "Chevilly-Larue",
+      "prix": 1.898,
+      "distance": 18.25,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "192 Avenue Charles Floquet",
+      "cp": "93150",
+      "ville": "Le Blanc-Mesnil",
+      "prix": 1.899,
+      "distance": 18.26,
+      "maj_gouv": "2026-06-19 10:41:34"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "59 Avenue Charles Vaillant",
+      "cp": "95400",
+      "ville": "ARNOUVILLE",
+      "prix": 1.93,
+      "distance": 18.29,
+      "maj_gouv": "2026-06-19 10:03:30"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Rue de la Chasse",
+      "cp": "93130",
+      "ville": "Noisy-le-Sec",
+      "prix": 1.999,
+      "distance": 18.32,
+      "maj_gouv": "2026-06-19 06:26:43"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "100 AV DU PRESIDENT KENNEDY",
+      "cp": "92160",
+      "ville": "ANTONY",
+      "prix": 1.878,
+      "distance": 18.34,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Route de Palaiseau",
+      "cp": "91300",
+      "ville": "MASSY",
+      "prix": 1.87,
+      "distance": 18.38,
+      "maj_gouv": "2026-06-17 07:55:46"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "190 AVENUE DU MARÉCHAL LECLERC",
+      "cp": "91300",
+      "ville": "MASSY",
+      "prix": 1.888,
+      "distance": 18.42,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "159 Avenue Rouget de l'Isle",
+      "cp": "94400",
+      "ville": "Vitry-sur-Seine",
+      "prix": 1.897,
+      "distance": 18.43,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "40 ROUTE DE PALAISEAU",
+      "cp": "91300",
+      "ville": "MASSY",
+      "prix": 1.871,
+      "distance": 18.44,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "107 RUE DE BREMENT",
+      "cp": "93130",
+      "ville": "Noisy-le-Sec",
+      "prix": 1.969,
+      "distance": 18.49,
+      "maj_gouv": "2026-06-19 11:36:45"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ANGLE AV GROUETTES BLD L'HAUTIL",
+      "cp": "95000",
+      "ville": "Cergy",
+      "prix": 1.949,
+      "distance": 18.51,
+      "maj_gouv": "2026-06-19 06:25:07"
+    },
+    {
+      "station": "Esso",
+      "adresse": "140 Rue de Paris",
+      "cp": "93130",
+      "ville": "NOISY-LE-SEC",
+      "prix": 1.959,
+      "distance": 18.66,
+      "maj_gouv": "2026-06-19 07:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "11, AV DU GENERAL GABRIEL DELARUE",
+      "cp": "95300",
+      "ville": "PONTOISE",
+      "prix": 1.858,
+      "distance": 18.8,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE AUX FLEURS",
+      "cp": "78960",
+      "ville": "Voisins-le-Bretonneux",
+      "prix": 1.88,
+      "distance": 18.82,
+      "maj_gouv": "2026-06-17 17:52:46"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "11 avenue des Près",
+      "cp": "78180",
+      "ville": "Montigny le Bretonneux",
+      "prix": 1.89,
+      "distance": 18.88,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "CD 36",
+      "cp": "78960",
+      "ville": "VOISINS LE BRETONNEUX",
+      "prix": 1.919,
+      "distance": 18.88,
+      "maj_gouv": "2026-06-19 11:41:06"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Pontoise",
+      "cp": "95540",
+      "ville": "MéRY-SUR-OISE",
+      "prix": 1.857,
+      "distance": 18.94,
+      "maj_gouv": "2026-06-18 09:02:47"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "ROUTE D'ECOUEN RN 370",
+      "cp": "95460",
+      "ville": "EZANVILLE",
+      "prix": 1.941,
+      "distance": 19.02,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "151, RUE NOUVELLE France",
+      "cp": "93100",
+      "ville": "MONTREUIL",
+      "prix": 1.899,
+      "distance": 19.07,
+      "maj_gouv": "2026-06-19 11:39:11"
+    },
+    {
+      "station": "Système U",
+      "adresse": "56 Rue de la Libération",
+      "cp": "95440",
+      "ville": "Écouen",
+      "prix": 1.94,
+      "distance": 19.07,
+      "maj_gouv": "2026-06-17 08:06:25"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ROUTE NATIONALE 186",
+      "cp": "94150",
+      "ville": "RUNGIS",
+      "prix": 1.919,
+      "distance": 19.12,
+      "maj_gouv": "2026-06-19 11:18:03"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "100 Avenue de la République",
+      "cp": "95400",
+      "ville": "Arnouville-lès-Gonesse",
+      "prix": 1.964,
+      "distance": 19.15,
+      "maj_gouv": "2026-06-16 06:31:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "ROUTE DE CHOISY - RN186",
+      "cp": "94000",
+      "ville": "Créteil",
+      "prix": 1.899,
+      "distance": 19.16,
+      "maj_gouv": "2026-06-19 11:31:06"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ROUTE NATIONALE 186",
+      "cp": "94150",
+      "ville": "RUNGIS",
+      "prix": 1.919,
+      "distance": 19.16,
+      "maj_gouv": "2026-06-19 11:17:45"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A13 - AIRE DE MORAINVILLIERS NORD",
+      "cp": "78630",
+      "ville": "MORAINVILLIERS",
+      "prix": 1.99,
+      "distance": 19.21,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "7 BD GEORGES CLEMENCEAU",
+      "cp": "78480",
+      "ville": "Verneuil-sur-Seine",
+      "prix": 1.96,
+      "distance": 19.25,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Route Nationale 1",
+      "cp": "95570",
+      "ville": "MOISSELLES",
+      "prix": 1.865,
+      "distance": 19.26,
+      "maj_gouv": "2026-06-19 10:25:35"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Avenue de l'Europe",
+      "cp": "91300",
+      "ville": "Massy",
+      "prix": 1.871,
+      "distance": 19.26,
+      "maj_gouv": "2026-06-19 10:26:59"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "RN1",
+      "cp": "95570",
+      "ville": "Moisselles",
+      "prix": 1.884,
+      "distance": 19.27,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "27 Rue d'Épluches",
+      "cp": "95310",
+      "ville": "SAINT-OUEN-L'AUMONE",
+      "prix": 1.889,
+      "distance": 19.28,
+      "maj_gouv": "2026-06-19 10:33:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A13 - AIRE DE MORAINVILLIERS SUD",
+      "cp": "78630",
+      "ville": "MORAINVILLIERS",
+      "prix": 1.99,
+      "distance": 19.33,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "99 AVENUE DU GL LECLERC",
+      "cp": "94700",
+      "ville": "MAISONS-ALFORT",
+      "prix": 2.149,
+      "distance": 19.4,
+      "maj_gouv": "2026-06-03 06:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "135 AV DU GENERAL LECLERC",
+      "cp": "94700",
+      "ville": "Maisons-Alfort",
+      "prix": 1.99,
+      "distance": 19.43,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "236 Avenue de la République",
+      "cp": "94120",
+      "ville": "Fontenay-sous-Bois",
+      "prix": 2.129,
+      "distance": 19.43,
+      "maj_gouv": "2026-06-09 06:51:58"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "48-54 BOULEVARD THEOPHILE SUEUR",
+      "cp": "93100",
+      "ville": "MONTREUIL",
+      "prix": 1.886,
+      "distance": 19.44,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "19 RUE GABRIEL PERI",
+      "cp": "95500",
+      "ville": "GONESSE",
+      "prix": 1.859,
+      "distance": 19.46,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "5 Avenue Léon Blum",
+      "cp": "94700",
+      "ville": "Maisons-Alfort",
+      "prix": 1.898,
+      "distance": 19.53,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "CD 161",
+      "cp": "78370",
+      "ville": "PLAISIR",
+      "prix": 1.859,
+      "distance": 19.54,
+      "maj_gouv": "2026-06-19 09:10:45"
+    },
+    {
+      "station": "Esso",
+      "adresse": "334 THAIS SUD C.C Belle Epine",
+      "cp": "94651",
+      "ville": "Thiais",
+      "prix": 1.989,
+      "distance": 19.61,
+      "maj_gouv": "2026-06-19 11:31:28"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "1 Rue Georges Pompidou",
+      "cp": "95500",
+      "ville": "GONESSE",
+      "prix": 1.919,
+      "distance": 19.74,
+      "maj_gouv": "2026-06-18 07:58:17"
+    },
+    {
+      "station": "Esso",
+      "adresse": "60 - 68 PAUL VAILLANT COUTURIER",
+      "cp": "93150",
+      "ville": "Le Blanc-Mesnil",
+      "prix": 1.949,
+      "distance": 19.9,
+      "maj_gouv": "2026-06-19 11:28:25"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "14 Boulevard de Stalingrad",
+      "cp": "94600",
+      "ville": "Choisy-le-Roi",
+      "prix": 1.907,
+      "distance": 19.92,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "36 Avenue de Lugo",
+      "cp": "94600",
+      "ville": "CHOISY-LE-ROI",
+      "prix": 1.859,
+      "distance": 19.94,
+      "maj_gouv": "2026-06-19 09:51:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "1 Avenue Armand Esders",
+      "cp": "93150",
+      "ville": "LE BLANC-MESNIL",
+      "prix": 1.899,
+      "distance": 19.97,
+      "maj_gouv": "2026-06-19 10:46:54"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "4 Chaussée Jules César",
+      "cp": "95520",
+      "ville": "OSNY",
+      "prix": 1.938,
+      "distance": 20.0,
+      "maj_gouv": "2026-06-19 09:01:06"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "140 AVENUE DE LA REPUBLIQUE",
+      "cp": "93150",
+      "ville": "Le Blanc-Mesnil",
+      "prix": 1.988,
+      "distance": 20.0,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "33 AV.DE LUGO",
+      "cp": "94600",
+      "ville": "Choisy-le-Roi",
+      "prix": 1.956,
+      "distance": 20.02,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "108 Avenue Gallieni",
+      "cp": "93140",
+      "ville": "Bondy",
+      "prix": 1.891,
+      "distance": 20.11,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "12/14 BD.GABRIEL PERI - TOTAL",
+      "cp": "93110",
+      "ville": "Rosny-sous-Bois",
+      "prix": 1.99,
+      "distance": 20.16,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "4 Rue des Rosiers",
+      "cp": "78480",
+      "ville": "Verneuil-sur-Seine",
+      "prix": 1.923,
+      "distance": 20.27,
+      "maj_gouv": "2026-06-19 11:16:11"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "centre commerciale Brigitte",
+      "cp": "78370",
+      "ville": "PLAISIR",
+      "prix": 1.859,
+      "distance": 20.3,
+      "maj_gouv": "2026-06-19 09:21:02"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "Route Départementale 316",
+      "cp": "95440",
+      "ville": "ÉCOUEN",
+      "prix": 2.09,
+      "distance": 20.3,
+      "maj_gouv": "2026-06-18 15:30:23"
+    },
+    {
+      "station": "Esso",
+      "adresse": "175 AV MAL GALLIENI",
+      "cp": "93140",
+      "ville": "BONDY",
+      "prix": 1.999,
+      "distance": 20.38,
+      "maj_gouv": "2026-06-19 11:44:05"
+    },
+    {
+      "station": "Esso",
+      "adresse": "39 RUE CHAPSAL",
+      "cp": "94340",
+      "ville": "Joinville-le-Pont",
+      "prix": 1.999,
+      "distance": 20.43,
+      "maj_gouv": "2026-06-19 11:32:04"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "1 avenue le Verrier",
+      "cp": "78190",
+      "ville": "Trappes",
+      "prix": 1.859,
+      "distance": 20.58,
+      "maj_gouv": "2026-06-18 09:41:15"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 370",
+      "cp": "95500",
+      "ville": "GONESSE",
+      "prix": 1.95,
+      "distance": 20.58,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "1 AV MARTIN LUTHER KING",
+      "cp": "78190",
+      "ville": "TRAPPES",
+      "prix": 1.909,
+      "distance": 20.65,
+      "maj_gouv": "2026-06-19 11:40:25"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "205 Avenue Gallieni",
+      "cp": "93140",
+      "ville": "Bondy",
+      "prix": 1.891,
+      "distance": 20.67,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "110 BD DE STRASBOURG",
+      "cp": "93600",
+      "ville": "Aulnay-sous-Bois",
+      "prix": 2.15,
+      "distance": 20.68,
+      "maj_gouv": "2026-06-02 17:34:18"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1 RUE DES LANCES",
+      "cp": "94537",
+      "ville": "ORLY",
+      "prix": 1.99,
+      "distance": 20.69,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "rue vincent van gogh",
+      "cp": "78114",
+      "ville": "MAGNY-LES-HAMEAUX",
+      "prix": 1.909,
+      "distance": 20.72,
+      "maj_gouv": "2026-06-19 07:17:46"
+    },
+    {
+      "station": "Avia",
+      "adresse": "Route Nationale 188 déviée",
+      "cp": "91160",
+      "ville": "Champlan",
+      "prix": 1.999,
+      "distance": 20.75,
+      "maj_gouv": "2026-06-18 23:50:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "106 AVENUE LA VICTOIRE",
+      "cp": "94310",
+      "ville": "ORLY",
+      "prix": 1.882,
+      "distance": 20.77,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "30 Avenue du Professeur Emile SERGENT",
+      "cp": "78680",
+      "ville": "ÉPôNE",
+      "prix": 1.958,
+      "distance": 20.78,
+      "maj_gouv": "2026-06-19 07:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "63 Avenue du Général de Gaulle",
+      "cp": "94000",
+      "ville": "Créteil",
+      "prix": 1.889,
+      "distance": 20.79,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RUE PT GAL DE GAULLE",
+      "cp": "94120",
+      "ville": "Fontenay-sous-Bois",
+      "prix": 1.899,
+      "distance": 20.79,
+      "maj_gouv": "2026-06-19 11:35:03"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "LIEUDIT LE CHAMP POURRI CD 915",
+      "cp": "95520",
+      "ville": "OSNY",
+      "prix": 1.899,
+      "distance": 20.79,
+      "maj_gouv": "2026-06-19 06:23:11"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "ZONE DE PARINOR SECTEUR N°2",
+      "cp": "93600",
+      "ville": "Aulnay-sous-Bois",
+      "prix": 1.884,
+      "distance": 20.84,
+      "maj_gouv": "2026-06-19 11:15:51"
+    },
+    {
+      "station": "Esso",
+      "adresse": "17/19 BD DE L'EUROPE",
+      "cp": "94340",
+      "ville": "JOINVILLE LE PONT",
+      "prix": 1.959,
+      "distance": 20.85,
+      "maj_gouv": "2026-06-19 11:41:46"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RUE DE LONGJUMEAU RUE AMPERE",
+      "cp": "91380",
+      "ville": "Chilly-Mazarin",
+      "prix": 1.899,
+      "distance": 21.03,
+      "maj_gouv": "2026-06-19 11:42:43"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "CHEMIN DE BRIIS CD 59",
+      "cp": "91140",
+      "ville": "Villebon-sur-Yvette",
+      "prix": 1.874,
+      "distance": 21.12,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "128, BOULEVARD DE STRASBOURG",
+      "cp": "94130",
+      "ville": "Nogent-sur-Marne",
+      "prix": 1.99,
+      "distance": 21.13,
+      "maj_gouv": "2026-06-19 09:54:29"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A86 AIRE DE CARREFOUR POMPADOUR",
+      "cp": "94000",
+      "ville": "Créteil",
+      "prix": 1.99,
+      "distance": 21.2,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "9 RD 104",
+      "cp": "95570",
+      "ville": "ATTAINVILLE",
+      "prix": 1.929,
+      "distance": 21.28,
+      "maj_gouv": "2026-06-19 11:19:08"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "27 Route Départementale 307",
+      "cp": "78121",
+      "ville": "Crespières",
+      "prix": 1.99,
+      "distance": 21.28,
+      "maj_gouv": "2026-06-15 16:57:18"
+    },
+    {
+      "station": "Avia",
+      "adresse": "SARL Jaby, ORLY Ouest 453",
+      "cp": "94542",
+      "ville": "ORLY",
+      "prix": 1.999,
+      "distance": 21.3,
+      "maj_gouv": "2026-06-03 00:14:33"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "ROUTE DE CHOISY RN 186",
+      "cp": "94000",
+      "ville": "Créteil",
+      "prix": 1.889,
+      "distance": 21.35,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AUTOROUTE A86 CARRE.POMPADOUR",
+      "cp": "94000",
+      "ville": "Créteil",
+      "prix": 1.878,
+      "distance": 21.37,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Chemin des Hayettes",
+      "cp": "95520",
+      "ville": "Osny",
+      "prix": 1.879,
+      "distance": 21.37,
+      "maj_gouv": "2026-06-19 10:33:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Boulevard d'Osny",
+      "cp": "95800",
+      "ville": "Cergy",
+      "prix": 1.928,
+      "distance": 21.37,
+      "maj_gouv": "2026-06-17 16:41:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RUE MICHEL ANGE ROUTE N 370",
+      "cp": "93600",
+      "ville": "Aulnay-sous-Bois",
+      "prix": 1.989,
+      "distance": 21.46,
+      "maj_gouv": "2026-06-19 11:40:05"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "264 Avenue du Général de Gaulle",
+      "cp": "94170",
+      "ville": "Le Perreux-sur-Marne",
+      "prix": 1.89,
+      "distance": 21.55,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "PLACE DE BEAUPLAN",
+      "cp": "78470",
+      "ville": "SAINT-RéMY-LèS-CHEVREUSE",
+      "prix": 1.937,
+      "distance": 21.56,
+      "maj_gouv": "2026-06-15 09:34:50"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "BLD MARC CHAGALL",
+      "cp": "93600",
+      "ville": "Aulnay-sous-Bois",
+      "prix": 1.99,
+      "distance": 21.65,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "17 RUE ARCHANGE",
+      "cp": "91400",
+      "ville": "ORSAY",
+      "prix": 1.95,
+      "distance": 21.72,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "38 ROUTE DE LONGJUMEAU",
+      "cp": "91380",
+      "ville": "Chilly-Mazarin",
+      "prix": 1.98,
+      "distance": 21.77,
+      "maj_gouv": "2026-06-11 09:14:18"
+    },
+    {
+      "station": "Esso",
+      "adresse": "32 AV DE ROSNY",
+      "cp": "93250",
+      "ville": "VILLEMOMBLE",
+      "prix": 1.999,
+      "distance": 21.79,
+      "maj_gouv": "2026-06-19 06:25:43"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "22 Avenue Pierre Brossolette",
+      "cp": "94000",
+      "ville": "Créteil",
+      "prix": 1.882,
+      "distance": 21.8,
+      "maj_gouv": "2026-06-19 11:32:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "32 RUE JACQUES DUCLOS",
+      "cp": "93600",
+      "ville": "Aulnay-sous-Bois",
+      "prix": 1.949,
+      "distance": 21.84,
+      "maj_gouv": "2026-06-19 11:32:28"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "27 AV DU GENERAL LECLERC",
+      "cp": "91190",
+      "ville": "Gif-sur-Yvette",
+      "prix": 1.969,
+      "distance": 21.85,
+      "maj_gouv": "2026-06-18 22:07:31"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "119 Avenue du Général de Gaulle",
+      "cp": "94000",
+      "ville": "Créteil",
+      "prix": 1.863,
+      "distance": 22.09,
+      "maj_gouv": "2026-06-18 09:53:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "44-46 Avenue de BRY",
+      "cp": "94170",
+      "ville": "LE PERREUX SUR MARNE",
+      "prix": 2.084,
+      "distance": 22.14,
+      "maj_gouv": "2026-06-18 07:00:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "8 Place Gaston Viens",
+      "cp": "94310",
+      "ville": "Orly",
+      "prix": 1.85,
+      "distance": 22.19,
+      "maj_gouv": "2026-06-19 08:38:49"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "262 AVENUE ARISTIDE BRIAND",
+      "cp": "93320",
+      "ville": "Les Pavillons-sous-Bois",
+      "prix": 1.99,
+      "distance": 22.22,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "155 AVENUE DU GENERAL LECLERC",
+      "cp": "91190",
+      "ville": "Gif-sur-Yvette",
+      "prix": 1.872,
+      "distance": 22.25,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "97 AVENUE GENERAL DE GAULLE",
+      "cp": "94500",
+      "ville": "Champigny-sur-Marne",
+      "prix": 1.949,
+      "distance": 22.36,
+      "maj_gouv": "2026-06-18 11:34:33"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "114 AV. DU GENERAL DE GAULLE",
+      "cp": "94500",
+      "ville": "CHAMPIGNY SUR MARNE",
+      "prix": 1.99,
+      "distance": 22.43,
+      "maj_gouv": "2026-06-19 11:19:22"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "chemin du Poirier Charles Guérin",
+      "cp": "95520",
+      "ville": "OSNY",
+      "prix": 1.879,
+      "distance": 22.61,
+      "maj_gouv": "2026-06-19 11:25:26"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue Isaac Newton",
+      "cp": "93600",
+      "ville": "Aulnay-sous-Bois",
+      "prix": 1.949,
+      "distance": 22.62,
+      "maj_gouv": "2026-06-04 09:19:18"
+    },
+    {
+      "station": "Esso",
+      "adresse": "10 Rue Pierre Brossolette",
+      "cp": "91380",
+      "ville": "Chilly-Mazarin",
+      "prix": 1.899,
+      "distance": 22.63,
+      "maj_gouv": "2026-06-19 11:32:27"
+    },
+    {
+      "station": "Esso",
+      "adresse": "57 BD DE CRETEIL",
+      "cp": "94100",
+      "ville": "Saint-Maur-des-Fossés",
+      "prix": 1.979,
+      "distance": 22.63,
+      "maj_gouv": "2026-06-18 18:02:23"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "32 AV. PIERRE BROSSOLETTE",
+      "cp": "91380",
+      "ville": "Chilly-Mazarin",
+      "prix": 1.947,
+      "distance": 22.73,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE NEUVE",
+      "cp": "95650",
+      "ville": "PUISEUX-PONTOISE",
+      "prix": 1.894,
+      "distance": 22.79,
+      "maj_gouv": "2026-06-17 12:13:53"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "CHEMIN DEPARTEMENTAL 43",
+      "cp": "78920",
+      "ville": "ECQUEVILLY",
+      "prix": 1.909,
+      "distance": 22.79,
+      "maj_gouv": "2026-06-19 11:39:03"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "7 Avenue Pierre Brossolette",
+      "cp": "91380",
+      "ville": "Chilly-Mazarin",
+      "prix": 1.948,
+      "distance": 22.81,
+      "maj_gouv": "2026-06-11 06:31:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "Réservée aux Membres Costco, 3 avenue de Bréhat",
+      "cp": "91140",
+      "ville": "VILLEBON-SUR-YVETTE",
+      "prix": 1.829,
+      "distance": 22.87,
+      "maj_gouv": "2026-06-19 09:00:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "CHEVRY BELLEVILLE",
+      "cp": "91190",
+      "ville": "GIF-SUR-YVETTE",
+      "prix": 1.88,
+      "distance": 22.95,
+      "maj_gouv": "2026-06-19 09:19:58"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "69 Avenue Charles de Gaulle",
+      "cp": "91420",
+      "ville": "MORANGIS",
+      "prix": 1.939,
+      "distance": 22.99,
+      "maj_gouv": "2026-05-29 10:05:08"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Rue des Buttes",
+      "cp": "93420",
+      "ville": "Villepinte",
+      "prix": 1.889,
+      "distance": 23.01,
+      "maj_gouv": "2026-06-19 11:31:13"
+    },
+    {
+      "station": "Esso",
+      "adresse": "50 avenue john fitzgerald kennedy",
+      "cp": "93270",
+      "ville": "SEVRAN",
+      "prix": 2.099,
+      "distance": 23.01,
+      "maj_gouv": "2026-06-16 12:10:29"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "70 Boulevard Marx Dormoy",
+      "cp": "93190",
+      "ville": "LIVRY-GARGAN",
+      "prix": 1.919,
+      "distance": 23.06,
+      "maj_gouv": "2026-06-18 10:16:05"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "1 rue Jacques Anquetil",
+      "cp": "95190",
+      "ville": "GOUSSAINVILLE",
+      "prix": 1.881,
+      "distance": 23.19,
+      "maj_gouv": "2026-06-18 22:39:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "ROND-POINT DE L'HOTEL DE VILLE",
+      "cp": "78990",
+      "ville": "ELANCOURT",
+      "prix": 1.86,
+      "distance": 23.24,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "9 TER BD MARECHAL FOCH",
+      "cp": "93330",
+      "ville": "Neuilly-sur-Marne",
+      "prix": 1.99,
+      "distance": 23.29,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "CD 916 - ROUTE DE GISORS",
+      "cp": "95650",
+      "ville": "GENICOURT",
+      "prix": 1.856,
+      "distance": 23.37,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "180 ROUTE NATIONALE 7",
+      "cp": "91200",
+      "ville": "ATHIS-MONS",
+      "prix": 1.859,
+      "distance": 23.38,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "64 AVENUE FOCH",
+      "cp": "94100",
+      "ville": "SAINT-MAUR-DES-FOSSÉS",
+      "prix": 2.049,
+      "distance": 23.41,
+      "maj_gouv": "2026-06-03 06:20:53"
+    },
+    {
+      "station": "Esso",
+      "adresse": "137 Avenue Aristide Briand",
+      "cp": "93190",
+      "ville": "LIVRY-GARGAN",
+      "prix": 1.989,
+      "distance": 23.43,
+      "maj_gouv": "2026-06-19 11:28:23"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "57, Rue Delerue",
+      "cp": "94100",
+      "ville": "SAINT-MAUR-DES-FOSSéS",
+      "prix": 1.925,
+      "distance": 23.49,
+      "maj_gouv": "2026-06-19 06:46:29"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "247 AV CHARLES DE GAULLE",
+      "cp": "94500",
+      "ville": "Champigny-sur-Marne",
+      "prix": 1.99,
+      "distance": 23.49,
+      "maj_gouv": "2026-05-04 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "20 Rue Winston Churchill",
+      "cp": "94190",
+      "ville": "Villeneuve-Saint-Georges",
+      "prix": 1.872,
+      "distance": 23.52,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Avenue des Cévennes",
+      "cp": "91940",
+      "ville": "Les Ulis",
+      "prix": 1.869,
+      "distance": 23.53,
+      "maj_gouv": "2026-06-19 06:21:06"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "32/38 AV DE LA GARE",
+      "cp": "95190",
+      "ville": "GOUSSAINVILLE",
+      "prix": 1.956,
+      "distance": 23.6,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "avenue blaise pascal",
+      "cp": "91420",
+      "ville": "MORANGIS",
+      "prix": 1.88,
+      "distance": 23.61,
+      "maj_gouv": "2026-06-19 07:44:23"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "12 Allée de la Fosse-Maussoin",
+      "cp": "93390",
+      "ville": "CLICHY-SOUS-BOIS",
+      "prix": 1.883,
+      "distance": 23.8,
+      "maj_gouv": "2026-06-19 10:33:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "99/101 Avenue Foch",
+      "cp": "94100",
+      "ville": "Saint-Maur-des-Fossés",
+      "prix": 1.889,
+      "distance": 23.82,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "1 AV DE L OCEANIE ZAC COURTABOEU",
+      "cp": "91940",
+      "ville": "LES ULIS",
+      "prix": 1.863,
+      "distance": 23.85,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "4 AV DE L'OCEANIE - ZAC COURTAB",
+      "cp": "91940",
+      "ville": "LES ULIS",
+      "prix": 1.863,
+      "distance": 23.85,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "2 Route de Gometz",
+      "cp": "91190",
+      "ville": "Gif-sur-Yvette",
+      "prix": 1.919,
+      "distance": 23.86,
+      "maj_gouv": "2026-06-18 11:21:25"
+    },
+    {
+      "station": "Esso",
+      "adresse": "38 AV DE MORANGIS",
+      "cp": "91200",
+      "ville": "ATHIS MONS",
+      "prix": 1.919,
+      "distance": 23.88,
+      "maj_gouv": "2026-06-19 11:36:27"
+    },
+    {
+      "station": "Esso",
+      "adresse": "29 Avenue du Général Leclerc",
+      "cp": "93270",
+      "ville": "SEVRAN",
+      "prix": 1.979,
+      "distance": 23.94,
+      "maj_gouv": "2026-06-19 11:31:44"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AVENUE DE LANGRES",
+      "cp": "78310",
+      "ville": "MAUREPAS",
+      "prix": 1.945,
+      "distance": 23.99,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "4 Boulevard du Maréchal Foch",
+      "cp": "93160",
+      "ville": "Noisy-le-Grand",
+      "prix": 1.969,
+      "distance": 24.05,
+      "maj_gouv": "2026-06-10 08:00:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "44 rue Sablonnière",
+      "cp": "94460",
+      "ville": "Valenton",
+      "prix": 1.951,
+      "distance": 24.12,
+      "maj_gouv": "2026-06-09 09:54:05"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "29 AV. PAUL RAOULT",
+      "cp": "78130",
+      "ville": "LES MUREAUX",
+      "prix": 1.866,
+      "distance": 24.13,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Centre Commercial Ulis 2",
+      "cp": "91940",
+      "ville": "LES ULIS",
+      "prix": 1.861,
+      "distance": 24.21,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "232 RUE DE PARIS",
+      "cp": "94190",
+      "ville": "Villeneuve-Saint-Georges",
+      "prix": 1.98,
+      "distance": 24.24,
+      "maj_gouv": "2026-06-19 08:19:43"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "182, RUE ALBERT SARRAUT",
+      "cp": "95190",
+      "ville": "GOUSSAINVILLE",
+      "prix": 1.865,
+      "distance": 24.28,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "44 AVENUE DE PARIS",
+      "cp": "95290",
+      "ville": "L'Isle-Adam",
+      "prix": 1.932,
+      "distance": 24.28,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "ROUTE DES PETITS PONTS",
+      "cp": "93270",
+      "ville": "Sevran",
+      "prix": 1.884,
+      "distance": 24.33,
+      "maj_gouv": "2026-06-19 14:59:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "16, Route de Mante",
+      "cp": "78124",
+      "ville": "Mareil sur Mauldre",
+      "prix": 1.889,
+      "distance": 24.36,
+      "maj_gouv": "2026-06-19 07:45:37"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "ROUTE DE LA POMPADOUR",
+      "cp": "94380",
+      "ville": "Bonneuil-sur-Marne",
+      "prix": 1.918,
+      "distance": 24.37,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "22 Route de Neuilly",
+      "cp": "93160",
+      "ville": "Noisy-le-Grand",
+      "prix": 1.885,
+      "distance": 24.42,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Avenue Camille Desmoulins",
+      "cp": "91260",
+      "ville": "JUVISY-SUR-ORGE",
+      "prix": 1.919,
+      "distance": 24.51,
+      "maj_gouv": "2026-06-17 03:51:09"
+    },
+    {
+      "station": "ENI",
+      "adresse": "32 Avenue le Foll",
+      "cp": "94290",
+      "ville": "VILLENEUVE-LE-ROI",
+      "prix": 1.937,
+      "distance": 24.54,
+      "maj_gouv": "2026-06-18 06:51:06"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "31 ROUTE D'ORLEANS",
+      "cp": "91160",
+      "ville": "BALLAINVILLIERS",
+      "prix": 1.875,
+      "distance": 24.57,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RD.191",
+      "cp": "78650",
+      "ville": "Beynes",
+      "prix": 1.941,
+      "distance": 24.6,
+      "maj_gouv": "2026-06-18 19:21:15"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "32 ROUTE DU PONTEL",
+      "cp": "78760",
+      "ville": "Jouars-Pontchartrain",
+      "prix": 1.858,
+      "distance": 24.8,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "BD ROBERT BALLANGER D115",
+      "cp": "93420",
+      "ville": "VILLEPINTE",
+      "prix": 1.885,
+      "distance": 24.82,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "5 AVENUE DES ROSES",
+      "cp": "94380",
+      "ville": "BONNEUIL SUR MARNE",
+      "prix": 1.843,
+      "distance": 24.99,
+      "maj_gouv": "2026-06-19 07:15:45"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "186, avenue jean-jaurès",
+      "cp": "93370",
+      "ville": "MONTFERMEIL",
+      "prix": 1.899,
+      "distance": 25.0,
+      "maj_gouv": "2026-06-19 11:03:33"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "156 Rue Alexandre Fourny",
+      "cp": "94500",
+      "ville": "Champigny-sur-Marne",
+      "prix": 1.843,
+      "distance": 25.03,
+      "maj_gouv": "2026-06-19 05:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN14 - LIEU DIT LA MARLIERE",
+      "cp": "95450",
+      "ville": "SAGY",
+      "prix": 1.866,
+      "distance": 25.16,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "1 Rue de Paris",
+      "cp": "94370",
+      "ville": "Sucy-en-Brie",
+      "prix": 1.898,
+      "distance": 25.22,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "5 RUE DE LA CROIX SAINT JACQUES",
+      "cp": "91620",
+      "ville": "LA VILLE-DU-BOIS",
+      "prix": 1.849,
+      "distance": 25.26,
+      "maj_gouv": "2026-06-18 22:39:00"
+    },
+    {
+      "station": "Netto",
+      "adresse": "41/45 BOULEVARD ROBERT SCHUMAN",
+      "cp": "93190",
+      "ville": "Livry-Gargan",
+      "prix": 1.919,
+      "distance": 25.3,
+      "maj_gouv": "2026-06-19 08:52:59"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 14 LIEUDIT LA MARLIERE",
+      "cp": "95450",
+      "ville": "SAGY",
+      "prix": 1.866,
+      "distance": 25.37,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "1 BIS AV GABRIEL PERI",
+      "cp": "94450",
+      "ville": "Limeil-Brévannes",
+      "prix": 1.88,
+      "distance": 25.38,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Avenue de la Division Leclerc N20",
+      "cp": "91160",
+      "ville": "Ballainvilliers",
+      "prix": 1.859,
+      "distance": 25.41,
+      "maj_gouv": "2026-06-19 11:20:43"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "rd28",
+      "cp": "78250",
+      "ville": "TESSANCOURT-SUR-AUBETTE",
+      "prix": 1.889,
+      "distance": 25.53,
+      "maj_gouv": "2026-06-19 12:35:17"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "4 Espace trois quartiers",
+      "cp": "91400",
+      "ville": "Gometz-la-Ville",
+      "prix": 1.869,
+      "distance": 25.54,
+      "maj_gouv": "2026-06-19 12:10:56"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "35/37 RUE HENRI DUNANT",
+      "cp": "91600",
+      "ville": "Savigny-sur-Orge",
+      "prix": 1.952,
+      "distance": 25.6,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Rue du Centre Centre Reg Mont D'Est",
+      "cp": "93160",
+      "ville": "Noisy-le-Grand",
+      "prix": 1.99,
+      "distance": 25.62,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "63/71 AV DU GENERAL LECLERC",
+      "cp": "94370",
+      "ville": "Sucy-en-Brie",
+      "prix": 1.889,
+      "distance": 25.68,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "75 RUE DE NOISY",
+      "cp": "94350",
+      "ville": "VILLIERS SUR MARNE",
+      "prix": 1.929,
+      "distance": 25.7,
+      "maj_gouv": "2026-06-19 11:40:06"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "2 allée de l est",
+      "cp": "93190",
+      "ville": "LIVRY-GARGAN",
+      "prix": 1.9,
+      "distance": 25.75,
+      "maj_gouv": "2026-06-19 11:05:18"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "8 Rue de la Longueraie",
+      "cp": "91270",
+      "ville": "VIGNEUX-SUR-SEINE",
+      "prix": 1.849,
+      "distance": 25.76,
+      "maj_gouv": "2026-06-19 10:30:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Avenue Gutenberg",
+      "cp": "78310",
+      "ville": "MAUREPAS",
+      "prix": 1.859,
+      "distance": 25.77,
+      "maj_gouv": "2026-06-19 08:55:15"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "BOULEVARD TILSIT",
+      "cp": "95290",
+      "ville": "L'ISLE-ADAM",
+      "prix": 1.87,
+      "distance": 25.92,
+      "maj_gouv": "2026-06-19 08:44:58"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "VOIE P5 ET F2 BP 20212",
+      "cp": "95700",
+      "ville": "Roissy-en-France",
+      "prix": 1.954,
+      "distance": 25.98,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "60 RUE DU VEXIN",
+      "cp": "78250",
+      "ville": "HARDRICOURT",
+      "prix": 1.889,
+      "distance": 26.02,
+      "maj_gouv": "2026-06-19 08:45:50"
+    },
+    {
+      "station": "Système U",
+      "adresse": "AVENUE JEAN JAURES",
+      "cp": "93330",
+      "ville": "Neuilly-sur-Marne",
+      "prix": 1.884,
+      "distance": 26.17,
+      "maj_gouv": "2026-06-18 08:00:36"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Route Renault",
+      "cp": "78410",
+      "ville": "FLINS-SUR-SEINE",
+      "prix": 1.897,
+      "distance": 26.19,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "158 RN 7",
+      "cp": "91170",
+      "ville": "Viry-Châtillon",
+      "prix": 1.869,
+      "distance": 26.27,
+      "maj_gouv": "2026-06-19 11:38:25"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "13 Rue Maurice Berteaux",
+      "cp": "94370",
+      "ville": "SUCY-EN-BRIE",
+      "prix": 1.949,
+      "distance": 26.28,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Simply Market",
+      "adresse": "Boulevard Robert Ballanger",
+      "cp": "93420",
+      "ville": "VILLEPINTE",
+      "prix": 1.9,
+      "distance": 26.4,
+      "maj_gouv": "2026-06-19 08:50:46"
+    },
+    {
+      "station": "Esso",
+      "adresse": "54 Avenue Henri Barbusse",
+      "cp": "91270",
+      "ville": "VIGNEUX-SUR-SEINE",
+      "prix": 1.989,
+      "distance": 26.48,
+      "maj_gouv": "2026-06-18 11:26:45"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "5 Avenue Henri Barbusse",
+      "cp": "91270",
+      "ville": "VIGNEUX-SUR-SEINE",
+      "prix": 1.849,
+      "distance": 26.53,
+      "maj_gouv": "2026-06-18 08:10:35"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "RN10",
+      "cp": "78310",
+      "ville": "Coignières",
+      "prix": 1.88,
+      "distance": 26.54,
+      "maj_gouv": "2026-06-18 05:42:24"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "ROUTE de Corbeil",
+      "cp": "91360",
+      "ville": "ÉPINAY-SUR-ORGE",
+      "prix": 1.909,
+      "distance": 26.68,
+      "maj_gouv": "2026-06-17 23:04:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "LIAISON CD 25 A CD 17",
+      "cp": "91360",
+      "ville": "Épinay-sur-Orge",
+      "prix": 1.879,
+      "distance": 26.7,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "64 Rue de Meaux",
+      "cp": "93410",
+      "ville": "Vaujours",
+      "prix": 1.999,
+      "distance": 26.72,
+      "maj_gouv": "2026-06-19 11:30:44"
+    },
+    {
+      "station": "Esso",
+      "adresse": "AVENUE G CLEMENCEAU CD 40",
+      "cp": "93420",
+      "ville": "VILLEPINTE",
+      "prix": 1.889,
+      "distance": 26.76,
+      "maj_gouv": "2026-06-19 11:42:29"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "33 Avenue Médéric",
+      "cp": "93160",
+      "ville": "Noisy-le-Grand",
+      "prix": 1.99,
+      "distance": 26.8,
+      "maj_gouv": "2026-06-19 07:46:55"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "222/224 ROUTE NATIONALE 10",
+      "cp": "78310",
+      "ville": "Coignières",
+      "prix": 1.86,
+      "distance": 27.02,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Chemin des Échassons",
+      "cp": "91310",
+      "ville": "LONGPONT-SUR-ORGE",
+      "prix": 1.849,
+      "distance": 27.07,
+      "maj_gouv": "2026-06-18 08:50:13"
+    },
+    {
+      "station": "Esso",
+      "adresse": "N104 LIEUDIT BEAUVERT",
+      "cp": "91460",
+      "ville": "Marcoussis",
+      "prix": 1.939,
+      "distance": 27.21,
+      "maj_gouv": "2026-06-19 11:20:45"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "AV GILBERT BERGER",
+      "cp": "93290",
+      "ville": "TREMBLAY-EN-FRANCE",
+      "prix": 1.884,
+      "distance": 27.23,
+      "maj_gouv": "2026-06-19 09:46:40"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "36 Avenue du Général Leclerc",
+      "cp": "94470",
+      "ville": "Boissy-Saint-Léger",
+      "prix": 1.879,
+      "distance": 27.25,
+      "maj_gouv": "2026-06-17 11:07:07"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "62-68 ROUTE DES PETITS PONTS",
+      "cp": "93290",
+      "ville": "Tremblay-en-France",
+      "prix": 1.882,
+      "distance": 27.26,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1 RUE DE L'OR - BP.20212",
+      "cp": "95700",
+      "ville": "Roissy-en-France",
+      "prix": 1.954,
+      "distance": 27.38,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "55 Av du général Leclerc",
+      "cp": "94470",
+      "ville": "Boissy-Saint-Léger",
+      "prix": 1.999,
+      "distance": 27.38,
+      "maj_gouv": "2026-06-03 06:23:14"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "104/106 AV MEDERIC",
+      "cp": "93160",
+      "ville": "Noisy-le-Grand",
+      "prix": 1.989,
+      "distance": 27.4,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "zi de la briquetterie",
+      "cp": "95380",
+      "ville": "LOUVRES",
+      "prix": 1.926,
+      "distance": 27.46,
+      "maj_gouv": "2026-06-19 09:35:36"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "2 Rue des Hauts-Châteaux",
+      "cp": "93160",
+      "ville": "Noisy-le-Grand",
+      "prix": 1.99,
+      "distance": 27.61,
+      "maj_gouv": "2026-06-01 06:31:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "44 AVENUE DE L UNION",
+      "cp": "78410",
+      "ville": "AUBERGENVILLE",
+      "prix": 1.96,
+      "distance": 27.64,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "145 Rue de Paris",
+      "cp": "95380",
+      "ville": "LOUVRES",
+      "prix": 2.051,
+      "distance": 27.65,
+      "maj_gouv": "2026-06-17 09:38:07"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "85 Route de Provins Cc Pincevent",
+      "cp": "94490",
+      "ville": "Ormesson-sur-Marne",
+      "prix": 1.867,
+      "distance": 27.69,
+      "maj_gouv": "2026-06-18 22:39:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "63 avenue Maurice Berteaux",
+      "cp": "94420",
+      "ville": "Le Plessis-Trévise",
+      "prix": 1.99,
+      "distance": 27.7,
+      "maj_gouv": "2026-03-12 07:35:15"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "INTERMARCHE FLOTIN",
+      "cp": "91390",
+      "ville": "Morsang-sur-Orge",
+      "prix": 1.895,
+      "distance": 27.9,
+      "maj_gouv": "2026-06-19 09:49:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "69 Route de la Queue en Brie",
+      "cp": "94370",
+      "ville": "Sucy-en-Brie",
+      "prix": 2.059,
+      "distance": 27.98,
+      "maj_gouv": "2026-06-11 10:59:16"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZAC DES PRES CD N° 136",
+      "cp": "93470",
+      "ville": "COUBRON",
+      "prix": 1.919,
+      "distance": 28.02,
+      "maj_gouv": "2026-06-18 10:55:32"
+    },
+    {
+      "station": "Simply Market",
+      "adresse": "ZAC DE LA CROIX DE BELLEJAME",
+      "cp": "91460",
+      "ville": "Marcoussis",
+      "prix": 1.849,
+      "distance": 28.16,
+      "maj_gouv": "2026-06-19 10:39:57"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "105 Avenue de la République",
+      "cp": "91230",
+      "ville": "Montgeron",
+      "prix": 1.892,
+      "distance": 28.19,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "26 AVENUE ARDOUIN",
+      "cp": "94420",
+      "ville": "Le Plessis-Trévise",
+      "prix": 2.183,
+      "distance": 28.23,
+      "maj_gouv": "2026-06-19 11:31:51"
+    },
+    {
+      "station": "Esso",
+      "adresse": "F6 VOIE EXPRESS FONDS PRES",
+      "cp": "91460",
+      "ville": "Marcoussis",
+      "prix": 1.939,
+      "distance": 28.29,
+      "maj_gouv": "2026-06-19 11:19:25"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "1 Rue Sadi Carnot",
+      "cp": "94880",
+      "ville": "Noiseau",
+      "prix": 1.999,
+      "distance": 28.29,
+      "maj_gouv": "2026-06-01 09:17:39"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "70 BLD HENRI BARBUSSE",
+      "cp": "91210",
+      "ville": "DRAVEIL",
+      "prix": 1.947,
+      "distance": 28.32,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Route de Fleury",
+      "cp": "91170",
+      "ville": "Viry-Châtillon",
+      "prix": 1.869,
+      "distance": 28.42,
+      "maj_gouv": "2026-06-19 10:19:21"
+    },
+    {
+      "station": "Système U",
+      "adresse": "6 AVENUE DE L'EUROPE",
+      "cp": "91210",
+      "ville": "DRAVEIL",
+      "prix": 1.832,
+      "distance": 28.56,
+      "maj_gouv": "2026-06-18 07:39:23"
+    },
+    {
+      "station": "Système U",
+      "adresse": "lieudit le village",
+      "cp": "78690",
+      "ville": "Les Essarts-le-Roi",
+      "prix": 1.942,
+      "distance": 28.59,
+      "maj_gouv": "2026-06-15 09:37:42"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Rue du 8 Mai 1945",
+      "cp": "95340",
+      "ville": "PERSAN",
+      "prix": 1.889,
+      "distance": 28.72,
+      "maj_gouv": "2026-06-19 09:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "A10 AIRE DE LIMOURS JANVRY",
+      "cp": "91640",
+      "ville": "JANVRY",
+      "prix": 1.99,
+      "distance": 28.76,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RN 6",
+      "cp": "91230",
+      "ville": "Montgeron",
+      "prix": 1.919,
+      "distance": 28.79,
+      "maj_gouv": "2026-06-19 11:19:05"
+    },
+    {
+      "station": "Esso",
+      "adresse": "5 A 11 Avenue JEAN-JAURES",
+      "cp": "95340",
+      "ville": "Persan",
+      "prix": 1.879,
+      "distance": 28.82,
+      "maj_gouv": "2026-06-18 17:27:43"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A10 - AIRE DE LIMOURS BRIIS SOUS FORGES",
+      "cp": "91640",
+      "ville": "Briis-sous-Forges",
+      "prix": 1.879,
+      "distance": 28.95,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RN 152, Route d'Arpajon",
+      "cp": "91470",
+      "ville": "LIMOURS",
+      "prix": 1.909,
+      "distance": 28.99,
+      "maj_gouv": "2026-06-19 09:38:06"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 445 / 29 ROUTE DE FLEURY",
+      "cp": "91170",
+      "ville": "Viry-Châtillon",
+      "prix": 1.951,
+      "distance": 29.15,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "17 ROUTE DE CORBEIL",
+      "cp": "91350",
+      "ville": "GRIGNY",
+      "prix": 1.86,
+      "distance": 29.21,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "233, Avenue de Paris",
+      "cp": "78820",
+      "ville": "Juziers",
+      "prix": 1.889,
+      "distance": 29.29,
+      "maj_gouv": "2026-06-18 11:40:09"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "2 Rue du Général de Gaulle",
+      "cp": "94510",
+      "ville": "LA QUEUE-EN-BRIE",
+      "prix": 1.889,
+      "distance": 29.34,
+      "maj_gouv": "2026-06-18 19:20:09"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "139 Route de Corbeil",
+      "cp": "91700",
+      "ville": "SAINTE-GENEVIèVE-DES-BOIS",
+      "prix": 1.89,
+      "distance": 29.67,
+      "maj_gouv": "2026-06-18 22:39:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "ROUTE DE ROYAUMONT",
+      "cp": "95270",
+      "ville": "VIARMES",
+      "prix": 1.864,
+      "distance": 29.76,
+      "maj_gouv": "2026-06-18 09:38:08"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "20 RUE DE CHARTRES",
+      "cp": "91470",
+      "ville": "LIMOURS",
+      "prix": 1.952,
+      "distance": 29.76,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "ROUTE DE GARGENVILLE",
+      "cp": "78680",
+      "ville": "EPONE",
+      "prix": 1.866,
+      "distance": 29.86,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "ROUTE DE LA BOELE",
+      "cp": "91240",
+      "ville": "Saint-Michel-sur-Orge",
+      "prix": 1.969,
+      "distance": 29.91,
+      "maj_gouv": "2026-06-19 11:22:23"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN7 RUE ALBERT REMY",
+      "cp": "91130",
+      "ville": "Ris-Orangis",
+      "prix": 1.859,
+      "distance": 30.0,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "av arbre quenée",
+      "cp": "78490",
+      "ville": "Méré",
+      "prix": 1.963,
+      "distance": 30.02,
+      "maj_gouv": "2026-06-19 12:00:19"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue d'Yerres",
+      "cp": "94440",
+      "ville": "Villecresnes",
+      "prix": 1.999,
+      "distance": 30.09,
+      "maj_gouv": "2026-06-16 08:00:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "6 AVENUE DE LA GARE",
+      "cp": "78970",
+      "ville": "MéZIèRES-SUR-SEINE",
+      "prix": 1.928,
+      "distance": 30.13,
+      "maj_gouv": "2026-06-15 14:31:31"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 16",
+      "cp": "95270",
+      "ville": "CHAUMONTEL",
+      "prix": 1.848,
+      "distance": 30.24,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "37- RN 10",
+      "cp": "78690",
+      "ville": "LES ESSARTS LE ROI",
+      "prix": 1.858,
+      "distance": 30.65,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "38 RUE PIERRE BROSSOLETTE",
+      "cp": "91130",
+      "ville": "Ris-Orangis",
+      "prix": 1.93,
+      "distance": 30.91,
+      "maj_gouv": "2026-06-17 04:59:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "5 BD CHARLES DE GAULLE",
+      "cp": "91800",
+      "ville": "BRUNOY",
+      "prix": 1.879,
+      "distance": 30.95,
+      "maj_gouv": "2026-06-19 11:40:03"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RN7 DOMAINE DE L'AUNETTE",
+      "cp": "91130",
+      "ville": "Ris-Orangis",
+      "prix": 1.966,
+      "distance": 31.23,
+      "maj_gouv": "2026-06-16 16:35:45"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "75 RUE DE LA LIBERATION",
+      "cp": "91130",
+      "ville": "RIS ORANGIS",
+      "prix": 1.859,
+      "distance": 31.37,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Shell",
+      "adresse": "AUT A1 Aire de Vémars Ouest",
+      "cp": "95470",
+      "ville": "VEMARS",
+      "prix": 2.067,
+      "distance": 32.0,
+      "maj_gouv": "2026-06-16 09:30:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 104 ZI DES CIROLIERS",
+      "cp": "91700",
+      "ville": "FLEURY MEROGIS",
+      "prix": 1.851,
+      "distance": 32.15,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Autoroute A1 - Aire de vémars Est",
+      "cp": "95470",
+      "ville": "VEMARS",
+      "prix": 2.053,
+      "distance": 32.18,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "25 ROUTE D'ORLEANS RN 20",
+      "cp": "91180",
+      "ville": "Saint-Germain-lès-Arpajon",
+      "prix": 1.86,
+      "distance": 32.3,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "RN 20",
+      "cp": "91180",
+      "ville": "Saint-Germain-lès-Arpajon",
+      "prix": 1.89,
+      "distance": 32.32,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "BD DES CHAMPS ELYSEES",
+      "cp": "91000",
+      "ville": "Évry",
+      "prix": 1.897,
+      "distance": 32.46,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "ROUTE DE LIMOURS",
+      "cp": "91290",
+      "ville": "ARPAJON",
+      "prix": 1.936,
+      "distance": 32.61,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Route Nationale",
+      "cp": "78940",
+      "ville": "La Queue-lez-Yvelines",
+      "prix": 1.89,
+      "distance": 32.62,
+      "maj_gouv": "2026-06-18 09:50:28"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2 AVENUE HENRI BARBUSSE",
+      "cp": "95470",
+      "ville": "FOSSES",
+      "prix": 1.955,
+      "distance": 32.68,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "7 Av. de l'Orme À Martin",
+      "cp": "91080",
+      "ville": "Évry-Courcouronnes",
+      "prix": 2.029,
+      "distance": 32.89,
+      "maj_gouv": "2026-06-19 11:31:10"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "CHEMIN DEPARTEMENTAL 19",
+      "cp": "91220",
+      "ville": "Le Plessis-Pâté",
+      "prix": 1.869,
+      "distance": 32.9,
+      "maj_gouv": "2026-06-19 11:37:06"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Boulevard Gambetta",
+      "cp": "95640",
+      "ville": "Marines",
+      "prix": 1.91,
+      "distance": 32.98,
+      "maj_gouv": "2026-06-16 08:15:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue de Chanteloup",
+      "cp": "91180",
+      "ville": "Saint-Germain-lès-Arpajon",
+      "prix": 1.849,
+      "distance": 33.14,
+      "maj_gouv": "2026-06-19 09:16:31"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RUE DE VILLEROY",
+      "cp": "91070",
+      "ville": "BONDOUFLE",
+      "prix": 1.951,
+      "distance": 33.47,
+      "maj_gouv": "2026-06-18 19:45:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "61 Rue de Brunoy",
+      "cp": "91480",
+      "ville": "Quincy-sous-Sénart",
+      "prix": 1.962,
+      "distance": 33.51,
+      "maj_gouv": "2026-06-19 07:19:00"
+    },
+    {
+      "station": "Netto",
+      "adresse": "27 ROUTE DE LA GARE",
+      "cp": "78890",
+      "ville": "GARANCIERES",
+      "prix": 1.949,
+      "distance": 33.66,
+      "maj_gouv": "2026-06-15 16:07:27"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Centre Commercial Val d'Yerres 2",
+      "cp": "91800",
+      "ville": "Boussy-Saint-Antoine",
+      "prix": 1.849,
+      "distance": 33.79,
+      "maj_gouv": "2026-06-19 10:52:01"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "BOULEVARD DES COQUIBUS",
+      "cp": "91000",
+      "ville": "EVRY",
+      "prix": 1.863,
+      "distance": 34.42,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "22 Avenue d'Arpajon",
+      "cp": "91520",
+      "ville": "ÉGLY",
+      "prix": 1.849,
+      "distance": 34.56,
+      "maj_gouv": "2026-06-19 07:52:08"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "CCIAL MAISON NEUVE",
+      "cp": "91220",
+      "ville": "BRéTIGNY-SUR-ORGE",
+      "prix": 1.854,
+      "distance": 34.7,
+      "maj_gouv": "2026-06-19 08:40:05"
+    },
+    {
+      "station": "Netto",
+      "adresse": "4 Route de Marolles",
+      "cp": "91290",
+      "ville": "La Norville",
+      "prix": 1.849,
+      "distance": 35.16,
+      "maj_gouv": "2026-06-19 08:11:49"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "57 Rue de Chartres",
+      "cp": "78610",
+      "ville": "LE PERRAY-EN-YVELINES",
+      "prix": 1.875,
+      "distance": 35.23,
+      "maj_gouv": "2026-06-19 09:50:43"
+    },
+    {
+      "station": "Esso",
+      "adresse": "LIEUDIT BUTTE DE GRAVOIS RN104",
+      "cp": "91250",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "prix": 1.929,
+      "distance": 35.54,
+      "maj_gouv": "2026-06-19 11:17:25"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "60 AV.DE LA PAIX",
+      "cp": "78520",
+      "ville": "LIMAY",
+      "prix": 1.866,
+      "distance": 35.62,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RN 104 Aire Des Chevreaux",
+      "cp": "91250",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "prix": 1.929,
+      "distance": 35.67,
+      "maj_gouv": "2026-06-19 11:21:23"
+    },
+    {
+      "station": "Esso",
+      "adresse": "46 avenue du 8 mai 1945",
+      "cp": "91100",
+      "ville": "CORBEIL ESSONNES",
+      "prix": 1.908,
+      "distance": 36.08,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "LE BUISSON RONDEAU",
+      "cp": "91650",
+      "ville": "Breuillet",
+      "prix": 1.896,
+      "distance": 36.11,
+      "maj_gouv": "2026-06-17 15:05:16"
+    },
+    {
+      "station": "Avia",
+      "adresse": "Route Nationale 20",
+      "cp": "91630",
+      "ville": "AVRAINVILLE",
+      "prix": 2.493,
+      "distance": 36.12,
+      "maj_gouv": "2026-04-03 10:00:08"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "7 AVENUE DU GENERAL LECLERC",
+      "cp": "91250",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "prix": 1.86,
+      "distance": 36.21,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RUE SIGMUND FREUD",
+      "cp": "91100",
+      "ville": "CORBEIL ESSONNES",
+      "prix": 1.883,
+      "distance": 36.26,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue de Corbeil",
+      "cp": "91090",
+      "ville": "LISSES",
+      "prix": 1.916,
+      "distance": 36.55,
+      "maj_gouv": "2026-06-18 12:41:31"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "ROUTE NATIONALE 190",
+      "cp": "78520",
+      "ville": "LIMAY",
+      "prix": 1.89,
+      "distance": 36.73,
+      "maj_gouv": "2026-06-19 08:15:04"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 20 DIRECTION PARIS",
+      "cp": "91630",
+      "ville": "AVRAINVILLE",
+      "prix": 1.855,
+      "distance": 36.77,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "3 Pl. de l'Europe",
+      "cp": "91250",
+      "ville": "Saint-Germain-lès-Corbeil",
+      "prix": 1.875,
+      "distance": 36.86,
+      "maj_gouv": "2026-06-18 10:23:10"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "4/6/8 RUE DE CHANTEREINE RN.13",
+      "cp": "78711",
+      "ville": "MANTES-LA-VILLE",
+      "prix": 1.945,
+      "distance": 36.95,
+      "maj_gouv": "2026-06-18 19:20:05"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "17 rue de la vallée Jean Leloup - Route de Béhoust",
+      "cp": "78910",
+      "ville": "Orgerus",
+      "prix": 1.949,
+      "distance": 36.96,
+      "maj_gouv": "2026-06-17 09:56:54"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue de la gare",
+      "cp": "91630",
+      "ville": "MAROLLES-EN-HUREPOIX",
+      "prix": 1.929,
+      "distance": 37.0,
+      "maj_gouv": "2026-06-12 10:41:13"
+    },
+    {
+      "station": "Avia",
+      "adresse": "18 Boulevard Jean jaures",
+      "cp": "91100",
+      "ville": "CORBEIL ESSONNES",
+      "prix": 1.883,
+      "distance": 37.08,
+      "maj_gouv": "2026-06-19 08:33:20"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A6 - AIRE DE VILLABÉ",
+      "cp": "91100",
+      "ville": "VILLABE",
+      "prix": 1.99,
+      "distance": 37.45,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A6 - AIRE DES LISSES",
+      "cp": "91100",
+      "ville": "CORBEIL ESSONNES",
+      "prix": 1.99,
+      "distance": 37.5,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "rue Clos Batant",
+      "cp": "78120",
+      "ville": "RAMBOUILLET",
+      "prix": 1.875,
+      "distance": 37.51,
+      "maj_gouv": "2026-06-19 08:27:27"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "rue Marguerite Yourcenar",
+      "cp": "91280",
+      "ville": "SAINT-PIERRE-DU-PERRAY",
+      "prix": 1.875,
+      "distance": 37.93,
+      "maj_gouv": "2026-06-18 08:42:47"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "16 Rue Jean Hoët",
+      "cp": "78200",
+      "ville": "Mantes-la-Jolie",
+      "prix": 1.866,
+      "distance": 38.05,
+      "maj_gouv": "2026-06-19 08:38:29"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "ROUTE DE VILLOISON",
+      "cp": "91100",
+      "ville": "VILLABE",
+      "prix": 1.896,
+      "distance": 38.44,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "48 BD ROGER SALENGRO",
+      "cp": "78711",
+      "ville": "Mantes-la-Ville",
+      "prix": 1.948,
+      "distance": 38.53,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1 RUE AUGUSTE MOUTIE",
+      "cp": "78120",
+      "ville": "RAMBOUILLET",
+      "prix": 1.947,
+      "distance": 38.56,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "CD 110 - BP 1525",
+      "cp": "78200",
+      "ville": "Buchelay",
+      "prix": 1.859,
+      "distance": 39.11,
+      "maj_gouv": "2026-06-19 09:15:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "183 Route de Melun",
+      "cp": "91250",
+      "ville": "SAINTRY-SUR-SEINE",
+      "prix": 1.953,
+      "distance": 39.65,
+      "maj_gouv": "2026-06-19 07:37:08"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Rue du Docteur Rémond",
+      "cp": "78730",
+      "ville": "Saint-Arnoult-en-Yvelines",
+      "prix": 1.926,
+      "distance": 39.8,
+      "maj_gouv": "2026-06-17 08:54:36"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue Jean Cocteau",
+      "cp": "91540",
+      "ville": "Mennecy",
+      "prix": 1.869,
+      "distance": 40.42,
+      "maj_gouv": "2026-06-19 09:14:18"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "RN10 CENTRE COMMERCIAL DU BEL AIR",
+      "cp": "78120",
+      "ville": "RAMBOUILLET",
+      "prix": 1.875,
+      "distance": 40.6,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "10 Rue jacques Cartier",
+      "cp": "91510",
+      "ville": "Lardy",
+      "prix": 1.859,
+      "distance": 40.69,
+      "maj_gouv": "2026-06-18 10:42:25"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 14",
+      "cp": "95420",
+      "ville": "CHARMONT",
+      "prix": 1.866,
+      "distance": 40.69,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "8, rue Berthollet",
+      "cp": "91710",
+      "ville": "VERT-LE-PETIT",
+      "prix": 1.926,
+      "distance": 40.91,
+      "maj_gouv": "2026-06-17 08:31:47"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Route de Mantes",
+      "cp": "95420",
+      "ville": "Magny-en-Vexin",
+      "prix": 1.865,
+      "distance": 41.71,
+      "maj_gouv": "2026-06-19 09:07:08"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "101 Avenue de Paris",
+      "cp": "91410",
+      "ville": "DOURDAN",
+      "prix": 1.913,
+      "distance": 42.26,
+      "maj_gouv": "2026-06-19 07:00:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Route de rouen",
+      "cp": "95420",
+      "ville": "MAGNY-EN-VEXIN",
+      "prix": 1.999,
+      "distance": 42.63,
+      "maj_gouv": "2026-06-18 10:42:23"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "48 rue Raymond Laubier",
+      "cp": "91410",
+      "ville": "DOURDAN",
+      "prix": 1.845,
+      "distance": 42.72,
+      "maj_gouv": "2026-06-19 08:42:45"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Aire de Rosny Nord - Autoroute A13 - Sens Paris",
+      "cp": "78710",
+      "ville": "ROSNY SUR SEINE",
+      "prix": 2.093,
+      "distance": 43.33,
+      "maj_gouv": "2026-06-18 11:18:05"
+    },
+    {
+      "station": "Esso",
+      "adresse": "A13 Aire de Rosny Sud",
+      "cp": "78710",
+      "ville": "ROSNY-SUR-SEINE",
+      "prix": 1.973,
+      "distance": 43.44,
+      "maj_gouv": "2026-06-16 00:30:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "RN 12 - LA PRAIRIE",
+      "cp": "78550",
+      "ville": "MAULETTE",
+      "prix": 2.079,
+      "distance": 43.47,
+      "maj_gouv": "2026-06-19 10:40:33"
+    },
+    {
+      "station": "Avia",
+      "adresse": "RN12 E12-LE VAL RAYMOND",
+      "cp": "78550",
+      "ville": "Maulette",
+      "prix": 2.079,
+      "distance": 43.59,
+      "maj_gouv": "2026-06-19 10:32:48"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Gambais",
+      "cp": "78550",
+      "ville": "Maulette",
+      "prix": 1.89,
+      "distance": 43.86,
+      "maj_gouv": "2026-06-17 08:55:50"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "22 AVENUE GERARD ANNEL - D912",
+      "cp": "78550",
+      "ville": "MAULETTE",
+      "prix": 1.874,
+      "distance": 44.37,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de la Ferté-Alais",
+      "cp": "91760",
+      "ville": "ITTEVILLE",
+      "prix": 1.841,
+      "distance": 44.55,
+      "maj_gouv": "2026-06-19 08:04:23"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN191 - ROUTE DE CORBEIL",
+      "cp": "91590",
+      "ville": "BAULNE",
+      "prix": 1.841,
+      "distance": 44.58,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 10 HAMEAU DE L'ABBE",
+      "cp": "78660",
+      "ville": "Prunay-en-Yvelines",
+      "prix": 1.839,
+      "distance": 45.1,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "39 ROUTE DE MANTES",
+      "cp": "78980",
+      "ville": "LONGNES",
+      "prix": 1.944,
+      "distance": 45.16,
+      "maj_gouv": "2026-06-19 08:16:28"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "8 avenue d'Orléans",
+      "cp": "91580",
+      "ville": "ETRéCHY",
+      "prix": 1.879,
+      "distance": 45.21,
+      "maj_gouv": "2026-06-19 10:21:21"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 10 LIEU DIT L'ABBE",
+      "cp": "78120",
+      "ville": "SONCHAMP",
+      "prix": 1.837,
+      "distance": 45.32,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "2 Rue Charles de Gaulle",
+      "cp": "78840",
+      "ville": "FRENEUSE",
+      "prix": 1.899,
+      "distance": 47.77,
+      "maj_gouv": "2026-06-19 06:28:45"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "94 BLD ST MICHEL",
+      "cp": "91150",
+      "ville": "ETAMPES",
+      "prix": 1.848,
+      "distance": 49.04,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "32 Boulevard Saint-Michel",
+      "cp": "91150",
+      "ville": "ÉTAMPES",
+      "prix": 1.882,
+      "distance": 50.19,
+      "maj_gouv": "2026-06-17 10:12:28"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "31 rue René Dhal",
+      "cp": "78980",
+      "ville": "Bréval",
+      "prix": 1.908,
+      "distance": 50.26,
+      "maj_gouv": "2026-06-16 08:00:34"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "50 Rue des Lys",
+      "cp": "91150",
+      "ville": "ÉTAMPES",
+      "prix": 1.844,
+      "distance": 50.45,
+      "maj_gouv": "2026-06-19 10:49:22"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 191 / AV COQUERIVE",
+      "cp": "91150",
+      "ville": "ETAMPES",
+      "prix": 1.841,
+      "distance": 51.04,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Avenue de Bonnevaux",
+      "cp": "91150",
+      "ville": "ETAMPES",
+      "prix": 1.876,
+      "distance": 51.64,
+      "maj_gouv": "2026-06-19 08:57:52"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RN20 - Ville Sauvage",
+      "cp": "91150",
+      "ville": "Étampes",
+      "prix": 1.996,
+      "distance": 54.11,
+      "maj_gouv": "2026-06-16 12:23:03"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "ZA LE CHENET",
+      "cp": "91490",
+      "ville": "Milly-la-Forêt",
+      "prix": 1.883,
+      "distance": 57.41,
+      "maj_gouv": "2026-06-17 08:40:45"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Grande Rue",
+      "cp": "91490",
+      "ville": "Oncy-sur-École",
+      "prix": 1.88,
+      "distance": 58.69,
+      "maj_gouv": "2026-06-19 07:52:52"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route d'Angerville",
+      "cp": "91660",
+      "ville": "MéRéVILLE",
+      "prix": 1.939,
+      "distance": 65.15,
+      "maj_gouv": "2026-06-17 08:40:39"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "14 Rue du Pont Lafleur",
+      "cp": "91670",
+      "ville": "ANGERVILLE",
+      "prix": 1.844,
+      "distance": 65.4,
+      "maj_gouv": "2026-06-19 12:41:41"
+    }
+  ]
+}
