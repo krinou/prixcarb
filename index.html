@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>f
 <html lang="fr">
 <head>
 <meta charset="UTF-8" />
@@ -117,15 +117,7 @@ async function afficherStations() {
         statusEl.className = "alert alert-success text-center";
         statusEl.textContent = "✅ Mise à jour terminée. Chargement du tableau…";
 
-        const rows = await chargerAvecRetry();
-        if (rows.length === 0) {
-            statusEl.className = "alert alert-warning text-center";
-            statusEl.textContent = "⚠️ Impossible de récupérer les données mises à jour.";
-            return;
-            }
-
-        // ✅ injecte les données comme dans charger()
-        afficherTable(rows);
+        await charger();
       } else {
         clearInterval(timer);
         statusEl.className = "alert alert-danger text-center";
@@ -454,9 +446,11 @@ async function autocomplete(query) {
     const table  = document.getElementById("table");
 
   try {
-    const res = await fetch(`stations_${currentRequestId}.json?v=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const json = await res.json();
+    const json = await chargerAvecRetry();
+    if (!json) {
+       throw new Error("Impossible de récupérer les données");
+       }
+
     const rows = json.stations;
     const meta = json.meta;
     if (!Array.isArray(rows)) throw new Error("JSON invalide");
