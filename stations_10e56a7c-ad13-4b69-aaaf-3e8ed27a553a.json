@@ -1,0 +1,5480 @@
+{
+  "meta": {
+    "requestId": "10e56a7c-ad13-4b69-aaaf-3e8ed27a553a",
+    "date_generation": "19/06/2026 14:57",
+    "carburant": "E10",
+    "departements": [
+      "01",
+      "38",
+      "42",
+      "69",
+      "71"
+    ],
+    "nb_stations": 607
+  },
+  "stations": [
+    {
+      "station": "Avia",
+      "adresse": "258 rue Garibaldi",
+      "cp": "69003",
+      "ville": "LYON",
+      "prix": 1.979,
+      "distance": 1.66,
+      "maj_gouv": "2026-06-17 08:47:23"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "22 Rue Philippe de Lassalle",
+      "cp": "69004",
+      "ville": "Lyon",
+      "prix": 1.827,
+      "distance": 2.2,
+      "maj_gouv": "2026-06-18 06:30:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "100 AVENUE BARTHELEMY BUYER",
+      "cp": "69009",
+      "ville": "LYON",
+      "prix": 1.847,
+      "distance": 2.3,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "97 RUE DENFERT ROCHEREAU",
+      "cp": "69004",
+      "ville": "LYON",
+      "prix": 1.949,
+      "distance": 2.38,
+      "maj_gouv": "2026-06-18 21:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "112/116 RUE DE GERLAND",
+      "cp": "69007",
+      "ville": "LYON",
+      "prix": 1.954,
+      "distance": 2.58,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "84 QUAI PERRACHE",
+      "cp": "69002",
+      "ville": "LYON",
+      "prix": 1.949,
+      "distance": 2.76,
+      "maj_gouv": "2026-06-19 11:38:06"
+    },
+    {
+      "station": "Avia",
+      "adresse": "65 COURS ALBERT THOMAS",
+      "cp": "69003",
+      "ville": "Lyon",
+      "prix": 1.979,
+      "distance": 2.97,
+      "maj_gouv": "2026-06-16 20:50:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "55 BIS QUAI GILLET",
+      "cp": "69004",
+      "ville": "LYON",
+      "prix": 1.949,
+      "distance": 3.01,
+      "maj_gouv": "2026-06-18 21:00:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "47 COURS EMILE ZOLA",
+      "cp": "69100",
+      "ville": "VILLEURBANNE",
+      "prix": 1.949,
+      "distance": 3.08,
+      "maj_gouv": "2026-06-19 11:33:03"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Rue Commandant Charcot",
+      "cp": "69110",
+      "ville": "SAINTE-FOY-LèS-LYON",
+      "prix": 1.919,
+      "distance": 3.11,
+      "maj_gouv": "2026-06-19 11:29:06"
+    },
+    {
+      "station": "Esso",
+      "adresse": "87-89 BD STALINGRAD",
+      "cp": "69100",
+      "ville": "VILLEURBANNE",
+      "prix": 1.889,
+      "distance": 3.12,
+      "maj_gouv": "2026-06-19 16:29:23"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "28 AVENUE MAURICE JARROSSON",
+      "cp": "69110",
+      "ville": "Sainte-Foy-lès-Lyon",
+      "prix": 1.869,
+      "distance": 3.29,
+      "maj_gouv": "2026-06-19 08:06:32"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "34 Rue Pasteur",
+      "cp": "69300",
+      "ville": "CALUIRE-ET-CUIRE",
+      "prix": 1.937,
+      "distance": 3.41,
+      "maj_gouv": "2026-06-19 07:15:17"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AVENUE TONY GARNIER",
+      "cp": "69007",
+      "ville": "LYON",
+      "prix": 1.851,
+      "distance": 3.43,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "111 RUE MARIETTON",
+      "cp": "69009",
+      "ville": "LYON",
+      "prix": 1.959,
+      "distance": 3.49,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "69 AVENUE DU 25EME RTS",
+      "cp": "69009",
+      "ville": "Lyon",
+      "prix": 1.891,
+      "distance": 3.53,
+      "maj_gouv": "2026-06-17 12:20:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "72 COURS TOLSTOI",
+      "cp": "69100",
+      "ville": "VILLEURBANNE",
+      "prix": 1.859,
+      "distance": 3.54,
+      "maj_gouv": "2026-06-19 11:30:26"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AVENUE TONY GARNIER",
+      "cp": "69007",
+      "ville": "LYON",
+      "prix": 1.851,
+      "distance": 3.59,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "38 rue du moulin à vent",
+      "cp": "69200",
+      "ville": "VéNISSIEUX",
+      "prix": 1.926,
+      "distance": 3.61,
+      "maj_gouv": "2026-06-18 13:40:18"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "131 RUE MARIUS BERLIET",
+      "cp": "69008",
+      "ville": "LYON",
+      "prix": 1.844,
+      "distance": 3.69,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "66 RUE STEPHANE DECHANT",
+      "cp": "69350",
+      "ville": "LA MULATIERE",
+      "prix": 1.977,
+      "distance": 3.78,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "110 BD DU 11 NOVEMBRE 1918",
+      "cp": "69100",
+      "ville": "VILLEURBANNE",
+      "prix": 1.869,
+      "distance": 3.83,
+      "maj_gouv": "2026-06-19 11:43:03"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "35 AVENUE GENERAL BROSSET",
+      "cp": "69160",
+      "ville": "TASSIN-LA-DEMI-LUNE",
+      "prix": 1.846,
+      "distance": 3.96,
+      "maj_gouv": "2026-06-19 09:59:16"
+    },
+    {
+      "station": "ENI",
+      "adresse": "131 Rue Joliot-Curie",
+      "cp": "69005",
+      "ville": "LYON",
+      "prix": 1.899,
+      "distance": 4.13,
+      "maj_gouv": "2026-06-19 08:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "107 ROUTE DE ST CYR",
+      "cp": "69370",
+      "ville": "Saint-Didier-au-Mont-d'Or",
+      "prix": 1.941,
+      "distance": 4.13,
+      "maj_gouv": "2026-06-19 14:40:47"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "145, Rue Anatole France",
+      "cp": "69100",
+      "ville": "VILLEURBANNE",
+      "prix": 1.846,
+      "distance": 4.22,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Place Maréchal Foch - Montée des soldats",
+      "cp": "69300",
+      "ville": "Caluire-et-Cuire",
+      "prix": 1.941,
+      "distance": 4.62,
+      "maj_gouv": "2026-06-17 09:00:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "21 Grande Rue d'Oullins",
+      "cp": "69600",
+      "ville": "Oullins",
+      "prix": 1.959,
+      "distance": 4.64,
+      "maj_gouv": "2026-06-18 23:54:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "86 AVENUE JEAN MERMOZ",
+      "cp": "69008",
+      "ville": "LYON",
+      "prix": 1.844,
+      "distance": 4.7,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "28 Avenue Édouard Aynard",
+      "cp": "69130",
+      "ville": "Écully",
+      "prix": 1.888,
+      "distance": 4.74,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "42 Avenue du Chater",
+      "cp": "69340",
+      "ville": "Francheville",
+      "prix": 1.848,
+      "distance": 4.98,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "141 Boulevard Émile Zola",
+      "cp": "69600",
+      "ville": "Oullins",
+      "prix": 1.839,
+      "distance": 5.0,
+      "maj_gouv": "2026-06-19 08:57:20"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Rue Charles BAUDELAIRE",
+      "cp": "69200",
+      "ville": "Vénissieux",
+      "prix": 1.845,
+      "distance": 5.03,
+      "maj_gouv": "2026-06-19 09:32:19"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "AVENUE DU CHATER",
+      "cp": "69340",
+      "ville": "FRANCHEVILLE",
+      "prix": 1.846,
+      "distance": 5.1,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "16 AV F ROOSEVELT",
+      "cp": "69500",
+      "ville": "BRON",
+      "prix": 1.839,
+      "distance": 5.29,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "250 ROUTE DE GENAS",
+      "cp": "69500",
+      "ville": "Bron",
+      "prix": 1.969,
+      "distance": 5.31,
+      "maj_gouv": "2026-06-18 21:00:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Avenue du Bon Pasteur",
+      "cp": "69130",
+      "ville": "ÉCULLY",
+      "prix": 1.879,
+      "distance": 5.36,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "112 B, RUE LEON BLUM",
+      "cp": "69100",
+      "ville": "Villeurbanne",
+      "prix": 1.949,
+      "distance": 5.36,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "BD JOLIOT CURIE",
+      "cp": "69200",
+      "ville": "VéNISSIEUX",
+      "prix": 1.846,
+      "distance": 5.48,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "10 Chemin Jean Petit",
+      "cp": "69300",
+      "ville": "Caluire-et-Cuire",
+      "prix": 1.81,
+      "distance": 5.65,
+      "maj_gouv": "2026-06-19 09:19:37"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RN 383 BRD PIERRE SEMARD",
+      "cp": "69190",
+      "ville": "ST FONS",
+      "prix": 1.859,
+      "distance": 5.71,
+      "maj_gouv": "2026-06-19 11:20:46"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "50 Avenue du 11 Novembre 1918",
+      "cp": "69160",
+      "ville": "Tassin-la-Demi-Lune",
+      "prix": 1.919,
+      "distance": 5.71,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "2 place des 4 chemins",
+      "cp": "69190",
+      "ville": "SAINT-FONS",
+      "prix": 1.949,
+      "distance": 5.82,
+      "maj_gouv": "2026-06-19 08:40:33"
+    },
+    {
+      "station": "ENI",
+      "adresse": "3 AVE GENERAL DE GAULLE",
+      "cp": "69410",
+      "ville": "CHAMPAGNE-AU-MONT-D'OR",
+      "prix": 1.899,
+      "distance": 5.9,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AV. DU GENERAL DE GAULLE - D 30",
+      "cp": "69410",
+      "ville": "Champagne-au-Mont-d'Or",
+      "prix": 1.835,
+      "distance": 5.95,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "296 ROUTE DE GENAS",
+      "cp": "69500",
+      "ville": "BRON",
+      "prix": 1.899,
+      "distance": 6.03,
+      "maj_gouv": "2026-06-11 08:12:37"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "BD LAURENT BONNEVAY",
+      "cp": "69500",
+      "ville": "BRON",
+      "prix": 1.867,
+      "distance": 6.04,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "283 RTE DE GENAS",
+      "cp": "69100",
+      "ville": "VILLEURBANNE",
+      "prix": 1.838,
+      "distance": 6.31,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "126 BOULEVARD DE L EUROPE",
+      "cp": "69310",
+      "ville": "Pierre-Bénite",
+      "prix": 1.972,
+      "distance": 6.53,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "142/144 AVENUE FRANKLIN ROOSEVELT",
+      "cp": "69500",
+      "ville": "BRON",
+      "prix": 1.827,
+      "distance": 6.55,
+      "maj_gouv": "2026-06-19 06:49:30"
+    },
+    {
+      "station": "ENI",
+      "adresse": "AVE GABRIEL PERI/ RUE P.TESTE",
+      "cp": "69120",
+      "ville": "Vaulx-en-Velin",
+      "prix": 1.949,
+      "distance": 6.61,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "112 Boulevard Irène Joliot-Curie",
+      "cp": "69200",
+      "ville": "Vénissieux",
+      "prix": 1.899,
+      "distance": 6.63,
+      "maj_gouv": "2026-06-18 06:30:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "80 ROUTE DE PARIS",
+      "cp": "69260",
+      "ville": "Charbonnières-les-Bains",
+      "prix": 1.979,
+      "distance": 6.71,
+      "maj_gouv": "2026-06-18 20:45:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "66 RUE GEORGES CLEMENCEAU",
+      "cp": "69230",
+      "ville": "Saint-Genis-Laval",
+      "prix": 1.999,
+      "distance": 6.81,
+      "maj_gouv": "2026-06-19 11:40:24"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "61 Avenue de la République",
+      "cp": "69200",
+      "ville": "VENISSIEUX",
+      "prix": 1.859,
+      "distance": 6.87,
+      "maj_gouv": "2026-06-19 11:33:05"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "145 Boulevard de l'Europe",
+      "cp": "69310",
+      "ville": "Pierre-Bénite",
+      "prix": 1.909,
+      "distance": 6.89,
+      "maj_gouv": "2026-06-17 16:41:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "50-51 ROUTE DE PARIS",
+      "cp": "69260",
+      "ville": "CHARBONNIERES",
+      "prix": 1.979,
+      "distance": 7.0,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "140 Rue du Companet",
+      "cp": "69140",
+      "ville": "Rillieux-la-Pape",
+      "prix": 1.81,
+      "distance": 7.12,
+      "maj_gouv": "2026-06-16 19:45:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "26 Avenue Édouard Millaud",
+      "cp": "69290",
+      "ville": "CRAPONNE",
+      "prix": 1.839,
+      "distance": 7.16,
+      "maj_gouv": "2026-06-19 09:18:38"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "15 Avenue Édouard Millaud",
+      "cp": "69290",
+      "ville": "Craponne",
+      "prix": 1.855,
+      "distance": 7.16,
+      "maj_gouv": "2026-06-19 11:30:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "130 Boulevard Yves Farges",
+      "cp": "69190",
+      "ville": "Saint Fons",
+      "prix": 1.949,
+      "distance": 7.29,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "46, AV.DES MARRONNIERS",
+      "cp": "69270",
+      "ville": "Fontaines-sur-Saône",
+      "prix": 1.831,
+      "distance": 7.43,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "57 Avenue de Bohlen",
+      "cp": "69120",
+      "ville": "Vaulx-en-Velin",
+      "prix": 1.929,
+      "distance": 7.43,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A6 - AIRE DE BRUYÈRES PAISY",
+      "cp": "69570",
+      "ville": "DARDILLY",
+      "prix": 1.897,
+      "distance": 7.45,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "54 boulevard Yves Farge",
+      "cp": "69190",
+      "ville": "Saint-Fons",
+      "prix": 1.959,
+      "distance": 7.53,
+      "maj_gouv": "2026-06-17 09:23:58"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "236 avenue Franklin Roosevelt",
+      "cp": "69120",
+      "ville": "Vaulx-en-Velin",
+      "prix": 1.815,
+      "distance": 7.76,
+      "maj_gouv": "2026-06-19 11:00:32"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "2489 Route de Strasbourg",
+      "cp": "69140",
+      "ville": "RILLIEUX-LA-PAPE",
+      "prix": 1.818,
+      "distance": 8.01,
+      "maj_gouv": "2026-06-19 08:36:49"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "55 AV GARIBALDI",
+      "cp": "69120",
+      "ville": "Vaulx-en-Velin",
+      "prix": 1.91,
+      "distance": 8.1,
+      "maj_gouv": "2026-06-16 12:55:02"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "BLD. André Boulloche BP 341",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.846,
+      "distance": 8.29,
+      "maj_gouv": "2026-06-19 08:53:43"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "AIRE PORTE DE LYON",
+      "cp": "69570",
+      "ville": "DARDILLY",
+      "prix": 1.861,
+      "distance": 8.51,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "23 Avenue de la Porte de Lyon",
+      "cp": "69570",
+      "ville": "Dardilly",
+      "prix": 1.879,
+      "distance": 8.69,
+      "maj_gouv": "2026-06-18 09:55:03"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RTE DE CORBAS - RD 57",
+      "cp": "69200",
+      "ville": "VENISSIEUX",
+      "prix": 1.944,
+      "distance": 8.82,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "32 ROUTE DE LYON",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.837,
+      "distance": 9.22,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Les basses barolles",
+      "cp": "69230",
+      "ville": "SAINT-GENIS-LAVAL",
+      "prix": 1.909,
+      "distance": 9.3,
+      "maj_gouv": "2026-06-17 07:30:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "261 Quai Pierre Dupont",
+      "cp": "69270",
+      "ville": "Rochetaillée-sur-Saône",
+      "prix": 1.808,
+      "distance": 9.48,
+      "maj_gouv": "2026-06-19 10:31:32"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "18 rue du 11 Novembre",
+      "cp": "69320",
+      "ville": "FEYZIN",
+      "prix": 1.957,
+      "distance": 9.9,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "28 Route de Lyon",
+      "cp": "69680",
+      "ville": "CHASSIEU",
+      "prix": 1.84,
+      "distance": 9.92,
+      "maj_gouv": "2026-06-19 10:19:26"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "248 ROUTE DE GRENOBLE",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.834,
+      "distance": 10.35,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 6- ROUTE DE GRENOBLE",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.834,
+      "distance": 10.35,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "369 Route Neuve",
+      "cp": "69126",
+      "ville": "Brindas",
+      "prix": 1.899,
+      "distance": 10.51,
+      "maj_gouv": "2026-06-19 11:35:52"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "328 Avenue Jean Jaurès",
+      "cp": "69150",
+      "ville": "Décines-Charpieu",
+      "prix": 1.876,
+      "distance": 10.82,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "Route de Lyon",
+      "cp": "69250",
+      "ville": "Fleurieu-sur-Saône",
+      "prix": 1.959,
+      "distance": 10.82,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Avenue Benoît Launay",
+      "cp": "69290",
+      "ville": "Grézieu-la-Varenne",
+      "prix": 1.838,
+      "distance": 11.02,
+      "maj_gouv": "2026-06-19 10:07:57"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "51 avenue Gabriel Péri",
+      "cp": "69960",
+      "ville": "Corbas",
+      "prix": 1.938,
+      "distance": 11.24,
+      "maj_gouv": "2026-06-19 06:18:36"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "397 avenue jean jaures",
+      "cp": "69150",
+      "ville": "Décines-Charpieu",
+      "prix": 1.912,
+      "distance": 11.59,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A7 - AIRE DE SOLAIZE",
+      "cp": "69360",
+      "ville": "Saint-Symphorien-d'Ozon",
+      "prix": 1.99,
+      "distance": 11.77,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "72 ROUTE D'HEYRIEUX",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.832,
+      "distance": 11.86,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "rue de la République",
+      "cp": "69330",
+      "ville": "Meyzieu",
+      "prix": 1.809,
+      "distance": 12.09,
+      "maj_gouv": "2026-06-19 05:30:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "22 ROUTE DE LYON",
+      "cp": "69740",
+      "ville": "Genas",
+      "prix": 1.959,
+      "distance": 12.47,
+      "maj_gouv": "2026-06-17 07:58:31"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "49 Avenue de Verdun",
+      "cp": "69330",
+      "ville": "Meyzieu",
+      "prix": 1.872,
+      "distance": 12.5,
+      "maj_gouv": "2026-06-17 04:58:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "119 Route d'Heyrieux",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.849,
+      "distance": 12.55,
+      "maj_gouv": "2026-06-19 11:42:26"
+    },
+    {
+      "station": "Esso",
+      "adresse": "AUTOROUTE A43, AIRE DE MANISSIEUX",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.994,
+      "distance": 12.65,
+      "maj_gouv": "2026-06-19 11:46:03"
+    },
+    {
+      "station": "Esso",
+      "adresse": "61 Route de Bordeaux",
+      "cp": "69670",
+      "ville": "VAUGNERAY",
+      "prix": 1.949,
+      "distance": 12.66,
+      "maj_gouv": "2026-06-17 09:14:13"
+    },
+    {
+      "station": "ENI",
+      "adresse": "RN 86 - LES SEPT CHEMINS",
+      "cp": "69390",
+      "ville": "VOURLES",
+      "prix": 1.929,
+      "distance": 12.82,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "AUTOROUTE A43, AIRE DE SAINT PRIEST",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 2.084,
+      "distance": 12.82,
+      "maj_gouv": "2026-06-19 11:20:49"
+    },
+    {
+      "station": "Système U",
+      "adresse": "641 route de Givors",
+      "cp": "69390",
+      "ville": "Vernaison",
+      "prix": 1.908,
+      "distance": 12.99,
+      "maj_gouv": "2026-06-18 09:15:51"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "104 ROUTE DES MONTS DU LYONNAIS",
+      "cp": "69510",
+      "ville": "Messimy",
+      "prix": 1.955,
+      "distance": 13.26,
+      "maj_gouv": "2026-06-19 08:11:51"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE DU FIGUIER",
+      "cp": "01700",
+      "ville": "MIRIBEL",
+      "prix": 1.879,
+      "distance": 13.27,
+      "maj_gouv": "2026-06-15 08:06:02"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "91 RTE DE GRENOBLE",
+      "cp": "69800",
+      "ville": "Saint-Priest",
+      "prix": 1.834,
+      "distance": 13.43,
+      "maj_gouv": "2026-06-19 09:56:15"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "80 Rue Joseph Desbois",
+      "cp": "69330",
+      "ville": "MEYZIEU",
+      "prix": 1.863,
+      "distance": 13.68,
+      "maj_gouv": "2026-06-16 09:25:34"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "ROUTE DE CORBAS CD 148",
+      "cp": "69360",
+      "ville": "Saint-Symphorien-d'Ozon",
+      "prix": 1.848,
+      "distance": 13.85,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "Route des Monts du Lyonnais",
+      "cp": "69510",
+      "ville": "MESSIMY",
+      "prix": 1.955,
+      "distance": 13.93,
+      "maj_gouv": "2026-06-19 09:25:43"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue de la République",
+      "cp": "69330",
+      "ville": "MEYZIEU",
+      "prix": 1.815,
+      "distance": 13.99,
+      "maj_gouv": "2026-06-19 10:49:45"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "RN 83",
+      "cp": "01700",
+      "ville": "Miribel",
+      "prix": 1.837,
+      "distance": 14.03,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "85, Avenue de Chaponnay - Parc d'activité de la vallée de l'Ozon",
+      "cp": "69970",
+      "ville": "CHAPONNAY",
+      "prix": 1.887,
+      "distance": 14.08,
+      "maj_gouv": "2026-06-19 09:31:54"
+    },
+    {
+      "station": "Avia",
+      "adresse": "A7 AIRE DE SEREZIN DU RHONE",
+      "cp": "69360",
+      "ville": "SEREZIN DU RHONE",
+      "prix": 2.089,
+      "distance": 14.14,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "2 AVENUE DU DAUPHINE",
+      "cp": "69360",
+      "ville": "SEREZIN DU RHONE",
+      "prix": 1.908,
+      "distance": 14.33,
+      "maj_gouv": "2026-06-18 09:19:46"
+    },
+    {
+      "station": "Avia",
+      "adresse": "Chemin de Montluzin",
+      "cp": "69380",
+      "ville": "LISSIEU",
+      "prix": 1.959,
+      "distance": 14.47,
+      "maj_gouv": "2026-06-18 21:30:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "473 Route de la Vallée",
+      "cp": "69380",
+      "ville": "CIVRIEUX-D'AZERGUES",
+      "prix": 1.805,
+      "distance": 14.75,
+      "maj_gouv": "2026-06-19 10:10:29"
+    },
+    {
+      "station": "Shell",
+      "adresse": "AIRE DE MIONNAY OUEST",
+      "cp": "01390",
+      "ville": "MIONNAY",
+      "prix": 2.325,
+      "distance": 14.98,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "ZAC des Baterses",
+      "cp": "01700",
+      "ville": "BEYNOST",
+      "prix": 1.81,
+      "distance": 15.0,
+      "maj_gouv": "2026-06-16 20:00:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Rue Ampère",
+      "cp": "69730",
+      "ville": "GENAY",
+      "prix": 1.814,
+      "distance": 15.05,
+      "maj_gouv": "2026-06-18 11:37:45"
+    },
+    {
+      "station": "ENI",
+      "adresse": "AIRE DE MIONNAY EST CHATANAYAUTOROUTE A 46",
+      "cp": "01390",
+      "ville": "MIONNAY",
+      "prix": 2.169,
+      "distance": 15.36,
+      "maj_gouv": "2026-06-18 21:59:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "6 Route Nationale",
+      "cp": "69720",
+      "ville": "SAINT-BONNET-DE-MURE",
+      "prix": 1.859,
+      "distance": 15.73,
+      "maj_gouv": "2026-06-18 06:30:31"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "2 rue Joseph Gillet - D30 Route de Villefranche",
+      "cp": "69380",
+      "ville": "Chazay-d'Azergues",
+      "prix": 1.829,
+      "distance": 16.04,
+      "maj_gouv": "2026-06-19 10:24:27"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "8 RUE MARIUS BERLIET",
+      "cp": "69380",
+      "ville": "Chazay-d'Azergues",
+      "prix": 1.829,
+      "distance": 16.05,
+      "maj_gouv": "2026-06-19 10:24:58"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Avenue Lavoisier",
+      "cp": "01600",
+      "ville": "MASSIEUX",
+      "prix": 1.859,
+      "distance": 16.28,
+      "maj_gouv": "2026-06-17 12:22:39"
+    },
+    {
+      "station": "Avia",
+      "adresse": "D307 Les Trénassets",
+      "cp": "69360",
+      "ville": "SIMANDRES",
+      "prix": 1.969,
+      "distance": 16.51,
+      "maj_gouv": "2026-06-18 23:54:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "A6 Aire des Cheres Ouest",
+      "cp": "69380",
+      "ville": "Les Cheres",
+      "prix": 2.109,
+      "distance": 17.11,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Boulevard Louis Pradel",
+      "cp": "69330",
+      "ville": "JONAGE",
+      "prix": 1.831,
+      "distance": 17.28,
+      "maj_gouv": "2026-06-19 12:31:54"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Centre Commercial du Jayon",
+      "cp": "69520",
+      "ville": "GRIGNY",
+      "prix": 1.859,
+      "distance": 17.43,
+      "maj_gouv": "2026-06-19 10:24:13"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "RN 6",
+      "cp": "69720",
+      "ville": "Saint-Laurent-de-Mure",
+      "prix": 1.843,
+      "distance": 17.49,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "17 Avenue Jean Moulin",
+      "cp": "69720",
+      "ville": "SAINT-LAURENT-DE-MURE",
+      "prix": 1.932,
+      "distance": 17.63,
+      "maj_gouv": "2026-06-19 08:03:29"
+    },
+    {
+      "station": "Esso",
+      "adresse": "A6 Aire des Cheres Est",
+      "cp": "69380",
+      "ville": "Les Cheres",
+      "prix": 2.097,
+      "distance": 17.97,
+      "maj_gouv": "2026-06-18 07:51:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1 Rue de la république",
+      "cp": "69650",
+      "ville": "Quincieux",
+      "prix": 1.939,
+      "distance": 18.24,
+      "maj_gouv": "2026-06-19 07:59:41"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AUTOROUTE A 46 - AIRE COMMUNAY NORD",
+      "cp": "69360",
+      "ville": "COMMUNAY",
+      "prix": 1.861,
+      "distance": 18.55,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "CHEMIN DU CORNU parking LIDL",
+      "cp": "69210",
+      "ville": "FLEURIEUX-SUR-L'ARBRESLE",
+      "prix": 1.849,
+      "distance": 18.6,
+      "maj_gouv": "2026-06-19 13:23:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RD 342",
+      "cp": "69440",
+      "ville": "MORNANT",
+      "prix": 1.899,
+      "distance": 18.69,
+      "maj_gouv": "2026-06-19 16:18:45"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "48 rue Jean Ligonnet",
+      "cp": "69700",
+      "ville": "Givors",
+      "prix": 1.839,
+      "distance": 18.71,
+      "maj_gouv": "2026-06-19 11:37:56"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AUTOROUTE A46 - AIRE COMMUNAY SUD",
+      "cp": "69360",
+      "ville": "COMMUNAY",
+      "prix": 1.861,
+      "distance": 18.78,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Z.A. les Martinets",
+      "cp": "69210",
+      "ville": "L'Arbresle",
+      "prix": 1.849,
+      "distance": 18.89,
+      "maj_gouv": "2026-06-19 10:22:57"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "30 QUAI DE LA BREVENNE",
+      "cp": "69210",
+      "ville": "Sain-Bel",
+      "prix": 1.878,
+      "distance": 18.9,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Netto",
+      "adresse": "15 ROUTE DE JONS",
+      "cp": "69330",
+      "ville": "PUSIGNAN",
+      "prix": 1.839,
+      "distance": 18.93,
+      "maj_gouv": "2026-06-19 09:17:37"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "521 ROUTE NATIONALE",
+      "cp": "01120",
+      "ville": "La Boisse",
+      "prix": 1.922,
+      "distance": 18.94,
+      "maj_gouv": "2026-06-19 07:40:03"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "600 Rue de France",
+      "cp": "69125",
+      "ville": "LYON ST EXUPERY AEROPORT",
+      "prix": 1.937,
+      "distance": 18.95,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "33 RUE DE PARIS  RN7",
+      "cp": "69210",
+      "ville": "L'Arbresle",
+      "prix": 1.937,
+      "distance": 19.31,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Thil",
+      "cp": "01120",
+      "ville": "LA BOISSE",
+      "prix": 1.81,
+      "distance": 19.46,
+      "maj_gouv": "2026-06-18 04:59:11"
+    },
+    {
+      "station": "Netto",
+      "adresse": "ROUTE D HEYRIEUX",
+      "cp": "69780",
+      "ville": "ST PIERRE DE CHANDIEU",
+      "prix": 1.899,
+      "distance": 19.52,
+      "maj_gouv": "2026-06-19 13:59:53"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE CLAUDE TERRASSE",
+      "cp": "69210",
+      "ville": "L'Arbresle",
+      "prix": 1.849,
+      "distance": 19.8,
+      "maj_gouv": "2026-06-19 11:07:24"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "324 Route de Lyon",
+      "cp": "01600",
+      "ville": "TREVOUX",
+      "prix": 1.833,
+      "distance": 19.93,
+      "maj_gouv": "2026-06-19 13:44:23"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "CENTRE COMMERCIAL GIVORS 2 VALLEES",
+      "cp": "69700",
+      "ville": "Givors",
+      "prix": 1.84,
+      "distance": 20.02,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "1515 AVENUE MISTRAL",
+      "cp": "38670",
+      "ville": "Chasse-sur-Rhône",
+      "prix": 1.859,
+      "distance": 20.5,
+      "maj_gouv": "2026-06-16 08:30:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Cours de la Portelle",
+      "cp": "01120",
+      "ville": "MONTLUEL",
+      "prix": 1.832,
+      "distance": 20.53,
+      "maj_gouv": "2026-06-19 15:54:15"
+    },
+    {
+      "station": "Avia",
+      "adresse": "A 42 AIRE DE LYON DAGNEUX",
+      "cp": "01120",
+      "ville": "DAGNEUX",
+      "prix": 2.046,
+      "distance": 20.72,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "zac les brosses",
+      "cp": "38540",
+      "ville": "HEYRIEUX",
+      "prix": 1.829,
+      "distance": 21.11,
+      "maj_gouv": "2026-06-19 07:39:33"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A42 - AIRE DE LYON MONTUEL",
+      "cp": "01120",
+      "ville": "DAGNEUX",
+      "prix": 1.99,
+      "distance": 21.22,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZI DE LA SURE",
+      "cp": "01390",
+      "ville": "St André de Corcy",
+      "prix": 1.889,
+      "distance": 21.69,
+      "maj_gouv": "2026-06-19 08:00:45"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Z.I. DE SURE",
+      "cp": "01390",
+      "ville": "Saint-André-de-Corcy",
+      "prix": 1.943,
+      "distance": 22.45,
+      "maj_gouv": "2026-06-19 07:02:07"
+    },
+    {
+      "station": "ENI",
+      "adresse": "831 route de villefranche",
+      "cp": "69480",
+      "ville": "ANSE",
+      "prix": 1.959,
+      "distance": 22.66,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "AUTOROUTE A47 - AIRE DE SAINT ROMAIN EN GIER",
+      "cp": "69700",
+      "ville": "SAINT ROMAIN EN GIER",
+      "prix": 2.019,
+      "distance": 22.8,
+      "maj_gouv": "2026-06-19 11:19:23"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RTE DE LYON",
+      "cp": "69850",
+      "ville": "Saint-Martin-en-Haut",
+      "prix": 1.949,
+      "distance": 23.39,
+      "maj_gouv": "2026-06-19 08:06:24"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RUE DES DIAMANTS",
+      "cp": "38280",
+      "ville": "Villette-d'Anthon",
+      "prix": 1.839,
+      "distance": 23.59,
+      "maj_gouv": "2026-06-19 10:21:34"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Route de Villefranche",
+      "cp": "69480",
+      "ville": "ANSE",
+      "prix": 1.879,
+      "distance": 23.83,
+      "maj_gouv": "2026-06-17 10:07:54"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Chemin des Lones",
+      "cp": "38200",
+      "ville": "Vienne",
+      "prix": 1.899,
+      "distance": 24.02,
+      "maj_gouv": "2026-06-17 09:04:43"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "ROUTE DES PERVES",
+      "cp": "38230",
+      "ville": "Charvieu-Chavagneux",
+      "prix": 1.827,
+      "distance": 24.29,
+      "maj_gouv": "2026-06-19 11:42:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "3725 route du péage",
+      "cp": "38780",
+      "ville": "OYTIER ST OBLAS",
+      "prix": 1.899,
+      "distance": 25.25,
+      "maj_gouv": "2026-06-18 08:26:36"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue des Muguets",
+      "cp": "38070",
+      "ville": "SAINT-QUENTIN-FALLAVIER",
+      "prix": 1.899,
+      "distance": 25.3,
+      "maj_gouv": "2026-06-19 10:51:20"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Avenue de la Gare",
+      "cp": "69560",
+      "ville": "Saint-Romain-en-Gal",
+      "prix": 1.899,
+      "distance": 25.68,
+      "maj_gouv": "2026-06-16 19:38:57"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "19 avenue Edouard Hérriot",
+      "cp": "69651",
+      "ville": "Limas",
+      "prix": 1.951,
+      "distance": 25.76,
+      "maj_gouv": "2026-06-19 07:43:59"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "477 Rue Jules Ferry",
+      "cp": "69400",
+      "ville": "VILLEFRANCHE-SUR-SAôNE",
+      "prix": 1.889,
+      "distance": 25.82,
+      "maj_gouv": "2026-06-19 10:30:14"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "LES PONTS TARRETS 118 RD 385",
+      "cp": "69620",
+      "ville": "LEGNY",
+      "prix": 1.879,
+      "distance": 25.86,
+      "maj_gouv": "2026-06-18 12:10:52"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "705 Rue d'Anse",
+      "cp": "69400",
+      "ville": "Villefranche-sur-Saône",
+      "prix": 1.859,
+      "distance": 26.13,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 6-RTE D'ANSE",
+      "cp": "69400",
+      "ville": "Villefranche-sur-Saône",
+      "prix": 1.857,
+      "distance": 26.22,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "16 BOULEVARD DES ALPES",
+      "cp": "38200",
+      "ville": "VIENNE",
+      "prix": 1.851,
+      "distance": 26.25,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue Joseph Grenouillet",
+      "cp": "38780",
+      "ville": "PONT-ÉVêQUE",
+      "prix": 1.874,
+      "distance": 26.36,
+      "maj_gouv": "2026-06-18 08:30:15"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "56 CHEMIN DU PLUMERET",
+      "cp": "01480",
+      "ville": "FRANS",
+      "prix": 1.909,
+      "distance": 26.48,
+      "maj_gouv": "2026-06-19 10:05:56"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Rue de Picardie / Boulevard de la Noirée",
+      "cp": "38290",
+      "ville": "La Verpillière",
+      "prix": 1.894,
+      "distance": 26.57,
+      "maj_gouv": "2026-06-19 10:18:31"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "14 Cours de Verdun",
+      "cp": "38200",
+      "ville": "Vienne",
+      "prix": 1.942,
+      "distance": 26.61,
+      "maj_gouv": "2026-06-18 19:19:47"
+    },
+    {
+      "station": "ENI",
+      "adresse": "2395, route de Tarare",
+      "cp": "69400",
+      "ville": "Porte des Pierres Dorées",
+      "prix": 1.949,
+      "distance": 26.65,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Carrefour Contact",
+      "adresse": "244, Chemin Rivière de la Cour",
+      "cp": "69620",
+      "ville": "Le Bois-d'Oingt",
+      "prix": 1.909,
+      "distance": 26.73,
+      "maj_gouv": "2026-06-10 06:44:42"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "1139 RUE DE TARARE",
+      "cp": "69400",
+      "ville": "GLEIZE",
+      "prix": 1.903,
+      "distance": 26.94,
+      "maj_gouv": "2026-06-19 11:43:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "347 Avenue de la Libération",
+      "cp": "38290",
+      "ville": "La Verpillière",
+      "prix": 1.932,
+      "distance": 27.01,
+      "maj_gouv": "2026-06-18 19:18:30"
+    },
+    {
+      "station": "Carrefour Contact",
+      "adresse": "2 chemin de grange neuve",
+      "cp": "38790",
+      "ville": "diemoz",
+      "prix": 1.899,
+      "distance": 27.15,
+      "maj_gouv": "2026-06-18 11:09:41"
+    },
+    {
+      "station": "Esso",
+      "adresse": "1193 Avenue de l'Europe",
+      "cp": "69400",
+      "ville": "VILLEFRANCHE-SUR-SAôNE",
+      "prix": 1.897,
+      "distance": 27.17,
+      "maj_gouv": "2026-06-19 09:39:46"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Rue des Ardennes",
+      "cp": "38230",
+      "ville": "Tignieu-Jameyzieu",
+      "prix": 1.845,
+      "distance": 27.27,
+      "maj_gouv": "2026-06-19 11:43:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "245 ROUTE DU 3 SEPTEMBRE 1944",
+      "cp": "01330",
+      "ville": "Amberieux-en-Dombes",
+      "prix": 1.941,
+      "distance": 27.32,
+      "maj_gouv": "2026-06-19 07:25:44"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "420 Rue Philippe Héron",
+      "cp": "69400",
+      "ville": "Villefranche-sur-Saône",
+      "prix": 1.959,
+      "distance": 27.39,
+      "maj_gouv": "2026-06-17 12:35:58"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "zac du garet",
+      "cp": "69400",
+      "ville": "VILLEFRANCHE-SUR-SAONE",
+      "prix": 1.959,
+      "distance": 27.66,
+      "maj_gouv": "2026-06-18 08:58:30"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "48 Route de Crémieu",
+      "cp": "38230",
+      "ville": "Tignieu-Jameyzieu",
+      "prix": 1.933,
+      "distance": 28.01,
+      "maj_gouv": "2026-06-19 07:08:10"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "145 Boulevard Roger Salengro",
+      "cp": "69400",
+      "ville": "Villefranche-sur-Saône",
+      "prix": 1.859,
+      "distance": 28.18,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "1860 route de la vallée",
+      "cp": "69620",
+      "ville": "val d'oingt",
+      "prix": 1.973,
+      "distance": 28.34,
+      "maj_gouv": "2026-06-18 09:23:41"
+    },
+    {
+      "station": "Netto",
+      "adresse": "45 RUE EMILE ROMANET",
+      "cp": "38090",
+      "ville": "VILLEFONTAINE",
+      "prix": 1.894,
+      "distance": 28.91,
+      "maj_gouv": "2026-06-19 10:54:32"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "100 rue du tacot beaujolais",
+      "cp": "69400",
+      "ville": "Gleizé",
+      "prix": 1.879,
+      "distance": 29.11,
+      "maj_gouv": "2026-06-19 12:30:09"
+    },
+    {
+      "station": "Elan",
+      "adresse": "11 route de Port-Galland",
+      "cp": "01800",
+      "ville": "Saint-Maurice-de-Gourdans",
+      "prix": 1.99,
+      "distance": 29.38,
+      "maj_gouv": "2026-06-02 13:52:06"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "63 Rue du Bugey",
+      "cp": "01360",
+      "ville": "LOYETTES",
+      "prix": 1.935,
+      "distance": 29.65,
+      "maj_gouv": "2026-06-19 06:10:52"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Avenue Maréchal Juin",
+      "cp": "42800",
+      "ville": "RIVE-DE-GIER",
+      "prix": 1.89,
+      "distance": 29.8,
+      "maj_gouv": "2026-06-19 09:00:38"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "27 route de la taquière",
+      "cp": "69420",
+      "ville": "Ampuis",
+      "prix": 1.899,
+      "distance": 30.16,
+      "maj_gouv": "2026-06-19 09:50:11"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "Route de Satolas",
+      "cp": "38460",
+      "ville": "Villemoirieu",
+      "prix": 1.919,
+      "distance": 30.65,
+      "maj_gouv": "2026-06-16 08:13:59"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "RN 7",
+      "cp": "69490",
+      "ville": "Saint-Loup",
+      "prix": 1.869,
+      "distance": 31.01,
+      "maj_gouv": "2026-06-19 09:46:22"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Avenue Emmanuel Clément",
+      "cp": "69590",
+      "ville": "SAINT-SYMPHORIEN-SUR-COISE",
+      "prix": 1.899,
+      "distance": 31.72,
+      "maj_gouv": "2026-06-17 08:30:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "route de Lyon",
+      "cp": "38460",
+      "ville": "CREMIEU",
+      "prix": 1.959,
+      "distance": 31.81,
+      "maj_gouv": "2026-06-16 07:11:47"
+    },
+    {
+      "station": "Système U",
+      "adresse": "zac de la tuilerie",
+      "cp": "01330",
+      "ville": "VILLARS-LES-DOMBES",
+      "prix": 1.899,
+      "distance": 31.85,
+      "maj_gouv": "2026-06-19 09:28:01"
+    },
+    {
+      "station": "Netto",
+      "adresse": "1 PLACE DU COMMERCE",
+      "cp": "42800",
+      "ville": "Rive-de-Gier",
+      "prix": 1.859,
+      "distance": 31.98,
+      "maj_gouv": "2026-06-19 09:21:48"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "47 Route de Lyon",
+      "cp": "01800",
+      "ville": "MEXIMIEUX",
+      "prix": 1.838,
+      "distance": 32.05,
+      "maj_gouv": "2026-06-18 15:29:55"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ROUTE DE CHALAMONT",
+      "cp": "01800",
+      "ville": "Meximieux",
+      "prix": 1.834,
+      "distance": 32.56,
+      "maj_gouv": "2026-06-18 15:36:50"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "850 RD 933",
+      "cp": "01480",
+      "ville": "Messimy-sur-Saône",
+      "prix": 1.989,
+      "distance": 32.89,
+      "maj_gouv": "2026-06-16 08:22:54"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 7 - 60 RUE EDOUARD HERRIOT",
+      "cp": "69170",
+      "ville": "TARARE",
+      "prix": 1.851,
+      "distance": 33.38,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "A43 AIRE DE L'ISLE-D'ABEAU SUD",
+      "cp": "38080",
+      "ville": "L'Isle-d'Abeau",
+      "prix": 2.089,
+      "distance": 33.54,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A43 - AIRE L'ISLE D'ABEAU NORD",
+      "cp": "38080",
+      "ville": "L'Isle-d'Abeau",
+      "prix": 1.99,
+      "distance": 33.69,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "7 Avenue Édouard Herriot",
+      "cp": "69170",
+      "ville": "Tarare",
+      "prix": 1.925,
+      "distance": 33.7,
+      "maj_gouv": "2026-06-19 08:55:51"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RN 86 La Maladière",
+      "cp": "69420",
+      "ville": "CONDRIEU",
+      "prix": 1.852,
+      "distance": 33.95,
+      "maj_gouv": "2026-06-19 09:47:52"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "913 route du beaujolais",
+      "cp": "69460",
+      "ville": "Blacé",
+      "prix": 2.05,
+      "distance": 34.12,
+      "maj_gouv": "2026-06-17 14:37:12"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "25 Rue des Sayes",
+      "cp": "38080",
+      "ville": "L'ISLE-D'ABEAU",
+      "prix": 1.809,
+      "distance": 34.45,
+      "maj_gouv": "2026-06-18 11:07:48"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Les Vernailles, 110 rue de l'industrie",
+      "cp": "69830",
+      "ville": "Saint-Georges-de-Reneins",
+      "prix": 1.852,
+      "distance": 34.68,
+      "maj_gouv": "2026-06-19 14:48:40"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "365 route de verlieu RN86",
+      "cp": "42410",
+      "ville": "Saint Michel",
+      "prix": 1.955,
+      "distance": 35.45,
+      "maj_gouv": "2026-06-19 08:14:24"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Avenue Charles de Gaulle",
+      "cp": "01150",
+      "ville": "SAINT-VULBAS",
+      "prix": 1.945,
+      "distance": 35.73,
+      "maj_gouv": "2026-06-18 19:49:59"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Route de Condrieu",
+      "cp": "38370",
+      "ville": "Saint-Clair-du-Rhône",
+      "prix": 1.889,
+      "distance": 35.89,
+      "maj_gouv": "2026-06-19 09:40:15"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "219 ROUTE DE CREMIEU",
+      "cp": "38460",
+      "ville": "SAINT HILAIRE DE BRENS",
+      "prix": 1.939,
+      "distance": 36.16,
+      "maj_gouv": "2026-06-19 07:40:53"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue du Plat du Gier",
+      "cp": "42152",
+      "ville": "L'HORME",
+      "prix": 1.895,
+      "distance": 36.5,
+      "maj_gouv": "2026-06-19 10:54:42"
+    },
+    {
+      "station": "ENI",
+      "adresse": "19 Bis avenue Berthelot",
+      "cp": "42152",
+      "ville": "L'Horme",
+      "prix": 1.949,
+      "distance": 36.89,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Le rivet",
+      "cp": "38300",
+      "ville": "BOURGOIN",
+      "prix": 1.907,
+      "distance": 36.92,
+      "maj_gouv": "2026-06-18 09:23:12"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "178 Route de Lyon",
+      "cp": "38300",
+      "ville": "Domarin",
+      "prix": 1.839,
+      "distance": 37.05,
+      "maj_gouv": "2026-06-19 09:56:45"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "51 route Nationale",
+      "cp": "38440",
+      "ville": "Saint-Jean-de-Bournay",
+      "prix": 1.829,
+      "distance": 37.34,
+      "maj_gouv": "2026-06-19 09:57:42"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "ZA de Verlieu RN 86",
+      "cp": "42410",
+      "ville": "CHAVANAY",
+      "prix": 1.899,
+      "distance": 37.46,
+      "maj_gouv": "2026-06-19 07:07:49"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Route Nationale 7",
+      "cp": "38550",
+      "ville": "Auberives sur Vareze",
+      "prix": 1.931,
+      "distance": 37.47,
+      "maj_gouv": "2026-06-19 08:50:15"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A47 - AIRE DU PAYS DU GIERS",
+      "cp": "42400",
+      "ville": "Saint-Chamond",
+      "prix": 1.99,
+      "distance": 37.64,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Netto",
+      "adresse": "Lieu dit Le Petit Étang",
+      "cp": "01320",
+      "ville": "Chalamont",
+      "prix": 1.834,
+      "distance": 37.66,
+      "maj_gouv": "2026-06-19 14:10:52"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RTE DE ST GALMIER",
+      "cp": "42140",
+      "ville": "CHAZELLES-SUR-LYON",
+      "prix": 1.932,
+      "distance": 37.74,
+      "maj_gouv": "2026-06-19 07:35:44"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "174 ROUTE DES ECHARRIERESQUARTIER DEPOT",
+      "cp": "38440",
+      "ville": "SAINT JEAN DE BOURNAY",
+      "prix": 1.859,
+      "distance": 37.85,
+      "maj_gouv": "2026-06-19 13:27:25"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "1 ROUTE DE FRANCHELEINS",
+      "cp": "01090",
+      "ville": "MONTCEAUX",
+      "prix": 1.939,
+      "distance": 37.86,
+      "maj_gouv": "2026-06-19 09:16:22"
+    },
+    {
+      "station": "Système U",
+      "adresse": "38 TER AVENUE PASTEUR",
+      "cp": "42152",
+      "ville": "L'HORME",
+      "prix": 1.945,
+      "distance": 37.89,
+      "maj_gouv": "2026-06-17 09:13:40"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Avenue Henri Barbusse",
+      "cp": "38300",
+      "ville": "BOURGOIN-JALLIEU",
+      "prix": 1.809,
+      "distance": 38.53,
+      "maj_gouv": "2026-06-18 06:45:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "ROUTE DE LYON",
+      "cp": "38300",
+      "ville": "BOURGOIN",
+      "prix": 1.949,
+      "distance": 38.54,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "45 AV ALSACE LORRAINE",
+      "cp": "38300",
+      "ville": "Bourgoin-Jallieu",
+      "prix": 1.818,
+      "distance": 38.62,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "37 AV.ALSACE LORRAINE",
+      "cp": "38300",
+      "ville": "BOURGOIN JALLIEU",
+      "prix": 1.937,
+      "distance": 38.96,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Roady",
+      "adresse": "Le Pré de la Cloche",
+      "cp": "69220",
+      "ville": "Belleville",
+      "prix": 1.939,
+      "distance": 39.05,
+      "maj_gouv": "2026-06-18 10:25:26"
+    },
+    {
+      "station": "Carrefour Contact",
+      "adresse": "51 RUE DES ALPES",
+      "cp": "42410",
+      "ville": "PELUSSIN",
+      "prix": 1.869,
+      "distance": 39.08,
+      "maj_gouv": "2026-06-19 15:09:06"
+    },
+    {
+      "station": "Shell",
+      "adresse": "autoroute A7",
+      "cp": "38150",
+      "ville": "Roussillon",
+      "prix": 2.325,
+      "distance": 39.1,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "14 QUAI DE LA RIVE RN88",
+      "cp": "42400",
+      "ville": "Saint-Chamond",
+      "prix": 1.847,
+      "distance": 39.38,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "155 rue de la bascule",
+      "cp": "38300",
+      "ville": "st savin",
+      "prix": 1.99,
+      "distance": 39.52,
+      "maj_gouv": "2026-06-19 15:34:27"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "20 RN.6",
+      "cp": "69220",
+      "ville": "Belleville",
+      "prix": 1.959,
+      "distance": 39.58,
+      "maj_gouv": "2026-06-19 09:18:45"
+    },
+    {
+      "station": "Avia",
+      "adresse": "Route Nationale 6",
+      "cp": "69220",
+      "ville": "BELLEVILLE",
+      "prix": 2.059,
+      "distance": 39.58,
+      "maj_gouv": "2026-06-18 08:05:18"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "25 Rue Pontcottier",
+      "cp": "38300",
+      "ville": "Bourgoin-Jallieu",
+      "prix": 1.878,
+      "distance": 40.1,
+      "maj_gouv": "2026-06-17 07:02:05"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "LIEU DIT LA FEUILLETIERE",
+      "cp": "69870",
+      "ville": "Lamure-sur-Azergues",
+      "prix": 1.859,
+      "distance": 40.38,
+      "maj_gouv": "2026-06-19 11:08:10"
+    },
+    {
+      "station": "Netto",
+      "adresse": "260 rue du parc st Jean",
+      "cp": "69220",
+      "ville": "Saint-Jean-d'Ardières",
+      "prix": 1.9,
+      "distance": 40.46,
+      "maj_gouv": "2026-06-08 14:42:12"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "126 chemin de Rosiere (anciennement La Plaine)",
+      "cp": "38300",
+      "ville": "RUY-MONTCEAU",
+      "prix": 1.9,
+      "distance": 40.71,
+      "maj_gouv": "2026-06-18 11:12:11"
+    },
+    {
+      "station": "Shell",
+      "adresse": "Aire de Taponas - A 6",
+      "cp": "69220",
+      "ville": "Taponas",
+      "prix": 2.163,
+      "distance": 40.8,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "Netto",
+      "adresse": "AVENUE PIERRE MARCAULT",
+      "cp": "01400",
+      "ville": "Châtillon-sur-Chalaronne",
+      "prix": 1.9,
+      "distance": 40.97,
+      "maj_gouv": "2026-06-19 10:38:21"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ROUTE DE MARLIEUX",
+      "cp": "01400",
+      "ville": "Châtillon-sur-Chalaronne",
+      "prix": 1.898,
+      "distance": 41.22,
+      "maj_gouv": "2026-06-19 10:37:37"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "La Varizelle",
+      "cp": "42400",
+      "ville": "Saint-Chamond",
+      "prix": 1.86,
+      "distance": 42.16,
+      "maj_gouv": "2026-06-19 11:43:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue Bellefontaine",
+      "cp": "38550",
+      "ville": "LE PéAGE-DE-ROUSSILLON",
+      "prix": 1.824,
+      "distance": 42.36,
+      "maj_gouv": "2026-06-19 08:53:59"
+    },
+    {
+      "station": "Système U",
+      "adresse": "9001 avenue jacques prevert",
+      "cp": "38150",
+      "ville": "Roussillon",
+      "prix": 1.979,
+      "distance": 42.78,
+      "maj_gouv": "2026-06-12 13:20:38"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "8 RUE DE L'INDUSTRIE",
+      "cp": "01150",
+      "ville": "LAGNIEU",
+      "prix": 1.876,
+      "distance": 42.93,
+      "maj_gouv": "2026-06-17 07:53:27"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "2 RUE DU MOULIN GILLIER",
+      "cp": "42290",
+      "ville": "SORBIERS",
+      "prix": 1.849,
+      "distance": 43.1,
+      "maj_gouv": "2026-06-19 08:22:58"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1 Rue du Moulin Gillier",
+      "cp": "42290",
+      "ville": "Sorbiers",
+      "prix": 1.947,
+      "distance": 43.1,
+      "maj_gouv": "2026-06-18 19:18:55"
+    },
+    {
+      "station": "Fulli",
+      "adresse": "Autoroute A6 382 Chemin de l'emprunt",
+      "cp": "69220",
+      "ville": "Dracé",
+      "prix": 2.017,
+      "distance": 43.13,
+      "maj_gouv": "2026-06-16 11:38:24"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "346 route de Saint Bonnet les Oules",
+      "cp": "42570",
+      "ville": "Saint-Héand",
+      "prix": 1.885,
+      "distance": 43.38,
+      "maj_gouv": "2026-06-16 09:40:17"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Rue de la Richelande",
+      "cp": "42330",
+      "ville": "Saint-Galmier",
+      "prix": 1.899,
+      "distance": 44.69,
+      "maj_gouv": "2026-06-17 12:10:56"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Lieu-Dit la Maison Rouge",
+      "cp": "42650",
+      "ville": "SAINT-JEAN-BONNEFONDS",
+      "prix": 1.999,
+      "distance": 45.32,
+      "maj_gouv": "2026-06-19 11:21:05"
+    },
+    {
+      "station": "Système U",
+      "adresse": "4 chemin de l etang girard RD 538",
+      "cp": "38270",
+      "ville": "Revel-Tourdan",
+      "prix": 1.889,
+      "distance": 45.4,
+      "maj_gouv": "2026-06-18 09:04:30"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZA La Grange, route de Rivas",
+      "cp": "42330",
+      "ville": "CHAMBOEUF",
+      "prix": 1.899,
+      "distance": 45.42,
+      "maj_gouv": "2026-06-16 15:27:08"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "RN7 LES PERRIERS",
+      "cp": "38150",
+      "ville": "Salaise-sur-Sanne",
+      "prix": 1.885,
+      "distance": 45.51,
+      "maj_gouv": "2026-06-19 06:31:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Z.i. la Gaité",
+      "cp": "69550",
+      "ville": "Amplepuis",
+      "prix": 1.879,
+      "distance": 45.81,
+      "maj_gouv": "2026-06-17 16:25:05"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "CENTRE COMMERCIAL DE L'AVIATIONRAIS",
+      "cp": "01500",
+      "ville": "Ambérieu-en-Bugey",
+      "prix": 1.844,
+      "distance": 45.85,
+      "maj_gouv": "2026-06-19 08:27:27"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Z.i. la Gaité",
+      "cp": "69550",
+      "ville": "AMPLEPUIS",
+      "prix": 1.957,
+      "distance": 45.85,
+      "maj_gouv": "2026-06-19 08:40:34"
+    },
+    {
+      "station": "Netto",
+      "adresse": "1971 ROUTE DEPARTEMENTALE 1085",
+      "cp": "38300",
+      "ville": "ECLOSE BADINIERES",
+      "prix": 1.845,
+      "distance": 46.24,
+      "maj_gouv": "2026-06-19 12:46:31"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "165 RN7",
+      "cp": "38150",
+      "ville": "SALAISE-SUR-SANNE",
+      "prix": 1.834,
+      "distance": 46.51,
+      "maj_gouv": "2026-06-19 10:47:58"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Roanne",
+      "cp": "69550",
+      "ville": "Amplepuis",
+      "prix": 1.879,
+      "distance": 46.62,
+      "maj_gouv": "2026-06-17 14:23:29"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue Alexandre Bérard",
+      "cp": "01500",
+      "ville": "Ambérieu-en-Bugey",
+      "prix": 1.9,
+      "distance": 46.73,
+      "maj_gouv": "2026-06-16 18:18:06"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "LA CHEVALIERE",
+      "cp": "69430",
+      "ville": "Beaujeu",
+      "prix": 1.949,
+      "distance": 46.77,
+      "maj_gouv": "2026-06-17 06:55:20"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "2 Rue Lé Lagrange",
+      "cp": "42270",
+      "ville": "SAINT-PRIEST-EN-JAREZ",
+      "prix": 1.844,
+      "distance": 46.92,
+      "maj_gouv": "2026-06-19 11:43:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "416 AVENUE DE LA LIBERATION",
+      "cp": "01140",
+      "ville": "Saint-Didier-sur-Chalaronne",
+      "prix": 1.859,
+      "distance": 46.96,
+      "maj_gouv": "2026-06-17 09:13:57"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "ROUTE DE SAINT ETIENNE",
+      "cp": "42110",
+      "ville": "Feurs",
+      "prix": 1.845,
+      "distance": 47.12,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "12 avenue Henri PLANCHET",
+      "cp": "42340",
+      "ville": "VEAUCHE",
+      "prix": 1.845,
+      "distance": 47.25,
+      "maj_gouv": "2026-06-18 09:36:29"
+    },
+    {
+      "station": "ENI",
+      "adresse": "114-114 rue des Aciéries",
+      "cp": "42000",
+      "ville": "Saint-Étienne",
+      "prix": 1.949,
+      "distance": 47.35,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "15 Rue des trois Glorieuses",
+      "cp": "42270",
+      "ville": "SAINT-PRIEST-EN-JAREZ",
+      "prix": 1.969,
+      "distance": 47.48,
+      "maj_gouv": "2026-06-16 20:00:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Roanne RN 82",
+      "cp": "42110",
+      "ville": "CIVENS - FEURS",
+      "prix": 1.819,
+      "distance": 47.51,
+      "maj_gouv": "2026-06-19 08:16:09"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "QUARTIER DE MONTHIEU140 RUE DE LA MONTAT",
+      "cp": "42100",
+      "ville": "ST ETIENNE MONTHIEU",
+      "prix": 1.843,
+      "distance": 47.6,
+      "maj_gouv": "2026-06-19 11:24:47"
+    },
+    {
+      "station": "Netto",
+      "adresse": "6 Gd Rue de Randan",
+      "cp": "42110",
+      "ville": "Feurs",
+      "prix": 1.829,
+      "distance": 47.64,
+      "maj_gouv": "2026-06-19 09:45:45"
+    },
+    {
+      "station": "Dyneff",
+      "adresse": "27 boulevard Fauriat",
+      "cp": "42000",
+      "ville": "SAINT ETIENNE",
+      "prix": 1.959,
+      "distance": 47.91,
+      "maj_gouv": "2026-06-19 14:00:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RN 6 LA MAISON BLANCHE",
+      "cp": "71570",
+      "ville": "Romanèche-Thorins",
+      "prix": 1.829,
+      "distance": 47.94,
+      "maj_gouv": "2026-06-19 15:52:22"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "11 AV DE VERDUN",
+      "cp": "42000",
+      "ville": "Saint-Étienne",
+      "prix": 1.838,
+      "distance": 48.01,
+      "maj_gouv": "2026-06-19 07:44:06"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "444 route de Saint Etienne",
+      "cp": "42210",
+      "ville": "MONTROND-LES-BAINS",
+      "prix": 1.992,
+      "distance": 48.04,
+      "maj_gouv": "2026-06-16 08:07:24"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "601 ROUTE NATIONALE 7",
+      "cp": "38150",
+      "ville": "Salaise-sur-Sanne",
+      "prix": 1.834,
+      "distance": 48.05,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "100 RUE DE LA MONTAT",
+      "cp": "42100",
+      "ville": "Saint-Étienne",
+      "prix": 1.843,
+      "distance": 48.07,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Netto",
+      "adresse": "60 RUE DE LA SAUVETE ZAC DES BERGERES",
+      "cp": "42210",
+      "ville": "MONTROND LES BAINS",
+      "prix": 1.897,
+      "distance": 48.07,
+      "maj_gouv": "2026-06-16 12:43:23"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "114 Rue du Rival",
+      "cp": "42210",
+      "ville": "MONTROND-LES-BAINS",
+      "prix": 1.88,
+      "distance": 48.13,
+      "maj_gouv": "2026-06-19 10:00:41"
+    },
+    {
+      "station": "Avia",
+      "adresse": "AIRE DE LA LOIRE",
+      "cp": "42510",
+      "ville": "NERONDE",
+      "prix": 2.089,
+      "distance": 48.15,
+      "maj_gouv": "2026-06-17 07:55:05"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RN 82 LIEU DIT RATARIEUX",
+      "cp": "42270",
+      "ville": "Saint-Priest-en-Jarez",
+      "prix": 1.999,
+      "distance": 48.17,
+      "maj_gouv": "2026-05-31 10:33:36"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZA Le Parc du Soleil - Route Nationale 7",
+      "cp": "38150",
+      "ville": "CHANAS",
+      "prix": 1.825,
+      "distance": 48.2,
+      "maj_gouv": "2026-06-19 09:11:36"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue des Verchères",
+      "cp": "01470",
+      "ville": "BRIORD",
+      "prix": 1.889,
+      "distance": 48.37,
+      "maj_gouv": "2026-06-18 10:45:20"
+    },
+    {
+      "station": "Système U",
+      "adresse": "50 BD NORMANDIE NIEMEN",
+      "cp": "42000",
+      "ville": "Saint-Étienne",
+      "prix": 1.949,
+      "distance": 48.4,
+      "maj_gouv": "2026-06-10 09:10:22"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 89",
+      "cp": "42110",
+      "ville": "FEURS",
+      "prix": 1.934,
+      "distance": 48.45,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "50 RUE DES ACACIAS",
+      "cp": "01960",
+      "ville": "SERVAS",
+      "prix": 1.859,
+      "distance": 48.47,
+      "maj_gouv": "2026-06-19 11:47:07"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "36 Rue de Terrenoire",
+      "cp": "42100",
+      "ville": "Saint-Étienne",
+      "prix": 1.876,
+      "distance": 48.55,
+      "maj_gouv": "2026-06-18 06:30:00"
+    },
+    {
+      "station": "Dyneff",
+      "adresse": "RN 7",
+      "cp": "38150",
+      "ville": "Chanas",
+      "prix": 1.85,
+      "distance": 48.58,
+      "maj_gouv": "2026-06-19 10:59:07"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Lieu-dit Le Lanthey Passins",
+      "cp": "38510",
+      "ville": "Passins",
+      "prix": 1.789,
+      "distance": 48.75,
+      "maj_gouv": "2026-06-19 08:28:40"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "ZAC de Migalon",
+      "cp": "42160",
+      "ville": "Andrézieux-Bouthéon",
+      "prix": 1.842,
+      "distance": 49.02,
+      "maj_gouv": "2026-06-19 14:58:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Charles NUNGESSER",
+      "cp": "42160",
+      "ville": "Andrézieux-Bouthéon",
+      "prix": 1.921,
+      "distance": 49.06,
+      "maj_gouv": "2026-06-18 19:16:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "170 Avenue d'Auenwald",
+      "cp": "38270",
+      "ville": "Beaurepaire",
+      "prix": 1.879,
+      "distance": 49.3,
+      "maj_gouv": "2026-06-18 10:10:08"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "2990 route départementale 1082",
+      "cp": "42480",
+      "ville": "La Fouillouse",
+      "prix": 1.928,
+      "distance": 49.32,
+      "maj_gouv": "2026-06-19 10:52:53"
+    },
+    {
+      "station": "Esso",
+      "adresse": "12 BD KARL MARX",
+      "cp": "42100",
+      "ville": "Saint-Étienne",
+      "prix": 1.909,
+      "distance": 49.51,
+      "maj_gouv": "2026-06-19 11:39:28"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Chemin de Montravel",
+      "cp": "42390",
+      "ville": "Villars",
+      "prix": 1.844,
+      "distance": 49.55,
+      "maj_gouv": "2026-06-19 09:24:23"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "9 boulevard karl marx",
+      "cp": "42100",
+      "ville": "Saint-Étienne",
+      "prix": 1.934,
+      "distance": 49.56,
+      "maj_gouv": "2026-06-19 08:01:28"
+    },
+    {
+      "station": "Netto",
+      "adresse": "Chemin de Bois Vert",
+      "cp": "42510",
+      "ville": "BALBIGNY",
+      "prix": 1.835,
+      "distance": 49.6,
+      "maj_gouv": "2026-06-19 07:24:28"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "LIEU DIT LE SUZON",
+      "cp": "38270",
+      "ville": "ST BARTHELEMY DE BEAUREPAIRE",
+      "prix": 1.839,
+      "distance": 49.71,
+      "maj_gouv": "2026-06-19 08:36:39"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "Avenue Benoit Fourneyron",
+      "cp": "42480",
+      "ville": "LA FOUILLOUSE",
+      "prix": 1.929,
+      "distance": 49.71,
+      "maj_gouv": "2026-06-18 10:19:19"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "94 BOULEVARD MENDES FRANCE",
+      "cp": "42000",
+      "ville": "Saint-Étienne",
+      "prix": 1.839,
+      "distance": 50.0,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "148 RUE ANTOINE DURAFOUR",
+      "cp": "42100",
+      "ville": "Saint-Étienne",
+      "prix": 1.932,
+      "distance": 50.4,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Le Pont Rompu - RD 1084",
+      "cp": "01160",
+      "ville": "PONT-D'AIN",
+      "prix": 1.849,
+      "distance": 50.42,
+      "maj_gouv": "2026-06-19 13:25:12"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "184 rue du 19 mars 1962",
+      "cp": "01540",
+      "ville": "VONNAS",
+      "prix": 1.869,
+      "distance": 50.52,
+      "maj_gouv": "2026-06-19 09:18:32"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ROUTE DE BOURGOIN",
+      "cp": "38110",
+      "ville": "SAINT-JEAN-DE-SOUDAIN",
+      "prix": 1.839,
+      "distance": 50.69,
+      "maj_gouv": "2026-06-19 10:14:27"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "230 ROUTE DE LA CHARTREUSE",
+      "cp": "38510",
+      "ville": "VEZERONCE-CURTIN",
+      "prix": 1.869,
+      "distance": 50.86,
+      "maj_gouv": "2026-06-16 09:54:24"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RTE DE BOURG RN 75",
+      "cp": "01160",
+      "ville": "Pont-d'Ain",
+      "prix": 1.849,
+      "distance": 51.08,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE DES GLACIERES",
+      "cp": "42510",
+      "ville": "BALBIGNY",
+      "prix": 1.899,
+      "distance": 51.12,
+      "maj_gouv": "2026-06-16 09:12:03"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "51 Route de Roanne",
+      "cp": "42510",
+      "ville": "BALBIGNY",
+      "prix": 1.963,
+      "distance": 51.33,
+      "maj_gouv": "2026-06-19 07:16:20"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2 Avenue de Saint-Etienne",
+      "cp": "42160",
+      "ville": "Andrézieux-Bouthéon",
+      "prix": 1.933,
+      "distance": 51.41,
+      "maj_gouv": "2026-06-19 05:58:25"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Roanne",
+      "cp": "69240",
+      "ville": "BOURG-DE-THIZY",
+      "prix": 1.879,
+      "distance": 51.48,
+      "maj_gouv": "2026-06-17 16:56:30"
+    },
+    {
+      "station": "Système U",
+      "adresse": "1080 Rue Paul Claudel",
+      "cp": "38510",
+      "ville": "Morestel",
+      "prix": 1.849,
+      "distance": 51.59,
+      "maj_gouv": "2026-06-19 10:29:52"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "100 route de lyon",
+      "cp": "42470",
+      "ville": "SAINT SYMPHORIEN DE LAY",
+      "prix": 1.954,
+      "distance": 51.81,
+      "maj_gouv": "2026-06-19 09:01:49"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "36 avenue Aristide Briand",
+      "cp": "38260",
+      "ville": "LA CôTE-SAINT-ANDRé",
+      "prix": 1.829,
+      "distance": 51.85,
+      "maj_gouv": "2026-06-19 07:58:28"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "zac les grand varays route de neuville",
+      "cp": "01540",
+      "ville": "Vonnas",
+      "prix": 1.802,
+      "distance": 52.16,
+      "maj_gouv": "2026-06-18 13:31:23"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "Rond-Point Charles de Gaulle",
+      "cp": "42170",
+      "ville": "SAINT-JUST-SAINT-RAMBERT",
+      "prix": 1.935,
+      "distance": 52.23,
+      "maj_gouv": "2026-06-19 08:07:40"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "La Béraudière",
+      "cp": "42150",
+      "ville": "La Ricamarie",
+      "prix": 1.838,
+      "distance": 52.35,
+      "maj_gouv": "2026-06-19 15:29:42"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue Salpêtrière",
+      "cp": "38260",
+      "ville": "LA CôTE-SAINT-ANDRé",
+      "prix": 1.919,
+      "distance": 52.48,
+      "maj_gouv": "2026-06-12 10:26:35"
+    },
+    {
+      "station": "Avia",
+      "adresse": "250 route Napoléon",
+      "cp": "69430",
+      "ville": "CHENELETTE",
+      "prix": 1.979,
+      "distance": 52.95,
+      "maj_gouv": "2026-06-16 19:10:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "1 boulevard SAGNAT",
+      "cp": "42230",
+      "ville": "Roche-la-Molière",
+      "prix": 1.899,
+      "distance": 53.01,
+      "maj_gouv": "2026-06-19 15:32:28"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "23 Rue Pasteur",
+      "cp": "38110",
+      "ville": "La Tour-du-Pin",
+      "prix": 1.951,
+      "distance": 53.04,
+      "maj_gouv": "2026-06-18 19:34:54"
+    },
+    {
+      "station": "Avia",
+      "adresse": "A 72 aire de la Plaine du Forez est",
+      "cp": "42600",
+      "ville": "MAGNEUX HAUTE RIVE",
+      "prix": 2.058,
+      "distance": 53.16,
+      "maj_gouv": "2026-06-19 10:27:04"
+    },
+    {
+      "station": "Shell",
+      "adresse": "Aire de Plaines du Forez Est",
+      "cp": "42600",
+      "ville": "Magneux Haute Rive",
+      "prix": 2.325,
+      "distance": 53.16,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "9 Rue des Prairies",
+      "cp": "42160",
+      "ville": "Saint-Cyprien",
+      "prix": 1.869,
+      "distance": 53.19,
+      "maj_gouv": "2026-06-19 09:34:34"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "146 RTE DE BONSON",
+      "cp": "42170",
+      "ville": "Saint-Just-Saint-Rambert",
+      "prix": 1.869,
+      "distance": 53.48,
+      "maj_gouv": "2026-06-19 11:03:33"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Avenue de Savoie",
+      "cp": "38110",
+      "ville": "SAINT-CLAIR-DE-LA-TOUR",
+      "prix": 1.929,
+      "distance": 53.81,
+      "maj_gouv": "2026-06-19 07:56:17"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "17 BOULEVARD JEAN LOUIS RICHARD",
+      "cp": "42220",
+      "ville": "BOURG ARGENTAL",
+      "prix": 1.949,
+      "distance": 54.5,
+      "maj_gouv": "2026-06-19 08:04:39"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "3 Boulevard Pierre et Marie Curie",
+      "cp": "42230",
+      "ville": "Roche-la-Molière",
+      "prix": 1.889,
+      "distance": 54.81,
+      "maj_gouv": "2026-06-19 16:18:43"
+    },
+    {
+      "station": "Esso",
+      "adresse": "RN6",
+      "cp": "71680",
+      "ville": "Crêches-sur-Saône",
+      "prix": 1.892,
+      "distance": 54.83,
+      "maj_gouv": "2026-06-19 10:42:58"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue du Docteur Hubert",
+      "cp": "01160",
+      "ville": "NEUVILLE-SUR-AIN",
+      "prix": 1.839,
+      "distance": 54.84,
+      "maj_gouv": "2026-06-19 06:47:02"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Centre commercial CARREFOUR des Bouchardes",
+      "cp": "71680",
+      "ville": "CRêCHES-SUR-SAôNE",
+      "prix": 1.831,
+      "distance": 55.27,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "254 Route de Chatillon Sur Chalaronne",
+      "cp": "01290",
+      "ville": "LAIZ",
+      "prix": 1.88,
+      "distance": 55.47,
+      "maj_gouv": "2026-06-16 08:39:34"
+    },
+    {
+      "station": "Netto",
+      "adresse": "Le Parc des VERCHERES",
+      "cp": "42450",
+      "ville": "Sury-le-Comtal",
+      "prix": 1.879,
+      "distance": 55.59,
+      "maj_gouv": "2026-06-19 09:05:08"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2935 chemin de la voie ferrée",
+      "cp": "38260",
+      "ville": "La Côte-Saint-André",
+      "prix": 1.939,
+      "distance": 55.82,
+      "maj_gouv": "2026-06-19 06:44:33"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Rue du 11 Novembre",
+      "cp": "42450",
+      "ville": "SURY-LE-COMTAL",
+      "prix": 1.879,
+      "distance": 56.05,
+      "maj_gouv": "2026-06-19 09:26:55"
+    },
+    {
+      "station": "ENI",
+      "adresse": "148 AVENUE DE LYON",
+      "cp": "01960",
+      "ville": "Péronnas",
+      "prix": 1.959,
+      "distance": 56.37,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "596 AVENUE DE TREVOUX",
+      "cp": "01000",
+      "ville": "SAINT-DENIS-LèS-BOURG",
+      "prix": 1.848,
+      "distance": 56.82,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "642 AVENUE DE TREVOUX",
+      "cp": "01000",
+      "ville": "SAINT DENIS LES BOURG",
+      "prix": 1.959,
+      "distance": 56.9,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "715 ROUTE NATIONALE 6",
+      "cp": "71000",
+      "ville": "VARENNES LES MACON",
+      "prix": 1.941,
+      "distance": 57.02,
+      "maj_gouv": "2026-06-19 13:39:28"
+    },
+    {
+      "station": "Système U",
+      "adresse": "520, Avenue des Frères Joseph et Marcel Guiguet",
+      "cp": "38630",
+      "ville": "Corbelin",
+      "prix": 1.879,
+      "distance": 57.18,
+      "maj_gouv": "2026-06-18 14:58:43"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Terre Ronde",
+      "cp": "42500",
+      "ville": "Le Chambon-Feugerolles",
+      "prix": 1.927,
+      "distance": 57.34,
+      "maj_gouv": "2026-06-16 09:04:56"
+    },
+    {
+      "station": "Netto",
+      "adresse": "97 ROUTE DES AVENIERES",
+      "cp": "38630",
+      "ville": "VEYRINS THUELLIN",
+      "prix": 1.869,
+      "distance": 57.45,
+      "maj_gouv": "2026-06-19 09:39:49"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Les Crozes",
+      "cp": "42500",
+      "ville": "Le Chambon-Feugerolles",
+      "prix": 1.927,
+      "distance": 57.45,
+      "maj_gouv": "2026-06-16 09:05:29"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "56 Rue du Stand",
+      "cp": "01000",
+      "ville": "Bourg-en-Bresse",
+      "prix": 1.94,
+      "distance": 57.58,
+      "maj_gouv": "2026-06-19 10:48:17"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Le Bizolle",
+      "cp": "38870",
+      "ville": "Saint-Siméon-de-Bressieux",
+      "prix": 1.829,
+      "distance": 57.88,
+      "maj_gouv": "2026-06-19 09:25:31"
+    },
+    {
+      "station": "Netto",
+      "adresse": "105 ROUTE DE VANDEINS",
+      "cp": "01310",
+      "ville": "Confrançon",
+      "prix": 1.798,
+      "distance": 58.0,
+      "maj_gouv": "2026-06-19 10:54:06"
+    },
+    {
+      "station": "ENI",
+      "adresse": "RUE DES ABATTOIRS",
+      "cp": "42700",
+      "ville": "FIRMINY",
+      "prix": 1.969,
+      "distance": 58.24,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "1 bvd John Kennedy",
+      "cp": "01000",
+      "ville": "Bourg en Bresse",
+      "prix": 1.853,
+      "distance": 58.28,
+      "maj_gouv": "2026-06-17 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "68, boulevard Fayol",
+      "cp": "42700",
+      "ville": "Firminy",
+      "prix": 1.927,
+      "distance": 58.47,
+      "maj_gouv": "2026-06-16 09:06:15"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "BOULEVARD CHARLES DE GAULLE",
+      "cp": "01000",
+      "ville": "Bourg-en-Bresse",
+      "prix": 1.849,
+      "distance": 58.48,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "97 ROUTE DE LYON RN 6",
+      "cp": "71000",
+      "ville": "MACON",
+      "prix": 1.847,
+      "distance": 58.65,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 85",
+      "cp": "38260",
+      "ville": "La Frette",
+      "prix": 1.942,
+      "distance": 58.66,
+      "maj_gouv": "2026-06-18 19:22:37"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "510 Route de Grenoble",
+      "cp": "38260",
+      "ville": "LA FRETTE",
+      "prix": 1.942,
+      "distance": 58.71,
+      "maj_gouv": "2026-06-18 20:10:47"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1123 Route de Mâcon",
+      "cp": "01310",
+      "ville": "POLLIAT",
+      "prix": 1.936,
+      "distance": 58.93,
+      "maj_gouv": "2026-06-17 06:52:51"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue Frédéric Mistral",
+      "cp": "71000",
+      "ville": "Mâcon",
+      "prix": 1.88,
+      "distance": 59.42,
+      "maj_gouv": "2026-06-18 09:53:06"
+    },
+    {
+      "station": "Système U",
+      "adresse": "2 CHEMIN DE LA PIERRE ZONE COMMERCIALE",
+      "cp": "38590",
+      "ville": "SAINT-ÉTIENNE-DE-SAINT-GEOIRS",
+      "prix": 1.859,
+      "distance": 59.53,
+      "maj_gouv": "2026-06-19 09:39:39"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "74 ROUTE DE JALERIEU",
+      "cp": "38630",
+      "ville": "LES AVENIERES VEYRINS THUELLIN",
+      "prix": 1.889,
+      "distance": 59.61,
+      "maj_gouv": "2026-06-19 12:08:25"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "2A RUE DU 8 MAI 1945",
+      "cp": "42610",
+      "ville": "ST ROMAIN LE PUY",
+      "prix": 1.879,
+      "distance": 59.76,
+      "maj_gouv": "2026-06-18 08:28:50"
+    },
+    {
+      "station": "Système U",
+      "adresse": "ROUTE DE LYON",
+      "cp": "42600",
+      "ville": "Savigneux",
+      "prix": 1.889,
+      "distance": 60.04,
+      "maj_gouv": "2026-06-19 09:03:58"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AVENUE EDOUARD HERRIOT",
+      "cp": "71000",
+      "ville": "MACON",
+      "prix": 1.847,
+      "distance": 60.29,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "223 route de Bourg-en-Bresse",
+      "cp": "01750",
+      "ville": "Replonges",
+      "prix": 1.895,
+      "distance": 60.3,
+      "maj_gouv": "2026-06-19 09:19:26"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "rue de Chazeau",
+      "cp": "42700",
+      "ville": "Firminy",
+      "prix": 1.835,
+      "distance": 60.39,
+      "maj_gouv": "2026-06-19 12:24:49"
+    },
+    {
+      "station": "Système U",
+      "adresse": "51 route de jasseron",
+      "cp": "01250",
+      "ville": "Ceyzériat",
+      "prix": 1.985,
+      "distance": 60.43,
+      "maj_gouv": "2026-06-06 06:32:38"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "AVENUE FRANCOIS PIGNIER",
+      "cp": "01000",
+      "ville": "Bourg-en-Bresse",
+      "prix": 1.94,
+      "distance": 60.59,
+      "maj_gouv": "2026-06-18 10:56:33"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZA DES GRANGES",
+      "cp": "42600",
+      "ville": "MONTBRISON",
+      "prix": 1.849,
+      "distance": 60.91,
+      "maj_gouv": "2026-06-19 09:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A40 - AIRE DE BOURG JASSERON",
+      "cp": "01250",
+      "ville": "CEYZERIAT",
+      "prix": 1.99,
+      "distance": 61.17,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Fulli",
+      "adresse": "AUTOROUTE A 40 - AIRE DE BOURG TEYSSONGE",
+      "cp": "01250",
+      "ville": "JASSERON",
+      "prix": 2.046,
+      "distance": 61.27,
+      "maj_gouv": "2026-06-16 10:47:33"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue de la Chapelle",
+      "cp": "71850",
+      "ville": "CHARNAY-LèS-MâCON",
+      "prix": 1.889,
+      "distance": 61.36,
+      "maj_gouv": "2026-06-18 11:00:34"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "8 route de St Etienne",
+      "cp": "42600",
+      "ville": "Montbrison",
+      "prix": 1.942,
+      "distance": 61.55,
+      "maj_gouv": "2026-06-19 06:59:47"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2 avenue Charles de Gaulle",
+      "cp": "42600",
+      "ville": "SAVIGNEUX",
+      "prix": 1.942,
+      "distance": 61.56,
+      "maj_gouv": "2026-06-19 06:36:55"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "710 Route de Cluny",
+      "cp": "71850",
+      "ville": "CHARNAY-LèS-MâCON",
+      "prix": 1.91,
+      "distance": 61.59,
+      "maj_gouv": "2026-06-19 08:20:38"
+    },
+    {
+      "station": "Netto",
+      "adresse": "1 ROUTE DU BOURG",
+      "cp": "01380",
+      "ville": "BAGE DOMMARTIN",
+      "prix": 1.899,
+      "distance": 62.3,
+      "maj_gouv": "2026-06-17 07:42:57"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "4 route de Feurs",
+      "cp": "42600",
+      "ville": "Montbrison",
+      "prix": 1.849,
+      "distance": 62.39,
+      "maj_gouv": "2026-06-19 09:01:43"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "3390 Route de Belley",
+      "cp": "38490",
+      "ville": "Aoste",
+      "prix": 1.927,
+      "distance": 62.47,
+      "maj_gouv": "2026-06-18 20:18:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "531 Route de Strasbourg",
+      "cp": "01440",
+      "ville": "VIRIAT",
+      "prix": 1.937,
+      "distance": 62.73,
+      "maj_gouv": "2026-06-19 06:01:34"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE DE LA REPUBLIQUE",
+      "cp": "38490",
+      "ville": "Les Abrets en Dauphiné",
+      "prix": 1.889,
+      "distance": 62.9,
+      "maj_gouv": "2026-06-19 11:17:12"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "RN 6",
+      "cp": "71000",
+      "ville": "MâCON",
+      "prix": 1.88,
+      "distance": 63.11,
+      "maj_gouv": "2026-06-19 15:31:52"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "420 route de Belley",
+      "cp": "38490",
+      "ville": "Aoste",
+      "prix": 1.889,
+      "distance": 63.12,
+      "maj_gouv": "2026-06-18 09:55:54"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Parc d'activités Bièvre Dauphine, 305 Rue du Grand-Champ",
+      "cp": "38140",
+      "ville": "APPRIEU",
+      "prix": 1.799,
+      "distance": 63.58,
+      "maj_gouv": "2026-06-19 08:35:27"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue de la Loire",
+      "cp": "42260",
+      "ville": "SAINT-GERMAIN-LAVAL",
+      "prix": 1.949,
+      "distance": 63.58,
+      "maj_gouv": "2026-06-15 14:27:30"
+    },
+    {
+      "station": "Système U",
+      "adresse": "PARC D ACTIVITE BIEVRE DAUPHINE - 250 Route de Rives",
+      "cp": "38690",
+      "ville": "COLOMBE",
+      "prix": 1.799,
+      "distance": 63.6,
+      "maj_gouv": "2026-06-19 09:11:40"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "195 Grande Rue",
+      "cp": "01570",
+      "ville": "FEILLENS",
+      "prix": 1.88,
+      "distance": 63.64,
+      "maj_gouv": "2026-06-19 09:07:56"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2 RUE DES GRANDES VARENNES",
+      "cp": "71000",
+      "ville": "SANCE",
+      "prix": 1.938,
+      "distance": 63.68,
+      "maj_gouv": "2026-06-19 10:46:50"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "31 boulevard Charles de Gaulle",
+      "cp": "42120",
+      "ville": "LE COTEAU",
+      "prix": 1.964,
+      "distance": 63.71,
+      "maj_gouv": "2026-06-19 08:26:16"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "180 Rue Louise Michel",
+      "cp": "71000",
+      "ville": "Mâcon",
+      "prix": 1.845,
+      "distance": 63.74,
+      "maj_gouv": "2026-06-19 09:44:24"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Espace commercial \"Les deux roches\" ZA du Pré de Lit",
+      "cp": "71960",
+      "ville": "PRISSé",
+      "prix": 1.889,
+      "distance": 63.78,
+      "maj_gouv": "2026-06-19 10:49:08"
+    },
+    {
+      "station": "Avia",
+      "adresse": "556 rue gambetta",
+      "cp": "38490",
+      "ville": "les abrets en dauphine",
+      "prix": 1.979,
+      "distance": 63.81,
+      "maj_gouv": "2026-06-19 09:39:40"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZA DE GIRAUD",
+      "cp": "42130",
+      "ville": "BOEN",
+      "prix": 1.899,
+      "distance": 63.91,
+      "maj_gouv": "2026-06-18 06:48:06"
+    },
+    {
+      "station": "Netto",
+      "adresse": "Route de Charlieu",
+      "cp": "71170",
+      "ville": "Chauffailles",
+      "prix": 1.939,
+      "distance": 64.01,
+      "maj_gouv": "2026-06-15 07:51:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "130 RN 75",
+      "cp": "38490",
+      "ville": "Charancieu",
+      "prix": 1.889,
+      "distance": 64.07,
+      "maj_gouv": "2026-06-19 07:46:36"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue Masonod",
+      "cp": "01110",
+      "ville": "HAUTEVILLE-LOMPNES",
+      "prix": 1.854,
+      "distance": 64.23,
+      "maj_gouv": "2026-06-19 10:31:45"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Z.A. LES PLAINES 1033 RUE DU COMMERCE",
+      "cp": "42120",
+      "ville": "Perreux",
+      "prix": 1.972,
+      "distance": 64.45,
+      "maj_gouv": "2026-06-18 07:42:16"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "810 Rue Principale",
+      "cp": "38850",
+      "ville": "CHARAVINES",
+      "prix": 1.99,
+      "distance": 64.7,
+      "maj_gouv": "2026-06-10 08:33:09"
+    },
+    {
+      "station": "ENI",
+      "adresse": "AIRE DE CEIGNES HAUT BUGEY",
+      "cp": "01430",
+      "ville": "CEIGNES",
+      "prix": 2.169,
+      "distance": 64.83,
+      "maj_gouv": "2026-06-19 08:00:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "AUTOROUTE A 43 ROMAGNIEU",
+      "cp": "38480",
+      "ville": "Le Pont-de-Beauvoisin",
+      "prix": 2.089,
+      "distance": 65.2,
+      "maj_gouv": "2026-06-17 15:36:07"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Allée du Parc",
+      "cp": "42120",
+      "ville": "Commelle-Vernay",
+      "prix": 1.889,
+      "distance": 65.43,
+      "maj_gouv": "2026-06-19 08:26:23"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Autouroute A43 Sens Chambéry - Lyon",
+      "cp": "38480",
+      "ville": "ROMAGNIEU",
+      "prix": 2.065,
+      "distance": 65.45,
+      "maj_gouv": "2026-06-19 07:51:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A40 - AIRE DE CEIGNES CERDON",
+      "cp": "01430",
+      "ville": "CEIGNES",
+      "prix": 1.99,
+      "distance": 65.72,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "209 Rue de Charlieu",
+      "cp": "42300",
+      "ville": "ROANNE",
+      "prix": 1.949,
+      "distance": 66.34,
+      "maj_gouv": "2026-06-15 17:58:23"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RN 504 - ZI de Penaye",
+      "cp": "01300",
+      "ville": "Chazey-Bons",
+      "prix": 1.829,
+      "distance": 66.51,
+      "maj_gouv": "2026-06-19 10:56:11"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE ALEXANDRE RAFFIN",
+      "cp": "42300",
+      "ville": "ROANNE",
+      "prix": 1.969,
+      "distance": 66.64,
+      "maj_gouv": "2026-06-18 08:15:29"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1699 ROUTE DE BOURG",
+      "cp": "01340",
+      "ville": "Malafretaz",
+      "prix": 1.937,
+      "distance": 67.11,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "40 Chemin de la Bergaderie",
+      "cp": "01370",
+      "ville": "Saint-Étienne-du-Bois",
+      "prix": 1.94,
+      "distance": 67.16,
+      "maj_gouv": "2026-06-19 09:50:49"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "394 ROUTE DU BEAUJOLAIS",
+      "cp": "42190",
+      "ville": "CHARLIEU",
+      "prix": 1.849,
+      "distance": 67.46,
+      "maj_gouv": "2026-06-19 10:59:47"
+    },
+    {
+      "station": "Esso",
+      "adresse": "55 Rue du Château",
+      "cp": "71000",
+      "ville": "Sennece-les-Macon",
+      "prix": 1.949,
+      "distance": 67.52,
+      "maj_gouv": "2026-06-19 11:36:04"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Chem. de l'Avenir",
+      "cp": "38480",
+      "ville": "Le Pont-de-Beauvoisin",
+      "prix": 1.869,
+      "distance": 67.84,
+      "maj_gouv": "2026-06-17 11:51:17"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "82, rue Auguste Dourdein",
+      "cp": "42300",
+      "ville": "Roanne",
+      "prix": 1.938,
+      "distance": 67.87,
+      "maj_gouv": "2026-06-18 19:30:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "480 Avenue Charles de Gaulle",
+      "cp": "42153",
+      "ville": "RIORGES",
+      "prix": 1.889,
+      "distance": 67.98,
+      "maj_gouv": "2026-06-19 07:28:46"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "151 RUE DE LA CHARTREUSE",
+      "cp": "38140",
+      "ville": "RIVES",
+      "prix": 1.857,
+      "distance": 68.01,
+      "maj_gouv": "2026-06-19 08:05:09"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RUE DENIS PAPIN",
+      "cp": "01300",
+      "ville": "BELLEY",
+      "prix": 1.99,
+      "distance": 68.03,
+      "maj_gouv": "2026-06-08 08:04:52"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "103 RUE DES LUYERS",
+      "cp": "01340",
+      "ville": "Montrevel-en-Bresse",
+      "prix": 1.848,
+      "distance": 68.04,
+      "maj_gouv": "2026-06-19 12:16:39"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "538 rue magellan",
+      "cp": "42190",
+      "ville": "Saint-Nizier-sous-Charlieu",
+      "prix": 1.889,
+      "distance": 68.21,
+      "maj_gouv": "2026-06-17 09:20:49"
+    },
+    {
+      "station": "Avia",
+      "adresse": "2 Rue de l'Égalité",
+      "cp": "01430",
+      "ville": "Maillat",
+      "prix": 2.029,
+      "distance": 68.49,
+      "maj_gouv": "2026-06-09 07:04:55"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "53 Rue Jules Faron",
+      "cp": "42153",
+      "ville": "RIORGES",
+      "prix": 1.929,
+      "distance": 69.04,
+      "maj_gouv": "2026-06-16 15:00:24"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Rue Jean de La Fontaine",
+      "cp": "42334",
+      "ville": "MABLY",
+      "prix": 1.881,
+      "distance": 69.06,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "LE GRAND GUERET",
+      "cp": "42380",
+      "ville": "LA TOURETTE",
+      "prix": 1.899,
+      "distance": 69.35,
+      "maj_gouv": "2026-06-16 17:35:13"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "LIEU DIT CHASSAGNE",
+      "cp": "71118",
+      "ville": "Saint-Martin-belle-Roche",
+      "prix": 1.88,
+      "distance": 69.42,
+      "maj_gouv": "2026-06-19 15:46:11"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Bourg, Prairie de Cezille",
+      "cp": "01340",
+      "ville": "Jayat",
+      "prix": 1.876,
+      "distance": 69.53,
+      "maj_gouv": "2026-06-17 13:10:34"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "2 Boulevard du Haut Forez",
+      "cp": "42380",
+      "ville": "SAINT-BONNET-LE-CHATEAU",
+      "prix": 1.986,
+      "distance": 70.17,
+      "maj_gouv": "2026-06-16 16:49:07"
+    },
+    {
+      "station": "Esso",
+      "adresse": "495 rue de la République",
+      "cp": "42720",
+      "ville": "POUILLY-SOUS-CHARLIEU",
+      "prix": 2.019,
+      "distance": 70.21,
+      "maj_gouv": "2026-06-04 11:13:16"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RUE DE LA BRUYERE",
+      "cp": "42155",
+      "ville": "LENTIGNY",
+      "prix": 1.899,
+      "distance": 70.77,
+      "maj_gouv": "2026-06-19 11:58:29"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "ROUTE NATIONALE 79",
+      "cp": "71250",
+      "ville": "MAZILLE",
+      "prix": 1.973,
+      "distance": 71.03,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Au Village de la Croix Bouthier",
+      "cp": "71800",
+      "ville": "VARENNES-SOUS-DUN",
+      "prix": 1.859,
+      "distance": 71.07,
+      "maj_gouv": "2026-06-19 08:24:19"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 79",
+      "cp": "71250",
+      "ville": "Sainte-Cécile",
+      "prix": 1.978,
+      "distance": 71.78,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "AV DU 8 MAI 1945",
+      "cp": "38500",
+      "ville": "VOIRON",
+      "prix": 1.988,
+      "distance": 72.06,
+      "maj_gouv": "2026-06-18 07:50:00"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "2715 Route de Roanne",
+      "cp": "42640",
+      "ville": "ST ROMAIN LA MOTTE",
+      "prix": 1.969,
+      "distance": 72.14,
+      "maj_gouv": "2026-06-17 11:07:39"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Avenue de la Contamine",
+      "cp": "38210",
+      "ville": "TULLINS",
+      "prix": 1.889,
+      "distance": 72.26,
+      "maj_gouv": "2026-06-18 08:41:20"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue de l'industrie",
+      "cp": "01460",
+      "ville": "Port",
+      "prix": 1.889,
+      "distance": 72.96,
+      "maj_gouv": "2026-06-18 08:32:31"
+    },
+    {
+      "station": "Avia",
+      "adresse": "Route de Saint-Quentin",
+      "cp": "38210",
+      "ville": "TULLINS",
+      "prix": 2.079,
+      "distance": 73.14,
+      "maj_gouv": "2026-06-13 19:07:49"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "PARC D'ACTIVITE DES FOURS",
+      "cp": "01350",
+      "ville": "Béon",
+      "prix": 1.895,
+      "distance": 73.41,
+      "maj_gouv": "2026-06-19 08:42:02"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A6 - AIRE DE MACON LA SALLE",
+      "cp": "71260",
+      "ville": "Saint-Albain",
+      "prix": 1.99,
+      "distance": 73.42,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Shell",
+      "adresse": "Autoroute A6 - Aire de Macon Saint-Albain",
+      "cp": "71260",
+      "ville": "SAINT ALBAIN",
+      "prix": 2.156,
+      "distance": 73.67,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Route de Saint-Quentin S/ Isère",
+      "cp": "38210",
+      "ville": "Tullins",
+      "prix": 1.959,
+      "distance": 73.76,
+      "maj_gouv": "2026-06-17 08:00:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "7 RUE DE L'INDUSTRIE",
+      "cp": "38500",
+      "ville": "VOIRON",
+      "prix": 1.979,
+      "distance": 74.13,
+      "maj_gouv": "2026-06-17 16:25:31"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "5 AVENUE DOCTEUR VALOIS",
+      "cp": "38500",
+      "ville": "VOIRON",
+      "prix": 1.863,
+      "distance": 74.14,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RTE DE LA CLUSE RN 84",
+      "cp": "01130",
+      "ville": "NANTUA",
+      "prix": 1.864,
+      "distance": 74.44,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "450 AVENUE JEAN FALCONNIER",
+      "cp": "01350",
+      "ville": "Culoz",
+      "prix": 1.999,
+      "distance": 74.69,
+      "maj_gouv": "2026-06-02 10:51:30"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "8 rue Carnot",
+      "cp": "38430",
+      "ville": "MOIRANS",
+      "prix": 1.959,
+      "distance": 74.78,
+      "maj_gouv": "2026-06-10 12:03:03"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Chemin du Monteuil",
+      "cp": "38430",
+      "ville": "Saint-Jean-de-Moirans",
+      "prix": 1.959,
+      "distance": 75.0,
+      "maj_gouv": "2026-06-16 12:00:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "8 Route de Grenoble",
+      "cp": "38430",
+      "ville": "Moirans",
+      "prix": 1.878,
+      "distance": 75.18,
+      "maj_gouv": "2026-06-18 06:30:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "14 route de la Digue",
+      "cp": "71250",
+      "ville": "Cluny",
+      "prix": 1.969,
+      "distance": 75.64,
+      "maj_gouv": "2026-06-18 18:52:30"
+    },
+    {
+      "station": "Avia",
+      "adresse": "AVENUE CHARLES DE GAULLE",
+      "cp": "71250",
+      "ville": "CLUNY",
+      "prix": 1.959,
+      "distance": 75.67,
+      "maj_gouv": "2026-06-18 23:54:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "211 RUE VINCENT MARTIN",
+      "cp": "38430",
+      "ville": "Moirans",
+      "prix": 1.839,
+      "distance": 75.75,
+      "maj_gouv": "2026-06-19 10:27:56"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "AUX TEPPES SOLDATS",
+      "cp": "71260",
+      "ville": "PERONNE",
+      "prix": 1.859,
+      "distance": 75.89,
+      "maj_gouv": "2026-06-18 14:38:27"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "2375 ROUTE DE GRENOBLE",
+      "cp": "38470",
+      "ville": "Vinay",
+      "prix": 1.965,
+      "distance": 76.06,
+      "maj_gouv": "2026-06-19 11:46:01"
+    },
+    {
+      "station": "Système U",
+      "adresse": "251, Rue de l'Europe",
+      "cp": "38470",
+      "ville": "VINAY",
+      "prix": 1.931,
+      "distance": 76.13,
+      "maj_gouv": "2026-06-18 09:40:21"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RD 906",
+      "cp": "71260",
+      "ville": "Fleurville",
+      "prix": 1.848,
+      "distance": 76.52,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "2 avenue de ROMANS",
+      "cp": "38160",
+      "ville": "SAINT MARCELLIN",
+      "prix": 1.979,
+      "distance": 76.74,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue Maurice Lacoque",
+      "cp": "71250",
+      "ville": "Cluny",
+      "prix": 1.949,
+      "distance": 76.81,
+      "maj_gouv": "2026-06-19 07:28:26"
+    },
+    {
+      "station": "ENI",
+      "adresse": "603 rue du caporal Goutandier",
+      "cp": "42370",
+      "ville": "Renaison",
+      "prix": 1.949,
+      "distance": 77.45,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "ZI LES GAMEUX",
+      "cp": "38160",
+      "ville": "Chatte",
+      "prix": 1.912,
+      "distance": 77.59,
+      "maj_gouv": "2026-06-19 11:42:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "28, route de Grenoble",
+      "cp": "38160",
+      "ville": "SAINT-SAUVEUR",
+      "prix": 1.912,
+      "distance": 77.69,
+      "maj_gouv": "2026-06-19 14:55:36"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "1159 AVENUE DE JUIN 1940",
+      "cp": "38340",
+      "ville": "VOREPPE",
+      "prix": 1.855,
+      "distance": 79.56,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 75 CRUE DE MOIRANS",
+      "cp": "38340",
+      "ville": "VOREPPE",
+      "prix": 1.855,
+      "distance": 79.57,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Shell",
+      "adresse": "Aire du Haut Forez Nord A89",
+      "cp": "42440",
+      "ville": "Les SALLES",
+      "prix": 2.325,
+      "distance": 79.82,
+      "maj_gouv": "2026-06-19 09:30:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "A-89 aire du haut-forez sud",
+      "cp": "42440",
+      "ville": "Les Salles",
+      "prix": 2.089,
+      "distance": 79.89,
+      "maj_gouv": "2026-06-19 08:00:00"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "Route de Pont-de-Vaux",
+      "cp": "01560",
+      "ville": "Saint-Trivier-de-Courtes",
+      "prix": 1.925,
+      "distance": 80.19,
+      "maj_gouv": "2026-06-15 09:07:19"
+    },
+    {
+      "station": "Système U",
+      "adresse": "400 av de juin 1940",
+      "cp": "38340",
+      "ville": "VOREPPE",
+      "prix": 1.885,
+      "distance": 80.22,
+      "maj_gouv": "2026-06-19 06:42:03"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "293, avenue Victor Hugo",
+      "cp": "38380",
+      "ville": "Saint-Laurent-du-Pont",
+      "prix": 1.869,
+      "distance": 81.09,
+      "maj_gouv": "2026-06-19 08:49:22"
+    },
+    {
+      "station": "Dyneff",
+      "adresse": "28, Avenue de la Gare",
+      "cp": "38380",
+      "ville": "Saint-Laurent-du-Pont",
+      "prix": 1.948,
+      "distance": 81.53,
+      "maj_gouv": "2026-06-19 13:53:46"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AUTOROUTE A48 - AIRE DE VOREPPE",
+      "cp": "38340",
+      "ville": "VOREPPE",
+      "prix": 1.99,
+      "distance": 81.57,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "A48 AIRE ILE ROSE",
+      "cp": "38340",
+      "ville": "VOREPPE",
+      "prix": 2.169,
+      "distance": 81.59,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "129 avenue Simone Veil - avenue du 11 novembre",
+      "cp": "38340",
+      "ville": "Voreppe",
+      "prix": 1.885,
+      "distance": 81.67,
+      "maj_gouv": "2026-06-19 06:41:17"
+    },
+    {
+      "station": "Netto",
+      "adresse": "Route de St Laurent du Pont",
+      "cp": "38380",
+      "ville": "Entre-deux-Guiers",
+      "prix": 1.869,
+      "distance": 82.14,
+      "maj_gouv": "2026-06-19 10:08:01"
+    },
+    {
+      "station": "Esso",
+      "adresse": "Route de Valence",
+      "cp": "38113",
+      "ville": "VEUREY-VOROIZE",
+      "prix": 1.99,
+      "distance": 82.47,
+      "maj_gouv": "2026-06-17 14:56:05"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "174 COURS DE VERDUN",
+      "cp": "01100",
+      "ville": "OYONNAX",
+      "prix": 1.939,
+      "distance": 83.06,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RUE DU 19 MARS 1962",
+      "cp": "01100",
+      "ville": "ARBENT",
+      "prix": 1.835,
+      "distance": 83.57,
+      "maj_gouv": "2026-06-19 13:39:04"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "Quartier Clairivaux",
+      "cp": "38680",
+      "ville": "Saint-Just-de-Claix",
+      "prix": 1.893,
+      "distance": 84.21,
+      "maj_gouv": "2026-06-18 14:33:48"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "74 Rue Jules Michelet",
+      "cp": "01100",
+      "ville": "Oyonnax",
+      "prix": 1.835,
+      "distance": 84.35,
+      "maj_gouv": "2026-06-19 07:27:54"
+    },
+    {
+      "station": "Netto",
+      "adresse": "32 COURS DE VERDUN",
+      "cp": "01100",
+      "ville": "Oyonnax",
+      "prix": 1.835,
+      "distance": 85.12,
+      "maj_gouv": "2026-06-19 09:40:23"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "69 Rue de la République",
+      "cp": "01200",
+      "ville": "Bellegarde-sur-Valserine",
+      "prix": 1.9,
+      "distance": 85.86,
+      "maj_gouv": "2026-06-17 14:55:32"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "Avenue Maréchal de Lattre de Tassigny",
+      "cp": "01200",
+      "ville": "Bellegarde-sur-Valserine",
+      "prix": 1.889,
+      "distance": 86.02,
+      "maj_gouv": "2026-06-18 08:52:53"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "7 Route de Lyon",
+      "cp": "38120",
+      "ville": "Fontanil-Cornillon",
+      "prix": 1.853,
+      "distance": 86.3,
+      "maj_gouv": "2026-06-18 23:59:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "1 Rue des Abattoirs",
+      "cp": "38120",
+      "ville": "SAINT-ÉGRèVE",
+      "prix": 1.812,
+      "distance": 86.72,
+      "maj_gouv": "2026-06-19 00:42:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Avenue du 8 Juin 1944",
+      "cp": "71120",
+      "ville": "CHAROLLES",
+      "prix": 1.859,
+      "distance": 87.15,
+      "maj_gouv": "2026-06-19 10:40:55"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Rue du 19 mars 1962",
+      "cp": "38360",
+      "ville": "SASSENAGE",
+      "prix": 1.841,
+      "distance": 88.31,
+      "maj_gouv": "2026-06-19 09:53:39"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "8 Rue de Saône",
+      "cp": "71700",
+      "ville": "Tournus",
+      "prix": 1.879,
+      "distance": 89.23,
+      "maj_gouv": "2026-06-18 09:42:10"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "31 AVENUE DE ROMANS",
+      "cp": "38360",
+      "ville": "SASSENAGE",
+      "prix": 1.857,
+      "distance": 89.36,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "20 RUE DU BOIS BERNOUX",
+      "cp": "71290",
+      "ville": "Cuisery",
+      "prix": 1.89,
+      "distance": 89.73,
+      "maj_gouv": "2026-06-18 09:08:53"
+    },
+    {
+      "station": "Netto",
+      "adresse": "37 RUE DES TONNETTES",
+      "cp": "71290",
+      "ville": "CUISERY",
+      "prix": 1.96,
+      "distance": 89.98,
+      "maj_gouv": "2026-06-04 09:49:42"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "AVENUE DE LA RESISTANCE",
+      "cp": "71700",
+      "ville": "TOURNUS",
+      "prix": 1.879,
+      "distance": 90.03,
+      "maj_gouv": "2026-06-17 13:06:35"
+    },
+    {
+      "station": "Avia",
+      "adresse": "A 39 AIRE DU POULET DE BRESSE",
+      "cp": "71480",
+      "ville": "Dommartin-lès-Cuiseaux",
+      "prix": 2.089,
+      "distance": 90.04,
+      "maj_gouv": "2026-06-17 06:00:00"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "ZAC sous la Combe",
+      "cp": "01590",
+      "ville": "LAVANCIA-EPERCY",
+      "prix": 1.879,
+      "distance": 90.45,
+      "maj_gouv": "2026-06-19 06:57:31"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "120 boulevard Paul Langevin",
+      "cp": "38600",
+      "ville": "Fontaine",
+      "prix": 1.857,
+      "distance": 90.49,
+      "maj_gouv": "2026-06-19 09:52:21"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "13 AVENUE DU CLOS MOURON",
+      "cp": "71700",
+      "ville": "TOURNUS",
+      "prix": 1.867,
+      "distance": 90.81,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "22 avenue du Clos Mouron",
+      "cp": "71700",
+      "ville": "TOURNUS",
+      "prix": 1.899,
+      "distance": 90.81,
+      "maj_gouv": "2026-06-18 21:00:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Route de Dommartin",
+      "cp": "71480",
+      "ville": "CUISEAUX",
+      "prix": 1.955,
+      "distance": 92.13,
+      "maj_gouv": "2026-06-17 07:57:12"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "115 AVENUE DE LA REPUBLIQUE",
+      "cp": "38170",
+      "ville": "SEYSSINET",
+      "prix": 1.853,
+      "distance": 93.48,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "190 Rue des Machurons Zone des Geymonds",
+      "cp": "38250",
+      "ville": "VILLARD-DE-LANS",
+      "prix": 1.859,
+      "distance": 93.58,
+      "maj_gouv": "2026-06-19 11:10:44"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "1923 venière",
+      "cp": "71700",
+      "ville": "Boyer",
+      "prix": 1.957,
+      "distance": 93.61,
+      "maj_gouv": "2026-06-19 08:20:47"
+    },
+    {
+      "station": "ENI",
+      "adresse": "32 AVENUE RHIN ET DANUBE",
+      "cp": "38000",
+      "ville": "GRENOBLE",
+      "prix": 1.969,
+      "distance": 93.7,
+      "maj_gouv": "2026-06-18 21:45:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "23-27 BRD JOSEPH VALLIER",
+      "cp": "38100",
+      "ville": "GRENOBLE",
+      "prix": 1.919,
+      "distance": 94.0,
+      "maj_gouv": "2026-06-19 11:42:25"
+    },
+    {
+      "station": "Esso",
+      "adresse": "3 AV DU MARECHAL RANDON",
+      "cp": "38000",
+      "ville": "Grenoble",
+      "prix": 1.859,
+      "distance": 94.12,
+      "maj_gouv": "2026-06-19 11:38:43"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "40, quai du commerce",
+      "cp": "71600",
+      "ville": "PARAY-LE-MONIAL",
+      "prix": 1.936,
+      "distance": 94.18,
+      "maj_gouv": "2026-06-19 07:03:36"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "112 Rue de la Liberté",
+      "cp": "38180",
+      "ville": "Seyssins",
+      "prix": 1.859,
+      "distance": 94.6,
+      "maj_gouv": "2026-06-19 09:04:12"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "route de marcigny",
+      "cp": "71600",
+      "ville": "Saint-Yan",
+      "prix": 1.926,
+      "distance": 94.95,
+      "maj_gouv": "2026-06-19 09:04:23"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "Avenue de Verdun",
+      "cp": "38700",
+      "ville": "LA TRONCHE",
+      "prix": 1.867,
+      "distance": 95.08,
+      "maj_gouv": "2026-06-18 20:49:53"
+    },
+    {
+      "station": "ENI",
+      "adresse": "5 AVENUE JEAN PERROT",
+      "cp": "38000",
+      "ville": "GRENOBLE",
+      "prix": 1.969,
+      "distance": 95.08,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Esso",
+      "adresse": "3 Passage Ricou",
+      "cp": "38700",
+      "ville": "La Tronche",
+      "prix": 1.879,
+      "distance": 95.18,
+      "maj_gouv": "2026-06-18 07:21:15"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "1 Boulevard des Alpes",
+      "cp": "38240",
+      "ville": "MEYLAN",
+      "prix": 1.942,
+      "distance": 95.2,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "PLACE DE LA MAIRIE",
+      "cp": "01410",
+      "ville": "CHEZERY-FORENS",
+      "prix": 2.0,
+      "distance": 95.3,
+      "maj_gouv": "2026-06-19 08:46:57"
+    },
+    {
+      "station": "Esso",
+      "adresse": "117 Rue de Stalingrad",
+      "cp": "38100",
+      "ville": "Grenoble",
+      "prix": 1.949,
+      "distance": 95.38,
+      "maj_gouv": "2026-06-19 11:27:25"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "8 place Grande Moucherolle",
+      "cp": "38130",
+      "ville": "Échirolles",
+      "prix": 1.853,
+      "distance": 95.44,
+      "maj_gouv": "2026-06-19 11:42:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "45 Avenue des Sept Laux",
+      "cp": "38240",
+      "ville": "MEYLAN",
+      "prix": 1.999,
+      "distance": 95.48,
+      "maj_gouv": "2026-06-19 07:00:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "ZI DE MILLEURE",
+      "cp": "71480",
+      "ville": "Le MIROIR",
+      "prix": 1.957,
+      "distance": 95.59,
+      "maj_gouv": "2026-06-19 10:07:49"
+    },
+    {
+      "station": "Netto",
+      "adresse": "35 QUAI DE L'INDUSTRIE",
+      "cp": "71600",
+      "ville": "Paray-le-Monial",
+      "prix": 1.869,
+      "distance": 95.66,
+      "maj_gouv": "2026-06-19 09:07:18"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Chemin des Évêquaux",
+      "cp": "38330",
+      "ville": "Biviers",
+      "prix": 1.876,
+      "distance": 95.77,
+      "maj_gouv": "2026-06-19 07:50:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "CHEMIN DES NOYERS",
+      "cp": "38530",
+      "ville": "Chapareillan",
+      "prix": 1.942,
+      "distance": 95.8,
+      "maj_gouv": "2026-06-19 10:58:49"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "rue de la grande bruyère",
+      "cp": "71600",
+      "ville": "Paray-le-Monial",
+      "prix": 1.859,
+      "distance": 96.17,
+      "maj_gouv": "2026-06-19 06:57:12"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "76 Av. Gabriel Péri",
+      "cp": "38400",
+      "ville": "Saint-Martin-d'Hères",
+      "prix": 1.854,
+      "distance": 96.23,
+      "maj_gouv": "2026-06-18 08:23:46"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "VOIE N° 24 VILLENEUVE ECHIROLLES",
+      "cp": "38130",
+      "ville": "ÉCHIROLLES",
+      "prix": 1.857,
+      "distance": 96.38,
+      "maj_gouv": "2026-06-19 08:29:53"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Parc d'activités de Champ Bossu",
+      "cp": "71600",
+      "ville": "PARAY-LE-MONIAL",
+      "prix": 1.899,
+      "distance": 96.39,
+      "maj_gouv": "2026-06-16 08:55:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RN 87",
+      "cp": "38240",
+      "ville": "MEYLAN",
+      "prix": 1.867,
+      "distance": 96.69,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "96 COURS ST ANDRE",
+      "cp": "38800",
+      "ville": "Pont-de-claix",
+      "prix": 1.853,
+      "distance": 96.73,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZA DU PRE MUNNY",
+      "cp": "01630",
+      "ville": "PéRON",
+      "prix": 1.815,
+      "distance": 97.07,
+      "maj_gouv": "2026-06-19 07:40:18"
+    },
+    {
+      "station": "ENI",
+      "adresse": "40 Avenue Jean Jaurès",
+      "cp": "38320",
+      "ville": "EYBENS",
+      "prix": 1.949,
+      "distance": 97.07,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "le mont",
+      "cp": "71600",
+      "ville": "Vitry-en-Charollais",
+      "prix": 1.892,
+      "distance": 97.33,
+      "maj_gouv": "2026-06-19 09:10:00"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "Rue du Pré Ruffier",
+      "cp": "38400",
+      "ville": "Saint-Martin-d'Hères",
+      "prix": 1.869,
+      "distance": 97.38,
+      "maj_gouv": "2026-06-19 11:29:05"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RN 90",
+      "cp": "38530",
+      "ville": "BARRAUX",
+      "prix": 1.953,
+      "distance": 97.65,
+      "maj_gouv": "2026-06-17 10:44:40"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "ROCADE SUD",
+      "cp": "38320",
+      "ville": "EYBENS",
+      "prix": 1.942,
+      "distance": 97.75,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "Avenue de la Ridelet",
+      "cp": "38640",
+      "ville": "CLAIX",
+      "prix": 1.856,
+      "distance": 97.77,
+      "maj_gouv": "2026-06-19 08:09:47"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "ROUTE NATIONALE 90",
+      "cp": "38660",
+      "ville": "Le Touvet",
+      "prix": 1.948,
+      "distance": 97.88,
+      "maj_gouv": "2026-06-18 19:40:35"
+    },
+    {
+      "station": "Dyneff",
+      "adresse": "RN90",
+      "cp": "38660",
+      "ville": "Le Touvet",
+      "prix": 1.969,
+      "distance": 97.93,
+      "maj_gouv": "2026-06-19 10:52:07"
+    },
+    {
+      "station": "Système U",
+      "adresse": "AVENUE DE LA GARE",
+      "cp": "38530",
+      "ville": "PONTCHARRA",
+      "prix": 1.942,
+      "distance": 98.12,
+      "maj_gouv": "2026-06-19 09:29:17"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "431 AVENUE AMBROISE-CROIZAT",
+      "cp": "38920",
+      "ville": "Crolles",
+      "prix": 1.865,
+      "distance": 98.17,
+      "maj_gouv": "2026-06-19 07:35:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZI LES CONDAMINES",
+      "cp": "38320",
+      "ville": "Bresson",
+      "prix": 1.859,
+      "distance": 98.18,
+      "maj_gouv": "2026-06-19 09:23:27"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "14 Avenue Esclangon",
+      "cp": "38610",
+      "ville": "Gières",
+      "prix": 1.947,
+      "distance": 98.22,
+      "maj_gouv": "2026-06-19 07:56:20"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "128 Avenue Jean Jaurès",
+      "cp": "38320",
+      "ville": "Eybens",
+      "prix": 1.874,
+      "distance": 98.46,
+      "maj_gouv": "2026-06-19 06:30:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "Aire de Saint Nazaire les Eymes",
+      "cp": "38330",
+      "ville": "Saint-Nazaire-les-Eymes",
+      "prix": 2.089,
+      "distance": 98.48,
+      "maj_gouv": "2026-06-17 11:48:19"
+    },
+    {
+      "station": "Esso",
+      "adresse": "AUTOROUTE A 41",
+      "cp": "38330",
+      "ville": "Saint-Nazaire-les-Eymes",
+      "prix": 2.12,
+      "distance": 98.72,
+      "maj_gouv": "2026-06-17 16:41:00"
+    },
+    {
+      "station": "Auchan",
+      "adresse": "Z I DE CROLLESRUE DE BELLEDONNE",
+      "cp": "38190",
+      "ville": "CROLLES",
+      "prix": 1.865,
+      "distance": 98.81,
+      "maj_gouv": "2026-06-19 09:47:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "1 avenue Aristide Berges",
+      "cp": "38420",
+      "ville": "Domene",
+      "prix": 1.94,
+      "distance": 98.9,
+      "maj_gouv": "2026-06-19 09:18:42"
+    },
+    {
+      "station": "ENI",
+      "adresse": "ZAC DU CHAMP ST ANGE",
+      "cp": "38760",
+      "ville": "Varces-Allières-et-Risset",
+      "prix": 1.899,
+      "distance": 98.96,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "LIEU DIT LE ROMPAY RD523",
+      "cp": "38570",
+      "ville": "Le Cheylas",
+      "prix": 1.977,
+      "distance": 99.73,
+      "maj_gouv": "2026-06-13 12:38:23"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "102 Route de Grenoble",
+      "cp": "38420",
+      "ville": "LE VERSOUD",
+      "prix": 1.955,
+      "distance": 100.34,
+      "maj_gouv": "2026-06-18 19:24:41"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "92 Rue des Bordes",
+      "cp": "71500",
+      "ville": "LOUHANS",
+      "prix": 1.869,
+      "distance": 100.79,
+      "maj_gouv": "2026-06-19 08:30:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Lieu-dit 'La Tuilerie' - Avenue du Grésivaudan, D523",
+      "cp": "38570",
+      "ville": "TENCIN",
+      "prix": 1.958,
+      "distance": 100.9,
+      "maj_gouv": "2026-06-18 06:27:28"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "7 Route de Sornay",
+      "cp": "71500",
+      "ville": "LOUHANS",
+      "prix": 1.963,
+      "distance": 100.92,
+      "maj_gouv": "2026-06-19 07:07:47"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "CC LIGERVAL-ZAC DES CHARMES-AVENUE DE L' EUROPE",
+      "cp": "71160",
+      "ville": "DIGOIN",
+      "prix": 1.839,
+      "distance": 102.05,
+      "maj_gouv": "2026-06-18 08:30:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "80 RUE DU JURA",
+      "cp": "71500",
+      "ville": "LOUHANS",
+      "prix": 2.099,
+      "distance": 102.16,
+      "maj_gouv": "2026-06-02 18:05:01"
+    },
+    {
+      "station": "Avia",
+      "adresse": "99 RUE DU GUIDON",
+      "cp": "71500",
+      "ville": "Louhans",
+      "prix": 2.099,
+      "distance": 102.28,
+      "maj_gouv": "2026-06-03 00:00:00"
+    },
+    {
+      "station": "Dyneff",
+      "adresse": "95 rue champollion",
+      "cp": "38450",
+      "ville": "VIF",
+      "prix": 1.939,
+      "distance": 102.43,
+      "maj_gouv": "2026-06-19 14:00:00"
+    },
+    {
+      "station": "MIGROS",
+      "adresse": "route de Bellegarde",
+      "cp": "01710",
+      "ville": "THOIRY",
+      "prix": 1.899,
+      "distance": 103.76,
+      "maj_gouv": "2026-06-18 11:23:29"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Rue de la Faïencerie",
+      "cp": "71160",
+      "ville": "DIGOIN",
+      "prix": 1.949,
+      "distance": 103.79,
+      "maj_gouv": "2026-06-15 15:44:13"
+    },
+    {
+      "station": "Fulli",
+      "adresse": "Autoroute A6",
+      "cp": "71240",
+      "ville": "Saint-Ambreuil",
+      "prix": 1.979,
+      "distance": 103.88,
+      "maj_gouv": "2026-06-18 15:07:48"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "CHAMP SAPPEY",
+      "cp": "38830",
+      "ville": "CRETS EN BELLEDONNE",
+      "prix": 1.985,
+      "distance": 104.07,
+      "maj_gouv": "2026-06-18 10:11:18"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "315 rue Ambroise Croizat",
+      "cp": "38220",
+      "ville": "Vizille",
+      "prix": 1.841,
+      "distance": 104.21,
+      "maj_gouv": "2026-06-19 09:45:58"
+    },
+    {
+      "station": "Fulli",
+      "adresse": "AUTOROUTE DU SOLEIL A6 - SENS PARIS / PROVINCE",
+      "cp": "71240",
+      "ville": "SAINT AMBREUIL",
+      "prix": 2.05,
+      "distance": 104.21,
+      "maj_gouv": "2026-06-16 10:01:03"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "19 Avenue des Platanes",
+      "cp": "71160",
+      "ville": "DIGOIN",
+      "prix": 1.928,
+      "distance": 104.24,
+      "maj_gouv": "2026-06-18 22:20:00"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "AVENUE MAURICE THOREZ",
+      "cp": "38220",
+      "ville": "VIZILLE",
+      "prix": 1.942,
+      "distance": 104.61,
+      "maj_gouv": "2026-06-18 22:08:00"
+    },
+    {
+      "station": "Carrefour Contact",
+      "adresse": "88 Route de Montouvrard",
+      "cp": "38580",
+      "ville": "Allevard",
+      "prix": 1.939,
+      "distance": 104.74,
+      "maj_gouv": "2026-06-18 19:01:03"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RN 91",
+      "cp": "38220",
+      "ville": "Vizille",
+      "prix": 1.939,
+      "distance": 105.39,
+      "maj_gouv": "2026-06-17 10:15:49"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZI de la Saule",
+      "cp": "71230",
+      "ville": "SAINT-VALLIER",
+      "prix": 1.819,
+      "distance": 105.98,
+      "maj_gouv": "2026-06-19 09:26:26"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Lieu-Dit Beauregard",
+      "cp": "71300",
+      "ville": "GOURDON",
+      "prix": 1.819,
+      "distance": 106.4,
+      "maj_gouv": "2026-06-19 10:04:42"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Avenue Francis Pautonnier",
+      "cp": "71420",
+      "ville": "Perrecy-les-Forges",
+      "prix": 1.949,
+      "distance": 106.6,
+      "maj_gouv": "2026-06-17 08:48:25"
+    },
+    {
+      "station": "Carrefour Market",
+      "adresse": "RUE DE GENEVE -",
+      "cp": "01630",
+      "ville": "SAINT-GENIS-POUILLY",
+      "prix": 1.919,
+      "distance": 106.72,
+      "maj_gouv": "2026-06-19 15:07:43"
+    },
+    {
+      "station": "Avia",
+      "adresse": "50 Rue de la Faucille",
+      "cp": "01630",
+      "ville": "SAINT-GENIS-POUILLY",
+      "prix": 1.909,
+      "distance": 107.5,
+      "maj_gouv": "2026-06-19 00:00:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "148 Rue des Chalets",
+      "cp": "01630",
+      "ville": "SAINT-GENIS-POUILLY",
+      "prix": 1.839,
+      "distance": 108.22,
+      "maj_gouv": "2026-06-19 09:19:03"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "AVENUE DU MARECHAL LECLERC",
+      "cp": "71300",
+      "ville": "Montceau-les-Mines",
+      "prix": 1.819,
+      "distance": 108.6,
+      "maj_gouv": "2026-06-19 07:29:54"
+    },
+    {
+      "station": "ENI",
+      "adresse": "128 Rue François Mitterrand",
+      "cp": "71410",
+      "ville": "SANVIGNES-LES-MINES",
+      "prix": 1.963,
+      "distance": 109.24,
+      "maj_gouv": "2026-06-16 15:07:30"
+    },
+    {
+      "station": "Avia",
+      "adresse": "RN 70",
+      "cp": "71300",
+      "ville": "MONTCEAU LES MINES",
+      "prix": 2.149,
+      "distance": 109.44,
+      "maj_gouv": "2026-06-03 15:21:28"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "5 RUE DE LA COUDRAIE",
+      "cp": "71300",
+      "ville": "Montceau-les-Mines",
+      "prix": 1.819,
+      "distance": 110.06,
+      "maj_gouv": "2026-06-19 09:33:37"
+    },
+    {
+      "station": "Avia",
+      "adresse": "RN6",
+      "cp": "71100",
+      "ville": "LUX",
+      "prix": 2.079,
+      "distance": 110.11,
+      "maj_gouv": "2026-06-02 20:00:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "27 rue charles dumoulin",
+      "cp": "71100",
+      "ville": "LUX",
+      "prix": 1.828,
+      "distance": 110.56,
+      "maj_gouv": "2026-06-19 08:48:17"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Toulon sur Arroux",
+      "cp": "71130",
+      "ville": "Gueugnon",
+      "prix": 1.915,
+      "distance": 110.84,
+      "maj_gouv": "2026-06-18 08:41:06"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "LIEU DIT LA CONDEMAINE",
+      "cp": "71390",
+      "ville": "SAINT DESERT",
+      "prix": 1.899,
+      "distance": 110.9,
+      "maj_gouv": "2026-06-19 14:48:56"
+    },
+    {
+      "station": "Carrefour Contact",
+      "adresse": "2a rue du bourg",
+      "cp": "71370",
+      "ville": "L'Abergement-Sainte-Colombe",
+      "prix": 1.956,
+      "distance": 111.37,
+      "maj_gouv": "2026-06-09 08:20:02"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "Route de Meyrin",
+      "cp": "01210",
+      "ville": "FERNEY-VOLTAIRE",
+      "prix": 1.86,
+      "distance": 111.53,
+      "maj_gouv": "2026-06-19 11:41:48"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "1 Grand rue",
+      "cp": "38650",
+      "ville": "Monestier-de-Clermont",
+      "prix": 1.999,
+      "distance": 111.91,
+      "maj_gouv": "2026-06-17 16:54:16"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "52 RTE DE LYON",
+      "cp": "71100",
+      "ville": "Saint-Remy",
+      "prix": 1.935,
+      "distance": 112.04,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Avenue des Mouettes",
+      "cp": "71210",
+      "ville": "MONTCHANIN",
+      "prix": 1.945,
+      "distance": 112.48,
+      "maj_gouv": "2026-06-11 08:07:02"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "7 Rue Thomas Dumorey",
+      "cp": "71100",
+      "ville": "Chalon-sur-Saône",
+      "prix": 1.828,
+      "distance": 112.88,
+      "maj_gouv": "2026-06-18 22:49:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "RN5",
+      "cp": "01170",
+      "ville": "SéGNY",
+      "prix": 1.86,
+      "distance": 113.18,
+      "maj_gouv": "2026-06-19 14:59:00"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "70 rue des lieutenants chauveau",
+      "cp": "71100",
+      "ville": "Chalon-sur-Saône",
+      "prix": 1.861,
+      "distance": 113.22,
+      "maj_gouv": "2026-06-19 08:52:08"
+    },
+    {
+      "station": "Esso Express",
+      "adresse": "37 AV NICEPHORE NIEPCE",
+      "cp": "71100",
+      "ville": "Chalon-sur-Saône",
+      "prix": 1.848,
+      "distance": 113.89,
+      "maj_gouv": "2026-06-19 11:30:00"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "AVENUE DE CHALON",
+      "cp": "71640",
+      "ville": "GIVRY",
+      "prix": 1.899,
+      "distance": 114.03,
+      "maj_gouv": "2026-06-19 09:34:49"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "RN 80 ROND POINT J. ROSE",
+      "cp": "71210",
+      "ville": "MONTCHANIN",
+      "prix": 1.851,
+      "distance": 114.08,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Avia",
+      "adresse": "156 Av. des Tilleuls",
+      "cp": "01170",
+      "ville": "GEX",
+      "prix": 1.88,
+      "distance": 114.49,
+      "maj_gouv": "2026-06-19 07:48:39"
+    },
+    {
+      "station": "ENI",
+      "adresse": "20-22 AVENUE MONOT",
+      "cp": "71100",
+      "ville": "Chalon-sur-Saône",
+      "prix": 1.949,
+      "distance": 114.77,
+      "maj_gouv": "2026-06-18 22:00:00"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "RUE RAYMOND ARNAL",
+      "cp": "71100",
+      "ville": "Chalon-sur-Saône",
+      "prix": 1.844,
+      "distance": 115.12,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Netto",
+      "adresse": "ZAC CHAMP CHASSY RTE DE DOLE",
+      "cp": "71380",
+      "ville": "CHâTENOY-EN-BRESSE",
+      "prix": 1.857,
+      "distance": 115.16,
+      "maj_gouv": "2026-06-18 16:38:15"
+    },
+    {
+      "station": "Système U",
+      "adresse": "Allée de la Balme",
+      "cp": "71330",
+      "ville": "SAINT-GERMAIN-DU-BOIS",
+      "prix": 1.879,
+      "distance": 115.34,
+      "maj_gouv": "2026-06-19 08:23:32"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "RUE DES POILUS D'ORIENT",
+      "cp": "71100",
+      "ville": "CHALON-SUR-SAÔNE",
+      "prix": 1.819,
+      "distance": 115.59,
+      "maj_gouv": "2026-06-19 09:41:13"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Divonne les Bains",
+      "cp": "01170",
+      "ville": "Gex",
+      "prix": 1.859,
+      "distance": 115.6,
+      "maj_gouv": "2026-06-19 10:19:35"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "144 Avenue de Paris",
+      "cp": "71100",
+      "ville": "CHALON-SUR-SAôNE",
+      "prix": 1.849,
+      "distance": 115.67,
+      "maj_gouv": "2026-06-19 11:00:59"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "6, Rue Paul Sabatier",
+      "cp": "71100",
+      "ville": "Chalon-sur-Saône",
+      "prix": 1.839,
+      "distance": 117.24,
+      "maj_gouv": "2026-06-19 09:11:56"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "ZI LES MARAIS RN 85",
+      "cp": "38350",
+      "ville": "La Mure",
+      "prix": 1.869,
+      "distance": 117.91,
+      "maj_gouv": "2026-06-18 11:50:32"
+    },
+    {
+      "station": "Avia",
+      "adresse": "41 rue des Abattoirs",
+      "cp": "71200",
+      "ville": "LE CREUSOT",
+      "prix": 2.079,
+      "distance": 118.36,
+      "maj_gouv": "2026-06-02 23:59:00"
+    },
+    {
+      "station": "Carrefour",
+      "adresse": "allée de la mouche",
+      "cp": "38350",
+      "ville": "SUSVILLE",
+      "prix": 1.869,
+      "distance": 118.85,
+      "maj_gouv": "2026-06-19 12:02:12"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "AV DE CHAMBREUIL",
+      "cp": "71670",
+      "ville": "LE BREUIL",
+      "prix": 1.899,
+      "distance": 119.65,
+      "maj_gouv": "2026-06-19 09:01:52"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "rue de pologne",
+      "cp": "71200",
+      "ville": "LE CREUSOT",
+      "prix": 1.899,
+      "distance": 119.79,
+      "maj_gouv": "2026-06-19 09:59:59"
+    },
+    {
+      "station": "Avia",
+      "adresse": "49 Grande Rue",
+      "cp": "71640",
+      "ville": "Mercurey",
+      "prix": 2.079,
+      "distance": 120.21,
+      "maj_gouv": "2026-06-02 22:45:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "75 ROUTE DE MONTCENIS",
+      "cp": "71200",
+      "ville": "LE CREUSOT",
+      "prix": 1.969,
+      "distance": 120.43,
+      "maj_gouv": "2026-06-18 20:00:00"
+    },
+    {
+      "station": "Système U",
+      "adresse": "26 avenue du Docteur Tagnard",
+      "cp": "38350",
+      "ville": "La Mure",
+      "prix": 1.869,
+      "distance": 120.52,
+      "maj_gouv": "2026-06-19 09:56:17"
+    },
+    {
+      "station": "TotalEnergies",
+      "adresse": "30 ROUTE DU PUY - RD 1091",
+      "cp": "38520",
+      "ville": "Le Bourg-d'Oisans",
+      "prix": 1.942,
+      "distance": 120.53,
+      "maj_gouv": "2026-06-19 07:05:46"
+    },
+    {
+      "station": "Indépendant sans enseigne",
+      "adresse": "RD 1075 - 964 Route de Sisteron",
+      "cp": "38930",
+      "ville": "CLELLES en TRIEVES",
+      "prix": 1.998,
+      "distance": 120.89,
+      "maj_gouv": "2026-06-18 11:16:04"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "LE PRE DES ROCHES",
+      "cp": "38520",
+      "ville": "Le Bourg-d'Oisans",
+      "prix": 1.839,
+      "distance": 121.71,
+      "maj_gouv": "2026-06-19 15:38:06"
+    },
+    {
+      "station": "Système U",
+      "adresse": "90 route de Chalon",
+      "cp": "71590",
+      "ville": "Gergy",
+      "prix": 1.919,
+      "distance": 123.11,
+      "maj_gouv": "2026-06-18 09:05:51"
+    },
+    {
+      "station": "Avia",
+      "adresse": "26 ROUTE DU BOIS DU RUAULT",
+      "cp": "71710",
+      "ville": "MARMAGNE",
+      "prix": 2.079,
+      "distance": 125.0,
+      "maj_gouv": "2026-06-03 00:00:00"
+    },
+    {
+      "station": "ENI",
+      "adresse": "47 Avenue Claude et Émile Puzenat",
+      "cp": "71140",
+      "ville": "Bourbon-Lancy",
+      "prix": 1.949,
+      "distance": 126.98,
+      "maj_gouv": "2026-06-12 07:44:25"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Rue de Wissen",
+      "cp": "71150",
+      "ville": "CHAGNY",
+      "prix": 1.835,
+      "distance": 127.49,
+      "maj_gouv": "2026-06-19 12:00:36"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "6 route de Digoin",
+      "cp": "71140",
+      "ville": "Bourbon-Lancy",
+      "prix": 1.889,
+      "distance": 128.37,
+      "maj_gouv": "2026-06-19 10:56:13"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "98 ROUTE DE CHALON",
+      "cp": "71270",
+      "ville": "PIERRE-DE-BRESSE",
+      "prix": 1.839,
+      "distance": 129.13,
+      "maj_gouv": "2026-06-19 10:20:07"
+    },
+    {
+      "station": "ENI",
+      "adresse": "19-21 route de Chassagne, RN6",
+      "cp": "71150",
+      "ville": "Chagny",
+      "prix": 1.949,
+      "distance": 129.5,
+      "maj_gouv": "2026-06-19 06:00:00"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "ZAC DES PLANTES",
+      "cp": "71350",
+      "ville": "Saint-Loup-Géanges",
+      "prix": 1.929,
+      "distance": 132.47,
+      "maj_gouv": "2026-06-17 07:37:26"
+    },
+    {
+      "station": "Système U",
+      "adresse": "2 route",
+      "cp": "71270",
+      "ville": "Clux villeneuve",
+      "prix": 1.999,
+      "distance": 136.62,
+      "maj_gouv": "2026-06-11 09:06:14"
+    },
+    {
+      "station": "Intermarché Contact",
+      "adresse": "9 RUE DU 19 MARS 1962",
+      "cp": "71360",
+      "ville": "EPINAC",
+      "prix": 1.869,
+      "distance": 138.95,
+      "maj_gouv": "2026-06-19 07:27:07"
+    },
+    {
+      "station": "TotalEnergies Access",
+      "adresse": "AVENUE DU 2 EME DRAGON RD 978",
+      "cp": "71400",
+      "ville": "AUTUN",
+      "prix": 1.837,
+      "distance": 139.06,
+      "maj_gouv": "2026-06-19 00:01:00"
+    },
+    {
+      "station": "Leclerc",
+      "adresse": "3-5 RUE NICEPHORE NIEPCE",
+      "cp": "71400",
+      "ville": "AUTUN",
+      "prix": 1.829,
+      "distance": 140.53,
+      "maj_gouv": "2026-06-18 10:56:57"
+    },
+    {
+      "station": "Intermarché",
+      "adresse": "Route de Château-Chinon",
+      "cp": "71400",
+      "ville": "Autun",
+      "prix": 1.819,
+      "distance": 141.28,
+      "maj_gouv": "2026-06-19 09:47:25"
+    }
+  ]
+}
