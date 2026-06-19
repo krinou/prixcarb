@@ -548,10 +548,20 @@ function buildRow(obj, i) {
 async function chargerAvecRetry(max = 5) {
 
   for (let i = 0; i < max; i++) {
+    try {
+      const res = await fetch(`stations_${currentRequestId}.json?v=${Date.now()}`);
+      if (!res.ok) {
+         throw new Error(`HTTP ${res.status}`);
+         }
+      const text = await res.text();   // 🔍 on lit en texte d'abord
+      console.log("Réponse brute :", text);     
+      const data = JSON.parse(text);   // 👈 c’est ici que ça plante
+      console.log("JSON OK :", data);
+      } catch (err) {
+        console.error("Erreur :", err);
+        }     
 
-    const res = await fetch(`stations_${currentRequestId}.json?v=${Date.now()}`);
     const json = await res.json();
-
     const meta = json.meta;
     
     console.log("requestId attendu =", currentRequestId);
