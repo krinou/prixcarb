@@ -563,7 +563,7 @@ async function chargerAvecRetry(max = 20) {
       console.log("Réponse brute :", text);     
       const json = JSON.parse(text);   // 👈 c’est ici que ça plante
       const meta = json.meta;
-      console.log("JSON OK :", data);
+      console.log("JSON OK :", json);
 
       console.log("requestId attendu =", currentRequestId);
       console.log("requestId reçu =", meta?.requestId);
