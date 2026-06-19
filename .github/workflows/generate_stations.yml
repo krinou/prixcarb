@@ -36,8 +36,13 @@ jobs:
     
     env:
        REQUEST_ID: ${{ github.event.inputs.request_id }}
-
+       
     steps:
+      # 0) Init variable OUTPUT_FILE
+      - name: Build OUTPUT_FILE
+        run: |
+          echo "OUTPUT_FILE=stations_${REQUEST_ID}.json" >> $GITHUB_ENV
+
       # 1) Récupérer le dépôt
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -79,7 +84,7 @@ jobs:
           ls -l
 
       # 6) Exécuter la conversion
-      - name: Run convert.py
+      - name: Run genere_stations.py
         env:
           INPUT_ADRESSE: ${{ github.event.inputs.adresse }}
           INPUT_CARBURANT: ${{ github.event.inputs.carburant }}
@@ -90,12 +95,12 @@ jobs:
           test -f stations.json && echo "stations.json présent"
 
       # 7) Commit + push uniquement si changements
-      - name: Commit and push stations.json (if changed)
+      - name: Commit and push stations_$REQUEST_ID.json (if changed)
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stations.json
+          git add "$OUTPUT_FILE"
           if git diff --cached --quiet; then
             echo "Aucun changement pour le fichier des stations stations.json  à pousser."
           else
