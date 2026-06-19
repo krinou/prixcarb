@@ -545,7 +545,7 @@ function buildRow(obj, i) {
   return tr;
 }
 
-async function chargerAvecRetry(max = 5) {
+async function chargerAvecRetry(max = 20) {
 
   for (let i = 0; i < max; i++) {
     try {
@@ -574,7 +574,7 @@ async function chargerAvecRetry(max = 5) {
       } catch (err) {
         console.error("Erreur :", err);
         }     
-      await new Promise(r => setTimeout(r, 2000));
+      await new Promise(r => setTimeout(r, 5000));
 }
   
   return null;
