@@ -454,7 +454,7 @@ async function autocomplete(query) {
     const table  = document.getElementById("table");
 
   try {
-    const res = await fetch(`stations.json?v=${Date.now()}`);
+    const res = await fetch(`stations_${requestId}.json?v=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     const rows = json.stations;
@@ -555,7 +555,7 @@ async function chargerAvecRetry(max = 5) {
 
   for (let i = 0; i < max; i++) {
 
-    const res = await fetch(`stations.json?v=${Date.now()}`);
+    const res = await fetch(`stations_${requestId}.json?v=${Date.now()}`);
     const json = await res.json();
 
     const meta = json.meta;
