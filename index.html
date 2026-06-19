@@ -552,6 +552,7 @@ async function chargerAvecRetry(max = 20) {
       const res = await fetch(`stations_${currentRequestId}.json?v=${Date.now()}`);
       if (res.status === 404) {
           console.log("Fichier pas encore dispo, on attend...");
+          await new Promise(r => setTimeout(r, 5000));
           continue; // 🔥 on passe au tour suivant
          }
 
