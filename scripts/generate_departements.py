@@ -69,6 +69,12 @@ def extract_prices(pdv):
     return prices
 
 
+def child_text(node, tag):
+    child = node.find(tag)
+    if child is not None and child.text:
+        return child.text.strip()
+    return ""
+
 def build_station_record(pdv, cache):
     sid = str(pdv.get("id", "")).strip()
     cp = (pdv.get("cp") or "").strip()
@@ -76,9 +82,9 @@ def build_station_record(pdv, cache):
         "id": sid,
         "dep": dep_from_cp(cp),
         "enseigne": cache.get(sid, {}).get("enseigne", ""),
-        "adresse": (pdv.get("adresse") or "").strip(),
+        "adresse": child_text(pdv, "adresse"),
         "cp": cp,
-        "ville": (pdv.get("ville") or "").strip(),
+        "ville": child_text(pdv, "ville"),
         "latitude": xml_coord_to_float(pdv.get("latitude"), "lat"),
         "longitude": xml_coord_to_float(pdv.get("longitude"), "lon"),
         "carburants": extract_prices(pdv),
