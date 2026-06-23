@@ -28,14 +28,46 @@
 <script>
 
 async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
-  const baseUrl = "data/latest/";
-  const urls = deps.map(dep => `${baseUrl}${dep}.json?ts=${Date.now()}`);
-  const fetches = urls.map(url =>
-    fetch(url, { cache: "no-store" })
-      .then(r => r.ok ? r.json() : null)
-      .catch(() => null)
-  );
-  const results = await Promise.all(fetches);
+   const baseUrls = [
+         "data/latest/",
+         "https://krinou.github.io/prixcarb/data/latest/"
+         ];
+
+for (const baseUrl of baseUrls) {
+    const ts = Date.now();
+    const urls = deps.map(dep => `${baseUrl}${dep}.json?ts=${ts}`);
+    const results = await Promise.all(
+      urls.map(url =>
+        fetch(url, { cache: "no-store" })
+          .then(r => {
+            if (!r.ok) {
+              console.warn("Erreur HTTP :", r.status, url);
+              return null;
+            }
+            return r.json();
+          })
+          .catch(err => {
+            console.warn("Erreur fetch :", url, err);
+            return null;
+          })
+      )
+    );
+
+      const fichiersOk = results.filter(x => x !== null);
+
+      if (fichiersOk.length > 0) {
+         console.log("Chargement OK depuis :", baseUrl);
+         console.log("Nombre de fichiers chargés :", fichiersOk.length, "/", deps.length);
+         return results;
+      }
+
+       console.warn("Aucun fichier trouvé depuis :", baseUrl);
+     }
+
+     console.error("Aucun fichier chargé depuis aucune source.");
+     return [];
+   }
+
   const stations = results
     .filter(json => json && json.stations)
     .flatMap(json => json.stations);
