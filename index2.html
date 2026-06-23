@@ -29,7 +29,7 @@
 
 async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
   const baseUrl = "data/latest/";
-  const urls = deps.map(dep => `${baseUrl}dep-${dep}.json?ts=${Date.now()}`);
+  const urls = deps.map(dep => `${baseUrl}${dep}.json?ts=${Date.now()}`);
   const fetches = urls.map(url =>
     fetch(url, { cache: "no-store" })
       .then(r => r.ok ? r.json() : null)
