@@ -322,18 +322,32 @@ document.getElementById("adresseInput").addEventListener("input", function () {
 });
 
 async function autocomplete(query) {
+    // ✅ 1. Filtre minimal
+    if (query.length < 3) {
+        document.getElementById("autocompleteList").innerHTML = "";
+        return;
+    }
+
     const url =
         `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=5`;
 
     try {
         const res = await fetch(url);
+        if (!res.ok) {
+            console.warn("API erreur :", res.status);
+            return;
+        }
+      
         const json = await res.json();
+        if (!json || !Array.isArray(json.features)) {
+            console.warn("Réponse invalide :", json);
+            return;
+        }
 
         const list = document.getElementById("autocompleteList");
         list.innerHTML = "";
 
         json.features.forEach(feat => {
-
             const props = feat.properties;
             const label = props.label;        // Exemple : "25 Rue Thomas Lemaître 92000 Nanterre"
             const voie = props.name;          // Exemple : "Rue Thomas Lemaître"
@@ -403,6 +417,8 @@ function formatDateFR(maj) {
 
 function remplirTableau(data, tbody) {
   tbody.innerHTML = "";
+  const statusEl = document.getElementById("status");
+  
   data.forEach((o,i) => tbody.appendChild(buildRow(o,i)));
   if (!data.length) {
       statusEl.className = "alert alert-warning text-center";
