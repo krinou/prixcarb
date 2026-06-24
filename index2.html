@@ -59,6 +59,9 @@ for (const baseUrl of baseUrls) {
       if (fichiersOk.length > 0) {
          console.log("Chargement OK depuis :", baseUrl);
          console.log("Nombre de fichiers chargés :", fichiersOk.length, "/", deps.length);
+         const stations = results
+           .filter(json => json && json.stations)
+           .flatMap(json => json.stations);
          // Calcul dynamique
         const VOLUME = 50, CONSO = 10;
         return stations
