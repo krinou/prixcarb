@@ -54,19 +54,17 @@ for (const baseUrl of baseUrls) {
       )
     );
 
-      const fichiersOk = results.filter(x => x !== null);
+      const fichiersOk = results.filter(x => x && x.stations);
 
       if (fichiersOk.length > 0) {
          console.log("Chargement OK depuis :", baseUrl);
          console.log("Nombre de fichiers chargés :", fichiersOk.length, "/", deps.length);
-         const stations = results
-           .filter(json => json && json.stations)
-           .flatMap(json => json.stations);
+         const stations = fichiersOk.flatMap(json => json.stations);
          // Calcul dynamique
-        const VOLUME = 50, CONSO = 10;
-        return stations
-          .filter(st => st.prix && st.prix[carburant] != null)
-          .map(st => {
+         const VOLUME = 50, CONSO = 10;
+         return stations
+           .filter(st => st.prix && st.prix[carburant] != null)
+           .map(st => {
              const prix = st.prix[carburant];
              const dist = haversine(userLat, userLon, st.lat, st.lon);
              const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
@@ -79,12 +77,13 @@ for (const baseUrl of baseUrls) {
                 prix,
                 distance: dist,
                 prixTotal: coutTotal,
-                prixPondere
+                prixPondere,
+                maj_gouv: st.maj ?? st.maj_gouv ?? null
               };
           });
-         return results;
-      }
+       }
        console.warn("Aucun fichier trouvé depuis :", baseUrl);
+       return [];
      }
      console.error("Aucun fichier chargé depuis aucune source.");
      return [];
