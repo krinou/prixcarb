@@ -54,19 +54,19 @@ for (const baseUrl of baseUrls) {
       )
     );
 
-      const fichiersOk = results.filter(x => x && x.stations);
+      const fichiersOk = results.filter(x => x != null);
 
       if (fichiersOk.length > 0) {
          console.log("Chargement OK depuis :", baseUrl);
          console.log("Nombre de fichiers chargés :", fichiersOk.length, "/", deps.length);
-         const stations = fichiersOk.flatMap(json => json.stations);
+         const stations = fichiersOk.flatMap(json => json);
          // Calcul dynamique
          const VOLUME = 50, CONSO = 10;
          return stations
-           .filter(st => st.prix && st.prix[carburant] != null)
+           .filter(st => st.carburants && st.carburants[carburant] != null)
            .map(st => {
-             const prix = st.prix[carburant];
-             const dist = haversine(userLat, userLon, st.lat, st.lon);
+             const prix = parseFloat(st.carburants[carburant].valeur);
+             const dist = haversine(userLat, userLon, st.latitude, st.longitude);
              const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
              const prixPondere = coutTotal / VOLUME;
              return {
