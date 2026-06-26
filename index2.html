@@ -221,37 +221,6 @@ async function afficherStationsBrut() {
 
     <button class="btn btn-primary flex-fill" onclick="afficherStationsBrut()">🔄 Afficher les stations</button>
     <button class="btn btn-outline-secondary flex-fill" onclick="geolocaliser()">📍 Me localiser</button>
-    
-    <section class="mt-4">
-       <h2>Pourquoi comparer le vrai coût d’un plein ?</h2>
-       <p>
-         La station qui affiche le carburant le moins cher n’est pas toujours la plus économique.
-         Si elle est trop éloignée, le détour peut annuler l’économie réalisée à la pompe.
-         PrixCarb calcule un prix pondéré qui tient compte du prix du litre, de la distance
-         aller-retour et d’une consommation estimée.
-       </p>
-
-    </section>
-    
-    <section class="mt-3">
-        <h2>Comment est calculé le classement ?</h2>
-        <p>
-          Le classement ne se limite pas au prix affiché à la pompe. PrixCarb estime le coût total
-          d’un plein en ajoutant le carburant consommé pour faire l’aller-retour jusqu’à la station.
-        </p>
-
-        <ul>
-          <li><strong>Prix au litre :</strong> tarif déclaré pour le carburant sélectionné.</li>
-          <li><strong>Distance :</strong> distance estimée entre votre adresse et la station.</li>
-          <li><strong>Prix total :</strong> coût du plein ajouté au coût estimé du trajet aller-retour.</li>
-          <li><strong>Prix pondéré :</strong> prix réel ramené au litre, trajet inclus.</li>
-        </ul>
-    </section>
-   
-    <p>
-      PrixCarb exploite des données publiques de prix des carburants et les présente avec un
-      calcul pratique du coût réel du plein selon votre position.
-    </p>
   </div>
 
   <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
