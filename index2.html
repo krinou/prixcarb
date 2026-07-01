@@ -80,7 +80,7 @@ for (const baseUrl of baseUrls) {
                 distance: dist,
                 prixTotal: coutTotal,
                 prixPondere,
-                maj_gouv: st.maj ?? st.maj_gouv ?? null
+                maj_gouv: st.carburants?.[carburant]?.maj ?? null
               };
           });
        }
