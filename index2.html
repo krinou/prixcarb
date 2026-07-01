@@ -359,8 +359,11 @@ async function autocomplete(query) {
         return;
     }
 
-    const url =
-        `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=5`;
+    if (/^\d{3,5}$/.test(query)) {
+       url = `https://api-adresse.data.gouv.fr/search/?postcode=${query}&limit=5`;
+    } else {
+       url = `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=5`;
+    }
 
     try {
         const res = await fetch(url);
