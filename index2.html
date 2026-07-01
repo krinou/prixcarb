@@ -518,6 +518,9 @@ function activerTri(table, data, triCol, triDir) {
 
     const key = COL[idx];
 
+    if (th.dataset.triActive) return;
+    th.dataset.triActive = "1";
+
     th.addEventListener("click", () => {
       let col = key;
       let oldCol = localStorage.getItem("triCol") ?? "prixPondere";
