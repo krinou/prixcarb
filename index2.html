@@ -361,11 +361,18 @@ async function autocomplete(query) {
         return;
     }
 
-    if (/^\d{3,5}$/.test(query)) {
-       url = `https://api-adresse.data.gouv.fr/search/?postcode=${query}&limit=5`;
-    } else {
-       url = `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=5`;
+    let url;
+
+    if (/^\d+$/.test(query)) {
+       url = `https://api-adresse.data.gouv.fr/search/?q=${query}&type=municipality&limit=20`;
+    }  else {
+       url = `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=20`;
     }
+
+    json.features = json.features.filter(f =>
+      f.properties.postcode &&
+      f.properties.postcode.startsWith(query)
+    );
 
     try {
         const res = await fetch(url);
