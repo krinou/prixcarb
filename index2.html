@@ -369,11 +369,6 @@ async function autocomplete(query) {
        url = `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=20`;
     }
 
-    json.features = json.features.filter(f =>
-      f.properties.postcode &&
-      f.properties.postcode.startsWith(query)
-    );
-
     try {
         const res = await fetch(url);
         if (!res.ok) {
@@ -390,6 +385,11 @@ async function autocomplete(query) {
         const list = document.getElementById("autocompleteList");
         list.innerHTML = "";
 
+        json.features = json.features.filter(f =>
+            f.properties.postcode &&
+            f.properties.postcode.startsWith(query)
+        );
+      
         json.features.forEach(feat => {
             const props = feat.properties;
             const label = props.label;        // Exemple : "25 Rue Thomas Lemaître 92000 Nanterre"
