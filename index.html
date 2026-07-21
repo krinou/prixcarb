@@ -46,7 +46,16 @@
         font-size: 0.95rem;
         }
     }
-  
+
+  .prix-perime td {
+    color: #c00000 !important;
+    text-decoration: line-through;
+    background-color: #f8d7da !important;
+    }
+
+  .prix-ancien td {
+    background-color: #fff3cd !important;
+    }
 </style>
 
 </head>
@@ -452,7 +461,15 @@ async function autocomplete(query) {
 
 function buildRow(obj, i) {
   console.log("buildRow maj_gouv =", obj.maj_gouv);
+  const age = agePrixEnJours(obj.maj_gouv);
   const tr = document.createElement("tr");
+  if (age > 21) {
+    tr.classList.add("prix-perime");
+    }
+  else if (age > 15) {
+          tr.classList.add("prix-ancien");
+          }
+  
   tr.innerHTML = `
     <td>${i+1}</td>
     <td>${obj.station}</td>
@@ -463,7 +480,10 @@ function buildRow(obj, i) {
     <td>${obj.distance != null ? obj.distance.toFixed(2) : "-"}</td>
     <td>${obj.prixTotal != null ? obj.prixTotal.toFixed(2) : "-"}</td>
     <td>${obj.prixPondere != null ? obj.prixPondere.toFixed(3) : "-"}</td>
-    <td>${formatDateFR(obj.maj_gouv)}</td>
+    <td>
+       ${age > 21 ? '🔺 ' : age > 15 ? '⚠️ ' : ''}
+       ${formatDateFR(obj.maj_gouv)}
+    </td>
   `;
   return tr;
 }
@@ -482,17 +502,36 @@ function formatDateFR(maj) {
   return `${dd}/${mm}/${yy}`;
 }
 
+function agePrixEnJours(maj) {
+    if (!maj) return 999;
+
+    const dateMaj = new Date(maj.replace(" ", "T"));
+    const maintenant = new Date();
+
+    return Math.floor(
+        (maintenant - dateMaj) / (1000 * 60 * 60 * 24)
+    );
+}
+  
 function afficherConseil(data) {
     if (!data || data.length === 0) return;
     const div = document.getElementById("conseilPrixCarb");
+    const dataValides = data.filter(  
+                                     st => agePrixEnJours(st.maj_gouv) <= 21
+                                   );
+  
+    if (dataValides.length === 0) {
+       return;
+      }
+  
     const stationMoinsChere =
-        [...data].sort((a,b) => a.prixTotal - b.prixTotal)[0];
+        [...dataValides].sort((a,b) => a.prixTotal - b.prixTotal)[0];
 
     const stationPlusProche =
-        [...data].sort((a,b) => a.distance - b.distance)[0];
+        [...dataValides].sort((a,b) => a.distance - b.distance)[0];
 
     const stationPrixLitre =
-        [...data].sort((a,b) => a.prix - b.prix)[0];
+        [...dataValides].sort((a,b) => a.prix - b.prix)[0];
 
     let html = '';
     if (
@@ -531,7 +570,10 @@ function afficherConseil(data) {
 
             <p>
                 Coût du plein :
-                <strong>${stationMoinsChere.prixTotal.toFixed(2)} €</strong>.
+                <strong>
+                  ${stationMoinsChere.prixTotal.toFixed(2)} €
+                  (${stationMoinsChere.prix.toFixed(3)} €/L)
+                </strong>.
             </p>
         `;
 
