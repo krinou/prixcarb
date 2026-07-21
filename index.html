@@ -26,6 +26,27 @@
   #autocompleteList li:hover {
     background: #eee;
   }
+
+  .conseil-card {
+    background: #ffffff;
+    border-left: 5px solid #198754;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.08);
+    }
+
+  .conseil-card h5 {
+    margin-bottom: 10px;
+    color: #198754;
+    }
+
+  @media (max-width: 768px) {
+    .conseil-card {
+        font-size: 0.95rem;
+        }
+    }
+  
 </style>
 
 </head>
@@ -179,6 +200,7 @@ async function afficherStationsBrut() {
        appliquerTri(data, triCol, triDir);
        const tbody = table.querySelector("tbody");
        remplirTableau(data, tbody);
+       afficherConseil(data);
        
        activerTri(table, data, triCol, triDir);
        const summary = document.getElementById("summary");
@@ -227,9 +249,8 @@ async function afficherStationsBrut() {
   </div>
 
   <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
-
   <div id="summary" class="alert alert-secondary text-center"></div>
-
+  <div id="conseilPrixCarb" style="display:none;"></div>
   <div id="status" class="alert alert-info text-center">⏳ Chargement…</div>
 
   <table id="table" class="table table-striped table-hover table-bordered align-middle" style="display:none;">
@@ -461,6 +482,85 @@ function formatDateFR(maj) {
   return `${dd}/${mm}/${yy}`;
 }
 
+function afficherConseil(data) {
+    if (!data || data.length === 0) return;
+    const div = document.getElementById("conseilPrixCarb");
+    const stationMoinsChere =
+        [...data].sort((a,b) => a.prixTotal - b.prixTotal)[0];
+
+    const stationPlusProche =
+        [...data].sort((a,b) => a.distance - b.distance)[0];
+
+    const stationPrixLitre =
+        [...data].sort((a,b) => a.prix - b.prix)[0];
+
+    let html = '';
+    if (
+        stationMoinsChere.station === stationPlusProche.station &&
+        stationMoinsChere.station === stationPrixLitre.station
+    ) {
+
+        html = `
+        <div class="conseil-card">
+            <h5>🏆 Station idéale</h5>
+            <p>
+                La station la plus proche est également celle qui propose
+                le prix au litre le plus bas et le plein le moins cher.
+            </p>
+        </div>`;
+    }
+    else {
+        const perteProche =
+            stationPlusProche.prixTotal - stationMoinsChere.prixTotal;
+
+        const pertePrix =
+            stationPrixLitre.prixTotal - stationMoinsChere.prixTotal;
+
+        html = `
+        <div class="conseil-card">
+
+            <h5>🏆 Conseil PrixCarb</h5>
+
+            <p>
+                Pour faire le maximum d'économies sur un plein de 50 litres,
+                rendez-vous à
+                <strong>${stationMoinsChere.station}</strong>
+                située à
+                <strong>${stationMoinsChere.distance.toFixed(1)} km</strong>.
+            </p>
+
+            <p>
+                Coût du plein :
+                <strong>${stationMoinsChere.prixTotal.toFixed(2)} €</strong>.
+            </p>
+        `;
+
+        if (stationPlusProche.station !== stationMoinsChere.station) {
+
+            html += `
+            <p>
+                📍 En choisissant la station la plus proche,
+                vous paierez
+                <strong>${perteProche.toFixed(2)} € de plus</strong>.
+            </p>`;
+        }
+
+        if (stationPrixLitre.station !== stationMoinsChere.station) {
+            html += `
+            <p>
+                ⛽ En choisissant la station au prix au litre le plus bas,
+                vous paierez
+                <strong>${pertePrix.toFixed(2)} € de plus</strong>.
+            </p>`;
+        }
+
+        html += '</div>';
+    }
+
+    div.innerHTML = html;
+    div.style.display = 'block';
+}
+  
 function remplirTableau(data, tbody) {
   tbody.innerHTML = "";
   const statusEl = document.getElementById("status");
