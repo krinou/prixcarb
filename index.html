@@ -328,12 +328,16 @@ async function afficherStationsBrut() {
     currentAdresse = adresseCourte;
     document.getElementById("autocompleteList").innerHTML = "";
     const dep = cp.substring(0, 2);
-    const voisins = await getDepsVoisins(dep);
+    const voisins = [dep, ...(await getDepsVoisins(dep))]
+                    .filter((v,i,a) => v && a.indexOf(v) === i);
     afficherDepsLimitrophes(dep, voisins);
     console.log("Départements limitrophes :", voisins);
 
     document.getElementById("status").style.display = "block";
     document.getElementById("status").textContent = "⏳ Chargement des résultats…";
+
+    // lancement réel de la recherche
+    afficherStationsBrut();
     }, err => { alert("Géolocalisation refusée."); });
   }
 
