@@ -300,4 +300,4 @@ jobs:
           else
             git commit -m "Build historical fuel price files"
             git push
-          fidonc cet yadonc cet 
+          fi
