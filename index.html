@@ -60,6 +60,7 @@
 
 </head>
 
+//1er script contient les fonctions principales de chargement
 <script>
 
 async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
@@ -105,6 +106,7 @@ for (const baseUrl of baseUrls) {
              const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
              const prixPondere = coutTotal / VOLUME;
              return {
+                id : st.id,
                 station : st.nom ?? st.enseigne ?? "Inconnue",
                 adresse : st.adresse ?? "",
                 cp      : st.cp ?? st.code_postal ?? "",
@@ -203,6 +205,23 @@ async function afficherStationsBrut() {
        console.log("Coordonnées utilisateur :", userLat, userLon)
        console.log("Départements chargés :", deps);
        const data = await chargerStationsTousDeps(deps, carburant, userLat, userLon);
+       for (const dep of deps) {
+           const historyDep =
+           await chargerHistoriqueDepartement(dep);
+           data.forEach(st => {
+           if (
+               st.cp &&
+               st.cp.startsWith(dep)
+              ) {
+                 st.evolution7j =
+                    calculEvolution7Jours(
+                      historyDep,
+                      st.id,
+                      carburant
+                    );
+                }
+           });
+       }
        // Tri, affichage, etc.
        let triCol = localStorage.getItem("triCol") ?? "prixPondere";
        let triDir = localStorage.getItem("triDir") ?? "asc";
@@ -274,18 +293,97 @@ async function afficherStationsBrut() {
         <th>Distance (km)</th>
         <th>Prix total (€)</th>
         <th>Prix pondéré (€/L)</th>
+        <th>Evolution</th>
         <th>Date de MAJ</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
 </div>
-
+  
+// 2eme script contient les fonctions d'interface (géolocalisation, tableau, tri, etc.)
 <script>
   let depsLimitrophes = null;
   let currentAdresse = "";      // dernière adresse validée
   let currentVoisins = [];      // derniers départements limitrophes calculés
   let userLat = null, userLon = null;
+  const historyCache = {};
+
+  async function chargerHistoriqueDepartement(dep) {
+
+    if (historyCache[dep]) {
+        return historyCache[dep];
+    }
+
+    const ts = Date.now();
+
+    const urls = [
+        `data/history/${dep}.json?ts=${ts}`,
+        `https://krinou.github.io/prixcarb/data/history/${dep}.json?ts=${ts}`,
+        `https://raw.githubusercontent.com/krinou/prixcarb/main/data/history/${dep}.json?ts=${ts}`
+    ];
+
+    for (const url of urls) {
+
+        try {
+
+            const res = await fetch(url, {
+                cache: "no-store"
+            });
+
+            if (!res.ok) {
+                continue;
+            }
+
+            const json = await res.json();
+
+            historyCache[dep] = json;
+
+            return json;
+
+        } catch (e) {
+            console.warn(e);
+        }
+    }
+
+    return {};
+ }
+
+ function calculEvolution7Jours(historyDep, stationId, carburant) {
+
+    if (!historyDep?.[stationId]?.[carburant]) {
+        return null;
+    }
+
+    const h = historyDep[stationId][carburant];
+
+    if (h.length < 2) {
+        return null;
+    }
+
+    const dernierPrix = Number(h[h.length - 1][1]);
+
+    const dateLimite = new Date();
+    dateLimite.setDate(dateLimite.getDate() - 7);
+
+    let prixIlYA7Jours = null;
+
+    for (let i = h.length - 1; i >= 0; i--) {
+
+        const d = new Date(h[i][0]);
+
+        if (d <= dateLimite) {
+            prixIlYA7Jours = Number(h[i][1]);
+            break;
+        }
+    }
+
+    if (prixIlYA7Jours == null) {
+        return null;
+    }
+
+    return +( (dernierPrix - prixIlYA7Jours) * 100 ).toFixed(1);
+ }
 
   async function chargerDepartements() {
     if (!depsLimitrophes) {
@@ -462,6 +560,21 @@ async function autocomplete(query) {
 // --------------------------------------------------
 // Construction visuelle d'une ligne <tr>
 // --------------------------------------------------
+function afficherEvolution(delta) {
+  if (delta == null) {
+     return "";
+    }
+
+  if (delta < -0.1) {
+     return `🟢 ${delta.toFixed(1)} cts (7 j)`;
+    }
+
+  if (delta > 0.1) {
+     return `🔴 +${delta.toFixed(1)} cts (7 j)`;
+  }
+
+  return `⚪ Stable`;
+}
 
 function buildRow(obj, i) {
   console.log("buildRow maj_gouv =", obj.maj_gouv);
@@ -484,6 +597,7 @@ function buildRow(obj, i) {
     <td>${obj.distance != null ? obj.distance.toFixed(2) : "-"}</td>
     <td>${obj.prixTotal != null ? obj.prixTotal.toFixed(2) : "-"}</td>
     <td>${obj.prixPondere != null ? obj.prixPondere.toFixed(3) : "-"}</td>
+    <td>${afficherEvolution(obj.evolution7j)}</td>
     <td>
        ${age > 21 ? '🔺 ' : age > 15 ? '⚠️ ' : ''}
        ${formatDateFR(obj.maj_gouv)}
