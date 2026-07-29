@@ -56,12 +56,46 @@
   .prix-ancien td {
     background-color: #fff3cd !important;
     }
+
+  .historique-modal {
+    position: fixed;
+    z-index: 3000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.45);
+  }
+
+  .historique-modal-content {
+    background: #fff;
+    margin: 5% auto;
+    padding: 16px;
+    border-radius: 12px;
+    width: 95%;
+    max-width: 900px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  }
+
+  .periode-histo.active {
+    background-color: #0d6efd;
+    color: #fff;
+  }
 </style>
 
 </head>
 
 //1er script contient les fonctions principales de chargement
 <script>
+
+function depDepuisCp(cp) {
+  cp = String(cp || "").trim();
+  if (cp.startsWith("97") && cp.length >= 3) {
+     return cp.substring(0, 3);
+  }
+  return cp.substring(0, 2);
+}
 
 async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
    const baseUrls = [
@@ -70,10 +104,10 @@ async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
          "https://raw.githubusercontent.com/krinou/prixcarb/main/data/latest/"
          ];
 
-for (const baseUrl of baseUrls) {
-    const ts = Date.now();
-    const urls = deps.map(dep => `${baseUrl}${dep}.json?ts=${ts}`);
-    const results = await Promise.all(
+   for (const baseUrl of baseUrls) {
+      const ts = Date.now();
+      const urls = deps.map(dep => `${baseUrl}${dep}.json?ts=${ts}`);
+      const results = await Promise.all(
       urls.map(url =>
         fetch(url, { cache: "no-store" })
           .then(r => {
@@ -90,23 +124,24 @@ for (const baseUrl of baseUrls) {
       )
     );
 
-      const fichiersOk = results.filter(x => x != null);
-
-      if (fichiersOk.length > 0) {
-         console.log("Chargement OK depuis :", baseUrl);
-         console.log("Nombre de fichiers chargés :", fichiersOk.length, "/", deps.length);
-         const stations = fichiersOk.flatMap(json => json);
-         // Calcul dynamique
-         const VOLUME = 50, CONSO = 10;
-         return stations
-           .filter(st => st.carburants && st.carburants[carburant] != null)
-           .map(st => {
+    const fichiersOk = results.filter(x => x != null);
+    if (fichiersOk.length > 0) {
+       console.log("Chargement OK depuis :", baseUrl);
+       console.log("Nombre de fichiers chargés :", fichiersOk.length, "/", deps.length);
+       const stations = fichiersOk.flatMap(json => json);
+       // Calcul dynamique
+       const VOLUME = 50, CONSO = 10;
+       return stations
+         .filter(st => st.carburants && st.carburants[carburant] != null)
+         .map(st => {
              const prix = parseFloat(st.carburants[carburant].valeur);
              const dist = haversine(userLat, userLon, st.latitude, st.longitude);
              const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
              const prixPondere = coutTotal / VOLUME;
+             const depStation = st.dep ?? depDepuisCp(cp);
              return {
                 id : st.id,
+                dep : depStation,
                 station : st.nom ?? st.enseigne ?? "Inconnue",
                 adresse : st.adresse ?? "",
                 cp      : st.cp ?? st.code_postal ?? "",
@@ -294,12 +329,39 @@ async function afficherStationsBrut() {
         <th>Prix total (€)</th>
         <th>Prix pondéré (€/L)</th>
         <th>Evolution</th>
+        <th>Historique</th>
         <th>Date de MAJ</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
 </div>
+
+<div id="historiqueModal" class="historique-modal" style="display:none;">
+  <div class="historique-modal-content">
+
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <h5 id="historiqueTitre" class="mb-0">Historique des prix</h5>
+      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="fermerHistorique()">
+        Fermer
+      </button>
+    </div>
+
+    <div class="mb-2">
+      <button class="btn btn-sm btn-outline-primary periode-histo" data-jours="7">7 j</button>
+      <button class="btn btn-sm btn-outline-primary periode-histo" data-jours="30">1 mois</button>
+      <button class="btn btn-sm btn-outline-primary periode-histo" data-jours="180">6 mois</button>
+      <button class="btn btn-sm btn-outline-primary periode-histo" data-jours="365">1 an</button>
+    </div>
+
+    <div id="historiqueResume" class="small text-secondary mb-2"></div>
+
+    <canvas id="historiqueChart" height="120"></canvas>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
 // 2eme script contient les fonctions d'interface (géolocalisation, tableau, tri, etc.)
 <script>
@@ -307,10 +369,207 @@ async function afficherStationsBrut() {
   let currentAdresse = "";      // dernière adresse validée
   let currentVoisins = [];      // derniers départements limitrophes calculés
   let userLat = null, userLon = null;
+
+  let historiqueChart = null;
+  let historiqueStationCourante = null;
+  let periodeHistoriqueCourante = 180;
+
   const historyCache = {};
+  const couleursCarburants = {
+    "E10": "#198754",
+    "SP95": "#0d6efd",
+    "SP98": "#6f42c1",
+    "Gazole": "#212529",
+    "E85": "#fd7e14"
+    };
 
-  async function chargerHistoriqueDepartement(dep) {
+function getDerniereDateStation(stationHistory) {
+    let maxDate = null;
 
+    Object.values(stationHistory).forEach(points => {
+        if (!Array.isArray(points)) return;
+
+        points.forEach(p => {
+            const d = p[0];
+            if (!maxDate || d > maxDate) {
+                maxDate = d;
+            }
+        });
+    });
+
+    return maxDate;
+}
+
+function filtrerPoints(points, jours, dateRefStr) {
+    if (!Array.isArray(points) || !dateRefStr) return [];
+
+    const dateRef = new Date(dateRefStr);
+    const dateLimite = new Date(dateRef);
+    dateLimite.setDate(dateLimite.getDate() - jours);
+
+    return points.filter(p => {
+        const d = new Date(p[0]);
+        return d >= dateLimite && d <= dateRef;
+    });
+}
+
+function construireLabels(stationHistory, jours) {
+    const dateRef = getDerniereDateStation(stationHistory);
+    const setDates = new Set();
+
+    Object.values(stationHistory).forEach(points => {
+        filtrerPoints(points, jours, dateRef).forEach(p => {
+            setDates.add(p[0]);
+        });
+    });
+
+    return [...setDates].sort();
+}
+
+function formatLabelDate(dateStr) {
+    const d = new Date(dateStr);
+
+    return d.toLocaleDateString("fr-FR", {
+        day: "2-digit",
+        month: "2-digit"
+    });
+}
+
+async function ouvrirHistoriqueStation(stationId, dep, nomStation) {
+
+    if (!stationId) {
+        alert("Identifiant station absent.");
+        return;
+    }
+
+    if (!dep) {
+        dep = stationId.substring(0, 2);
+    }
+
+    const historiqueDep = await chargerHistoriqueDepartement(dep);
+    const stationHistory = historiqueDep?.[stationId];
+
+    if (!stationHistory) {
+        alert("Historique introuvable pour cette station.");
+        return;
+    }
+
+    historiqueStationCourante = {
+        stationId,
+        dep,
+        nomStation,
+        stationHistory
+    };
+
+    document.getElementById("historiqueTitre").textContent =
+        `Historique des prix - ${nomStation}`;
+
+    document.getElementById("historiqueModal").style.display = "block";
+
+    afficherGraphiqueHistorique(periodeHistoriqueCourante);
+}
+  
+function afficherGraphiqueHistorique(jours) {
+    periodeHistoriqueCourante = jours;
+    if (!historiqueStationCourante) return;
+
+    const stationHistory = historiqueStationCourante.stationHistory;
+    const labelsDates = construireLabels(stationHistory, jours);
+    const labels = labelsDates.map(formatLabelDate);
+    const datasets = [];
+
+    Object.entries(stationHistory).forEach(([carburant, points]) => {
+        if (!Array.isArray(points)) return;
+        const dateRef = getDerniereDateStation(stationHistory);
+        const pointsFiltres = filtrerPoints(points, jours, dateRef);
+        if (pointsFiltres.length === 0) return;
+        const prixParDate = {};
+        pointsFiltres.forEach(([date, prix]) => {
+            prixParDate[date] = Number(prix);
+        });
+
+        const data = labelsDates.map(date => {
+            return prixParDate[date] ?? null;
+        });
+
+        datasets.push({
+            label: carburant,
+            data: data,
+            borderColor: couleursCarburants[carburant] ?? "#666",
+            backgroundColor: couleursCarburants[carburant] ?? "#666",
+            borderWidth: 2,
+            pointRadius: jours <= 30 ? 3 : 0,
+            tension: 0.25,
+            spanGaps: true
+        });
+    });
+
+    const canvas = document.getElementById("historiqueChart");
+
+    if (historiqueChart) {
+        historiqueChart.destroy();
+    }
+
+    historiqueChart = new Chart(canvas, {
+        type: "line",
+        data: {
+            labels,
+            datasets
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: true
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            const value = context.parsed.y;
+                            return `${context.dataset.label} : ${value.toFixed(3)} €/L`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    ticks: {
+                        callback: function(value) {
+                            return value.toFixed(2) + " €";
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    afficherResumeHistorique(stationHistory, jours);
+
+    document.querySelectorAll(".periode-histo").forEach(btn => {
+        btn.classList.toggle(
+            "active",
+            Number(btn.dataset.jours) === Number(jours)
+        );
+    });
+}
+  
+function afficherResumeHistorique(stationHistory, jours) {
+
+    const carburants = Object.keys(stationHistory);
+    const dateRef = getDerniereDateStation(stationHistory);
+
+    let html = `Période affichée : ${jours} jours. `;
+
+    html += `Carburants disponibles : ${carburants.join(", ")}.`;
+
+    document.getElementById("historiqueResume").textContent = html;
+}
+
+function fermerHistorique() {
+    document.getElementById("historiqueModal").style.display = "none";
+}
+  
+async function chargerHistoriqueDepartement(dep) {
     if (historyCache[dep]) {
         return historyCache[dep];
     }
@@ -599,11 +858,30 @@ function buildRow(obj, i) {
     <td>${obj.prixPondere != null ? obj.prixPondere.toFixed(3) : "-"}</td>
     <td>${afficherEvolution(obj.evolution7j)}</td>
     <td>
+       <button
+          type="button"
+          class="btn btn-sm btn-outline-primary btn-historique"
+          data-id="${escapeHtml(obj.id)}"
+          data-dep="${escapeHtml(obj.dep)}"
+          data-station="${escapeHtml(obj.station)}">
+        &#128200;
+       </button>
+    </td>
+    <td>
        ${age > 21 ? '🔺 ' : age > 15 ? '⚠️ ' : ''}
        ${formatDateFR(obj.maj_gouv)}
     </td>
   `;
   return tr;
+}
+
+function escapeHtml(value) {
+    return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
 }
 
 function formatDateFR(maj) {
@@ -819,6 +1097,21 @@ function activerTri(table, data, triCol, triDir) {
 // Au chargement : ne rien afficher
 document.getElementById("table").style.display = "none";
 document.getElementById("status").style.display = "none";
+
+document.getElementById("table").addEventListener("click", function(e) {
+   const btn = e.target.closest(".btn-historique");
+    if (!btn) return;
+    const stationId = btn.dataset.id;
+    const dep = btn.dataset.dep;
+    const station = btn.dataset.station;
+    ouvrirHistoriqueStation(stationId, dep, station);
+    });
+
+document.querySelectorAll(".periode-histo").forEach(btn => {
+    btn.addEventListener("click", function() {
+        afficherGraphiqueHistorique(Number(this.dataset.jours));
+        });
+    });
 
 </script>
 </body>
