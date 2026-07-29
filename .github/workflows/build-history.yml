@@ -1,0 +1,303 @@
+name: Build Historical Fuel Prices
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-history:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build historical JSON files
+        run: |
+          python3 <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          ROOT = Path("data")
+          HISTORY_DIR = ROOT / "history"
+
+          HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+
+          # Structure finale :
+          # historique = {
+          #   "01": {
+          #     "1300004": {
+          #       "Gazole": [["2026-05-17", 2.09], ...],
+          #       "E10": [["2026-05-17", 1.99], ...]
+          #     }
+          #   }
+          # }
+          historique = {}
+
+          def lire_json(path):
+              try:
+                  with open(path, "r", encoding="utf-8") as f:
+                      return json.load(f)
+              except Exception as e:
+                  print(f"Erreur lecture {path}: {e}")
+                  return None
+
+          def normaliser_dep(dep):
+              if dep is None:
+                  return None
+
+              dep = str(dep).strip()
+
+              if not dep:
+                  return None
+
+              # Départements métropole : 01, 02, ..., 95
+              # DOM : 971, 972, 973, 974, 976
+              if dep.isdigit():
+                  if len(dep) == 1:
+                      return dep.zfill(2)
+                  return dep
+
+              return None
+
+          def dep_depuis_station(station, dep_fichier=None):
+              # 1. champ dep explicite dans le nouveau format
+              dep = normaliser_dep(station.get("dep"))
+              if dep:
+                  return dep
+
+              # 2. code postal
+              cp = str(station.get("cp", "")).strip()
+              if len(cp) >= 2:
+                  if cp.startswith("97") and len(cp) >= 3:
+                      return cp[:3]
+                  return cp[:2]
+
+              # 3. département global du fichier ancien format
+              dep = normaliser_dep(dep_fichier)
+              if dep:
+                  return dep
+
+              # 4. fallback depuis l'id station
+              station_id = str(station.get("id", "")).strip()
+              if len(station_id) >= 2:
+                  if station_id.startswith("97") and len(station_id) >= 3:
+                      return station_id[:3]
+                  return station_id[:2]
+
+              return None
+
+          def ajouter_point(dep, station_id, carburant, date_histo, prix):
+              if not dep or not station_id or not carburant or not date_histo:
+                  return
+
+              if prix is None:
+                  return
+
+              try:
+                  prix = round(float(str(prix).replace(",", ".")), 3)
+              except Exception:
+                  return
+
+              # On écarte les valeurs impossibles ou nulles
+              if prix <= 0:
+                  return
+
+              historique.setdefault(dep, {})
+              historique[dep].setdefault(station_id, {})
+              historique[dep][station_id].setdefault(carburant, [])
+              historique[dep][station_id][carburant].append([date_histo, prix])
+
+          def traiter_ancien_format(contenu, date_dossier):
+              """
+              Ancien format :
+              {
+                "departement": "01",
+                "date": "2026-05-17",
+                "stations": [
+                  {
+                    "id": "1300004",
+                    "prix": {
+                      "Gazole": 0.00209,
+                      "E10": 0.00199
+                    }
+                  }
+                ]
+              }
+
+              Les prix anciens sont multipliés par 1000.
+              """
+              dep_fichier = contenu.get("departement")
+              date_histo = contenu.get("date") or date_dossier
+              stations = contenu.get("stations", [])
+
+              if not isinstance(stations, list):
+                  return
+
+              for station in stations:
+                  if not isinstance(station, dict):
+                      continue
+
+                  station_id = str(station.get("id", "")).strip()
+                  if not station_id:
+                      continue
+
+                  dep = dep_depuis_station(station, dep_fichier)
+                  if not dep:
+                      continue
+
+                  prix_dict = station.get("prix", {})
+                  if not isinstance(prix_dict, dict):
+                      continue
+
+                  for carburant, prix_brut in prix_dict.items():
+                      try:
+                          prix = float(str(prix_brut).replace(",", ".")) * 1000
+                      except Exception:
+                          continue
+
+                      ajouter_point(dep, station_id, carburant, date_histo, prix)
+
+          def traiter_nouveau_format(contenu, date_dossier):
+              """
+              Nouveau format :
+              [
+                {
+                  "id": "1300004",
+                  "dep": "01",
+                  "carburants": {
+                    "Gazole": {
+                      "valeur": "1.972",
+                      "maj": "2026-06-17 08:40:16"
+                    }
+                  }
+                }
+              ]
+
+              Les prix sont déjà en euros/litre.
+              """
+              stations = contenu
+
+              if not isinstance(stations, list):
+                  return
+
+              for station in stations:
+                  if not isinstance(station, dict):
+                      continue
+
+                  station_id = str(station.get("id", "")).strip()
+                  if not station_id:
+                      continue
+
+                  dep = dep_depuis_station(station)
+                  if not dep:
+                      continue
+
+                  carburants = station.get("carburants", {})
+                  if not isinstance(carburants, dict):
+                      continue
+
+                  for carburant, infos in carburants.items():
+                      prix = None
+
+                      if isinstance(infos, dict):
+                          prix = infos.get("valeur")
+                      else:
+                          prix = infos
+
+                      ajouter_point(dep, station_id, carburant, date_dossier, prix)
+
+          # On cherche tous les dossiers data/YYYY-MM-DD
+          dossiers_dates = sorted(
+              p for p in ROOT.iterdir()
+              if p.is_dir() and re.match(r"^\d{4}-\d{2}-\d{2}$", p.name)
+          )
+
+          print(f"{len(dossiers_dates)} dossiers datés trouvés dans data/")
+
+          for dossier in dossiers_dates:
+              date_dossier = dossier.name
+
+              fichiers_json = sorted(dossier.glob("*.json"))
+
+              print(f"{date_dossier} : {len(fichiers_json)} fichiers JSON")
+
+              for fichier in fichiers_json:
+                  contenu = lire_json(fichier)
+
+                  if contenu is None:
+                      continue
+
+                  # Ancien format : objet avec clé "stations"
+                  if isinstance(contenu, dict) and "stations" in contenu:
+                      print(f"Ancien format détecté : {fichier}")
+                      traiter_ancien_format(contenu, date_dossier)
+
+                  # Nouveau format : liste de stations
+                  elif isinstance(contenu, list):
+                      print(f"Nouveau format détecté : {fichier}")
+                      traiter_nouveau_format(contenu, date_dossier)
+
+                  else:
+                      print(f"Format ignoré : {fichier}")
+
+          # Nettoyage : tri par date et suppression des doublons
+          total_points = 0
+
+          for dep, stations in historique.items():
+              for station_id, carburants in stations.items():
+                  for carburant, points in carburants.items():
+
+                      par_date = {}
+
+                      for date_histo, prix in points:
+                          # Si plusieurs valeurs pour la même date,
+                          # on conserve la dernière lue.
+                          par_date[date_histo] = prix
+
+                      points_nettoyes = [
+                          [date_histo, par_date[date_histo]]
+                          for date_histo in sorted(par_date.keys())
+                      ]
+
+                      historique[dep][station_id][carburant] = points_nettoyes
+                      total_points += len(points_nettoyes)
+
+          # Écriture des fichiers data/history/XX.json
+          for dep in sorted(historique.keys()):
+              fichier_sortie = HISTORY_DIR / f"{dep}.json"
+
+              with open(fichier_sortie, "w", encoding="utf-8") as f:
+                  json.dump(
+                      historique[dep],
+                      f,
+                      ensure_ascii=False,
+                      separators=(",", ":")
+                  )
+
+              print(
+                  f"Généré : {fichier_sortie} "
+                  f"avec {len(historique[dep])} stations"
+              )
+
+          print(f"Historique terminé.")
+          print(f"Départements générés : {len(historique)}")
+          print(f"Points de prix générés : {total_points}")
+          PY
+
+      - name: Commit generated historical files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/history
+
+          if git diff --cached --quiet; then
+            echo "Aucune modification à committer."
+          else
+            git commit -m "Build historical fuel price files"
+            git push
+          fidonc cet yadonc cet 
