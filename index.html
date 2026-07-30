@@ -86,7 +86,7 @@
 
 </head>
 
-//1er script contient les fonctions principales de chargement
+<!-- 1er script contient les fonctions principales de chargement -->  
 <script>
 
 function depDepuisCp(cp) {
@@ -142,6 +142,8 @@ async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
              return {
                 id : st.id,
                 dep : depStation,
+                latitude : st.latitude,
+                longitude : st.longitude,
                 station : st.nom ?? st.enseigne ?? "Inconnue",
                 adresse : st.adresse ?? "",
                 cp      : st.cp ?? st.code_postal ?? "",
@@ -363,7 +365,7 @@ async function afficherStationsBrut() {
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
-// 2eme script contient les fonctions d'interface (géolocalisation, tableau, tri, etc.)
+<!-- 2eme script contient les fonctions d'interface (géolocalisation, tableau, tri, etc.) -->
 <script>
   let depsLimitrophes = null;
   let currentAdresse = "";      // dernière adresse validée
@@ -845,11 +847,18 @@ function buildRow(obj, i) {
   else if (age > 15) {
           tr.classList.add("prix-ancien");
           }
+
+  const mapsUrl =
+        (obj.latitude && obj.longitude)
+        ? `https://www.google.com/maps/search/?api=1&query=${obj.latitude},${obj.longitude}`
+        : `https://www.google.com/maps/search/?api=1&query=${
+        encodeURIComponent(obj.adresse + ' ' + obj.cp + ' ' + obj.ville)
+        }`;
   
   tr.innerHTML = `
     <td>${i+1}</td>
-    <td>${obj.station}</td>
-    <td>${obj.adresse}</td>
+    <td> ${mapsUrl} ${obj.station} </a> </td>
+    <td> ${mapsUrl} ${obj.adresse} </a> </td>
     <td>${obj.cp}</td>
     <td>${obj.ville}</td>
     <td>${obj.prix != null ? obj.prix.toFixed(3) : "-"}</td>
@@ -947,9 +956,10 @@ function afficherConseil(data) {
     else {
         const perteProche =
             stationPlusProche.prixTotal - stationMoinsChere.prixTotal;
-
         const pertePrix =
             stationPrixLitre.prixTotal - stationMoinsChere.prixTotal;
+        const mapsUrl =
+          `https://www.google.com/maps/search/?api=1&query=${stationMoinsChere.latitude},${stationMoinsChere.longitude}`;
 
         html = `
         <div class="conseil-card">
@@ -959,7 +969,7 @@ function afficherConseil(data) {
             <p>
                 Pour faire le maximum d'économies sur un plein de 50 litres,
                 rendez-vous à
-                <strong>${stationMoinsChere.station}</strong>
+                <strong> ${mapsUrl} ${stationMoinsChere.station} de ${stationMoinsChere.ville} </a> </strong>
                 située à
                 <strong>${stationMoinsChere.distance.toFixed(1)} km</strong>.
             </p>
