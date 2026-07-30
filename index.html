@@ -138,6 +138,7 @@ async function chargerStationsTousDeps(deps, carburant, userLat, userLon) {
              const dist = haversine(userLat, userLon, st.latitude, st.longitude);
              const coutTotal = prix * VOLUME + (2 * dist / 100) * CONSO * prix;
              const prixPondere = coutTotal / VOLUME;
+             const cp = st.cp ?? st.code_postal ?? "";
              const depStation = st.dep ?? depDepuisCp(cp);
              return {
                 id : st.id,
@@ -850,10 +851,10 @@ function buildRow(obj, i) {
 
   const mapsUrl =
         (obj.latitude && obj.longitude)
-        ? `<a href="https://www.google.com/maps/search/?api=1&query=${obj.latitude},${obj.longitude}"`
+        ? `<a href="https://www.google.com/maps/search/?api=1&query=${obj.latitude},${obj.longitude}">`
         : `<a href="https://www.google.com/maps/search/?api=1&query=${
         encodeURIComponent(obj.adresse + ' ' + obj.cp + ' ' + obj.ville)
-        }"`;
+        }">`;
   
   tr.innerHTML = `
     <td>${i+1}</td>
@@ -959,7 +960,7 @@ function afficherConseil(data) {
         const pertePrix =
             stationPrixLitre.prixTotal - stationMoinsChere.prixTotal;
         const mapsUrl =
-          `<a href="https://www.google.com/maps/search/?api=1&query=${stationMoinsChere.latitude},${stationMoinsChere.longitude}"`;
+          `<a href="https://www.google.com/maps/search/?api=1&query=${stationMoinsChere.latitude},${stationMoinsChere.longitude}">`;
 
         html = `
         <div class="conseil-card">
