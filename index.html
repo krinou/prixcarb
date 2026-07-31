@@ -480,6 +480,7 @@ function afficherGraphiqueHistorique(jours) {
     const labelsDates = construireLabels(stationHistory, jours);
     const labels = labelsDates.map(formatLabelDate);
     const datasets = [];
+    const selectedFuel = carburant
 
     Object.entries(stationHistory).forEach(([carburant, points]) => {
         if (!Array.isArray(points)) return;
@@ -504,6 +505,7 @@ function afficherGraphiqueHistorique(jours) {
             pointRadius: jours <= 30 ? 3 : 0,
             tension: 0.25,
             spanGaps: true
+            hidden: carburant !== selectedFuel
         });
     });
 
@@ -959,8 +961,8 @@ function afficherConseil(data) {
             stationPlusProche.prixTotal - stationMoinsChere.prixTotal;
         const pertePrix =
             stationPrixLitre.prixTotal - stationMoinsChere.prixTotal;
-        const mapsUrl =
-          `<a href="https://www.google.com/maps/search/?api=1&query=${stationMoinsChere.latitude},${stationMoinsChere.longitude}">`;
+        const mapsUrlMoinsChere =
+          `<a href="https://www.google.com/maps/place/${stationMoinsChere.latitude},${stationMoinsChere.longitude}">`;
 
         html = `
         <div class="conseil-card">
@@ -970,7 +972,7 @@ function afficherConseil(data) {
             <p>
                 Pour faire le maximum d'économies sur un plein de 50 litres,
                 rendez-vous à
-                <strong> ${mapsUrl} ${stationMoinsChere.station} de ${stationMoinsChere.ville} </a> </strong>
+                <strong> ${mapsUrlMoinsChere} ${stationMoinsChere.station} de ${stationMoinsChere.ville} </a> </strong>
                 située à
                 <strong>${stationMoinsChere.distance.toFixed(1)} km</strong>.
             </p>
@@ -985,21 +987,41 @@ function afficherConseil(data) {
         `;
 
         if (stationPlusProche.station !== stationMoinsChere.station) {
-
+           const mapsUrlProche =
+           `<a href="https://www.google.com/maps/place/${stationPlusProche.latitude},${stationPlusProche.longitude}">`;
             html += `
             <p>
                 📍 En choisissant la station la plus proche,
+                <strong> ${mapsUrlProche} ${stationPlusProche.station} de ${stationPlusProche.ville}, </a> </strong>
                 vous paierez
-                <strong>${perteProche.toFixed(2)} € de plus</strong>.
+                <strong>${perteProche.toFixed(2)} € de plus, 
+                   (${stationPlusProche.prix.toFixed(3)} €/L)
+                </strong>.
+</strong>.
+            </p>`;
+        } else {
+            html += `
+            <p style="color:green; font-weight:bold;">
+               🎉 Bingo : la station la plus proche est aussi la station la moins chère !
             </p>`;
         }
-
+    
         if (stationPrixLitre.station !== stationMoinsChere.station) {
-            html += `
+           const mapsUrlPrix =
+           `<a href="https://www.google.com/maps/place/${stationPrixLitre.latitude},${stationPrixLitre.longitude}">`;
+           html += `
             <p>
                 ⛽ En choisissant la station au prix au litre le plus bas,
+                <strong> ${mapsUrlPrix} ${stationPrixLitre.station} de ${stationPrixLitre.ville}, </a> </strong>
                 vous paierez
-                <strong>${pertePrix.toFixed(2)} € de plus</strong>.
+                <strong>${pertePrix.toFixed(2)} € de plus, 
+                   (${stationPrixLitre.prix.toFixed(3)} €/L)
+                </strong>.
+            </p>`;
+        } else {
+            html += `
+            <p style="color:green; font-weight:bold;">
+               🎉 Bingo : la station au prix le plus bas est aussi la station la moins chère !
             </p>`;
         }
 
