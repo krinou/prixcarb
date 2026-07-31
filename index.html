@@ -480,7 +480,7 @@ function afficherGraphiqueHistorique(jours) {
     const labelsDates = construireLabels(stationHistory, jours);
     const labels = labelsDates.map(formatLabelDate);
     const datasets = [];
-    const selectedFuel = carburant
+    const selectedFuel = document.getElementById("carburantSelect")?.value || "E10";
 
     Object.entries(stationHistory).forEach(([carburant, points]) => {
         if (!Array.isArray(points)) return;
@@ -504,7 +504,7 @@ function afficherGraphiqueHistorique(jours) {
             borderWidth: 2,
             pointRadius: jours <= 30 ? 3 : 0,
             tension: 0.25,
-            spanGaps: true
+            spanGaps: true,
             hidden: carburant !== selectedFuel
         });
     });
