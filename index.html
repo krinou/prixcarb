@@ -943,8 +943,8 @@ function afficherConseil(data) {
 
     let html = '';
     if (
-        stationMoinsChere.station === stationPlusProche.station &&
-        stationMoinsChere.station === stationPrixLitre.station
+        stationMoinsChere.id === stationPlusProche.id &&
+        stationMoinsChere.id === stationPrixLitre.id
     ) {
 
         html = `
@@ -986,7 +986,7 @@ function afficherConseil(data) {
             </p>
         `;
 
-        if (stationPlusProche.station !== stationMoinsChere.station) {
+        if (stationPlusProche.id !== stationMoinsChere.id) {
            const mapsUrlProche =
            `<a href="https://www.google.com/maps/place/${stationPlusProche.latitude},${stationPlusProche.longitude}">`;
             html += `
@@ -1006,7 +1006,7 @@ function afficherConseil(data) {
             </p>`;
         }
     
-        if (stationPrixLitre.station !== stationMoinsChere.station) {
+        if (stationPrixLitre.id !== stationMoinsChere.id) {
            const mapsUrlPrix =
            `<a href="https://www.google.com/maps/place/${stationPrixLitre.latitude},${stationPrixLitre.longitude}">`;
            html += `
@@ -1024,6 +1024,10 @@ function afficherConseil(data) {
                🎉 Bingo : la station au prix le plus bas est aussi la station la moins chère !
             </p>`;
         }
+
+        <p class="mt-3 text-danger fw-bold text-center">
+           ⬇️ Faites défiler pour voir le tableau complet des résultats ⬇️
+        </p>
 
         html += '</div>';
     }
