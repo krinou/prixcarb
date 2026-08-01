@@ -963,14 +963,15 @@ function afficherConseil(data) {
             stationPrixLitre.prixTotal - stationMoinsChere.prixTotal;
         const mapsUrlMoinsChere =
           `<a href="https://www.google.com/maps/place/${stationMoinsChere.latitude},${stationMoinsChere.longitude}">`;
-
+        const carburant = document.getElementById("carburantSelect")?.value || "E10";
+      
         html = `
         <div class="conseil-card">
 
             <h5>🏆 Conseil PrixCarb</h5>
 
             <p>
-                Pour faire le maximum d'économies sur un plein de 50 litres,
+                Pour faire le maximum d'économies sur un plein de 50 litres de ${carburant},
                 rendez-vous à
                 <strong> ${mapsUrlMoinsChere} ${stationMoinsChere.station} de ${stationMoinsChere.ville} </a> </strong>
                 située à
