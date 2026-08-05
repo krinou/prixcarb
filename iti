@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Stations sur mon trajet</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    margin:20px;
+}
+
+.zone-saisie{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+input{
+    padding:8px;
+    width:300px;
+}
+
+button{
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:8px;
+}
+
+th{
+    background:#f0f0f0;
+}
+
+.prix{
+    text-align:right;
+}
+
+.ecart{
+    text-align:right;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Stations-service sur votre trajet</h2>
+
+<div class="zone-saisie">
+
+<input
+    id="depart"
+    placeholder="Adresse de départ">
+
+<input
+    id="arrivee"
+    placeholder="Adresse d'arrivée">
+
+<button onclick="chercherStations()">
+    Rechercher
+</button>
+
+</div>
+
+<div id="message"></div>
+
+<table id="tableResultats">
+
+<thead>
+<tr>
+    <th>Enseigne</th>
+    <th>Adresse</th>
+    <th>Carburant</th>
+    <th>Prix</th>
+    <th>Ecart trajet</th>
+</tr>
+</thead>
+
+<tbody>
+</tbody>
+
+</table>
+
+<script>
+
+// clef ORS
+const ORS_KEY = "VOTRE_CLE";
+
+// mêmes données que PrixCarb
+let stations=[];
+
+/*
+Chargement des stations
+Exemple :
+data/stations.json
+*/
+async function chargerStations(){
+
+    const r = await fetch('data/stations.json');
+    stations = await r.json();
+
+}
+
+async function geocode(adresse){
+
+    const url =
+      "https://api.openrouteservice.org/geocode/search?api_key="
+      + ORS_KEY
+      + "&text="
+      + encodeURIComponent(adresse);
+
+    const r = await fetch(url);
+    const j = await r.json();
+
+    return j.features[0].geometry.coordinates;
+
+}
+
+async function calculItineraire(dep,arr){
+
+    const r = await fetch(
+        'https://api.openrouteservice.org/v2/directions/driving-car/geojson',
+        {
+            method:'POST',
+            headers:{
+                'Authorization':ORS_KEY,
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                coordinates:[
+                    dep,
+                    arr
+                ]
+            })
+        }
+    );
+
+    return await r.json();
+
+}
+
+function distanceKm(lat1,lon1,lat2,lon2){
+
+    const R=6371;
+
+    const dLat=(lat2-lat1)*Math.PI/180;
+    const dLon=(lon2-lon1)*Math.PI/180;
+
+    const a=
+        Math.sin(dLat/2)**2+
+        Math.cos(lat1*Math.PI/180)*
+        Math.cos(lat2*Math.PI/180)*
+        Math.sin(dLon/2)**2;
+
+    return R*2*Math.atan2(
+        Math.sqrt(a),
+        Math.sqrt(1-a)
+    );
+}
+
+function distanceMiniTrajet(station,coords){
+
+    let min=999999;
+
+    for(const p of coords){
+
+        const d=distanceKm(
+            station.latitude,
+            station.longitude,
+            p[1],
+            p[0]
+        );
+
+        if(d<min) min=d;
+    }
+
+    return min;
+}
+
+async function chercherStations(){
+
+    document.getElementById("message").innerHTML =
+        "Calcul en cours...";
+
+    const depart =
+        document.getElementById("depart").value;
+
+    const arrivee =
+        document.getElementById("arrivee").value;
+
+    const depCoord =
+        await geocode(depart);
+
+    const arrCoord =
+        await geocode(arrivee);
+
+    const itin =
+        await calculItineraire(
+            depCoord,
+            arrCoord
+        );
+
+    const coords =
+        itin.features[0]
+            .geometry
+            .coordinates;
+
+    let resultat=[];
+
+    for(const st of stations){
+
+        const d =
+            distanceMiniTrajet(
+                st,
+                coords
+            );
+
+        if(d <= 2){
+
+            resultat.push({
+                ...st,
+                distanceTrajet:d
+            });
+
+        }
+    }
+
+    resultat.sort(
+        (a,b)=>a.prix - b.prix
+    );
+
+    afficher(resultat);
+
+    document.getElementById("message")
+        .innerHTML =
+        resultat.length +
+        " station(s) trouvée(s)";
+
+}
+
+function afficher(liste){
+
+    const tbody =
+      document.querySelector(
+          "#tableResultats tbody"
+      );
+
+    tbody.innerHTML="";
+
+    for(const st of liste){
+
+        const maps =
+            `https://www.google.com/maps?q=${st.latitude},${st.longitude}`;
+
+        tbody.insertAdjacentHTML(
+            "beforeend",
+            `
+            <tr>
+
+            <td>
+                <a href="${maps}"
+                   target="_blank">
+                ${st.station}
+                </a>
+            </td>
+
+            <td>
+                <a href="${maps}"
+                   target="_blank">
+                ${st.adresse}
+                </a>
+            </td>
+
+            <td>${st.carburant}</td>
+
+            <td class="prix">
+                ${st.prix.toFixed(3)}
+            </td>
+
+            <td class="ecart">
+                ${st.distanceTrajet.toFixed(1)}
+                km
+            </td>
+
+            </tr>
+            `
+        );
+    }
+}
+
+chargerStations();
+
+</script>
+
+</body>
+</html>
