@@ -16,6 +16,20 @@ body{
     flex-wrap:wrap;
     margin-bottom:20px;
 }
+.suggestions {
+    background:white;
+    border:1px solid #ccc;
+    max-width:300px;
+    position:absolute;
+    z-index:10;
+}
+.suggestions div {
+    padding:6px;
+    cursor:pointer;
+}
+.suggestions div:hover {
+    background:#eee;
+}
 
 input{
     padding:8px;
@@ -61,11 +75,14 @@ th{
 <input
     id="depart"
     placeholder="Adresse de départ">
+<div id="suggestionsDepart" class="suggestions"></div>
+<button onclick="geoAdresse("depart")">Ma position</button>
 
 <input
     id="arrivee"
     placeholder="Adresse d'arrivée">
-
+<div id="suggestionsArrivee" class="suggestions"></div>
+<button onclick="geoAdresse("arrivee")">Ma position</button>
 <button onclick="chercherStations()">
     Rechercher
 </button>
@@ -98,6 +115,84 @@ const ORS_KEY = "VOTRE_CLE";
 
 // mêmes données que PrixCarb
 let stations=[];
+
+/* ============================
+   AUTOCOMPLÉTION ADRESSES
+   API Adresse.data.gouv.fr
+   ============================ */
+
+async function autocompleteAdresse(texte, cible) {
+
+    if (texte.length < 3) {
+        document.getElementById(cible).innerHTML = "";
+        return;
+    }
+
+    const url = "https://api-adresse.data.gouv.fr/search/?q=" 
+                + encodeURIComponent(texte)
+                + "&limit=5";
+
+    const r = await fetch(url);
+    const j = await r.json();
+
+    let html = "";
+
+    for (const f of j.features) {
+        html += `<div onclick="choisirAdresse('${cible}', '${f.properties.label.replace(/'/g, "\\'")}')">
+                    ${f.properties.label}
+                 </div>`;
+    }
+
+    document.getElementById(cible).innerHTML = html;
+}
+
+function choisirAdresse(cible, texte) {
+    const champ = (cible === "suggestionsDepart") 
+                  ? document.getElementById("depart")
+                  : document.getElementById("arrivee");
+
+    champ.value = texte;
+    document.getElementById(cible).innerHTML = "";
+}
+
+/* ============================
+   GÉOLOCALISATION + REVERSE
+   ============================ */
+
+function geoAdresse(idChamp) {
+
+    navigator.geolocation.getCurrentPosition(async pos => {
+
+        const lat = pos.coords.latitude;
+        const lon = pos.coords.longitude;
+
+        // Reverse geocode
+        const url = "https://api-adresse.data.gouv.fr/reverse/?lat=" 
+                    + lat + "&lon=" + lon;
+
+        const r = await fetch(url);
+        const j = await r.json();
+
+        const adresse = j.features[0].properties.label;
+
+        document.getElementById(idChamp).value = adresse;
+
+    }, err => {
+        alert("Impossible de récupérer votre position.");
+    });
+}
+
+/* ============================
+   ÉCOUTE DES CHAMPS
+   ============================ */
+
+document.getElementById("depart").addEventListener("input", e => {
+    autocompleteAdresse(e.target.value, "suggestionsDepart");
+});
+
+document.getElementById("arrivee").addEventListener("input", e => {
+    autocompleteAdresse(e.target.value, "suggestionsArrivee");
+});
 
 /*
 Chargement des stations
