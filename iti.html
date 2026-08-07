@@ -76,13 +76,17 @@ th{
     id="depart"
     placeholder="Adresse de départ">
 <div id="suggestionsDepart" class="suggestions"></div>
-<button onclick="geoAdresse("depart")">Ma position</button>
+<button onclick="geolocaliser('depart')"
+          title="Me positionner">🎯
+</button>
 
 <input
     id="arrivee"
     placeholder="Adresse d'arrivée">
 <div id="suggestionsArrivee" class="suggestions"></div>
-<button onclick="geoAdresse("arrivee")">Ma position</button>
+<button onclick="geolocaliser("arrivee")"
+          title="Me positionner">🎯
+</button>
 <button onclick="chercherStations()">
     Rechercher
 </button>
@@ -159,7 +163,7 @@ function choisirAdresse(cible, texte) {
    GÉOLOCALISATION + REVERSE
    ============================ */
 
-function geoAdresse(idChamp) {
+function geolocaliser(idChamp) {
 
     navigator.geolocation.getCurrentPosition(async pos => {
 
