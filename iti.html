@@ -10,6 +10,12 @@ body{
     margin:20px;
 }
 
+.zone-saisie{
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+}
+    
 .champ1{
     position:relative
 }
@@ -76,28 +82,30 @@ th{
 
 <h2>Stations-service sur votre trajet</h2>
 
-<div class="champ1">
-   <input id="depart"  placeholder="Adresse de départ">
-   <div id="suggestionsDepart" class="suggestions"></div>
-   <button onclick="geolocaliser('depart')"
+<div class="zone-saisie">
+    <div class="champ1">
+      <input id="depart"  placeholder="Adresse de départ">
+      <div id="suggestionsDepart" class="suggestions"></div>
+      <button onclick="geolocaliser('depart')"
            title="Me positionner">🎯
-   </button>
-</div>
+      </button>
+   </div>
     
-<div class="champ2">
-   <input id="arrivee" placeholder="Adresse d'arrivée">
-   <div id="suggestionsArrivee" class="suggestions"></div>
-   <button onclick="geolocaliser('arrivee')"
+   <div class="champ2">
+      <input id="arrivee" placeholder="Adresse d'arrivée">
+      <div id="suggestionsArrivee" class="suggestions"></div>
+      <button onclick="geolocaliser('arrivee')"
           title="Me positionner">🎯
-   </button>
+      </button>
+   </div>
+    
+   <div class="champ3">
+      <button onclick="chercherStations()">
+         Rechercher
+      </button>
+   </div>
 </div>
     
-<div class="champ3">
-    <button onclick="chercherStations()">
-       Rechercher
-    </button>
-</div>
-
 <div id="message"></div>
 
 <table id="tableResultats">
