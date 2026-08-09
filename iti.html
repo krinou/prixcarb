@@ -21,10 +21,11 @@ body{
     position:relative
 }
 .champ2{
-    position:relative
+    flex:1;
+    min-width:0;
 }
 .champ3{
-    position:relative
+    white-space:nowrap;
 }
     
 .suggestions {
@@ -42,11 +43,6 @@ body{
 }
 .suggestions div:hover {
     background:#eee;
-}
-
-input{
-    padding:8px;
-    width:300px;
 }
 
 button{
@@ -88,7 +84,7 @@ th{
       <input id="depart"  placeholder="Adresse de départ">
       <div id="suggestionsDepart" class="suggestions"></div>
       <button onclick="geolocaliser('depart')"
-           title="Me positionner">🎯
+           title="Ma position">🎯
       </button>
    </div>
     
@@ -96,7 +92,7 @@ th{
       <input id="arrivee" placeholder="Adresse d'arrivée">
       <div id="suggestionsArrivee" class="suggestions"></div>
       <button onclick="geolocaliser('arrivee')"
-          title="Me positionner">🎯
+          title="Ma position">🎯
       </button>
    </div>
     
