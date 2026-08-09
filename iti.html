@@ -331,6 +331,23 @@ async function chercherStations(){
             .geometry
             .coordinates;
 
+    const bbox = itin.bbox;
+    const minLon = bbox[0];
+    const minLat = bbox[1];
+    const maxLon = bbox[2];
+    const maxLat = bbox[3];
+    console.log("BBox :", bbox);
+
+    const t0 = performance.now();
+    const deps = await trouverDepartementsTraverses(
+       minLat,
+       maxLat,
+       minLon,
+       maxLon
+    );
+    const t1 = performance.now();
+    console.log(`Départements traversés : ${deps.join(", ")} (${Math.round(t1 - t0)} ms)`);
+
     let resultat=[];
 
     for(const st of stations){
@@ -364,6 +381,34 @@ async function chercherStations(){
 
 }
 
+async function trouverDepartementsTraverses(minLat, maxLat, minLon, maxLon) {
+    const deps = [];
+    for (let d = 1; d <= 95; d++) {
+        const dep = String(d).padStart(2,"0");
+        try {
+            const stations = await fetch(
+                `data/latest/${dep}.json`
+            ).then(r => r.json());
+
+            const trouve = stations.some(st =>
+                st.latitude  >= minLat &&
+                st.latitude  <= maxLat &&
+                st.longitude >= minLon &&
+                st.longitude <= maxLon
+            );
+
+            if (trouve) {
+                deps.push(dep);
+            }
+
+        } catch(e) {
+            console.error(dep,e);
+        }
+    }
+
+    return deps;
+}
+    
 function afficher(liste){
 
     const tbody =
