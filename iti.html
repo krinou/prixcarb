@@ -331,20 +331,8 @@ async function chercherStations(){
             .geometry
             .coordinates;
 
-    const bbox = itin.bbox;
-    const minLon = bbox[0];
-    const minLat = bbox[1];
-    const maxLon = bbox[2];
-    const maxLat = bbox[3];
-    console.log("BBox :", bbox);
-
     const t0 = performance.now();
-    const deps = await trouverDepartementsTraverses(
-       minLat,
-       maxLat,
-       minLon,
-       maxLon
-    );
+    const deps = await trouverDepartementsTraverses();
     const t1 = performance.now();
     console.log(`Départements traversés : ${deps.join(", ")} (${Math.round(t1 - t0)} ms)`);
 
@@ -381,13 +369,13 @@ async function chercherStations(){
 
 }
 
-async function trouverDepartementsTraverses(minLat, maxLat, minLon, maxLon) {
+async function trouverDepartementsTraverses() {
    const t0 = performance.now();
    const bboxIndex =
          await fetch("data/departements_bbox.json")
          .then(r => r.json());
 
-   const bbox = route.bbox;
+   const bbox = itin.bbox;
    const minLon = bbox[0];
    const minLat = bbox[1];
    const maxLon = bbox[2];
