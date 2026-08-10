@@ -208,18 +208,6 @@ document.getElementById("arrivee").addEventListener("input", e => {
     autocompleteAdresse(e.target.value, "suggestionsArrivee");
 });
 
-/*
-Chargement des stations
-Exemple :
-data/stations.json
-*/
-async function chargerStations(){
-
-    const r = await fetch('data/stations.json');
-    stations = await r.json();
-
-}
-
 async function geocode(adresse){
 
     const url =
@@ -334,7 +322,19 @@ async function chercherStations(){
     const t0 = performance.now();
     const deps = await trouverDepartementsTraverses(itin);
     const t1 = performance.now();
-    console.log(`Départements traversés : ${deps.join(", ")} (${Math.round(t1 - t0)} ms)`);
+    
+    stations = [];
+    for (const dep of deps) {
+        console.log("chargement", dep);
+        const r = await fetch(`data/latest/${dep}.json`);
+        if (!r.ok) {
+           console.log("introuvable", dep);
+            continue;
+            }
+        const data = await r.json();
+        stations.push(...data);
+        }
+    console.log( "Stations chargées :", stations.length);
 
     let resultat=[];
 
@@ -445,12 +445,6 @@ function afficher(liste){
         );
     }
 }
-
-window.onload = async () => {
-   await chargerStations();
-   console.log("Nombre de stations :", stations.length);
-   console.log(stations[0]);
-   };
 
 </script>
 
