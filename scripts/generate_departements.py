@@ -15,7 +15,6 @@ MAX_WORKERS = int(os.environ.get("SCRAPE_WORKERS", "8"))
 TIMEOUT = int(os.environ.get("SCRAPE_TIMEOUT", "10"))
 FORCE_REFRESH = os.environ.get("FORCE_REFRESH_ENSEIGNE", "false").lower() == "true"
 
-
 def xml_coord_to_float(value, coord_type=None):
     if value is None:
         return None
@@ -45,7 +44,6 @@ def xml_coord_to_float(value, coord_type=None):
 
     return None
 
-
 def dep_from_cp(cp):
     cp = (cp or "").strip()
     if len(cp) >= 3 and cp[:3] in {"971", "972", "973", "974", "975", "976", "977", "978"}:
@@ -53,7 +51,6 @@ def dep_from_cp(cp):
     if len(cp) >= 2:
         return cp[:2]
     return ""
-
 
 def extract_prices(pdv):
     prices = {}
@@ -67,7 +64,6 @@ def extract_prices(pdv):
                 "maj": maj,
             }
     return prices
-
 
 def child_text(node, tag):
     child = node.find(tag)
@@ -89,7 +85,6 @@ def build_station_record(pdv, cache):
         "longitude": xml_coord_to_float(pdv.get("longitude"), "lon"),
         "carburants": extract_prices(pdv),
     }
-
 
 def main():
     today = datetime.date.today().isoformat()
@@ -133,6 +128,34 @@ def main():
         with open(dated_path, "w", encoding="utf-8") as f:
             json.dump(items, f, ensure_ascii=False, indent=2)
 
+    bbox_data = []
 
+    for dep, stations_dep in stations_par_dep.items():
+        lats = [s["latitude"] for s in stations_dep if s.get("latitude")]
+        lons = [s["longitude"] for s in stations_dep if s.get("longitude")]
+        if not lats or not lons:
+           continue
+
+        bbox_data.append({
+           "dep": dep,
+           "nbStations": len(stations_dep),
+           "minLat": round(min(lats), 5),
+           "maxLat": round(max(lats), 5),
+           "minLon": round(min(lons), 5),
+           "maxLon": round(max(lons), 5)
+        })
+
+    with open(
+       "data/departements_bbox.json",
+       "w",
+       encoding="utf-8"
+       ) as f:
+      json.dump(
+          bbox_data,
+          f,
+          ensure_ascii=False,
+          indent=2
+      )
+           
 if __name__ == "__main__":
     main()
