@@ -382,32 +382,33 @@ async function chercherStations(){
 }
 
 async function trouverDepartementsTraverses(minLat, maxLat, minLon, maxLon) {
-    const deps = [];
-    for (let d = 1; d <= 95; d++) {
-        const dep = String(d).padStart(2,"0");
-        try {
-            const stations = await fetch(
-                `data/latest/${dep}.json`
-            ).then(r => r.json());
+   const t0 = performance.now();
+   const bboxIndex =
+         await fetch("data/departements_bbox.json")
+         .then(r => r.json());
 
-            const trouve = stations.some(st =>
-                st.latitude  >= minLat &&
-                st.latitude  <= maxLat &&
-                st.longitude >= minLon &&
-                st.longitude <= maxLon
-            );
+   const bbox = route.bbox;
+   const minLon = bbox[0];
+   const minLat = bbox[1];
+   const maxLon = bbox[2];
+   const maxLat = bbox[3];
 
-            if (trouve) {
-                deps.push(dep);
-            }
+   const marge = 0.02; // environ 2 km
 
-        } catch(e) {
-            console.error(dep,e);
-        }
-    }
+   const deps = bboxIndex
+       .filter(dep =>
+           dep.maxLat >= minLat - marge &&
+           dep.minLat <= maxLat + marge &&
+           dep.maxLon >= minLon - marge &&
+           dep.minLon <= maxLon + marge
+           )
+       .map(dep => dep.dep);
 
-    return deps;
-}
+   const t1 = performance.now();
+
+   console.log(
+     `Départements traversés : ${deps.join(", ")} (${Math.round(t1 - t0)} ms)`
+);
     
 function afficher(liste){
 
