@@ -355,7 +355,7 @@ async function chercherStations(){
     resultat.sort(
        (a,b)=>a.prix - b.prix
     );
-    
+    console.log(resultat[0]);
     afficher(resultat);
 
     document.getElementById("message")
