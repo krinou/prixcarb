@@ -338,10 +338,24 @@ async function chercherStations(){
 
     let resultat=[];
 
-    resultat.sort(
-        (a,b)=>a.prix - b.prix
-    );
+    for(const st of stations){
+       // on ignore les stations hors des départements traversés
+       if(!deps.includes(st.dep))
+          continue;
 
+       const d = distanceMiniTrajet(st, coords);
+       if(d <= 2){
+          resultat.push({
+            ...st,
+            distanceTrajet:d
+          });
+       }   
+    }
+
+    resultat.sort(
+       (a,b)=>a.prix - b.prix
+    );
+    
     afficher(resultat);
 
     document.getElementById("message")
@@ -434,6 +448,8 @@ function afficher(liste){
 
 window.onload = async () => {
    await chargerStations();
+   console.log("Nombre de stations :", stations.length);
+   console.log(stations[0]);
    };
 
 </script>
