@@ -332,29 +332,11 @@ async function chercherStations(){
             .coordinates;
 
     const t0 = performance.now();
-    const deps = await trouverDepartementsTraverses();
+    const deps = await trouverDepartementsTraverses(itin);
     const t1 = performance.now();
     console.log(`Départements traversés : ${deps.join(", ")} (${Math.round(t1 - t0)} ms)`);
 
     let resultat=[];
-
-    for(const st of stations){
-
-        const d =
-            distanceMiniTrajet(
-                st,
-                coords
-            );
-
-        if(d <= 2){
-
-            resultat.push({
-                ...st,
-                distanceTrajet:d
-            });
-
-        }
-    }
 
     resultat.sort(
         (a,b)=>a.prix - b.prix
@@ -369,7 +351,7 @@ async function chercherStations(){
 
 }
 
-async function trouverDepartementsTraverses() {
+async function trouverDepartementsTraverses(itin) {
    const t0 = performance.now();
    const bboxIndex =
          await fetch("data/departements_bbox.json")
@@ -396,7 +378,9 @@ async function trouverDepartementsTraverses() {
 
    console.log(
      `Départements traversés : ${deps.join(", ")} (${Math.round(t1 - t0)} ms)`
-);
+   );
+   return deps;
+}
     
 function afficher(liste){
 
@@ -448,7 +432,9 @@ function afficher(liste){
     }
 }
 
-chargerStations();
+window.onload = async () => {
+   await chargerStations();
+   };
 
 </script>
 
