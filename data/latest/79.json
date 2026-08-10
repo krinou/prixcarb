@@ -89,8 +89,8 @@
     "longitude": -0.5108700918331099,
     "carburants": {
       "Gazole": {
-        "valeur": "2.059",
-        "maj": "2026-08-08 09:16:37"
+        "valeur": "2.079",
+        "maj": "2026-08-10 06:05:00"
       },
       "E85": {
         "valeur": "0.818",
@@ -169,19 +169,19 @@
     "longitude": -0.141,
     "carburants": {
       "Gazole": {
-        "valeur": "2.162",
-        "maj": "2026-08-07 16:47:02"
+        "valeur": "2.154",
+        "maj": "2026-08-10 08:27:30"
       },
       "SP95": {
         "valeur": "1.990",
-        "maj": "2026-08-07 16:47:02"
+        "maj": "2026-08-10 08:27:30"
       }
     }
   },
   {
     "id": "79300007",
     "dep": "79",
-    "enseigne": "TotalEnergies Access",
+    "enseigne": "",
     "adresse": "1 RUE JEAN GIONO",
     "cp": "79300",
     "ville": "BRESSUIRE",
@@ -305,7 +305,7 @@
   {
     "id": "79260004",
     "dep": "79",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "Allée de la Communauté",
     "cp": "79260",
     "ville": "LA CRèCHE",
@@ -329,7 +329,7 @@
   {
     "id": "79460001",
     "dep": "79",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "AV DU MARAIS POITEVIN",
     "cp": "79460",
     "ville": "Magné",
@@ -337,24 +337,24 @@
     "longitude": -0.557,
     "carburants": {
       "Gazole": {
-        "valeur": "2.109",
-        "maj": "2026-08-08 07:48:05"
+        "valeur": "2.099",
+        "maj": "2026-08-10 08:37:19"
       },
       "SP95": {
-        "valeur": "1.989",
-        "maj": "2026-08-07 07:40:43"
+        "valeur": "1.969",
+        "maj": "2026-08-10 08:37:19"
       },
       "E85": {
         "valeur": "0.819",
         "maj": "2026-08-04 09:06:08"
       },
       "E10": {
-        "valeur": "1.929",
-        "maj": "2026-08-07 07:40:44"
+        "valeur": "1.909",
+        "maj": "2026-08-10 08:37:19"
       },
       "SP98": {
-        "valeur": "2.029",
-        "maj": "2026-08-08 07:48:05"
+        "valeur": "2.009",
+        "maj": "2026-08-10 08:37:19"
       }
     }
   },
@@ -502,10 +502,6 @@
       },
       "GPLc": {
         "valeur": "0.999",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.857",
         "maj": "2026-08-10 00:01:00"
       }
     }
@@ -707,6 +703,30 @@
     }
   },
   {
+    "id": "79800011",
+    "dep": "79",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A10 - AIRE DE ROUILLÉ PAMPROUX NORD",
+    "cp": "79800",
+    "ville": "PAMPROUX",
+    "latitude": 46.452808096855,
+    "longitude": -0.017796282903112998,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-08-10 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-08-10 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.068",
+        "maj": "2026-08-10 00:01:00"
+      }
+    }
+  },
+  {
     "id": "79300006",
     "dep": "79",
     "enseigne": "Leclerc",
@@ -731,38 +751,6 @@
       "SP98": {
         "valeur": "2.049",
         "maj": "2026-08-07 09:21:57"
-      }
-    }
-  },
-  {
-    "id": "79800011",
-    "dep": "79",
-    "enseigne": "TotalEnergies",
-    "adresse": "AUTOROUTE A10 - AIRE DE ROUILLÉ PAMPROUX NORD",
-    "cp": "79800",
-    "ville": "PAMPROUX",
-    "latitude": 46.452808096855,
-    "longitude": -0.017796282903112998,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "E85": {
-        "valeur": "0.999",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "GPLc": {
-        "valeur": "1.068",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-08-10 00:01:00"
       }
     }
   },
@@ -805,16 +793,16 @@
     "longitude": -0.596,
     "carburants": {
       "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-08-08 08:08:59"
+        "valeur": "2.079",
+        "maj": "2026-08-10 07:58:26"
       },
       "E10": {
-        "valeur": "1.949",
-        "maj": "2026-08-08 08:08:59"
+        "valeur": "1.899",
+        "maj": "2026-08-10 08:00:38"
       },
       "SP98": {
-        "valeur": "2.089",
-        "maj": "2026-08-08 08:08:59"
+        "valeur": "1.999",
+        "maj": "2026-08-10 07:58:27"
       }
     }
   },
@@ -1105,8 +1093,8 @@
     "longitude": -0.41352274430541003,
     "carburants": {
       "Gazole": {
-        "valeur": "2.059",
-        "maj": "2026-08-08 09:16:13"
+        "valeur": "2.079",
+        "maj": "2026-08-10 06:05:00"
       },
       "SP95": {
         "valeur": "1.939",
@@ -1553,8 +1541,8 @@
     "longitude": -0.42539277000000003,
     "carburants": {
       "Gazole": {
-        "valeur": "2.059",
-        "maj": "2026-08-08 07:26:14"
+        "valeur": "2.079",
+        "maj": "2026-08-10 07:40:11"
       },
       "E85": {
         "valeur": "0.818",

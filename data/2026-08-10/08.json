@@ -146,16 +146,16 @@
     "longitude": 4.713,
     "carburants": {
       "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-08-07 08:24:01"
+        "valeur": "2.189",
+        "maj": "2026-08-10 07:53:09"
       },
       "E10": {
-        "valeur": "1.999",
-        "maj": "2026-08-07 08:24:01"
+        "valeur": "1.989",
+        "maj": "2026-08-10 07:53:09"
       },
       "SP98": {
-        "valeur": "2.029",
-        "maj": "2026-08-07 08:24:01"
+        "valeur": "2.019",
+        "maj": "2026-08-10 07:53:09"
       }
     }
   },
@@ -262,7 +262,7 @@
   {
     "id": "8320002",
     "dep": "08",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "140 Avenue Roger Posty",
     "cp": "08320",
     "ville": "VIREUX-MOLHAIN",
@@ -290,7 +290,7 @@
   {
     "id": "8360003",
     "dep": "08",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "37 Rue de la Sommevue",
     "cp": "08360",
     "ville": "Château-Porcien",
@@ -314,7 +314,7 @@
   {
     "id": "8350002",
     "dep": "08",
-    "enseigne": "Carrefour Express",
+    "enseigne": "",
     "adresse": "Rue Georges Clemenceau",
     "cp": "08350",
     "ville": "DONCHERY",
@@ -393,10 +393,6 @@
     "latitude": 49.504,
     "longitude": 4.36,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.064",
-        "maj": "2026-08-10 00:01:00"
-      },
       "E85": {
         "valeur": "0.822",
         "maj": "2026-08-10 00:01:00"
@@ -432,7 +428,24 @@
     "ville": "SEDAN",
     "latitude": 49.699,
     "longitude": 4.927,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.109",
+        "maj": "2026-08-10 07:07:58"
+      },
+      "GPLc": {
+        "valeur": "0.982",
+        "maj": "2026-08-10 07:07:58"
+      },
+      "E10": {
+        "valeur": "1.968",
+        "maj": "2026-08-10 07:07:58"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-08-10 07:07:58"
+      }
+    }
   },
   {
     "id": "8140003",
@@ -1177,16 +1190,16 @@
     "longitude": 4.112,
     "carburants": {
       "Gazole": {
-        "valeur": "2.195",
-        "maj": "2026-08-07 07:37:21"
+        "valeur": "2.194",
+        "maj": "2026-08-10 07:41:36"
       },
       "E10": {
-        "valeur": "1.983",
-        "maj": "2026-08-07 07:37:22"
+        "valeur": "1.958",
+        "maj": "2026-08-10 07:41:37"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-08-07 07:37:22"
+        "maj": "2026-08-10 07:41:37"
       }
     }
   },

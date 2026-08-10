@@ -106,7 +106,7 @@
   {
     "id": "52200014",
     "dep": "52",
-    "enseigne": "TotalEnergies Access",
+    "enseigne": "",
     "adresse": "FAUBOURG DE LA COLLINIERE",
     "cp": "52200",
     "ville": "LANGRES",
@@ -123,10 +123,6 @@
       },
       "GPLc": {
         "valeur": "1.099",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
         "maj": "2026-08-10 00:01:00"
       }
     }
@@ -170,7 +166,7 @@
   {
     "id": "52100016",
     "dep": "52",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "ROUTE NATIONALE 4 - LIEU DIT 'LA BOBOTTE'",
     "cp": "52100",
     "ville": "HALLIGNICOURT",
@@ -194,7 +190,7 @@
   {
     "id": "52300003",
     "dep": "52",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Avenue de la Marne",
     "cp": "52300",
     "ville": "JOINVILLE",
@@ -218,7 +214,7 @@
   {
     "id": "52100018",
     "dep": "52",
-    "enseigne": "Shell",
+    "enseigne": "",
     "adresse": "RN4 sens nancy-paris",
     "cp": "52100",
     "ville": "Hallignicourt",
@@ -1058,16 +1054,16 @@
     "longitude": 5.149,
     "carburants": {
       "Gazole": {
-        "valeur": "2.135",
-        "maj": "2026-08-07 09:58:05"
+        "valeur": "2.219",
+        "maj": "2026-08-10 08:00:39"
       },
       "E10": {
-        "valeur": "1.949",
-        "maj": "2026-08-08 07:31:04"
+        "valeur": "1.999",
+        "maj": "2026-08-10 08:00:39"
       },
       "SP98": {
-        "valeur": "2.089",
-        "maj": "2026-08-08 07:31:04"
+        "valeur": "2.099",
+        "maj": "2026-08-10 08:00:40"
       }
     }
   },

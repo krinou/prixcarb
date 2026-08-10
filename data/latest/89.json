@@ -115,15 +115,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.220",
-        "maj": "2026-08-08 08:29:41"
+        "maj": "2026-08-10 07:48:47"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-08-08 08:29:41"
+        "maj": "2026-08-10 07:48:47"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-08-08 08:29:41"
+        "maj": "2026-08-10 07:48:47"
       }
     }
   },
@@ -154,7 +154,7 @@
   {
     "id": "89290001",
     "dep": "89",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "CENTRE ARTISANAL",
     "cp": "89290",
     "ville": "CHAMPS-SUR-YONNE",
@@ -234,7 +234,7 @@
   {
     "id": "89000012",
     "dep": "89",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Boulevard de Verdun",
     "cp": "89000",
     "ville": "AUXERRE",
@@ -748,10 +748,6 @@
       "E85": {
         "valeur": "0.829",
         "maj": "2026-08-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.957",
-        "maj": "2026-08-10 00:01:00"
       }
     }
   },
@@ -1000,6 +996,26 @@
     }
   },
   {
+    "id": "89380006",
+    "dep": "89",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN 6 - 29 ROUTE DE PARIS",
+    "cp": "89380",
+    "ville": "APPOIGNY",
+    "latitude": 47.880994937581995,
+    "longitude": 3.5280124431542,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.129",
+        "maj": "2026-08-10 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.829",
+        "maj": "2026-08-10 00:01:00"
+      }
+    }
+  },
+  {
     "id": "89400002",
     "dep": "89",
     "enseigne": "Esso Express",
@@ -1020,30 +1036,6 @@
       "SP98": {
         "valeur": "2.031",
         "maj": "2026-08-07 16:51:00"
-      }
-    }
-  },
-  {
-    "id": "89380006",
-    "dep": "89",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "RN 6 - 29 ROUTE DE PARIS",
-    "cp": "89380",
-    "ville": "APPOIGNY",
-    "latitude": 47.880994937581995,
-    "longitude": 3.5280124431542,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.129",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "E85": {
-        "valeur": "0.829",
-        "maj": "2026-08-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.945",
-        "maj": "2026-08-10 00:01:00"
       }
     }
   },

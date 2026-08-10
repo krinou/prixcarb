@@ -290,7 +290,7 @@
   {
     "id": "20219003",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "RT 20",
     "cp": "20219",
     "ville": "TATTONE",
@@ -330,7 +330,7 @@
   {
     "id": "20137008",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "358 San Cipriano",
     "cp": "20137",
     "ville": "Lecci",
@@ -430,7 +430,7 @@
   {
     "id": "20090014",
     "dep": "20",
-    "enseigne": "ENI",
+    "enseigne": "",
     "adresse": "109 Cours Napoleon",
     "cp": "20000",
     "ville": "Ajaccio",
@@ -438,19 +438,19 @@
     "longitude": 8.74,
     "carburants": {
       "Gazole": {
-        "valeur": "2.337",
-        "maj": "2026-08-04 10:53:01"
+        "valeur": "2.294",
+        "maj": "2026-08-10 08:06:22"
       },
       "SP95": {
-        "valeur": "2.119",
-        "maj": "2026-08-04 10:53:01"
+        "valeur": "2.099",
+        "maj": "2026-08-10 08:06:22"
       }
     }
   },
   {
     "id": "20111001",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "Tiuccia",
     "cp": "20111",
     "ville": "Casaglione",
@@ -490,7 +490,7 @@
   {
     "id": "20167004",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "Route de Sagone",
     "cp": "20167",
     "ville": "ALATA",
@@ -1466,12 +1466,12 @@
     "longitude": 9.429,
     "carburants": {
       "Gazole": {
-        "valeur": "2.269",
-        "maj": "2026-07-31 11:47:44"
+        "valeur": "2.249",
+        "maj": "2026-08-10 06:21:16"
       },
       "SP95": {
-        "valeur": "2.049",
-        "maj": "2026-07-29 11:07:00"
+        "valeur": "1.999",
+        "maj": "2026-08-10 06:21:36"
       }
     }
   },
@@ -1901,8 +1901,8 @@
         "maj": "2026-07-25 13:21:16"
       },
       "SP95": {
-        "valeur": "2.040",
-        "maj": "2026-07-28 10:50:10"
+        "valeur": "1.990",
+        "maj": "2026-08-10 07:59:38"
       }
     }
   },
@@ -2249,8 +2249,8 @@
         "maj": "2026-07-22 12:05:35"
       },
       "SP95": {
-        "valeur": "2.060",
-        "maj": "2026-07-24 14:30:21"
+        "valeur": "1.990",
+        "maj": "2026-08-10 06:38:31"
       }
     }
   },

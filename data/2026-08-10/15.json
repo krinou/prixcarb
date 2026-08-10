@@ -84,10 +84,6 @@
       "Gazole": {
         "valeur": "2.250",
         "maj": "2026-08-07 06:55:41"
-      },
-      "SP95": {
-        "valeur": "1.990",
-        "maj": "2026-08-07 06:55:41"
       }
     }
   },
@@ -108,10 +104,6 @@
       "GPLc": {
         "valeur": "1.140",
         "maj": "2026-07-20 18:09:57"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-08-03 18:13:48"
       }
     }
   },
@@ -166,7 +158,7 @@
   {
     "id": "15300003",
     "dep": "15",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "La Croix Jolie",
     "cp": "15300",
     "ville": "Murat",
@@ -190,7 +182,7 @@
   {
     "id": "15190001",
     "dep": "15",
-    "enseigne": "Esso",
+    "enseigne": "",
     "adresse": "ROUTE DU STADE",
     "cp": "15190",
     "ville": "Condat",
@@ -238,7 +230,7 @@
   {
     "id": "15100005",
     "dep": "15",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Route d'Aurillac",
     "cp": "15100",
     "ville": "SAINT-FLOUR",
@@ -782,8 +774,8 @@
     "longitude": 2.8630026809344,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-08-01 10:20:24"
+        "valeur": "2.200",
+        "maj": "2026-08-10 08:36:52"
       }
     }
   },
@@ -1163,10 +1155,6 @@
     "latitude": 44.914,
     "longitude": 2.441,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.079",
-        "maj": "2026-08-07 20:10:33"
-      },
       "SP95": {
         "valeur": "1.999",
         "maj": "2026-08-07 20:10:34"

@@ -16,10 +16,6 @@
       "E85": {
         "valeur": "0.829",
         "maj": "2026-08-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-08-10 00:01:00"
       }
     }
   },
@@ -138,16 +134,16 @@
     "longitude": 3.09879,
     "carburants": {
       "Gazole": {
-        "valeur": "2.189",
-        "maj": "2026-07-27 07:43:15"
+        "valeur": "2.139",
+        "maj": "2026-08-10 08:26:04"
       },
       "SP95": {
-        "valeur": "2.099",
-        "maj": "2026-07-21 16:46:14"
+        "valeur": "1.999",
+        "maj": "2026-08-10 08:26:04"
       },
       "SP98": {
-        "valeur": "2.129",
-        "maj": "2026-07-21 16:46:14"
+        "valeur": "2.069",
+        "maj": "2026-08-10 08:26:04"
       }
     }
   },
@@ -216,12 +212,25 @@
     "ville": "Saint-Amand-en-Puisaye",
     "latitude": 47.52885,
     "longitude": 3.07024,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.108",
+        "maj": "2026-08-10 05:35:36"
+      },
+      "SP95": {
+        "valeur": "1.989",
+        "maj": "2026-08-10 05:35:36"
+      },
+      "E85": {
+        "valeur": "0.818",
+        "maj": "2026-08-10 05:35:37"
+      }
+    }
   },
   {
     "id": "58140001",
     "dep": "58",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "AVENUE DU 8 MAI",
     "cp": "58140",
     "ville": "LORMES",
@@ -280,7 +289,7 @@
   {
     "id": "58500003",
     "dep": "58",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "Avenue Saint-Exupéry",
     "cp": "58500",
     "ville": "CLAMECY",

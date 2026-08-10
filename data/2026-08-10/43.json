@@ -166,7 +166,7 @@
   {
     "id": "43100004",
     "dep": "43",
-    "enseigne": "Esso",
+    "enseigne": "",
     "adresse": "10 avenue d Auvergne",
     "cp": "43100",
     "ville": "Brioude",
@@ -242,7 +242,7 @@
   {
     "id": "43320003",
     "dep": "43",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "2 route RN 102, Limandre",
     "cp": "43320",
     "ville": "Vazeilles-Limandre",
@@ -426,44 +426,20 @@
     "longitude": 4.24106,
     "carburants": {
       "Gazole": {
-        "valeur": "2.259",
-        "maj": "2026-08-03 08:44:49"
+        "valeur": "2.099",
+        "maj": "2026-08-10 08:42:56"
       },
       "E85": {
         "valeur": "0.850",
         "maj": "2026-03-24 10:08:14"
       },
       "E10": {
-        "valeur": "2.029",
-        "maj": "2026-07-25 09:57:09"
+        "valeur": "1.959",
+        "maj": "2026-08-10 08:42:56"
       },
       "SP98": {
-        "valeur": "2.089",
-        "maj": "2026-07-25 09:57:09"
-      }
-    }
-  },
-  {
-    "id": "43120001",
-    "dep": "43",
-    "enseigne": "Carrefour Market",
-    "adresse": "rue jean martouret",
-    "cp": "43120",
-    "ville": "MONISTROL-SUR-LOIRE",
-    "latitude": 45.290704469999994,
-    "longitude": 4.16960856,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.289",
-        "maj": "2026-08-09 08:16:34"
-      },
-      "SP95": {
-        "valeur": "2.089",
-        "maj": "2026-08-09 08:16:34"
-      },
-      "SP98": {
-        "valeur": "2.099",
-        "maj": "2026-08-09 08:16:34"
+        "valeur": "2.039",
+        "maj": "2026-08-10 08:42:56"
       }
     }
   },
@@ -488,6 +464,30 @@
       "SP98": {
         "valeur": "2.115",
         "maj": "2026-07-30 08:37:50"
+      }
+    }
+  },
+  {
+    "id": "43120001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "rue jean martouret",
+    "cp": "43120",
+    "ville": "MONISTROL-SUR-LOIRE",
+    "latitude": 45.290704469999994,
+    "longitude": 4.16960856,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.289",
+        "maj": "2026-08-10 08:17:16"
+      },
+      "SP95": {
+        "valeur": "2.089",
+        "maj": "2026-08-10 08:17:16"
+      },
+      "SP98": {
+        "valeur": "2.099",
+        "maj": "2026-08-10 08:17:16"
       }
     }
   },
@@ -624,7 +624,16 @@
     "ville": "LE PUY EN VELAY",
     "latitude": 45.0479250728,
     "longitude": 3.89342284693,
-    "carburants": {}
+    "carburants": {
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-08-10 07:18:21"
+      },
+      "GPLc": {
+        "valeur": "0.919",
+        "maj": "2026-08-10 07:18:22"
+      }
+    }
   },
   {
     "id": "43800002",
@@ -931,12 +940,7 @@
     "ville": "Saint-Georges-d'Aurac",
     "latitude": 45.144,
     "longitude": 3.543,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-08-05 14:22:43"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "43240001",
@@ -1025,8 +1029,8 @@
         "maj": "2026-08-07 11:50:42"
       },
       "SP95": {
-        "valeur": "2.100",
-        "maj": "2026-08-07 11:50:42"
+        "valeur": "2.030",
+        "maj": "2026-08-10 08:45:22"
       }
     }
   },
