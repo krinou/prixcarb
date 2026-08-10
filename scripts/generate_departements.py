@@ -130,7 +130,7 @@ def main():
 
     bbox_data = []
 
-    for dep, stations_dep in stations_par_dep.items():
+    for dep, stations_dep in by_dep.items():
         lats = [s["latitude"] for s in stations_dep if s.get("latitude")]
         lons = [s["longitude"] for s in stations_dep if s.get("longitude")]
         if not lats or not lons:
@@ -145,11 +145,8 @@ def main():
            "maxLon": round(max(lons), 5)
         })
 
-    with open(
-       "data/departements_bbox.json",
-       "w",
-       encoding="utf-8"
-       ) as f:
+    bbox_file = os.path.join(BASE_DIR, "departements_bbox.json")
+    with open(bbox_file, "w", encoding="utf-8") as f:
       json.dump(
           bbox_data,
           f,
