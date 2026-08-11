@@ -117,10 +117,12 @@ th{
 <tr>
     <th>Enseigne</th>
     <th>Adresse</th>
-    <th onclick="trier('distanceDepart')"
-        style="cursor:pointer">Kms parcourus</th>
-    <th onclick="trier('prix')"
-        style="cursor:pointer">Prix ▲ </th>
+    <th id="thDistance"
+        onclick="trier('distanceDepart')"
+        style="cursor:pointer">Dist. du départ</th>
+    <th id="thPrix"
+        onclick="trier('prix')"
+        style="cursor:pointer">Prix </th>
     <th>Ecart trajet</th>
 </tr>
 </thead>
