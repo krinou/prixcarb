@@ -117,8 +117,10 @@ th{
 <tr>
     <th>Enseigne</th>
     <th>Adresse</th>
-    <th>Carburant</th>
-    <th>Prix</th>
+    <th onclick="trier('distanceDepart')"
+        style="cursor:pointer">Kms parcourus</th>
+    <th onclick="trier('prix')"
+        style="cursor:pointer">Prix ▲ </th>
     <th>Ecart trajet</th>
 </tr>
 </thead>
@@ -135,6 +137,31 @@ const ORS_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImMxZmI0OWU
 
 // mêmes données que PrixCarb
 let stations=[];
+
+//Tri du tableau
+let colonneTri = "prix";
+let ordreTri = 1;
+
+function trier(colonne){
+
+    if(colonneTri === colonne){
+        ordreTri *= -1;
+    } else {
+        colonneTri = colonne;
+        ordreTri = 1;
+    }
+
+    resultat.sort((a,b)=>{
+
+        return (
+            a[colonne] - b[colonne]
+        ) * ordreTri;
+
+    });
+
+    afficher(resultat);
+}
+
 
 /* ============================
    AUTOCOMPLÉTION ADRESSES
@@ -357,10 +384,17 @@ async function chercherStations(){
         
        const d = distanceMiniTrajet(st, coords);
        if(d <= 2){
+          const distanceDepart = distanceKm(
+                 depCoord[1],
+                 depCoord[0],
+                 st.latitude,
+                 st.longitude
+                 ); 
           resultat.push({
             ...st,
             carburant: carburantChoisi,
             prix: prix,
+            distanceDepart,
             distanceTrajet:d
           });
        }   
@@ -375,7 +409,7 @@ async function chercherStations(){
     document.getElementById("message")
         .innerHTML =
         resultat.length +
-        " station(s) trouvée(s)";
+        " station(s) trouvée(s) pour le carburant " + carburantChoisi;
 
 }
 
@@ -432,18 +466,19 @@ function afficher(liste){
             <td>
                 <a href="${maps}"
                    target="_blank">
-                ${st.station}
+                ${st.enseigne}
                 </a>
             </td>
 
             <td>
                 <a href="${maps}"
                    target="_blank">
-                ${st.adresse}
+                ${st.adresse}<br>
+                ${st.cp} ${st.ville}
                 </a>
             </td>
 
-            <td>${st.carburant}</td>
+            <td>${st.distanceDepart.toFixed(1)} km</td>
 
             <td class="prix">
                 ${st.prix.toFixed(3)}
