@@ -21,8 +21,7 @@ body{
     position:relative
 }
 .champ2{
-    flex:1;
-    min-width:0;
+    position:relative;
 }
 .champ3{
     white-space:nowrap;
@@ -211,9 +210,12 @@ async function autocompleteAdresse(texte, cible) {
     let html = "";
 
     for (const f of j.features) {
-        html += `<div onclick="choisirAdresse('${cible}', '${f.properties.label.replace(/'/g, "\\'")}')">
-                    ${f.properties.label}
-                 </div>`;
+        html += `<div onclick="choisirAdresse('${cible}', '${f.properties.name}<br>
+                    <small>
+                       ${f.properties.postcode}
+                       ${f.properties.city}
+                    </small>
+                </div>`;
     }
 
     document.getElementById(cible).innerHTML = html;
