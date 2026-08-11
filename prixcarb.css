@@ -1,0 +1,212 @@
+/* =========================
+   PRIXCARB - STYLE COMMUN
+   ========================= */
+
+body{
+    font-family:Arial,sans-serif;
+    margin:20px;
+    color:#333;
+    background:#fff;
+}
+
+/* =========================
+   FORMULAIRES
+   ========================= */
+
+.zone-saisie{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:flex-start;
+    margin-bottom:15px;
+}
+
+.champ1,
+.champ2{
+    position:relative;
+}
+
+.champ2{
+    flex:1;
+    min-width:250px;
+}
+
+.champ3{
+    white-space:nowrap;
+}
+
+input,
+select{
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size:14px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#0d6efd;
+}
+
+/* =========================
+   BOUTONS
+   ========================= */
+
+button{
+    padding:8px 15px;
+    cursor:pointer;
+    border:none;
+    border-radius:4px;
+    background:#0d6efd;
+    color:white;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#0b5ed7;
+}
+
+.btn-gps{
+    padding:8px 10px;
+}
+
+/* =========================
+   AUTOCOMPLETION
+   ========================= */
+
+.suggestions{
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:white;
+    border:1px solid #ccc;
+    box-shadow:0 2px 5px rgba(0,0,0,0.15);
+    z-index:1000;
+}
+
+.suggestions div{
+    padding:8px;
+    cursor:pointer;
+}
+
+.suggestions div:hover{
+    background:#f2f2f2;
+}
+
+/* =========================
+   TABLEAUX
+   ========================= */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+th,
+td{
+    border:1px solid #ddd;
+    padding:8px;
+}
+
+th{
+    background:#f3f5f7;
+    font-weight:bold;
+}
+
+tr:nth-child(even){
+    background:#fafafa;
+}
+
+tr:hover{
+    background:#eef6ff;
+}
+
+th.triable{
+    cursor:pointer;
+    user-select:none;
+}
+
+.prix,
+.ecart{
+    text-align:right;
+}
+
+a{
+    color:#0066cc;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* =========================
+   COULEURS PRIX
+   ========================= */
+
+.prix-excellent{
+    color:#008000;
+    font-weight:bold;
+}
+
+.prix-bon{
+    color:#28a745;
+}
+
+.prix-moyen{
+    color:#ff8c00;
+}
+
+.prix-cher{
+    color:#dc3545;
+}
+
+/* =========================
+   MESSAGES
+   ========================= */
+
+.info{
+    color:#0d6efd;
+    margin:10px 0;
+}
+
+.success{
+    color:#008000;
+    font-weight:bold;
+}
+
+.warning{
+    color:#ff8c00;
+}
+
+.error{
+    color:#dc3545;
+    font-weight:bold;
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media(max-width:768px){
+
+    .zone-saisie{
+        flex-direction:column;
+    }
+
+    .champ1,
+    .champ2,
+    .champ3{
+        width:100%;
+    }
+
+    input,
+    select,
+    button{
+        width:100%;
+        box-sizing:border-box;
+    }
+}
