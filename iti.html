@@ -143,6 +143,8 @@ let colonneTri = "prix";
 let ordreTri = 1;
 let resultat = [];
 
+window.addEventListener("load", majEntetesTri);
+
 function appliquerTri(){
 
     resultat.sort((a,b)=>
@@ -161,10 +163,30 @@ function trier(colonne){
     }
 
     appliquerTri();
+    majEntetesTri();
     afficher(resultat);
 }
 
+function majEntetesTri() {
 
+    document.getElementById("thDistance").innerHTML =
+        "Kms parcourus";
+
+    document.getElementById("thPrix").innerHTML =
+        "Prix";
+
+    const fleche = ordreTri === 1 ? "▲" : "▼";
+
+    if (colonneTri === "prix") {
+        document.getElementById("thPrix").innerHTML =
+            "Prix " + fleche;
+    }
+
+    if (colonneTri === "distanceDepart") {
+        document.getElementById("thDistance").innerHTML =
+            "Kms parcourus " + fleche;
+    }
+}
 /* ============================
    AUTOCOMPLÉTION ADRESSES
    API Adresse.data.gouv.fr
