@@ -81,6 +81,12 @@ th{
 
 <div class="zone-saisie">
     <div class="champ1">
+      <select id="carburant">
+          <option value="Gazole">Gazole</option>
+          <option value="E10" selected>SP95-E10</option>
+          <option value="SP98">SP98</option>
+          <option value="E85">E85</option>
+      </select>  
       <input id="depart"  placeholder="Adresse de départ">
       <div id="suggestionsDepart" class="suggestions"></div>
       <button onclick="geolocaliser('depart')"
@@ -296,11 +302,9 @@ async function chercherStations(){
     document.getElementById("message").innerHTML =
         "Calcul en cours...";
 
-    const depart =
-        document.getElementById("depart").value;
-
-    const arrivee =
-        document.getElementById("arrivee").value;
+    const carburantChoisi = document.getElementById("carburant").value;
+    const depart  = document.getElementById("depart").value;
+    const arrivee = document.getElementById("arrivee").value;
 
     const depCoord =
         await geocode(depart);
@@ -342,11 +346,21 @@ async function chercherStations(){
        // on ignore les stations hors des départements traversés
        if(!deps.includes(st.dep))
           continue;
+      
+       const info = st.carburants?.[carburantChoisi];
+       if (!info)
+           continue;
 
+       const prix = parseFloat(info.valeur);
+       if (isNaN(prix))
+          continue; 
+        
        const d = distanceMiniTrajet(st, coords);
        if(d <= 2){
           resultat.push({
             ...st,
+            carburant: carburantChoisi,
+            prix: prix,
             distanceTrajet:d
           });
        }   
