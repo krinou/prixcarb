@@ -141,6 +141,15 @@ let stations=[];
 //Tri du tableau
 let colonneTri = "prix";
 let ordreTri = 1;
+let resultat = [];
+
+function appliquerTri(){
+
+    resultat.sort((a,b)=>
+        (a[colonneTri] - b[colonneTri])
+        * ordreTri
+    );
+}
 
 function trier(colonne){
 
@@ -151,12 +160,8 @@ function trier(colonne){
         ordreTri = 1;
     }
 
-    resultat.sort((a,b)=>{
-
-        return (
-            a[colonne] - b[colonne]
-        ) * ordreTri;
-
+    appliquerTri();
+    afficher(resultat);
     });
 
     afficher(resultat);
@@ -367,7 +372,7 @@ async function chercherStations(){
         }
     console.log( "Stations chargées :", stations.length);
 
-    let resultat=[];
+    resultat=[];
 
     for(const st of stations){
        // on ignore les stations hors des départements traversés
@@ -400,9 +405,7 @@ async function chercherStations(){
        }   
     }
 
-    resultat.sort(
-       (a,b)=>a.prix - b.prix
-    );
+    appliquerTri();
     console.log(resultat[0]);
     afficher(resultat);
 
