@@ -1,77 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Stations sur mon trajet</title>
-
-<style>
-body{
-    font-family:Arial,sans-serif;
-    margin:20px;
-}
-
-.zone-saisie{
-    display:flex;
-    flex-wrap:nowrap;
-    gap:6px;
-    align-items:flex-start;
-}
-    
-.champ1{
-    position:relative
-}
-.champ2{
-    position:relative;
-}
-.champ3{
-    white-space:nowrap;
-}
-    
-.suggestions {
-    position:absolute;
-    top:100%;
-    left:0;
-    width:100%;
-    background:white;
-    border:1px solid #ccc;
-    z-index:10;
-}
-.suggestions div {
-    padding:6px;
-    cursor:pointer;
-}
-.suggestions div:hover {
-    background:#eee;
-}
-
-button{
-    padding:8px 15px;
-    cursor:pointer;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-}
-
-th,td{
-    border:1px solid #ddd;
-    padding:8px;
-}
-
-th{
-    background:#f0f0f0;
-}
-
-.prix{
-    text-align:right;
-}
-
-.ecart{
-    text-align:right;
-}
-
-</style>
+   <meta charset="UTF-8">
+   <title>Stations sur mon trajet</title>
+   css/prixcarb.css
 </head>
 
 <body>
@@ -117,11 +49,13 @@ th{
     <th>Enseigne</th>
     <th>Adresse</th>
     <th id="thDistance"
-        onclick="trier('distanceDepart')"
-        style="cursor:pointer">Dist. du départ</th>
+        class="triable" 
+        onclick="trier('distanceDepart')">
+        Dist. du départ</th>
     <th id="thPrix"
-        onclick="trier('prix')"
-        style="cursor:pointer">Prix </th>
+        class="triable"
+        onclick="trier('prix')">
+        Prix </th>
     <th>Ecart trajet</th>
 </tr>
 </thead>
