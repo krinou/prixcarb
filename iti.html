@@ -10,8 +10,7 @@
 
 <h2>Stations-service sur votre trajet</h2>
 
-<div class="zone-saisie">
-    <div class="champ1">
+<div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
       <select id="carburant">
           <option value="Gazole">Gazole</option>
           <option value="E10" selected>SP95-E10</option>
@@ -23,21 +22,17 @@
       <button onclick="geolocaliser('depart')"
            title="Ma position">🎯
       </button>
-   </div>
-    
-   <div class="champ2">
+
       <input id="arrivee" placeholder="Adresse d'arrivée">
       <div id="suggestionsArrivee" class="suggestions"></div>
       <button onclick="geolocaliser('arrivee')"
           title="Ma position">🎯
       </button>
-   </div>
-    
-   <div class="champ3">
+
       <button onclick="chercherStations()">
          Rechercher
       </button>
-   </div>
+ </div>
 </div>
     
 <div id="message"></div>
