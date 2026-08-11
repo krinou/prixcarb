@@ -21,20 +21,6 @@ body{
     margin-bottom:15px;
 }
 
-.champ1,
-.champ2{
-    position:relative;
-}
-
-.champ2{
-    flex:1;
-    min-width:250px;
-}
-
-.champ3{
-    white-space:nowrap;
-}
-
 input,
 select{
     padding:8px;
