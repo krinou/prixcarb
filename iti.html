@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
+<style>
+  th.sortable-header { cursor: pointer; user-select: none; }
+  th.sort-asc::after  { content: " ▲"; font-size: 0.9em; color: #666; }
+  th.sort-desc::after { content: " ▼"; font-size: 0.9em; color: #666; }
+  #autocompleteList {
+    max-height: 220px;
+    overflow-y: auto;
+    width: 100%;
+    cursor: pointer;
+  }
+  #autocompleteList li:hover {
+    background: #eee;
+  }
+</style>
+   
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,14 +40,24 @@
               <option value="SP98">SP98</option>
               <option value="E85">E85</option>
           </select>  
-          <input id="depart"  placeholder="Adresse de départ">
-          <div id="suggestionsDepart" class="suggestions"></div>
+          <input id="depart" class="form-control"
+             placeholder="Adresse de départ" autocomplete="off">
+          <ul id="suggestionsDepart"
+             class="list-group position-absolute w-100"
+             style="z-index: 2000; top: 100%; left: 0;">
+          </ul>
+          
           <button onclick="geolocaliser('depart')"
                title="Me localiser">🎯
           </button>
 
-          <input id="arrivee" placeholder="Adresse d'arrivée">
-          <div id="suggestionsArrivee" class="suggestions"></div>
+          <input id="arrivee" class="form-control"
+             placeholder="Adresse d'arrivée"  autocomplete="off">
+          <ul id="suggestionsArrivee"
+             class="list-group position-absolute w-100"
+             style="z-index: 2000; top: 100%; left: 0;">
+          </ul>
+          
           <button onclick="geolocaliser('arrivee')"
               title="Me localiser">🎯
           </button>
@@ -142,19 +167,18 @@ async function autocompleteAdresse(texte, cible) {
 
     const r = await fetch(url);
     const j = await r.json();
-
-    let html = "";
-
+    const liste = document.getElementById(cible);
+    liste.innerHTML = "";
+    
     for (const f of j.features) {
-        html += `<div onclick="choisirAdresse('${cible}', '${f.properties.name}<br>
-                    <small>
-                       ${f.properties.postcode}
-                       ${f.properties.city}
-                    </small>
-                </div>`;
-    }
-
-    document.getElementById(cible).innerHTML = html;
+       const li = document.createElement("li");
+       li.className = "list-group-item";
+       li.textContent =`${f.properties.name}, ${f.properties.postcode} ${f.properties.city}`;
+       li.onclick = () => {
+          choisirAdresse(cible,f.properties.label);
+          };
+       liste.appendChild(li);  
+  });      
 }
 
 function choisirAdresse(cible, texte) {
