@@ -290,28 +290,26 @@ async function afficherStationsBrut() {
    <p class="lead">
       Trouvez la station la moins chère près de chez vous.
     </p>
-
-  <div class="mb-2 position-relative">
-    <input id="adresseInput" class="form-control"
-         placeholder="Entrez un code postal ou une adresse"
-         autocomplete="off">
-    <ul id="autocompleteList"
-      class="list-group position-absolute w-100"
-      style="z-index: 2000; top: 100%; left: 0;">
-    </ul>
-  </div>
-
   <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
-    <select id="carburantSelect" class="form-select" style="max-width: 220px;">
+      <select id="carburantSelect" class="form-select" style="max-width: 220px;">
          <option value="E10" selected>SP95-E10</option>
          <option value="SP95">SP95</option>
          <option value="SP98">SP98</option>
          <option value="Gazole">Gazole</option>
          <option value="E85">E85</option>
-    </select>
+      </select>
 
-    <button class="btn btn-primary flex-fill" onclick="afficherStationsBrut()">🔄 Afficher les stations</button>
-    <button class="btn btn-outline-secondary flex-fill" onclick="geolocaliser()">📍 Me localiser</button>
+     <div class="mb-2 position-relative">
+        <input id="adresseInput" class="form-control"
+            placeholder="Entrez un code postal ou une adresse"
+            autocomplete="off">
+        <ul id="autocompleteList"
+           class="list-group position-absolute w-100"
+           style="z-index: 2000; top: 100%; left: 0;">
+        </ul>
+     </div>
+     <button class="btn btn-primary flex-fill" onclick="afficherStationsBrut()">🔄 Afficher les stations</button>
+     <button class="btn btn-outline-secondary flex-fill" onclick="geolocaliser()">📍 Me localiser</button>
   </div>
 
   <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
