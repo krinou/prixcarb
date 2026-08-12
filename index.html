@@ -291,7 +291,7 @@ async function afficherStationsBrut() {
       Trouvez la station la moins chère près de chez vous.
     </p>
   <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
-      <select id="carburantSelect" class="form-select" style="width: 180px;">
+      <select id="carburantSelect" class="form-select" style="width: 120px;">
          <option value="E10" selected>SP95-E10</option>
          <option value="SP95">SP95</option>
          <option value="SP98">SP98</option>
@@ -308,8 +308,8 @@ async function afficherStationsBrut() {
            style="z-index: 2000; top: 100%; left: 0;">
         </ul>
      </div>   
-     <button class="btn btn-outline-secondary flex-fill" onclick="geolocaliser()" title="Me localiser">🎯</button>
-     <button class="btn btn-primary flex-fill" onclick="afficherStationsBrut()">🔄 Rechercher</button>
+     <button class="btn btn-outline-secondary px-2" onclick="geolocaliser()" title="Me localiser">🎯</button>
+     <button class="btn btn-primary px-2" onclick="afficherStationsBrut()">🔄 Rechercher</button>
   </div>
 
   <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
