@@ -14,54 +14,58 @@
    <div class="container mt-4 mb-5">
       <h1 class="mb-4 text-center">🛣️ Les stations les moins chères sur votre itinéraire</h1>
 
-   <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
-        <select id="carburant">
-            <option value="Gazole">Gazole</option>
-            <option value="E10" selected>SP95-E10</option>
-            <option value="SP98">SP98</option>
-            <option value="E85">E85</option>
-        </select>  
-        <input id="depart"  placeholder="Adresse de départ">
-        <div id="suggestionsDepart" class="suggestions"></div>
-        <button onclick="geolocaliser('depart')"
-             title="Ma position">🎯
-        </button>
+      <p class="lead">
+         Trouvez la station la moins chère près de chez vous.
+      </p>
 
-        <input id="arrivee" placeholder="Adresse d'arrivée">
-        <div id="suggestionsArrivee" class="suggestions"></div>
-        <button onclick="geolocaliser('arrivee')"
-            title="Ma position">🎯
-        </button>
+      <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
+          <select id="carburant">
+              <option value="Gazole">Gazole</option>
+              <option value="E10" selected>SP95-E10</option>
+              <option value="SP98">SP98</option>
+              <option value="E85">E85</option>
+          </select>  
+          <input id="depart"  placeholder="Adresse de départ">
+          <div id="suggestionsDepart" class="suggestions"></div>
+          <button onclick="geolocaliser('depart')"
+               title="Ma position">🎯
+          </button>
 
-        <button onclick="chercherStations()">
-           Rechercher
-        </button>
+          <input id="arrivee" placeholder="Adresse d'arrivée">
+          <div id="suggestionsArrivee" class="suggestions"></div>
+          <button onclick="geolocaliser('arrivee')"
+              title="Ma position">🎯
+          </button>
+
+          <button onclick="chercherStations()">
+             Rechercher
+          </button>
+      </div>
    </div>
-    
-<div id="message"></div>
+   <div id="message"></div>
 
-<table id="tableResultats">
+   <table id="tableResultats">
 
-<thead>
-<tr>
-    <th>Enseigne</th>
-    <th>Adresse</th>
-    <th id="thDistance"
-        class="triable" 
-        onclick="trier('distanceDepart')">
-        Dist. du départ</th>
-    <th id="thPrix"
-        class="triable"
-        onclick="trier('prix')">
-        Prix </th>
-    <th>Ecart trajet</th>
-</tr>
-</thead>
+      <thead>
+         <tr>
+            <th>Enseigne</th>
+            <th>Adresse</th>
+            <th id="thDistance"
+                class="triable" 
+                onclick="trier('distanceDepart')">
+                Dist. du départ</th>
+         <   th id="thPrix"
+                class="triable"
+                onclick="trier('prix')">
+                Prix </th>
+            <th>Ecart trajet</th>
+         </tr>
+      </thead>
+   
+      <tbody>
+      </tbody>
 
-<tbody>
-</tbody>
-
-</table>
+   </table>
 
 <script>
 
