@@ -39,25 +39,28 @@
               <option value="E10" selected>SP95-E10</option>
               <option value="SP98">SP98</option>
               <option value="E85">E85</option>
-          </select>  
-          <input id="depart" class="form-control"
-             placeholder="Adresse de départ" autocomplete="off">
-          <ul id="suggestionsDepart"
-             class="list-group position-absolute w-100"
-             style="z-index: 2000; top: 100%; left: 0;">
-          </ul>
-          
+          </select> 
+          <div class="position-relative flex-grow-1">
+             <input id="depart" class="form-control"
+                placeholder="Adresse de départ" autocomplete="off">
+             <ul id="suggestionsDepart"
+                 class="list-group position-absolute w-100"
+                 style="z-index: 2000;">
+             </ul>
+          </div>
           <button onclick="geolocaliser('depart')"
                title="Me localiser">🎯
           </button>
 
-          <input id="arrivee" class="form-control"
-             placeholder="Adresse d'arrivée"  autocomplete="off">
-          <ul id="suggestionsArrivee"
-             class="list-group position-absolute w-100"
-             style="z-index: 2000; top: 100%; left: 0;">
-          </ul>
-          
+          <div class="position-relative flex-grow-1">
+             <input id="arrivee" class="form-control"
+                placeholder="Adresse d'arrivée"  autocomplete="off">
+             <ul id="suggestionsArrivee"
+                class="list-group position-absolute w-100"
+                style="z-index: 2000; ">
+             </ul>
+          </div>
+        
           <button onclick="geolocaliser('arrivee')"
               title="Me localiser">🎯
           </button>
@@ -96,21 +99,30 @@ let stations=[];
 //Tri du tableau
 let colonneTri = "prix";
 let ordreTri = 1;
+const COL = {
+  2: "distanceDepart",
+  3: "prix",
+  4: "distanceTrajet"
+  };
+  
 let resultat = [];
 
-window.addEventListener("load", majEntetesTri);
+function appliquerTri() {
+    resultat.sort((a, b) => {
+        const av = a[colonneTri];
+        const bv = b[colonneTri];
 
-function appliquerTri(){
+        if (typeof av === "string") {
+            return av.localeCompare(bv) * ordreTri;
+        }
 
-    resultat.sort((a,b)=>
-        (a[colonneTri] - b[colonneTri])
-        * ordreTri
-    );
+        return (av - bv) * ordreTri;
+    });
 }
 
-function trier(colonne){
+function trier(colonne) {
 
-    if(colonneTri === colonne){
+    if (colonneTri === colonne) {
         ordreTri *= -1;
     } else {
         colonneTri = colonne;
@@ -118,30 +130,9 @@ function trier(colonne){
     }
 
     appliquerTri();
-    majEntetesTri();
     afficher(resultat);
 }
 
-function majEntetesTri() {
-
-    document.getElementById("thDistance").innerHTML =
-        "Kms parcourus";
-
-    document.getElementById("thPrix").innerHTML =
-        "Prix";
-
-    const fleche = ordreTri === 1 ? "▲" : "▼";
-
-    if (colonneTri === "prix") {
-        document.getElementById("thPrix").innerHTML =
-            "Prix " + fleche;
-    }
-
-    if (colonneTri === "distanceDepart") {
-        document.getElementById("thDistance").innerHTML =
-            "Kms parcourus " + fleche;
-    }
-}
 /* ============================
    AUTOCOMPLÉTION ADRESSES
    API Adresse.data.gouv.fr
@@ -424,7 +415,6 @@ async function trouverDepartementsTraverses(itin) {
 }
     
 function afficher(liste){
-
     const tbody =
       document.querySelector(
           "#tableResultats tbody"
@@ -433,47 +423,69 @@ function afficher(liste){
     tbody.innerHTML="";
 
     for(const st of liste){
-
         const maps =
             `https://www.google.com/maps?q=${st.latitude},${st.longitude}`;
-
         tbody.insertAdjacentHTML(
             "beforeend",
-            `
-            <tr>
+            `<tr>
+                <td>
+                   <a href="${maps}"
+                      target="_blank">
+                      ${st.enseigne}
+                   </a>
+                </td>
 
-            <td>
-                <a href="${maps}"
-                   target="_blank">
-                ${st.enseigne}
-                </a>
-            </td>
+                <td>
+                   <a href="${maps}" target="_blank">
+                     ${st.adresse}<br>
+                     ${st.cp} ${st.ville}
+                   </a>
+                </td>
 
-            <td>
-                <a href="${maps}"
-                   target="_blank">
-                ${st.adresse}<br>
-                ${st.cp} ${st.ville}
-                </a>
-            </td>
+                <td>${st.distanceDepart.toFixed(1)} km</td>
+                <td class="prix">
+                    ${st.prix.toFixed(3)}
+                </td>
 
-            <td>${st.distanceDepart.toFixed(1)} km</td>
+                <td class="ecart">
+                    ${st.distanceTrajet.toFixed(1)}
+                    km
+                </td>
 
-            <td class="prix">
-                ${st.prix.toFixed(3)}
-            </td>
-
-            <td class="ecart">
-                ${st.distanceTrajet.toFixed(1)}
-                km
-            </td>
-
-            </tr>
-            `
-        );
+            </tr> `
+            );
     }
+    mettreAJourEntetesTri();
 }
+  
+function mettreAJourEntetesTri() {
+    const headers = document.querySelectorAll("#tableResultats thead th");
 
+    headers.forEach(h => {
+        h.classList.remove(
+            "sortable-header",
+            "sort-asc",
+            "sort-desc"
+        );
+    });
+
+    Object.entries(COL).forEach(([idx, key]) => {
+        headers[idx].classList.add(
+            "sortable-header"
+        );
+
+        headers[idx].onclick =
+            () => trier(key);
+
+        if (key === colonneTri) {
+            headers[idx].classList.add(
+                ordreTri === 1
+                    ? "sort-asc"
+                    : "sort-desc"
+            );
+        }
+    });
+}
 </script>
 
 </body>
