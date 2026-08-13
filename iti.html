@@ -474,7 +474,9 @@ function afficher(liste){
             </tr> `
             );
     }
-    mettreAJourEntetesTri();
+  console.log("affichage de", liste.length, "lignes");
+  document.getElementById("tableResultats").style.display = "table";  
+  mettreAJourEntetesTri();
 }
   
 function mettreAJourEntetesTri() {
