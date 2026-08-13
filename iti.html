@@ -101,6 +101,7 @@
             <th>Dist. du départ</th>
             <th>Prix </th>
             <th>Ecart trajet</th>
+           <th>Date Maj</th>
          </tr>
       </thead>
    
@@ -125,7 +126,7 @@ let ordreTri = 1;
 const COL = {
   2: "distanceDepart",
   3: "prix",
-  4: "distanceTrajet"
+  5: "distanceTrajet"
   };
   
 let resultat = [];
@@ -454,6 +455,18 @@ async function trouverDepartementsTraverses(itin) {
    return deps;
 }
     
+function formaterDateMaj(dateMaj) {
+    if (!dateMaj) {
+        return "";
+    }
+
+    const d = new Date(dateMaj);
+    if (isNaN(d.getTime())) {
+        return dateMaj.substring(0, 10);
+    }
+    return d.toLocaleDateString("fr-FR");
+}
+  
 function afficher(liste){
     const tbody =
       document.querySelector(
@@ -463,8 +476,9 @@ function afficher(liste){
     tbody.innerHTML="";
 
     for(const st of liste){
-        const maps =
-            `https://www.google.com/maps?q=${st.latitude},${st.longitude}`;
+        const infoCarburant = st.carburants?.[st.carburant];
+        const dateMaj = formaterDateMaj(infoCarburant?.maj);
+        const maps = `https://www.google.com/maps?q=${st.latitude},${st.longitude}`;
         tbody.insertAdjacentHTML(
             "beforeend",
             `<tr>
@@ -486,6 +500,8 @@ function afficher(liste){
                 <td class="prix">
                     ${st.prix.toFixed(3)}
                 </td>
+
+                <td>${dateMaj}</td>
 
                 <td class="ecart">
                     ${st.distanceTrajet.toFixed(1)}
