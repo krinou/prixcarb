@@ -95,6 +95,8 @@ const ORS_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImMxZmI0OWU
 
 // mêmes données que PrixCarb
 let stations=[];
+let coordDepart = null;
+let coordArrivee = null;
 
 //Tri du tableau
 let colonneTri = "prix";
@@ -159,18 +161,28 @@ async function autocompleteAdresse(texte, cible) {
        li.className = "list-group-item";
        li.textContent =`${f.properties.name}, ${f.properties.postcode} ${f.properties.city}`;
        li.onclick = () => {
-          choisirAdresse(cible,f.properties.label);
+          choisirAdresse(cible,f.properties.label,f.geometry.coordinates);
           };
        liste.appendChild(li);  
     };      
 }
 
-function choisirAdresse(cible, texte) {
-    const champ = (cible === "suggestionsDepart") 
-                  ? document.getElementById("depart")
-                  : document.getElementById("arrivee");
+function choisirAdresse(cible, texte, coords) {
+    const estDepart =
+        cible === "suggestionsDepart";
+
+    const champ = estDepart
+        ? document.getElementById("depart")
+        : document.getElementById("arrivee");
 
     champ.value = texte;
+
+    if (estDepart) {
+        coordDepart = coords;
+    } else {
+        coordArrivee = coords;
+    }
+
     document.getElementById(cible).innerHTML = "";
 }
 
@@ -206,10 +218,12 @@ function geolocaliser(idChamp) {
    ============================ */
 
 document.getElementById("depart").addEventListener("input", e => {
+    coordDepart = null;
     autocompleteAdresse(e.target.value, "suggestionsDepart");
 });
 
 document.getElementById("arrivee").addEventListener("input", e => {
+    coordArrivee = null;
     autocompleteAdresse(e.target.value, "suggestionsArrivee");
 });
 
@@ -297,7 +311,6 @@ function distanceMiniTrajet(station,coords){
 }
 
 async function chercherStations(){
-
     document.getElementById("message").innerHTML =
         "Calcul en cours...";
 
@@ -310,11 +323,8 @@ async function chercherStations(){
        return;
        }
   
-    const depCoord =
-        await geocode(depart);
-
-    const arrCoord =
-        await geocode(arrivee);
+    const depCoord = coordDepart  || await geocode(depart);
+    const arrCoord = coordArrivee || await geocode(arrivee);
 
     console.log("depart =", depart);
     console.log("arrivee =", arrivee);
