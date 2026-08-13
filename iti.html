@@ -60,43 +60,43 @@
                  <option value="SP98">SP98</option>
                  <option value="E85">E85</option>
              </select> 
-             <div class="col-md-9 position-relative">
-                <input id="depart" class="form-control"
-                   placeholder="Adresse de départ" autocomplete="off">
-                <ul id="suggestionsDepart"
-                    class="list-group position-absolute w-100"
-                    style="z-index: 2000;">
-                </ul>
-             </div>
-             <div class="col-md-1"> 
-                <button onclick="geolocaliser('depart')"
-                  title="Me localiser">🎯
-                </button>
-             </div>          
          </div>
+         <div class="col-md-9 position-relative">
+             <input id="depart" class="form-control"
+                placeholder="Adresse de départ" autocomplete="off">
+             <ul id="suggestionsDepart"
+                 class="list-group position-absolute w-100"
+                 style="z-index: 2000;">
+             </ul>
+         </div>
+         <div class="col-md-1"> 
+             <button onclick="geolocaliser('depart')"
+                title="Me localiser">🎯
+             </button>
+         </div>          
+      </div>
+     
+      <div class="row g-2 mt-1">
+          <div class="col-md-10 position-relative">
+             <input id="arrivee" class="form-control"
+                placeholder="Adresse d'arrivée"  autocomplete="off">
+             <ul id="suggestionsArrivee"
+                class="list-group position-absolute w-100"
+                style="z-index: 2000; ">
+             </ul>
+          </div>
         
-         <div class="row g-2 mt-1">
-             <div class="col-md-10 position-relative">
-                <input id="arrivee" class="form-control"
-                   placeholder="Adresse d'arrivée"  autocomplete="off">
-                <ul id="suggestionsArrivee"
-                   class="list-group position-absolute w-100"
-                   style="z-index: 2000; ">
-                </ul>
-             </div>
-        
-             <div class="col-md-1">
-                 <button onclick="geolocaliser('arrivee')"
-                    title="Me localiser">🎯
-                 </button>
-             </div>
+          <div class="col-md-1">
+              <button onclick="geolocaliser('arrivee')"
+                 title="Me localiser">🎯
+              </button>
+          </div>
 
-             <div class="col-md-1">
-                  <button onclick="chercherStations()">
-                      🔄 Rechercher
-                  </button>
-             </div>
-         </div>
+          <div class="col-md-1">
+               <button onclick="chercherStations()">
+                   🔄 Rechercher
+               </button>
+          </div>
       </div>
    </div>
    <div id="message" class="message-zone"></div>
