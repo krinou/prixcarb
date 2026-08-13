@@ -60,24 +60,29 @@
               <option value="E85">E85</option>
           </select> 
   
-          <input id="depart" class="form-control"
-             placeholder="Adresse de départ" autocomplete="off">
-          <ul id="suggestionsDepart"
-              class="list-group position-absolute w-100"
-              style="z-index: 2000;">
-          </ul>
-         
+          <div class="position-relative flex-grow-1">
+              <input id="depart" class="form-control"
+                 placeholder="Adresse de départ" autocomplete="off">
+              <ul id="suggestionsDepart"
+                 class="list-group position-absolute w-100"
+                 style="z-index: 2000;">
+              </ul>
+          </div>
+        
           <button class="btn btn-outline-secondary px-2" onclick="geolocaliser('depart')" title="Me localiser">🎯 </button>
       </div>          
      
       <div class="d-flex gap-2 align-items-center mt-2">
           <div style="width:220px"></div>
-          <input id="arrivee" class="form-control"
-             placeholder="Adresse d'arrivée"  autocomplete="off">
-          <ul id="suggestionsArrivee"
-             class="list-group position-absolute w-100"
-             style="z-index: 2000; ">
-          </ul>
+
+          <div class="position-relative flex-grow-1">
+             <input id="arrivee" class="form-control"
+                placeholder="Adresse d'arrivée"  autocomplete="off">
+             <ul id="suggestionsArrivee"
+                class="list-group position-absolute w-100"
+                style="z-index: 2000; ">
+             </ul>
+          </div>
         
           <button class="btn btn-outline-secondary px-2" onclick="geolocaliser('arrivee')" title="Me localiser">🎯</button>
           <button class="btn btn-primary px-2" style="width:180px" onclick="chercherStations()">🔄 Rechercher </button>
