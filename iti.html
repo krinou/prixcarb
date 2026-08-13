@@ -13,6 +13,25 @@
   #autocompleteList li:hover {
     background: #eee;
   }
+  #depart,
+  #arrivee {
+    min-width: 250px;
+  }
+
+  .form-ligne {
+    overflow-x: auto;
+  }
+  
+  .message-zone {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+}
 </style>
    
 <head>
@@ -33,44 +52,46 @@
          Optimisez votre itineraire pour dépenser moins.
       </p>
 
-      <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
-          <select id="carburant" class="form-select" style="width: 120px;">
-              <option value="Gazole">Gazole</option>
-              <option value="E10" selected>SP95-E10</option>
-              <option value="SP98">SP98</option>
-              <option value="E85">E85</option>
-          </select> 
-          <div class="position-relative flex-grow-1">
-             <input id="depart" class="form-control"
-                placeholder="Adresse de départ" autocomplete="off">
-             <ul id="suggestionsDepart"
-                 class="list-group position-absolute w-100"
-                 style="z-index: 2000;">
-             </ul>
-          </div>
-          <button onclick="geolocaliser('depart')"
-               title="Me localiser">🎯
-          </button>
+      <div class="form-ligne">
+         <div class="d-flex align-items-stretch gap-2 flex-nowrap mb-0">
+             <select id="carburant" class="form-select" style="width: 120px;">
+                 <option value="Gazole">Gazole</option>
+                 <option value="E10" selected>SP95-E10</option>
+                 <option value="SP98">SP98</option>
+                 <option value="E85">E85</option>
+             </select> 
+             <div class="position-relative flex-grow-1">
+                <input id="depart" class="form-control"
+                   placeholder="Adresse de départ" autocomplete="off">
+                <ul id="suggestionsDepart"
+                    class="list-group position-absolute w-100"
+                    style="z-index: 2000;">
+                </ul>
+             </div>
+             <button onclick="geolocaliser('depart')"
+                  title="Me localiser">🎯
+             </button>
 
-          <div class="position-relative flex-grow-1">
-             <input id="arrivee" class="form-control"
-                placeholder="Adresse d'arrivée"  autocomplete="off">
-             <ul id="suggestionsArrivee"
-                class="list-group position-absolute w-100"
-                style="z-index: 2000; ">
-             </ul>
-          </div>
+             <div class="position-relative flex-grow-1">
+                <input id="arrivee" class="form-control"
+                   placeholder="Adresse d'arrivée"  autocomplete="off">
+                <ul id="suggestionsArrivee"
+                   class="list-group position-absolute w-100"
+                   style="z-index: 2000; ">
+                </ul>
+             </div>
         
-          <button onclick="geolocaliser('arrivee')"
-              title="Me localiser">🎯
-          </button>
+             <button onclick="geolocaliser('arrivee')"
+                 title="Me localiser">🎯
+             </button>
 
-          <button onclick="chercherStations()">
-             🔄 Rechercher
-          </button>
+             <button onclick="chercherStations()">
+                🔄 Rechercher
+             </button>
+         </div>
       </div>
    </div>
-   <div id="message"></div>
+   <div id="message" class="message-zone"></div>
 
    <table id="tableResultats" class="table table-striped table-hover table-bordered align-middle" style="display:none;">
     <thead class="table-dark">
@@ -312,7 +333,7 @@ function distanceMiniTrajet(station,coords){
 
 async function chercherStations(){
     document.getElementById("message").innerHTML =
-        "Calcul en cours...";
+        "⏳ Calcul en cours...";
 
     const carburantChoisi = document.getElementById("carburant").value;
     const depart  = document.getElementById("depart").value;
