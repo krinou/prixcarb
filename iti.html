@@ -305,17 +305,26 @@ async function chercherStations(){
     const depart  = document.getElementById("depart").value;
     const arrivee = document.getElementById("arrivee").value;
 
+    if (!depart || !arrivee) {
+       alert("Veuillez saisir un départ et une arrivée");
+       return;
+       }
+  
     const depCoord =
         await geocode(depart);
 
     const arrCoord =
         await geocode(arrivee);
 
-    const itin =
-        await calculItineraire(
-            depCoord,
-            arrCoord
-        );
+    console.log("depart =", depart);
+    console.log("arrivee =", arrivee);
+    console.log("depCoord =", depCoord);
+    console.log("arrCoord =", arrCoord);
+  
+    const itin = await calculItineraire(
+                       depCoord,
+                       arrCoord
+                       );
 
     const coords =
         itin.features[0]
