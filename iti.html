@@ -67,12 +67,11 @@
               style="z-index: 2000;">
           </ul>
          
-          <button onclick="geolocaliser('depart')"
-             title="Me localiser">🎯
-          </button>
+          <button class="btn btn-outline-secondary px-2" onclick="geolocaliser('depart')" title="Me localiser">🎯 </button>
       </div>          
      
       <div class="d-flex gap-2 align-items-center mt-2">
+          <div style="width:120px"></div>
           <input id="arrivee" class="form-control"
              placeholder="Adresse d'arrivée"  autocomplete="off">
           <ul id="suggestionsArrivee"
@@ -80,13 +79,8 @@
              style="z-index: 2000; ">
           </ul>
         
-          <button onclick="geolocaliser('arrivee')"
-              title="Me localiser">🎯
-          </button>
-          
-          <button onclick="chercherStations()">
-             🔄 Rechercher
-          </button>
+          <button class="btn btn-outline-secondary px-2" onclick="geolocaliser('arrivee')" title="Me localiser">🎯</button>
+          <button class="btn btn-primary px-2" onclick="chercherStations()">🔄 Rechercher </button>
       </div>
    </div>
   
