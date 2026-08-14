@@ -13,9 +13,7 @@
   #autocompleteList li:hover {
     background: #eee;
   }
-  #depart,
-  #arrivee,
-
+  
   #msgSticky {
     position: fixed;
     bottom: 10px;
@@ -118,7 +116,7 @@
       </div>
    </div>
   
-   <div id="msgSticky" </div>
+   <div id="msgSticky"> </div>
 
    <div id="map" style="height:500px;display:none" class="mb-3"></div>
 `
@@ -211,7 +209,7 @@ let map;
 let couchesItineraires = [];
 
 function setMessage(txt){
-   document.getElementById('msgSticky');
+   const div = document.getElementById('msgSticky');
    div.textContent = txt;
    div.style.display = 'block';
    setTimeout(() => {
@@ -597,8 +595,10 @@ function afficherTableauItineraires(liste) {
 }
   
 async function chercherStations(){
-    const multiItineraires =
-    document.getElementById("multiItineraires").checked;
+    const multiItineraires = document.getElementById("multiItineraires").checked;
+    const depart  = document.getElementById("depart").value;
+    const arrivee = document.getElementById("arrivee").value;
+
     if (multiItineraires) {
        const depCoord = coordDepart || await geocode(depart);
        const arrCoord = coordArrivee || await geocode(arrivee);
