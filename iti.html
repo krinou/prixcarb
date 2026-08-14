@@ -164,6 +164,9 @@ let stations=[];
 let coordDepart = null;
 let coordArrivee = null;
 
+let carburantchoisi = "";
+let itineraireCourant = "« par défaut »";
+  
 //Tri du tableau
 let colonneTri = "prix";
 let ordreTri = 1;
@@ -612,8 +615,8 @@ async function chercherStations(){
   
     setMessage("⏳ Calcul en cours...");
 
-    const carburantChoisi = document.getElementById("carburant").value;
-
+    carburantChoisi = document.getElementById("carburant").value;
+      
     if (!depart || !arrivee) {
        alert("Veuillez saisir un départ et une arrivée");
        return;
@@ -700,6 +703,7 @@ async function chercherStations(){
 
 function selectionnerItineraire(index){
    const it = itinerairesCalcules[index];
+   itineraireCourant = it.nom;
 
    setMessage(
       it.nom +
@@ -802,7 +806,7 @@ function afficher(liste){
   console.log("affichage de", liste.length, "lignes");
 
   document.getElementById("titreStations").innerHTML =
-    `⛽ ${resultat.length} station(s) ${carburant}
+    `🛣️ ${resultat.length} station(s) ${carburant}
      trouvée(s) sur l'itinéraire "${mode.nom}"`;
   
   document.getElementById("tableResultats").style.display = "table";  
