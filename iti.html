@@ -16,6 +16,19 @@
   #depart,
   #arrivee,
 
+  #msgSticky {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1e88e5;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: none;
+    z-index: 9999;
+  }
+
   .form-ligne {
     overflow-x: auto;
   }
@@ -105,7 +118,7 @@
       </div>
    </div>
   
-   <div id="messageHaut" class="message-zone"></div>
+   <div id="msgSticky" </div>
 
    <div id="map" style="height:500px;display:none" class="mb-3"></div>
 `
@@ -124,8 +137,6 @@
     </tbody>
   </table>
   
-  <div id="messageBas" class="message-zone"></div>
-
   <table id="tableResultats" class="table table-striped table-hover table-bordered align-middle" style="display:none;">
     <thead class="table-dark">
          <tr>
@@ -200,8 +211,11 @@ let map;
 let couchesItineraires = [];
 
 function setMessage(txt){
-   document.getElementById("messageHaut").innerHTML = txt;
-   document.getElementById("messageBas").innerHTML = txt;
+   document.getElementById('msgSticky');
+   div.textContent = txt;
+   div.style.display = 'block';
+   setTimeout(() => {
+     div.style.display = 'none';}, 3000);
 }
   
 function afficherCarteItineraires(liste){
