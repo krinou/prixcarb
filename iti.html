@@ -499,7 +499,7 @@ async function calculer4Itineraires(depCoord, arrCoord) {
 
     for (const mode of MODES_ITINERAIRES) {
         try {
-            setmessage("⏳ Calcul : " + mode.nom);
+            setMessage("⏳ Calcul : " + mode.nom);
 
             const itin =
                 await calculItineraire(
@@ -678,7 +678,7 @@ async function chercherStations(){
     console.log(resultat[0]);
     afficher(resultat);
 
-    setmessage(        
+    setMessage(        
         resultat.length +
         " station(s) trouvée(s) pour le carburant " + carburantChoisi );
 
@@ -687,7 +687,7 @@ async function chercherStations(){
 function selectionnerItineraire(index){
    const it = itinerairesCalcules[index];
 
-   setmessage(
+   setMessage(
       it.nom +
       " - " +
       formaterDuree(it.dureeSecondes) +
