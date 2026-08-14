@@ -164,7 +164,7 @@ let stations=[];
 let coordDepart = null;
 let coordArrivee = null;
 
-let carburantchoisi = "";
+let carburantChoisi = "";
 let itineraireCourant = "« par défaut »";
   
 //Tri du tableau
@@ -806,8 +806,8 @@ function afficher(liste){
   console.log("affichage de", liste.length, "lignes");
 
   document.getElementById("titreStations").innerHTML =
-    `🛣️ ${resultat.length} station(s) ${carburant}
-     trouvée(s) sur l'itinéraire "${mode.nom}"`;
+    `🛣️ ${resultat.length} station(s) ${carburantChoisi}
+     trouvée(s) sur l'itinéraire "${itineraireCourant}"`;
   
   document.getElementById("tableResultats").style.display = "table";  
   mettreAJourEntetesTri();
