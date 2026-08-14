@@ -524,7 +524,10 @@ async function chercherStations(){
     const multiItineraires =
     document.getElementById("multiItineraires").checked;
     if (multiItineraires) {
-       alert("Mode multi-itinéraires en cours de développement");
+       const depCoord = coordDepart || await geocode(depart);
+       const arrCoord = coordArrivee || await geocode(arrivee);
+       itinerairesCalcules = await calculer4Itineraires(depCoord, arrCoord);
+       afficherTableauItineraires(itinerairesCalcules);
        return;
        }
   
@@ -616,6 +619,21 @@ async function chercherStations(){
         resultat.length +
         " station(s) trouvée(s) pour le carburant " + carburantChoisi;
 
+}
+
+function selectionnerItineraire(index){
+   const it = itinerairesCalcules[index];
+
+   document.getElementById("message")
+      .innerHTML =
+      it.nom +
+      " - " +
+      formaterDuree(it.dureeSecondes) +
+      " - " +
+      it.distanceKm.toFixed(1) +
+      " km";
+
+   console.log(it);
 }
 
 async function trouverDepartementsTraverses(itin) {
