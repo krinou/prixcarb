@@ -112,7 +112,7 @@
           </div>
         
           <button class="btn btn-outline-secondary px-2" onclick="geolocaliser('arrivee')" title="Me localiser">🎯</button>
-          <button class="btn btn-primary px-2" style="width:180px" onclick="chercherStations()">🔄 Rechercher </button>
+          <button class="btn btn-primary px-2" style="width:180px" onclick="cherchtions()">🔄 Rechercher </button>
       </div>
    </div>
   
@@ -165,7 +165,7 @@ let coordDepart = null;
 let coordArrivee = null;
 
 let carburantChoisi = "";
-let itineraireCourant = "« par défaut »";
+let itineraireCourant = « par défaut »;
   
 //Tri du tableau
 let colonneTri = "prix";
@@ -598,8 +598,20 @@ function afficherTableauItineraires(liste) {
 
     document.getElementById("tableItineraires").style.display = "table";
 }
+
+function reinitialiserAffichage() {
+    document.getElementById("map").style.display = "none";
+    document.getElementById("tableItineraires").style.display = "none";
+    document.getElementById("tableResultats").style.display = "none";
+
+    itinerairesCalcules = [];
+    resultat = [];
+}
   
 async function chercherStations(){
+  
+    reinitialiserAffichage();
+  
     const multiItineraires = document.getElementById("multiItineraires").checked;
     const depart  = document.getElementById("depart").value;
     const arrivee = document.getElementById("arrivee").value;
@@ -705,15 +717,46 @@ function selectionnerItineraire(index){
    const it = itinerairesCalcules[index];
    itineraireCourant = it.nom;
 
-   setMessage(
-      it.nom +
-      " - " +
-      formaterDuree(it.dureeSecondes) +
-      " - " +
-      it.distanceKm.toFixed(1) +
-      " km");
+   setMessage( "⏳ Recherche des stations " + carburantChoisi + " pour " + it.nom );
 
-   console.log("Itinéraire sélectionné :", it.nom);
+   const coords = it.itin.features[0].geometry.coordinates;
+   const deps = await trouverDepartementsTraverses(it.itin);
+
+   stations = [];
+   for (const dep of deps) {
+      const r = await fetch(`data/latest/${dep}.json`);
+      if (!r.ok) {
+         continue;
+      }
+      const data = await r.json();
+      stations.push(...data);
+   }
+
+   resultat = [];
+   for (const st of stations) {
+      const info = st.carburants?.[carburantChoisi];
+      if (!info)
+         continue;
+
+      const prix =  parseFloat(info.valeur);
+      if (isNaN(prix))
+         continue;
+
+      const d = distanceMiniTrajet(st, coords);
+      if (d <= 2) {
+         resultat.push({
+            ...st,
+            carburant: carburantChoisi,
+            prix,
+            distanceTrajet: d
+         });
+      }
+   }
+
+   appliquerTri();
+   afficher(resultat);
+   setMessage( "✅ " +  resultat.length +  " station(s) trouvée(s)" );
+}   
 }
 
 async function trouverDepartementsTraverses(itin) {
