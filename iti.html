@@ -648,6 +648,18 @@ async function chercherStations(){
                        mode = {}
                        );
 
+  await rechercherStationsSurItineraire(
+        itin,
+        depCoord,
+        carburantChoisi
+        );
+}
+
+async function rechercherStationsSurItineraire(
+      itin,
+      depCoord,
+      carburantChoisi
+) {
     const coords =
         itin.features[0]
             .geometry
@@ -702,8 +714,9 @@ async function chercherStations(){
           });
        }   
     }
+}
 
-    appliquerTri();
+appliquerTri();
     console.log(resultat[0]);
     afficher(resultat);
 
@@ -719,50 +732,11 @@ async function selectionnerItineraire(index){
 
    setMessage( "⏳ Recherche des stations " + carburantChoisi + " pour " + it.nom );
 
-   const coords = it.itin.features[0].geometry.coordinates;
-   const deps = await trouverDepartementsTraverses(it.itin);
+  await rechercherStationsSurItineraire(
+        it.itin,
+        coordDepart,
+        document.getElementById("carburant").value );
 
-   stations = [];
-   for (const dep of deps) {
-      const r = await fetch(`data/latest/${dep}.json`);
-      if (!r.ok) {
-         continue;
-      }
-      const data = await r.json();
-      stations.push(...data);
-   }
-
-   resultat = [];
-   for (const st of stations) {
-      const info = st.carburants?.[carburantChoisi];
-      if (!info)
-         continue;
-
-      const prix =  parseFloat(info.valeur);
-      if (isNaN(prix))
-         continue;
-
-      const d = distanceMiniTrajet(st, coords);
-      if (d <= 2) {
-         const distanceDepart = distanceKm(
-               depCoord[1],
-               depCoord[0],
-               st.latitude,
-               st.longitude
-               ); 
-          
-         resultat.push({
-            ...st,
-            carburant: carburantChoisi,
-            prix,
-            distanceDepart,
-            distanceTrajet: d
-         });
-      }
-   }
-
-   appliquerTri();
-   afficher(resultat);
    setMessage( "✅ " +  resultat.length +  " station(s) trouvée(s)" );  
 }
 
