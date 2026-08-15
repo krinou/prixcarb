@@ -714,16 +714,14 @@ async function rechercherStationsSurItineraire(
           });
        }   
     }
-}
 
-appliquerTri();
+    appliquerTri();
     console.log(resultat[0]);
     afficher(resultat);
 
     setMessage(        
         resultat.length +
         " station(s) trouvée(s) pour le carburant " + carburantChoisi );
-
 }
 
 async function selectionnerItineraire(index){
