@@ -119,7 +119,7 @@
    <div id="msgSticky"> </div>
 
    <div id="map" style="height:500px;display:none" class="mb-3"></div>
-`
+
    <table id="tableItineraires"
        class="table table-striped table-hover table-bordered align-middle mt-3"
        style="display:none;">
@@ -603,7 +603,7 @@ function reinitialiserAffichage() {
     document.getElementById("map").style.display = "none";
     document.getElementById("tableItineraires").style.display = "none";
     document.getElementById("tableResultats").style.display = "none";
-
+    document.getElementById("titreStations").innerHTML = "";
     itinerairesCalcules = [];
     resultat = [];
 }
@@ -744,10 +744,18 @@ async function selectionnerItineraire(index){
 
       const d = distanceMiniTrajet(st, coords);
       if (d <= 2) {
+         const distanceDepart = distanceKm(
+               depCoord[1],
+               depCoord[0],
+               st.latitude,
+               st.longitude
+               ); 
+          
          resultat.push({
             ...st,
             carburant: carburantChoisi,
             prix,
+            distanceDepart,
             distanceTrajet: d
          });
       }
