@@ -213,6 +213,8 @@ const MODES_ITINERAIRES = [
 let map;
 let couchesItineraires = [];
 
+let marqueursStations = [];
+
 function setMessage(txt){
    const div = document.getElementById('msgSticky');
    div.textContent = txt;
@@ -909,6 +911,41 @@ function extraireStationsSelectionnees(distanceTrajetKm) {
     }
 
     return stationsRetenues;
+}
+
+function afficherStationsSelectionnees(stationsSelectionnees) {
+    marqueursStations.forEach(m => map.removeLayer(m));
+    marqueursStations = [];
+
+    const couleurs = [
+        "red",
+        "orange",
+        "green",
+        "blue",
+        "violet",
+        "black",
+        "brown"
+    ];
+
+    stationsSelectionnees.forEach((st, index) => {
+        const marker = L.circleMarker(
+            [st.latitude, st.longitude],
+            {
+                radius: 8,
+                color: couleurs[index % couleurs.length],
+                fillColor: couleurs[index % couleurs.length],
+                fillOpacity: 1
+            }
+        ).addTo(map);
+
+        marker.bindPopup(
+            `<b>${st.enseigne}</b><br>
+             ${st.prix.toFixed(3)} €<br>
+             ${st.distanceDepart.toFixed(0)} km du départ`
+        );
+
+        marqueursStations.push(marker);
+    });
 }
   
 </script>
