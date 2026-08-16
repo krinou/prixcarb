@@ -40,6 +40,14 @@
     "maxLon": 6.127
   },
   {
+    "dep": "89",
+    "nbStations": 86,
+    "minLat": 47.371,
+    "maxLat": 48.336,
+    "minLon": 2.95,
+    "maxLon": 4.175
+  },
+  {
     "dep": "25",
     "nbStations": 102,
     "minLat": 46.716,
@@ -104,14 +112,6 @@
     "maxLon": 6.808
   },
   {
-    "dep": "89",
-    "nbStations": 86,
-    "minLat": 47.371,
-    "maxLat": 48.336,
-    "minLon": 2.95,
-    "maxLon": 4.175
-  },
-  {
     "dep": "33",
     "nbStations": 227,
     "minLat": 44.28624,
@@ -120,20 +120,20 @@
     "maxLon": 0.23
   },
   {
-    "dep": "59",
-    "nbStations": 251,
-    "minLat": 50.018,
-    "maxLat": 51.065,
-    "minLon": 2.1123,
-    "maxLon": 4.1488
-  },
-  {
     "dep": "83",
     "nbStations": 178,
     "minLat": 43.083,
     "maxLat": 43.73168,
     "minLon": 5.69511,
     "maxLon": 6.80566
+  },
+  {
+    "dep": "60",
+    "nbStations": 117,
+    "minLat": 49.0967,
+    "maxLat": 49.666,
+    "minLon": 1.722,
+    "maxLon": 3.05
   },
   {
     "dep": "74",
@@ -160,12 +160,12 @@
     "maxLon": 4.86654
   },
   {
-    "dep": "60",
-    "nbStations": 117,
-    "minLat": 49.0967,
-    "maxLat": 49.666,
-    "minLon": 1.722,
-    "maxLon": 3.05
+    "dep": "59",
+    "nbStations": 251,
+    "minLat": 50.018,
+    "maxLat": 51.065,
+    "minLon": 2.1123,
+    "maxLon": 4.1488
   },
   {
     "dep": "77",
@@ -192,14 +192,6 @@
     "maxLon": 1.408
   },
   {
-    "dep": "19",
-    "nbStations": 64,
-    "minLat": 44.973,
-    "maxLat": 45.662,
-    "minLon": 1.33698,
-    "maxLon": 2.49992
-  },
-  {
     "dep": "82",
     "nbStations": 64,
     "minLat": 43.8,
@@ -222,6 +214,14 @@
     "maxLat": 48.753,
     "minLon": 2.003,
     "maxLon": 2.537
+  },
+  {
+    "dep": "19",
+    "nbStations": 64,
+    "minLat": 44.973,
+    "maxLat": 45.662,
+    "minLon": 1.33698,
+    "maxLon": 2.49992
   },
   {
     "dep": "13",
@@ -320,20 +320,20 @@
     "maxLon": 5.07574
   },
   {
-    "dep": "43",
-    "nbStations": 54,
-    "minLat": 44.84947,
-    "maxLat": 45.373,
-    "minLon": 3.27431,
-    "maxLon": 4.39291
-  },
-  {
     "dep": "88",
     "nbStations": 83,
     "minLat": 47.856,
     "maxLat": 48.407,
     "minLon": 5.57626,
     "maxLon": 7.00409
+  },
+  {
+    "dep": "43",
+    "nbStations": 54,
+    "minLat": 44.84947,
+    "maxLat": 45.373,
+    "minLon": 3.27431,
+    "maxLon": 4.39291
   },
   {
     "dep": "75",
