@@ -237,7 +237,7 @@ function afficherCarteItineraires(liste){
     couchesItineraires = [];
     const bounds = [];
 
-    liste.forEach(it => {
+    liste.forEach((it, index) => {
         if(!it.itin) return;
 
         const coords = it.itin.features[0]
@@ -259,6 +259,12 @@ function afficherCarteItineraires(liste){
             it.distanceKm.toFixed(1) +
             " km"
         );
+        
+        polyline.on('click', () => {
+          couchesItineraires.forEach(c => c.setStyle({ weight: 5 }));
+          polyline.setStyle({ weight: 9});
+          selectionnerItineraire(index);
+          });
 
         couchesItineraires.push(polyline);
         coords.forEach(p => bounds.push(p));
