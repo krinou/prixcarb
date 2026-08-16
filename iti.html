@@ -386,7 +386,11 @@ function geolocaliser(idChamp) {
         const adresse = j.features[0].properties.label;
 
         document.getElementById(idChamp).value = adresse;
-
+        if(idChamp==="depart"){
+           coordDepart=[lon,lat];
+        }else{
+           coordArrivee=[lon,lat];
+        }
     }, err => {
         alert("Impossible de récupérer votre position.");
     });
@@ -634,7 +638,8 @@ async function chercherStations(){
     const multiItineraires = document.getElementById("multiItineraires").checked;
     const depart  = document.getElementById("depart").value;
     const arrivee = document.getElementById("arrivee").value;
-
+    carburantChoisi = document.getElementById("carburant").value;
+      
     if (multiItineraires) {
        const depCoord = coordDepart || await geocode(depart);
        const arrCoord = coordArrivee || await geocode(arrivee);
@@ -646,8 +651,6 @@ async function chercherStations(){
   
     setMessage("⏳ Calcul en cours...");
 
-    carburantChoisi = document.getElementById("carburant").value;
-      
     if (!depart || !arrivee) {
        alert("Veuillez saisir un départ et une arrivée");
        return;
@@ -757,8 +760,9 @@ async function selectionnerItineraire(index){
    setMessage( "✅ " +  resultat.length +  " station(s) trouvée(s)" );
 
    const stationsSelectionnees = extraireStationsSelectionnees(it.distanceKm);
+   afficherStationsSelectionnees(stationsSelectionnees);
 
-console.log(stationsSelectionnees);
+   console.log(stationsSelectionnees);
 }
 
 async function trouverDepartementsTraverses(itin) {
