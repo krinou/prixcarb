@@ -261,10 +261,21 @@ function afficherCarteItineraires(liste){
         );
         
         polyline.on('click', () => {
-          couchesItineraires.forEach(c => c.setStyle({ weight: 5 }));
-          polyline.setStyle({ weight: 9});
+          couchesItineraires.forEach((c, i) => {
+            if (i === index) {
+               c.setStyle({ 
+                 color: itinerairesCalcules[i].couleur,
+                 opacity: 1,
+                 weight: 5 });
+               } else {
+                 c.setStyle({ 
+                   color: "#bdbdbd",
+                   opacity: 0.4,
+                   weight: 4 });
+              } 
+          });                
           selectionnerItineraire(index);
-          });
+        });
 
         couchesItineraires.push(polyline);
         coords.forEach(p => bounds.push(p));
@@ -741,7 +752,11 @@ async function selectionnerItineraire(index){
         coordDepart,
         document.getElementById("carburant").value );
 
-   setMessage( "✅ " +  resultat.length +  " station(s) trouvée(s)" );  
+   setMessage( "✅ " +  resultat.length +  " station(s) trouvée(s)" );
+
+   const stationsSelectionnees = extraireStationsSelectionnees(it.distanceKm);
+
+console.log(stationsSelectionnees);
 }
 
 async function trouverDepartementsTraverses(itin) {
@@ -869,6 +884,33 @@ function mettreAJourEntetesTri() {
         }
     });
 }
+
+function extraireStationsSelectionnees(distanceTrajetKm) {
+    // trajet court
+    if (distanceTrajetKm < 80) {
+        return [...resultat]
+            .sort((a,b) => a.prix - b.prix)
+            .slice(0,3);
+    }
+
+    const stationsRetenues = [];
+    const tranches = {};
+
+    for (const st of resultat) {
+        const tranche =
+            Math.floor(st.distanceDepart / 80);
+
+        // première station de la tranche
+        // (le tableau étant trié par prix)
+        if (!tranches[tranche]) {
+            tranches[tranche] = st;
+            stationsRetenues.push(st);
+        }
+    }
+
+    return stationsRetenues;
+}
+  
 </script>
 
 </body>
