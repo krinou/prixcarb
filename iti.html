@@ -927,11 +927,12 @@ function afficherStationsSelectionnees(stationsSelectionnees) {
        let image;
        if (index === 0) {
           image = "paev.png"; // la moins chère = vert
-       } else if {(index === stationsSelectionnees.length - 1) {
-                 image = "paer.png"; // la plus chère = rouge
-              } else {
-                image = "paeo.png"; // bonnes affaires = orange
-              }
+       } else { 
+         if (index === stationsSelectionnees.length - 1) {
+             image = "paer.png"; // la plus chère = rouge
+          } else {
+             image = "paeo.png"; // bonnes affaires = orange
+          }
        };
                
        const icon = L.icon({
