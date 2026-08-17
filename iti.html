@@ -927,11 +927,12 @@ function afficherStationsSelectionnees(stationsSelectionnees) {
        let image;
        if (index === 0) {
           image = "paev.png"; // la moins chère = vert
-       } else { if (index === stationsSelectionnees.length - 1) {
-                   image = "paer.png"; // la plus chère = rouge
+       } else if {(index === stationsSelectionnees.length - 1) {
+                 image = "paer.png"; // la plus chère = rouge
               } else {
                 image = "paeo.png"; // bonnes affaires = orange
-       }
+              }
+       };
                
        const icon = L.icon({
            iconUrl: image,
@@ -942,10 +943,11 @@ function afficherStationsSelectionnees(stationsSelectionnees) {
        const marker = L.marker(
           [st.latitude, st.longitude],
           { icon: icon }
-        ).addTo(map);;
+        ).addTo(map);
 
         marker.bindPopup(
-             `https://www.google.com/maps/search/?api=1&query=${st.latitude},${st.longitude}
+             `<a https://www.google.com/maps/search/?api=1&query=${st.latitude},${st.longitude}
+                 target="_blank"> Ouvrir dans Google Maps </a><br>
              <b>${st.enseigne}</b><br>
              ${st.prix.toFixed(3)} €<br>
              ${st.distanceDepart.toFixed(0)} km du départ`
