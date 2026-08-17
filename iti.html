@@ -921,32 +921,38 @@ function afficherStationsSelectionnees(stationsSelectionnees) {
     marqueursStations.forEach(m => map.removeLayer(m));
     marqueursStations = [];
 
-    const couleurs = [
-        "red",
-        "orange",
-        "green",
-        "blue",
-        "violet",
-        "black",
-        "brown"
-    ];
-
-    stationsSelectionnees.forEach((st, index) => {
-        const marker = L.circleMarker(
-            [st.latitude, st.longitude],
-            {
-                radius: 8,
-                color: couleurs[index % couleurs.length],
-                fillColor: couleurs[index % couleurs.length],
-                fillOpacity: 1
-            }
-        ).addTo(map);
+    
+  
+   stationsSelectionnees.forEach((st, index) => {
+       let image;
+       if (index === 0) {
+          image = "paev.png"; // la moins chère = vert
+       } else { if (index === stationsSelectionnees.length - 1) {
+                   image = "paer.png"; // la plus chère = rouge
+              } else {
+                image = "paeo.png"; // bonnes affaires = orange
+       }
+               
+       const icon = L.icon({
+           iconUrl: image,
+           iconSize: [24, 24],
+           iconAnchor: [12, 12],
+           popupAnchor: [0, -12]
+       });
+       const marker = L.marker(
+          [st.latitude, st.longitude],
+          { icon: icon }
+        ).addTo(map);;
 
         marker.bindPopup(
-            `<b>${st.enseigne}</b><br>
+             `https://www.google.com/maps/search/?api=1&query=${st.latitude},${st.longitude}
+             <b>${st.enseigne}</b><br>
              ${st.prix.toFixed(3)} €<br>
              ${st.distanceDepart.toFixed(0)} km du départ`
         );
+
+        marker.on('mouseover', () => marker.openPopup());
+        marker.on('mouseout', () => marker.closePopup());
 
         marqueursStations.push(marker);
     });
