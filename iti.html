@@ -272,7 +272,7 @@ function afficherCarteItineraires(liste){
                } else {
                  c.setStyle({ 
                    color: "#bdbdbd",
-                   opacity: 0.4,
+                   opacity: 0.6,
                    weight: 4 });
               } 
           });                
@@ -926,12 +926,12 @@ function afficherStationsSelectionnees(stationsSelectionnees) {
    stationsSelectionnees.forEach((st, index) => {
        let image;
        if (index === 0) {
-          image = "paev.png"; // la moins chère = vert
+          image = "paev.ico"; // la moins chère = vert
        } else { 
          if (index === stationsSelectionnees.length - 1) {
-             image = "paer.png"; // la plus chère = rouge
+             image = "paer.ico"; // la plus chère = rouge
           } else {
-             image = "paeo.png"; // bonnes affaires = orange
+             image = "paeo.ico"; // bonnes affaires = orange
           }
        };
                
@@ -948,15 +948,25 @@ function afficherStationsSelectionnees(stationsSelectionnees) {
 
         marker.bindPopup(
              `<a https://www.google.com/maps/search/?api=1&query=${st.latitude},${st.longitude}
-                 target="_blank"> Ouvrir dans Google Maps </a><br>
-             <b>${st.enseigne}</b><br>
+                 target="_blank"> ${st.enseigne} </a><br>
              ${st.prix.toFixed(3)} €<br>
              ${st.distanceDepart.toFixed(0)} km du départ`
         );
 
-        marker.on('mouseover', () => marker.openPopup());
-        marker.on('mouseout', () => marker.closePopup());
-
+        if (!L.Browser.touch) {
+           let popupTimer;
+           marker.on('mouseover', function () {
+             clearTimeout(popupTimer);
+             this.openPopup();
+             });
+           marker.on('mouseout', function () { 
+             popupTimer = setTimeout(() => {
+               this.closePopup();}, 1000); // 1 seconde
+             });
+        } else {
+          marker.on('click', () => marker.openPopup());
+        }
+            
         marqueursStations.push(marker);
     });
 }
