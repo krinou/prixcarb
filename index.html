@@ -77,7 +77,61 @@
     color: #fff;
   }
 
-@media (max-width: 768px) {
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 60px;
+
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 9999;
+
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+
+    text-decoration: none;
+    color: #555;
+
+    font-size: 1.3rem;
+  }
+
+  .nav-item small {
+    font-size: 0.7rem;
+  }
+
+  .nav-item.active {
+    color: #198754;
+  }
+
+  body {
+    padding-bottom: 75px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+ @media (min-width: 768px) {
+    .bottom-nav {
+       display: none;
+    }
+ }
+
+ @media (max-width: 768px) {
     .container {
        margin-top: 1rem !important;
        padding-left: 12px;
@@ -354,41 +408,43 @@ async function afficherStationsBrut() {
    <p class="lead">
       Trouvez la station la moins chère près de chez vous.
     </p>
-  <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
-      <select id="carburantSelect" class="form-select" style="width: 120px;">
-         <option value="E10" selected>SP95-E10</option>
-         <option value="SP95">SP95</option>
-         <option value="SP98">SP98</option>
-         <option value="Gazole">Gazole</option>
-         <option value="E85">E85</option>
-      </select>
+    <div id="recherche">
+       <div class="d-grid gap-2 d-sm-flex align-items-stretch mb-0">
+           <select id="carburantSelect" class="form-select" style="width: 120px;">
+              <option value="E10" selected>SP95-E10</option>
+              <option value="SP95">SP95</option>
+              <option value="SP98">SP98</option>
+              <option value="Gazole">Gazole</option>
+              <option value="E85">E85</option>
+           </select>
 
-     <div class="position-relative flex-grow-1">
-        <input id="adresseInput" class="form-control"
-            placeholder="Entrez un code postal ou une adresse"
-            autocomplete="off">
-        <ul id="autocompleteList"
-           class="list-group position-absolute w-100"
-           style="z-index: 2000; top: 100%; left: 0;">
-        </ul>
-     </div>   
-     <button 
-         id="btnLocaliser" 
-         type="button"
-         class="btn btn-outline-primary"
-         onclick="geolocaliser()"
-         title="Utiliser ma position actuelle"
-         aria-label="Utiliser ma position actuelle">
-         🎯<span>Autour de moi</span>
-     </button>
-     <button 
-         id="btnRechercher"
-         type="button"
-         class="btn btn-primary px-2"
-         onclick="afficherStationsBrut()">
-         🔄 Rechercher
-     </button>
-  </div>
+          <div class="position-relative flex-grow-1">
+              <input id="adresseInput" class="form-control"
+               placeholder="Entrez un code postal ou une adresse"
+               autocomplete="off">
+                 <ul    id="autocompleteList"
+                     class="list-group position-absolute w-100"
+                     style="z-index: 2000; top: 100%; left: 0;">
+                 </ul>
+          </div>   
+          <button 
+               id="btnLocaliser" 
+               type="button"
+               class="btn btn-outline-primary"
+               onclick="geolocaliser()"
+               title="Utiliser ma position actuelle"
+               aria-label="Utiliser ma position actuelle">
+               🎯<span>Autour de moi</span>
+          </button>
+          <button 
+               id="btnRechercher"
+               type="button"
+               class="btn btn-primary px-2"
+               onclick="afficherStationsBrut()">
+               🔄 Rechercher
+          </button>
+       </div>
+    </div>
 
   <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
   <div id="summary" class="alert alert-secondary text-center"></div>
@@ -1227,5 +1283,28 @@ document.querySelectorAll(".periode-histo").forEach(btn => {
     });
 
 </script>
+
+<nav class="bottom-nav">
+    <a href="#recherche" class="nav-item">
+        <span>🔍</span>
+        <small>Paramètres</small>
+    </a>
+
+    <a href="#conseilPrixCarb" class="nav-item">
+        <span>ℹ️</span>
+        <small>Conseil</small>
+    </a>
+
+    <a href="#carte" class="nav-item">
+       <span>🗺</span>
+       <small>Carte</small>
+    </a>
+    
+    <a href="#table" class="nav-item">
+       <span>📊</span>
+       <small>Voir tableau</small>
+    </a>
+</nav>
+
 </body>
 </html>
