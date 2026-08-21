@@ -88,7 +88,7 @@
     background: #ffffff;
     border-top: 1px solid #ddd;
 
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
 
@@ -97,7 +97,7 @@
     box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
   }
 
-  .nav-item {
+  .mobile-nav-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,11 +109,11 @@
     font-size: 1.3rem;
   }
 
-  .nav-item small {
+  .mobile-nav-item small {
     font-size: 0.7rem;
   }
 
-  .nav-item.active {
+  .mobile-nav-item.active {
     color: #198754;
   }
 
@@ -125,10 +125,10 @@
     scroll-behavior: smooth;
   }
 
- @media (min-width: 768px) {
-    .bottom-nav {
-       display: none;
-    }
+ @media (max-width: 767.98px) {
+   .bottom-nav {
+     display: flex;
+   }
  }
 
  @media (max-width: 768px) {
@@ -1285,22 +1285,22 @@ document.querySelectorAll(".periode-histo").forEach(btn => {
 </script>
 
 <nav class="bottom-nav">
-    <a href="#recherche" class="nav-item">
+    <a href="#recherche" class="mobile-nav-item">
         <span>🔍</span>
         <small>Paramètres</small>
     </a>
 
-    <a href="#conseilPrixCarb" class="nav-item">
+    <a href="#conseilPrixCarb" class="mobile-nav-item">
         <span>ℹ️</span>
         <small>Conseil</small>
     </a>
 
-    <a href="#carte" class="nav-item">
+    <a href="#carte" class="mobile-nav-item">
        <span>🗺</span>
        <small>Carte</small>
     </a>
     
-    <a href="#table" class="nav-item">
+    <a href="#table" class="mobile-nav-item">
        <span>📊</span>
        <small>Voir tableau</small>
     </a>

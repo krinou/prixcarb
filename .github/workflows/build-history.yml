@@ -1,7 +1,7 @@
 name: Build Historical Fuel Prices
 
 on:
-  workflow_dispatch:
+    workflow_dispatch:
 
 permissions:
   contents: write

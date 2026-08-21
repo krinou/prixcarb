@@ -1,0 +1,140 @@
+name: Mise a jour nocturne de l'historique
+
+on:
+    workflow_run:
+        workflows: ["Génération nocturne des prix carburants par département"]
+        types: [completed]
+    workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prixcarb-history-nightly
+  cancel-in-progress: false
+
+jobs:
+  update-history:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ajouter les prix du jour a l'historique
+        run: |
+          python3 <<'PY'
+          import datetime
+          import json
+          from pathlib import Path
+
+          data_dir = Path("data")
+          history_dir = data_dir / "history"
+          date_du_jour = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+          daily_dir = data_dir / date_du_jour
+          history_dir.mkdir(parents=True, exist_ok=True)
+
+          if not daily_dir.is_dir():
+              raise SystemExit(f"Dossier quotidien absent : {daily_dir}")
+
+          def normaliser_dep(dep):
+              if dep is None:
+                  return None
+              dep = str(dep).strip()
+              if not dep or not dep.isdigit():
+                  return None
+              return dep.zfill(2) if len(dep) == 1 else dep
+
+          def departement(station):
+              dep = normaliser_dep(station.get("dep"))
+              if dep:
+                  return dep
+
+              code_postal = str(station.get("cp", "")).strip()
+              if len(code_postal) >= 3 and code_postal.startswith("97"):
+                  return code_postal[:3]
+              if len(code_postal) >= 2:
+                  return code_postal[:2]
+              return None
+
+          def ajouter(historique, station, dep):
+              station_id = str(station.get("id", "")).strip()
+              carburants = station.get("carburants", {})
+              if not station_id or not isinstance(carburants, dict):
+                  return
+
+              station_history = historique.setdefault(station_id, {})
+              for carburant, infos in carburants.items():
+                  prix = infos.get("valeur") if isinstance(infos, dict) else infos
+                  if prix is None:
+                      continue
+                  try:
+                      prix = round(float(str(prix).replace(",", ".")), 3)
+                  except (TypeError, ValueError):
+                      continue
+                  if prix <= 0:
+                      continue
+
+                  points = station_history.setdefault(carburant, [])
+                  points[:] = [point for point in points if point[0] != date_du_jour]
+                  points.append([date_du_jour, prix])
+                  points.sort(key=lambda point: point[0])
+
+          fichiers_lus = 0
+          points_ajoutes = 0
+
+          for daily_file in sorted(daily_dir.glob("*.json")):
+              try:
+                  stations = json.loads(daily_file.read_text(encoding="utf-8"))
+              except (OSError, json.JSONDecodeError) as error:
+                  print(f"JSON ignore {daily_file}: {error}")
+                  continue
+              if not isinstance(stations, list):
+                  continue
+
+              dep_fichier = normaliser_dep(daily_file.stem)
+              historique_file = history_dir / f"{dep_fichier}.json" if dep_fichier else None
+              if historique_file is None:
+                  continue
+
+              try:
+                  historique = json.loads(historique_file.read_text(encoding="utf-8")) \
+                      if historique_file.exists() else {}
+              except (OSError, json.JSONDecodeError) as error:
+                  raise SystemExit(f"Historique invalide {historique_file}: {error}")
+
+              if not isinstance(historique, dict):
+                  historique = {}
+
+              for station in stations:
+                  if isinstance(station, dict) and (departement(station) or dep_fichier) == dep_fichier:
+                      avant = sum(len(points) for fuels in historique.get(str(station.get("id", "")).strip(), {}).values() for points in fuels.values()) if isinstance(historique.get(str(station.get("id", "")).strip()), dict) else 0
+                      ajouter(historique, station, dep_fichier)
+                      apres = sum(len(points) for fuels in historique.get(str(station.get("id", "")).strip(), {}).values() for points in fuels.values()) if isinstance(historique.get(str(station.get("id", "")).strip()), dict) else 0
+                      points_ajoutes += max(0, apres - avant)
+
+              historique_file.write_text(
+                  json.dumps(historique, ensure_ascii=False, separators=(",", ":")),
+                  encoding="utf-8",
+              )
+              fichiers_lus += 1
+
+          print(f"Date traitee : {date_du_jour}")
+          print(f"Fichiers quotidiens lus : {fichiers_lus}")
+          print(f"Points ajoutes : {points_ajoutes}")
+          PY
+
+      - name: Commit et push de l'historique
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history
+          if git diff --cached --quiet; then
+            echo "Aucune modification d'historique."
+          else
+            git commit -m "Mise a jour nocturne de l'historique"
+            git push
+          fi
