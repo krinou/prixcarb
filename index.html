@@ -78,12 +78,29 @@
   }
 
 @media (max-width: 768px) {
+    .container {
+       margin-top: 1rem !important;
+       padding-left: 12px;
+       padding-right: 12px;
+    }
+
+    h1 {
+      font-size: 1.55rem;
+      margin-bottom: 1rem !important;
+    }
+  
+    .lead {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  
     .conseil-card {
         font-size: 0.95rem;
         }
     
     .form-control,
     .form-select {
+        width: 100% !important;
         font-size: 16px;
         min-height: 48px;
     }
@@ -105,8 +122,7 @@
        gap: 0.75rem !important;
        }
     /* Carburant */
-    #carburantSelect {
-       width: 100% !important;  
+    #carburantSelect { 
        font-size: 1.1rem;
        min-height: 52px;
     }
@@ -115,11 +131,16 @@
        font-size: 0.95rem;
     }
     /* Bouton Rechercher */
+    #btnLocaliser,
     #btnRechercher {
         width: 100%;
         height: 50px;
         font-size: 1rem;
      }
+     
+  #btnLocaliser {
+    font-weight: 600;
+  }
 }
 </style>
 
@@ -351,11 +372,22 @@ async function afficherStationsBrut() {
            style="z-index: 2000; top: 100%; left: 0;">
         </ul>
      </div>   
-     <button id="btnLocaliser" class="btn btn-outline-primary">
-       <i class="bi bi-geo-alt-fill"></i>
-       <span class="d-none d-sm-inline">Autour de moi</span>
-       onclick="geolocaliser()" title="Me localiser">🎯</button>
-     <button class="btn btn-primary px-2" onclick="afficherStationsBrut()">🔄 Rechercher</button>
+     <button 
+         id="btnLocaliser" 
+         type="button"
+         class="btn btn-outline-primary"
+         onclick="geolocaliser()"
+         title="Utiliser ma position actuelle"
+         aria-label="Utiliser ma position actuelle">
+         🎯<span>Autour de moi</span>
+     </button>
+     <button 
+         id="btnRechercher"
+         type="button"
+         class="btn btn-primary px-2"
+         onclick="afficherStationsBrut()">
+         🔄 Rechercher
+     </button>
   </div>
 
   <div id="depsLimitrophes" class="mt-0 mb-3 text-secondary" style="font-size: 0.9em;"></div>
