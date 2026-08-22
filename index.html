@@ -441,7 +441,8 @@ async function afficherStationsBrut() {
         const VERSION = new Date(document.lastModified)
                .toLocaleString('fr-FR');
         document.getElementById("debugMobile").textContent =
-          `Version ${VERSION} | ${window.innerWidth}px`;
+          `Version ${VERSION} | inner=${window.innerWidth}px
+          | screen=${screen.width} | DPR=${window.devicePixelRatio}`;
    </script>
 
    <p class="lead">
