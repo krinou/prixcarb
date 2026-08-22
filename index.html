@@ -88,21 +88,26 @@
     background: #ffffff;
     border-top: 1px solid #ddd;
 
-    display: none;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 
     z-index: 9999;
 
     box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    overflow-x: hidden; /* important */
   }
 
   .mobile-nav-item {
     display: flex;
+    flex: 1; /* chaque bouton prend 1/4 de la largeur */
     flex-direction: column;
     align-items: center;
     gap: 2px;
+    min-width: 0; /* important sur mobile */
 
+    text-align: center;
     text-decoration: none;
     color: #555;
 
@@ -162,7 +167,6 @@
 
     .bottom-nav {
        display: flex !important;
-       background: red !important;
        z-index: 999999 !important;;
     }
 
@@ -1332,7 +1336,7 @@ document.querySelectorAll(".periode-histo").forEach(btn => {
 </script>
 
 <nav class="bottom-nav">
-    <!--
+    
     <a href="#recherche" class="mobile-nav-item">
         <span>🔍</span>
         <small>Paramètres</small>
@@ -1352,8 +1356,7 @@ document.querySelectorAll(".periode-histo").forEach(btn => {
        <span>📊</span>
        <small>Voir tableau</small>
     </a>
-    -->
-    TEST BARRE
+    
 </nav>
 
 </body>
