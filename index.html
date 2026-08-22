@@ -157,7 +157,9 @@
     }
 
     .bottom-nav {
-     display: flex;
+       display: flex !important;
+       background: red !important;
+       z-index: 999999 !important;;
     }
 
     .container {
@@ -1322,6 +1324,7 @@ document.querySelectorAll(".periode-histo").forEach(btn => {
 </script>
 
 <nav class="bottom-nav">
+    <!--
     <a href="#recherche" class="mobile-nav-item">
         <span>🔍</span>
         <small>Paramètres</small>
@@ -1341,6 +1344,8 @@ document.querySelectorAll(".periode-histo").forEach(btn => {
        <span>📊</span>
        <small>Voir tableau</small>
     </a>
+    -->
+    TEST BARRE
 </nav>
 
 </body>
