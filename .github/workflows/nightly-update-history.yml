@@ -117,7 +117,7 @@ jobs:
                   encoding="utf-8",
               )
               fichiers_lus += 1
-`
+
           print(f"Date traitee : {date_du_jour}")
           print(f"Fichiers quotidiens lus : {fichiers_lus}")
           PY
