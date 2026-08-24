@@ -219,12 +219,12 @@ async function calculerItinerairesGoogle(dep, arr) {
     destination: { location: { latLng: { latitude: arr[1], longitude: arr[0] } } },
     travelMode: "DRIVE",
     routingPreference: "TRAFFIC_AWARE",
-    "departureTime": "2026-08-25T08:00:00Z",
+    departureTime: "2026-08-25T08:00:00Z",
     computeAlternativeRoutes: false,
     polylineEncoding: "GEO_JSON_LINESTRING",
     polylineQuality: "HIGH_QUALITY",
     extraComputations: ["TOLLS"],
-    routeModifiers: { vehicleInfo: { emissionType: "GASOLINE","vehicleType": "CAR" } },
+    routeModifiers: { vehicleEmissionType: "GASOLINE" },
     languageCode: "fr-FR",
     units: "METRIC"
   };
