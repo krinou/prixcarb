@@ -219,11 +219,12 @@ async function calculerItinerairesGoogle(dep, arr) {
     destination: { location: { latLng: { latitude: arr[1], longitude: arr[0] } } },
     travelMode: "DRIVE",
     routingPreference: "TRAFFIC_AWARE",
-    computeAlternativeRoutes: true,
+    "departureTime": "2026-08-25T08:00:00Z",
+    computeAlternativeRoutes: false,
     polylineEncoding: "GEO_JSON_LINESTRING",
     polylineQuality: "HIGH_QUALITY",
     extraComputations: ["TOLLS"],
-    routeModifiers: { vehicleInfo: { emissionType: "GASOLINE" } },
+    routeModifiers: { vehicleInfo: { emissionType: "GASOLINE","vehicleType": "CAR" } },
     languageCode: "fr-FR",
     units: "METRIC"
   };
@@ -238,7 +239,6 @@ async function calculerItinerairesGoogle(dep, arr) {
     body: JSON.stringify(body)
   });
   const data = await r.json();
-  console.log("Réponse de l'API Google Routes :", JSON.stringify(data, null, 2));
   if (!r.ok) throw new Error(data.error?.message || "Erreur Google Routes API");
   return (data.routes || []).map((route, index) => {
     const coords = route.polyline?.geoJsonLinestring?.coordinates || [];
