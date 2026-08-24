@@ -233,7 +233,7 @@ async function calculerItinerairesGoogle(dep, arr) {
     headers: {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": GOOGLE_ROUTES_KEY,
-      "X-Goog-FieldMask": "routes.duration,routes.distanceMeters,routes.routeLabels,routes.polyline.geoJsonLinestring,routes.travelAdvisory.tollInfo"
+      "X-Goog-FieldMask": "routes.duration,routes.distanceMeters,routes.routeLabels,routes.polyline.geoJsonLinestring,routes.legs.travelAdvisory.tollInfo"
     },
     body: JSON.stringify(body)
   });
