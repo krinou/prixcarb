@@ -224,7 +224,7 @@ async function calculerItinerairesGoogle(dep, arr) {
     polylineEncoding: "GEO_JSON_LINESTRING",
     polylineQuality: "HIGH_QUALITY",
     extraComputations: ["TOLLS"],
-    routeModifiers: { vehicleEmissionType: "GASOLINE" },
+    routeModifiers: { vehicleInfo: { emissionType: "GASOLINE" }},
     languageCode: "fr-FR",
     units: "METRIC"
   };
