@@ -227,7 +227,7 @@ async function calculerItinerairesGoogle(dep, arr) {
     languageCode: "fr-FR",
     units: "METRIC"
   };
-  consol
+  console.log("Body de la requête :", JSON.stringify(body, null, 2));
   const r = await fetch(GOOGLE_ROUTES_URL, {
     method: "POST",
     headers: {
