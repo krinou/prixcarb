@@ -233,11 +233,12 @@ async function calculerItinerairesGoogle(dep, arr) {
     headers: {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": GOOGLE_ROUTES_KEY,
-      "X-Goog-FieldMask": "routes.duration,routes.distanceMeters,routes.routeLabels,routes.polyline.geoJsonLinestring,routes.legs.travelAdvisory.tollInfo"
+      "X-Goog-FieldMask": "routes.duration,routes.distanceMeters,routes.routeLabels,routes.polyline.geoJsonLinestring,routes.travelAdvisory.tollInfo,routes.legs.travelAdvisory.tollInfo"
     },
     body: JSON.stringify(body)
   });
   const data = await r.json();
+  console.log("Réponse de l'API Google Routes :", JSON.stringify(data, null, 2));
   if (!r.ok) throw new Error(data.error?.message || "Erreur Google Routes API");
   return (data.routes || []).map((route, index) => {
     const coords = route.polyline?.geoJsonLinestring?.coordinates || [];
