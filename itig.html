@@ -238,7 +238,7 @@ async function calculerItinerairesGoogle(dep, arr) {
   });
   const data = await r.json();
   console.log("Data de JSON :",JSON.stringify(data, null, 2));
-  console.log("routes de Data :", data.routes[0].travelAdvisory);
+  console.log("tollinfo de Data :", data.routes[0].travelAdvisory.tollInfo);
   if (!r.ok) throw new Error(data.error?.message || "Erreur Google Routes API");
   return (data.routes || []).map((route, index) => {
     const coords = route.polyline?.geoJsonLinestring?.coordinates || [];
