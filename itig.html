@@ -220,7 +220,7 @@ async function calculerItinerairesGoogle(dep, arr) {
     travelMode: "DRIVE",
     routingPreference: "TRAFFIC_AWARE",
     departureTime: "2026-08-25T08:00:00Z",
-    computeAlternativeRoutes: false,
+    computeAlternativeRoutes: true,
     polylineEncoding: "GEO_JSON_LINESTRING",
     polylineQuality: "HIGH_QUALITY",
     extraComputations: ["TOLLS"],
@@ -252,7 +252,7 @@ async function calculerItinerairesGoogle(dep, arr) {
         data.routes[0].travelAdvisory?.tollInfo
      );
   }
-  
+
   if (!r.ok) throw new Error(data.error?.message || "Erreur Google Routes API");
   return (data.routes || []).map((route, index) => {
     const coords = route.polyline?.geoJsonLinestring?.coordinates || [];
