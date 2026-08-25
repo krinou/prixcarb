@@ -214,12 +214,14 @@ async function calculerItinerairesGoogle(dep, arr) {
   if (!GOOGLE_ROUTES_KEY || GOOGLE_ROUTES_KEY === "VOTRE_CLE_GOOGLE_MAPS") {
     throw new Error("Renseignez d'abord GOOGLE_ROUTES_KEY dans itig.html");
   }
+  const dateDepart = new Date();
+  dateDepart.setHours(dateDepart.getHours() + 1);
   const body = {
     origin: { location: { latLng: { latitude: dep[1], longitude: dep[0] } } },
     destination: { location: { latLng: { latitude: arr[1], longitude: arr[0] } } },
     travelMode: "DRIVE",
     routingPreference: "TRAFFIC_AWARE",
-    departureTime: "2026-08-25T08:00:00Z",
+    departureTime: dateDepart.toISOString(),
     computeAlternativeRoutes: true,
     polylineEncoding: "GEO_JSON_LINESTRING",
     polylineQuality: "HIGH_QUALITY",
