@@ -384,6 +384,22 @@ async function chercherItineraires() {
     coordArrivee = coordArrivee || await geocodeFrance(arrivee);
     itinerairesCalcules = await calculerItineraires(coordDepart, coordArrivee);
     if (!itinerairesCalcules.length) throw new Error("Aucun itineraire renvoye par HERE.");
+    itinerairesCalcules.sort((a, b) => a.dureeSecondes - b.dureeSecondes);
+    for (const it of itinerairesCalcules) {
+        it.villes = await extraireVillesCaracteristiques(it.coords);
+    }
+
+    itinerairesCalcules.forEach((it, index) => {
+       const ville = trouverVilleDistinctive(
+                     it,
+                     itinerairesCalcules);
+       if (index === 0) {
+          it.nomAffiche = `🚀 Route recommandée via (${ville})`;
+       } else {
+          it.nomAffiche = `🚗 Alternative ${index} via (${ville})`;
+       }  
+    });
+
     afficherTableauItineraires(itinerairesCalcules);
     afficherCarteItineraires(itinerairesCalcules);
     setMessage(`✅ ${itinerairesCalcules.length} itineraire(s) trouve(s)`);
@@ -515,6 +531,61 @@ function afficherStationsSelectionnees(liste) {
     marqueursStations.push(marker);
   });
 }
+
+async function extraireVillesCaracteristiques(coords) {
+    if (!coords || coords.length < 20) return [];
+
+    const positions = [0.25, 0.50, 0.75];
+    const villes = [];
+
+    for (const p of positions) {
+
+        const point = coords[Math.floor(coords.length * p)];
+
+        const lat = point[1];
+        const lon = point[0];
+
+        const url =
+            `https://revgeocode.search.hereapi.com/v1/revgeocode` +
+            `?at=${lat},${lon}` +
+            `&lang=fr-FR` +
+            `&apiKey=${HERE_API_KEY}`;
+
+        const r = await fetch(url);
+        const data = await r.json();
+
+        const ville =
+            data.items?.[0]?.address?.city ||
+            data.items?.[0]?.address?.municipality ||
+            null;
+
+        if (ville && !villes.includes(ville)) {
+            villes.push(ville);
+        }
+    }
+
+    return villes;
+}
+
+function trouverVilleDistinctive(itineraire, tousLesItineraires) {
+    const villesAutres = new Set();
+    tousLesItineraires
+        .filter(it => it !== itineraire)
+        .forEach(it => {
+            (it.villes || []).forEach(v =>
+                villesAutres.add(v)
+            );
+        });
+
+    for (const ville of itineraire.villes || []) {
+        if (!villesAutres.has(ville)) {
+            return ville;
+        }
+    }
+
+    return itineraire.villes?.[0] || "";
+}
+
 </script>
 
 <nav class="bottom-nav" aria-label="Navigation mobile">
