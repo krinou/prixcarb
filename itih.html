@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PrixCarb - itinéraires HERE avec estimation des péages">
+  <title>PrixCarb.fr - Itinéraires HERE avec péages</title>
+  <link rel="icon" href="iti.ico">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root { --bleu:#1769aa; --gris:#f1f3f5; --bord:#d4d9df; --vert:#198754; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:#222; background:#fff; }
+    header { background:var(--bleu); color:#fff; padding:10px 14px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    header h1 { margin:0; font-size:1.25rem; }
+    header a { color:#fff; text-decoration:none; }
+    main { padding:12px; max-width:1200px; margin:auto; }
+    .carte { border:1px solid var(--bord); border-radius:10px; padding:12px; margin-bottom:12px; background:#fff; }
+    .ligne { display:grid; grid-template-columns:1fr 1fr auto; gap:8px; align-items:end; }
+    label { display:block; font-weight:700; font-size:.9rem; margin-bottom:4px; }
+    input, button { min-height:42px; border-radius:7px; border:1px solid #aaa; padding:8px 10px; font-size:1rem; }
+    input { width:100%; }
+    button { cursor:pointer; background:var(--bleu); color:#fff; border-color:var(--bleu); font-weight:700; }
+    button:disabled { opacity:.55; cursor:not-allowed; }
+    .options { display:grid; grid-template-columns:1fr 170px 170px; gap:8px; margin-top:8px; }
+    #message { margin:10px 0; padding:9px 12px; border-radius:7px; background:var(--gris); min-height:38px; }
+    #message.erreur { color:#842029; background:#f8d7da; }
+    #message.succes { color:#0f5132; background:#d1e7dd; }
+    #map { height:52vh; min-height:350px; border-radius:10px; border:1px solid var(--bord); }
+    .table-responsive { width:100%; overflow-x:auto; margin:12px 0; }
+    table { border-collapse:collapse; width:100%; min-width:760px; }
+    th, td { padding:9px; border:1px solid var(--bord); text-align:center; }
+    th { background:var(--gris); }
+    tr.selectionne { background:#e7f1ff; }
+    .btn-secondaire { background:#fff; color:var(--bleu); }
+    details { margin-top:10px; }
+    pre { white-space:pre-wrap; overflow-wrap:anywhere; background:#111; color:#d7ffd7; padding:10px; max-height:300px; overflow:auto; }
+    footer { color:#666; text-align:center; padding:12px; font-size:.85rem; }
+    @media (max-width:720px) {
+      .ligne, .options { grid-template-columns:1fr; }
+      #map { height:48vh; min-height:310px; }
+      header h1 { font-size:1rem; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>PrixCarb.fr - Itinéraires HERE avec péages</h1>
+  <a href="index.html">Accueil</a>
+</header>
+<main>
+  <section id="recherche" class="carte">
+    <div class="ligne">
+      <div><label for="depart">Départ</label><input id="depart" autocomplete="street-address" placeholder="Ex. Nanterre"></div>
+      <div><label for="arrivee">Arrivée</label><input id="arrivee" autocomplete="street-address" placeholder="Ex. Lyon"></div>
+      <button id="calculer" type="button">Calculer</button>
+    </div>
+    <div class="options">
+      <div><label for="apiKey">Clé API HERE</label><input id="apiKey" type="password" placeholder="Clé conservée uniquement dans ce navigateur"></div>
+      <div><label for="alternatives">Alternatives</label><input id="alternatives" type="number" min="0" max="5" value="3"></div>
+      <div><label for="conso">Consommation (L/100 km)</label><input id="conso" type="number" min="0" step="0.1" value="6.5"></div>
+    </div>
+  </section>
+  <div id="message" role="status" aria-live="polite">Saisissez le départ, l'arrivée et votre clé HERE.</div>
+  <div class="table-responsive">
+    <table id="tableItineraires">
+      <thead><tr><th>Itinéraire</th><th>Temps</th><th>Distance</th><th>Péage</th><th>Carburant estimé</th><th>Action</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div id="map"></div>
+  <details><summary>Débogage HERE</summary><pre id="debug">Aucune requête.</pre></details>
+</main>
+<footer>itih v1.0 - moteur HERE Routing API v8 - carte Leaflet / OpenStreetMap</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+'use strict';
+const couleurs = ['#d90429','#1769aa','#198754','#f08c00','#6f42c1','#00a6a6'];
+const map = L.map('map').setView([46.6, 2.4], 6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+let couchesRoutes = [];
+let routesCourantes = [];
+const $ = id => document.getElementById(id);
+$('apiKey').value = localStorage.getItem('prixcarb_here_api_key') || '';
+
+function message(texte, type='') {
+  const el=$('message'); el.textContent=texte; el.className=type;
+}
+function formatDuree(sec) {
+  sec=Math.round(sec||0); const h=Math.floor(sec/3600), m=Math.round((sec%3600)/60);
+  return h ? `${h} h ${String(m).padStart(2,'0')}` : `${m} min`;
+}
+function formatKm(m) { return `${(m/1000).toFixed(1).replace('.',',')} km`; }
+function formatEuro(v, devise='EUR') {
+  if (v == null || Number.isNaN(v)) return 'Non communiqué';
+  try { return new Intl.NumberFormat('fr-FR',{style:'currency',currency:devise}).format(v); }
+  catch { return `${v.toFixed(2)} ${devise}`; }
+}
+
+// Décode le format Flexible Polyline utilisé par HERE Routing v8.
+function decodeFlexiblePolyline(encoded) {
+  const decoder = (function* () {
+    const table='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
+    let shift=0, result=0;
+    for (const char of encoded) {
+      const value=table.indexOf(char);
+      if (value<0) throw new Error('Polyline HERE invalide');
+      result |= (value & 0x1f) << shift;
+      if ((value & 0x20)===0) { yield result; result=0; shift=0; }
+      else shift += 5;
+    }
+  })();
+  const next=()=>{ const n=decoder.next(); if(n.done) throw new Error('Polyline HERE incomplète'); return n.value; };
+  const toSigned=v => (v & 1) ? -(v+1)/2 : v/2;
+  const version=next();
+  if(version!==1) throw new Error(`Version Flexible Polyline non gérée : ${version}`);
+  const header=next(), precision=header & 15, thirdDim=(header>>4)&7, thirdPrecision=(header>>7)&15;
+  const factor=10**precision, zFactor=10**thirdPrecision;
+  let lat=0,lng=0,z=0; const points=[];
+  while(true) {
+    const a=decoder.next(); if(a.done) break;
+    const b=decoder.next(); if(b.done) throw new Error('Longitude manquante');
+    lat += toSigned(a.value); lng += toSigned(b.value);
+    const point=[lat/factor,lng/factor];
+    if(thirdDim){ const c=decoder.next(); if(c.done) throw new Error('3e dimension manquante'); z+=toSigned(c.value); point.push(z/zFactor); }
+    points.push(point);
+  }
+  return points;
+}
+
+async function geocoder(adresse, apiKey) {
+  const u=new URL('https://geocode.search.hereapi.com/v1/geocode');
+  u.searchParams.set('q',adresse); u.searchParams.set('limit','1'); u.searchParams.set('lang','fr-FR'); u.searchParams.set('apiKey',apiKey);
+  const r=await fetch(u); const data=await r.json();
+  if(!r.ok) throw new Error(data.title || data.error_description || `Géocodage HTTP ${r.status}`);
+  if(!data.items?.length) throw new Error(`Adresse introuvable : ${adresse}`);
+  return { ...data.items[0].position, titre:data.items[0].title };
+}
+
+function extrairePeages(route) {
+  const lignes=[];
+  for(const section of route.sections || []) for(const toll of section.tolls || []) {
+    const tarifs=(toll.fares || []).filter(f=>f.price && Number.isFinite(Number(f.price.value)));
+    if(!tarifs.length) continue;
+    // Plusieurs fares d'un même péage sont souvent des modes de paiement alternatifs : on retient le tarif minimal.
+    const meilleur=tarifs.reduce((a,b)=>Number(a.price.value)<=Number(b.price.value)?a:b);
+    lignes.push({ valeur:Number(meilleur.price.value), devise:meilleur.price.currency || 'EUR', nom:meilleur.name || toll.tollSystem || 'Péage' });
+  }
+  const devises=[...new Set(lignes.map(x=>x.devise))];
+  if(!lignes.length) return { valeur:0, devise:'EUR', details:[] };
+  if(devises.length>1) return { valeur:null, devise:'', details:lignes };
+  return { valeur:lignes.reduce((s,x)=>s+x.valeur,0), devise:devises[0], details:lignes };
+}
+
+function resumeRoute(route) {
+  const sections=route.sections || [];
+  const longueur=sections.reduce((s,x)=>s+(x.summary?.length || x.travelSummary?.length || 0),0);
+  const duree=sections.reduce((s,x)=>s+(x.summary?.duration || x.travelSummary?.duration || 0),0);
+  const coords=sections.flatMap(x=>x.polyline ? decodeFlexiblePolyline(x.polyline).map(p=>[p[0],p[1]]) : []);
+  return { longueur,duree,coords,peage:extrairePeages(route) };
+}
+
+function afficherRoutes(routes) {
+  couchesRoutes.forEach(c=>map.removeLayer(c)); couchesRoutes=[]; routesCourantes=routes;
+  const tbody=$('tableItineraires').querySelector('tbody'); tbody.innerHTML='';
+  const groupe=[];
+  routes.forEach((route,i)=>{
+    const r=resumeRoute(route); route._resume=r;
+    const line=L.polyline(r.coords,{color:couleurs[i%couleurs.length],weight:i?5:7,opacity:i?.7:.9}).addTo(map);
+    line.on('click',()=>selectionnerRoute(i)); couchesRoutes.push(line); groupe.push(...r.coords);
+    const litres=(r.longueur/1000)*Number($('conso').value||0)/100;
+    const tr=document.createElement('tr');
+    const peageTexte=r.peage.valeur===null ? 'Plusieurs devises' : formatEuro(r.peage.valeur,r.peage.devise);
+    tr.innerHTML=`<td><span style="color:${couleurs[i%couleurs.length]};font-weight:bold">●</span> ${i===0?'Principal':`Alternative ${i}`}</td><td>${formatDuree(r.duree)}</td><td>${formatKm(r.longueur)}</td><td title="${r.peage.details.map(x=>x.nom).join(' | ')}">${peageTexte}</td><td>${litres.toFixed(1).replace('.',',')} L</td><td><button class="btn-secondaire" type="button" data-index="${i}">Afficher</button></td>`;
+    tr.querySelector('button').addEventListener('click',()=>selectionnerRoute(i)); tbody.appendChild(tr);
+  });
+  if(groupe.length) map.fitBounds(L.latLngBounds(groupe),{padding:[25,25]});
+  selectionnerRoute(0);
+}
+function selectionnerRoute(i) {
+  document.querySelectorAll('#tableItineraires tbody tr').forEach((tr,n)=>tr.classList.toggle('selectionne',n===i));
+  couchesRoutes.forEach((c,n)=>{ c.setStyle({weight:n===i?8:4,opacity:n===i?1:.55}); if(n===i)c.bringToFront(); });
+  const r=routesCourantes[i]?._resume; if(r?.coords.length) map.fitBounds(L.latLngBounds(r.coords),{padding:[25,25]});
+}
+
+async function calculer() {
+  const depart=$('depart').value.trim(), arrivee=$('arrivee').value.trim(), apiKey=$('apiKey').value.trim();
+  if(!depart || !arrivee || !apiKey) return message('Départ, arrivée et clé API HERE sont obligatoires.','erreur');
+  localStorage.setItem('prixcarb_here_api_key',apiKey);
+  $('calculer').disabled=true; message('Géocodage des adresses…');
+  try {
+    const [d,a]=await Promise.all([geocoder(depart,apiKey),geocoder(arrivee,apiKey)]);
+    message('Calcul des itinéraires et des péages HERE…');
+    const u=new URL('https://router.hereapi.com/v8/routes');
+    const params={transportMode:'car',routingMode:'fast',origin:`${d.lat},${d.lng}`,destination:`${a.lat},${a.lng}`,return:'polyline,summary,travelSummary,tolls',alternatives:String(Math.max(0,Math.min(5,Number($('alternatives').value||0)))),currency:'EUR',departureTime:'any',apiKey};
+    Object.entries(params).forEach(([k,v])=>u.searchParams.set(k,v));
+    const r=await fetch(u); const data=await r.json();
+    $('debug').textContent=JSON.stringify({requete:u.toString().replace(apiKey,'***'),reponse:data},null,2);
+    if(!r.ok) throw new Error(data.title || data.cause || `HERE HTTP ${r.status}`);
+    if(!data.routes?.length) throw new Error('HERE ne renvoie aucun itinéraire.');
+    afficherRoutes(data.routes);
+    message(`${data.routes.length} itinéraire(s) HERE affiché(s), de « ${d.titre} » à « ${a.titre} ».`, 'succes');
+  } catch(e) {
+    console.error(e); message(`Erreur : ${e.message}`,'erreur');
+  } finally { $('calculer').disabled=false; }
+}
+$('calculer').addEventListener('click',calculer);
+[$('depart'),$('arrivee')].forEach(el=>el.addEventListener('keydown',e=>{if(e.key==='Enter')calculer();}));
+</script>
+</body>
+</html>
