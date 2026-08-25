@@ -78,15 +78,6 @@
       </div>
     </div>
 
-    <div class="alert alert-warning mt-3 mb-2 small">
-      <label for="hereApiKey" class="form-label fw-bold mb-1">Cle API HERE</label>
-      <div class="input-group">
-        <input id="hereApiKey" type="password" class="form-control" placeholder="ZfoiURy_r5tnP7ouuewwP7VM3jYfA4VsSlINK0NiAgI" autocomplete="off">
-        <button type="button" class="btn btn-outline-secondary" onclick="enregistrerCleHere()">Enregistrer</button>
-      </div>
-      <div class="form-text">L'App ID n'est pas utilise par Routing API v8. La cle est conservee dans le stockage local de ce navigateur sous le nom <code>prixcarb_here_api_key</code>.</div>
-    </div>
-
     <div id="msgSticky" role="status" aria-live="polite"></div>
     <div id="map" style="height:500px;display:none" class="my-3"></div>
 
@@ -122,15 +113,8 @@
 <script>
 const HERE_ROUTES_URL = "https://router.hereapi.com/v8/routes";
 const HERE_KEY_STORAGE = "prixcarb_here_api_key";
-function obtenirCleHere() {
-  return document.getElementById("hereApiKey")?.value.trim() || localStorage.getItem(HERE_KEY_STORAGE) || "";
-}
-function enregistrerCleHere() {
-  const cle = document.getElementById("hereApiKey").value.trim();
-  if (!cle) { localStorage.removeItem(HERE_KEY_STORAGE); setMessage("Cle HERE effacee"); return; }
-  localStorage.setItem(HERE_KEY_STORAGE, cle);
-  setMessage("✅ Cle API HERE enregistree dans ce navigateur");
-}
+const HERE_API_KEY = "ZfoiURy_r5tnP7ouuewwP7VM3jYfA4VsSlINK0NiAgI";
+
 window.addEventListener("DOMContentLoaded", () => {
   const champ = document.getElementById("hereApiKey");
   if (champ) champ.value = localStorage.getItem(HERE_KEY_STORAGE) || "";
@@ -269,7 +253,7 @@ function formaterPeage(peage) {
   return new Intl.NumberFormat("fr-FR", { style: "currency", currency: peage.devise }).format(peage.montant);
 }
 async function calculerItineraires(dep, arr) {
-  const apiKey = obtenirCleHere();
+  const apiKey = HERE_API_KEY;
   if (!apiKey) throw new Error("Renseignez la cle API HERE dans itih.html puis cliquez sur Enregistrer.");
   const url = new URL(HERE_ROUTES_URL);
   url.searchParams.set("transportMode", "car");
