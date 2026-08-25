@@ -276,6 +276,7 @@ async function calculerItineraires(dep, arr) {
     const coords = sections.flatMap(section => section.polyline ? decoderFlexiblePolyline(section.polyline) : []);
     const distanceMetres = sections.reduce((total, section) => total + Number(section.summary?.length || 0), 0);
     const dureeSecondes = sections.reduce((total, section) => total + Number(section.summary?.duration || 0), 0);
+    const routes = extraireAutoroutes(route).join("-");
     return {
       code: index === 0 ? "defaut" : `alternative${index}`,
       nom: index === 0 ? "🚀 Route recommandee" : `🚗 Alternative ${index}`,
@@ -286,6 +287,7 @@ async function calculerItineraires(dep, arr) {
       coords,
       bbox: calculerBbox(coords),
       routeHere: route,
+      routes: routes,
       erreur: null
     };
   });
@@ -371,20 +373,13 @@ async function chercherItineraires() {
     if (!itinerairesCalcules.length) throw new Error("Aucun itineraire renvoye par HERE.");
     console.log("Itineraires calcules :", itinerairesCalcules);
     itinerairesCalcules.sort((a, b) => a.dureeSecondes - b.dureeSecondes);
-    for (const it of itinerairesCalcules) {
-        it.villes = await extraireVillesCaracteristiques(it.coords);
-    }
-
-    itinerairesCalcules.forEach((it, index) => {
-       const ville = trouverVilleDistinctive(
-                     it,
-                     itinerairesCalcules);
-       if (index === 0) {
-          it.nom = `🚀 Route recommandée via ${ville}`;
+    
+    if (index === 0) {
+       it.nom = `🚀 Route recommandée via ${it.routes}`;
        } else {
-          it.nom = `🚗 Alternative ${index} via ${ville}`;
+         it.nom = `🚗 Alternative ${index} via ${it.routes}`;
        }  
-    });
+    };
 
     afficherTableauItineraires(itinerairesCalcules);
     afficherCarteItineraires(itinerairesCalcules);
@@ -570,6 +565,30 @@ function trouverVilleDistinctive(itineraire, tousLesItineraires) {
     }
 
     return itineraire.villes?.[0] || "";
+}
+
+function extraireAutoroutes(route) {
+
+    const autoroutes = [];
+    for (const section of route.sections || []) {
+        for (const span of section.spans || []) {
+            for (const rn of span.routeNumbers || []) {
+                if (
+                    rn.routeType === 1 ||
+                    rn.routeType === 2
+                ) {
+                    if (
+                        rn.value &&
+                        !autoroutes.includes(rn.value)
+                    ) {
+                        autoroutes.push(rn.value);
+                    }
+                }
+            }
+        }
+    }
+
+    return autoroutes;
 }
 
 </script>
