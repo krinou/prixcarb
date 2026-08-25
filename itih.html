@@ -368,6 +368,7 @@ async function chercherItineraires() {
     coordArrivee = coordArrivee || await geocodeFrance(arrivee);
     itinerairesCalcules = await calculerItineraires(coordDepart, coordArrivee);
     if (!itinerairesCalcules.length) throw new Error("Aucun itineraire renvoye par HERE.");
+    console.log("Itineraires calcules :", itinerairesCalcules);
     itinerairesCalcules.sort((a, b) => a.dureeSecondes - b.dureeSecondes);
     for (const it of itinerairesCalcules) {
         it.villes = await extraireVillesCaracteristiques(it.coords);
@@ -378,9 +379,9 @@ async function chercherItineraires() {
                      it,
                      itinerairesCalcules);
        if (index === 0) {
-          it.nom = `🚀 Route recommandée via (${ville})`;
+          it.nom = `🚀 Route recommandée via ${ville}`;
        } else {
-          it.nom = `🚗 Alternative ${index} via (${ville})`;
+          it.nom = `🚗 Alternative ${index} via ${ville}`;
        }  
     });
 
