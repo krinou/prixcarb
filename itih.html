@@ -374,11 +374,13 @@ async function chercherItineraires() {
     console.log("Itineraires calcules :", itinerairesCalcules);
     itinerairesCalcules.sort((a, b) => a.dureeSecondes - b.dureeSecondes);
     
-    if (index === 0) {
+    itinerairesCalcules.forEach((it, index) => {
+      if (index === 0) {
        it.nom = `🚀 Route recommandée via ${it.routes}`;
        } else {
          it.nom = `🚗 Alternative ${index} via ${it.routes}`;
-       };
+       }
+    };
 
     afficherTableauItineraires(itinerairesCalcules);
     afficherCarteItineraires(itinerairesCalcules);
