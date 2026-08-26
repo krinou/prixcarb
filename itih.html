@@ -328,9 +328,8 @@ function afficherCarteItineraires(liste) {
   mapDiv.style.display = "block";
   if (!map) {
     map = L.map("map");
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      attribution: "&copy; OpenStreetMap & Carto", maxZoom: 20
-    }).addTo(map);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap" }).addTo(map);
   }
   couchesItineraires.forEach(c => map.removeLayer(c));
   couchesItineraires = [];
