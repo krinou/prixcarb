@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-polylineoffset/leaflet.polylineoffset.js"></script>
   <style>
     html { scroll-behavior: smooth; }
     body { padding-bottom: 75px; }
@@ -327,8 +328,8 @@ function afficherCarteItineraires(liste) {
   mapDiv.style.display = "block";
   if (!map) {
     map = L.map("map");
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "&copy; OpenStreetMap"
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      attribution: "&copy; OpenStreetMap & Carto", maxZoom: 20
     }).addTo(map);
   }
   couchesItineraires.forEach(c => map.removeLayer(c));
@@ -336,12 +337,13 @@ function afficherCarteItineraires(liste) {
   const bounds = [];
   liste.forEach((it, index) => {
     const latLngs = it.coords.map(([lon, lat]) => [lat, lon]);
-    const polyline = L.polyline(latLngs, { color: it.couleur, weight: 5 }).addTo(map);
+    const offset = [-8, -4, 4, 8][index] || 0;
+    const polyline = L.polyline.offset(latLngs, { color: it.couleur, weight: 3 }, offset).addTo(map);
     polyline.bindPopup(`<b>${it.nom}</b><br>${formaterDuree(it.dureeSecondes)}<br>${it.distanceKm.toFixed(1)} km<br>Peage : ${formaterPeage(it.peage)}`);
     polyline.on("click", () => {
       couchesItineraires.forEach((c, i) => c.setStyle(i === index
-        ? { color: itinerairesCalcules[i].couleur, opacity: 1, weight: 6 }
-        : { color: "#bdbdbd", opacity: .6, weight: 4 }));
+        ? { color: itinerairesCalcules[i].couleur, opacity: 1, weight: 5 }
+        : { color: "#bdbdbd", opacity: .6, weight: 3 }));
       selectionnerItineraire(index);
     });
     couchesItineraires.push(polyline);
