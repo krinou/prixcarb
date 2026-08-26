@@ -336,13 +336,13 @@ function afficherCarteItineraires(liste) {
   const bounds = [];
   liste.forEach((it, index) => {
     const latLngs = it.coords.map(([lon, lat]) => [lat, lon]);
-    const offset = [-8, -4, 4, 8][index] || 0;
-    const polyline = L.polyline(latLngs, { color: it.couleur, weight: 3, offset: offset }).addTo(map);
+    const offset = [-2, -1, 1, 2][index] || 0;
+    const polyline = L.polyline(latLngs, { color: it.couleur, weight: 2, offset: offset }).addTo(map);
     polyline.bindPopup(`<b>${it.nom}</b><br>${formaterDuree(it.dureeSecondes)}<br>${it.distanceKm.toFixed(1)} km<br>Peage : ${formaterPeage(it.peage)}`);
     polyline.on("click", () => {
       couchesItineraires.forEach((c, i) => c.setStyle(i === index
-        ? { color: itinerairesCalcules[i].couleur, opacity: 1, weight: 5 }
-        : { color: "#bdbdbd", opacity: .6, weight: 3 }));
+        ? { color: itinerairesCalcules[i].couleur, opacity: 1, weight: 3 }
+        : { color: "#bdbdbd", opacity: .6, weight: 1 }));
       selectionnerItineraire(index);
     });
     couchesItineraires.push(polyline);
