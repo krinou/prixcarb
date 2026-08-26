@@ -380,7 +380,7 @@ async function chercherItineraires() {
        } else {
          it.nom = `🚗 Alternative ${index} via ${it.routes}`;
        }
-    };
+    });
 
     afficherTableauItineraires(itinerairesCalcules);
     afficherCarteItineraires(itinerairesCalcules);
