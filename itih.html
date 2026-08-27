@@ -337,7 +337,7 @@ function afficherCarteItineraires(liste) {
   liste.forEach((it, index) => {
     const latLngs = it.coords.map(([lon, lat]) => [lat, lon]);
     const offset = [-2, -1, 1, 2][index] || 0;
-    const polyline = L.polyline(latLngs, { color: it.couleur, weight: 2, offset: offset }).addTo(map);
+    const polyline = L.polyline(latLngs, { color: it.couleur, weight: 2 }).addTo(map);
     polyline.bindPopup(`<b>${it.nom}</b><br>${formaterDuree(it.dureeSecondes)}<br>${it.distanceKm.toFixed(1)} km<br>Peage : ${formaterPeage(it.peage)}`);
     polyline.on("click", () => {
       couchesItineraires.forEach((c, i) => c.setStyle(i === index
