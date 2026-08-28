@@ -314,6 +314,11 @@ function afficherTableauItineraires(liste) {
   liste.forEach((it, index) => {
     tbody.insertAdjacentHTML("beforeend", `<tr>
       <td><span style="color:${it.couleur};font-weight:bold">${it.nom}</span></td>
+      <td> <button class="btn btn-sm btn-success"
+              onclick="ouvrirGoogleMaps(${index})">
+              📱 Google Maps
+           </button>
+      </td>
       <td>${formaterDuree(it.dureeSecondes)}</td>
       <td>${it.distanceKm.toFixed(1)} km</td>
       <td>${formaterPeage(it.peage)}</td>
@@ -593,6 +598,63 @@ function extraireAutoroutes(route) {
     return autoroutes;
 }
 
+function extraireWaypoints(coords, nbWaypoints = 3) {
+    if (!coords || coords.length < 2) return [];
+
+    const waypoints = [];
+
+    for (let i = 1; i <= nbWaypoints; i++) {
+        const index = Math.floor(
+            coords.length * i / (nbWaypoints + 1)
+        );
+
+        const [lon, lat] = coords[index];
+
+        waypoints.push({
+            lat,
+            lon
+        });
+    }
+
+    return waypoints;
+}
+
+function creerLienGoogleMaps(it) {
+    const depart = it.coords[0];
+    const arrivee = it.coords[it.coords.length - 1];
+    const waypoints = extraireWaypoints(it.coords, 3);
+    const waypointStr = waypoints
+        .map(p => `${p.lat},${p.lon}`)
+        .join("|");
+
+    return `https://www.google.com/maps/dir/?api=1`
+        + `&origin=${depart[1]},${depart[0]}`
+        + `&destination=${arrivee[1]},${arrivee[0]}`
+        + `&waypoints=${encodeURIComponent(waypointStr)}`
+        + `&travelmode=driving`;
+}
+
+function creerLienGoogleMaps(it) {
+    const depart = it.coords[0];
+    const arrivee = it.coords[it.coords.length - 1];
+    const waypoints = extraireWaypoints(it.coords, 3);
+    const waypointStr = waypoints
+        .map(p => `${p.lat},${p.lon}`)
+        .join("|");
+
+    return `https://www.google.com/maps/dir/?api=1`
+        + `&origin=${depart[1]},${depart[0]}`
+        + `&destination=${arrivee[1]},${arrivee[0]}`
+        + `&waypoints=${encodeURIComponent(waypointStr)}`
+        + `&travelmode=driving`;
+}
+
+function ouvrirGoogleMaps(index) {
+    const url = creerLienGoogleMaps(
+        itinerairesCalcules[index]
+    );
+    window.open(url, "_blank");
+}
 </script>
 
 <nav class="bottom-nav" aria-label="Navigation mobile">
