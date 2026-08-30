@@ -8,6 +8,14 @@
     "maxLon": 3.108
   },
   {
+    "dep": "58",
+    "nbStations": 60,
+    "minLat": 46.699,
+    "maxLat": 47.52894,
+    "minLon": 2.921,
+    "maxLon": 4.153
+  },
+  {
     "dep": "92",
     "nbStations": 67,
     "minLat": 48.738,
@@ -78,14 +86,6 @@
     "maxLat": 48.984,
     "minLon": 2.304,
     "maxLon": 2.589
-  },
-  {
-    "dep": "58",
-    "nbStations": 60,
-    "minLat": 46.699,
-    "maxLat": 47.52894,
-    "minLon": 2.921,
-    "maxLon": 4.153
   },
   {
     "dep": "05",
@@ -161,7 +161,7 @@
   },
   {
     "dep": "59",
-    "nbStations": 251,
+    "nbStations": 250,
     "minLat": 50.018,
     "maxLat": 51.065,
     "minLon": 2.1123,
