@@ -8,12 +8,12 @@
     "maxLon": 3.108
   },
   {
-    "dep": "58",
-    "nbStations": 60,
-    "minLat": 46.699,
-    "maxLat": 47.52894,
-    "minLon": 2.921,
-    "maxLon": 4.153
+    "dep": "34",
+    "nbStations": 162,
+    "minLat": 43.26939,
+    "maxLat": 43.93026,
+    "minLon": 2.69757,
+    "maxLon": 4.178
   },
   {
     "dep": "92",
@@ -24,12 +24,12 @@
     "maxLon": 2.357
   },
   {
-    "dep": "06",
-    "nbStations": 144,
-    "minLat": 43.522,
-    "maxLat": 44.226,
-    "minLon": 6.656,
-    "maxLon": 7.594
+    "dep": "25",
+    "nbStations": 102,
+    "minLat": 46.716,
+    "maxLat": 47.54907,
+    "minLon": 5.785,
+    "maxLon": 6.916
   },
   {
     "dep": "38",
@@ -40,12 +40,12 @@
     "maxLon": 6.127
   },
   {
-    "dep": "25",
-    "nbStations": 102,
-    "minLat": 46.716,
-    "maxLat": 47.54907,
-    "minLon": 5.785,
-    "maxLon": 6.916
+    "dep": "89",
+    "nbStations": 86,
+    "minLat": 47.371,
+    "maxLat": 48.336,
+    "minLon": 2.95,
+    "maxLon": 4.175
   },
   {
     "dep": "40",
@@ -56,12 +56,12 @@
     "maxLon": 0.00999
   },
   {
-    "dep": "89",
-    "nbStations": 86,
-    "minLat": 47.371,
-    "maxLat": 48.336,
-    "minLon": 2.95,
-    "maxLon": 4.175
+    "dep": "58",
+    "nbStations": 60,
+    "minLat": 46.699,
+    "maxLat": 47.52894,
+    "minLon": 2.921,
+    "maxLon": 4.153
   },
   {
     "dep": "12",
@@ -88,12 +88,12 @@
     "maxLon": 2.589
   },
   {
-    "dep": "34",
-    "nbStations": 162,
-    "minLat": 43.26939,
-    "maxLat": 43.93026,
-    "minLon": 2.69757,
-    "maxLon": 4.178
+    "dep": "33",
+    "nbStations": 228,
+    "minLat": 44.28624,
+    "maxLat": 45.514,
+    "minLon": -1.20044,
+    "maxLon": 0.23
   },
   {
     "dep": "05",
@@ -104,20 +104,20 @@
     "maxLon": 6.808
   },
   {
+    "dep": "06",
+    "nbStations": 144,
+    "minLat": 43.522,
+    "maxLat": 44.226,
+    "minLon": 6.656,
+    "maxLon": 7.594
+  },
+  {
     "dep": "56",
     "nbStations": 142,
     "minLat": 47.33923,
     "maxLat": 48.1443,
     "minLon": -3.61998,
     "maxLon": -2.101
-  },
-  {
-    "dep": "33",
-    "nbStations": 227,
-    "minLat": 44.28624,
-    "maxLat": 45.514,
-    "minLon": -1.20044,
-    "maxLon": 0.23
   },
   {
     "dep": "74",
@@ -152,20 +152,20 @@
     "maxLon": 6.81
   },
   {
-    "dep": "77",
-    "nbStations": 174,
-    "minLat": 48.14461,
-    "maxLat": 49.073,
-    "minLon": 2.52209,
-    "maxLon": 3.361
-  },
-  {
     "dep": "59",
     "nbStations": 250,
     "minLat": 50.018,
     "maxLat": 51.065,
     "minLon": 2.1123,
     "maxLon": 4.1488
+  },
+  {
+    "dep": "77",
+    "nbStations": 174,
+    "minLat": 48.14461,
+    "maxLat": 49.073,
+    "minLon": 2.52209,
+    "maxLon": 3.361
   },
   {
     "dep": "60",
@@ -184,12 +184,12 @@
     "maxLon": 5.41
   },
   {
-    "dep": "82",
-    "nbStations": 64,
-    "minLat": 43.8,
-    "maxLat": 44.337,
-    "minLon": 0.851,
-    "maxLon": 1.85779
+    "dep": "30",
+    "nbStations": 139,
+    "minLat": 43.49,
+    "maxLat": 44.30598,
+    "minLon": 3.38283,
+    "maxLon": 4.787
   },
   {
     "dep": "24",
@@ -200,12 +200,12 @@
     "maxLon": 1.408
   },
   {
-    "dep": "30",
-    "nbStations": 139,
-    "minLat": 43.49,
-    "maxLat": 44.30598,
-    "minLon": 3.38283,
-    "maxLon": 4.787
+    "dep": "19",
+    "nbStations": 64,
+    "minLat": 44.973,
+    "maxLat": 45.662,
+    "minLon": 1.33698,
+    "maxLon": 2.49992
   },
   {
     "dep": "91",
@@ -216,12 +216,12 @@
     "maxLon": 2.537
   },
   {
-    "dep": "19",
+    "dep": "82",
     "nbStations": 64,
-    "minLat": 44.973,
-    "maxLat": 45.662,
-    "minLon": 1.33698,
-    "maxLon": 2.49992
+    "minLat": 43.8,
+    "maxLat": 44.337,
+    "minLon": 0.851,
+    "maxLon": 1.85779
   },
   {
     "dep": "13",
@@ -232,20 +232,20 @@
     "maxLon": 5.71577
   },
   {
-    "dep": "03",
-    "nbStations": 81,
-    "minLat": 46.05458,
-    "maxLat": 46.731,
-    "minLon": 2.468,
-    "maxLon": 3.79335
-  },
-  {
     "dep": "64",
     "nbStations": 115,
     "minLat": 42.974,
     "maxLat": 43.558,
     "minLon": -1.766,
     "maxLon": -0.07925
+  },
+  {
+    "dep": "03",
+    "nbStations": 81,
+    "minLat": 46.05458,
+    "maxLat": 46.731,
+    "minLon": 2.468,
+    "maxLon": 3.79335
   },
   {
     "dep": "14",
@@ -360,20 +360,20 @@
     "maxLon": 3.12928
   },
   {
-    "dep": "73",
-    "nbStations": 92,
-    "minLat": 45.166,
-    "maxLat": 45.84642,
-    "minLon": 5.636,
-    "maxLon": 6.97718
-  },
-  {
     "dep": "08",
     "nbStations": 49,
     "minLat": 49.396,
     "maxLat": 50.134,
     "minLon": 4.112,
     "maxLon": 5.18628
+  },
+  {
+    "dep": "73",
+    "nbStations": 92,
+    "minLat": 45.166,
+    "maxLat": 45.84642,
+    "minLon": 5.636,
+    "maxLon": 6.97718
   },
   {
     "dep": "67",
@@ -441,7 +441,7 @@
   },
   {
     "dep": "31",
-    "nbStations": 193,
+    "nbStations": 192,
     "minLat": 42.80817,
     "maxLat": 43.859,
     "minLon": 0.56318,
@@ -512,20 +512,20 @@
     "maxLon": 2.16554
   },
   {
-    "dep": "70",
-    "nbStations": 55,
-    "minLat": 47.279,
-    "maxLat": 47.918,
-    "minLon": 5.50845,
-    "maxLon": 6.772
-  },
-  {
     "dep": "57",
     "nbStations": 130,
     "minLat": 48.671,
     "maxLat": 49.412,
     "minLon": 5.95,
     "maxLon": 7.427
+  },
+  {
+    "dep": "70",
+    "nbStations": 55,
+    "minLat": 47.279,
+    "maxLat": 47.918,
+    "minLon": 5.50845,
+    "maxLon": 6.772
   },
   {
     "dep": "52",
@@ -600,20 +600,20 @@
     "maxLon": 3.933
   },
   {
-    "dep": "84",
-    "nbStations": 106,
-    "minLat": 43.679,
-    "maxLat": 44.394,
-    "minLon": 4.65,
-    "maxLon": 5.542
-  },
-  {
     "dep": "10",
     "nbStations": 68,
     "minLat": 47.975,
     "maxLat": 48.675,
     "minLon": 3.43465,
     "maxLon": 4.79003
+  },
+  {
+    "dep": "84",
+    "nbStations": 106,
+    "minLat": 43.679,
+    "maxLat": 44.394,
+    "minLon": 4.65,
+    "maxLon": 5.542
   },
   {
     "dep": "61",
@@ -665,7 +665,7 @@
   },
   {
     "dep": "79",
-    "nbStations": 69,
+    "nbStations": 70,
     "minLat": 46.107,
     "maxLat": 46.996,
     "minLon": -0.739,
@@ -689,19 +689,11 @@
   },
   {
     "dep": "27",
-    "nbStations": 95,
+    "nbStations": 96,
     "minLat": 48.733,
     "maxLat": 49.41228,
     "minLon": 0.3197,
     "maxLon": 1.787
-  },
-  {
-    "dep": "72",
-    "nbStations": 97,
-    "minLat": 47.64,
-    "maxLat": 48.40802,
-    "minLon": -0.36065,
-    "maxLon": 0.766
   },
   {
     "dep": "65",
@@ -710,6 +702,14 @@
     "maxLat": 43.441,
     "minLon": -0.10814,
     "maxLon": 0.60702
+  },
+  {
+    "dep": "72",
+    "nbStations": 97,
+    "minLat": 47.64,
+    "maxLat": 48.40802,
+    "minLon": -0.36065,
+    "maxLon": 0.766
   },
   {
     "dep": "09",
