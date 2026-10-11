@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "43770001",
+    "dep": "43",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "17 Avenue des Champs Élysées",
+    "cp": "43770",
+    "ville": "Chadrac",
+    "latitude": 45.053,
+    "longitude": 3.9,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-08 05:33:39"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-09-18 04:58:42"
+      },
+      "SP98": {
+        "valeur": "2.232",
+        "maj": "2026-09-18 04:58:42"
+      }
+    }
+  },
+  {
+    "id": "43000004",
+    "dep": "43",
+    "enseigne": "Esso Express",
+    "adresse": "106 Avenue Maréchal Foch",
+    "cp": "43000",
+    "ville": "Le Puy-en-Velay",
+    "latitude": 45.033,
+    "longitude": 3.886,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.432",
+        "maj": "2026-10-08 07:32:00"
+      },
+      "E85": {
+        "valeur": "1.052",
+        "maj": "2026-10-08 07:32:00"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-08 07:32:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 07:32:00"
+      }
+    }
+  },
+  {
+    "id": "43290002",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "30 AVENUE DES CEVENNES",
+    "cp": "43290",
+    "ville": "MONTFAUCON EN VELAY",
+    "latitude": 45.181359373511995,
+    "longitude": 4.3141124833937,
+    "carburants": {}
+  },
+  {
+    "id": "43190003",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "44 Rue de Saint-Agrève",
+    "cp": "43190",
+    "ville": "Tence",
+    "latitude": 45.108552970837,
+    "longitude": 4.2958388576009,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-05 09:12:06"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-05 09:12:06"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-05 09:12:06"
+      }
+    }
+  },
+  {
+    "id": "43000002",
+    "dep": "43",
+    "enseigne": "Système U",
+    "adresse": "16 Avenue de Bonneville",
+    "cp": "43000",
+    "ville": "Aiguilhe",
+    "latitude": 45.05,
+    "longitude": 3.888,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-08 08:34:00"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-09-30 07:59:08"
+      },
+      "SP98": {
+        "valeur": "2.263",
+        "maj": "2026-09-23 14:33:57"
+      }
+    }
+  },
+  {
+    "id": "43300004",
+    "dep": "43",
+    "enseigne": "Système U",
+    "adresse": "56 AVENUE D'AUVERGNE",
+    "cp": "43300",
+    "ville": "Langeac",
+    "latitude": 45.109383799999996,
+    "longitude": 3.4919915,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-10 09:50:08"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-01 08:14:17"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-01 08:14:18"
+      }
+    }
+  },
+  {
+    "id": "43200003",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN 88",
+    "cp": "43200",
+    "ville": "LE PERTUIS",
+    "latitude": 45.097,
+    "longitude": 4.059,
+    "carburants": {}
+  },
+  {
+    "id": "43100004",
+    "dep": "43",
+    "enseigne": "Esso",
+    "adresse": "10 avenue d Auvergne",
+    "cp": "43100",
+    "ville": "Brioude",
+    "latitude": 45.3,
+    "longitude": 3.38,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.376",
+        "maj": "2026-10-09 08:36:06"
+      },
+      "SP95": {
+        "valeur": "2.326",
+        "maj": "2026-10-09 08:32:27"
+      },
+      "SP98": {
+        "valeur": "2.396",
+        "maj": "2026-09-22 16:03:52"
+      }
+    }
+  },
+  {
+    "id": "43150001",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE DU PUY",
+    "cp": "43150",
+    "ville": "LE MONASTIER SUR GAZEILLE",
+    "latitude": 44.9487,
+    "longitude": 3.9874,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-08 07:48:56"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-08 09:42:42"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-06 08:22:26"
+      },
+      "SP98": {
+        "valeur": "2.363",
+        "maj": "2026-10-06 08:22:26"
+      }
+    }
+  },
+  {
+    "id": "43320003",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "2 route RN 102, Limandre",
+    "cp": "43320",
+    "ville": "Vazeilles-Limandre",
+    "latitude": 45.119,
+    "longitude": 3.73,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-07 09:21:24"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-07 09:21:24"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-07 09:21:24"
+      }
+    }
+  },
+  {
+    "id": "43220003",
+    "dep": "43",
+    "enseigne": "Montmeat",
+    "adresse": "MONTMEAT",
+    "cp": "43220",
+    "ville": "RIOTORD",
+    "latitude": 45.223119214503,
+    "longitude": 4.3929114359743995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-01 11:06:08"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-01 11:06:08"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-01 11:06:08"
+      }
+    }
+  },
+  {
+    "id": "43200008",
+    "dep": "43",
+    "enseigne": "VITO",
+    "adresse": "95 RUE VIA FLUVIA ZA VERCHERES",
+    "cp": "43200",
+    "ville": "Yssingeaux",
+    "latitude": 45.1597331798,
+    "longitude": 4.13915467772,
+    "carburants": {
+      "GPLc": {
+        "valeur": "1.370",
+        "maj": "2026-04-08 08:37:04"
+      }
+    }
+  },
+  {
+    "id": "43350001",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "Le Verdier",
+    "cp": "43350",
+    "ville": "Saint-Paulien",
+    "latitude": 45.132,
+    "longitude": 3.814,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-09 09:45:11"
+      },
+      "SP95": {
+        "valeur": "2.237",
+        "maj": "2026-10-09 09:45:11"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-02 09:24:07"
+      },
+      "SP98": {
+        "valeur": "2.288",
+        "maj": "2026-10-09 09:45:11"
+      }
+    }
+  },
+  {
+    "id": "43220001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "Rue Traversière",
+    "cp": "43220",
+    "ville": "Dunières",
+    "latitude": 45.214,
+    "longitude": 4.346,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.374",
+        "maj": "2026-10-07 10:24:12"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-09-25 07:58:32"
+      }
+    }
+  },
+  {
+    "id": "43300002",
+    "dep": "43",
+    "enseigne": "Système U",
+    "adresse": "Avenue d'Auvergne",
+    "cp": "43300",
+    "ville": "Langeac",
+    "latitude": 45.112,
+    "longitude": 3.492,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-10 09:49:34"
+      },
+      "SP95": {
+        "valeur": "2.269",
+        "maj": "2026-09-18 08:40:12"
+      },
+      "E85": {
+        "valeur": "0.949",
+        "maj": "2026-09-16 08:02:48"
+      }
+    }
+  },
+  {
+    "id": "43100006",
+    "dep": "43",
+    "enseigne": "Netto",
+    "adresse": "AVENUE LEON BLUM",
+    "cp": "43100",
+    "ville": "BRIOUDE",
+    "latitude": 45.29,
+    "longitude": 3.387,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.377",
+        "maj": "2026-10-02 10:13:53"
+      },
+      "E10": {
+        "valeur": "2.212",
+        "maj": "2026-10-02 10:13:53"
+      },
+      "SP98": {
+        "valeur": "2.324",
+        "maj": "2026-10-02 10:13:53"
+      }
+    }
+  },
+  {
+    "id": "43190002",
+    "dep": "43",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "za de leygat",
+    "cp": "43190",
+    "ville": "TENCE",
+    "latitude": 45.101,
+    "longitude": 4.321,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.316",
+        "maj": "2026-10-06 18:09:20"
+      }
+    }
+  },
+  {
+    "id": "43100001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route de Clermont",
+    "cp": "43100",
+    "ville": "BRIOUDE",
+    "latitude": 45.311,
+    "longitude": 3.375,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.362",
+        "maj": "2026-10-09 18:04:55"
+      },
+      "E10": {
+        "valeur": "2.182",
+        "maj": "2026-10-09 18:04:55"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-09 18:04:55"
+      }
+    }
+  },
+  {
+    "id": "43600002",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "Lotissement la Chaud",
+    "cp": "43600",
+    "ville": "SAINTE-SIGOLèNE",
+    "latitude": 45.24806,
+    "longitude": 4.24106,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-10 10:55:28"
+      },
+      "E85": {
+        "valeur": "0.850",
+        "maj": "2026-03-24 10:08:14"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-09-23 16:07:16"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-09-23 16:07:16"
+      }
+    }
+  },
+  {
+    "id": "43120001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "rue jean martouret",
+    "cp": "43120",
+    "ville": "MONISTROL-SUR-LOIRE",
+    "latitude": 45.290704469999994,
+    "longitude": 4.16960856,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-10 08:39:57"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-10 08:39:58"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-10 08:39:58"
+      }
+    }
+  },
+  {
+    "id": "43260002",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "Route du Puy",
+    "cp": "43260",
+    "ville": "SAINT-JULIEN-CHAPTEUIL",
+    "latitude": 45.037,
+    "longitude": 4.055,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.259",
+        "maj": "2026-10-09 09:54:48"
+      },
+      "SP95": {
+        "valeur": "2.205",
+        "maj": "2026-10-09 09:54:48"
+      },
+      "SP98": {
+        "valeur": "2.275",
+        "maj": "2026-10-09 09:54:48"
+      }
+    }
+  },
+  {
+    "id": "43170004",
+    "dep": "43",
+    "enseigne": "Carrefour Contact",
+    "adresse": "25 RUE LOUIS AMARGIER",
+    "cp": "43170",
+    "ville": "SAUGUES",
+    "latitude": 44.963477987000005,
+    "longitude": 3.5434384262423,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-05 08:47:27"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-05 08:47:27"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-05 08:47:27"
+      }
+    }
+  },
+  {
+    "id": "43200006",
+    "dep": "43",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "LA GUIDE",
+    "cp": "43200",
+    "ville": "Yssingeaux",
+    "latitude": 45.14525247,
+    "longitude": 4.1208611,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-06 05:49:20"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-18 04:55:20"
+      },
+      "E85": {
+        "valeur": "0.855",
+        "maj": "2026-09-18 04:55:20"
+      }
+    }
+  },
+  {
+    "id": "43170002",
+    "dep": "43",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "ZI du Gray",
+    "cp": "43170",
+    "ville": "Saugues",
+    "latitude": 44.969,
+    "longitude": 3.541,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-05 09:09:00"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-05 09:09:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-09-22 09:03:23"
+      }
+    }
+  },
+  {
+    "id": "43120002",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "ZA LES MOLETONS",
+    "cp": "43120",
+    "ville": "MONISTROL-SUR-LOIRE",
+    "latitude": 45.285,
+    "longitude": 4.158,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 08:05:00"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 08:10:00"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-08 08:05:00"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-02 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "43500004",
+    "dep": "43",
+    "enseigne": "Route du velay",
+    "adresse": "Route du Velay",
+    "cp": "43500",
+    "ville": "SAINT-PAL-DE-CHALENCON",
+    "latitude": 45.355,
+    "longitude": 3.951,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.550",
+        "maj": "2026-09-25 10:36:47"
+      },
+      "E10": {
+        "valeur": "2.340",
+        "maj": "2026-09-25 10:36:47"
+      },
+      "SP98": {
+        "valeur": "2.420",
+        "maj": "2026-09-25 10:36:47"
+      }
+    }
+  },
+  {
+    "id": "43000009",
+    "dep": "43",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "10 BLD MARECHAL JOFFRE",
+    "cp": "43000",
+    "ville": "LE PUY EN VELAY",
+    "latitude": 45.0479250728,
+    "longitude": 3.89342284693,
+    "carburants": {}
+  },
+  {
+    "id": "43800002",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue Philibert Besson",
+    "cp": "43800",
+    "ville": "VOREY",
+    "latitude": 45.182,
+    "longitude": 3.915,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.302",
+        "maj": "2026-10-09 09:36:54"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-09 09:36:54"
+      },
+      "E10": {
+        "valeur": "2.133",
+        "maj": "2026-10-09 09:36:54"
+      },
+      "SP98": {
+        "valeur": "2.258",
+        "maj": "2026-10-09 09:36:54"
+      }
+    }
+  },
+  {
+    "id": "43320002",
+    "dep": "43",
+    "enseigne": "Carrefour",
+    "adresse": "RUE DE L'AVIATION",
+    "cp": "43320",
+    "ville": "Chaspuzac",
+    "latitude": 45.071861817888006,
+    "longitude": 3.7613253445038,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.395",
+        "maj": "2026-10-06 10:44:08"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-06 10:44:08"
+      },
+      "E10": {
+        "valeur": "2.212",
+        "maj": "2026-10-06 10:44:09"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-06 10:44:09"
+      }
+    }
+  },
+  {
+    "id": "43590002",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "741 ROUTE DE BAS",
+    "cp": "43590",
+    "ville": "BEAUZAC",
+    "latitude": 45.266167,
+    "longitude": 4.1101090000000005,
+    "carburants": {}
+  },
+  {
+    "id": "43170001",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "route du Puy",
+    "cp": "43170",
+    "ville": "Saugues",
+    "latitude": 44.95871,
+    "longitude": 3.54987,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-06 12:05:28"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-06 12:05:28"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-06 12:05:28"
+      }
+    }
+  },
+  {
+    "id": "43700001",
+    "dep": "43",
+    "enseigne": "Auchan",
+    "adresse": "1 Avenue de Coubon",
+    "cp": "43700",
+    "ville": "BRIVES-CHARENSAC",
+    "latitude": 45.048,
+    "longitude": 3.917,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-07 08:46:45"
+      },
+      "E85": {
+        "valeur": "0.909",
+        "maj": "2026-09-23 08:33:20"
+      },
+      "GPLc": {
+        "valeur": "0.939",
+        "maj": "2026-09-17 08:52:33"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-09 10:18:31"
+      },
+      "SP98": {
+        "valeur": "2.263",
+        "maj": "2026-10-09 10:18:32"
+      }
+    }
+  },
+  {
+    "id": "43130001",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "Rue Jean-Baptiste Ribeyron",
+    "cp": "43130",
+    "ville": "RETOURNAC",
+    "latitude": 45.211,
+    "longitude": 4.03,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.249",
+        "maj": "2026-10-09 00:03:00"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-01 09:31:23"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-01 09:31:23"
+      }
+    }
+  },
+  {
+    "id": "43200004",
+    "dep": "43",
+    "enseigne": "Système U",
+    "adresse": "45 Rue des Entreprises - Villeneuve",
+    "cp": "43200",
+    "ville": "Yssingeaux",
+    "latitude": 45.146,
+    "longitude": 4.109,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-05 17:36:31"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-30 08:23:26"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-09-29 09:47:50"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-09-29 09:47:50"
+      }
+    }
+  },
+  {
+    "id": "43400001",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Saint-Agrève-Valence",
+    "cp": "43400",
+    "ville": "Le Chambon-sur-Lignon",
+    "latitude": 45.05556,
+    "longitude": 4.31412,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 09:05:22"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-08 09:05:22"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-08 09:05:22"
+      }
+    }
+  },
+  {
+    "id": "43500002",
+    "dep": "43",
+    "enseigne": "Système U",
+    "adresse": "24 rue d'Ollias",
+    "cp": "43500",
+    "ville": "CRAPONNE-SUR-ARZON",
+    "latitude": 45.333,
+    "longitude": 3.844,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-06 10:24:19"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-10 11:37:12"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-10 11:37:36"
+      }
+    }
+  },
+  {
+    "id": "43200005",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "195, route de Retournac",
+    "cp": "43200",
+    "ville": "Yssingeaux",
+    "latitude": 45.144,
+    "longitude": 4.116,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-05 18:24:47"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-29 08:30:00"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-09-29 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-09-29 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "43700002",
+    "dep": "43",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Zi de Bombes",
+    "cp": "43700",
+    "ville": "Saint-Germain-Laprade",
+    "latitude": 45.053,
+    "longitude": 3.961,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 05:35:12"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-18 04:56:11"
+      },
+      "E85": {
+        "valeur": "0.855",
+        "maj": "2026-09-18 04:56:11"
+      }
+    }
+  },
+  {
+    "id": "43100005",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "FLAGEAC RUE BRUEIL",
+    "cp": "43100",
+    "ville": "Cohade",
+    "latitude": 45.322,
+    "longitude": 3.371,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.344",
+        "maj": "2026-10-07 11:58:05"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-01 14:46:08"
+      },
+      "GPLc": {
+        "valeur": "1.097",
+        "maj": "2026-07-28 13:32:55"
+      },
+      "E10": {
+        "valeur": "2.197",
+        "maj": "2026-10-07 11:58:06"
+      },
+      "SP98": {
+        "valeur": "2.325",
+        "maj": "2026-10-07 11:58:06"
+      }
+    }
+  },
+  {
+    "id": "43230001",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "La Buge",
+    "cp": "43230",
+    "ville": "Saint-Georges-d'Aurac",
+    "latitude": 45.144,
+    "longitude": 3.543,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-09 09:06:48"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-09 09:06:48"
+      }
+    }
+  },
+  {
+    "id": "43240001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "D 500",
+    "cp": "43240",
+    "ville": "SAINT-JUST-MALMONT",
+    "latitude": 45.330450820699994,
+    "longitude": 4.31906795317,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-09 08:42:42"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-10-09 08:42:42"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-09-25 13:38:59"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-09 08:42:42"
+      }
+    }
+  },
+  {
+    "id": "43410001",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN 102",
+    "cp": "43410",
+    "ville": "Lempdes-sur-Allagnon",
+    "latitude": 45.373,
+    "longitude": 3.291,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-09 14:12:53"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-09 14:12:53"
+      }
+    }
+  },
+  {
+    "id": "43100002",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "AVENUE JEAN JAURES",
+    "cp": "43100",
+    "ville": "Brioude",
+    "latitude": 45.289,
+    "longitude": 3.369,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-09 06:43:04"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-09 06:43:04"
+      }
+    }
+  },
+  {
+    "id": "43290001",
+    "dep": "43",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "9 av Cévennes",
+    "cp": "43290",
+    "ville": "Montfaucon-en-Velay",
+    "latitude": 45.18157,
+    "longitude": 4.31425,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.410",
+        "maj": "2026-10-09 14:30:24"
+      },
+      "SP95": {
+        "valeur": "2.300",
+        "maj": "2026-10-07 07:52:20"
+      }
+    }
+  },
+  {
+    "id": "43200002",
+    "dep": "43",
+    "enseigne": "Avia",
+    "adresse": "101 avenue de la Marne",
+    "cp": "43200",
+    "ville": "YSSINGEAUX",
+    "latitude": 45.14693,
+    "longitude": 4.12796,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-05 09:41:35"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-10-05 09:41:35"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-05 09:41:35"
+      }
+    }
+  },
+  {
+    "id": "43230002",
+    "dep": "43",
+    "enseigne": "Intermarché Contact",
+    "adresse": "11 AVENUE DE LA GARE",
+    "cp": "43230",
+    "ville": "PAULHAGUET",
+    "latitude": 45.2087954502,
+    "longitude": 3.50687903911,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.332",
+        "maj": "2026-10-09 09:52:06"
+      },
+      "SP95": {
+        "valeur": "2.225",
+        "maj": "2026-10-09 09:52:06"
+      },
+      "SP98": {
+        "valeur": "2.288",
+        "maj": "2026-10-09 09:52:07"
+      }
+    }
+  },
+  {
+    "id": "43110002",
+    "dep": "43",
+    "enseigne": "Auchan",
+    "adresse": "ROUTE DE FIRMINY",
+    "cp": "43110",
+    "ville": "Aurec-sur-Loire",
+    "latitude": 45.371637089020005,
+    "longitude": 4.2077838597495,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-08 10:33:23"
+      },
+      "E10": {
+        "valeur": "2.183",
+        "maj": "2026-10-08 10:33:23"
+      },
+      "SP98": {
+        "valeur": "2.275",
+        "maj": "2026-10-08 10:33:23"
+      }
+    }
+  },
+  {
+    "id": "43500001",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "ZA LE VERNET ROUTE DU PUY",
+    "cp": "43500",
+    "ville": "CRAPONNE-SUR-ARZON",
+    "latitude": 45.32544866749,
+    "longitude": 3.8396140865182997,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-09 17:51:57"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-09 17:51:57"
+      }
+    }
+  },
+  {
+    "id": "43600003",
+    "dep": "43",
+    "enseigne": "Intermarché",
+    "adresse": "Lieu-dit Chanibeau",
+    "cp": "43600",
+    "ville": "Sainte-Sigolène",
+    "latitude": 45.251,
+    "longitude": 4.215,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-09 09:36:58"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-09 09:36:58"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-09 09:36:59"
+      }
+    }
+  },
+  {
+    "id": "43750003",
+    "dep": "43",
+    "enseigne": "Carrefour",
+    "adresse": "Avenue Jeanne d'Arc",
+    "cp": "43750",
+    "ville": "Vals Près le Puy",
+    "latitude": 45.027046,
+    "longitude": 3.878477,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-10 11:20:57"
+      },
+      "GPLc": {
+        "valeur": "1.009",
+        "maj": "2026-10-06 07:57:53"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-06 07:57:53"
+      },
+      "SP98": {
+        "valeur": "2.263",
+        "maj": "2026-10-10 11:20:57"
+      }
+    }
+  },
+  {
+    "id": "43360004",
+    "dep": "43",
+    "enseigne": "Avia",
+    "adresse": "A75 AIRE DE LAFAYETTE",
+    "cp": "43360",
+    "ville": "LORLANGES",
+    "latitude": 45.338244,
+    "longitude": 3.274313,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.424",
+        "maj": "2026-10-10 09:03:27"
+      },
+      "E85": {
+        "valeur": "0.989",
+        "maj": "2026-10-10 09:03:27"
+      },
+      "GPLc": {
+        "valeur": "1.082",
+        "maj": "2026-10-10 09:03:27"
+      },
+      "E10": {
+        "valeur": "2.208",
+        "maj": "2026-10-10 09:03:27"
+      },
+      "SP98": {
+        "valeur": "2.273",
+        "maj": "2026-10-10 09:03:28"
+      }
+    }
+  },
+  {
+    "id": "43340001",
+    "dep": "43",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "La Sauvetat",
+    "cp": "43340",
+    "ville": "LANDOS",
+    "latitude": 44.849471560000005,
+    "longitude": 3.85165664,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 05:35:55"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-18 04:56:57"
+      },
+      "E85": {
+        "valeur": "0.855",
+        "maj": "2026-09-18 04:56:58"
+      }
+    }
+  },
+  {
+    "id": "43800001",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "25 AVENUE PIERRE CHABANNES",
+    "cp": "43800",
+    "ville": "Vorey",
+    "latitude": 45.184,
+    "longitude": 3.911,
+    "carburants": {
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-09-24 11:13:54"
+      }
+    }
+  },
+  {
+    "id": "43210003",
+    "dep": "43",
+    "enseigne": "Intermarché Contact",
+    "adresse": "15 AVENUE ALFRED DE VISSAGUET",
+    "cp": "43210",
+    "ville": "BAS EN BASSET",
+    "latitude": 45.302785,
+    "longitude": 4.113994,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 07:33:44"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-02 15:47:04"
+      }
+    }
+  },
+  {
+    "id": "43000011",
+    "dep": "43",
+    "enseigne": "Avia",
+    "adresse": "31 Bd Maréchal Joffre",
+    "cp": "43000",
+    "ville": "Le Puy-en-Velay",
+    "latitude": 45.049083630756996,
+    "longitude": 3.8940294279881997,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-09-23 08:56:31"
+      },
+      "SP95": {
+        "valeur": "2.159",
+        "maj": "2026-08-13 09:12:49"
+      }
+    }
+  }
+]
