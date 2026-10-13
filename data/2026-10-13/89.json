@@ -1,0 +1,2125 @@
+[
+  {
+    "id": "89100001",
+    "dep": "89",
+    "enseigne": "Carrefour",
+    "adresse": "84 ROUTE DE MAILLOT",
+    "cp": "89100",
+    "ville": "SENS",
+    "latitude": 48.183,
+    "longitude": 3.309,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-11 08:50:09"
+      },
+      "E85": {
+        "valeur": "0.909",
+        "maj": "2026-10-05 12:16:34"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-11 08:50:09"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-09-28 11:42:00"
+      }
+    }
+  },
+  {
+    "id": "89330001",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Villeneuve",
+    "cp": "89330",
+    "ville": "Saint-Julien-du-Sault",
+    "latitude": 48.036,
+    "longitude": 3.305,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-02 10:24:53"
+      },
+      "E10": {
+        "valeur": "2.235",
+        "maj": "2026-10-07 12:21:20"
+      },
+      "SP98": {
+        "valeur": "2.285",
+        "maj": "2026-10-02 10:24:53"
+      }
+    }
+  },
+  {
+    "id": "89690001",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE DES BEDETS",
+    "cp": "89690",
+    "ville": "CHEROY",
+    "latitude": 48.2,
+    "longitude": 2.992,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.336",
+        "maj": "2026-10-08 06:01:29"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 06:05:21"
+      },
+      "E10": {
+        "valeur": "2.186",
+        "maj": "2026-10-02 08:00:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-02 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "89380001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "ROUTE DE JOIGNY",
+    "cp": "89380",
+    "ville": "APPOIGNY",
+    "latitude": 47.880826805196,
+    "longitude": 3.5268365139365,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89000004",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "16 Boulevard Vaulabelle",
+    "cp": "89000",
+    "ville": "Auxerre",
+    "latitude": 47.793,
+    "longitude": 3.575,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-12 16:25:41"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-12 16:25:41"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-12 16:25:41"
+      }
+    }
+  },
+  {
+    "id": "89140004",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "32 B AVENUE GENERAL LECLERC",
+    "cp": "89140",
+    "ville": "Pont-sur-Yonne",
+    "latitude": 48.284,
+    "longitude": 3.212,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-09 15:12:24"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-09 15:12:24"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-09 15:12:24"
+      }
+    }
+  },
+  {
+    "id": "89290001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "CENTRE ARTISANAL",
+    "cp": "89290",
+    "ville": "CHAMPS-SUR-YONNE",
+    "latitude": 47.74,
+    "longitude": 3.599,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89250001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "ROUTE D HERY",
+    "cp": "89250",
+    "ville": "SEIGNELAY",
+    "latitude": 47.902354808005,
+    "longitude": 3.6105720708072,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89420003",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "Autoroute A6 Aire de Maison Dieu - Sens Lyon Paris",
+    "cp": "89420",
+    "ville": "Sceaux",
+    "latitude": 47.504517327111,
+    "longitude": 4.0382550768547,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.549",
+        "maj": "2026-09-26 06:00:00"
+      },
+      "E85": {
+        "valeur": "1.149",
+        "maj": "2026-09-26 06:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.165",
+        "maj": "2026-09-26 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.439",
+        "maj": "2026-09-26 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.539",
+        "maj": "2026-09-26 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "89000012",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "Boulevard de Verdun",
+    "cp": "89000",
+    "ville": "AUXERRE",
+    "latitude": 47.809074609693,
+    "longitude": 3.5588100228173,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 08:34:19"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 08:00:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-08 08:34:19"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 08:34:19"
+      }
+    }
+  },
+  {
+    "id": "89190008",
+    "dep": "89",
+    "enseigne": "Shell",
+    "adresse": "Aire de Villeneuve Vauluisant Autoroute A5 Sens TROYES PARIS",
+    "cp": "89190",
+    "ville": "Villeneuve-l'Archevêque",
+    "latitude": 48.247221052308,
+    "longitude": 3.5555068346406,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.435",
+        "maj": "2026-10-10 09:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.108",
+        "maj": "2026-10-10 09:30:00"
+      },
+      "E10": {
+        "valeur": "2.321",
+        "maj": "2026-10-10 09:30:00"
+      },
+      "SP98": {
+        "valeur": "2.403",
+        "maj": "2026-10-10 09:30:00"
+      }
+    }
+  },
+  {
+    "id": "89700001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "ROUTE DE DIJON",
+    "cp": "89700",
+    "ville": "Tonnerre",
+    "latitude": 47.852,
+    "longitude": 3.985,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89130001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "Rue de la Chatterie",
+    "cp": "89130",
+    "ville": "TOUCY",
+    "latitude": 47.738440171213995,
+    "longitude": 3.2888385978090002,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89200009",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "AVENUE DE LA MORLANDE",
+    "cp": "89200",
+    "ville": "AVALLON",
+    "latitude": 47.491,
+    "longitude": 3.902,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.387",
+        "maj": "2026-10-06 18:13:21"
+      },
+      "SP95": {
+        "valeur": "2.247",
+        "maj": "2026-10-06 18:13:21"
+      },
+      "E10": {
+        "valeur": "2.197",
+        "maj": "2026-10-06 18:13:21"
+      }
+    }
+  },
+  {
+    "id": "89000013",
+    "dep": "89",
+    "enseigne": "Auchan",
+    "adresse": "AVENUE HAUSSMANN",
+    "cp": "89000",
+    "ville": "AUXERRE",
+    "latitude": 47.815,
+    "longitude": 3.573,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-12 12:32:45"
+      },
+      "E85": {
+        "valeur": "0.886",
+        "maj": "2026-10-12 12:32:45"
+      },
+      "GPLc": {
+        "valeur": "1.010",
+        "maj": "2026-10-12 12:32:45"
+      },
+      "E10": {
+        "valeur": "2.220",
+        "maj": "2026-10-12 12:32:46"
+      }
+    }
+  },
+  {
+    "id": "89100007",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "4 Quai Jean Moulin",
+    "cp": "89100",
+    "ville": "Sens",
+    "latitude": 48.198,
+    "longitude": 3.277,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-01 21:00:00"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-01 21:00:00"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-01 21:00:00"
+      }
+    }
+  },
+  {
+    "id": "89190006",
+    "dep": "89",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Avenue de la gare",
+    "cp": "89190",
+    "ville": "Villeneuve-l'Archevêque",
+    "latitude": 48.237,
+    "longitude": 3.552,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-09 17:01:57"
+      },
+      "SP95": {
+        "valeur": "2.269",
+        "maj": "2026-10-07 15:10:00"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-05 15:42:53"
+      }
+    }
+  },
+  {
+    "id": "89400003",
+    "dep": "89",
+    "enseigne": "Leclerc",
+    "adresse": "Voie Nouvelle Les Latteux",
+    "cp": "89400",
+    "ville": "Migennes",
+    "latitude": 47.973,
+    "longitude": 3.511,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "E85": {
+        "valeur": "0.863",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.156",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.244",
+        "maj": "2026-10-13 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "89270001",
+    "dep": "89",
+    "enseigne": "Bi1",
+    "adresse": "Rue Restif de la Bretonne",
+    "cp": "89270",
+    "ville": "VERMENTON",
+    "latitude": 47.664130022077,
+    "longitude": 3.7387714294689,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-08 08:01:22"
+      },
+      "SP95": {
+        "valeur": "2.269",
+        "maj": "2026-10-08 08:01:23"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-08 08:01:23"
+      }
+    }
+  },
+  {
+    "id": "89170001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "RUE DU MOULIN DE L ARCHE",
+    "cp": "89170",
+    "ville": "Saint-Fargeau",
+    "latitude": 47.642,
+    "longitude": 3.068,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89200002",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "RUE DE LA GOULOTTE",
+    "cp": "89200",
+    "ville": "Avallon",
+    "latitude": 47.49,
+    "longitude": 3.9,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.258",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89520001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "Route de Ouanne",
+    "cp": "89520",
+    "ville": "SAINT-SAUVEUR-EN-PUISAYE",
+    "latitude": 47.62,
+    "longitude": 3.198,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89200008",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "6 Rue de Lyon",
+    "cp": "89200",
+    "ville": "Avallon",
+    "latitude": 47.491,
+    "longitude": 3.912,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.258",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.089",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.338",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89500002",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "4 rue de Braubach",
+    "cp": "89500",
+    "ville": "Villeneuve-sur-Yonne",
+    "latitude": 48.087524187696,
+    "longitude": 3.2972951411349,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-03 07:30:47"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-03 07:30:47"
+      },
+      "E10": {
+        "valeur": "2.235",
+        "maj": "2026-10-07 13:30:32"
+      },
+      "SP98": {
+        "valeur": "2.285",
+        "maj": "2026-10-03 07:30:48"
+      }
+    }
+  },
+  {
+    "id": "89130003",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "ROUTE DAUXERRE",
+    "cp": "89130",
+    "ville": "TOUCY",
+    "latitude": 47.732,
+    "longitude": 3.31,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-09-08 00:10:00"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-04-15 00:10:00"
+      }
+    }
+  },
+  {
+    "id": "89290002",
+    "dep": "89",
+    "enseigne": "Bi1",
+    "adresse": "ROUTE DE VINCELOTTES",
+    "cp": "89290",
+    "ville": "VINCELLES",
+    "latitude": 47.705,
+    "longitude": 3.634,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-09-22 13:34:12"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-09-04 09:51:53"
+      }
+    }
+  },
+  {
+    "id": "89100013",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "Centre commercial ChampBertrand",
+    "cp": "89100",
+    "ville": "Sens",
+    "latitude": 48.172,
+    "longitude": 3.292,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89520003",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "2 Rue de la Montagne",
+    "cp": "89520",
+    "ville": "Sainpuits",
+    "latitude": 47.518,
+    "longitude": 3.26,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-09-15 23:17:59"
+      },
+      "SP95": {
+        "valeur": "2.350",
+        "maj": "2026-09-15 23:17:59"
+      },
+      "SP98": {
+        "valeur": "2.370",
+        "maj": "2026-09-15 23:17:59"
+      }
+    }
+  },
+  {
+    "id": "89160001",
+    "dep": "89",
+    "enseigne": "Bi1",
+    "adresse": "21, rue du collège",
+    "cp": "89160",
+    "ville": "Ancy-le-Franc",
+    "latitude": 47.77,
+    "longitude": 4.175,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-06 16:30:00"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-10-06 16:30:00"
+      },
+      "E85": {
+        "valeur": "1.045",
+        "maj": "2026-09-11 11:30:48"
+      },
+      "SP98": {
+        "valeur": "2.309",
+        "maj": "2026-10-06 16:30:00"
+      }
+    }
+  },
+  {
+    "id": "89470004",
+    "dep": "89",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "ROUTE DE PARIS RN 6",
+    "cp": "89470",
+    "ville": "MONETEAU",
+    "latitude": 47.846,
+    "longitude": 3.55,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "89140001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "LES HAUTES VEUVES",
+    "cp": "89140",
+    "ville": "Pont-sur-Yonne",
+    "latitude": 48.294584699999994,
+    "longitude": 3.195853,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89350001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "LOT ST MICHEL",
+    "cp": "89350",
+    "ville": "Champignelles",
+    "latitude": 47.779,
+    "longitude": 3.077,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89560001",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE NATIONALE 151",
+    "cp": "89560",
+    "ville": "COURSON-LES-CARRIèRES",
+    "latitude": 47.616,
+    "longitude": 3.497,
+    "carburants": {}
+  },
+  {
+    "id": "89000008",
+    "dep": "89",
+    "enseigne": "Leclerc",
+    "adresse": "14 Avenue Jean Jaurès",
+    "cp": "89000",
+    "ville": "Auxerre",
+    "latitude": 47.797,
+    "longitude": 3.579,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "E85": {
+        "valeur": "0.886",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.220",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.314",
+        "maj": "2026-10-13 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "89600001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "avenue du 8 mai 1945",
+    "cp": "89600",
+    "ville": "Saint-Florentin",
+    "latitude": 48.00053054102,
+    "longitude": 3.71870193155,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89100006",
+    "dep": "89",
+    "enseigne": "Leclerc",
+    "adresse": "Près Aubert St Denis les Sens",
+    "cp": "89100",
+    "ville": "Saint-Denis-lès-Sens",
+    "latitude": 48.216605760092996,
+    "longitude": 3.2771067499518,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-12 09:00:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-12 09:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.059",
+        "maj": "2026-04-24 09:00:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-12 09:00:00"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-12 09:00:00"
+      }
+    }
+  },
+  {
+    "id": "89100015",
+    "dep": "89",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "7 boulevard du pont neuf",
+    "cp": "89100",
+    "ville": "Sens",
+    "latitude": 48.204,
+    "longitude": 3.271,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.939",
+        "maj": "2026-10-13 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "89000007",
+    "dep": "89",
+    "enseigne": "Esso Express",
+    "adresse": "Boulevard Gallieni",
+    "cp": "89000",
+    "ville": "Auxerre",
+    "latitude": 47.799,
+    "longitude": 3.553,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.355",
+        "maj": "2026-10-10 07:32:00"
+      },
+      "E10": {
+        "valeur": "2.190",
+        "maj": "2026-10-10 07:32:00"
+      },
+      "SP98": {
+        "valeur": "2.270",
+        "maj": "2026-10-10 07:32:00"
+      }
+    }
+  },
+  {
+    "id": "89330002",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "2 Avenue Pasteur",
+    "cp": "89330",
+    "ville": "SAINT-JULIEN-DU-SAULT",
+    "latitude": 48.032,
+    "longitude": 3.304,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.496",
+        "maj": "2026-10-03 08:30:31"
+      },
+      "SP95": {
+        "valeur": "2.350",
+        "maj": "2026-10-03 08:30:31"
+      }
+    }
+  },
+  {
+    "id": "89150002",
+    "dep": "89",
+    "enseigne": "Esso",
+    "adresse": "AUTOROUTE A 19",
+    "cp": "89150",
+    "ville": "Fouchères",
+    "latitude": 48.166,
+    "longitude": 3.172,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.521",
+        "maj": "2026-10-13 07:41:00"
+      },
+      "GPLc": {
+        "valeur": "1.088",
+        "maj": "2026-10-13 07:41:00"
+      },
+      "E10": {
+        "valeur": "2.326",
+        "maj": "2026-10-13 07:41:00"
+      },
+      "SP98": {
+        "valeur": "2.426",
+        "maj": "2026-10-13 07:41:00"
+      }
+    }
+  },
+  {
+    "id": "89400002",
+    "dep": "89",
+    "enseigne": "Esso Express",
+    "adresse": "129 Avenue Jean Jaurès",
+    "cp": "89400",
+    "ville": "Migennes",
+    "latitude": 47.963,
+    "longitude": 3.502,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.368",
+        "maj": "2026-10-12 11:21:00"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-12 11:21:00"
+      },
+      "SP98": {
+        "valeur": "2.245",
+        "maj": "2026-10-12 11:21:00"
+      }
+    }
+  },
+  {
+    "id": "89380006",
+    "dep": "89",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN 6 - 29 ROUTE DE PARIS",
+    "cp": "89380",
+    "ville": "APPOIGNY",
+    "latitude": 47.880994937581995,
+    "longitude": 3.5280124431542,
+    "carburants": {
+      "E85": {
+        "valeur": "0.935",
+        "maj": "2026-10-13 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "89600003",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "8 Avenue du 8 Mai",
+    "cp": "89600",
+    "ville": "SAINT-FLORENTIN",
+    "latitude": 48.001252533769005,
+    "longitude": 3.7213207423039996,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-08 06:14:23"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-08 06:14:23"
+      }
+    }
+  },
+  {
+    "id": "89100014",
+    "dep": "89",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN 6",
+    "cp": "89100",
+    "ville": "SENS",
+    "latitude": 48.148,
+    "longitude": 3.307,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.931",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "89290007",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A6 - AIRE DE VENOY-GROSSE-PIERRE",
+    "cp": "89290",
+    "ville": "VENOY",
+    "latitude": 47.78765,
+    "longitude": 3.67211,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "E85": {
+        "valeur": "1.039",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.095",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "89000003",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "route de Perrigny",
+    "cp": "89000",
+    "ville": "SAINT-GEORGES-SUR-BAULCHE",
+    "latitude": 47.811,
+    "longitude": 3.536,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89116003",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A6 - AIRE DE LA COULINE",
+    "cp": "89116",
+    "ville": "Précy-sur-Vrin",
+    "latitude": 47.97408,
+    "longitude": 3.19921,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-09-14 18:33:21"
+      },
+      "E85": {
+        "valeur": "1.039",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.088",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "89110001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "CHEMIN DE NEUILLY",
+    "cp": "89110",
+    "ville": "AILLANT-SUR-THOLON",
+    "latitude": 47.876,
+    "longitude": 3.353,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89630001",
+    "dep": "89",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "RUE DE L'ETANG",
+    "cp": "89630",
+    "ville": "Quarré-les-Tombes",
+    "latitude": 47.371,
+    "longitude": 3.998,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-10-08 11:09:43"
+      },
+      "E10": {
+        "valeur": "2.302",
+        "maj": "2026-10-08 11:09:44"
+      }
+    }
+  },
+  {
+    "id": "89400001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "Rue Pierre et Marie Curie",
+    "cp": "89400",
+    "ville": "MIGENNES",
+    "latitude": 47.962,
+    "longitude": 3.505,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89340004",
+    "dep": "89",
+    "enseigne": "Esso",
+    "adresse": "150 RN6 le petit Villeblevin",
+    "cp": "89340",
+    "ville": "Villeblevin",
+    "latitude": 48.336,
+    "longitude": 3.08,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.272",
+        "maj": "2026-08-18 13:57:14"
+      },
+      "SP95": {
+        "valeur": "2.101",
+        "maj": "2026-08-18 13:57:14"
+      },
+      "GPLc": {
+        "valeur": "1.410",
+        "maj": "2026-08-18 13:57:14"
+      }
+    }
+  },
+  {
+    "id": "89420007",
+    "dep": "89",
+    "enseigne": "Esso",
+    "adresse": "Route nationale 6",
+    "cp": "89420",
+    "ville": "Cussy les Forges",
+    "latitude": 47.467419859402,
+    "longitude": 4.0803019554445,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-06 11:58:07"
+      },
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-09-16 11:44:45"
+      },
+      "E10": {
+        "valeur": "2.209",
+        "maj": "2026-09-18 11:34:58"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-10-06 11:58:07"
+      }
+    }
+  },
+  {
+    "id": "89000002",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "RUE DE PREUILLY",
+    "cp": "89000",
+    "ville": "Auxerre",
+    "latitude": 47.792,
+    "longitude": 3.58,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89800001",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "Route d'Auxerre",
+    "cp": "89800",
+    "ville": "Chablis",
+    "latitude": 47.81846,
+    "longitude": 3.78141,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.390",
+        "maj": "2026-10-12 07:02:24"
+      },
+      "E10": {
+        "valeur": "2.205",
+        "maj": "2026-10-12 07:02:24"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-12 07:02:24"
+      }
+    }
+  },
+  {
+    "id": "89220001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "RUE DES VALLEES",
+    "cp": "89220",
+    "ville": "BLéNEAU",
+    "latitude": 47.694,
+    "longitude": 2.95,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89200006",
+    "dep": "89",
+    "enseigne": "Esso",
+    "adresse": "Route Nationale 6",
+    "cp": "89200",
+    "ville": "AVALLON",
+    "latitude": 47.4982722302,
+    "longitude": 3.89684379984,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-06 15:19:19"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-09-23 13:10:11"
+      },
+      "E10": {
+        "valeur": "2.209",
+        "maj": "2026-09-18 11:27:15"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-10-06 15:19:19"
+      }
+    }
+  },
+  {
+    "id": "89700002",
+    "dep": "89",
+    "enseigne": "Leclerc",
+    "adresse": "route de Paris",
+    "cp": "89700",
+    "ville": "TONNERRE",
+    "latitude": 47.873,
+    "longitude": 3.967,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.370",
+        "maj": "2026-10-13 01:17:00"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-13 01:17:00"
+      },
+      "E10": {
+        "valeur": "2.204",
+        "maj": "2026-10-13 01:17:00"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-13 01:17:00"
+      }
+    }
+  },
+  {
+    "id": "89150004",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "Route de Sens",
+    "cp": "89150",
+    "ville": "SAINT-VALERIEN",
+    "latitude": 48.178,
+    "longitude": 3.11,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89290008",
+    "dep": "89",
+    "enseigne": "Esso",
+    "adresse": "RD 606",
+    "cp": "89290",
+    "ville": "Vincelles",
+    "latitude": 47.703,
+    "longitude": 3.628,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-09 16:05:12"
+      },
+      "E10": {
+        "valeur": "2.269",
+        "maj": "2026-10-09 16:05:12"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-09 16:05:13"
+      }
+    }
+  },
+  {
+    "id": "89210002",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "Route de Joigny",
+    "cp": "89210",
+    "ville": "Brienon-sur-Armançon",
+    "latitude": 47.99,
+    "longitude": 3.606,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-09-07 14:50:46"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-09-07 14:50:46"
+      }
+    }
+  },
+  {
+    "id": "89120001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "34 GRANDE RUE",
+    "cp": "89120",
+    "ville": "Charny",
+    "latitude": 47.887,
+    "longitude": 3.096,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89132001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "AUT A 6",
+    "cp": "89116",
+    "ville": "PRECY-SUR-VRIN",
+    "latitude": 47.974,
+    "longitude": 3.198,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.549",
+        "maj": "2026-10-13 06:00:00"
+      },
+      "E85": {
+        "valeur": "1.149",
+        "maj": "2026-10-13 06:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.165",
+        "maj": "2026-10-13 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.379",
+        "maj": "2026-10-13 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.479",
+        "maj": "2026-10-13 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "89190007",
+    "dep": "89",
+    "enseigne": "Shell",
+    "adresse": "Aire de Villeneuve l'Archevêque autoroute A5 Sens PARIS TROYES",
+    "cp": "89190",
+    "ville": "Villeneuve-l'Archevêque",
+    "latitude": 48.242996678371,
+    "longitude": 3.5544017645264,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.435",
+        "maj": "2026-10-10 09:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.108",
+        "maj": "2026-10-10 09:30:00"
+      },
+      "E10": {
+        "valeur": "2.321",
+        "maj": "2026-10-10 09:30:00"
+      },
+      "SP98": {
+        "valeur": "2.403",
+        "maj": "2026-10-10 09:30:00"
+      }
+    }
+  },
+  {
+    "id": "89600004",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "Route d'Avrolles",
+    "cp": "89600",
+    "ville": "Saint-Florentin",
+    "latitude": 47.99973,
+    "longitude": 3.71494,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-12 09:25:16"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-09-18 12:23:35"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-12 09:25:16"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-12 09:25:17"
+      }
+    }
+  },
+  {
+    "id": "89000011",
+    "dep": "89",
+    "enseigne": "Carrefour Market",
+    "adresse": "97-99 Avenue de Saint-Georges",
+    "cp": "89000",
+    "ville": "Auxerre",
+    "latitude": 47.797,
+    "longitude": 3.547,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-07 14:53:10"
+      },
+      "SP95": {
+        "valeur": "2.269",
+        "maj": "2026-10-09 16:59:08"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-07 14:53:10"
+      }
+    }
+  },
+  {
+    "id": "89100002",
+    "dep": "89",
+    "enseigne": "Carrefour",
+    "adresse": "8 Route de Voulx",
+    "cp": "89100",
+    "ville": "SENS",
+    "latitude": 48.197,
+    "longitude": 3.266,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-10 08:05:26"
+      },
+      "SP95": {
+        "valeur": "2.279",
+        "maj": "2026-10-10 08:05:26"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-10 08:05:26"
+      }
+    }
+  },
+  {
+    "id": "89200003",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "ROUTE DE TONNERRE",
+    "cp": "89200",
+    "ville": "AVALLON",
+    "latitude": 47.499,
+    "longitude": 3.908,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP95": {
+        "valeur": "2.258",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.208",
+        "maj": "2026-10-08 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.338",
+        "maj": "2026-10-08 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "89300002",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "Rue des Entrepreneurs",
+    "cp": "89300",
+    "ville": "Joigny",
+    "latitude": 47.98,
+    "longitude": 3.382,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-12 10:30:00"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 09:00:00"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-12 10:30:00"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-12 10:30:00"
+      }
+    }
+  },
+  {
+    "id": "89400004",
+    "dep": "89",
+    "enseigne": "Leclerc",
+    "adresse": "48, route de Sens",
+    "cp": "89400",
+    "ville": "Épineau-les-Voves",
+    "latitude": 47.95,
+    "longitude": 3.469,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "E85": {
+        "valeur": "0.868",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.172",
+        "maj": "2026-10-13 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.264",
+        "maj": "2026-10-13 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "89130002",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue du Général de Gaulle",
+    "cp": "89130",
+    "ville": "TOUCY",
+    "latitude": 47.7217607339,
+    "longitude": 3.3131277129499996,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-12 08:51:32"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-02 08:37:45"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-05 08:49:14"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-05 08:49:14"
+      }
+    }
+  },
+  {
+    "id": "89450002",
+    "dep": "89",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "2 ROUTE DE NANCHEVRE",
+    "cp": "89450",
+    "ville": "ST PERE SOUS VEZELAY",
+    "latitude": 47.462,
+    "longitude": 3.768,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.375",
+        "maj": "2026-10-05 17:23:26"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-10-05 17:23:27"
+      }
+    }
+  },
+  {
+    "id": "89920001",
+    "dep": "89",
+    "enseigne": "Esso",
+    "adresse": "Aire de Venoy Soleil Levant A6",
+    "cp": "89290",
+    "ville": "Champs-sur-Yonne",
+    "latitude": 47.79,
+    "longitude": 3.673,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.413",
+        "maj": "2026-10-13 00:30:00"
+      },
+      "E85": {
+        "valeur": "0.982",
+        "maj": "2026-10-13 00:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.078",
+        "maj": "2026-10-13 00:30:00"
+      },
+      "E10": {
+        "valeur": "2.233",
+        "maj": "2026-10-13 00:30:00"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-13 00:30:00"
+      }
+    }
+  },
+  {
+    "id": "89340003",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "1 rue Guillaume des Barres",
+    "cp": "89340",
+    "ville": "VILLENEUVE-LA-GUYARD",
+    "latitude": 48.335,
+    "longitude": 3.065,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-13 08:00:00"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 08:00:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-13 08:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "89100009",
+    "dep": "89",
+    "enseigne": "Netto",
+    "adresse": "RN 60",
+    "cp": "89100",
+    "ville": "MALAY-LE-GRAND",
+    "latitude": 48.187,
+    "longitude": 3.318,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-12 12:36:42"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 22:10:08"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-07 11:09:05"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-07 11:09:05"
+      }
+    }
+  },
+  {
+    "id": "89144002",
+    "dep": "89",
+    "enseigne": "Carrefour Contact",
+    "adresse": "13 Avenue de Chablis",
+    "cp": "89144",
+    "ville": "Ligny-le-Châtel",
+    "latitude": 47.895,
+    "longitude": 3.758,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-10-08 20:59:09"
+      },
+      "E85": {
+        "valeur": "0.936",
+        "maj": "2026-09-15 14:43:29"
+      },
+      "E10": {
+        "valeur": "2.256",
+        "maj": "2026-10-08 20:59:09"
+      }
+    }
+  },
+  {
+    "id": "89340001",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "135 RN 6",
+    "cp": "89340",
+    "ville": "VILLEBLEVIN",
+    "latitude": 48.336,
+    "longitude": 3.08,
+    "carburants": {}
+  },
+  {
+    "id": "89000005",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "2 Avenue Jean Mermoz",
+    "cp": "89000",
+    "ville": "AUXERRE",
+    "latitude": 47.804,
+    "longitude": 3.589,
+    "carburants": {
+      "GPLc": {
+        "valeur": "1.010",
+        "maj": "2026-10-12 07:00:57"
+      }
+    }
+  },
+  {
+    "id": "89100004",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "Route de Lyon",
+    "cp": "89100",
+    "ville": "SENS",
+    "latitude": 48.184,
+    "longitude": 3.287,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 07:29:40"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 07:29:40"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 07:29:40"
+      }
+    }
+  },
+  {
+    "id": "89100017",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "17 boulevard de Verdun",
+    "cp": "89100",
+    "ville": "SENS",
+    "latitude": 48.204847767689,
+    "longitude": 3.2890251042323,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-12 23:30:00"
+      },
+      "E85": {
+        "valeur": "1.025",
+        "maj": "2026-10-12 23:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.079",
+        "maj": "2026-10-12 23:30:00"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-12 23:30:00"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-12 23:30:00"
+      }
+    }
+  },
+  {
+    "id": "89120003",
+    "dep": "89",
+    "enseigne": "Intermarché",
+    "adresse": "86 Route de Saint-Martin",
+    "cp": "89120",
+    "ville": "Charny-Orée-de-Puisaye",
+    "latitude": 47.876106002799006,
+    "longitude": 3.0955409729846997,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 15:17:42"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-09-23 11:41:42"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-08 15:17:43"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 15:17:43"
+      }
+    }
+  },
+  {
+    "id": "89470001",
+    "dep": "89",
+    "enseigne": "Carrefour",
+    "adresse": "53 Avenue de Paris",
+    "cp": "89470",
+    "ville": "MONETEAU",
+    "latitude": 47.844,
+    "longitude": 3.551,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.397",
+        "maj": "2026-10-12 10:24:44"
+      },
+      "GPLc": {
+        "valeur": "1.075",
+        "maj": "2026-10-12 10:24:45"
+      },
+      "E10": {
+        "valeur": "2.206",
+        "maj": "2026-10-12 10:24:45"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 10:24:45"
+      }
+    }
+  },
+  {
+    "id": "89300003",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "31 Avenue Jean Hemery",
+    "cp": "89300",
+    "ville": "JOIGNY",
+    "latitude": 47.977,
+    "longitude": 3.411,
+    "carburants": {}
+  },
+  {
+    "id": "89470005",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "RUE D'AUXERRE",
+    "cp": "89470",
+    "ville": "MONETEAU",
+    "latitude": 47.847,
+    "longitude": 3.58,
+    "carburants": {}
+  },
+  {
+    "id": "89440001",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "9 Route de Dissangis",
+    "cp": "89440",
+    "ville": "L'ISLE SUR SEREIN",
+    "latitude": 47.591429000000005,
+    "longitude": 4.002189,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-08 07:45:00"
+      },
+      "SP95": {
+        "valeur": "2.258",
+        "maj": "2026-09-30 07:45:00"
+      },
+      "SP98": {
+        "valeur": "2.338",
+        "maj": "2026-09-30 07:45:00"
+      }
+    }
+  },
+  {
+    "id": "89420008",
+    "dep": "89",
+    "enseigne": "Avia",
+    "adresse": "AIRE DE LA CHAPONNE AUTOROUTEA6",
+    "cp": "89420",
+    "ville": "guillon en terre plaine",
+    "latitude": 47.503302875357996,
+    "longitude": 4.0352394865034,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.407",
+        "maj": "2026-10-13 06:03:06"
+      },
+      "E85": {
+        "valeur": "1.037",
+        "maj": "2026-10-13 06:03:06"
+      },
+      "GPLc": {
+        "valeur": "1.178",
+        "maj": "2026-10-13 06:03:06"
+      },
+      "E10": {
+        "valeur": "2.217",
+        "maj": "2026-10-13 06:03:07"
+      },
+      "SP98": {
+        "valeur": "2.282",
+        "maj": "2026-10-13 06:03:07"
+      }
+    }
+  },
+  {
+    "id": "89520002",
+    "dep": "89",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE DE ST FARGEAU",
+    "cp": "89520",
+    "ville": "SAINT-SAUVEUR-EN-PUISAYE",
+    "latitude": 47.62,
+    "longitude": 3.192,
+    "carburants": {}
+  }
+]
