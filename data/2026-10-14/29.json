@@ -1,0 +1,3678 @@
+[
+  {
+    "id": "29450001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "ZA du Pont Bleu",
+    "cp": "29450",
+    "ville": "Sizun",
+    "latitude": 48.411,
+    "longitude": -4.087,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 14:36:55"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-10-08 14:36:55"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-08 14:36:56"
+      }
+    }
+  },
+  {
+    "id": "29270003",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "2 rue Charles Le Goff",
+    "cp": "29270",
+    "ville": "Carhaix-Plouguer",
+    "latitude": 48.27519,
+    "longitude": -3.58155,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-13 09:53:20"
+      },
+      "SP95": {
+        "valeur": "2.238",
+        "maj": "2026-10-13 09:53:20"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-29 11:22:33"
+      },
+      "E10": {
+        "valeur": "2.175",
+        "maj": "2026-10-13 09:53:20"
+      }
+    }
+  },
+  {
+    "id": "29610002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "AVENUE DU MARECHAL LECLERC",
+    "cp": "29610",
+    "ville": "PLOUIGNEAU",
+    "latitude": 48.57,
+    "longitude": -3.708,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-09-29 06:59:53"
+      },
+      "SP95": {
+        "valeur": "2.270",
+        "maj": "2026-10-13 10:48:01"
+      },
+      "E10": {
+        "valeur": "2.230",
+        "maj": "2026-10-13 10:48:01"
+      }
+    }
+  },
+  {
+    "id": "29510005",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Rue d'Armor",
+    "cp": "29170",
+    "ville": "Saint-Évarzec",
+    "latitude": 47.938,
+    "longitude": -4.023,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 09:00:48"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-30 12:33:06"
+      },
+      "E10": {
+        "valeur": "2.215",
+        "maj": "2026-10-13 09:00:48"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-13 09:00:48"
+      }
+    }
+  },
+  {
+    "id": "29880005",
+    "dep": "29",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Rue d'Armorique",
+    "cp": "29880",
+    "ville": "Plouguerneau",
+    "latitude": 48.60691644999999,
+    "longitude": -4.5110560012668,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.394",
+        "maj": "2026-09-21 08:43:07"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-21 08:43:07"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-09-21 08:43:07"
+      }
+    }
+  },
+  {
+    "id": "29690002",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Rue Paul Gauguin",
+    "cp": "29690",
+    "ville": "HUELGOAT",
+    "latitude": 48.368,
+    "longitude": -3.749,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.325",
+        "maj": "2026-10-09 14:30:00"
+      },
+      "SP95": {
+        "valeur": "2.221",
+        "maj": "2026-10-09 14:30:00"
+      },
+      "E10": {
+        "valeur": "2.154",
+        "maj": "2026-10-09 14:30:00"
+      }
+    }
+  },
+  {
+    "id": "29400003",
+    "dep": "29",
+    "enseigne": "Esso Express",
+    "adresse": "137 Avenue Maréchal Foch",
+    "cp": "29400",
+    "ville": "Landivisiau",
+    "latitude": 48.515,
+    "longitude": -4.054,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.340",
+        "maj": "2026-10-13 15:26:00"
+      },
+      "E10": {
+        "valeur": "2.174",
+        "maj": "2026-10-13 15:26:00"
+      },
+      "SP98": {
+        "valeur": "2.254",
+        "maj": "2026-10-13 15:26:00"
+      }
+    }
+  },
+  {
+    "id": "29590001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "ZONE DE QUIELLA",
+    "cp": "29590",
+    "ville": "LE FAOU",
+    "latitude": 48.298,
+    "longitude": -4.17,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-10 09:03:51"
+      },
+      "SP95": {
+        "valeur": "2.222",
+        "maj": "2026-10-10 09:03:52"
+      },
+      "SP98": {
+        "valeur": "2.278",
+        "maj": "2026-10-10 09:03:52"
+      }
+    }
+  },
+  {
+    "id": "29710004",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "RUE DES ECOLES",
+    "cp": "29710",
+    "ville": "LANDUDEC",
+    "latitude": 48.001,
+    "longitude": -4.336,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-09 11:37:38"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-09-30 10:31:01"
+      },
+      "SP98": {
+        "valeur": "2.235",
+        "maj": "2026-10-09 11:37:38"
+      }
+    }
+  },
+  {
+    "id": "29250002",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "rue de brest",
+    "cp": "29250",
+    "ville": "SAINT-POL-DE-LéON",
+    "latitude": 48.679,
+    "longitude": -3.999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-07 08:55:05"
+      },
+      "SP95": {
+        "valeur": "2.213",
+        "maj": "2026-10-13 08:35:15"
+      },
+      "GPLc": {
+        "valeur": "1.036",
+        "maj": "2026-08-20 10:45:30"
+      },
+      "E10": {
+        "valeur": "2.176",
+        "maj": "2026-10-10 14:45:00"
+      },
+      "SP98": {
+        "valeur": "2.257",
+        "maj": "2026-10-10 09:00:00"
+      }
+    }
+  },
+  {
+    "id": "29170001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Rte de quimper pôle commercial Quai 29",
+    "cp": "29170",
+    "ville": "FOUESNANT",
+    "latitude": 47.902,
+    "longitude": -4.027,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 09:41:53"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-10-01 09:52:35"
+      },
+      "GPLc": {
+        "valeur": "0.983",
+        "maj": "2026-10-05 10:32:45"
+      },
+      "E10": {
+        "valeur": "2.155",
+        "maj": "2026-10-09 10:28:37"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-10 09:41:53"
+      }
+    }
+  },
+  {
+    "id": "29150003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "place kerjean",
+    "cp": "29150",
+    "ville": "CHâTEAULIN",
+    "latitude": 48.20011,
+    "longitude": -4.08904,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.328",
+        "maj": "2026-10-12 07:43:23"
+      },
+      "SP95": {
+        "valeur": "2.188",
+        "maj": "2026-10-09 09:20:43"
+      },
+      "E10": {
+        "valeur": "2.138",
+        "maj": "2026-10-09 09:20:44"
+      },
+      "SP98": {
+        "valeur": "2.228",
+        "maj": "2026-10-05 09:32:33"
+      }
+    }
+  },
+  {
+    "id": "29120003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Trolimon",
+    "cp": "29120",
+    "ville": "PONT-L'ABBé",
+    "latitude": 47.86445693,
+    "longitude": -4.23442414,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.315",
+        "maj": "2026-10-12 09:14:02"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-10 10:08:25"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-09-17 11:23:55"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-07-05 00:01:00"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-10 10:08:26"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-10 10:08:26"
+      }
+    }
+  },
+  {
+    "id": "29770003",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "35 Route de la Pointe du Raz - Le Loch",
+    "cp": "29770",
+    "ville": "PRIMELIN",
+    "latitude": 48.029076625233,
+    "longitude": -4.62560169386,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.285",
+        "maj": "2026-10-06 09:07:39"
+      },
+      "SP95": {
+        "valeur": "2.168",
+        "maj": "2026-10-06 09:07:39"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-06 09:07:39"
+      }
+    }
+  },
+  {
+    "id": "29360002",
+    "dep": "29",
+    "enseigne": "Carrefour Contact",
+    "adresse": "RUE DE LORIENT RD 224",
+    "cp": "29360",
+    "ville": "Clohars-Carnoët",
+    "latitude": 47.798,
+    "longitude": -3.58,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-09 10:16:16"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-13 10:44:47"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-09 10:16:16"
+      }
+    }
+  },
+  {
+    "id": "29000016",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "2 AVENUE DE TY BOS - ZAC DE TY DOUAR",
+    "cp": "29000",
+    "ville": "Quimper",
+    "latitude": 47.9819675773,
+    "longitude": -4.0737967263716,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 07:48:32"
+      },
+      "E10": {
+        "valeur": "2.177",
+        "maj": "2026-10-09 10:05:11"
+      },
+      "SP98": {
+        "valeur": "2.293",
+        "maj": "2026-10-09 10:05:11"
+      }
+    }
+  },
+  {
+    "id": "29140002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Route de Quimper",
+    "cp": "29140",
+    "ville": "Rosporden",
+    "latitude": 47.965,
+    "longitude": -3.852,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-09 11:41:47"
+      },
+      "SP95": {
+        "valeur": "2.200",
+        "maj": "2026-10-09 11:41:47"
+      },
+      "E10": {
+        "valeur": "2.160",
+        "maj": "2026-10-09 11:41:47"
+      },
+      "SP98": {
+        "valeur": "2.260",
+        "maj": "2026-10-09 11:41:48"
+      }
+    }
+  },
+  {
+    "id": "29120004",
+    "dep": "29",
+    "enseigne": "Netto",
+    "adresse": "Rue du Petit Train",
+    "cp": "29120",
+    "ville": "PONT-L'ABBé",
+    "latitude": 47.865,
+    "longitude": -4.23,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 14:42:26"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-13 14:42:26"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-13 14:42:26"
+      }
+    }
+  },
+  {
+    "id": "29250001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "PLACE DE L'EVECHE",
+    "cp": "29250",
+    "ville": "SAINT-POL-DE-LéON",
+    "latitude": 48.6876564083,
+    "longitude": -3.98867020449,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-12 09:19:06"
+      },
+      "SP95": {
+        "valeur": "2.203",
+        "maj": "2026-10-12 09:19:19"
+      },
+      "E85": {
+        "valeur": "0.865",
+        "maj": "2026-09-22 08:48:22"
+      },
+      "SP98": {
+        "valeur": "2.257",
+        "maj": "2026-10-12 09:19:32"
+      }
+    }
+  },
+  {
+    "id": "29790002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "10 RUE DE LA LIBERTE",
+    "cp": "29790",
+    "ville": "Pont-Croix",
+    "latitude": 48.043898054157005,
+    "longitude": -4.4896091624,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 16:34:50"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-12 16:34:50"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-12 16:34:50"
+      }
+    }
+  },
+  {
+    "id": "29830003",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "47 Rue de Brest",
+    "cp": "29830",
+    "ville": "PLOUDALMéZEAU",
+    "latitude": 48.538,
+    "longitude": -4.659,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-02 08:17:26"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-10-02 08:17:26"
+      },
+      "E10": {
+        "valeur": "2.145",
+        "maj": "2026-10-02 08:17:26"
+      }
+    }
+  },
+  {
+    "id": "29300004",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "119 Rue du Couëdic",
+    "cp": "29300",
+    "ville": "QUIMPERLE",
+    "latitude": 47.88,
+    "longitude": -3.554,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 14:42:03"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-10-12 10:24:26"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-04-27 10:03:26"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-12 10:24:26"
+      }
+    }
+  },
+  {
+    "id": "29160003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Penandreff",
+    "cp": "29160",
+    "ville": "CROZON",
+    "latitude": 48.2506817631,
+    "longitude": -4.47202790147,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.322",
+        "maj": "2026-10-09 08:46:34"
+      },
+      "SP95": {
+        "valeur": "2.186",
+        "maj": "2026-10-09 08:46:35"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-10-09 08:46:35"
+      },
+      "E10": {
+        "valeur": "2.145",
+        "maj": "2026-10-09 08:46:35"
+      }
+    }
+  },
+  {
+    "id": "29860003",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE DE BREST",
+    "cp": "29860",
+    "ville": "Plabennec",
+    "latitude": 48.493,
+    "longitude": -4.431,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-13 15:48:30"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-02 15:04:16"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-13 15:48:31"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-13 15:48:31"
+      }
+    }
+  },
+  {
+    "id": "29520005",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "rue de quimper",
+    "cp": "29520",
+    "ville": "Chateauneuf du Faou",
+    "latitude": 48.183069029473,
+    "longitude": -3.8265415659759,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-12 11:03:00"
+      },
+      "E85": {
+        "valeur": "0.867",
+        "maj": "2026-10-10 11:30:01"
+      },
+      "E10": {
+        "valeur": "2.155",
+        "maj": "2026-10-12 11:03:00"
+      }
+    }
+  },
+  {
+    "id": "29290001",
+    "dep": "29",
+    "enseigne": "Carrefour",
+    "adresse": "RUE DU PONT DE BOIS",
+    "cp": "29290",
+    "ville": "Saint-Renan",
+    "latitude": 48.4289,
+    "longitude": -4.61368,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.319",
+        "maj": "2026-10-08 09:59:22"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-25 10:01:47"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-09-19 09:28:33"
+      },
+      "GPLc": {
+        "valeur": "1.050",
+        "maj": "2026-04-17 10:15:41"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-12 10:01:10"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-09-22 09:53:02"
+      }
+    }
+  },
+  {
+    "id": "29100004",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "zone du DREVERS",
+    "cp": "29100",
+    "ville": "Douarnenez",
+    "latitude": 48.082,
+    "longitude": -4.317,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-12 08:52:13"
+      },
+      "SP95": {
+        "valeur": "2.229",
+        "maj": "2026-10-12 08:52:13"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-12 08:52:13"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-12 08:52:14"
+      }
+    }
+  },
+  {
+    "id": "29600003",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Clos Saint-Fiacre",
+    "cp": "29600",
+    "ville": "Plourin-lès-Morlaix",
+    "latitude": 48.558,
+    "longitude": -3.824,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-09 09:46:02"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-10-09 09:46:02"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-09 09:46:02"
+      }
+    }
+  },
+  {
+    "id": "29750001",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "Rue du Général de Gaulle",
+    "cp": "29750",
+    "ville": "Loctudy",
+    "latitude": 47.833,
+    "longitude": -4.185,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 11:49:11"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-10 11:49:11"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-10 11:49:11"
+      }
+    }
+  },
+  {
+    "id": "29290003",
+    "dep": "29",
+    "enseigne": "Carrefour Contact",
+    "adresse": "rue du Pont de bois",
+    "cp": "29280",
+    "ville": "Locmaria-Plouzané",
+    "latitude": 48.37506,
+    "longitude": -4.64481,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-08 07:55:11"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-10 11:25:49"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-08 07:55:11"
+      }
+    }
+  },
+  {
+    "id": "29290002",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "1 Place Léon Cheminant",
+    "cp": "29290",
+    "ville": "Saint-Renan",
+    "latitude": 48.435,
+    "longitude": -4.622,
+    "carburants": {
+      "E85": {
+        "valeur": "0.935",
+        "maj": "2026-08-18 12:18:28"
+      }
+    }
+  },
+  {
+    "id": "29430002",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Kerchapalain",
+    "cp": "29430",
+    "ville": "PLOUESCAT",
+    "latitude": 48.651,
+    "longitude": -4.185,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-09 15:49:40"
+      },
+      "SP95": {
+        "valeur": "2.203",
+        "maj": "2026-10-09 15:49:41"
+      },
+      "E10": {
+        "valeur": "2.171",
+        "maj": "2026-10-09 15:49:41"
+      },
+      "SP98": {
+        "valeur": "2.244",
+        "maj": "2026-10-05 13:51:11"
+      }
+    }
+  },
+  {
+    "id": "29260005",
+    "dep": "29",
+    "enseigne": "Avia",
+    "adresse": "ZA DE MESCODEN - D770",
+    "cp": "29260",
+    "ville": "Ploudaniel",
+    "latitude": 48.488019036541004,
+    "longitude": -4.2940031439909,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-12 14:30:46"
+      },
+      "SP98": {
+        "valeur": "2.369",
+        "maj": "2026-10-13 14:19:56"
+      }
+    }
+  },
+  {
+    "id": "29000006",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "150 Route de Brest",
+    "cp": "29000",
+    "ville": "Quimper",
+    "latitude": 48.01593,
+    "longitude": -4.08164,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 07:32:13"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-10 07:32:13"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-10 07:32:13"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-10 07:32:14"
+      }
+    }
+  },
+  {
+    "id": "29800004",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Z.A. de Croas-ar-Nézic",
+    "cp": "29800",
+    "ville": "SAINT-THONAN",
+    "latitude": 48.472,
+    "longitude": -4.323,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.327",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.140",
+        "maj": "2026-10-14 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "29600005",
+    "dep": "29",
+    "enseigne": "Carrefour",
+    "adresse": "Boulevard René Fily",
+    "cp": "29600",
+    "ville": "Saint-Martin-des-Champs",
+    "latitude": 48.572600950939005,
+    "longitude": -3.8498448524414,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.360",
+        "maj": "2026-10-12 07:11:27"
+      },
+      "GPLc": {
+        "valeur": "1.005",
+        "maj": "2026-10-08 07:44:07"
+      },
+      "E10": {
+        "valeur": "2.168",
+        "maj": "2026-10-12 07:11:27"
+      },
+      "SP98": {
+        "valeur": "2.255",
+        "maj": "2026-10-12 07:11:27"
+      }
+    }
+  },
+  {
+    "id": "29950001",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "Domaine de Penfoul Bihan",
+    "cp": "29950",
+    "ville": "BENODET",
+    "latitude": 47.882,
+    "longitude": -4.112,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-12 09:22:17"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-12 09:22:17"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-12 09:22:17"
+      }
+    }
+  },
+  {
+    "id": "29350001",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Lieu-Dit Bazen Huen",
+    "cp": "29350",
+    "ville": "MOëLAN-SUR-MER",
+    "latitude": 47.812185308536,
+    "longitude": -3.6303261418590997,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 12:30:00"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-12 12:13:31"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-12 12:30:00"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-12 12:30:00"
+      }
+    }
+  },
+  {
+    "id": "29890003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "KERENEZ",
+    "cp": "29890",
+    "ville": "KERLOUAN",
+    "latitude": 48.644635,
+    "longitude": -4.368640999999999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.325",
+        "maj": "2026-10-12 09:01:55"
+      },
+      "E10": {
+        "valeur": "2.135",
+        "maj": "2026-10-07 09:00:00"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-12 09:01:55"
+      }
+    }
+  },
+  {
+    "id": "29740001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Rue de Lesconil",
+    "cp": "29740",
+    "ville": "PLOBANNALEC-LESCONIL",
+    "latitude": 47.824659584100004,
+    "longitude": -4.24275383367,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.325",
+        "maj": "2026-10-08 16:23:34"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-10-08 16:23:34"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-08 16:23:34"
+      }
+    }
+  },
+  {
+    "id": "29420001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Rue de Bel Air",
+    "cp": "29420",
+    "ville": "Plouénan",
+    "latitude": 48.628,
+    "longitude": -3.988,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.352",
+        "maj": "2026-10-13 09:37:13"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-13 09:37:13"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-13 09:37:13"
+      }
+    }
+  },
+  {
+    "id": "29228001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Kergaradec - Porte de Gouesnou",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.43,
+    "longitude": -4.472,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.307",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E85": {
+        "valeur": "0.848",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-14 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "29200016",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "ROUTE DU VIEUX ST.MARC",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.393,
+    "longitude": -4.45,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.913",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29860002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "14 Rue Marcel Bouguen",
+    "cp": "29860",
+    "ville": "PLABENNEC",
+    "latitude": 48.503,
+    "longitude": -4.427,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.330",
+        "maj": "2026-10-12 11:02:33"
+      },
+      "SP95": {
+        "valeur": "2.198",
+        "maj": "2026-10-12 11:02:33"
+      },
+      "SP98": {
+        "valeur": "2.238",
+        "maj": "2026-10-12 11:02:33"
+      }
+    }
+  },
+  {
+    "id": "29000015",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "163 Rte de Bénodet D34",
+    "cp": "29000",
+    "ville": "Quimper",
+    "latitude": 47.974,
+    "longitude": -4.092,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.328",
+        "maj": "2026-10-13 09:38:48"
+      },
+      "GPLc": {
+        "valeur": "1.035",
+        "maj": "2026-04-21 09:17:44"
+      },
+      "E10": {
+        "valeur": "2.140",
+        "maj": "2026-10-09 08:43:04"
+      },
+      "SP98": {
+        "valeur": "2.235",
+        "maj": "2026-10-13 09:38:48"
+      }
+    }
+  },
+  {
+    "id": "29419001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Route du Leck",
+    "cp": "29800",
+    "ville": "Landerneau",
+    "latitude": 48.466,
+    "longitude": -4.256,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.313",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E85": {
+        "valeur": "0.849",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.140",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.222",
+        "maj": "2026-10-14 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "29200002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "17 RUE CUIRASSE BRETAGNE",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.4075684317,
+    "longitude": -4.49567358546,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-06 10:35:37"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-06 10:35:38"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-06 10:35:38"
+      }
+    }
+  },
+  {
+    "id": "29850001",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "25 RUE DE BREST",
+    "cp": "29850",
+    "ville": "Gouesnou",
+    "latitude": 48.447642699999996,
+    "longitude": -4.4645979,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 14:07:26"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 14:07:26"
+      }
+    }
+  },
+  {
+    "id": "29620001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "33 Rue des Quatre Vents",
+    "cp": "29620",
+    "ville": "LANMEUR",
+    "latitude": 48.642,
+    "longitude": -3.72,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-12 09:11:35"
+      },
+      "E85": {
+        "valeur": "0.889",
+        "maj": "2026-10-12 09:11:35"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-13 09:45:10"
+      },
+      "SP98": {
+        "valeur": "2.257",
+        "maj": "2026-10-13 09:45:10"
+      }
+    }
+  },
+  {
+    "id": "29280003",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "ZAC DE CASTEL NEVEZ",
+    "cp": "29280",
+    "ville": "PLOUZANE",
+    "latitude": 48.379,
+    "longitude": -4.601,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.295",
+        "maj": "2026-10-09 15:54:35"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-09 15:54:35"
+      },
+      "E10": {
+        "valeur": "2.108",
+        "maj": "2026-10-09 15:54:35"
+      }
+    }
+  },
+  {
+    "id": "29150004",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Grand Rue",
+    "cp": "29150",
+    "ville": "CHâTEAULIN",
+    "latitude": 48.196,
+    "longitude": -4.091,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.219",
+        "maj": "2026-10-09 14:28:01"
+      },
+      "E10": {
+        "valeur": "2.109",
+        "maj": "2026-10-09 14:28:01"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-09 14:28:01"
+      }
+    }
+  },
+  {
+    "id": "29700002",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Rue de Pouldreuzic",
+    "cp": "29700",
+    "ville": "PLUGUFFAN",
+    "latitude": 47.98,
+    "longitude": -4.182,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.315",
+        "maj": "2026-10-10 16:41:10"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-10 16:51:17"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-10 16:51:18"
+      }
+    }
+  },
+  {
+    "id": "29170005",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "LIEU DIT MANER KER ELO",
+    "cp": "29170",
+    "ville": "FOUESNANT",
+    "latitude": 47.895,
+    "longitude": -4.017,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 10:28:39"
+      },
+      "E10": {
+        "valeur": "2.155",
+        "maj": "2026-10-09 13:06:50"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-10 10:28:39"
+      }
+    }
+  },
+  {
+    "id": "29520001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Route de Morlaix",
+    "cp": "29520",
+    "ville": "CHâTEAUNEUF-DU-FAOU",
+    "latitude": 48.195,
+    "longitude": -3.82,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-12 11:03:36"
+      },
+      "GPLc": {
+        "valeur": "1.020",
+        "maj": "2026-07-10 09:02:00"
+      },
+      "E10": {
+        "valeur": "2.155",
+        "maj": "2026-10-12 11:03:36"
+      },
+      "SP98": {
+        "valeur": "2.255",
+        "maj": "2026-10-12 11:03:36"
+      }
+    }
+  },
+  {
+    "id": "29680003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Lieu dit Kerguennec",
+    "cp": "29680",
+    "ville": "ROSCOFF",
+    "latitude": 48.714,
+    "longitude": -3.985,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.193",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.262",
+        "maj": "2026-10-14 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "29400001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "63 RUE DU GENERAL DE GAULLE",
+    "cp": "29400",
+    "ville": "LANDIVISIAU",
+    "latitude": 48.50972,
+    "longitude": -4.07554,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 12:38:05"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-05 18:40:32"
+      },
+      "E85": {
+        "valeur": "0.889",
+        "maj": "2026-10-05 18:40:33"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-05 18:40:33"
+      }
+    }
+  },
+  {
+    "id": "29000013",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "57 ROUTE DE BREST",
+    "cp": "29000",
+    "ville": "QUIMPER",
+    "latitude": 48.00023,
+    "longitude": -4.08988,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.004",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29820002",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "19 Avenue 1ère Dfl",
+    "cp": "29200",
+    "ville": "Brest",
+    "latitude": 48.376,
+    "longitude": -4.555,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-03 10:11:56"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-09-22 10:36:14"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-09-23 10:03:37"
+      }
+    }
+  },
+  {
+    "id": "29140008",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN 165 - VOIE EXPRESS",
+    "cp": "29140",
+    "ville": "Saint-Yvi",
+    "latitude": 47.959,
+    "longitude": -3.958,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.915",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29100007",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "4 RUE ETIENNE KERNOURS",
+    "cp": "29100",
+    "ville": "DOUARNENEZ",
+    "latitude": 48.081,
+    "longitude": -4.328,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 07:17:38"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 07:17:38"
+      }
+    }
+  },
+  {
+    "id": "29900004",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Trégunc",
+    "cp": "29900",
+    "ville": "CONCARNEAU",
+    "latitude": 47.87,
+    "longitude": -3.895,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.319",
+        "maj": "2026-10-13 15:25:08"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-13 15:25:08"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-13 15:25:08"
+      }
+    }
+  },
+  {
+    "id": "29120001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "LE LANNOU",
+    "cp": "29120",
+    "ville": "Combrit",
+    "latitude": 47.885,
+    "longitude": -4.169,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.315",
+        "maj": "2026-10-12 09:38:48"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-08 11:40:55"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-08 11:40:56"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-08 11:40:56"
+      }
+    }
+  },
+  {
+    "id": "29770002",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "kerivoas",
+    "cp": "29770",
+    "ville": "AUDIERNE",
+    "latitude": 48.028807028900005,
+    "longitude": -4.55726292638,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.259",
+        "maj": "2026-10-13 08:53:08"
+      },
+      "SP95": {
+        "valeur": "2.168",
+        "maj": "2026-10-13 08:53:09"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-13 08:53:09"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-13 08:53:09"
+      }
+    }
+  },
+  {
+    "id": "29120005",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "12 RUE LOUIS MEHU",
+    "cp": "29120",
+    "ville": "PLOMEUR",
+    "latitude": 47.842,
+    "longitude": -4.283,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.315",
+        "maj": "2026-10-12 10:59:19"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-12 10:59:19"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-12 10:59:19"
+      }
+    }
+  },
+  {
+    "id": "29710002",
+    "dep": "29",
+    "enseigne": "Intermarché Contact",
+    "adresse": "Rue Laënnec",
+    "cp": "29710",
+    "ville": "Plonéis",
+    "latitude": 48.014,
+    "longitude": -4.204,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.265",
+        "maj": "2026-10-08 09:07:05"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-29 09:00:00"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-08 09:07:06"
+      },
+      "SP98": {
+        "valeur": "2.265",
+        "maj": "2026-10-08 09:07:06"
+      }
+    }
+  },
+  {
+    "id": "29800003",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "37 Rue Hervé de Guébriant",
+    "cp": "29800",
+    "ville": "Landerneau",
+    "latitude": 48.45,
+    "longitude": -4.265,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-14 07:13:36"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-14 07:13:36"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-14 07:13:36"
+      }
+    }
+  },
+  {
+    "id": "29730006",
+    "dep": "29",
+    "enseigne": "Carrefour Contact",
+    "adresse": "1 rue du moulin",
+    "cp": "29730",
+    "ville": "Guilvinec",
+    "latitude": 47.805395,
+    "longitude": -4.279201,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.426",
+        "maj": "2026-09-25 14:19:19"
+      },
+      "SP95": {
+        "valeur": "2.241",
+        "maj": "2026-09-25 14:19:19"
+      },
+      "E10": {
+        "valeur": "2.241",
+        "maj": "2026-09-25 14:19:19"
+      }
+    }
+  },
+  {
+    "id": "29650001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Ar Roudour",
+    "cp": "29650",
+    "ville": "Guerlesquin",
+    "latitude": 48.514,
+    "longitude": -3.588,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-13 17:12:43"
+      },
+      "SP95": {
+        "valeur": "2.253",
+        "maj": "2026-10-13 17:12:43"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 17:12:43"
+      }
+    }
+  },
+  {
+    "id": "29140010",
+    "dep": "29",
+    "enseigne": "Carrefour Contact",
+    "adresse": "ROUTE DE CADOL",
+    "cp": "29140",
+    "ville": "MELGVEN",
+    "latitude": 47.915,
+    "longitude": -3.842,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.362",
+        "maj": "2026-10-09 09:42:16"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-05 07:17:23"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-02 07:33:09"
+      }
+    }
+  },
+  {
+    "id": "29000014",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "11 RUE DE STANG BIHAN",
+    "cp": "29000",
+    "ville": "QUIMPER",
+    "latitude": 48.00916273,
+    "longitude": -4.10575563,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 07:32:55"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-10 07:32:55"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-10 07:32:56"
+      }
+    }
+  },
+  {
+    "id": "29200004",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "195 Boulevard de l'Europe",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.41,
+    "longitude": -4.515,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-05 13:18:37"
+      },
+      "E85": {
+        "valeur": "0.906",
+        "maj": "2026-10-10 08:31:20"
+      },
+      "GPLc": {
+        "valeur": "0.990",
+        "maj": "2026-10-13 17:47:49"
+      }
+    }
+  },
+  {
+    "id": "29600004",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE DE ROSCOFF CD.19",
+    "cp": "29600",
+    "ville": "Saint-Martin-des-Champs",
+    "latitude": 48.581,
+    "longitude": -3.864,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29300002",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Rue du Pont Aven",
+    "cp": "29300",
+    "ville": "Quimperlé",
+    "latitude": 47.871,
+    "longitude": -3.567,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-14 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "29300003",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "RN 165 - ZAC Kervidanou 3",
+    "cp": "29300",
+    "ville": "MELLAC",
+    "latitude": 47.87,
+    "longitude": -3.589,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.301",
+        "maj": "2026-10-12 10:48:08"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-07-04 18:00:00"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-12 10:48:08"
+      }
+    }
+  },
+  {
+    "id": "29260002",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "D770",
+    "cp": "29260",
+    "ville": "Ploudaniel",
+    "latitude": 48.55312,
+    "longitude": -4.30937,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-09-05 06:00:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-09-05 06:00:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-09-05 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "29900003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Maison blanche",
+    "cp": "29900",
+    "ville": "CONCARNEAU",
+    "latitude": 47.89,
+    "longitude": -3.917,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.322",
+        "maj": "2026-10-12 08:26:21"
+      },
+      "SP95": {
+        "valeur": "2.187",
+        "maj": "2026-10-09 09:02:24"
+      },
+      "E10": {
+        "valeur": "2.146",
+        "maj": "2026-10-09 09:02:24"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-09 09:02:24"
+      }
+    }
+  },
+  {
+    "id": "29660002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "2 RUE DU PARC COZ",
+    "cp": "29660",
+    "ville": "CARANTEC",
+    "latitude": 48.66,
+    "longitude": -3.919,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.348",
+        "maj": "2026-10-09 20:01:51"
+      },
+      "SP95": {
+        "valeur": "2.204",
+        "maj": "2026-09-29 09:35:16"
+      },
+      "E10": {
+        "valeur": "2.172",
+        "maj": "2026-09-29 09:35:16"
+      }
+    }
+  },
+  {
+    "id": "29460003",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "4 Route de Quimper",
+    "cp": "29460",
+    "ville": "DAOULAS",
+    "latitude": 48.361,
+    "longitude": -4.26,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-07 09:50:36"
+      }
+    }
+  },
+  {
+    "id": "29403001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Boulevard de la République",
+    "cp": "29400",
+    "ville": "LANDIVISIAU",
+    "latitude": 48.503958653800005,
+    "longitude": -4.0732258805,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-12 10:26:41"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-06 10:24:59"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-13 09:22:51"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-13 09:22:52"
+      }
+    }
+  },
+  {
+    "id": "29700001",
+    "dep": "29",
+    "enseigne": "Carrefour Express",
+    "adresse": "Hent Kergoff",
+    "cp": "29700",
+    "ville": "PLOMELIN",
+    "latitude": 47.936,
+    "longitude": -4.157,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-09-19 07:50:57"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-09-19 07:50:58"
+      }
+    }
+  },
+  {
+    "id": "29500004",
+    "dep": "29",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "ZA DE QUILLIHUEC",
+    "cp": "29500",
+    "ville": "Ergué-Gabéric",
+    "latitude": 47.997,
+    "longitude": -4.027,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-09 15:04:46"
+      },
+      "SP98": {
+        "valeur": "2.459",
+        "maj": "2026-09-28 14:33:34"
+      }
+    }
+  },
+  {
+    "id": "29120007",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "45 RUE VICTOR HUGO RN 785",
+    "cp": "29120",
+    "ville": "Pont-l'Abbé",
+    "latitude": 47.86938,
+    "longitude": -4.22187,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29260004",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Route de Lanarvily",
+    "cp": "29260",
+    "ville": "LE FOLGOëT",
+    "latitude": 48.563,
+    "longitude": -4.341,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.325",
+        "maj": "2026-10-12 08:45:00"
+      },
+      "SP95": {
+        "valeur": "2.155",
+        "maj": "2026-10-09 08:45:00"
+      },
+      "E10": {
+        "valeur": "2.135",
+        "maj": "2026-10-12 08:45:00"
+      }
+    }
+  },
+  {
+    "id": "29470003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "zac ty ar menez",
+    "cp": "29470",
+    "ville": "PLOUGASTEL-DAOULAS",
+    "latitude": 48.383,
+    "longitude": -4.348,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.319",
+        "maj": "2026-10-13 10:37:41"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-28 08:57:35"
+      },
+      "E85": {
+        "valeur": "0.849",
+        "maj": "2026-10-07 10:35:16"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-13 09:10:06"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-06 10:38:10"
+      }
+    }
+  },
+  {
+    "id": "29280001",
+    "dep": "29",
+    "enseigne": "Carrefour",
+    "adresse": "RUE DES MYOSOTIS",
+    "cp": "29280",
+    "ville": "Plouzané",
+    "latitude": 48.372,
+    "longitude": -4.589,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.295",
+        "maj": "2026-10-13 09:52:03"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-25 10:45:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-09-19 08:58:10"
+      },
+      "GPLc": {
+        "valeur": "1.050",
+        "maj": "2026-04-17 09:42:24"
+      },
+      "E10": {
+        "valeur": "2.109",
+        "maj": "2026-10-13 09:52:03"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-09-22 09:40:30"
+      }
+    }
+  },
+  {
+    "id": "29233001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "24 Route de Saint-Pol de Léon",
+    "cp": "29233",
+    "ville": "CLEDER",
+    "latitude": 48.664,
+    "longitude": -4.1,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.376",
+        "maj": "2026-10-09 11:33:39"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-09 11:33:39"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-09 11:33:39"
+      }
+    }
+  },
+  {
+    "id": "29170004",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "16 Route de Quimper",
+    "cp": "29170",
+    "ville": "FOUESNANT",
+    "latitude": 47.898,
+    "longitude": -4.017,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-12 17:05:42"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-12 17:05:42"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-12 17:05:42"
+      }
+    }
+  },
+  {
+    "id": "29143001",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Lieu-dit Kerfily",
+    "cp": "29710",
+    "ville": "Plozévet",
+    "latitude": 47.98644,
+    "longitude": -4.42386,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.324",
+        "maj": "2026-10-06 07:56:35"
+      },
+      "E10": {
+        "valeur": "2.143",
+        "maj": "2026-10-10 18:37:47"
+      },
+      "SP98": {
+        "valeur": "2.256",
+        "maj": "2026-10-10 18:38:03"
+      }
+    }
+  },
+  {
+    "id": "29930002",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Rue Émile Bernard",
+    "cp": "29930",
+    "ville": "Pont-Aven",
+    "latitude": 47.858,
+    "longitude": -3.75,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.479",
+        "maj": "2026-09-25 12:27:44"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-09-25 12:27:44"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-09-25 12:27:45"
+      }
+    }
+  },
+  {
+    "id": "29540001",
+    "dep": "29",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Croas houarn",
+    "cp": "29540",
+    "ville": "Spezet",
+    "latitude": 48.199,
+    "longitude": -3.7,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.345",
+        "maj": "2026-10-08 18:12:22"
+      },
+      "E85": {
+        "valeur": "0.949",
+        "maj": "2026-10-08 18:12:22"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-08 18:12:23"
+      },
+      "SP98": {
+        "valeur": "2.245",
+        "maj": "2026-10-08 18:12:23"
+      }
+    }
+  },
+  {
+    "id": "29440001",
+    "dep": "29",
+    "enseigne": "Intermarché Contact",
+    "adresse": "Mescanton",
+    "cp": "29440",
+    "ville": "Plouzévédé",
+    "latitude": 48.606,
+    "longitude": -4.115,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-05 14:41:51"
+      },
+      "E10": {
+        "valeur": "2.161",
+        "maj": "2026-09-25 13:59:44"
+      },
+      "SP98": {
+        "valeur": "2.275",
+        "maj": "2026-09-25 13:59:44"
+      }
+    }
+  },
+  {
+    "id": "29870004",
+    "dep": "29",
+    "enseigne": "TotalEnergies Contact",
+    "adresse": "75 RUE DE LA ROCHE",
+    "cp": "29870",
+    "ville": "LANNILIS",
+    "latitude": 48.573856,
+    "longitude": -4.5341190000000005,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.190",
+        "maj": "2026-09-22 10:19:57"
+      },
+      "SP95": {
+        "valeur": "1.930",
+        "maj": "2026-09-22 10:19:57"
+      }
+    }
+  },
+  {
+    "id": "29410001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "16, ZA LA JUSTICE",
+    "cp": "29410",
+    "ville": "PLEYBER-CHRIST",
+    "latitude": 48.518,
+    "longitude": -3.868,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-12 14:35:56"
+      },
+      "SP95": {
+        "valeur": "2.195",
+        "maj": "2026-10-12 14:35:57"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-12 14:35:57"
+      }
+    }
+  },
+  {
+    "id": "29470004",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Avenue Charles de Gaulle",
+    "cp": "29470",
+    "ville": "PLOUGASTEL-DAOULAS",
+    "latitude": 48.37935,
+    "longitude": -4.37494,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.354",
+        "maj": "2026-10-13 12:21:18"
+      },
+      "SP95": {
+        "valeur": "2.265",
+        "maj": "2026-10-13 12:21:18"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-07 10:57:03"
+      },
+      "SP98": {
+        "valeur": "2.316",
+        "maj": "2026-10-13 12:21:18"
+      }
+    }
+  },
+  {
+    "id": "29630002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "POULBRAOU ROUTE DE MORLAIX",
+    "cp": "29630",
+    "ville": "Plougasnou",
+    "latitude": 48.694,
+    "longitude": -3.788,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-02 09:39:38"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-10-02 09:39:38"
+      }
+    }
+  },
+  {
+    "id": "29100003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Toubalan",
+    "cp": "29100",
+    "ville": "Douarnenez",
+    "latitude": 48.09234,
+    "longitude": -4.34503,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.344",
+        "maj": "2026-10-10 09:27:49"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-13 09:11:01"
+      },
+      "SP98": {
+        "valeur": "2.238",
+        "maj": "2026-10-10 09:27:49"
+      }
+    }
+  },
+  {
+    "id": "29640001",
+    "dep": "29",
+    "enseigne": "Supermarchés Spar",
+    "adresse": "Rue de Kergollot",
+    "cp": "29640",
+    "ville": "PLOUGONVEN",
+    "latitude": 48.521,
+    "longitude": -3.715,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-10 10:57:17"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-10-01 11:16:47"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-10 10:57:17"
+      }
+    }
+  },
+  {
+    "id": "29340002",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "1 route de quimperle",
+    "cp": "29340",
+    "ville": "Riec-sur-Belon",
+    "latitude": 47.84604,
+    "longitude": -3.68699,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 10:57:29"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-10-12 10:57:29"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-12 10:57:29"
+      }
+    }
+  },
+  {
+    "id": "29129001",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "30 rue de l'Atlantique",
+    "cp": "29920",
+    "ville": "Névez",
+    "latitude": 47.824,
+    "longitude": -3.794,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.309",
+        "maj": "2026-10-08 09:24:11"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-01 08:00:00"
+      },
+      "E10": {
+        "valeur": "2.109",
+        "maj": "2026-10-09 11:50:05"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-01 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "29200014",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "118 Route de Quimper",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.401,
+    "longitude": -4.446,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-13 06:45:32"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-14 07:04:05"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-14 07:04:05"
+      }
+    }
+  },
+  {
+    "id": "29180001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Rue de la Presqu'Île",
+    "cp": "29180",
+    "ville": "Plogonnec",
+    "latitude": 48.08,
+    "longitude": -4.194,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-12 15:09:33"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-12 15:09:33"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-12 15:09:33"
+      }
+    }
+  },
+  {
+    "id": "29800001",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "57 Route de Quimper",
+    "cp": "29800",
+    "ville": "LANDERNEAU",
+    "latitude": 48.445,
+    "longitude": -4.258,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 08:53:42"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 08:53:42"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 08:53:42"
+      }
+    }
+  },
+  {
+    "id": "29420003",
+    "dep": "29",
+    "enseigne": "Carrefour Contact",
+    "adresse": "3 Rue des Ajoncs d'Or",
+    "cp": "29420",
+    "ville": "Plouvorn",
+    "latitude": 48.578,
+    "longitude": -4.033,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-08 06:10:09"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-09-09 06:18:00"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-09-09 06:18:00"
+      }
+    }
+  },
+  {
+    "id": "29810002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "SAS SNDL MENEZ CRENN",
+    "cp": "29810",
+    "ville": "Plouarzel",
+    "latitude": 48.432,
+    "longitude": -4.721,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.319",
+        "maj": "2026-10-12 14:17:38"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-13 17:31:41"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-03 12:20:20"
+      }
+    }
+  },
+  {
+    "id": "29833001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Rue de Callac",
+    "cp": "29270",
+    "ville": "CARHAIX-PLOUGUER",
+    "latitude": 48.27996,
+    "longitude": -3.56533,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-13 09:37:55"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-12 09:36:55"
+      },
+      "SP98": {
+        "valeur": "2.255",
+        "maj": "2026-10-13 09:37:55"
+      }
+    }
+  },
+  {
+    "id": "29870003",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "14 rue Alsace-Lorraine",
+    "cp": "29870",
+    "ville": "Lannilis",
+    "latitude": 48.573,
+    "longitude": -4.512,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 17:33:56"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 17:33:56"
+      }
+    }
+  },
+  {
+    "id": "29380001",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Rue Eugène Lorec",
+    "cp": "29380",
+    "ville": "BANNALEC",
+    "latitude": 47.927,
+    "longitude": -3.704,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 08:34:46"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-13 08:34:46"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-13 08:34:46"
+      },
+      "SP98": {
+        "valeur": "2.309",
+        "maj": "2026-10-13 08:34:47"
+      }
+    }
+  },
+  {
+    "id": "29760004",
+    "dep": "29",
+    "enseigne": "Carrefour Contact",
+    "adresse": "RUE EDMOND MICHELET PRAT GOUZIEN",
+    "cp": "29760",
+    "ville": "Penmarch",
+    "latitude": 47.8146,
+    "longitude": -4.33281,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.325",
+        "maj": "2026-10-09 09:03:04"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-10-09 09:03:04"
+      },
+      "SP98": {
+        "valeur": "2.227",
+        "maj": "2026-10-09 09:03:05"
+      }
+    }
+  },
+  {
+    "id": "29200017",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "BOULEVARD DE L'EUROPE",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.413,
+    "longitude": -4.49,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.004",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29420002",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "1 ROUTE DE ST POL",
+    "cp": "29420",
+    "ville": "PLOUVORN",
+    "latitude": 48.582,
+    "longitude": -4.048,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 14:41:45"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 14:41:45"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 14:41:45"
+      }
+    }
+  },
+  {
+    "id": "29480001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Boulevard Charles de Gaulle",
+    "cp": "29480",
+    "ville": "LE RELECQ-KERHUON",
+    "latitude": 48.4,
+    "longitude": -4.406,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.313",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E85": {
+        "valeur": "0.846",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.125",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.220",
+        "maj": "2026-10-14 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "29196001",
+    "dep": "29",
+    "enseigne": "Carrefour",
+    "adresse": "Rue du Poher",
+    "cp": "29000",
+    "ville": "QUIMPER",
+    "latitude": 47.984,
+    "longitude": -4.11,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.328",
+        "maj": "2026-10-09 09:55:09"
+      },
+      "SP95": {
+        "valeur": "2.228",
+        "maj": "2026-10-07 08:04:30"
+      },
+      "GPLc": {
+        "valeur": "0.984",
+        "maj": "2026-10-03 09:09:54"
+      },
+      "E10": {
+        "valeur": "2.144",
+        "maj": "2026-10-07 08:04:31"
+      },
+      "SP98": {
+        "valeur": "2.283",
+        "maj": "2026-10-09 09:55:09"
+      }
+    }
+  },
+  {
+    "id": "29390002",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "23 RUE DU GENERAL DE GAULLE",
+    "cp": "29390",
+    "ville": "SCAER",
+    "latitude": 48.02,
+    "longitude": -3.719,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP95": {
+        "valeur": "2.198",
+        "maj": "2026-10-14 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.225",
+        "maj": "2026-10-14 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "29217001",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "RUE DU STADE",
+    "cp": "29217",
+    "ville": "PLOUGONVELIN",
+    "latitude": 48.342,
+    "longitude": -4.723,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.295",
+        "maj": "2026-10-09 12:10:26"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-01 12:48:05"
+      },
+      "E10": {
+        "valeur": "2.108",
+        "maj": "2026-10-09 12:10:26"
+      },
+      "SP98": {
+        "valeur": "2.235",
+        "maj": "2026-10-09 12:10:26"
+      }
+    }
+  },
+  {
+    "id": "29150005",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "18 RUE D'YS",
+    "cp": "29150",
+    "ville": "Cast",
+    "latitude": 48.155,
+    "longitude": -4.141,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 13:53:35"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 13:53:35"
+      }
+    }
+  },
+  {
+    "id": "29200015",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "42 BOULEVARD DE L'EUROPE",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.413,
+    "longitude": -4.49,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29570001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "RUE DES SARDINIERS",
+    "cp": "29570",
+    "ville": "Camaret-sur-Mer",
+    "latitude": 48.27454,
+    "longitude": -4.59482,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.322",
+        "maj": "2026-10-09 10:03:20"
+      },
+      "SP95": {
+        "valeur": "2.186",
+        "maj": "2026-10-09 10:03:20"
+      },
+      "E85": {
+        "valeur": "0.860",
+        "maj": "2026-10-09 10:03:21"
+      },
+      "E10": {
+        "valeur": "2.145",
+        "maj": "2026-10-09 10:03:21"
+      },
+      "SP98": {
+        "valeur": "2.344",
+        "maj": "2026-10-09 10:03:21"
+      }
+    }
+  },
+  {
+    "id": "29000012",
+    "dep": "29",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "BLD FLANDRE DUNKERQUE",
+    "cp": "29000",
+    "ville": "QUIMPER",
+    "latitude": 47.98,
+    "longitude": -4.084,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29720003",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "ZA de Kerganet",
+    "cp": "29720",
+    "ville": "Plonéour-Lanvern",
+    "latitude": 47.87171854,
+    "longitude": -4.24078876,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.315",
+        "maj": "2026-10-12 09:14:17"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-10 10:07:56"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-09-17 11:20:46"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-07-05 00:01:00"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-10 10:07:56"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-10 10:07:56"
+      }
+    }
+  },
+  {
+    "id": "29120006",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Pendreff",
+    "cp": "29120",
+    "ville": "Plomeur",
+    "latitude": 47.82021,
+    "longitude": -4.28489,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 09:03:10"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-13 09:03:10"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 09:03:10"
+      }
+    }
+  },
+  {
+    "id": "29700004",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "RUE DE BEL AIR 35",
+    "cp": "29700",
+    "ville": "PLUGUFFAN",
+    "latitude": 47.972,
+    "longitude": -4.135,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-12 10:43:03"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-12 10:43:04"
+      }
+    }
+  },
+  {
+    "id": "29260007",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Boulevard des frères Lumière",
+    "cp": "29260",
+    "ville": "Lesneven",
+    "latitude": 48.576,
+    "longitude": -4.318,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.334",
+        "maj": "2026-10-12 11:03:10"
+      },
+      "E10": {
+        "valeur": "2.135",
+        "maj": "2026-10-12 11:03:10"
+      },
+      "SP98": {
+        "valeur": "2.264",
+        "maj": "2026-10-12 11:03:10"
+      }
+    }
+  },
+  {
+    "id": "29500003",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "LE ROUILLEN - La Salle Verte",
+    "cp": "29500",
+    "ville": "Ergué-Gabéric",
+    "latitude": 47.999,
+    "longitude": -4.053,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.332",
+        "maj": "2026-10-12 11:05:00"
+      },
+      "E10": {
+        "valeur": "2.170",
+        "maj": "2026-10-12 11:05:00"
+      },
+      "SP98": {
+        "valeur": "2.264",
+        "maj": "2026-10-12 11:05:00"
+      }
+    }
+  },
+  {
+    "id": "29200018",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "97 rue Paul Masson",
+    "cp": "29200",
+    "ville": "Brest",
+    "latitude": 48.403,
+    "longitude": -4.478,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.390",
+        "maj": "2026-09-14 09:43:55"
+      },
+      "E85": {
+        "valeur": "0.865",
+        "maj": "2026-09-14 09:43:55"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-09-14 09:43:55"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-09-14 09:43:55"
+      }
+    }
+  },
+  {
+    "id": "29550001",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "8 rue de la Gare",
+    "cp": "29550",
+    "ville": "PLOMODIERN",
+    "latitude": 48.181,
+    "longitude": -4.23,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.298",
+        "maj": "2026-10-10 07:58:19"
+      },
+      "SP95": {
+        "valeur": "2.188",
+        "maj": "2026-10-10 07:58:19"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-06 10:44:41"
+      },
+      "E10": {
+        "valeur": "2.138",
+        "maj": "2026-10-10 07:58:20"
+      }
+    }
+  },
+  {
+    "id": "29820001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "Route de St-Renan",
+    "cp": "29820",
+    "ville": "GUILERS",
+    "latitude": 48.427,
+    "longitude": -4.573,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 11:01:11"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-09 09:13:50"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-08 09:32:03"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-12 10:02:15"
+      }
+    }
+  },
+  {
+    "id": "29830002",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "KERUSCAT",
+    "cp": "29830",
+    "ville": "PLOUDALMéZEAU",
+    "latitude": 48.54,
+    "longitude": -4.66,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 07:59:34"
+      },
+      "E85": {
+        "valeur": "0.849",
+        "maj": "2026-09-16 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-09-22 09:48:02"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-09-15 10:20:35"
+      }
+    }
+  },
+  {
+    "id": "29160005",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "9 ROUTE DE CHATEAULIN",
+    "cp": "29160",
+    "ville": "Crozon",
+    "latitude": 48.248307562087,
+    "longitude": -4.4160090342354,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-09 08:34:33"
+      },
+      "GPLc": {
+        "valeur": "1.199",
+        "maj": "2026-07-20 16:43:59"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-12 14:54:09"
+      }
+    }
+  },
+  {
+    "id": "29200008",
+    "dep": "29",
+    "enseigne": "Carrefour",
+    "adresse": "126 Boulevard de Plymouth",
+    "cp": "29200",
+    "ville": "Brest",
+    "latitude": 48.389,
+    "longitude": -4.528,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-13 08:45:00"
+      },
+      "SP95": {
+        "valeur": "2.217",
+        "maj": "2026-10-13 08:45:00"
+      },
+      "E10": {
+        "valeur": "2.168",
+        "maj": "2026-10-13 08:45:00"
+      },
+      "SP98": {
+        "valeur": "2.309",
+        "maj": "2026-10-13 08:45:00"
+      }
+    }
+  },
+  {
+    "id": "29880002",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "1 place du fournil",
+    "cp": "29880",
+    "ville": "Plouguerneau",
+    "latitude": 48.606,
+    "longitude": -4.504,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 09:55:50"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-07 09:16:37"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-13 09:55:50"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 09:55:50"
+      }
+    }
+  },
+  {
+    "id": "29780002",
+    "dep": "29",
+    "enseigne": "Carrefour Market",
+    "adresse": "1 RUE BRIZEUX",
+    "cp": "29780",
+    "ville": "PLOUHINEC",
+    "latitude": 48.016290999999995,
+    "longitude": -4.501679,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.433",
+        "maj": "2026-10-10 12:23:16"
+      },
+      "E10": {
+        "valeur": "2.208",
+        "maj": "2026-10-10 12:23:16"
+      },
+      "SP98": {
+        "valeur": "2.304",
+        "maj": "2026-10-10 12:23:16"
+      }
+    }
+  },
+  {
+    "id": "29600002",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "ZA La Boissière",
+    "cp": "29600",
+    "ville": "MORLAIX",
+    "latitude": 48.587,
+    "longitude": -3.813,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-13 09:00:00"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-10-02 09:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.005",
+        "maj": "2026-07-06 09:00:00"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-13 09:00:00"
+      },
+      "SP98": {
+        "valeur": "2.257",
+        "maj": "2026-10-13 09:00:00"
+      }
+    }
+  },
+  {
+    "id": "29770001",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "12 Rue de la République",
+    "cp": "29770",
+    "ville": "ESQUIBIEN",
+    "latitude": 48.03,
+    "longitude": -4.559,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 15:01:03"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 15:01:04"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 15:01:04"
+      }
+    }
+  },
+  {
+    "id": "29900005",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "209 Rue de Trégunc",
+    "cp": "29900",
+    "ville": "Concarneau",
+    "latitude": 47.861,
+    "longitude": -3.885,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 08:36:32"
+      }
+    }
+  },
+  {
+    "id": "29910004",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE DE CONCARNEAU",
+    "cp": "29910",
+    "ville": "TREGUNC",
+    "latitude": 47.856905999999995,
+    "longitude": -3.866559,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-12 06:36:24"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-02 06:32:17"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-12 06:36:24"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-12 06:36:25"
+      }
+    }
+  },
+  {
+    "id": "29460001",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Vern Deredec",
+    "cp": "29460",
+    "ville": "DAOULAS",
+    "latitude": 48.359,
+    "longitude": -4.254,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-06 05:15:08"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-13 14:41:30"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-12 05:29:35"
+      }
+    }
+  },
+  {
+    "id": "29140003",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "18 rue Bout du Pont-Kernevel",
+    "cp": "29140",
+    "ville": "ROSPORDEN",
+    "latitude": 47.958,
+    "longitude": -3.823,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-05 06:57:58"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 08:43:31"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 08:43:31"
+      }
+    }
+  },
+  {
+    "id": "29000011",
+    "dep": "29",
+    "enseigne": "TotalEnergies",
+    "adresse": "52 AVENUE DE LA LIBERATION",
+    "cp": "29000",
+    "ville": "QUIMPER",
+    "latitude": 47.993,
+    "longitude": -4.084,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "29510004",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Lieu-Dit Lannechuen",
+    "cp": "29510",
+    "ville": "BRIEC",
+    "latitude": 48.1,
+    "longitude": -4.013,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 09:07:10"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-01 09:19:06"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-10-13 15:22:57"
+      },
+      "E10": {
+        "valeur": "2.167",
+        "maj": "2026-10-13 09:12:23"
+      },
+      "SP98": {
+        "valeur": "2.262",
+        "maj": "2026-10-13 09:12:23"
+      }
+    }
+  },
+  {
+    "id": "29190001",
+    "dep": "29",
+    "enseigne": "Intermarché",
+    "adresse": "Z.A. du Drevers",
+    "cp": "29190",
+    "ville": "PLEYBEN",
+    "latitude": 48.222,
+    "longitude": -3.972,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-10 19:15:00"
+      },
+      "GPLc": {
+        "valeur": "1.020",
+        "maj": "2026-08-06 14:13:41"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-10 19:15:00"
+      },
+      "SP98": {
+        "valeur": "2.262",
+        "maj": "2026-10-13 11:12:49"
+      }
+    }
+  },
+  {
+    "id": "29200019",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "29 rue de Gouesnou",
+    "cp": "29200",
+    "ville": "BREST",
+    "latitude": 48.408,
+    "longitude": -4.468,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-13 10:37:06"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-09-15 11:00:17"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-12 14:34:13"
+      }
+    }
+  },
+  {
+    "id": "29870001",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "rue de Verdun - La Gare",
+    "cp": "29870",
+    "ville": "Lannilis",
+    "latitude": 48.57,
+    "longitude": -4.512,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-09-29 08:59:41"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-13 08:58:27"
+      },
+      "E85": {
+        "valeur": "0.849",
+        "maj": "2026-10-07 09:05:33"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-13 08:58:27"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-13 08:58:27"
+      }
+    }
+  },
+  {
+    "id": "29490002",
+    "dep": "29",
+    "enseigne": "Système U",
+    "adresse": "Rue Anne de Bretagne",
+    "cp": "29490",
+    "ville": "GUIPAVAS",
+    "latitude": 48.436,
+    "longitude": -4.405,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-10 08:22:36"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-12 08:39:54"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-13 08:32:15"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-10 08:22:36"
+      }
+    }
+  },
+  {
+    "id": "29160004",
+    "dep": "29",
+    "enseigne": "Leclerc",
+    "adresse": "TAL AR GROAS",
+    "cp": "29160",
+    "ville": "CROZON",
+    "latitude": 48.2482909,
+    "longitude": -4.4194473,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.322",
+        "maj": "2026-10-09 08:47:13"
+      },
+      "SP95": {
+        "valeur": "2.186",
+        "maj": "2026-10-09 08:47:13"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-10-09 08:47:13"
+      },
+      "E10": {
+        "valeur": "2.145",
+        "maj": "2026-10-09 08:47:13"
+      }
+    }
+  }
+]

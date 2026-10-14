@@ -1,0 +1,902 @@
+[
+  {
+    "id": "9210001",
+    "dep": "09",
+    "enseigne": "Carrefour Market",
+    "adresse": "La Sinsole",
+    "cp": "09210",
+    "ville": "LEZAT SUR LEZE",
+    "latitude": 43.281,
+    "longitude": 1.348,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.311",
+        "maj": "2026-10-10 20:00:00"
+      },
+      "E85": {
+        "valeur": "0.925",
+        "maj": "2026-10-10 20:00:00"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-10 20:00:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-10 20:00:00"
+      }
+    }
+  },
+  {
+    "id": "9270003",
+    "dep": "09",
+    "enseigne": "Carrefour Contact",
+    "adresse": "LIEU DIT LE RAUNIER",
+    "cp": "09270",
+    "ville": "MAZERES",
+    "latitude": 43.251,
+    "longitude": 1.678,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.319",
+        "maj": "2026-10-10 09:47:17"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-09-23 10:26:01"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-09-23 10:26:01"
+      }
+    }
+  },
+  {
+    "id": "9700001",
+    "dep": "09",
+    "enseigne": "Intermarché",
+    "adresse": "parc commercial de Saint Martin de Peyrelade",
+    "cp": "09700",
+    "ville": "Saverdun",
+    "latitude": 43.253,
+    "longitude": 1.565,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 08:04:54"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 11:32:36"
+      },
+      "GPLc": {
+        "valeur": "1.095",
+        "maj": "2026-09-12 19:12:34"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-13 08:04:54"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 08:04:54"
+      }
+    }
+  },
+  {
+    "id": "9100006",
+    "dep": "09",
+    "enseigne": "Intermarché",
+    "adresse": "La Cavalerie",
+    "cp": "09100",
+    "ville": "PAMIERS",
+    "latitude": 43.137,
+    "longitude": 1.606,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-10-07 08:00:00"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-07 08:00:00"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-07 08:00:00"
+      },
+      "SP98": {
+        "valeur": "2.295",
+        "maj": "2026-10-07 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "9300008",
+    "dep": "09",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Avenue de Lavelanet",
+    "cp": "09300",
+    "ville": "Bélesta",
+    "latitude": 42.908,
+    "longitude": 1.927,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.425",
+        "maj": "2026-10-02 09:06:08"
+      },
+      "E10": {
+        "valeur": "2.247",
+        "maj": "2026-10-02 09:06:08"
+      },
+      "SP98": {
+        "valeur": "2.388",
+        "maj": "2026-10-02 09:06:08"
+      }
+    }
+  },
+  {
+    "id": "9400002",
+    "dep": "09",
+    "enseigne": "Esso",
+    "adresse": "54 Avenue Victor Pilhes",
+    "cp": "09400",
+    "ville": "TARASCON-SUR-ARIèGE",
+    "latitude": 42.85117,
+    "longitude": 1.60378,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.506",
+        "maj": "2026-09-11 13:29:56"
+      },
+      "E85": {
+        "valeur": "0.945",
+        "maj": "2025-09-01 12:10:24"
+      },
+      "E10": {
+        "valeur": "2.303",
+        "maj": "2026-09-11 13:29:19"
+      },
+      "SP98": {
+        "valeur": "2.430",
+        "maj": "2026-09-11 13:29:38"
+      }
+    }
+  },
+  {
+    "id": "9600002",
+    "dep": "09",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "17 Avenue du 8 Mai 1945",
+    "cp": "09600",
+    "ville": "Laroque-d'Olmes",
+    "latitude": 42.97313,
+    "longitude": 1.86715,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-13 17:11:19"
+      },
+      "SP95": {
+        "valeur": "2.291",
+        "maj": "2026-10-01 18:05:04"
+      },
+      "E85": {
+        "valeur": "0.978",
+        "maj": "2026-09-23 12:04:54"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-09-30 17:53:56"
+      }
+    }
+  },
+  {
+    "id": "9000007",
+    "dep": "09",
+    "enseigne": "Carrefour Contact",
+    "adresse": "rue des Bruilhols",
+    "cp": "09000",
+    "ville": "Foix",
+    "latitude": 42.975,
+    "longitude": 1.608,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.421",
+        "maj": "2026-10-05 09:15:12"
+      },
+      "E10": {
+        "valeur": "2.256",
+        "maj": "2026-10-05 09:15:12"
+      },
+      "SP98": {
+        "valeur": "2.360",
+        "maj": "2026-10-05 09:15:12"
+      }
+    }
+  },
+  {
+    "id": "9500002",
+    "dep": "09",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Avenue Gabriel Faure",
+    "cp": "09500",
+    "ville": "MIREPOIX",
+    "latitude": 43.08856,
+    "longitude": 1.86719,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-09-22 16:11:52"
+      },
+      "SP95": {
+        "valeur": "2.240",
+        "maj": "2026-09-22 16:12:21"
+      },
+      "SP98": {
+        "valeur": "2.260",
+        "maj": "2026-09-22 16:12:54"
+      }
+    }
+  },
+  {
+    "id": "9190005",
+    "dep": "09",
+    "enseigne": "Avia",
+    "adresse": "Route de Toulouse (direction Saint Girons)",
+    "cp": "09190",
+    "ville": "Saint-Lizier",
+    "latitude": 43.002737851713995,
+    "longitude": 1.1307747936616,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-13 23:50:00"
+      },
+      "E85": {
+        "valeur": "0.995",
+        "maj": "2026-10-13 23:50:00"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-13 23:50:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 23:50:00"
+      }
+    }
+  },
+  {
+    "id": "9350003",
+    "dep": "09",
+    "enseigne": "Carrefour Contact",
+    "adresse": "ROUTE DE DAUMAZAN",
+    "cp": "09350",
+    "ville": "Les Bordes-sur-Arize",
+    "latitude": 43.108130777057994,
+    "longitude": 1.37493244737,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.460",
+        "maj": "2026-09-22 15:37:10"
+      },
+      "SP95": {
+        "valeur": "2.230",
+        "maj": "2026-09-22 15:37:10"
+      },
+      "SP98": {
+        "valeur": "2.290",
+        "maj": "2026-09-22 15:37:10"
+      }
+    }
+  },
+  {
+    "id": "9190002",
+    "dep": "09",
+    "enseigne": "Intermarché",
+    "adresse": "Le Pont du Baup",
+    "cp": "09190",
+    "ville": "SAINT-LIZIER",
+    "latitude": 42.993,
+    "longitude": 1.141,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-06 08:30:00"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-02 08:30:00"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-09-30 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-09-30 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "9000004",
+    "dep": "09",
+    "enseigne": "Leclerc",
+    "adresse": "Route d'Espagne",
+    "cp": "09000",
+    "ville": "FOIX",
+    "latitude": 42.945742840922996,
+    "longitude": 1.6260957421248,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.338",
+        "maj": "2026-10-09 10:08:26"
+      },
+      "E85": {
+        "valeur": "0.880",
+        "maj": "2026-10-03 06:35:10"
+      },
+      "E10": {
+        "valeur": "2.178",
+        "maj": "2026-10-08 06:41:30"
+      },
+      "SP98": {
+        "valeur": "2.345",
+        "maj": "2026-10-06 06:21:29"
+      }
+    }
+  },
+  {
+    "id": "9100004",
+    "dep": "09",
+    "enseigne": "Leclerc",
+    "adresse": "Avenue des Pyrénées",
+    "cp": "09100",
+    "ville": "SAINT-JEAN-DU-FALGA",
+    "latitude": 43.084,
+    "longitude": 1.63,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.385",
+        "maj": "2026-10-09 09:00:00"
+      },
+      "E85": {
+        "valeur": "0.865",
+        "maj": "2026-10-09 09:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.095",
+        "maj": "2026-10-09 09:00:00"
+      },
+      "E10": {
+        "valeur": "2.225",
+        "maj": "2026-10-09 09:00:00"
+      },
+      "SP98": {
+        "valeur": "2.345",
+        "maj": "2026-10-09 09:00:00"
+      }
+    }
+  },
+  {
+    "id": "9110003",
+    "dep": "09",
+    "enseigne": "Carrefour Contact",
+    "adresse": "ZA N20 ALLEE DU BOIS DES ESQUERS",
+    "cp": "09110",
+    "ville": "PERLES ET CASTELET",
+    "latitude": 42.7442317,
+    "longitude": 1.7855673,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.370",
+        "maj": "2026-10-08 12:01:14"
+      },
+      "E10": {
+        "valeur": "2.170",
+        "maj": "2026-10-08 12:01:14"
+      },
+      "SP98": {
+        "valeur": "2.240",
+        "maj": "2026-10-08 12:01:14"
+      }
+    }
+  },
+  {
+    "id": "9300005",
+    "dep": "09",
+    "enseigne": "Carrefour Market",
+    "adresse": "RUE DU 8 MAI 1945",
+    "cp": "09300",
+    "ville": "LAVELANET",
+    "latitude": 42.928,
+    "longitude": 1.858,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-06 10:50:34"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-06 10:50:34"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-10-06 10:50:34"
+      }
+    }
+  },
+  {
+    "id": "9200003",
+    "dep": "09",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "5 avenue de la Résistance",
+    "cp": "09200",
+    "ville": "Saint-Girons",
+    "latitude": 42.97935,
+    "longitude": 1.1445,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.427",
+        "maj": "2026-09-29 20:51:38"
+      },
+      "SP95": {
+        "valeur": "2.257",
+        "maj": "2026-09-29 20:51:38"
+      },
+      "E85": {
+        "valeur": "0.987",
+        "maj": "2026-09-29 20:51:38"
+      },
+      "GPLc": {
+        "valeur": "1.097",
+        "maj": "2026-09-29 20:51:38"
+      },
+      "E10": {
+        "valeur": "2.217",
+        "maj": "2026-09-29 20:51:38"
+      },
+      "SP98": {
+        "valeur": "2.397",
+        "maj": "2026-09-29 20:51:39"
+      }
+    }
+  },
+  {
+    "id": "9400001",
+    "dep": "09",
+    "enseigne": "Système U",
+    "adresse": "Route de Quié",
+    "cp": "09400",
+    "ville": "Tarascon-sur-Ariège",
+    "latitude": 42.845,
+    "longitude": 1.598,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.338",
+        "maj": "2026-10-09 11:39:11"
+      },
+      "SP95": {
+        "valeur": "2.268",
+        "maj": "2026-10-05 09:20:10"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-05-16 08:00:30"
+      },
+      "E10": {
+        "valeur": "2.198",
+        "maj": "2026-10-05 09:20:11"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-09-29 09:45:21"
+      }
+    }
+  },
+  {
+    "id": "9190004",
+    "dep": "09",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "60 ROUTE DE TOULOUSE",
+    "cp": "09190",
+    "ville": "Saint-Lizier",
+    "latitude": 43.006038629003,
+    "longitude": 1.125781769696,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-06 09:00:00"
+      },
+      "SP95": {
+        "valeur": "2.248",
+        "maj": "2026-09-16 12:45:00"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-09-16 12:45:00"
+      }
+    }
+  },
+  {
+    "id": "9600003",
+    "dep": "09",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue du 11 Novembre 1918",
+    "cp": "09600",
+    "ville": "Laroque-d'Olmes",
+    "latitude": 42.9786,
+    "longitude": 1.86859,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-11 07:46:01"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-06 08:52:11"
+      },
+      "E10": {
+        "valeur": "2.185",
+        "maj": "2026-10-11 07:46:01"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-09-30 08:24:03"
+      }
+    }
+  },
+  {
+    "id": "9110001",
+    "dep": "09",
+    "enseigne": "Intermarché",
+    "adresse": "RN 20",
+    "cp": "09110",
+    "ville": "SAVIGNAC-LES-ORMEAUX",
+    "latitude": 42.73,
+    "longitude": 1.821,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.375",
+        "maj": "2026-10-07 10:34:47"
+      },
+      "SP95": {
+        "valeur": "2.241",
+        "maj": "2026-10-07 10:34:48"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-07 10:34:48"
+      }
+    }
+  },
+  {
+    "id": "9500001",
+    "dep": "09",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "247 AV CHARLES DE GAULLE",
+    "cp": "09500",
+    "ville": "Mirepoix",
+    "latitude": 43.085,
+    "longitude": 1.876,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 07:48:25"
+      },
+      "E85": {
+        "valeur": "0.953",
+        "maj": "2026-10-13 07:48:25"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 07:48:26"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 07:48:26"
+      }
+    }
+  },
+  {
+    "id": "9100001",
+    "dep": "09",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Mirepoix",
+    "cp": "09100",
+    "ville": "PAMIERS",
+    "latitude": 43.103,
+    "longitude": 1.631,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.385",
+        "maj": "2026-10-12 10:11:26"
+      },
+      "SP95": {
+        "valeur": "2.251",
+        "maj": "2026-10-10 10:12:39"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 10:35:21"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-12 10:11:26"
+      }
+    }
+  },
+  {
+    "id": "9220001",
+    "dep": "09",
+    "enseigne": "Supermarchés Spar",
+    "adresse": "6 Rue de l'Eglise",
+    "cp": "09220",
+    "ville": "VICDESSOS",
+    "latitude": 42.7699,
+    "longitude": 1.50032,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-12 16:12:12"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-09-16 08:45:22"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 16:12:13"
+      }
+    }
+  },
+  {
+    "id": "9200001",
+    "dep": "09",
+    "enseigne": "Carrefour Market",
+    "adresse": "ROUTE D'EYCHEIL",
+    "cp": "09200",
+    "ville": "SAINT-GIRONS",
+    "latitude": 42.973498985561996,
+    "longitude": 1.1520233135223,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-10 18:31:41"
+      },
+      "E85": {
+        "valeur": "0.909",
+        "maj": "2026-10-10 18:31:41"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-10 18:31:41"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-10 18:31:41"
+      }
+    }
+  },
+  {
+    "id": "9300002",
+    "dep": "09",
+    "enseigne": "Système U",
+    "adresse": "Route de FOIX",
+    "cp": "09300",
+    "ville": "Lavelanet",
+    "latitude": 42.937,
+    "longitude": 1.853,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-12 11:36:45"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-12 11:36:45"
+      },
+      "E10": {
+        "valeur": "2.254",
+        "maj": "2026-10-12 11:36:45"
+      },
+      "SP98": {
+        "valeur": "2.355",
+        "maj": "2026-10-12 11:36:45"
+      }
+    }
+  },
+  {
+    "id": "9000006",
+    "dep": "09",
+    "enseigne": "Intermarché",
+    "adresse": "Route d'Espagne",
+    "cp": "09000",
+    "ville": "Foix",
+    "latitude": 42.949216138418,
+    "longitude": 1.6263515913231,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-09 08:28:56"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-10-07 08:31:36"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-07 08:31:37"
+      }
+    }
+  },
+  {
+    "id": "9340001",
+    "dep": "09",
+    "enseigne": "Système U",
+    "adresse": "120 rue Clément Ader",
+    "cp": "09340",
+    "ville": "Verniolle",
+    "latitude": 43.074208021043994,
+    "longitude": 1.6439551599408,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-12 04:55:19"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-11 12:30:00"
+      },
+      "SP98": {
+        "valeur": "2.295",
+        "maj": "2026-10-12 09:12:02"
+      }
+    }
+  },
+  {
+    "id": "9500003",
+    "dep": "09",
+    "enseigne": "Système U",
+    "adresse": "13 avenue CHARLES DE GAULLE",
+    "cp": "09500",
+    "ville": "MIREPOIX",
+    "latitude": 43.084,
+    "longitude": 1.877,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.328",
+        "maj": "2026-10-12 08:47:32"
+      },
+      "SP95": {
+        "valeur": "2.241",
+        "maj": "2026-10-12 08:47:32"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-12 08:47:32"
+      },
+      "E10": {
+        "valeur": "2.184",
+        "maj": "2026-10-12 08:47:32"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-12 08:47:33"
+      }
+    }
+  },
+  {
+    "id": "9000003",
+    "dep": "09",
+    "enseigne": "TotalEnergies",
+    "adresse": "CONCESSIONNAIRE RENAULT -ROUTE D",
+    "cp": "09000",
+    "ville": "FOIX",
+    "latitude": 42.949674021199996,
+    "longitude": 1.62517428827,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 07:05:28"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 07:05:28"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 07:05:28"
+      }
+    }
+  },
+  {
+    "id": "9100003",
+    "dep": "09",
+    "enseigne": "TotalEnergies",
+    "adresse": "6 Avenue de Foix",
+    "cp": "09100",
+    "ville": "PAMIERS",
+    "latitude": 43.104,
+    "longitude": 1.621,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "9140003",
+    "dep": "09",
+    "enseigne": "TotalEnergies",
+    "adresse": "25 Route de Saint Girons",
+    "cp": "09140",
+    "ville": "Oust",
+    "latitude": 42.883,
+    "longitude": 1.215,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-12 09:14:26"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-02 12:27:01"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-02 12:27:01"
+      }
+    }
+  },
+  {
+    "id": "9100002",
+    "dep": "09",
+    "enseigne": "TotalEnergies",
+    "adresse": "CARREFOUR DE LESTANG",
+    "cp": "09100",
+    "ville": "PAMIERS",
+    "latitude": 43.12,
+    "longitude": 1.611,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 20:16:27"
+      },
+      "E85": {
+        "valeur": "0.962",
+        "maj": "2026-10-13 20:16:27"
+      }
+    }
+  },
+  {
+    "id": "9240004",
+    "dep": "09",
+    "enseigne": "Carrefour Express",
+    "adresse": "45 faubourg sainte croix",
+    "cp": "09240",
+    "ville": "La bastide de serou",
+    "latitude": 43.01196,
+    "longitude": 1.429751,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-13 06:56:48"
+      },
+      "E10": {
+        "valeur": "2.198",
+        "maj": "2026-10-13 06:56:48"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 06:56:48"
+      }
+    }
+  }
+]
