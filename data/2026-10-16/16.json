@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "16100004",
+    "dep": "16",
+    "enseigne": "Leclerc",
+    "adresse": "105 Rue Basse Saint-Martin",
+    "cp": "16100",
+    "ville": "COGNAC",
+    "latitude": 45.686,
+    "longitude": -0.338,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.319",
+        "maj": "2026-10-10 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.268",
+        "maj": "2026-10-15 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "16150003",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "ZA DE CHASSAT",
+    "cp": "16150",
+    "ville": "CHABANAIS",
+    "latitude": 45.878,
+    "longitude": 0.726,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-15 10:22:15"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-08-18 11:03:40"
+      },
+      "GPLc": {
+        "valeur": "1.129",
+        "maj": "2026-06-15 08:59:23"
+      },
+      "E10": {
+        "valeur": "2.173",
+        "maj": "2026-10-15 10:22:15"
+      },
+      "SP98": {
+        "valeur": "2.275",
+        "maj": "2026-10-15 10:22:15"
+      }
+    }
+  },
+  {
+    "id": "16110004",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "18 Boulevard du 8 Mai",
+    "cp": "16110",
+    "ville": "LA ROCHEFOUCAULD",
+    "latitude": 45.74594,
+    "longitude": 0.38625,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.450",
+        "maj": "2026-10-12 16:23:58"
+      },
+      "SP95": {
+        "valeur": "2.300",
+        "maj": "2026-09-17 08:20:28"
+      }
+    }
+  },
+  {
+    "id": "16700007",
+    "dep": "16",
+    "enseigne": "Dyneff",
+    "adresse": "RN10 Aire des Groies",
+    "cp": "16700",
+    "ville": "Villegats",
+    "latitude": 45.985463882983,
+    "longitude": 0.20048889066011,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.464",
+        "maj": "2026-10-15 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.959",
+        "maj": "2026-10-15 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-15 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.439",
+        "maj": "2026-10-15 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "16100008",
+    "dep": "16",
+    "enseigne": "TotalEnergies",
+    "adresse": "43 PLACE DE LA CORDERIE",
+    "cp": "16100",
+    "ville": "COGNAC",
+    "latitude": 45.69309,
+    "longitude": -0.32722,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-16 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.933",
+        "maj": "2026-10-16 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-16 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "16430005",
+    "dep": "16",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN 10 - LES CHAUVAUDS",
+    "cp": "16430",
+    "ville": "CHAMPNIERS",
+    "latitude": 45.701,
+    "longitude": 0.182,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-16 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.925",
+        "maj": "2026-10-16 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-16 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "16320003",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "1 ROUTE DE SIGALAUD",
+    "cp": "16320",
+    "ville": "Villebois-Lavalette",
+    "latitude": 45.49,
+    "longitude": 0.275,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-14 08:37:35"
+      },
+      "E85": {
+        "valeur": "0.865",
+        "maj": "2026-10-02 08:17:22"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-14 08:37:35"
+      },
+      "SP98": {
+        "valeur": "2.295",
+        "maj": "2026-10-14 08:37:36"
+      }
+    }
+  },
+  {
+    "id": "16220001",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Place de l'Hôtel de Ville",
+    "cp": "16220",
+    "ville": "Montbron",
+    "latitude": 45.665,
+    "longitude": 0.501,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-09 09:24:16"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-07 10:03:23"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-14 09:02:56"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-10-14 09:02:56"
+      }
+    }
+  },
+  {
+    "id": "16430006",
+    "dep": "16",
+    "enseigne": "Auchan",
+    "adresse": "RN 10 LES GRANDES CHAUMES",
+    "cp": "16430",
+    "ville": "CHAMPNIERS",
+    "latitude": 45.691902196889,
+    "longitude": 0.18274304124793997,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-14 11:12:16"
+      },
+      "E85": {
+        "valeur": "0.884",
+        "maj": "2026-10-02 11:12:14"
+      },
+      "GPLc": {
+        "valeur": "1.068",
+        "maj": "2026-08-05 11:42:23"
+      },
+      "E10": {
+        "valeur": "2.181",
+        "maj": "2026-10-15 10:44:36"
+      }
+    }
+  },
+  {
+    "id": "16730002",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "15 route des Boisdons - Le maine deliot",
+    "cp": "16730",
+    "ville": "LINARS",
+    "latitude": 45.655,
+    "longitude": 0.085,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-14 11:17:14"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-14 11:17:14"
+      },
+      "SP98": {
+        "valeur": "2.309",
+        "maj": "2026-10-14 11:17:14"
+      }
+    }
+  },
+  {
+    "id": "16500006",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "Le cerisier de la Barre",
+    "cp": "16500",
+    "ville": "Ansac-sur-Vienne",
+    "latitude": 45.989,
+    "longitude": 0.615,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-09-24 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-09-24 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-09-24 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "16340002",
+    "dep": "16",
+    "enseigne": "Esso Express",
+    "adresse": "250 Avenue de la République",
+    "cp": "16340",
+    "ville": "L'ISLE-D'ESPAGNAC",
+    "latitude": 45.665,
+    "longitude": 0.201,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.489",
+        "maj": "2026-10-14 15:20:04"
+      },
+      "SP98": {
+        "valeur": "2.489",
+        "maj": "2026-10-14 15:20:04"
+      }
+    }
+  },
+  {
+    "id": "16000009",
+    "dep": "16",
+    "enseigne": "TotalEnergies",
+    "adresse": "BD DU 8 MAI 1945",
+    "cp": "16000",
+    "ville": "ANGOULEME",
+    "latitude": 45.66,
+    "longitude": 0.165,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-16 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.914",
+        "maj": "2026-10-16 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "16150004",
+    "dep": "16",
+    "enseigne": "Elan",
+    "adresse": "RN 141",
+    "cp": "16150",
+    "ville": "CHABANAIS",
+    "latitude": 45.872,
+    "longitude": 0.682,
+    "carburants": {}
+  },
+  {
+    "id": "16250001",
+    "dep": "16",
+    "enseigne": "Carrefour Contact",
+    "adresse": "AUX NAULETS PEREUIL",
+    "cp": "16250",
+    "ville": "Blanzac-Porcheresse",
+    "latitude": 45.47271338,
+    "longitude": 0.048103320000000005,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-03 09:18:55"
+      },
+      "E10": {
+        "valeur": "2.239",
+        "maj": "2026-10-03 09:18:55"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-03 09:18:55"
+      }
+    }
+  },
+  {
+    "id": "16230004",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "AVENUE PAUL MAIRAT",
+    "cp": "16230",
+    "ville": "MANSLE",
+    "latitude": 45.873,
+    "longitude": 0.173,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-15 23:50:00"
+      },
+      "E85": {
+        "valeur": "0.895",
+        "maj": "2026-10-15 23:50:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-15 23:50:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-15 23:50:00"
+      }
+    }
+  },
+  {
+    "id": "16200005",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "40 avenue Général Leclerc",
+    "cp": "16200",
+    "ville": "Jarnac",
+    "latitude": 45.681,
+    "longitude": -0.164,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.321",
+        "maj": "2026-10-14 07:54:13"
+      },
+      "E10": {
+        "valeur": "2.191",
+        "maj": "2026-10-14 07:54:13"
+      },
+      "SP98": {
+        "valeur": "2.318",
+        "maj": "2026-10-14 07:54:13"
+      }
+    }
+  },
+  {
+    "id": "16700008",
+    "dep": "16",
+    "enseigne": "Leclerc",
+    "adresse": "CHAMP BARBE JAUNE",
+    "cp": "16700",
+    "ville": "RUFFEC",
+    "latitude": 46.034901,
+    "longitude": 0.180712,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-15 08:30:00"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-09-24 08:30:00"
+      },
+      "E10": {
+        "valeur": "2.173",
+        "maj": "2026-10-12 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.241",
+        "maj": "2026-10-13 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "16300001",
+    "dep": "16",
+    "enseigne": "TotalEnergies",
+    "adresse": "38 route de montmoreau",
+    "cp": "16300",
+    "ville": "BARBEZIEUX-SAINT-HILAIRE",
+    "latitude": 45.46,
+    "longitude": -0.143,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 21:37:38"
+      },
+      "GPLc": {
+        "valeur": "1.010",
+        "maj": "2026-09-23 21:37:52"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 21:37:38"
+      }
+    }
+  },
+  {
+    "id": "16130002",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE DE COGNAC",
+    "cp": "16130",
+    "ville": "SEGONZAC",
+    "latitude": 45.618,
+    "longitude": -0.219,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.346",
+        "maj": "2026-10-13 14:12:27"
+      },
+      "E10": {
+        "valeur": "2.293",
+        "maj": "2026-10-13 14:12:27"
+      },
+      "SP98": {
+        "valeur": "2.425",
+        "maj": "2026-10-13 14:12:28"
+      }
+    }
+  },
+  {
+    "id": "16120001",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "21 ZA DE L'ETANG",
+    "cp": "16120",
+    "ville": "Châteauneuf-sur-Charente",
+    "latitude": 45.589,
+    "longitude": -0.048,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.355",
+        "maj": "2026-10-15 09:00:43"
+      },
+      "E85": {
+        "valeur": "0.839",
+        "maj": "2026-10-14 09:02:40"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-14 09:02:41"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-14 09:02:41"
+      }
+    }
+  },
+  {
+    "id": "16300004",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue de l'Europe",
+    "cp": "16300",
+    "ville": "BARBEZIEUX-SAINT-HILAIRE",
+    "latitude": 45.46704,
+    "longitude": -0.16519,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-15 09:20:33"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-15 09:20:33"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-15 09:20:33"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-15 09:20:33"
+      }
+    }
+  },
+  {
+    "id": "16000004",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "186 Rue de Saintes",
+    "cp": "16000",
+    "ville": "Angoulême",
+    "latitude": 45.661,
+    "longitude": 0.14,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.311",
+        "maj": "2026-10-14 08:26:07"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-14 08:26:11"
+      },
+      "E10": {
+        "valeur": "2.183",
+        "maj": "2026-10-14 08:26:11"
+      },
+      "SP98": {
+        "valeur": "2.308",
+        "maj": "2026-10-14 08:26:11"
+      }
+    }
+  },
+  {
+    "id": "16200003",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue de l'Europe",
+    "cp": "16200",
+    "ville": "JARNAC",
+    "latitude": 45.686,
+    "longitude": -0.165,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.321",
+        "maj": "2026-10-14 07:54:48"
+      },
+      "E10": {
+        "valeur": "2.191",
+        "maj": "2026-10-14 07:54:48"
+      },
+      "SP98": {
+        "valeur": "2.318",
+        "maj": "2026-10-14 07:54:48"
+      }
+    }
+  },
+  {
+    "id": "16260002",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "2 Rue de la Gare",
+    "cp": "16260",
+    "ville": "CHASSENEUIL-SUR-BONNIEURE",
+    "latitude": 45.827,
+    "longitude": 0.454,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.367",
+        "maj": "2026-10-14 08:45:34"
+      },
+      "E10": {
+        "valeur": "2.235",
+        "maj": "2026-10-14 08:45:34"
+      },
+      "SP98": {
+        "valeur": "2.363",
+        "maj": "2026-10-14 08:45:34"
+      }
+    }
+  },
+  {
+    "id": "16360002",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Barbezieux CD 14",
+    "cp": "16360",
+    "ville": "Baignes-Sainte-Radegonde",
+    "latitude": 45.385,
+    "longitude": -0.23,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.302",
+        "maj": "2026-10-06 09:33:28"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-06 09:33:28"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-06 09:33:28"
+      }
+    }
+  },
+  {
+    "id": "16330003",
+    "dep": "16",
+    "enseigne": "Coop",
+    "adresse": "Rue des Lucioles",
+    "cp": "16330",
+    "ville": "VARS",
+    "latitude": 45.76,
+    "longitude": 0.128,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-12 11:36:56"
+      },
+      "E85": {
+        "valeur": "0.894",
+        "maj": "2026-10-02 09:25:22"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-02 09:25:22"
+      },
+      "SP98": {
+        "valeur": "2.258",
+        "maj": "2026-10-02 09:25:22"
+      }
+    }
+  },
+  {
+    "id": "16710001",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "183 rue de Saint Jean d'Angély",
+    "cp": "16710",
+    "ville": "Saint-Yrieix-sur-Charente",
+    "latitude": 45.67332836305899,
+    "longitude": 0.12522459830092,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.321",
+        "maj": "2026-10-14 10:03:42"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-14 10:03:43"
+      },
+      "E10": {
+        "valeur": "2.193",
+        "maj": "2026-10-14 10:03:43"
+      },
+      "SP98": {
+        "valeur": "2.308",
+        "maj": "2026-10-14 10:03:43"
+      }
+    }
+  },
+  {
+    "id": "16800001",
+    "dep": "16",
+    "enseigne": "Carrefour",
+    "adresse": "ave du general de gaulle",
+    "cp": "16800",
+    "ville": "SOYAUX",
+    "latitude": 45.639,
+    "longitude": 0.219,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.343",
+        "maj": "2026-10-16 00:46:00"
+      },
+      "SP95": {
+        "valeur": "2.188",
+        "maj": "2026-10-16 00:46:00"
+      },
+      "E85": {
+        "valeur": "0.829",
+        "maj": "2026-10-16 00:46:00"
+      },
+      "GPLc": {
+        "valeur": "1.102",
+        "maj": "2026-10-16 00:46:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-16 00:46:00"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-16 00:46:00"
+      }
+    }
+  },
+  {
+    "id": "16300005",
+    "dep": "16",
+    "enseigne": "Leclerc",
+    "adresse": "Avenue de l'Europe",
+    "cp": "16300",
+    "ville": "Barbezieux-Saint-Hilaire",
+    "latitude": 45.466,
+    "longitude": -0.164,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-15 08:30:00"
+      },
+      "E85": {
+        "valeur": "0.823",
+        "maj": "2026-10-15 08:30:00"
+      },
+      "E10": {
+        "valeur": "2.161",
+        "maj": "2026-10-15 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.261",
+        "maj": "2026-10-15 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "16380001",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "ZE de la PENOTTE",
+    "cp": "16380",
+    "ville": "MARTHON",
+    "latitude": 45.610145,
+    "longitude": 0.45299199999999995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-10-07 17:55:14"
+      },
+      "SP95": {
+        "valeur": "2.290",
+        "maj": "2026-09-23 22:35:58"
+      },
+      "SP98": {
+        "valeur": "2.350",
+        "maj": "2026-09-23 22:36:48"
+      }
+    }
+  },
+  {
+    "id": "16170001",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "ROUTE DE GENAC",
+    "cp": "16170",
+    "ville": "ROUILLAC",
+    "latitude": 45.777,
+    "longitude": -0.061,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.330",
+        "maj": "2026-10-15 08:29:29"
+      },
+      "E85": {
+        "valeur": "0.846",
+        "maj": "2026-10-12 08:54:36"
+      },
+      "E10": {
+        "valeur": "2.234",
+        "maj": "2026-10-14 08:59:03"
+      },
+      "SP98": {
+        "valeur": "2.321",
+        "maj": "2026-10-14 08:59:29"
+      }
+    }
+  },
+  {
+    "id": "16360001",
+    "dep": "16",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN 10",
+    "cp": "16360",
+    "ville": "Reignac",
+    "latitude": 45.426,
+    "longitude": -0.173,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 09:37:14"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 09:37:14"
+      }
+    }
+  },
+  {
+    "id": "16120004",
+    "dep": "16",
+    "enseigne": "Carrefour Contact",
+    "adresse": "PLACE DE LA GARE - 3 BLD GAMBETTA",
+    "cp": "16120",
+    "ville": "Châteauneuf-sur-Charente",
+    "latitude": 45.6,
+    "longitude": -0.055,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-09-22 09:33:28"
+      },
+      "SP95": {
+        "valeur": "2.236",
+        "maj": "2026-10-06 09:13:43"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-06 09:13:43"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-06 09:13:43"
+      }
+    }
+  },
+  {
+    "id": "16330001",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Mansle",
+    "cp": "16330",
+    "ville": "Saint-Amant-de-Boixe",
+    "latitude": 45.804,
+    "longitude": 0.14,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-09 13:15:15"
+      },
+      "SP95": {
+        "valeur": "2.229",
+        "maj": "2026-09-15 09:53:38"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-09-15 09:53:38"
+      }
+    }
+  },
+  {
+    "id": "16200001",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "Avenue d'Ecosse",
+    "cp": "16200",
+    "ville": "JARNAC",
+    "latitude": 45.690960364153,
+    "longitude": -0.17360081481934,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.321",
+        "maj": "2026-10-14 08:55:12"
+      },
+      "E10": {
+        "valeur": "2.191",
+        "maj": "2026-10-14 08:55:12"
+      },
+      "SP98": {
+        "valeur": "2.318",
+        "maj": "2026-10-14 08:55:12"
+      }
+    }
+  },
+  {
+    "id": "16270001",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "Rue des Paleines",
+    "cp": "16270",
+    "ville": "ROUMAZIERES-LOUBERT",
+    "latitude": 45.882,
+    "longitude": 0.583,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-15 11:34:55"
+      },
+      "E10": {
+        "valeur": "2.174",
+        "maj": "2026-10-15 11:34:55"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-15 11:34:56"
+      }
+    }
+  },
+  {
+    "id": "16000005",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Boulevard Jean Moulin",
+    "cp": "16000",
+    "ville": "Angoulême",
+    "latitude": 45.632,
+    "longitude": 0.152,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-15 10:06:30"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-12 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.272",
+        "maj": "2026-10-12 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "16730001",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "2 Avenue des Plantes",
+    "cp": "16730",
+    "ville": "FLéAC",
+    "latitude": 45.6649544085,
+    "longitude": 0.0916380960888,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.375",
+        "maj": "2026-09-09 07:56:30"
+      },
+      "SP95": {
+        "valeur": "2.310",
+        "maj": "2026-09-09 07:56:30"
+      }
+    }
+  },
+  {
+    "id": "16190001",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "58 Avenue de l Augoumois",
+    "cp": "16190",
+    "ville": "Montmoreau-Saint-Cybard",
+    "latitude": 45.40063,
+    "longitude": 0.1304,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.352",
+        "maj": "2026-10-09 12:35:58"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-09 12:35:58"
+      },
+      "SP98": {
+        "valeur": "2.253",
+        "maj": "2026-10-09 12:35:58"
+      }
+    }
+  },
+  {
+    "id": "16600001",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue Foch",
+    "cp": "16600",
+    "ville": "RUELLE-SUR-TOUVRE",
+    "latitude": 45.68019,
+    "longitude": 0.21081,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-12 09:04:33"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-12 09:04:33"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 09:04:33"
+      }
+    }
+  },
+  {
+    "id": "16140002",
+    "dep": "16",
+    "enseigne": "Carrefour Contact",
+    "adresse": "2 Clos Chabot",
+    "cp": "16140",
+    "ville": "Villejésus",
+    "latitude": 45.899920641752,
+    "longitude": 0.014846175679999999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-09 06:56:29"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-09 06:56:29"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-02 11:31:49"
+      }
+    }
+  },
+  {
+    "id": "16100006",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "20 avenue de Saintes",
+    "cp": "16100",
+    "ville": "Cognac",
+    "latitude": 45.699,
+    "longitude": -0.344,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-15 08:49:45"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-15 08:49:45"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-14 09:24:08"
+      },
+      "SP98": {
+        "valeur": "2.268",
+        "maj": "2026-10-15 08:49:45"
+      }
+    }
+  },
+  {
+    "id": "16700004",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue du Professeur Girard",
+    "cp": "16700",
+    "ville": "RUFFEC",
+    "latitude": 46.031,
+    "longitude": 0.204,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-15 09:33:03"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-09-15 09:37:07"
+      },
+      "E10": {
+        "valeur": "2.171",
+        "maj": "2026-09-15 09:37:07"
+      },
+      "SP98": {
+        "valeur": "2.309",
+        "maj": "2026-10-15 09:33:03"
+      }
+    }
+  },
+  {
+    "id": "16230002",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "Rue Grange du Chapître",
+    "cp": "16230",
+    "ville": "Mansle",
+    "latitude": 45.874,
+    "longitude": 0.181,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-12 17:57:42"
+      },
+      "E10": {
+        "valeur": "2.194",
+        "maj": "2026-10-12 17:57:42"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 17:57:42"
+      }
+    }
+  },
+  {
+    "id": "16320005",
+    "dep": "16",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "LA FORET RTE DE PERIGUEUX",
+    "cp": "16320",
+    "ville": "EDON",
+    "latitude": 45.489,
+    "longitude": 0.363,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.453",
+        "maj": "2026-10-15 07:38:18"
+      },
+      "E10": {
+        "valeur": "2.263",
+        "maj": "2026-10-15 07:38:18"
+      },
+      "SP98": {
+        "valeur": "2.378",
+        "maj": "2026-10-15 07:38:19"
+      }
+    }
+  },
+  {
+    "id": "16500005",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "2 Rue Arnaud Beltrame - ZA du pré de l'étang",
+    "cp": "16500",
+    "ville": "Confolens",
+    "latitude": 46.0,
+    "longitude": 0.673,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-13 07:50:05"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-29 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-13 07:50:06"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-13 07:50:06"
+      }
+    }
+  },
+  {
+    "id": "16110005",
+    "dep": "16",
+    "enseigne": "Esso",
+    "adresse": "22 Rue faubourg tête noire",
+    "cp": "16110",
+    "ville": "LA ROCHEFOUCAULD",
+    "latitude": 45.736,
+    "longitude": 0.386,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-13 06:01:00"
+      },
+      "SP95": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-13 09:54:49"
+      }
+    }
+  },
+  {
+    "id": "16350001",
+    "dep": "16",
+    "enseigne": "Carrefour Contact",
+    "adresse": "RUE sapin vert",
+    "cp": "16350",
+    "ville": "CHAMPAGNE-MOUTON",
+    "latitude": 45.989,
+    "longitude": 0.407,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-09-25 08:18:49"
+      },
+      "SP95": {
+        "valeur": "2.223",
+        "maj": "2026-09-25 08:18:49"
+      },
+      "E10": {
+        "valeur": "2.190",
+        "maj": "2026-10-09 08:27:56"
+      }
+    }
+  },
+  {
+    "id": "16100005",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "220 Avenue Victor Hugo",
+    "cp": "16100",
+    "ville": "COGNAC",
+    "latitude": 45.688,
+    "longitude": -0.313,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.459",
+        "maj": "2026-09-30 15:56:10"
+      },
+      "SP95": {
+        "valeur": "2.325",
+        "maj": "2026-09-30 15:56:10"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-09-30 15:56:11"
+      }
+    }
+  },
+  {
+    "id": "16160001",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "Route de Paris",
+    "cp": "16160",
+    "ville": "GOND-PONTOUVRE",
+    "latitude": 45.682671292636996,
+    "longitude": 0.17728895022000002,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.408",
+        "maj": "2026-10-15 08:52:59"
+      },
+      "E85": {
+        "valeur": "0.884",
+        "maj": "2026-10-15 08:52:59"
+      },
+      "GPLc": {
+        "valeur": "1.087",
+        "maj": "2026-10-15 08:52:59"
+      },
+      "E10": {
+        "valeur": "2.238",
+        "maj": "2026-10-15 08:52:59"
+      },
+      "SP98": {
+        "valeur": "2.357",
+        "maj": "2026-10-15 08:52:59"
+      }
+    }
+  },
+  {
+    "id": "16100001",
+    "dep": "16",
+    "enseigne": "Auchan",
+    "adresse": "40 rue de l'Annisserie",
+    "cp": "16100",
+    "ville": "Châteaubernard",
+    "latitude": 45.684,
+    "longitude": -0.305,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.350",
+        "maj": "2026-10-15 09:17:10"
+      },
+      "GPLc": {
+        "valeur": "0.981",
+        "maj": "2026-09-25 16:35:12"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-14 09:11:50"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-14 09:11:50"
+      }
+    }
+  },
+  {
+    "id": "16100007",
+    "dep": "16",
+    "enseigne": "Intermarché Contact",
+    "adresse": "70 Rue de l'Échassier",
+    "cp": "16100",
+    "ville": "COGNAC",
+    "latitude": 45.692,
+    "longitude": -0.309,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.325",
+        "maj": "2026-10-14 09:41:52"
+      },
+      "E10": {
+        "valeur": "2.193",
+        "maj": "2026-10-14 09:41:52"
+      },
+      "SP98": {
+        "valeur": "2.317",
+        "maj": "2026-10-14 09:41:52"
+      }
+    }
+  },
+  {
+    "id": "16270003",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "122 Rue Nationale",
+    "cp": "16270",
+    "ville": "Roumazières-Loubert",
+    "latitude": 45.884,
+    "longitude": 0.575,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-14 08:58:45"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 08:58:45"
+      },
+      "E10": {
+        "valeur": "2.174",
+        "maj": "2026-10-14 08:58:46"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-14 08:58:46"
+      }
+    }
+  },
+  {
+    "id": "16430004",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "ZA Les Montagnes Les Plantes Neuves",
+    "cp": "16430",
+    "ville": "Champniers",
+    "latitude": 45.683,
+    "longitude": 0.179,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-14 09:21:59"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-13 09:08:33"
+      },
+      "E10": {
+        "valeur": "2.181",
+        "maj": "2026-10-15 09:41:22"
+      }
+    }
+  },
+  {
+    "id": "16700003",
+    "dep": "16",
+    "enseigne": "Leclerc",
+    "adresse": "Route d'Aigre",
+    "cp": "16700",
+    "ville": "Ruffec",
+    "latitude": 46.02138,
+    "longitude": 0.18967,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-15 08:30:00"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-09-30 08:30:00"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-09-24 08:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.039",
+        "maj": "2026-10-15 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.241",
+        "maj": "2026-10-13 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "16400002",
+    "dep": "16",
+    "enseigne": "Système U",
+    "adresse": "96 Avenue de la Gare",
+    "cp": "16400",
+    "ville": "LA COURONNE",
+    "latitude": 45.607,
+    "longitude": 0.09,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.337",
+        "maj": "2026-10-13 08:53:50"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-13 08:53:50"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-13 08:53:50"
+      }
+    }
+  },
+  {
+    "id": "16021001",
+    "dep": "16",
+    "enseigne": "Leclerc",
+    "adresse": "5 avenue Paul Desfarges",
+    "cp": "16000",
+    "ville": "Angoulême",
+    "latitude": 45.658,
+    "longitude": 0.181,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.311",
+        "maj": "2026-10-15 07:00:00"
+      },
+      "E85": {
+        "valeur": "0.829",
+        "maj": "2026-10-15 07:00:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-15 07:00:00"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-15 07:00:00"
+      }
+    }
+  },
+  {
+    "id": "16500002",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue du 8 Mai 1945",
+    "cp": "16500",
+    "ville": "CONFOLENS",
+    "latitude": 46.021,
+    "longitude": 0.656,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-13 07:49:34"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-29 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-13 07:49:34"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-13 07:49:34"
+      }
+    }
+  },
+  {
+    "id": "16000008",
+    "dep": "16",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "430 ROUTE DE BORDEAUX",
+    "cp": "16000",
+    "ville": "ANGOULEME",
+    "latitude": 45.643,
+    "longitude": 0.135,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-16 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.921",
+        "maj": "2026-10-16 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-16 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "16110006",
+    "dep": "16",
+    "enseigne": "Leclerc",
+    "adresse": "Péruzet, Route de Limoges",
+    "cp": "16110",
+    "ville": "Rivières",
+    "latitude": 45.753798297159,
+    "longitude": 0.38544261777988004,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.366",
+        "maj": "2026-10-16 03:00:00"
+      }
+    }
+  },
+  {
+    "id": "16480001",
+    "dep": "16",
+    "enseigne": "Avia",
+    "adresse": "11 RTE DE CHALAIS",
+    "cp": "16480",
+    "ville": "BROSSAC",
+    "latitude": 45.336827,
+    "longitude": -0.04328,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.606",
+        "maj": "2026-09-22 10:31:18"
+      },
+      "SP95": {
+        "valeur": "2.390",
+        "maj": "2026-09-22 10:31:18"
+      },
+      "SP98": {
+        "valeur": "2.441",
+        "maj": "2026-09-22 10:31:18"
+      }
+    }
+  },
+  {
+    "id": "16260001",
+    "dep": "16",
+    "enseigne": "TotalEnergies",
+    "adresse": "Route d'Angoulême",
+    "cp": "16260",
+    "ville": "Chasseneuil-sur-Bonnieure",
+    "latitude": 45.815,
+    "longitude": 0.443,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-15 08:16:18"
+      },
+      "E85": {
+        "valeur": "0.959",
+        "maj": "2026-10-15 08:16:18"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-15 08:16:18"
+      }
+    }
+  },
+  {
+    "id": "16210001",
+    "dep": "16",
+    "enseigne": "Intermarché",
+    "adresse": "Rue de la Tude",
+    "cp": "16210",
+    "ville": "Chalais",
+    "latitude": 45.273,
+    "longitude": 0.042,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.368",
+        "maj": "2026-10-15 09:02:35"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-15 09:02:35"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-15 09:02:35"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-15 09:02:35"
+      }
+    }
+  },
+  {
+    "id": "16230005",
+    "dep": "16",
+    "enseigne": "TotalEnergies Contact",
+    "adresse": "16 route d’aigre",
+    "cp": "16230",
+    "ville": "Luxe",
+    "latitude": 45.887867,
+    "longitude": 0.10565100000000001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-09-10 19:53:51"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-06-30 22:35:14"
+      }
+    }
+  },
+  {
+    "id": "16400001",
+    "dep": "16",
+    "enseigne": "Auchan",
+    "adresse": "Route de Bordeaux",
+    "cp": "16400",
+    "ville": "LA COURONNE",
+    "latitude": 45.62,
+    "longitude": 0.106,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-15 08:48:46"
+      },
+      "GPLc": {
+        "valeur": "1.065",
+        "maj": "2026-10-09 08:46:07"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-15 08:48:46"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-15 08:48:47"
+      }
+    }
+  },
+  {
+    "id": "16700009",
+    "dep": "16",
+    "enseigne": "Shell",
+    "adresse": "AIRE DES EGLANTIERS",
+    "cp": "16700",
+    "ville": "BARRO",
+    "latitude": 46.001402,
+    "longitude": 0.200607,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.448",
+        "maj": "2026-10-13 09:30:00"
+      },
+      "E10": {
+        "valeur": "2.258",
+        "maj": "2026-10-13 09:30:00"
+      },
+      "SP98": {
+        "valeur": "2.324",
+        "maj": "2026-10-13 09:30:00"
+      }
+    }
+  },
+  {
+    "id": "16110001",
+    "dep": "16",
+    "enseigne": "Leclerc",
+    "adresse": "Route de Limoges",
+    "cp": "16110",
+    "ville": "LA ROCHEFOUCAULD",
+    "latitude": 45.742,
+    "longitude": 0.387,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.366",
+        "maj": "2026-10-16 03:00:00"
+      },
+      "E85": {
+        "valeur": "0.847",
+        "maj": "2026-10-05 03:00:00"
+      },
+      "E10": {
+        "valeur": "2.174",
+        "maj": "2026-10-16 03:00:00"
+      },
+      "SP98": {
+        "valeur": "2.241",
+        "maj": "2026-10-16 03:00:00"
+      }
+    }
+  }
+]
