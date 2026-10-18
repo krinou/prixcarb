@@ -718,12 +718,7 @@
     "ville": "Saint-Mamet-la-Salvetat",
     "latitude": 44.859,
     "longitude": 2.292,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-13 16:35:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "15000017",
@@ -766,12 +761,7 @@
     "ville": "Murat",
     "latitude": 45.107650938541006,
     "longitude": 2.8630026809344,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-07 17:05:37"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "15300006",
@@ -1185,7 +1175,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-17 00:01:00"
+        "maj": "2026-10-18 00:01:00"
       }
     }
   }

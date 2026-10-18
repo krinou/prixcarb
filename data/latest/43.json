@@ -450,6 +450,30 @@
     }
   },
   {
+    "id": "43120001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "rue jean martouret",
+    "cp": "43120",
+    "ville": "MONISTROL-SUR-LOIRE",
+    "latitude": 45.290704469999994,
+    "longitude": 4.16960856,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-17 08:30:04"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-17 08:30:04"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-17 08:30:04"
+      }
+    }
+  },
+  {
     "id": "43260002",
     "dep": "43",
     "enseigne": "Intermarché",
@@ -470,30 +494,6 @@
       "SP98": {
         "valeur": "2.335",
         "maj": "2026-10-14 08:32:02"
-      }
-    }
-  },
-  {
-    "id": "43120001",
-    "dep": "43",
-    "enseigne": "Carrefour Market",
-    "adresse": "rue jean martouret",
-    "cp": "43120",
-    "ville": "MONISTROL-SUR-LOIRE",
-    "latitude": 45.290704469999994,
-    "longitude": 4.16960856,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.369",
-        "maj": "2026-10-15 09:45:08"
-      },
-      "E10": {
-        "valeur": "2.169",
-        "maj": "2026-10-15 09:45:08"
-      },
-      "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-10-15 09:45:08"
       }
     }
   },
@@ -606,24 +606,7 @@
     "ville": "LE PUY EN VELAY",
     "latitude": 45.0479250728,
     "longitude": 3.89342284693,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-17 00:01:00"
-      },
-      "E85": {
-        "valeur": "0.955",
-        "maj": "2026-10-17 00:01:00"
-      },
-      "GPLc": {
-        "valeur": "0.969",
-        "maj": "2026-10-17 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-17 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "43800002",
@@ -980,12 +963,7 @@
     "ville": "Lempdes-sur-Allagnon",
     "latitude": 45.373,
     "longitude": 3.291,
-    "carburants": {
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-14 17:54:11"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "43100002",
@@ -1099,16 +1077,7 @@
     "ville": "CRAPONNE-SUR-ARZON",
     "latitude": 45.32544866749,
     "longitude": 3.8396140865182997,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-15 17:48:14"
-      },
-      "SP95": {
-        "valeur": "1.990",
-        "maj": "2026-10-15 17:48:14"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "43600003",
@@ -1174,23 +1143,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.397",
-        "maj": "2026-10-16 08:30:01"
+        "maj": "2026-10-17 09:01:02"
       },
       "E85": {
         "valeur": "0.957",
-        "maj": "2026-10-16 08:30:01"
+        "maj": "2026-10-17 09:01:02"
       },
       "GPLc": {
         "valeur": "1.098",
-        "maj": "2026-10-16 08:30:01"
+        "maj": "2026-10-17 09:01:02"
       },
       "E10": {
         "valeur": "2.207",
-        "maj": "2026-10-16 08:30:02"
+        "maj": "2026-10-17 09:01:02"
       },
       "SP98": {
         "valeur": "2.272",
-        "maj": "2026-10-16 08:30:02"
+        "maj": "2026-10-17 09:01:02"
       }
     }
   },
