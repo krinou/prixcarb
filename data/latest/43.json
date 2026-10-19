@@ -198,6 +198,22 @@
     }
   },
   {
+    "id": "43320003",
+    "dep": "43",
+    "enseigne": "TotalEnergies",
+    "adresse": "2 route RN 102, Limandre",
+    "cp": "43320",
+    "ville": "Vazeilles-Limandre",
+    "latitude": 45.119,
+    "longitude": 3.73,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-12 14:55:14"
+      }
+    }
+  },
+  {
     "id": "43220003",
     "dep": "43",
     "enseigne": "Montmeat",
@@ -218,30 +234,6 @@
       "SP98": {
         "valeur": "2.259",
         "maj": "2026-10-12 10:08:12"
-      }
-    }
-  },
-  {
-    "id": "43320003",
-    "dep": "43",
-    "enseigne": "TotalEnergies",
-    "adresse": "2 route RN 102, Limandre",
-    "cp": "43320",
-    "ville": "Vazeilles-Limandre",
-    "latitude": 45.119,
-    "longitude": 3.73,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-12 14:55:14"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-12 14:55:14"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-12 14:55:14"
       }
     }
   },
@@ -606,7 +598,20 @@
     "ville": "LE PUY EN VELAY",
     "latitude": 45.0479250728,
     "longitude": 3.89342284693,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-19 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.955",
+        "maj": "2026-10-19 07:18:13"
+      },
+      "GPLc": {
+        "valeur": "0.969",
+        "maj": "2026-10-19 07:18:13"
+      }
+    }
   },
   {
     "id": "43800002",
@@ -1143,23 +1148,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.397",
-        "maj": "2026-10-17 09:01:02"
+        "maj": "2026-10-18 09:26:29"
       },
       "E85": {
         "valeur": "0.957",
-        "maj": "2026-10-17 09:01:02"
+        "maj": "2026-10-18 09:26:30"
       },
       "GPLc": {
         "valeur": "1.098",
-        "maj": "2026-10-17 09:01:02"
+        "maj": "2026-10-18 09:26:30"
       },
       "E10": {
         "valeur": "2.207",
-        "maj": "2026-10-17 09:01:02"
+        "maj": "2026-10-18 09:26:30"
       },
       "SP98": {
         "valeur": "2.272",
-        "maj": "2026-10-17 09:01:02"
+        "maj": "2026-10-18 09:26:30"
       }
     }
   },

@@ -1,0 +1,1179 @@
+[
+  {
+    "id": "8150003",
+    "dep": "08",
+    "enseigne": "TotalEnergies Contact",
+    "adresse": "89 AVENUE DES MARTYRS DE LA RESISTANCE",
+    "cp": "08150",
+    "ville": "RENWEZ",
+    "latitude": 49.833628,
+    "longitude": 4.603904,
+    "carburants": {}
+  },
+  {
+    "id": "8090001",
+    "dep": "08",
+    "enseigne": "Esso Express",
+    "adresse": "RN 43 LE PORT LEROY",
+    "cp": "08090",
+    "ville": "Cliron",
+    "latitude": 49.805,
+    "longitude": 4.621,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-15 11:31:00"
+      },
+      "E10": {
+        "valeur": "2.268",
+        "maj": "2026-10-15 11:31:00"
+      },
+      "SP98": {
+        "valeur": "2.348",
+        "maj": "2026-10-15 11:31:00"
+      }
+    }
+  },
+  {
+    "id": "8330002",
+    "dep": "08",
+    "enseigne": "Carrefour Contact",
+    "adresse": "12 RUE PIERRE VIENOT",
+    "cp": "08330",
+    "ville": "VRIGNE-AUX-BOIS",
+    "latitude": 49.735,
+    "longitude": 4.85,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.479",
+        "maj": "2026-09-23 09:01:05"
+      },
+      "SP95": {
+        "valeur": "2.359",
+        "maj": "2026-09-23 09:01:05"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-09-23 09:01:05"
+      }
+    }
+  },
+  {
+    "id": "8130003",
+    "dep": "08",
+    "enseigne": "Carrefour Contact",
+    "adresse": "3 Rue Saint-Charles",
+    "cp": "08130",
+    "ville": "Attigny",
+    "latitude": 49.479,
+    "longitude": 4.577,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.470",
+        "maj": "2026-09-19 20:10:09"
+      },
+      "SP95": {
+        "valeur": "2.320",
+        "maj": "2026-09-16 07:15:48"
+      },
+      "E85": {
+        "valeur": "0.890",
+        "maj": "2026-08-26 07:25:51"
+      }
+    }
+  },
+  {
+    "id": "8210001",
+    "dep": "08",
+    "enseigne": "Esso",
+    "adresse": "Avenue de la Paix",
+    "cp": "08210",
+    "ville": "MOUZON",
+    "latitude": 49.61023,
+    "longitude": 5.07788,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.463",
+        "maj": "2026-09-30 07:45:52"
+      },
+      "E10": {
+        "valeur": "2.197",
+        "maj": "2026-09-30 07:46:11"
+      },
+      "SP98": {
+        "valeur": "2.340",
+        "maj": "2026-09-30 07:46:29"
+      }
+    }
+  },
+  {
+    "id": "8200005",
+    "dep": "08",
+    "enseigne": "Leclerc",
+    "adresse": "14 Avenue Pasteur",
+    "cp": "08200",
+    "ville": "Sedan",
+    "latitude": 49.699,
+    "longitude": 4.928,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.362",
+        "maj": "2026-10-19 01:17:00"
+      },
+      "GPLc": {
+        "valeur": "0.971",
+        "maj": "2026-10-19 01:17:00"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-19 01:17:00"
+      }
+    }
+  },
+  {
+    "id": "8000007",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "69 Rue de Monthermé",
+    "cp": "08000",
+    "ville": "Charleville-Mézières",
+    "latitude": 49.785,
+    "longitude": 4.713,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.411",
+        "maj": "2026-10-15 08:08:24"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-15 08:08:24"
+      },
+      "SP98": {
+        "valeur": "2.350",
+        "maj": "2026-10-09 11:26:46"
+      }
+    }
+  },
+  {
+    "id": "8230001",
+    "dep": "08",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route de la Petite Chapelle",
+    "cp": "08230",
+    "ville": "ROCROI",
+    "latitude": 49.928,
+    "longitude": 4.526,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.383",
+        "maj": "2026-10-16 08:38:00"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-10-16 08:38:00"
+      },
+      "SP98": {
+        "valeur": "2.316",
+        "maj": "2026-10-16 08:38:01"
+      }
+    }
+  },
+  {
+    "id": "8400002",
+    "dep": "08",
+    "enseigne": "Esso Express",
+    "adresse": "Rd 976, Chestres",
+    "cp": "08400",
+    "ville": "Vouziers",
+    "latitude": 49.398687170482,
+    "longitude": 4.715634421409,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.381",
+        "maj": "2026-10-18 07:40:00"
+      },
+      "E10": {
+        "valeur": "2.207",
+        "maj": "2026-10-18 07:40:00"
+      },
+      "SP98": {
+        "valeur": "2.287",
+        "maj": "2026-10-18 07:40:00"
+      }
+    }
+  },
+  {
+    "id": "8000011",
+    "dep": "08",
+    "enseigne": "Système U",
+    "adresse": "RD 764",
+    "cp": "08000",
+    "ville": "VILLERS-SEMEUSE",
+    "latitude": 49.733,
+    "longitude": 4.753,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.411",
+        "maj": "2026-10-16 14:38:29"
+      },
+      "E85": {
+        "valeur": "0.860",
+        "maj": "2026-10-16 14:38:29"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-10-16 14:38:29"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-16 14:38:29"
+      },
+      "SP98": {
+        "valeur": "2.380",
+        "maj": "2026-10-16 14:38:29"
+      }
+    }
+  },
+  {
+    "id": "8170005",
+    "dep": "08",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN 51",
+    "cp": "08170",
+    "ville": "FUMAY",
+    "latitude": 49.99467113949,
+    "longitude": 4.6971376513648,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-18 14:24:56"
+      }
+    }
+  },
+  {
+    "id": "8320002",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "140 Avenue Roger Posty",
+    "cp": "08320",
+    "ville": "VIREUX-MOLHAIN",
+    "latitude": 50.081,
+    "longitude": 4.725,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.384",
+        "maj": "2026-09-25 23:59:00"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-15 14:04:28"
+      },
+      "E10": {
+        "valeur": "2.162",
+        "maj": "2026-10-12 08:41:14"
+      },
+      "SP98": {
+        "valeur": "2.277",
+        "maj": "2026-10-15 14:04:28"
+      }
+    }
+  },
+  {
+    "id": "8360003",
+    "dep": "08",
+    "enseigne": "Carrefour Contact",
+    "adresse": "37 Rue de la Sommevue",
+    "cp": "08360",
+    "ville": "Château-Porcien",
+    "latitude": 49.53,
+    "longitude": 4.249,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-01 12:59:00"
+      },
+      "SP95": {
+        "valeur": "2.229",
+        "maj": "2026-10-01 12:45:44"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-01 12:45:44"
+      }
+    }
+  },
+  {
+    "id": "8350002",
+    "dep": "08",
+    "enseigne": "Carrefour Express",
+    "adresse": "Rue Georges Clemenceau",
+    "cp": "08350",
+    "ville": "DONCHERY",
+    "latitude": 49.698,
+    "longitude": 4.866,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.459",
+        "maj": "2026-10-09 09:20:37"
+      },
+      "SP95": {
+        "valeur": "2.339",
+        "maj": "2026-10-09 09:20:37"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-09 09:20:38"
+      }
+    }
+  },
+  {
+    "id": "8320003",
+    "dep": "08",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "ROUTE NATIONALE 51",
+    "cp": "08320",
+    "ville": "HIERGES",
+    "latitude": 50.106,
+    "longitude": 4.743,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.360",
+        "maj": "2026-10-01 11:19:16"
+      },
+      "E85": {
+        "valeur": "1.113",
+        "maj": "2026-10-01 10:54:25"
+      },
+      "E10": {
+        "valeur": "2.115",
+        "maj": "2026-10-01 10:53:51"
+      }
+    }
+  },
+  {
+    "id": "8170001",
+    "dep": "08",
+    "enseigne": "Carrefour Market",
+    "adresse": "225 rue des evignes",
+    "cp": "08170",
+    "ville": "FUMAY",
+    "latitude": 49.989,
+    "longitude": 4.692,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.380",
+        "maj": "2026-10-12 10:27:37"
+      },
+      "SP95": {
+        "valeur": "2.225",
+        "maj": "2026-10-12 10:27:37"
+      },
+      "SP98": {
+        "valeur": "2.290",
+        "maj": "2026-10-12 10:27:37"
+      }
+    }
+  },
+  {
+    "id": "8300008",
+    "dep": "08",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "4 RUE DE MONTPELLIER",
+    "cp": "08300",
+    "ville": "RETHEL",
+    "latitude": 49.504,
+    "longitude": 4.36,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-19 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.904",
+        "maj": "2026-10-19 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "8240001",
+    "dep": "08",
+    "enseigne": "TotalEnergies",
+    "adresse": "15 RUE DE LA GARE",
+    "cp": "08240",
+    "ville": "BAR-LES-BUZANCY",
+    "latitude": 49.42885798381901,
+    "longitude": 4.9518145930264,
+    "carburants": {}
+  },
+  {
+    "id": "8200010",
+    "dep": "08",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "8 AVENUE DE LA MARNE",
+    "cp": "08200",
+    "ville": "SEDAN",
+    "latitude": 49.699,
+    "longitude": 4.927,
+    "carburants": {
+      "E85": {
+        "valeur": "1.009",
+        "maj": "2026-10-19 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "0.972",
+        "maj": "2026-10-19 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "8140003",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "centre commercial Mac Mahon route Nationale",
+    "cp": "08140",
+    "ville": "Bazeilles",
+    "latitude": 49.684552690437,
+    "longitude": 4.9723654981651,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.361",
+        "maj": "2026-10-17 15:50:32"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-04-27 11:28:50"
+      },
+      "E10": {
+        "valeur": "2.194",
+        "maj": "2026-10-17 15:50:32"
+      },
+      "SP98": {
+        "valeur": "2.318",
+        "maj": "2026-10-17 15:50:33"
+      }
+    }
+  },
+  {
+    "id": "8150002",
+    "dep": "08",
+    "enseigne": "Carrefour Contact",
+    "adresse": "103 Avenue Martyrs de la Résistance",
+    "cp": "08150",
+    "ville": "Renwez",
+    "latitude": 49.84,
+    "longitude": 4.605,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.405",
+        "maj": "2026-10-14 10:56:38"
+      },
+      "SP95": {
+        "valeur": "2.365",
+        "maj": "2026-10-14 10:56:38"
+      },
+      "SP98": {
+        "valeur": "2.351",
+        "maj": "2026-10-14 10:56:38"
+      }
+    }
+  },
+  {
+    "id": "8120001",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "63 Avenue Blanqui",
+    "cp": "08120",
+    "ville": "BOGNY-SUR-MEUSE",
+    "latitude": 49.857,
+    "longitude": 4.764,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.391",
+        "maj": "2026-10-15 08:36:42"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-15 08:36:42"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-08 09:44:57"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-15 08:36:42"
+      }
+    }
+  },
+  {
+    "id": "8110002",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "ZAC DE Wé - 2 avenue de l'Europe",
+    "cp": "08110",
+    "ville": "CARIGNAN - Wé",
+    "latitude": 49.637,
+    "longitude": 5.162,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.392",
+        "maj": "2026-10-16 13:00:00"
+      },
+      "SP95": {
+        "valeur": "2.223",
+        "maj": "2026-10-16 13:00:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-16 13:00:00"
+      },
+      "E10": {
+        "valeur": "2.158",
+        "maj": "2026-10-16 13:00:00"
+      },
+      "SP98": {
+        "valeur": "2.280",
+        "maj": "2026-10-16 13:00:00"
+      }
+    }
+  },
+  {
+    "id": "8130004",
+    "dep": "08",
+    "enseigne": "TotalEnergies",
+    "adresse": "5 ROUTE DE CHARLEVILLE",
+    "cp": "08130",
+    "ville": "Attigny",
+    "latitude": 49.485,
+    "longitude": 4.581,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-09-25 18:50:32"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-09-18 10:58:41"
+      }
+    }
+  },
+  {
+    "id": "8200004",
+    "dep": "08",
+    "enseigne": "Esso Express",
+    "adresse": "45 Avenue de la Marne",
+    "cp": "08200",
+    "ville": "Sedan",
+    "latitude": 49.697,
+    "longitude": 4.919,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.433",
+        "maj": "2026-10-16 07:32:00"
+      },
+      "E85": {
+        "valeur": "1.014",
+        "maj": "2026-10-16 07:32:00"
+      },
+      "E10": {
+        "valeur": "2.235",
+        "maj": "2026-10-16 07:32:00"
+      },
+      "SP98": {
+        "valeur": "2.358",
+        "maj": "2026-10-16 07:32:00"
+      }
+    }
+  },
+  {
+    "id": "8270002",
+    "dep": "08",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A34 - AIRE DES ARDENNES - WOINIC",
+    "cp": "08270",
+    "ville": "Saulces-Monclin",
+    "latitude": 49.594069537325,
+    "longitude": 4.5029188207464,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-19 00:01:00"
+      },
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-10-19 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.114",
+        "maj": "2026-10-19 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "8000005",
+    "dep": "08",
+    "enseigne": "Esso Express",
+    "adresse": "17 Avenue Charles de Gaulle",
+    "cp": "08000",
+    "ville": "Charleville-Mézières",
+    "latitude": 49.767,
+    "longitude": 4.718,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-16 07:41:00"
+      },
+      "E10": {
+        "valeur": "2.268",
+        "maj": "2026-10-16 07:41:00"
+      },
+      "SP98": {
+        "valeur": "2.348",
+        "maj": "2026-10-16 07:41:00"
+      }
+    }
+  },
+  {
+    "id": "8000002",
+    "dep": "08",
+    "enseigne": "Supermarché Match",
+    "adresse": "42 Avenue des Martyrs-de-la-Résistance",
+    "cp": "08000",
+    "ville": "Charleville-Mézières",
+    "latitude": 49.75869,
+    "longitude": 4.72653,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.411",
+        "maj": "2026-10-15 15:53:38"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-15 15:53:38"
+      },
+      "SP98": {
+        "valeur": "2.350",
+        "maj": "2026-10-12 11:37:00"
+      }
+    }
+  },
+  {
+    "id": "8430001",
+    "dep": "08",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "32 GRANDE RUE",
+    "cp": "08430",
+    "ville": "POIX-TERRON",
+    "latitude": 49.651,
+    "longitude": 4.642,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.460",
+        "maj": "2026-10-13 10:38:50"
+      },
+      "E10": {
+        "valeur": "2.230",
+        "maj": "2026-09-30 13:51:33"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-09-25 09:16:54"
+      }
+    }
+  },
+  {
+    "id": "8600003",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Beauraing",
+    "cp": "08600",
+    "ville": "GIVET",
+    "latitude": 50.134,
+    "longitude": 4.854,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.394",
+        "maj": "2026-10-16 10:32:40"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-16 10:32:40"
+      },
+      "E10": {
+        "valeur": "2.141",
+        "maj": "2026-10-16 10:32:40"
+      },
+      "SP98": {
+        "valeur": "2.260",
+        "maj": "2026-10-16 10:32:40"
+      }
+    }
+  },
+  {
+    "id": "8150001",
+    "dep": "08",
+    "enseigne": "Carrefour Contact",
+    "adresse": "RUE PASTEUR",
+    "cp": "08150",
+    "ville": "RIMOGNE",
+    "latitude": 49.84,
+    "longitude": 4.545,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.355",
+        "maj": "2026-10-12 10:43:28"
+      },
+      "SP95": {
+        "valeur": "2.235",
+        "maj": "2026-10-12 10:43:29"
+      },
+      "E85": {
+        "valeur": "0.920",
+        "maj": "2026-10-12 10:43:29"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 10:43:29"
+      }
+    }
+  },
+  {
+    "id": "8300006",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "24 Rue de Reims",
+    "cp": "08300",
+    "ville": "SAULT-LèS-RETHEL",
+    "latitude": 49.50033,
+    "longitude": 4.35794,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-16 08:07:10"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-16 07:23:09"
+      },
+      "E10": {
+        "valeur": "2.135",
+        "maj": "2026-10-16 08:07:27"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-16 07:23:23"
+      }
+    }
+  },
+  {
+    "id": "8300007",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "Rue Arthur Rimbaud",
+    "cp": "08300",
+    "ville": "AMAGNE",
+    "latitude": 49.51743,
+    "longitude": 4.49483,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-05 11:58:42"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-05 11:58:42"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-05 11:58:42"
+      }
+    }
+  },
+  {
+    "id": "8500002",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "13 Avenue Danton",
+    "cp": "08500",
+    "ville": "REVIN",
+    "latitude": 49.939,
+    "longitude": 4.641,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-08 11:10:00"
+      },
+      "E10": {
+        "valeur": "2.187",
+        "maj": "2026-10-08 11:10:00"
+      }
+    }
+  },
+  {
+    "id": "8400004",
+    "dep": "08",
+    "enseigne": "Carrefour Market",
+    "adresse": "Rue Verte",
+    "cp": "08400",
+    "ville": "VOUZIERS",
+    "latitude": 49.405,
+    "longitude": 4.697,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-17 11:55:32"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-17 11:55:32"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-17 11:55:32"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-17 11:55:32"
+      }
+    }
+  },
+  {
+    "id": "8800004",
+    "dep": "08",
+    "enseigne": "Carrefour Contact",
+    "adresse": "RUE ANDRE COMPAIN",
+    "cp": "08800",
+    "ville": "MONTHERME",
+    "latitude": 49.885,
+    "longitude": 4.739,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-14 09:46:15"
+      },
+      "SP95": {
+        "valeur": "2.302",
+        "maj": "2026-10-14 09:46:15"
+      },
+      "SP98": {
+        "valeur": "2.371",
+        "maj": "2026-10-14 09:46:16"
+      }
+    }
+  },
+  {
+    "id": "8000001",
+    "dep": "08",
+    "enseigne": "Carrefour",
+    "adresse": "1 rue Paulin Richier",
+    "cp": "08000",
+    "ville": "CHARLEVILLE-MéZIèRES",
+    "latitude": 49.739,
+    "longitude": 4.707,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.411",
+        "maj": "2026-10-18 22:51:00"
+      },
+      "SP95": {
+        "valeur": "2.226",
+        "maj": "2026-10-18 22:51:00"
+      },
+      "E85": {
+        "valeur": "0.860",
+        "maj": "2026-10-18 22:51:00"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-07-10 22:41:00"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-18 22:51:00"
+      },
+      "SP98": {
+        "valeur": "2.380",
+        "maj": "2026-10-18 22:51:00"
+      }
+    }
+  },
+  {
+    "id": "8260002",
+    "dep": "08",
+    "enseigne": "Intermarché Contact",
+    "adresse": "RN43 Lieu dit Le Pré Meumon",
+    "cp": "08260",
+    "ville": "Maubert-Fontaine",
+    "latitude": 49.867,
+    "longitude": 4.428,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-15 08:17:01"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 08:07:24"
+      },
+      "E10": {
+        "valeur": "2.263",
+        "maj": "2026-10-15 08:17:01"
+      },
+      "SP98": {
+        "valeur": "2.385",
+        "maj": "2026-10-15 08:17:01"
+      }
+    }
+  },
+  {
+    "id": "8400003",
+    "dep": "08",
+    "enseigne": "Leclerc",
+    "adresse": "115 rue Bournizet",
+    "cp": "08400",
+    "ville": "VOUZIERS",
+    "latitude": 49.396,
+    "longitude": 4.682,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.372",
+        "maj": "2026-10-19 01:16:00"
+      },
+      "SP95": {
+        "valeur": "2.231",
+        "maj": "2026-10-19 01:16:00"
+      },
+      "E85": {
+        "valeur": "0.831",
+        "maj": "2026-10-19 01:16:00"
+      },
+      "E10": {
+        "valeur": "2.198",
+        "maj": "2026-10-19 01:16:00"
+      },
+      "SP98": {
+        "valeur": "2.277",
+        "maj": "2026-10-19 01:16:00"
+      }
+    }
+  },
+  {
+    "id": "8200007",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "Rue Cadeau",
+    "cp": "08200",
+    "ville": "SEDAN",
+    "latitude": 49.706,
+    "longitude": 4.936,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.363",
+        "maj": "2026-10-16 08:20:40"
+      },
+      "E10": {
+        "valeur": "2.197",
+        "maj": "2026-10-16 08:20:41"
+      },
+      "SP98": {
+        "valeur": "2.318",
+        "maj": "2026-10-16 08:20:41"
+      }
+    }
+  },
+  {
+    "id": "8300001",
+    "dep": "08",
+    "enseigne": "Carrefour",
+    "adresse": "ZONE DE L'ETOILE",
+    "cp": "08300",
+    "ville": "Rethel",
+    "latitude": 49.511,
+    "longitude": 4.368,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-17 08:35:00"
+      },
+      "E10": {
+        "valeur": "2.264",
+        "maj": "2026-10-17 08:35:00"
+      },
+      "SP98": {
+        "valeur": "2.406",
+        "maj": "2026-10-17 08:35:00"
+      }
+    }
+  },
+  {
+    "id": "8800001",
+    "dep": "08",
+    "enseigne": "TotalEnergies",
+    "adresse": "Rue André Compain",
+    "cp": "08800",
+    "ville": "Monthermé",
+    "latitude": 49.88,
+    "longitude": 4.742,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-16 07:45:56"
+      }
+    }
+  },
+  {
+    "id": "8190003",
+    "dep": "08",
+    "enseigne": "Carrefour Contact",
+    "adresse": "1 Rue Chantereine",
+    "cp": "08190",
+    "ville": "Asfeld",
+    "latitude": 49.47064,
+    "longitude": 4.12341,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.395",
+        "maj": "2026-10-15 12:55:36"
+      },
+      "SP95": {
+        "valeur": "2.240",
+        "maj": "2026-10-15 12:55:36"
+      },
+      "SP98": {
+        "valeur": "2.330",
+        "maj": "2026-10-15 12:55:36"
+      }
+    }
+  },
+  {
+    "id": "8460001",
+    "dep": "08",
+    "enseigne": "TotalEnergies Contact",
+    "adresse": "1 route de rocroi",
+    "cp": "08460",
+    "ville": "signy l'abbaye",
+    "latitude": 49.699763,
+    "longitude": 4.4230659999999995,
+    "carburants": {}
+  },
+  {
+    "id": "8000008",
+    "dep": "08",
+    "enseigne": "Intermarché",
+    "adresse": "197 Avenue Carnot",
+    "cp": "08000",
+    "ville": "Charleville-Mézières",
+    "latitude": 49.746,
+    "longitude": 4.727,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.411",
+        "maj": "2026-10-16 08:02:53"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-15 08:08:26"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-14 08:42:33"
+      },
+      "SP98": {
+        "valeur": "2.350",
+        "maj": "2026-10-09 08:10:07"
+      }
+    }
+  },
+  {
+    "id": "8110005",
+    "dep": "08",
+    "enseigne": "Carrefour Market",
+    "adresse": "43 Route Nationale",
+    "cp": "08110",
+    "ville": "Blagny",
+    "latitude": 49.621550437047,
+    "longitude": 5.1862764178631,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.365",
+        "maj": "2026-10-15 08:26:03"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-15 08:26:03"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-15 08:26:04"
+      }
+    }
+  },
+  {
+    "id": "8700004",
+    "dep": "08",
+    "enseigne": "Carrefour Market",
+    "adresse": "42 RUE PARMENTIER",
+    "cp": "08700",
+    "ville": "NOUZONVILLE",
+    "latitude": 49.822185722569,
+    "longitude": 4.7429365808471005,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-17 09:22:02"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-07 12:28:18"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-01 10:01:13"
+      }
+    }
+  },
+  {
+    "id": "8190001",
+    "dep": "08",
+    "enseigne": "TotalEnergies",
+    "adresse": "70 Rue Chantereine",
+    "cp": "08190",
+    "ville": "ASFELD",
+    "latitude": 49.465,
+    "longitude": 4.112,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-09-26 07:47:29"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-09-26 07:47:29"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-09-26 07:47:29"
+      }
+    }
+  },
+  {
+    "id": "8000010",
+    "dep": "08",
+    "enseigne": "TotalEnergies",
+    "adresse": "RTE DE LAFRANCHEVILLE",
+    "cp": "08000",
+    "ville": "Charleville-Mézières",
+    "latitude": 49.741,
+    "longitude": 4.726,
+    "carburants": {
+      "E85": {
+        "valeur": "0.913",
+        "maj": "2026-10-19 07:10:39"
+      },
+      "GPLc": {
+        "valeur": "1.011",
+        "maj": "2026-10-19 07:10:39"
+      }
+    }
+  }
+]
