@@ -1,0 +1,3344 @@
+[
+  {
+    "id": "67500013",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "2 RUE DU POSTILLON",
+    "cp": "67500",
+    "ville": "HAGUENAU",
+    "latitude": 48.827314,
+    "longitude": 7.792444000000001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.488",
+        "maj": "2026-10-19 21:00:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-19 21:00:00"
+      },
+      "E10": {
+        "valeur": "2.298",
+        "maj": "2026-10-19 21:00:00"
+      },
+      "SP98": {
+        "valeur": "2.398",
+        "maj": "2026-10-19 21:00:00"
+      }
+    }
+  },
+  {
+    "id": "67310003",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "58 Route de Hohengoeft",
+    "cp": "67310",
+    "ville": "Wasselonne",
+    "latitude": 48.646,
+    "longitude": 7.453,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "SP98": {
+        "valeur": "2.326",
+        "maj": "2026-10-20 01:17:00"
+      }
+    }
+  },
+  {
+    "id": "67370003",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "5 ALLEE DE L’ECONOMIE",
+    "cp": "67370",
+    "ville": "WIWERSHEIM",
+    "latitude": 48.644,
+    "longitude": 7.598,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E85": {
+        "valeur": "0.874",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-20 01:15:00"
+      }
+    }
+  },
+  {
+    "id": "67452001",
+    "dep": "67",
+    "enseigne": "Carrefour",
+    "adresse": "1 Boulevard des Enseignes",
+    "cp": "67450",
+    "ville": "Mundolsheim",
+    "latitude": 48.655,
+    "longitude": 7.724,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.526",
+        "maj": "2026-10-19 10:32:27"
+      },
+      "GPLc": {
+        "valeur": "0.939",
+        "maj": "2026-10-19 10:32:27"
+      },
+      "E10": {
+        "valeur": "2.290",
+        "maj": "2026-10-19 10:32:27"
+      },
+      "SP98": {
+        "valeur": "2.530",
+        "maj": "2026-10-19 10:32:27"
+      }
+    }
+  },
+  {
+    "id": "67120002",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN 422",
+    "cp": "67120",
+    "ville": "MOLSHEIM",
+    "latitude": 48.529266519707,
+    "longitude": 7.4974740576593994,
+    "carburants": {}
+  },
+  {
+    "id": "67210004",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "8 RUE DU MARECHAL JUIN",
+    "cp": "67210",
+    "ville": "OBERNAI",
+    "latitude": 48.45959,
+    "longitude": 7.49509,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67800011",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "20 ROUTE DE BRUMATH",
+    "cp": "67800",
+    "ville": "HOENHEIM",
+    "latitude": 48.6209477678,
+    "longitude": 7.731215951959999,
+    "carburants": {}
+  },
+  {
+    "id": "67033001",
+    "dep": "67",
+    "enseigne": "Auchan",
+    "adresse": "place André Maurois",
+    "cp": "67200",
+    "ville": "STRASBOURG",
+    "latitude": 48.591,
+    "longitude": 7.694,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.536",
+        "maj": "2026-10-19 20:21:46"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-19 20:21:46"
+      },
+      "GPLc": {
+        "valeur": "0.939",
+        "maj": "2026-10-19 20:21:46"
+      }
+    }
+  },
+  {
+    "id": "67590002",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "Route de Strasbourg (RD85)",
+    "cp": "67590",
+    "ville": "Schweighouse-sur-Moder",
+    "latitude": 48.815,
+    "longitude": 7.74,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 07:08:41"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 07:08:41"
+      }
+    }
+  },
+  {
+    "id": "67170010",
+    "dep": "67",
+    "enseigne": "Esso",
+    "adresse": "Aire de Brumath Ouest - Autoroute A4",
+    "cp": "67170",
+    "ville": "Brumath",
+    "latitude": 48.724,
+    "longitude": 7.691,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.403",
+        "maj": "2026-10-15 10:51:43"
+      },
+      "E85": {
+        "valeur": "1.049",
+        "maj": "2026-10-17 13:06:35"
+      },
+      "GPLc": {
+        "valeur": "1.156",
+        "maj": "2026-10-15 10:51:43"
+      },
+      "E10": {
+        "valeur": "2.213",
+        "maj": "2026-10-15 10:51:44"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-15 10:51:44"
+      }
+    }
+  },
+  {
+    "id": "67600004",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "ALLEE DE LA LOHMULE",
+    "cp": "67600",
+    "ville": "Sélestat",
+    "latitude": 48.264,
+    "longitude": 7.441,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.498",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "SP95": {
+        "valeur": "2.319",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-20 01:17:00"
+      }
+    }
+  },
+  {
+    "id": "67700012",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "A4 - Aire de Saverne - Monswiller",
+    "cp": "67700",
+    "ville": "Eckartswiller",
+    "latitude": 48.7599576,
+    "longitude": 7.36226799,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.114",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67260007",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A4 - AIRE DE KESKASTEL EST",
+    "cp": "67260",
+    "ville": "KESKASTEL",
+    "latitude": 48.97188,
+    "longitude": 7.06906,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.109",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67230006",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "ROUTE DE LYON - RD-1083",
+    "cp": "67230",
+    "ville": "HUTTENHEIM",
+    "latitude": 48.362,
+    "longitude": 7.573,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 06:36:25"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 06:36:25"
+      }
+    }
+  },
+  {
+    "id": "67860001",
+    "dep": "67",
+    "enseigne": "",
+    "adresse": "Route de Rhinau",
+    "cp": "67860",
+    "ville": "Boofzheim",
+    "latitude": 48.329,
+    "longitude": 7.691,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-14 06:36:19"
+      },
+      "SP95": {
+        "valeur": "2.435",
+        "maj": "2026-10-14 06:36:19"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-10-14 06:36:19"
+      }
+    }
+  },
+  {
+    "id": "67110001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "15 Rue des Cuirassiers",
+    "cp": "67110",
+    "ville": "REICHSHOFFEN",
+    "latitude": 48.93342,
+    "longitude": 7.66915,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-14 11:29:30"
+      },
+      "E10": {
+        "valeur": "2.329",
+        "maj": "2026-10-14 11:29:30"
+      },
+      "SP98": {
+        "valeur": "2.469",
+        "maj": "2026-10-14 11:29:30"
+      }
+    }
+  },
+  {
+    "id": "67410002",
+    "dep": "67",
+    "enseigne": "Avia",
+    "adresse": "1 rue du collège",
+    "cp": "67410",
+    "ville": "Drusenheim",
+    "latitude": 48.76,
+    "longitude": 7.954,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.569",
+        "maj": "2026-09-17 00:05:00"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-09-17 00:05:00"
+      },
+      "SP98": {
+        "valeur": "2.469",
+        "maj": "2026-09-17 00:05:00"
+      }
+    }
+  },
+  {
+    "id": "67270003",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE DE STRASBOURG",
+    "cp": "67270",
+    "ville": "HOCHFELDEN",
+    "latitude": 48.755,
+    "longitude": 7.591,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.529",
+        "maj": "2026-10-15 07:20:23"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 07:30:41"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 10:03:41"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-13 10:03:42"
+      }
+    }
+  },
+  {
+    "id": "67160001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "33 rue de la Pépiniére",
+    "cp": "67160",
+    "ville": "WISSEMBOURG",
+    "latitude": 49.0268909254,
+    "longitude": 7.946439519559999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.485",
+        "maj": "2026-10-15 12:15:50"
+      },
+      "E10": {
+        "valeur": "2.389",
+        "maj": "2026-10-15 12:15:50"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-15 12:15:51"
+      }
+    }
+  },
+  {
+    "id": "67920001",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "2 Rue de Wittisheim",
+    "cp": "67920",
+    "ville": "Sundhouse",
+    "latitude": 48.25235,
+    "longitude": 7.59527,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-15 11:08:17"
+      },
+      "SP95": {
+        "valeur": "2.329",
+        "maj": "2026-10-17 09:31:27"
+      },
+      "SP98": {
+        "valeur": "2.419",
+        "maj": "2026-10-15 11:08:17"
+      }
+    }
+  },
+  {
+    "id": "67116003",
+    "dep": "67",
+    "enseigne": "Shell",
+    "adresse": "ROUTE D37",
+    "cp": "67116",
+    "ville": "REICHSTETT",
+    "latitude": 48.656552351845,
+    "longitude": 7.7562861753134,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.688",
+        "maj": "2026-10-20 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "67260003",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "55 rue de Keskastel",
+    "cp": "67260",
+    "ville": "Herbitzheim",
+    "latitude": 49.009,
+    "longitude": 7.077,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.599",
+        "maj": "2026-10-02 12:14:00"
+      },
+      "SP95": {
+        "valeur": "2.399",
+        "maj": "2026-10-02 12:14:00"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-02 12:14:00"
+      }
+    }
+  },
+  {
+    "id": "67660003",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "19 Rue de l'Avenir",
+    "cp": "67660",
+    "ville": "BETSCHDORF",
+    "latitude": 48.898,
+    "longitude": 7.912,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.485",
+        "maj": "2026-10-12 12:35:57"
+      },
+      "E10": {
+        "valeur": "2.389",
+        "maj": "2026-10-13 08:30:15"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-13 10:55:14"
+      }
+    }
+  },
+  {
+    "id": "67120003",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "33a Route de Dachstein",
+    "cp": "67120",
+    "ville": "Molsheim",
+    "latitude": 48.541549,
+    "longitude": 7.5027515000000005,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.529",
+        "maj": "2026-10-09 11:39:01"
+      },
+      "E10": {
+        "valeur": "2.359",
+        "maj": "2026-10-16 08:56:39"
+      },
+      "SP98": {
+        "valeur": "2.439",
+        "maj": "2026-10-09 16:42:06"
+      }
+    }
+  },
+  {
+    "id": "67140003",
+    "dep": "67",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "15 Quai de l'Abattoir",
+    "cp": "67140",
+    "ville": "BARR",
+    "latitude": 48.41,
+    "longitude": 7.455,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.490",
+        "maj": "2026-09-12 12:18:43"
+      },
+      "E10": {
+        "valeur": "2.320",
+        "maj": "2026-10-03 12:21:08"
+      },
+      "SP98": {
+        "valeur": "2.490",
+        "maj": "2026-10-03 12:21:08"
+      }
+    }
+  },
+  {
+    "id": "67000026",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "49 RTE DU RHIN",
+    "cp": "67000",
+    "ville": "STRASBOURG",
+    "latitude": 48.57287,
+    "longitude": 7.78835,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67510001",
+    "dep": "67",
+    "enseigne": "Carrefour Express",
+    "adresse": "45 ROUTE DE BITCHE",
+    "cp": "67510",
+    "ville": "LEMBACH",
+    "latitude": 49.008,
+    "longitude": 7.789,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.495",
+        "maj": "2026-10-20 06:57:50"
+      },
+      "E10": {
+        "valeur": "2.309",
+        "maj": "2026-10-20 06:57:50"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-20 06:57:50"
+      }
+    }
+  },
+  {
+    "id": "67580001",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "18 ROUTE DE BITCHE",
+    "cp": "67580",
+    "ville": "Mertzwiller",
+    "latitude": 48.868,
+    "longitude": 7.688,
+    "carburants": {}
+  },
+  {
+    "id": "67390001",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "14 Avenue de l'Europe",
+    "cp": "67390",
+    "ville": "MARCKOLSHEIM",
+    "latitude": 48.165,
+    "longitude": 7.556,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.498",
+        "maj": "2026-10-14 09:19:24"
+      },
+      "E10": {
+        "valeur": "2.309",
+        "maj": "2026-10-09 15:03:34"
+      },
+      "SP98": {
+        "valeur": "2.409",
+        "maj": "2026-10-09 15:03:34"
+      }
+    }
+  },
+  {
+    "id": "67110003",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "3 Rue Gaston Fleischel",
+    "cp": "67110",
+    "ville": "Reichshoffen",
+    "latitude": 48.934,
+    "longitude": 7.659,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-13 15:26:52"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 09:34:33"
+      },
+      "GPLc": {
+        "valeur": "1.149",
+        "maj": "2026-09-23 08:07:51"
+      },
+      "E10": {
+        "valeur": "2.329",
+        "maj": "2026-10-13 15:26:52"
+      },
+      "SP98": {
+        "valeur": "2.469",
+        "maj": "2026-10-13 15:26:52"
+      }
+    }
+  },
+  {
+    "id": "67240002",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "17 Route d'Oberhoffen",
+    "cp": "67240",
+    "ville": "BISCHWILLER",
+    "latitude": 48.769,
+    "longitude": 7.867,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.489",
+        "maj": "2026-10-19 13:52:56"
+      },
+      "SP95": {
+        "valeur": "2.289",
+        "maj": "2026-10-19 13:52:56"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-19 13:52:56"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-19 13:52:57"
+      }
+    }
+  },
+  {
+    "id": "67320001",
+    "dep": "67",
+    "enseigne": "Intermarché Contact",
+    "adresse": "Rue de Weyer",
+    "cp": "67320",
+    "ville": "DRULINGEN",
+    "latitude": 48.86425,
+    "longitude": 7.18661,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.479",
+        "maj": "2026-10-14 12:04:45"
+      },
+      "E10": {
+        "valeur": "2.339",
+        "maj": "2026-10-14 12:04:45"
+      },
+      "SP98": {
+        "valeur": "2.489",
+        "maj": "2026-10-14 12:04:45"
+      }
+    }
+  },
+  {
+    "id": "67570001",
+    "dep": "67",
+    "enseigne": "ENI",
+    "adresse": "RN 1420",
+    "cp": "67570",
+    "ville": "ROTHAU",
+    "latitude": 48.461,
+    "longitude": 7.211,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.599",
+        "maj": "2026-10-19 09:15:00"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-19 09:15:00"
+      },
+      "E10": {
+        "valeur": "2.379",
+        "maj": "2026-10-19 09:15:00"
+      },
+      "SP98": {
+        "valeur": "2.479",
+        "maj": "2026-10-19 09:15:00"
+      }
+    }
+  },
+  {
+    "id": "67600003",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "AIRE DU HAUT KOENISGBOURG A35",
+    "cp": "67600",
+    "ville": "Orschwiller",
+    "latitude": 48.232,
+    "longitude": 7.405,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.660",
+        "maj": "2026-10-02 12:26:13"
+      },
+      "E85": {
+        "valeur": "0.975",
+        "maj": "2026-07-25 08:06:47"
+      },
+      "GPLc": {
+        "valeur": "1.200",
+        "maj": "2026-09-08 12:47:13"
+      },
+      "E10": {
+        "valeur": "2.480",
+        "maj": "2026-10-17 09:36:33"
+      },
+      "SP98": {
+        "valeur": "2.560",
+        "maj": "2026-10-17 09:36:33"
+      }
+    }
+  },
+  {
+    "id": "67250001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "5 place Charls de Gaulles",
+    "cp": "67250",
+    "ville": "SOULTZ-SOUS-FORêTS",
+    "latitude": 48.93585,
+    "longitude": 7.88082,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.485",
+        "maj": "2026-10-14 10:26:24"
+      },
+      "E10": {
+        "valeur": "2.389",
+        "maj": "2026-10-14 10:26:24"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-14 10:26:25"
+      }
+    }
+  },
+  {
+    "id": "67151001",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "45 Rue du Printemps",
+    "cp": "67150",
+    "ville": "ERSTEIN",
+    "latitude": 48.429,
+    "longitude": 7.659,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.447",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "E85": {
+        "valeur": "0.939",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "GPLc": {
+        "valeur": "0.996",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "E10": {
+        "valeur": "2.289",
+        "maj": "2026-10-20 01:17:00"
+      },
+      "SP98": {
+        "valeur": "2.375",
+        "maj": "2026-10-20 01:17:00"
+      }
+    }
+  },
+  {
+    "id": "67330001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "Rue d'Obermodern",
+    "cp": "67330",
+    "ville": "Bouxwiller",
+    "latitude": 48.831,
+    "longitude": 7.493,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.529",
+        "maj": "2026-10-19 10:47:28"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-19 10:47:28"
+      }
+    }
+  },
+  {
+    "id": "67202003",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN 4 - ROUTE DE SAVERNE",
+    "cp": "67202",
+    "ville": "WOLFISHEIM",
+    "latitude": 48.600997836937,
+    "longitude": 7.6522720918629,
+    "carburants": {}
+  },
+  {
+    "id": "67270002",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "Rue du 14 Juillet",
+    "cp": "67270",
+    "ville": "HOCHFELDEN",
+    "latitude": 48.758,
+    "longitude": 7.573,
+    "carburants": {}
+  },
+  {
+    "id": "67000002",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "Route de la Wantzenau",
+    "cp": "67000",
+    "ville": "STRASBOURG",
+    "latitude": 48.611993985705006,
+    "longitude": 7.7822163708573,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.475",
+        "maj": "2026-10-19 12:38:16"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-19 12:38:17"
+      },
+      "SP98": {
+        "valeur": "2.389",
+        "maj": "2026-10-19 12:38:17"
+      }
+    }
+  },
+  {
+    "id": "67500005",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "4 Route de Bitche",
+    "cp": "67500",
+    "ville": "HAGUENAU",
+    "latitude": 48.82,
+    "longitude": 7.778,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-19 16:35:34"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-19 16:35:34"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-19 16:35:34"
+      }
+    }
+  },
+  {
+    "id": "67730001",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "43 RTE DE STE MARIE AUX MINES",
+    "cp": "67730",
+    "ville": "Châtenois",
+    "latitude": 48.28,
+    "longitude": 7.389,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-19 08:31:25"
+      }
+    }
+  },
+  {
+    "id": "67370001",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "29 RUE DE LA GARE",
+    "cp": "67370",
+    "ville": "TRUCHTERSHEIM",
+    "latitude": 48.657,
+    "longitude": 7.605,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.495",
+        "maj": "2026-10-10 07:45:08"
+      },
+      "SP95": {
+        "valeur": "2.349",
+        "maj": "2026-09-25 08:49:47"
+      },
+      "E10": {
+        "valeur": "2.255",
+        "maj": "2026-10-10 07:45:08"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-09-30 07:49:08"
+      }
+    }
+  },
+  {
+    "id": "67202002",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "1A RUE HANS ARP",
+    "cp": "67202",
+    "ville": "WOLFISHEIM",
+    "latitude": 48.589,
+    "longitude": 7.671,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.579",
+        "maj": "2026-10-19 08:28:21"
+      },
+      "SP95": {
+        "valeur": "2.369",
+        "maj": "2026-10-19 08:28:21"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-19 08:28:21"
+      },
+      "SP98": {
+        "valeur": "2.469",
+        "maj": "2026-10-19 08:28:22"
+      }
+    }
+  },
+  {
+    "id": "67205001",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "256 route de Mittelhausbergen",
+    "cp": "67200",
+    "ville": "Oberhausbergen",
+    "latitude": 48.604,
+    "longitude": 7.706,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.475",
+        "maj": "2026-10-19 10:55:53"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-19 10:55:53"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-19 10:55:53"
+      }
+    }
+  },
+  {
+    "id": "67700001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "3 Rue Sainte-Marie",
+    "cp": "67700",
+    "ville": "SAVERNE",
+    "latitude": 48.736,
+    "longitude": 7.364,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-15 11:27:26"
+      },
+      "E10": {
+        "valeur": "2.239",
+        "maj": "2026-10-13 10:53:06"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 10:53:06"
+      }
+    }
+  },
+  {
+    "id": "67130004",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "Rue de l'Ancien Sanatorium",
+    "cp": "67130",
+    "ville": "SCHIRMECK",
+    "latitude": 48.482,
+    "longitude": 7.22,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-09-28 10:59:02"
+      },
+      "E10": {
+        "valeur": "2.359",
+        "maj": "2026-10-15 11:24:24"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-14 11:17:02"
+      }
+    }
+  },
+  {
+    "id": "67290002",
+    "dep": "67",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Rue Principale",
+    "cp": "67290",
+    "ville": "Wingen-sur-Moder",
+    "latitude": 48.92,
+    "longitude": 7.375,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-17 20:34:29"
+      },
+      "SP95": {
+        "valeur": "2.289",
+        "maj": "2026-10-17 20:34:30"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-17 20:34:30"
+      }
+    }
+  },
+  {
+    "id": "67600001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "38 Route de Colmar",
+    "cp": "67600",
+    "ville": "Sélestat",
+    "latitude": 48.24889,
+    "longitude": 7.43635,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.498",
+        "maj": "2026-10-12 10:26:31"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 10:26:31"
+      }
+    }
+  },
+  {
+    "id": "67960001",
+    "dep": "67",
+    "enseigne": "Carrefour Contact",
+    "adresse": "5, Allée des Forgerons",
+    "cp": "67960",
+    "ville": "ENTZHEIM",
+    "latitude": 48.539,
+    "longitude": 7.649,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-19 10:12:38"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-19 10:12:39"
+      },
+      "SP98": {
+        "valeur": "2.369",
+        "maj": "2026-10-19 10:12:39"
+      }
+    }
+  },
+  {
+    "id": "67680001",
+    "dep": "67",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Lieudit Stotzenweg",
+    "cp": "67680",
+    "ville": "EPFIG",
+    "latitude": 48.362365997199,
+    "longitude": 7.467648575567,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.459",
+        "maj": "2026-10-16 15:56:57"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-19 10:38:08"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-16 15:56:58"
+      }
+    }
+  },
+  {
+    "id": "67100007",
+    "dep": "67",
+    "enseigne": "Avia",
+    "adresse": "10 Rue du Landsberg",
+    "cp": "67100",
+    "ville": "STRASBOURG",
+    "latitude": 48.571,
+    "longitude": 7.764,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.599",
+        "maj": "2026-09-28 20:30:00"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-09-28 20:30:00"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-09-28 20:30:00"
+      },
+      "E10": {
+        "valeur": "2.429",
+        "maj": "2026-09-28 20:30:00"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-09-28 20:30:00"
+      }
+    }
+  },
+  {
+    "id": "67840002",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "CHEMIN DEPARTEMENTAL 468",
+    "cp": "67840",
+    "ville": "KILSTETT",
+    "latitude": 48.677,
+    "longitude": 7.849,
+    "carburants": {}
+  },
+  {
+    "id": "67380001",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "Rue d'Eckbolsheim",
+    "cp": "67380",
+    "ville": "LINGOLSHEIM",
+    "latitude": 48.563,
+    "longitude": 7.69,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-19 10:05:04"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-19 10:05:04"
+      },
+      "E10": {
+        "valeur": "2.295",
+        "maj": "2026-10-19 10:05:04"
+      },
+      "SP98": {
+        "valeur": "2.369",
+        "maj": "2026-10-19 10:05:04"
+      }
+    }
+  },
+  {
+    "id": "67630001",
+    "dep": "67",
+    "enseigne": "Carrefour Market",
+    "adresse": "RD 468",
+    "cp": "67630",
+    "ville": "SCHEIBENHARD",
+    "latitude": 48.974646119999996,
+    "longitude": 8.1574104,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-17 09:49:50"
+      },
+      "E85": {
+        "valeur": "1.000",
+        "maj": "2026-10-17 09:49:50"
+      },
+      "E10": {
+        "valeur": "2.320",
+        "maj": "2026-10-17 09:49:50"
+      },
+      "SP98": {
+        "valeur": "2.339",
+        "maj": "2026-10-17 09:49:50"
+      }
+    }
+  },
+  {
+    "id": "67000005",
+    "dep": "67",
+    "enseigne": "Avia",
+    "adresse": "41 Boulevard de Lyon",
+    "cp": "67000",
+    "ville": "STRASBOURG",
+    "latitude": 48.579,
+    "longitude": 7.731,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.599",
+        "maj": "2026-10-16 08:55:00"
+      },
+      "E10": {
+        "valeur": "2.429",
+        "maj": "2026-10-16 08:55:00"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-16 08:55:00"
+      }
+    }
+  },
+  {
+    "id": "67170008",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "209 AVENUE DE STRASBOURG",
+    "cp": "67170",
+    "ville": "BRUMATH",
+    "latitude": 48.708,
+    "longitude": 7.71,
+    "carburants": {}
+  },
+  {
+    "id": "67480001",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "1 Rue Principale",
+    "cp": "67480",
+    "ville": "Roeschwoog",
+    "latitude": 48.824,
+    "longitude": 8.032,
+    "carburants": {}
+  },
+  {
+    "id": "67800014",
+    "dep": "67",
+    "enseigne": "ENI",
+    "adresse": "79 ROUTE DE BISCHWILLER",
+    "cp": "67800",
+    "ville": "BISCHHEIM",
+    "latitude": 48.618,
+    "longitude": 7.754,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.629",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.369",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-20 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "67100009",
+    "dep": "67",
+    "enseigne": "ENI",
+    "adresse": "4 ROUTE D'ALTENHEIM",
+    "cp": "67100",
+    "ville": "STRASBOURG",
+    "latitude": 48.543681457439995,
+    "longitude": 7.765314769311599,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.590",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.360",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.460",
+        "maj": "2026-10-20 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "67100002",
+    "dep": "67",
+    "enseigne": "Esso Express",
+    "adresse": "250 Avenue de Colmar",
+    "cp": "67100",
+    "ville": "Strasbourg",
+    "latitude": 48.553,
+    "longitude": 7.744,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.545",
+        "maj": "2026-10-19 14:46:00"
+      },
+      "E85": {
+        "valeur": "1.010",
+        "maj": "2026-10-19 14:46:00"
+      },
+      "E10": {
+        "valeur": "2.315",
+        "maj": "2026-10-19 14:46:00"
+      },
+      "SP98": {
+        "valeur": "2.395",
+        "maj": "2026-10-19 14:46:00"
+      }
+    }
+  },
+  {
+    "id": "67190009",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RTE EXPRESS VALLEE LA BRUCHE",
+    "cp": "67190",
+    "ville": "GRESSWILLER",
+    "latitude": 48.534,
+    "longitude": 7.402,
+    "carburants": {}
+  },
+  {
+    "id": "67000027",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "CENTRE ROUTIER DE RHEINFELD",
+    "cp": "67000",
+    "ville": "STRASBOURG",
+    "latitude": 48.524349926212004,
+    "longitude": 7.7838726035692,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67550003",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "10 BIS ROUTE DE STRASBOURG",
+    "cp": "67550",
+    "ville": "VENDENHEIM",
+    "latitude": 48.667,
+    "longitude": 7.719,
+    "carburants": {}
+  },
+  {
+    "id": "67660002",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "71 RUE DU DOCTEUR DEUTSCH",
+    "cp": "67660",
+    "ville": "Betschdorf",
+    "latitude": 48.89911,
+    "longitude": 7.90872,
+    "carburants": {}
+  },
+  {
+    "id": "67640005",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RD1083 - Rue de Lyon",
+    "cp": "67640",
+    "ville": "ICHTRATZHEIM",
+    "latitude": 48.485373326754,
+    "longitude": 7.6737249943185,
+    "carburants": {
+      "GPLc": {
+        "valeur": "0.995",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67500011",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "22 ROUTE DE STRASBOURG",
+    "cp": "67500",
+    "ville": "HAGUENAU",
+    "latitude": 48.809,
+    "longitude": 7.778,
+    "carburants": {}
+  },
+  {
+    "id": "67118002",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "4 RUE DU FORT",
+    "cp": "67118",
+    "ville": "GEISPOLSHEIM",
+    "latitude": 48.521,
+    "longitude": 7.695,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.446",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "SP95": {
+        "valeur": "2.309",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E85": {
+        "valeur": "0.921",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "GPLc": {
+        "valeur": "0.995",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "SP98": {
+        "valeur": "2.375",
+        "maj": "2026-10-20 01:15:00"
+      }
+    }
+  },
+  {
+    "id": "67220003",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "zac de l ungersberg",
+    "cp": "67220",
+    "ville": "Villé",
+    "latitude": 48.339,
+    "longitude": 7.315,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.479",
+        "maj": "2026-10-19 13:46:54"
+      },
+      "E85": {
+        "valeur": "0.875",
+        "maj": "2026-10-06 17:09:58"
+      },
+      "E10": {
+        "valeur": "2.237",
+        "maj": "2026-10-19 13:46:55"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-19 13:46:55"
+      }
+    }
+  },
+  {
+    "id": "67120006",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "Aire de la Bruche",
+    "cp": "67120",
+    "ville": "Duttlenheim",
+    "latitude": 48.538953600000006,
+    "longitude": 7.5804767,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.640",
+        "maj": "2026-10-13 09:29:43"
+      },
+      "E85": {
+        "valeur": "0.975",
+        "maj": "2026-06-19 09:52:54"
+      },
+      "GPLc": {
+        "valeur": "1.180",
+        "maj": "2026-05-29 15:18:34"
+      },
+      "E10": {
+        "valeur": "2.430",
+        "maj": "2026-10-13 09:29:43"
+      },
+      "SP98": {
+        "valeur": "2.530",
+        "maj": "2026-10-13 09:29:43"
+      }
+    }
+  },
+  {
+    "id": "67430002",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "1 rue Paul Paray",
+    "cp": "67430",
+    "ville": "DIEMERINGEN",
+    "latitude": 48.94,
+    "longitude": 7.188,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-13 09:00:58"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-19 07:18:07"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-10-19 07:18:07"
+      }
+    }
+  },
+  {
+    "id": "67600006",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Strasbourg",
+    "cp": "67600",
+    "ville": "Sélestat",
+    "latitude": 48.27608,
+    "longitude": 7.4652,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.498",
+        "maj": "2026-10-08 08:14:57"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 12:37:19"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-10 08:33:33"
+      },
+      "SP98": {
+        "valeur": "2.419",
+        "maj": "2026-10-10 08:33:45"
+      }
+    }
+  },
+  {
+    "id": "67600010",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "50 ROUTE DE STRASBOURG",
+    "cp": "67600",
+    "ville": "SELESTAT",
+    "latitude": 48.27267,
+    "longitude": 7.46047,
+    "carburants": {}
+  },
+  {
+    "id": "67260012",
+    "dep": "67",
+    "enseigne": "Esso",
+    "adresse": "A4 AIRE DE KESKASTEL EST",
+    "cp": "67260",
+    "ville": "KESKASTEL",
+    "latitude": 48.97213518257799,
+    "longitude": 7.068667926000001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.433",
+        "maj": "2026-10-19 09:52:00"
+      },
+      "GPLc": {
+        "valeur": "1.064",
+        "maj": "2026-10-19 09:52:00"
+      },
+      "E10": {
+        "valeur": "2.243",
+        "maj": "2026-10-19 09:52:00"
+      },
+      "SP98": {
+        "valeur": "2.325",
+        "maj": "2026-10-19 09:52:00"
+      }
+    }
+  },
+  {
+    "id": "67360002",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "Route de Haguenau",
+    "cp": "67360",
+    "ville": "WOERTH",
+    "latitude": 48.933,
+    "longitude": 7.748,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.519",
+        "maj": "2026-10-16 19:14:08"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-16 19:14:08"
+      },
+      "E10": {
+        "valeur": "2.329",
+        "maj": "2026-10-16 19:14:08"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-16 19:14:08"
+      }
+    }
+  },
+  {
+    "id": "67800004",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "13 Route de la Wantzenau",
+    "cp": "67800",
+    "ville": "HOENHEIM",
+    "latitude": 48.6305554602,
+    "longitude": 7.7639628648,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.571",
+        "maj": "2026-10-12 11:52:27"
+      },
+      "E10": {
+        "valeur": "2.271",
+        "maj": "2026-10-19 07:48:23"
+      },
+      "SP98": {
+        "valeur": "2.459",
+        "maj": "2026-10-12 11:52:27"
+      }
+    }
+  },
+  {
+    "id": "67120005",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "15 rue de la Gare",
+    "cp": "67120",
+    "ville": "DUTTLENHEIM",
+    "latitude": 48.527,
+    "longitude": 7.568,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.441",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E10": {
+        "valeur": "2.258",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "SP98": {
+        "valeur": "2.439",
+        "maj": "2026-10-20 01:15:00"
+      }
+    }
+  },
+  {
+    "id": "67700013",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "20 RUE DES CLES",
+    "cp": "67700",
+    "ville": "SAVERNE",
+    "latitude": 48.74,
+    "longitude": 7.369,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-15 09:24:34"
+      }
+    }
+  },
+  {
+    "id": "67480002",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "1, PARC ACTIVITE UFRIED nord",
+    "cp": "67480",
+    "ville": "ROESCHWOOG",
+    "latitude": 48.823,
+    "longitude": 8.031,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.505",
+        "maj": "2026-10-15 07:43:50"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-10-15 07:43:50"
+      }
+    }
+  },
+  {
+    "id": "67300003",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "AV PIERRE MENDES FRANCE",
+    "cp": "67300",
+    "ville": "SCHILTIGHEIM",
+    "latitude": 48.60545851,
+    "longitude": 7.758568830000001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "0.979",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67700010",
+    "dep": "67",
+    "enseigne": "Avia",
+    "adresse": "AUTOROUTE A4 AIRE DE SAVERNE",
+    "cp": "67700",
+    "ville": "ECKARTSWILLER",
+    "latitude": 48.762,
+    "longitude": 7.365,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.589",
+        "maj": "2026-09-26 05:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.165",
+        "maj": "2026-09-26 05:00:00"
+      },
+      "E10": {
+        "valeur": "2.439",
+        "maj": "2026-09-26 05:00:00"
+      },
+      "SP98": {
+        "valeur": "2.539",
+        "maj": "2026-09-26 05:00:00"
+      }
+    }
+  },
+  {
+    "id": "67250002",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "1 rue du chene",
+    "cp": "67250",
+    "ville": "SOULTZ-SOUS-FORêTS",
+    "latitude": 48.929,
+    "longitude": 7.896,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-19 15:44:44"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-19 15:44:45"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-19 15:44:45"
+      }
+    }
+  },
+  {
+    "id": "67420001",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "12 Rue Principale",
+    "cp": "67420",
+    "ville": "SAINT-BLAISE-LA-ROCHE",
+    "latitude": 48.406,
+    "longitude": 7.163,
+    "carburants": {}
+  },
+  {
+    "id": "67110006",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "Z.A. DE LA HARDT",
+    "cp": "67110",
+    "ville": "Gundershoffen",
+    "latitude": 48.902,
+    "longitude": 7.647,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.545",
+        "maj": "2026-10-01 18:47:16"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-09-22 16:40:32"
+      },
+      "E10": {
+        "valeur": "2.369",
+        "maj": "2026-10-01 18:47:16"
+      },
+      "SP98": {
+        "valeur": "2.489",
+        "maj": "2026-10-01 18:47:16"
+      }
+    }
+  },
+  {
+    "id": "67500009",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "37 AVENUE DU PROFESSEUR LERICHE",
+    "cp": "67500",
+    "ville": "HAGUENAU",
+    "latitude": 48.799,
+    "longitude": 7.78,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.508",
+        "maj": "2026-10-19 09:43:15"
+      },
+      "SP95": {
+        "valeur": "2.328",
+        "maj": "2026-10-19 09:43:15"
+      },
+      "E10": {
+        "valeur": "2.298",
+        "maj": "2026-10-19 09:43:15"
+      }
+    }
+  },
+  {
+    "id": "67130002",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "Rue de la Creuse Fontaine",
+    "cp": "67130",
+    "ville": "Russ",
+    "latitude": 48.49433,
+    "longitude": 7.25104,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-13 08:48:43"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 08:48:43"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-13 08:48:44"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-16 14:59:43"
+      }
+    }
+  },
+  {
+    "id": "67300004",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "90 ROUTE DU GENERAL DE GAULLE",
+    "cp": "67300",
+    "ville": "SCHILTIGHEIM",
+    "latitude": 48.610653,
+    "longitude": 7.737855,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.475",
+        "maj": "2026-10-12 09:36:17"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-12 09:36:18"
+      },
+      "SP98": {
+        "valeur": "2.389",
+        "maj": "2026-10-12 09:36:18"
+      }
+    }
+  },
+  {
+    "id": "67500015",
+    "dep": "67",
+    "enseigne": "Auchan supermarché",
+    "adresse": "88 Route de Bischwiller",
+    "cp": "67500",
+    "ville": "Haguenau",
+    "latitude": 48.80319,
+    "longitude": 7.81095,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.518",
+        "maj": "2026-10-19 13:15:47"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-19 13:15:47"
+      },
+      "E10": {
+        "valeur": "2.348",
+        "maj": "2026-10-19 13:15:47"
+      }
+    }
+  },
+  {
+    "id": "67210005",
+    "dep": "67",
+    "enseigne": "Auchan supermarché",
+    "adresse": "14 Rue du Général Leclerc",
+    "cp": "67210",
+    "ville": "Obernai",
+    "latitude": 48.46482099999999,
+    "longitude": 7.4895,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.543",
+        "maj": "2026-10-13 10:57:52"
+      },
+      "E10": {
+        "valeur": "2.330",
+        "maj": "2026-10-13 10:57:52"
+      }
+    }
+  },
+  {
+    "id": "67114001",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "25, rue du Tramway",
+    "cp": "67114",
+    "ville": "ESCHAU",
+    "latitude": 48.481,
+    "longitude": 7.726,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.446",
+        "maj": "2026-10-19 10:15:00"
+      },
+      "E85": {
+        "valeur": "0.921",
+        "maj": "2026-10-16 10:05:10"
+      },
+      "E10": {
+        "valeur": "2.306",
+        "maj": "2026-10-19 10:15:00"
+      },
+      "SP98": {
+        "valeur": "2.375",
+        "maj": "2026-10-19 11:14:12"
+      }
+    }
+  },
+  {
+    "id": "67220004",
+    "dep": "67",
+    "enseigne": "Avia",
+    "adresse": "Route de Villé",
+    "cp": "67220",
+    "ville": "SAINT-MAURICE",
+    "latitude": 48.327,
+    "longitude": 7.333,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.569",
+        "maj": "2026-09-17 07:59:34"
+      },
+      "SP95": {
+        "valeur": "2.469",
+        "maj": "2026-09-17 07:59:34"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-09-17 07:59:34"
+      }
+    }
+  },
+  {
+    "id": "67129001",
+    "dep": "67",
+    "enseigne": "Carrefour",
+    "adresse": "1 RUE MERCURE",
+    "cp": "67120",
+    "ville": "MOLSHEIM",
+    "latitude": 48.526,
+    "longitude": 7.494,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.441",
+        "maj": "2026-10-13 10:47:34"
+      },
+      "E85": {
+        "valeur": "0.921",
+        "maj": "2026-10-16 10:26:01"
+      },
+      "GPLc": {
+        "valeur": "0.996",
+        "maj": "2026-10-05 10:56:59"
+      },
+      "E10": {
+        "valeur": "2.258",
+        "maj": "2026-10-13 10:47:35"
+      }
+    }
+  },
+  {
+    "id": "67620001",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "15 Rue de Sessenheim",
+    "cp": "67620",
+    "ville": "SOUFFLENHEIM",
+    "latitude": 48.82224,
+    "longitude": 7.96612,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-19 15:10:00"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-19 15:10:00"
+      }
+    }
+  },
+  {
+    "id": "67190010",
+    "dep": "67",
+    "enseigne": "Auchan supermarché",
+    "adresse": "Rue du Mattfeld",
+    "cp": "67190",
+    "ville": "Mutzig",
+    "latitude": 48.537248,
+    "longitude": 7.4475869999999995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.543",
+        "maj": "2026-10-13 11:22:48"
+      }
+    }
+  },
+  {
+    "id": "67540001",
+    "dep": "67",
+    "enseigne": "Auchan supermarché",
+    "adresse": "54 Rue du Général Leclerc",
+    "cp": "67540",
+    "ville": "Ostwald",
+    "latitude": 48.549,
+    "longitude": 7.71,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.593",
+        "maj": "2026-10-14 18:13:54"
+      },
+      "SP95": {
+        "valeur": "2.403",
+        "maj": "2026-10-14 18:13:54"
+      }
+    }
+  },
+  {
+    "id": "67760001",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "120A ROUTE NATIONALE",
+    "cp": "67760",
+    "ville": "GAMBSHEIM",
+    "latitude": 48.699248714218,
+    "longitude": 7.889266294415299,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.509",
+        "maj": "2026-10-13 23:45:00"
+      },
+      "SP95": {
+        "valeur": "2.319",
+        "maj": "2026-10-15 23:45:00"
+      },
+      "E85": {
+        "valeur": "0.889",
+        "maj": "2026-10-12 08:03:51"
+      },
+      "E10": {
+        "valeur": "2.319",
+        "maj": "2026-10-15 23:45:00"
+      }
+    }
+  },
+  {
+    "id": "67560003",
+    "dep": "67",
+    "enseigne": "Auchan supermarché",
+    "adresse": "33 Avenue de la gare",
+    "cp": "67560",
+    "ville": "Rosheim",
+    "latitude": 48.501302,
+    "longitude": 7.485088,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.441",
+        "maj": "2026-10-13 10:59:08"
+      },
+      "E85": {
+        "valeur": "0.914",
+        "maj": "2026-10-13 10:59:08"
+      },
+      "E10": {
+        "valeur": "2.258",
+        "maj": "2026-10-13 10:59:08"
+      }
+    }
+  },
+  {
+    "id": "67500001",
+    "dep": "67",
+    "enseigne": "Carrefour",
+    "adresse": "Route du rhin",
+    "cp": "67500",
+    "ville": "HAGUENAU",
+    "latitude": 48.802,
+    "longitude": 7.835,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.509",
+        "maj": "2026-10-19 11:42:57"
+      },
+      "GPLc": {
+        "valeur": "0.985",
+        "maj": "2026-10-19 11:42:57"
+      },
+      "E10": {
+        "valeur": "2.196",
+        "maj": "2026-10-19 11:42:57"
+      },
+      "SP98": {
+        "valeur": "2.206",
+        "maj": "2026-10-19 11:42:57"
+      }
+    }
+  },
+  {
+    "id": "67520002",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "CC Ellipse 1 rue Griesmatt",
+    "cp": "67520",
+    "ville": "MARLENHEIM",
+    "latitude": 48.616856,
+    "longitude": 7.5022969999999995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.520",
+        "maj": "2026-10-16 13:21:42"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-16 13:21:42"
+      }
+    }
+  },
+  {
+    "id": "67850002",
+    "dep": "67",
+    "enseigne": "Avia",
+    "adresse": "2b rue du collège",
+    "cp": "67850",
+    "ville": "Herrlisheim",
+    "latitude": 48.731,
+    "longitude": 7.9,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.569",
+        "maj": "2026-09-17 00:05:00"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-09-17 00:05:00"
+      },
+      "SP98": {
+        "valeur": "2.469",
+        "maj": "2026-09-17 00:05:00"
+      }
+    }
+  },
+  {
+    "id": "67211001",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "67 Boulevard de l'Europe",
+    "cp": "67210",
+    "ville": "OBERNAI",
+    "latitude": 48.467,
+    "longitude": 7.496,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.473",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E85": {
+        "valeur": "0.921",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E10": {
+        "valeur": "2.239",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "SP98": {
+        "valeur": "2.351",
+        "maj": "2026-10-20 01:15:00"
+      }
+    }
+  },
+  {
+    "id": "67590001",
+    "dep": "67",
+    "enseigne": "Auchan",
+    "adresse": "7 Rue de Niederbronn",
+    "cp": "67590",
+    "ville": "SCHWEIGHOUSE-SUR-MODER",
+    "latitude": 48.834,
+    "longitude": 7.742,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.553",
+        "maj": "2026-10-19 11:04:43"
+      },
+      "GPLc": {
+        "valeur": "0.985",
+        "maj": "2026-10-06 14:26:23"
+      },
+      "E10": {
+        "valeur": "2.336",
+        "maj": "2026-10-14 11:47:45"
+      },
+      "SP98": {
+        "valeur": "2.393",
+        "maj": "2026-10-12 14:09:27"
+      }
+    }
+  },
+  {
+    "id": "67160002",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "6a Allée des Peupliers",
+    "cp": "67160",
+    "ville": "WISSEMBOURG",
+    "latitude": 49.029,
+    "longitude": 7.96,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.485",
+        "maj": "2026-10-14 14:27:59"
+      },
+      "SP95": {
+        "valeur": "2.389",
+        "maj": "2026-10-14 14:28:00"
+      }
+    }
+  },
+  {
+    "id": "67620003",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "Route de Drusenheim",
+    "cp": "67620",
+    "ville": "SOUFFLENHEIM",
+    "latitude": 48.819,
+    "longitude": 7.964,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.509",
+        "maj": "2026-10-16 16:20:59"
+      },
+      "E85": {
+        "valeur": "0.809",
+        "maj": "2026-10-16 16:20:59"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-16 16:20:59"
+      }
+    }
+  },
+  {
+    "id": "67400001",
+    "dep": "67",
+    "enseigne": "Auchan",
+    "adresse": "6 Avenue de Strasbourg",
+    "cp": "67400",
+    "ville": "ILLKIRCH-GRAFFENSTADEN",
+    "latitude": 48.544,
+    "longitude": 7.737,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.536",
+        "maj": "2026-10-19 11:11:27"
+      },
+      "GPLc": {
+        "valeur": "0.995",
+        "maj": "2026-10-19 11:11:27"
+      }
+    }
+  },
+  {
+    "id": "67260004",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "RUE WALTER SCHMITT",
+    "cp": "67260",
+    "ville": "SARRE-UNION",
+    "latitude": 48.929,
+    "longitude": 7.097,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-13 09:40:24"
+      },
+      "SP95": {
+        "valeur": "2.279",
+        "maj": "2026-10-13 09:40:24"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-13 09:40:24"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-10-09 11:38:14"
+      }
+    }
+  },
+  {
+    "id": "67350004",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "1 grand Rue",
+    "cp": "67350",
+    "ville": "Niedermodern",
+    "latitude": 48.847,
+    "longitude": 7.624,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.529",
+        "maj": "2026-10-19 10:35:07"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-19 10:35:07"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-19 10:35:07"
+      }
+    }
+  },
+  {
+    "id": "67810001",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "20 Rue Joseph Graff",
+    "cp": "67810",
+    "ville": "HOLTZHEIM",
+    "latitude": 48.563,
+    "longitude": 7.652,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.447",
+        "maj": "2026-10-20 01:16:00"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-20 01:16:00"
+      },
+      "SP98": {
+        "valeur": "2.375",
+        "maj": "2026-10-20 01:16:00"
+      }
+    }
+  },
+  {
+    "id": "67603001",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "Allée Westrich",
+    "cp": "67600",
+    "ville": "Sélestat",
+    "latitude": 48.281,
+    "longitude": 7.462,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.498",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "GPLc": {
+        "valeur": "0.996",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "SP98": {
+        "valeur": "2.419",
+        "maj": "2026-10-20 01:15:00"
+      }
+    }
+  },
+  {
+    "id": "67600009",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "1 rue des tisserands",
+    "cp": "67600",
+    "ville": "Hilsenheim",
+    "latitude": 48.281,
+    "longitude": 7.555,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "SP95": {
+        "valeur": "2.329",
+        "maj": "2026-10-20 01:15:00"
+      },
+      "E10": {
+        "valeur": "2.262",
+        "maj": "2026-10-20 01:15:00"
+      }
+    }
+  },
+  {
+    "id": "67270001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "19 Route de Strasbourg",
+    "cp": "67270",
+    "ville": "HOCHFELDEN",
+    "latitude": 48.75507,
+    "longitude": 7.57831,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.529",
+        "maj": "2026-10-15 10:09:16"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-14 10:30:15"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-14 10:30:15"
+      }
+    }
+  },
+  {
+    "id": "67400004",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "rue des vignes",
+    "cp": "67400",
+    "ville": "ILLKIRCH-GRAFFENSTADEN",
+    "latitude": 48.521764000000005,
+    "longitude": 7.720329,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.552",
+        "maj": "2026-10-19 08:07:56"
+      },
+      "E10": {
+        "valeur": "2.339",
+        "maj": "2026-10-19 08:07:56"
+      }
+    }
+  },
+  {
+    "id": "67140002",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "2 Route de Bourgheim",
+    "cp": "67140",
+    "ville": "GERTWILLER",
+    "latitude": 48.416,
+    "longitude": 7.476,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-10-16 11:04:48"
+      },
+      "E10": {
+        "valeur": "2.239",
+        "maj": "2026-10-16 11:04:48"
+      },
+      "SP98": {
+        "valeur": "2.350",
+        "maj": "2026-10-16 11:04:48"
+      }
+    }
+  },
+  {
+    "id": "67540003",
+    "dep": "67",
+    "enseigne": "Shell",
+    "adresse": "AUT A 35  AIRE LES CHAUMES BP 33",
+    "cp": "67540",
+    "ville": "Ostwald",
+    "latitude": 48.539,
+    "longitude": 7.717,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.817",
+        "maj": "2026-10-19 13:00:00"
+      },
+      "E10": {
+        "valeur": "2.432",
+        "maj": "2026-10-19 13:00:00"
+      },
+      "SP98": {
+        "valeur": "2.521",
+        "maj": "2026-10-19 13:00:00"
+      }
+    }
+  },
+  {
+    "id": "67170006",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "186 Avenue de Strasbourg",
+    "cp": "67170",
+    "ville": "BRUMATH",
+    "latitude": 48.70928,
+    "longitude": 7.70777,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.549",
+        "maj": "2026-10-13 08:37:30"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-15 08:46:25"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 08:37:30"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-13 08:37:30"
+      }
+    }
+  },
+  {
+    "id": "67120004",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "4 Route de Schirmeck",
+    "cp": "67120",
+    "ville": "DUPPIGHEIM",
+    "latitude": 48.52668,
+    "longitude": 7.59899,
+    "carburants": {
+      "E85": {
+        "valeur": "1.090",
+        "maj": "2026-10-13 10:30:21"
+      }
+    }
+  },
+  {
+    "id": "67800001",
+    "dep": "67",
+    "enseigne": "Supermarché Match",
+    "adresse": "Rue de la Robertsau",
+    "cp": "67800",
+    "ville": "Bischheim",
+    "latitude": 48.61383,
+    "longitude": 7.76136,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.475",
+        "maj": "2026-10-19 12:29:34"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-19 12:29:34"
+      },
+      "SP98": {
+        "valeur": "2.389",
+        "maj": "2026-10-19 12:29:34"
+      }
+    }
+  },
+  {
+    "id": "67500012",
+    "dep": "67",
+    "enseigne": "Auchan",
+    "adresse": "4 boulevard du maréchal de lattre de tassigny",
+    "cp": "67500",
+    "ville": "HAGUENAU",
+    "latitude": 48.819120999999996,
+    "longitude": 7.784701999999999,
+    "carburants": {}
+  },
+  {
+    "id": "67690002",
+    "dep": "67",
+    "enseigne": "Carrefour Contact",
+    "adresse": "2 RUE DES COMMERCES",
+    "cp": "67690",
+    "ville": "HATTEN",
+    "latitude": 48.90284,
+    "longitude": 7.9686509999999995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-13 10:46:49"
+      },
+      "SP95": {
+        "valeur": "2.269",
+        "maj": "2026-10-14 11:13:52"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-10-13 10:46:49"
+      }
+    }
+  },
+  {
+    "id": "67310004",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "20 ROUTE DE STRASBOURG",
+    "cp": "67310",
+    "ville": "WASSELONNE",
+    "latitude": 48.635,
+    "longitude": 7.468,
+    "carburants": {}
+  },
+  {
+    "id": "67190004",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "ESPACE ATRIUM",
+    "cp": "67190",
+    "ville": "Mutzig",
+    "latitude": 48.53268,
+    "longitude": 7.47038,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.553",
+        "maj": "2026-10-19 08:09:23"
+      },
+      "SP95": {
+        "valeur": "2.320",
+        "maj": "2026-10-19 08:09:24"
+      },
+      "E85": {
+        "valeur": "0.920",
+        "maj": "2026-10-16 10:46:28"
+      },
+      "SP98": {
+        "valeur": "2.406",
+        "maj": "2026-10-19 08:09:24"
+      }
+    }
+  },
+  {
+    "id": "67170012",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE DE HOERDT",
+    "cp": "67170",
+    "ville": "geudertheim",
+    "latitude": 48.71,
+    "longitude": 7.758,
+    "carburants": {}
+  },
+  {
+    "id": "67540006",
+    "dep": "67",
+    "enseigne": "Shell",
+    "adresse": "AIRE LES CHAUMES OUEST A35",
+    "cp": "67540",
+    "ville": "Ostwald",
+    "latitude": 48.539,
+    "longitude": 7.717,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.876",
+        "maj": "2026-10-07 16:32:45"
+      },
+      "E10": {
+        "valeur": "2.493",
+        "maj": "2026-10-07 16:32:45"
+      },
+      "SP98": {
+        "valeur": "2.582",
+        "maj": "2026-10-07 16:32:45"
+      }
+    }
+  },
+  {
+    "id": "67400005",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "145 ROUTE DE LYON",
+    "cp": "67400",
+    "ville": "Illkirch-Graffenstaden",
+    "latitude": 48.53138,
+    "longitude": 7.71443,
+    "carburants": {}
+  },
+  {
+    "id": "67160003",
+    "dep": "67",
+    "enseigne": "Carrefour Contact",
+    "adresse": "2 BIS RUE DE LA PAIX",
+    "cp": "67160",
+    "ville": "Seebach",
+    "latitude": 48.971675,
+    "longitude": 7.9914648,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.395",
+        "maj": "2026-10-19 16:02:41"
+      },
+      "SP95": {
+        "valeur": "2.265",
+        "maj": "2026-10-17 10:54:53"
+      },
+      "E10": {
+        "valeur": "2.245",
+        "maj": "2026-10-19 16:02:41"
+      },
+      "SP98": {
+        "valeur": "2.325",
+        "maj": "2026-10-19 16:02:41"
+      }
+    }
+  },
+  {
+    "id": "67130003",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "24 Rue du Donon",
+    "cp": "67130",
+    "ville": "La Broque",
+    "latitude": 48.47898,
+    "longitude": 7.2134,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-07 11:40:03"
+      },
+      "E10": {
+        "valeur": "2.359",
+        "maj": "2026-10-15 08:16:59"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-14 09:35:02"
+      }
+    }
+  },
+  {
+    "id": "67470001",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "Route de Hatten",
+    "cp": "67470",
+    "ville": "SELTZ",
+    "latitude": 48.89483,
+    "longitude": 8.08632,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-13 15:05:58"
+      },
+      "E10": {
+        "valeur": "2.409",
+        "maj": "2026-10-14 10:51:58"
+      },
+      "SP98": {
+        "valeur": "2.375",
+        "maj": "2026-10-13 15:05:58"
+      }
+    }
+  },
+  {
+    "id": "67150001",
+    "dep": "67",
+    "enseigne": "Esso Express",
+    "adresse": "ROUTE DE LYON",
+    "cp": "67150",
+    "ville": "Erstein",
+    "latitude": 48.415,
+    "longitude": 7.636,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.423",
+        "maj": "2026-10-19 14:46:00"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-19 14:46:00"
+      },
+      "SP98": {
+        "valeur": "2.333",
+        "maj": "2026-10-19 14:46:00"
+      }
+    }
+  },
+  {
+    "id": "67340001",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE DE BOUXWILLER",
+    "cp": "67340",
+    "ville": "Ingwiller",
+    "latitude": 48.866,
+    "longitude": 7.474,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 06:12:17"
+      }
+    }
+  },
+  {
+    "id": "67170009",
+    "dep": "67",
+    "enseigne": "Esso",
+    "adresse": "AUTOROUTE A4 AIRE DE BRUMATH EST",
+    "cp": "67170",
+    "ville": "BRUMATH",
+    "latitude": 48.7205793,
+    "longitude": 7.6960945999999995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.582",
+        "maj": "2026-10-17 13:04:13"
+      },
+      "GPLc": {
+        "valeur": "1.165",
+        "maj": "2026-10-16 10:54:03"
+      },
+      "E10": {
+        "valeur": "2.362",
+        "maj": "2026-10-16 10:54:03"
+      },
+      "SP98": {
+        "valeur": "2.445",
+        "maj": "2026-10-16 10:54:03"
+      }
+    }
+  },
+  {
+    "id": "67200011",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "68 ROUTE DE SCHIRMECK",
+    "cp": "67200",
+    "ville": "STRASBOURG",
+    "latitude": 48.57307,
+    "longitude": 7.71737,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67110002",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "16 Faubourg de Niederbronn",
+    "cp": "67110",
+    "ville": "REICHSHOFFEN",
+    "latitude": 48.935,
+    "longitude": 7.661,
+    "carburants": {}
+  },
+  {
+    "id": "67200012",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "142 ROUTE D' OBERHAUSBERGEN",
+    "cp": "67200",
+    "ville": "STRASBOURG",
+    "latitude": 48.596,
+    "longitude": 7.709,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "0.939",
+        "maj": "2026-10-20 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67112002",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "2 RUE PRINCIPALE",
+    "cp": "67112",
+    "ville": "BREUSCHWICKERSHEIM",
+    "latitude": 48.58,
+    "longitude": 7.611,
+    "carburants": {}
+  },
+  {
+    "id": "67340002",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "9 RUE DU WITTHOLZ",
+    "cp": "67340",
+    "ville": "INGWILLER",
+    "latitude": 48.868,
+    "longitude": 7.47,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-17 18:30:00"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-16 10:55:30"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-17 18:30:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-17 18:30:00"
+      }
+    }
+  },
+  {
+    "id": "67700011",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "39 ROUTE DE PARIS RN4",
+    "cp": "67700",
+    "ville": "SAVERNE",
+    "latitude": 48.742,
+    "longitude": 7.357,
+    "carburants": {}
+  },
+  {
+    "id": "67460001",
+    "dep": "67",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "67 Route de Brumath",
+    "cp": "67460",
+    "ville": "SOUFFELWEYERSHEIM",
+    "latitude": 48.629,
+    "longitude": 7.729,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 07:06:01"
+      }
+    }
+  },
+  {
+    "id": "67441001",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "ROUTE DE SAVERNE",
+    "cp": "67440",
+    "ville": "MARMOUTIER",
+    "latitude": 48.701,
+    "longitude": 7.375,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-19 08:03:36"
+      },
+      "SP95": {
+        "valeur": "2.252",
+        "maj": "2026-10-19 08:03:36"
+      },
+      "E85": {
+        "valeur": "0.874",
+        "maj": "2026-10-19 08:03:36"
+      },
+      "E10": {
+        "valeur": "2.195",
+        "maj": "2026-10-19 08:03:36"
+      },
+      "SP98": {
+        "valeur": "2.285",
+        "maj": "2026-10-19 08:03:36"
+      }
+    }
+  },
+  {
+    "id": "67220005",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "10 RUE DU HAUT KOENIGSBOURG",
+    "cp": "67220",
+    "ville": "Villé",
+    "latitude": 48.340376299999996,
+    "longitude": 7.313382900000001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-19 07:51:54"
+      }
+    }
+  },
+  {
+    "id": "67700005",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "38 Rue de Dettwiller",
+    "cp": "67700",
+    "ville": "SAVERNE",
+    "latitude": 48.74041,
+    "longitude": 7.37466,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-19 16:04:19"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-19 16:04:20"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-19 16:04:20"
+      }
+    }
+  },
+  {
+    "id": "67116002",
+    "dep": "67",
+    "enseigne": "Leclerc",
+    "adresse": "Rue de Paris",
+    "cp": "67116",
+    "ville": "Reichstett",
+    "latitude": 48.653792639488,
+    "longitude": 7.750958297308499,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.525",
+        "maj": "2026-10-17 17:35:05"
+      },
+      "E10": {
+        "valeur": "2.289",
+        "maj": "2026-10-17 17:31:23"
+      },
+      "SP98": {
+        "valeur": "2.529",
+        "maj": "2026-10-14 18:06:49"
+      }
+    }
+  },
+  {
+    "id": "67170005",
+    "dep": "67",
+    "enseigne": "Système U",
+    "adresse": "route de brumath",
+    "cp": "67170",
+    "ville": "BERNOLSHEIM",
+    "latitude": 48.755,
+    "longitude": 7.69,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.549",
+        "maj": "2026-10-16 08:46:01"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-16 08:46:01"
+      },
+      "E10": {
+        "valeur": "2.349",
+        "maj": "2026-10-16 08:46:02"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-16 08:46:02"
+      }
+    }
+  },
+  {
+    "id": "67260010",
+    "dep": "67",
+    "enseigne": "ENI",
+    "adresse": "AIRE DE KESKASTEL OUEST – A4",
+    "cp": "67260",
+    "ville": "KESKASTEL",
+    "latitude": 48.974919061939,
+    "longitude": 7.0642799047828,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.434",
+        "maj": "2026-10-19 20:00:00"
+      },
+      "E10": {
+        "valeur": "2.238",
+        "maj": "2026-10-19 20:00:00"
+      },
+      "SP98": {
+        "valeur": "2.304",
+        "maj": "2026-10-19 20:00:00"
+      }
+    }
+  },
+  {
+    "id": "67230005",
+    "dep": "67",
+    "enseigne": "Intermarché",
+    "adresse": "Rue de Strasbourg",
+    "cp": "67230",
+    "ville": "Benfeld",
+    "latitude": 48.374,
+    "longitude": 7.597,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-15 08:00:39"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-15 08:00:39"
+      },
+      "E10": {
+        "valeur": "2.289",
+        "maj": "2026-10-15 08:00:39"
+      },
+      "SP98": {
+        "valeur": "2.419",
+        "maj": "2026-10-15 08:00:39"
+      }
+    }
+  },
+  {
+    "id": "67640004",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "RTE DE STRASBOURG RN 83",
+    "cp": "67640",
+    "ville": "FEGERSHEIM",
+    "latitude": 48.492,
+    "longitude": 7.676,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "67390003",
+    "dep": "67",
+    "enseigne": "TotalEnergies",
+    "adresse": "31 rue maréchal joffre",
+    "cp": "67390",
+    "ville": "MARCKOLSHEIM",
+    "latitude": 48.161,
+    "longitude": 7.544,
+    "carburants": {}
+  },
+  {
+    "id": "67000032",
+    "dep": "67",
+    "enseigne": "ENI",
+    "adresse": "59 RUE BOECKLIN",
+    "cp": "67000",
+    "ville": "STRASBOURG",
+    "latitude": 48.6,
+    "longitude": 7.779444,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.649",
+        "maj": "2026-10-19 21:00:00"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-10-19 21:00:00"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-19 21:00:00"
+      }
+    }
+  },
+  {
+    "id": "67000031",
+    "dep": "67",
+    "enseigne": "ENI",
+    "adresse": "9 AVENUE ALSACE",
+    "cp": "67000",
+    "ville": "STRASBOURG",
+    "latitude": 48.58715,
+    "longitude": 7.76077,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.649",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-20 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "67260011",
+    "dep": "67",
+    "enseigne": "Carrefour Contact",
+    "adresse": "4C rue du Maréchal Foch",
+    "cp": "67260",
+    "ville": "Sarre Union",
+    "latitude": 48.939896758553004,
+    "longitude": 7.0854960936008,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.424",
+        "maj": "2026-10-13 07:25:09"
+      },
+      "SP95": {
+        "valeur": "2.272",
+        "maj": "2026-10-13 07:25:09"
+      },
+      "SP98": {
+        "valeur": "2.335",
+        "maj": "2026-10-13 07:25:09"
+      }
+    }
+  }
+]
