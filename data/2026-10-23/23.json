@@ -1,0 +1,830 @@
+[
+  {
+    "id": "23500002",
+    "dep": "23",
+    "enseigne": "Intermarché",
+    "adresse": "26 ROUTE D'AUBUSSON",
+    "cp": "23500",
+    "ville": "Felletin",
+    "latitude": 45.888,
+    "longitude": 2.176,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-21 07:44:00"
+      },
+      "E10": {
+        "valeur": "2.105",
+        "maj": "2026-10-21 07:44:00"
+      },
+      "SP98": {
+        "valeur": "2.213",
+        "maj": "2026-10-21 07:44:00"
+      }
+    }
+  },
+  {
+    "id": "23400001",
+    "dep": "23",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route de Bénévent",
+    "cp": "23400",
+    "ville": "BOURGANEUF",
+    "latitude": 45.96,
+    "longitude": 1.76,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-09-24 14:25:38"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-09-24 14:25:38"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-09-24 14:25:38"
+      }
+    }
+  },
+  {
+    "id": "23200002",
+    "dep": "23",
+    "enseigne": "Netto",
+    "adresse": "Z.I du mont rue Ampère",
+    "cp": "23200",
+    "ville": "Aubusson",
+    "latitude": 45.964,
+    "longitude": 2.193,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-21 08:05:59"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-16 16:08:17"
+      },
+      "E10": {
+        "valeur": "2.155",
+        "maj": "2026-10-21 08:06:19"
+      },
+      "SP98": {
+        "valeur": "2.339",
+        "maj": "2026-10-14 12:34:59"
+      }
+    }
+  },
+  {
+    "id": "23600001",
+    "dep": "23",
+    "enseigne": "Carrefour Market",
+    "adresse": "avenue de bourbonnais",
+    "cp": "23600",
+    "ville": "BOUSSAC",
+    "latitude": 46.35,
+    "longitude": 2.215,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-22 15:03:32"
+      },
+      "E10": {
+        "valeur": "2.239",
+        "maj": "2026-10-13 16:14:51"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-10-13 16:14:51"
+      }
+    }
+  },
+  {
+    "id": "23230001",
+    "dep": "23",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue du Berry",
+    "cp": "23230",
+    "ville": "GOUZON",
+    "latitude": 46.19516,
+    "longitude": 2.23891,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-21 08:45:00"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-10-19 09:00:00"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-17 10:02:22"
+      }
+    }
+  },
+  {
+    "id": "23150001",
+    "dep": "23",
+    "enseigne": "Intermarché",
+    "adresse": "zone artisanale de la ganne",
+    "cp": "23150",
+    "ville": "AHUN",
+    "latitude": 46.086,
+    "longitude": 2.034,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.387",
+        "maj": "2026-10-20 10:52:09"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-20 10:52:09"
+      },
+      "E10": {
+        "valeur": "2.168",
+        "maj": "2026-10-20 10:52:09"
+      },
+      "SP98": {
+        "valeur": "2.332",
+        "maj": "2026-10-12 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "23300010",
+    "dep": "23",
+    "enseigne": "Shell",
+    "adresse": "14 LA CROISIERE",
+    "cp": "23300",
+    "ville": "SAINT MAURICE LA SOUTERRAINE",
+    "latitude": 46.20444,
+    "longitude": 1.38583,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.692",
+        "maj": "2026-10-23 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "23130002",
+    "dep": "23",
+    "enseigne": "Carrefour Express",
+    "adresse": "7 ROUTE D'AUBUSSON",
+    "cp": "23130",
+    "ville": "CHENERAILLES",
+    "latitude": 46.108378471703,
+    "longitude": 2.178214427131,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.459",
+        "maj": "2026-10-09 07:35:55"
+      },
+      "SP95": {
+        "valeur": "2.289",
+        "maj": "2026-10-09 07:35:55"
+      },
+      "SP98": {
+        "valeur": "2.369",
+        "maj": "2026-10-09 07:35:55"
+      }
+    }
+  },
+  {
+    "id": "23210003",
+    "dep": "23",
+    "enseigne": "Carrefour Contact",
+    "adresse": "4 avenue du limousin",
+    "cp": "23210",
+    "ville": "Bénévent l Abbaye",
+    "latitude": 46.116,
+    "longitude": 1.624,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.432",
+        "maj": "2026-10-22 13:21:22"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-10-22 13:21:22"
+      }
+    }
+  },
+  {
+    "id": "23200001",
+    "dep": "23",
+    "enseigne": "Carrefour Market",
+    "adresse": "La Rebeyrette",
+    "cp": "23200",
+    "ville": "AUBUSSON",
+    "latitude": 45.948,
+    "longitude": 2.172,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-22 12:03:45"
+      },
+      "E10": {
+        "valeur": "2.155",
+        "maj": "2026-10-22 12:03:45"
+      },
+      "SP98": {
+        "valeur": "2.339",
+        "maj": "2026-10-22 12:03:45"
+      }
+    }
+  },
+  {
+    "id": "23300006",
+    "dep": "23",
+    "enseigne": "Leclerc",
+    "adresse": "Avenue Jean Jaures",
+    "cp": "23300",
+    "ville": "La Souterraine",
+    "latitude": 46.238577409039,
+    "longitude": 1.4792175194644,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-23 05:47:33"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-16 07:35:56"
+      },
+      "E85": {
+        "valeur": "0.819",
+        "maj": "2026-10-19 05:51:37"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-22 06:29:13"
+      }
+    }
+  },
+  {
+    "id": "23000001",
+    "dep": "23",
+    "enseigne": "Carrefour",
+    "adresse": "46 Avenue d'Auvergne",
+    "cp": "23000",
+    "ville": "Guéret",
+    "latitude": 46.168,
+    "longitude": 1.888,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-22 11:36:13"
+      },
+      "SP95": {
+        "valeur": "2.210",
+        "maj": "2026-10-20 10:53:57"
+      },
+      "E10": {
+        "valeur": "2.150",
+        "maj": "2026-10-22 11:36:13"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-22 11:36:13"
+      }
+    }
+  },
+  {
+    "id": "23250001",
+    "dep": "23",
+    "enseigne": "Nouallet",
+    "adresse": "Nouallet",
+    "cp": "23250",
+    "ville": "Sardent",
+    "latitude": 46.043,
+    "longitude": 1.878,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.396",
+        "maj": "2026-10-12 15:00:02"
+      },
+      "E10": {
+        "valeur": "2.292",
+        "maj": "2026-10-12 15:00:02"
+      },
+      "SP98": {
+        "valeur": "2.347",
+        "maj": "2026-10-05 15:12:42"
+      }
+    }
+  },
+  {
+    "id": "23300002",
+    "dep": "23",
+    "enseigne": "Avia",
+    "adresse": "ZA LA PRADE",
+    "cp": "23300",
+    "ville": "LA SOUTERRAINE",
+    "latitude": 46.231,
+    "longitude": 1.505,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-22 23:50:00"
+      },
+      "E85": {
+        "valeur": "0.895",
+        "maj": "2026-10-22 23:50:00"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-22 23:50:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-22 23:50:00"
+      }
+    }
+  },
+  {
+    "id": "23110002",
+    "dep": "23",
+    "enseigne": "Système U",
+    "adresse": "55 Avenue de la République",
+    "cp": "23110",
+    "ville": "Évaux-les-Bains",
+    "latitude": 46.169,
+    "longitude": 2.483,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-21 07:00:00"
+      },
+      "SP95": {
+        "valeur": "2.229",
+        "maj": "2026-10-21 07:00:00"
+      },
+      "E10": {
+        "valeur": "2.189",
+        "maj": "2026-10-21 07:00:00"
+      }
+    }
+  },
+  {
+    "id": "23000008",
+    "dep": "23",
+    "enseigne": "Netto",
+    "adresse": "14 AVENUE PIERRE MENDES FRANCE",
+    "cp": "23000",
+    "ville": "Guéret",
+    "latitude": 46.162,
+    "longitude": 1.873,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-22 11:29:47"
+      },
+      "SP95": {
+        "valeur": "2.210",
+        "maj": "2026-10-20 11:09:20"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-22 11:29:47"
+      }
+    }
+  },
+  {
+    "id": "23220001",
+    "dep": "23",
+    "enseigne": "Intermarché Contact",
+    "adresse": "38 avenue de la marche",
+    "cp": "23220",
+    "ville": "Bonnat",
+    "latitude": 46.316,
+    "longitude": 1.916,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-23 05:00:13"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-23 05:00:14"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-23 05:00:14"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-23 05:00:14"
+      }
+    }
+  },
+  {
+    "id": "23320001",
+    "dep": "23",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "RTE DE LA BRIONNE",
+    "cp": "23320",
+    "ville": "Saint-Vaury",
+    "latitude": 46.2,
+    "longitude": 1.76,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-21 08:20:26"
+      },
+      "SP95": {
+        "valeur": "2.298",
+        "maj": "2026-10-12 14:23:33"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-09 17:14:57"
+      }
+    }
+  },
+  {
+    "id": "23700001",
+    "dep": "23",
+    "enseigne": "Intermarché",
+    "adresse": "10 Route d'Aubusson",
+    "cp": "23700",
+    "ville": "Auzances",
+    "latitude": 46.027,
+    "longitude": 2.497,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-16 08:42:54"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-16 08:42:54"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-01 14:52:03"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-01 14:52:04"
+      }
+    }
+  },
+  {
+    "id": "23290001",
+    "dep": "23",
+    "enseigne": "Avia",
+    "adresse": "8 route de la souterraine",
+    "cp": "23290",
+    "ville": "FURSAC",
+    "latitude": 46.15,
+    "longitude": 1.51,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-23 00:31:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-23 00:31:00"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-10-23 00:31:00"
+      }
+    }
+  },
+  {
+    "id": "23140003",
+    "dep": "23",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE NATIONALE 145 - AIRE DE PARSAC",
+    "cp": "23140",
+    "ville": "PARSAC",
+    "latitude": 46.1961564503,
+    "longitude": 2.18365471322,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-23 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.915",
+        "maj": "2026-10-23 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.089",
+        "maj": "2026-10-23 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-23 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-23 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "23300011",
+    "dep": "23",
+    "enseigne": "Carrefour Market",
+    "adresse": "RUE FRANCOIS DURAND",
+    "cp": "23300",
+    "ville": "La Souterraine",
+    "latitude": 46.232073839323995,
+    "longitude": 1.4841663868651,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-13 10:34:38"
+      },
+      "E10": {
+        "valeur": "2.230",
+        "maj": "2026-10-13 10:34:38"
+      }
+    }
+  },
+  {
+    "id": "23000004",
+    "dep": "23",
+    "enseigne": "Avia",
+    "adresse": "AIRE DES MONTS DE GUERET",
+    "cp": "23000",
+    "ville": "SAINT-SULPICE-LE-GUéRéTOIS",
+    "latitude": 46.183,
+    "longitude": 1.846,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.559",
+        "maj": "2026-10-23 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.935",
+        "maj": "2026-10-12 16:58:20"
+      },
+      "GPLc": {
+        "valeur": "1.059",
+        "maj": "2026-10-12 16:58:20"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-23 00:01:00"
+      },
+      "SP98": {
+        "valeur": "2.389",
+        "maj": "2026-10-23 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "23600002",
+    "dep": "23",
+    "enseigne": "Système U",
+    "adresse": "Avenue Pierre Leroux",
+    "cp": "23600",
+    "ville": "BOUSSAC",
+    "latitude": 46.349,
+    "longitude": 2.217,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-21 10:00:00"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-10-21 10:00:00"
+      },
+      "SP98": {
+        "valeur": "2.264",
+        "maj": "2026-10-21 10:00:00"
+      }
+    }
+  },
+  {
+    "id": "23170001",
+    "dep": "23",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE D'EVAUX LES BAINS",
+    "cp": "23170",
+    "ville": "Chambon-sur-Voueize",
+    "latitude": 46.186,
+    "longitude": 2.43,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-12 08:05:39"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-12 08:05:39"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-12 08:05:39"
+      }
+    }
+  },
+  {
+    "id": "23160002",
+    "dep": "23",
+    "enseigne": "Casino",
+    "adresse": "82-84 rue grande",
+    "cp": "23160",
+    "ville": "AZERABLES",
+    "latitude": 46.354,
+    "longitude": 1.467,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.540",
+        "maj": "2026-10-22 16:02:12"
+      },
+      "SP95": {
+        "valeur": "2.300",
+        "maj": "2026-10-07 10:38:51"
+      }
+    }
+  },
+  {
+    "id": "23000006",
+    "dep": "23",
+    "enseigne": "Intermarché",
+    "adresse": "Le Verger Sainte Feyre",
+    "cp": "23000",
+    "ville": "GUéRET",
+    "latitude": 46.176728050277994,
+    "longitude": 1.8979191984533998,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-22 09:40:41"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-15 10:04:37"
+      },
+      "GPLc": {
+        "valeur": "1.079",
+        "maj": "2026-10-15 10:04:37"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-22 09:40:41"
+      }
+    }
+  },
+  {
+    "id": "23800001",
+    "dep": "23",
+    "enseigne": "Intermarché",
+    "adresse": "7 avenue d'Auvergne",
+    "cp": "23800",
+    "ville": "DUN-LE-PALESTEL",
+    "latitude": 46.303,
+    "longitude": 1.669,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.400",
+        "maj": "2026-10-16 09:00:00"
+      },
+      "E10": {
+        "valeur": "2.135",
+        "maj": "2026-10-16 09:00:00"
+      },
+      "SP98": {
+        "valeur": "2.274",
+        "maj": "2026-10-16 09:00:00"
+      }
+    }
+  },
+  {
+    "id": "23008001",
+    "dep": "23",
+    "enseigne": "Leclerc",
+    "adresse": "Avenue du Berry 36",
+    "cp": "23000",
+    "ville": "Guéret",
+    "latitude": 46.18,
+    "longitude": 1.876,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-22 08:30:00"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-10-22 08:30:00"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-22 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-22 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "23240002",
+    "dep": "23",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "ZA les bois verts",
+    "cp": "23240",
+    "ville": "Le Grand-Bourg",
+    "latitude": 46.166,
+    "longitude": 1.649,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.383",
+        "maj": "2026-10-12 09:56:58"
+      },
+      "SP95": {
+        "valeur": "2.186",
+        "maj": "2026-10-05 11:02:02"
+      },
+      "E85": {
+        "valeur": "0.912",
+        "maj": "2026-09-18 16:04:20"
+      }
+    }
+  },
+  {
+    "id": "23300012",
+    "dep": "23",
+    "enseigne": "TotalEnergies",
+    "adresse": "7 Av. de la République",
+    "cp": "23300",
+    "ville": "La Souterraine",
+    "latitude": 46.23901923548,
+    "longitude": 1.494858334543,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 16:27:09"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-20 16:27:09"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-09-01 15:36:01"
+      }
+    }
+  },
+  {
+    "id": "23400004",
+    "dep": "23",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "RUE DU PUY",
+    "cp": "23400",
+    "ville": "BOURGANEUF",
+    "latitude": 45.954723638282,
+    "longitude": 1.764754648762,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-21 08:23:20"
+      },
+      "E85": {
+        "valeur": "0.949",
+        "maj": "2026-03-31 10:12:12"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-09 17:13:26"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-09-15 20:56:09"
+      }
+    }
+  },
+  {
+    "id": "23000007",
+    "dep": "23",
+    "enseigne": "Avia",
+    "adresse": "Rue du Docteur Manouvrier",
+    "cp": "23000",
+    "ville": "GUéRET",
+    "latitude": 46.168,
+    "longitude": 1.874,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.489",
+        "maj": "2026-10-21 07:00:00"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-20 12:25:27"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-21 07:00:00"
+      }
+    }
+  }
+]
