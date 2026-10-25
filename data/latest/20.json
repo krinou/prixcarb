@@ -70,12 +70,12 @@
     "longitude": 8.908768,
     "carburants": {
       "Gazole": {
-        "valeur": "2.280",
-        "maj": "2026-10-06 10:49:04"
+        "valeur": "2.270",
+        "maj": "2026-10-24 10:59:20"
       },
       "SP95": {
-        "valeur": "2.199",
-        "maj": "2026-09-28 09:43:51"
+        "valeur": "2.170",
+        "maj": "2026-10-24 10:59:20"
       },
       "GPLc": {
         "valeur": "1.420",
@@ -602,7 +602,7 @@
   {
     "id": "20218007",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "RT20",
     "cp": "20218",
     "ville": "Ponte Leccia",
@@ -622,7 +622,7 @@
   {
     "id": "20166006",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "Les Marines de Porticcio - Commune de Grosseto-Prugna",
     "cp": "20166",
     "ville": "PORTICCIO",
@@ -706,7 +706,7 @@
   {
     "id": "20620002",
     "dep": "20",
-    "enseigne": "ENI",
+    "enseigne": "",
     "adresse": "Route de Rutali",
     "cp": "20620",
     "ville": "BIGUGLIA",
@@ -2101,7 +2101,7 @@
   {
     "id": "20215001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "ARENA",
     "cp": "20215",
     "ville": "Vescovato",
@@ -2121,7 +2121,7 @@
   {
     "id": "20167005",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "RD 31 lieu dit Manicola Vecchia",
     "cp": "20090",
     "ville": "AJACCIO",
