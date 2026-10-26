@@ -115,23 +115,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.349",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:18:00"
       },
       "E85": {
         "valeur": "0.882",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:18:00"
       },
       "GPLc": {
         "valeur": "1.048",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:18:00"
       },
       "E10": {
         "valeur": "2.128",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:18:00"
       },
       "SP98": {
         "valeur": "2.237",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:18:00"
       }
     }
   },
@@ -144,12 +144,7 @@
     "ville": "Douvres-la-Délivrande",
     "latitude": 49.289,
     "longitude": -0.378,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-22 10:06:20"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "14210001",
@@ -259,15 +254,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -338,16 +333,16 @@
     "longitude": -0.366,
     "carburants": {
       "Gazole": {
-        "valeur": "2.364",
-        "maj": "2026-10-24 08:26:00"
+        "valeur": "2.371",
+        "maj": "2026-10-25 08:01:00"
       },
       "SP95": {
-        "valeur": "2.191",
-        "maj": "2026-10-24 08:26:00"
+        "valeur": "2.111",
+        "maj": "2026-10-25 08:01:00"
       },
       "E85": {
         "valeur": "0.837",
-        "maj": "2026-10-24 08:26:00"
+        "maj": "2026-10-25 08:01:00"
       },
       "GPLc": {
         "valeur": "1.102",
@@ -355,11 +350,11 @@
       },
       "E10": {
         "valeur": "2.078",
-        "maj": "2026-10-24 08:26:00"
+        "maj": "2026-10-25 08:01:00"
       },
       "SP98": {
-        "valeur": "2.231",
-        "maj": "2026-10-24 08:26:00"
+        "valeur": "2.161",
+        "maj": "2026-10-25 08:01:00"
       }
     }
   },
@@ -503,14 +498,14 @@
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-18 19:42:57"
+        "maj": "2026-10-25 20:54:51"
       }
     }
   },
   {
     "id": "14112001",
     "dep": "14",
-    "enseigne": "",
+    "enseigne": "Carrefour Contact",
     "adresse": "2 RUE DES ECOLES",
     "cp": "14112",
     "ville": "BIEVILLE-BEUVILLE",
@@ -534,7 +529,7 @@
   {
     "id": "14550001",
     "dep": "14",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "1 ROND POINT ROYAL NORFOLK",
     "cp": "14550",
     "ville": "Blainville-sur-Orne",
@@ -768,6 +763,26 @@
     }
   },
   {
+    "id": "14130007",
+    "dep": "14",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "33 RUE AMIRAL HAMELIN",
+    "cp": "14130",
+    "ville": "Pont-l'Évêque",
+    "latitude": 49.288,
+    "longitude": 0.189,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
     "id": "14310004",
     "dep": "14",
     "enseigne": "Leclerc",
@@ -788,26 +803,6 @@
       "SP98": {
         "valeur": "2.199",
         "maj": "2026-10-22 06:33:28"
-      }
-    }
-  },
-  {
-    "id": "14130007",
-    "dep": "14",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "33 RUE AMIRAL HAMELIN",
-    "cp": "14130",
-    "ville": "Pont-l'Évêque",
-    "latitude": 49.288,
-    "longitude": 0.189,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
       }
     }
   },
@@ -918,7 +913,7 @@
   {
     "id": "14123004",
     "dep": "14",
-    "enseigne": "",
+    "enseigne": "Leclerc",
     "adresse": "190 Rue de Rocquancourt",
     "cp": "14123",
     "ville": "IFS",
@@ -959,7 +954,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -1007,15 +1002,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.379",
-        "maj": "2026-10-18 12:32:59"
+        "maj": "2026-10-25 12:37:21"
       },
       "E10": {
         "valeur": "2.199",
-        "maj": "2026-10-18 12:32:59"
+        "maj": "2026-10-25 12:37:21"
       },
       "SP98": {
         "valeur": "2.279",
-        "maj": "2026-10-18 12:33:00"
+        "maj": "2026-10-25 12:37:21"
       }
     }
   },
@@ -1062,7 +1057,7 @@
   {
     "id": "14100004",
     "dep": "14",
-    "enseigne": "Esso",
+    "enseigne": "",
     "adresse": "61 Boulevard Sainte-Anne",
     "cp": "14100",
     "ville": "Lisieux",
@@ -1090,7 +1085,7 @@
   {
     "id": "14000003",
     "dep": "14",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "26 BOULEVARD DU MARECHAL JUIN",
     "cp": "14000",
     "ville": "Caen",
@@ -1110,7 +1105,7 @@
     "carburants": {
       "GPLc": {
         "valeur": "0.996",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -1145,7 +1140,7 @@
   {
     "id": "14310003",
     "dep": "14",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "RUE GEORGES CLEMENCEAU",
     "cp": "14310",
     "ville": "VILLERS-BOCAGE",
@@ -1239,10 +1234,6 @@
       "Gazole": {
         "valeur": "2.250",
         "maj": "2026-09-23 06:38:26"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-19 06:38:27"
       }
     }
   },
@@ -1258,19 +1249,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.362",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:17:00"
       },
       "E85": {
         "valeur": "0.878",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:17:00"
       },
       "E10": {
         "valeur": "2.122",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:17:00"
       },
       "SP98": {
         "valeur": "2.244",
-        "maj": "2026-10-25 01:18:00"
+        "maj": "2026-10-26 00:17:00"
       }
     }
   },
@@ -1399,22 +1390,6 @@
     }
   },
   {
-    "id": "14123007",
-    "dep": "14",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "RN 158 RTE DE FALAISE",
-    "cp": "14123",
-    "ville": "IFS",
-    "latitude": 49.1421,
-    "longitude": -0.337385,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
-      }
-    }
-  },
-  {
     "id": "14000019",
     "dep": "14",
     "enseigne": "TotalEnergies",
@@ -1426,17 +1401,24 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "GPLc": {
         "valeur": "1.089",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
+  },
+  {
+    "id": "14123007",
+    "dep": "14",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN 158 RTE DE FALAISE",
+    "cp": "14123",
+    "ville": "IFS",
+    "latitude": 49.1421,
+    "longitude": -0.337385,
+    "carburants": {}
   },
   {
     "id": "14760002",
@@ -1450,11 +1432,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -1573,8 +1551,8 @@
     "longitude": -0.298,
     "carburants": {
       "Gazole": {
-        "valeur": "2.352",
-        "maj": "2026-10-23 00:47:00"
+        "valeur": "2.371",
+        "maj": "2026-10-25 08:01:00"
       },
       "SP95": {
         "valeur": "2.225",
@@ -1589,8 +1567,8 @@
         "maj": "2026-10-20 08:25:00"
       },
       "SP98": {
-        "valeur": "2.231",
-        "maj": "2026-10-20 08:25:00"
+        "valeur": "2.161",
+        "maj": "2026-10-25 08:01:00"
       }
     }
   },
@@ -1842,15 +1820,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "GPLc": {
         "valeur": "1.065",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -2247,26 +2221,6 @@
     }
   },
   {
-    "id": "14130008",
-    "dep": "14",
-    "enseigne": "TotalEnergies",
-    "adresse": "Lieu dit le plain chêne",
-    "cp": "14130",
-    "ville": "Saint-Gatien-des-Bois",
-    "latitude": 49.369788938573,
-    "longitude": 0.20111980321583,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-20 08:41:25"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-20 08:41:25"
-      }
-    }
-  },
-  {
     "id": "14500001",
     "dep": "14",
     "enseigne": "TotalEnergies",
@@ -2291,9 +2245,25 @@
     }
   },
   {
+    "id": "14130008",
+    "dep": "14",
+    "enseigne": "TotalEnergies",
+    "adresse": "Lieu dit le plain chêne",
+    "cp": "14130",
+    "ville": "Saint-Gatien-des-Bois",
+    "latitude": 49.369788938573,
+    "longitude": 0.20111980321583,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-20 08:41:25"
+      }
+    }
+  },
+  {
     "id": "14980002",
     "dep": "14",
-    "enseigne": "",
+    "enseigne": "Carrefour",
     "adresse": "LA CROIX VAUTIER",
     "cp": "14980",
     "ville": "ROTS",
@@ -2321,7 +2291,7 @@
   {
     "id": "14110002",
     "dep": "14",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "Parc Commercial St JACQUES",
     "cp": "14110",
     "ville": "CONDE-SUR-NOIREAU",
@@ -2345,7 +2315,7 @@
   {
     "id": "14600003",
     "dep": "14",
-    "enseigne": "",
+    "enseigne": "Leclerc",
     "adresse": "Zone Industrielle Portuaire",
     "cp": "14600",
     "ville": "Honfleur",
@@ -2859,15 +2829,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "GPLc": {
         "valeur": "0.975",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -2881,13 +2847,9 @@
     "latitude": 49.19979,
     "longitude": -0.36004,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
-      },
       "GPLc": {
         "valeur": "1.072",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   }

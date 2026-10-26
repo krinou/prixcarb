@@ -140,7 +140,7 @@
   {
     "id": "48100003",
     "dep": "48",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "PLACE DES CORDELIERS",
     "cp": "48100",
     "ville": "Marvejols",
@@ -168,7 +168,7 @@
   {
     "id": "48200003",
     "dep": "48",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "41 Boulevard Guérin d'Apcher",
     "cp": "48200",
     "ville": "Saint-Chély-d'Apcher",
@@ -192,7 +192,7 @@
   {
     "id": "48190003",
     "dep": "48",
-    "enseigne": "",
+    "enseigne": "Carrefour Express",
     "adresse": "quartier de la remise",
     "cp": "48190",
     "ville": "LE BLEYMARD",
@@ -212,7 +212,7 @@
   {
     "id": "48400007",
     "dep": "48",
-    "enseigne": "",
+    "enseigne": "Dyneff",
     "adresse": "15 route de mende",
     "cp": "48400",
     "ville": "Florac",
@@ -461,7 +461,7 @@
     "carburants": {
       "E85": {
         "valeur": "0.919",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -773,20 +773,7 @@
     "ville": "LANGOGNE",
     "latitude": 44.72842,
     "longitude": 3.85645,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "48120001",

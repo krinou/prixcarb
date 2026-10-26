@@ -382,7 +382,7 @@
   {
     "id": "10500001",
     "dep": "10",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "RD 960",
     "cp": "10500",
     "ville": "LESMONT",
@@ -402,7 +402,7 @@
   {
     "id": "10210001",
     "dep": "10",
-    "enseigne": "",
+    "enseigne": "Indépendant sans enseigne",
     "adresse": "34 Route de Troyes",
     "cp": "10210",
     "ville": "CHAOURCE",
@@ -569,7 +569,7 @@
   {
     "id": "10150002",
     "dep": "10",
-    "enseigne": "",
+    "enseigne": "Intermarché",
     "adresse": "ZAC de Creney",
     "cp": "10150",
     "ville": "PONT-SAINTE-MARIE",
@@ -601,7 +601,7 @@
   {
     "id": "10270007",
     "dep": "10",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "AUTOROUTE A5 - AIRE TROYES-LE-PLESSIS",
     "cp": "10270",
     "ville": "Fresnoy-le-Château",
@@ -610,19 +610,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "E85": {
         "valeur": "1.059",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -681,7 +681,7 @@
   {
     "id": "10200004",
     "dep": "10",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "Faubourg de Belfort",
     "cp": "10200",
     "ville": "Bar-sur-Aube",
@@ -705,7 +705,7 @@
   {
     "id": "10120006",
     "dep": "10",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "114 ROUTE D'AUXERRE",
     "cp": "10120",
     "ville": "SAINT ANDRE LES VERGERS",
@@ -733,7 +733,7 @@
   {
     "id": "10800007",
     "dep": "10",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "29 BOULEVARD DE DIJON",
     "cp": "10800",
     "ville": "Saint-Julien-les-Villas",
@@ -761,7 +761,7 @@
   {
     "id": "10150001",
     "dep": "10",
-    "enseigne": "Esso Express",
+    "enseigne": "",
     "adresse": "5 Rue Roger Salengro",
     "cp": "10150",
     "ville": "Pont-Sainte-Marie",
@@ -785,7 +785,7 @@
   {
     "id": "10000005",
     "dep": "10",
-    "enseigne": "Esso Express",
+    "enseigne": "",
     "adresse": "210 Rue du Faubourg Croncels",
     "cp": "10000",
     "ville": "Troyes",
@@ -865,16 +865,16 @@
     "longitude": 3.72,
     "carburants": {
       "Gazole": {
-        "valeur": "2.374",
-        "maj": "2026-10-23 14:51:00"
+        "valeur": "2.381",
+        "maj": "2026-10-25 06:41:00"
       },
       "E10": {
         "valeur": "2.130",
-        "maj": "2026-10-23 14:51:00"
+        "maj": "2026-10-25 06:42:00"
       },
       "SP98": {
         "valeur": "2.240",
-        "maj": "2026-10-23 14:51:00"
+        "maj": "2026-10-25 06:42:00"
       }
     }
   },
@@ -1068,12 +1068,12 @@
         "maj": "2026-10-13 21:36:00"
       },
       "E10": {
-        "valeur": "2.190",
-        "maj": "2026-10-19 07:11:56"
+        "valeur": "2.140",
+        "maj": "2026-10-25 22:03:00"
       },
       "SP98": {
-        "valeur": "2.350",
-        "maj": "2026-10-19 07:11:56"
+        "valeur": "2.270",
+        "maj": "2026-10-25 22:03:00"
       }
     }
   },
@@ -1089,23 +1089,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "E85": {
         "valeur": "1.059",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "GPLc": {
         "valeur": "1.149",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -1504,23 +1504,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.372",
-        "maj": "2026-10-25 01:16:00"
+        "maj": "2026-10-26 00:16:00"
       },
       "E85": {
         "valeur": "0.868",
-        "maj": "2026-10-25 01:16:00"
+        "maj": "2026-10-26 00:16:00"
       },
       "GPLc": {
         "valeur": "1.008",
-        "maj": "2026-10-25 01:16:00"
+        "maj": "2026-10-26 00:16:00"
       },
       "E10": {
         "valeur": "2.121",
-        "maj": "2026-10-25 01:16:00"
+        "maj": "2026-10-26 00:16:00"
       },
       "SP98": {
         "valeur": "2.218",
-        "maj": "2026-10-25 01:16:00"
+        "maj": "2026-10-26 00:16:00"
       }
     }
   },
@@ -1599,7 +1599,7 @@
     "carburants": {
       "E85": {
         "valeur": "0.924",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   },
@@ -1687,11 +1687,11 @@
     "carburants": {
       "E85": {
         "valeur": "0.915",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       },
       "GPLc": {
         "valeur": "0.995",
-        "maj": "2026-10-25 00:01:00"
+        "maj": "2026-10-26 00:01:00"
       }
     }
   }

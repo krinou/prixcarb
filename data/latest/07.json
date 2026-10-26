@@ -151,24 +151,7 @@
     "ville": "AUBENAS",
     "latitude": 44.6320217749,
     "longitude": 4.37986312289,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "E85": {
-        "valeur": "0.925",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-25 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "7230001",
@@ -473,7 +456,7 @@
   {
     "id": "7160003",
     "dep": "07",
-    "enseigne": "",
+    "enseigne": "Intermarché",
     "adresse": "Allée des Vergers",
     "cp": "07160",
     "ville": "Le Cheylard",
@@ -497,7 +480,7 @@
   {
     "id": "7000003",
     "dep": "07",
-    "enseigne": "",
+    "enseigne": "ENI",
     "adresse": "635 ROUTE D'AUBENAS",
     "cp": "07000",
     "ville": "VEYRAS",
@@ -521,7 +504,7 @@
   {
     "id": "7400005",
     "dep": "07",
-    "enseigne": "",
+    "enseigne": "Netto",
     "adresse": "3 BIS AVENUE PAUL LANGEVIN",
     "cp": "07400",
     "ville": "LE TEIL",
@@ -545,7 +528,7 @@
   {
     "id": "7200006",
     "dep": "07",
-    "enseigne": "",
+    "enseigne": "Leclerc",
     "adresse": "Quartier Les ChampsSaint Etienne Fontbellon",
     "cp": "07200",
     "ville": "SAINT-ÉTIENNE-DE-FONTBELLON",
@@ -820,15 +803,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.336",
-        "maj": "2026-10-25 01:15:00"
+        "maj": "2026-10-26 00:15:00"
       },
       "SP95": {
         "valeur": "2.222",
-        "maj": "2026-10-25 01:15:00"
+        "maj": "2026-10-26 00:15:00"
       },
       "E10": {
         "valeur": "2.127",
-        "maj": "2026-10-25 01:15:00"
+        "maj": "2026-10-26 00:15:00"
       }
     }
   },
@@ -1247,12 +1230,12 @@
         "maj": "2026-10-23 05:00:00"
       },
       "E10": {
-        "valeur": "2.209",
-        "maj": "2026-10-03 05:00:00"
+        "valeur": "2.099",
+        "maj": "2026-10-26 05:00:00"
       },
       "SP98": {
-        "valeur": "2.319",
-        "maj": "2026-10-14 05:00:00"
+        "valeur": "2.199",
+        "maj": "2026-10-26 05:00:00"
       }
     }
   },
@@ -1578,12 +1561,7 @@
     "ville": "Tournon-sur-Rhône",
     "latitude": 45.057,
     "longitude": 4.84,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-25 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "7110006",

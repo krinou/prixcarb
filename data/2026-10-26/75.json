@@ -1,0 +1,964 @@
+[
+  {
+    "id": "75016001",
+    "dep": "75",
+    "enseigne": "Carrefour",
+    "adresse": "1 Avenue du Général Sarrail",
+    "cp": "75016",
+    "ville": "PARIS",
+    "latitude": 48.847,
+    "longitude": 2.256,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-13 07:14:33"
+      },
+      "E10": {
+        "valeur": "2.220",
+        "maj": "2026-10-21 06:37:43"
+      },
+      "SP98": {
+        "valeur": "2.320",
+        "maj": "2026-10-21 06:37:43"
+      }
+    }
+  },
+  {
+    "id": "75016026",
+    "dep": "75",
+    "enseigne": "ENI",
+    "adresse": "4 AVENUE FOCH",
+    "cp": "75016",
+    "ville": "Paris",
+    "latitude": 48.87366,
+    "longitude": 2.292015,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.699",
+        "maj": "2026-10-25 07:00:00"
+      },
+      "SP95": {
+        "valeur": "2.499",
+        "maj": "2026-10-25 07:00:00"
+      },
+      "SP98": {
+        "valeur": "2.569",
+        "maj": "2026-10-25 07:00:00"
+      }
+    }
+  },
+  {
+    "id": "75015025",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "34 BOULEVARD DE GRENELLE",
+    "cp": "75015",
+    "ville": "PARIS",
+    "latitude": 48.852,
+    "longitude": 2.29,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75016011",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "69 Avenue Kléber",
+    "cp": "75116",
+    "ville": "Paris",
+    "latitude": 48.865,
+    "longitude": 2.289,
+    "carburants": {}
+  },
+  {
+    "id": "75018014",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "32 AVENUE DE LA PORTE DE ST OUEN",
+    "cp": "75018",
+    "ville": "PARIS",
+    "latitude": 48.899525999474,
+    "longitude": 2.3298743609466,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.956",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75019013",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "BLD DU PERIPHERIQUE EXTERIEUR",
+    "cp": "75019",
+    "ville": "Paris",
+    "latitude": 48.90076705756,
+    "longitude": 2.3747491379377,
+    "carburants": {
+      "E85": {
+        "valeur": "0.964",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75018013",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "30 AV PTE CLIGNANCOURT",
+    "cp": "75018",
+    "ville": "PARIS",
+    "latitude": 48.9,
+    "longitude": 2.344,
+    "carburants": {}
+  },
+  {
+    "id": "75008009",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "FACE 55 AV. GEORGES V - PARKG GE",
+    "cp": "75008",
+    "ville": "PARIS",
+    "latitude": 48.872,
+    "longitude": 2.301,
+    "carburants": {}
+  },
+  {
+    "id": "75012020",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "238 RUE DE CHARENTON",
+    "cp": "75012",
+    "ville": "Paris",
+    "latitude": 48.83905,
+    "longitude": 2.38906,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-25 06:00:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-25 06:00:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-25 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "75010002",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "1 Boulevard de la Chapelle",
+    "cp": "75010",
+    "ville": "PARIS",
+    "latitude": 48.884,
+    "longitude": 2.364,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.549",
+        "maj": "2026-10-20 16:46:08"
+      },
+      "SP95": {
+        "valeur": "2.449",
+        "maj": "2026-10-20 16:46:08"
+      },
+      "SP98": {
+        "valeur": "2.499",
+        "maj": "2026-10-20 16:46:08"
+      }
+    }
+  },
+  {
+    "id": "75014012",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "154 Rue d'Alésia",
+    "cp": "75014",
+    "ville": "Paris",
+    "latitude": 48.832,
+    "longitude": 2.316,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-22 10:21:06"
+      }
+    }
+  },
+  {
+    "id": "75016022",
+    "dep": "75",
+    "enseigne": "Esso",
+    "adresse": "26 AV PAUL DOUMER",
+    "cp": "75016",
+    "ville": "PARIS",
+    "latitude": 48.861,
+    "longitude": 2.283,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.649",
+        "maj": "2026-10-24 13:05:33"
+      },
+      "E10": {
+        "valeur": "2.429",
+        "maj": "2026-10-23 12:23:13"
+      },
+      "SP98": {
+        "valeur": "2.599",
+        "maj": "2026-10-23 12:23:13"
+      }
+    }
+  },
+  {
+    "id": "75016006",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "PLACE TATTEGRAIN",
+    "cp": "75116",
+    "ville": "PARIS",
+    "latitude": 48.864,
+    "longitude": 2.272,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.699",
+        "maj": "2026-09-22 07:00:00"
+      },
+      "E10": {
+        "valeur": "2.469",
+        "maj": "2026-09-22 07:00:00"
+      },
+      "SP98": {
+        "valeur": "2.639",
+        "maj": "2026-09-22 07:00:00"
+      }
+    }
+  },
+  {
+    "id": "75012021",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "55 BLD DE PICPUS",
+    "cp": "75012",
+    "ville": "PARIS",
+    "latitude": 48.846,
+    "longitude": 2.401,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75007004",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "37 RUE FABERT",
+    "cp": "75007",
+    "ville": "Paris",
+    "latitude": 48.85862,
+    "longitude": 2.31125,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-25 06:00:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-25 06:00:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-25 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "75016017",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "2 AV DE LA PORTE DE ST CLOUD",
+    "cp": "75016",
+    "ville": "PARIS",
+    "latitude": 48.83868,
+    "longitude": 2.25394,
+    "carburants": {
+      "E85": {
+        "valeur": "0.979",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75010003",
+    "dep": "75",
+    "enseigne": "Esso Express",
+    "adresse": "2/6 RUE LOUIS BLANC",
+    "cp": "75010",
+    "ville": "Paris",
+    "latitude": 48.879,
+    "longitude": 2.37,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.417",
+        "maj": "2026-10-24 07:32:00"
+      },
+      "E10": {
+        "valeur": "2.128",
+        "maj": "2026-10-24 07:32:00"
+      },
+      "SP98": {
+        "valeur": "2.283",
+        "maj": "2026-10-24 07:32:00"
+      }
+    }
+  },
+  {
+    "id": "75013023",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "RUE JEAN-BAPTISTE BERLIER - QUAI",
+    "cp": "75013",
+    "ville": "PARIS 13",
+    "latitude": 48.82586,
+    "longitude": 2.38433,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-25 06:00:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-25 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "75015030",
+    "dep": "75",
+    "enseigne": "Esso Express",
+    "adresse": "1 QUATER BOULEVARD VICTOR",
+    "cp": "75015",
+    "ville": "PARIS",
+    "latitude": 48.834,
+    "longitude": 2.285,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.559",
+        "maj": "2026-10-19 14:32:33"
+      },
+      "E10": {
+        "valeur": "2.379",
+        "maj": "2026-10-21 11:32:03"
+      },
+      "SP98": {
+        "valeur": "2.559",
+        "maj": "2026-10-21 11:32:03"
+      }
+    }
+  },
+  {
+    "id": "75017019",
+    "dep": "75",
+    "enseigne": "Esso",
+    "adresse": "3-5 AVENUE DE LA PORTE D'ASNIERES",
+    "cp": "75017",
+    "ville": "PARIS",
+    "latitude": 48.890454894335,
+    "longitude": 2.3033190283505998,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.200",
+        "maj": "2026-03-31 11:41:09"
+      },
+      "SP95": {
+        "valeur": "2.150",
+        "maj": "2026-03-31 11:41:10"
+      },
+      "E10": {
+        "valeur": "1.880",
+        "maj": "2025-08-04 10:22:45"
+      },
+      "SP98": {
+        "valeur": "2.180",
+        "maj": "2026-03-31 11:41:10"
+      }
+    }
+  },
+  {
+    "id": "75012005",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "173 Avenue Daumesnil",
+    "cp": "75012",
+    "ville": "Paris",
+    "latitude": 48.84074,
+    "longitude": 2.39104,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-07-29 18:55:09"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-07-29 18:55:09"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-07-29 18:55:09"
+      }
+    }
+  },
+  {
+    "id": "75008006",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "164 Boulevard Haussmann",
+    "cp": "75008",
+    "ville": "PARIS",
+    "latitude": 48.875,
+    "longitude": 2.31,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.580",
+        "maj": "2026-10-23 07:00:00"
+      },
+      "E10": {
+        "valeur": "2.260",
+        "maj": "2026-10-24 07:00:00"
+      },
+      "SP98": {
+        "valeur": "2.360",
+        "maj": "2026-10-24 07:00:00"
+      }
+    }
+  },
+  {
+    "id": "75012023",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "32 rue de Reuilly",
+    "cp": "75012",
+    "ville": "Paris",
+    "latitude": 48.84655403,
+    "longitude": 2.38741851,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.579",
+        "maj": "2026-10-24 07:00:00"
+      },
+      "E10": {
+        "valeur": "2.279",
+        "maj": "2026-10-24 07:00:00"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-24 07:00:00"
+      }
+    }
+  },
+  {
+    "id": "75016023",
+    "dep": "75",
+    "enseigne": "Esso",
+    "adresse": "7 BOULEVARD MURAT",
+    "cp": "75016",
+    "ville": "PARIS",
+    "latitude": 48.847,
+    "longitude": 2.259,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.689",
+        "maj": "2026-10-24 13:05:23"
+      },
+      "E10": {
+        "valeur": "2.399",
+        "maj": "2026-10-24 13:05:23"
+      }
+    }
+  },
+  {
+    "id": "75019015",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "121 RUE MANIN",
+    "cp": "75019",
+    "ville": "PARIS",
+    "latitude": 48.884,
+    "longitude": 2.39,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75017017",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "190 AVENUE DE CLICHY",
+    "cp": "75017",
+    "ville": "PARIS",
+    "latitude": 48.89345,
+    "longitude": 2.3154,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75019014",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "BLD DU PERIPHERIQUE INTERIEUR",
+    "cp": "75019",
+    "ville": "Paris",
+    "latitude": 48.9,
+    "longitude": 2.373,
+    "carburants": {
+      "E85": {
+        "valeur": "0.964",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.064",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75013028",
+    "dep": "75",
+    "enseigne": "Esso",
+    "adresse": "85 RUE JEANNE DARC",
+    "cp": "75013",
+    "ville": "PARIS",
+    "latitude": 48.832,
+    "longitude": 2.365,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.519",
+        "maj": "2026-10-14 15:19:45"
+      },
+      "E10": {
+        "valeur": "2.309",
+        "maj": "2026-10-21 11:37:45"
+      },
+      "SP98": {
+        "valeur": "2.389",
+        "maj": "2026-10-21 11:37:44"
+      }
+    }
+  },
+  {
+    "id": "75015026",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "QUAI D'ISSY LES MOULINEAUX",
+    "cp": "75015",
+    "ville": "Paris",
+    "latitude": 48.835,
+    "longitude": 2.266,
+    "carburants": {
+      "E85": {
+        "valeur": "0.974",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75007003",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "15 Avenue Duquesne",
+    "cp": "75007",
+    "ville": "PARIS",
+    "latitude": 48.853,
+    "longitude": 2.308,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.900",
+        "maj": "2026-09-15 21:46:47"
+      },
+      "SP98": {
+        "valeur": "2.880",
+        "maj": "2026-09-15 21:46:47"
+      }
+    }
+  },
+  {
+    "id": "75015003",
+    "dep": "75",
+    "enseigne": "Esso",
+    "adresse": "151 Rue de la Convention",
+    "cp": "75015",
+    "ville": "Paris",
+    "latitude": 48.839,
+    "longitude": 2.292,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.569",
+        "maj": "2026-10-19 13:49:03"
+      },
+      "E85": {
+        "valeur": "0.989",
+        "maj": "2026-10-22 17:32:23"
+      },
+      "E10": {
+        "valeur": "2.389",
+        "maj": "2026-10-21 11:33:24"
+      },
+      "SP98": {
+        "valeur": "2.549",
+        "maj": "2026-10-21 11:33:23"
+      }
+    }
+  },
+  {
+    "id": "75001003",
+    "dep": "75",
+    "enseigne": "Oil France",
+    "adresse": "8,10,10bis Rue Bailleul",
+    "cp": "75001",
+    "ville": "PARIS",
+    "latitude": 48.861,
+    "longitude": 2.341,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.680",
+        "maj": "2026-10-06 17:57:24"
+      },
+      "SP95": {
+        "valeur": "2.540",
+        "maj": "2026-10-06 17:57:25"
+      },
+      "SP98": {
+        "valeur": "2.600",
+        "maj": "2026-10-06 17:57:25"
+      }
+    }
+  },
+  {
+    "id": "75008010",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "FACE 35 BLD MALESHERBES",
+    "cp": "75008",
+    "ville": "Paris",
+    "latitude": 48.873,
+    "longitude": 2.311,
+    "carburants": {}
+  },
+  {
+    "id": "75015034",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "11 BOULEVARD GARIBALDI",
+    "cp": "75015",
+    "ville": "PARIS",
+    "latitude": 48.848,
+    "longitude": 2.303,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.549",
+        "maj": "2026-10-20 14:11:12"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-20 14:11:12"
+      }
+    }
+  },
+  {
+    "id": "92300004",
+    "dep": "75",
+    "enseigne": "Leclerc",
+    "adresse": "2/10 BLD FORT DE VAUX",
+    "cp": "75017",
+    "ville": "PARIS",
+    "latitude": 48.893,
+    "longitude": 2.302,
+    "carburants": {
+      "E85": {
+        "valeur": "0.945",
+        "maj": "2026-10-23 11:20:28"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-23 11:50:23"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-23 11:50:23"
+      }
+    }
+  },
+  {
+    "id": "75015011",
+    "dep": "75",
+    "enseigne": "Esso Express",
+    "adresse": "19 BD DES FRERES VOISINS",
+    "cp": "75015",
+    "ville": "Paris",
+    "latitude": 48.828,
+    "longitude": 2.272,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.407",
+        "maj": "2026-10-22 07:32:00"
+      },
+      "E10": {
+        "valeur": "2.171",
+        "maj": "2026-10-22 07:32:00"
+      },
+      "SP98": {
+        "valeur": "2.292",
+        "maj": "2026-10-22 07:32:00"
+      }
+    }
+  },
+  {
+    "id": "75012010",
+    "dep": "75",
+    "enseigne": "Esso Express",
+    "adresse": "36 Quai de la Rapée",
+    "cp": "75012",
+    "ville": "Paris",
+    "latitude": 48.842,
+    "longitude": 2.373,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.408",
+        "maj": "2026-10-23 07:32:00"
+      },
+      "E10": {
+        "valeur": "2.163",
+        "maj": "2026-10-23 07:32:00"
+      },
+      "SP98": {
+        "valeur": "2.281",
+        "maj": "2026-10-23 07:32:00"
+      }
+    }
+  },
+  {
+    "id": "75019016",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "234 RUE DE CRIMEE",
+    "cp": "75019",
+    "ville": "PARIS",
+    "latitude": 48.894,
+    "longitude": 2.373,
+    "carburants": {}
+  },
+  {
+    "id": "75013022",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "27 AVENUE DE LA PORTE D'ITALIE",
+    "cp": "75013",
+    "ville": "Paris",
+    "latitude": 48.817,
+    "longitude": 2.36,
+    "carburants": {}
+  },
+  {
+    "id": "75013024",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "114 BD DE L HOPITAL",
+    "cp": "75013",
+    "ville": "PARIS",
+    "latitude": 48.835,
+    "longitude": 2.358,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.984",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75015036",
+    "dep": "75",
+    "enseigne": "Avia",
+    "adresse": "21 AVENUE EMILE ZOLA",
+    "cp": "75015",
+    "ville": "PARIS",
+    "latitude": 48.846443,
+    "longitude": 2.280126,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-07 15:48:53"
+      },
+      "E85": {
+        "valeur": "0.995",
+        "maj": "2026-10-07 15:48:53"
+      },
+      "GPLc": {
+        "valeur": "0.825",
+        "maj": "2025-09-04 23:16:00"
+      },
+      "E10": {
+        "valeur": "2.339",
+        "maj": "2026-10-07 15:48:53"
+      },
+      "SP98": {
+        "valeur": "2.419",
+        "maj": "2026-10-07 15:48:53"
+      }
+    }
+  },
+  {
+    "id": "75013025",
+    "dep": "75",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "181, BOULEVARD VINCENT AURIOL",
+    "cp": "75013",
+    "ville": "PARIS",
+    "latitude": 48.832,
+    "longitude": 2.359,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.024",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75020008",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "217 BOULEVARD MARECHAL DAVOUT",
+    "cp": "75020",
+    "ville": "PARIS",
+    "latitude": 48.863,
+    "longitude": 2.407,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.989",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "75013026",
+    "dep": "75",
+    "enseigne": "Esso",
+    "adresse": "231 Rue de Tolbiac",
+    "cp": "75013",
+    "ville": "Paris",
+    "latitude": 48.826,
+    "longitude": 2.344,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-25 16:30:30"
+      },
+      "E10": {
+        "valeur": "2.279",
+        "maj": "2026-10-25 16:30:30"
+      },
+      "SP98": {
+        "valeur": "2.469",
+        "maj": "2026-10-25 16:30:30"
+      }
+    }
+  },
+  {
+    "id": "75016029",
+    "dep": "75",
+    "enseigne": "TotalEnergies",
+    "adresse": "99 AVENUE DE VERSAILLES",
+    "cp": "75016",
+    "ville": "PARIS",
+    "latitude": 48.845,
+    "longitude": 2.271,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-23 10:07:12"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-23 10:07:12"
+      }
+    }
+  }
+]

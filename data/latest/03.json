@@ -203,7 +203,7 @@
   {
     "id": "3450001",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "Indépendant sans enseigne",
     "adresse": "ZA LES VARENNES",
     "cp": "03450",
     "ville": "EBREUIL",
@@ -227,7 +227,7 @@
   {
     "id": "3150008",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "37 avenue de Lyon",
     "cp": "03150",
     "ville": "VARENNES SUR ALLIER",
@@ -267,7 +267,7 @@
   {
     "id": "3410007",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "Esso Express",
     "adresse": "61 avenue des Martyrs",
     "cp": "03410",
     "ville": "DOMERAT",
@@ -291,7 +291,7 @@
   {
     "id": "3500002",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "Carrefour Market",
     "adresse": "Route de Montmarault",
     "cp": "03500",
     "ville": "SAINT-POURçAIN-SUR-SIOULE",
@@ -302,7 +302,7 @@
   {
     "id": "3310002",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "Intermarché",
     "adresse": "Route de Clermont",
     "cp": "03310",
     "ville": "Néris-les-Bains",
@@ -354,7 +354,7 @@
   {
     "id": "3260001",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "Intermarché Contact",
     "adresse": "8 RUE PIERRE SEMARD",
     "cp": "03260",
     "ville": "Saint-Germain-des-Fossés",
@@ -378,7 +378,7 @@
   {
     "id": "3100002",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "52 Rue Paul Constans",
     "cp": "03100",
     "ville": "MONTLUçON",
@@ -523,42 +523,21 @@
     "ville": "DOMERAT",
     "latitude": 46.406248803056,
     "longitude": 2.5276292396032,
-    "carburants": {
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-19 14:13:12"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "3400001",
     "dep": "03",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "28, route de Lyon",
     "cp": "03400",
     "ville": "YZEURE",
     "latitude": 46.558,
     "longitude": 3.335,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-23 19:04:21"
-      },
       "E85": {
         "valeur": "0.959",
         "maj": "2026-10-23 22:15:00"
-      },
-      "GPLc": {
-        "valeur": "1.099",
-        "maj": "2026-10-19 07:04:49"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-23 19:04:21"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-23 19:04:21"
       }
     }
   },
@@ -670,10 +649,6 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-17 11:39:05"
-      },
-      "E10": {
-        "valeur": "1.990",
         "maj": "2026-10-17 11:39:05"
       }
     }
@@ -944,8 +919,8 @@
     "longitude": 3.418,
     "carburants": {
       "Gazole": {
-        "valeur": "2.345",
-        "maj": "2026-10-18 00:01:00"
+        "valeur": "2.379",
+        "maj": "2026-10-26 00:01:00"
       },
       "E85": {
         "valeur": "0.898",
@@ -1473,19 +1448,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-24 10:33:21"
+        "maj": "2026-10-25 10:25:50"
       },
       "E85": {
         "valeur": "0.969",
-        "maj": "2026-10-24 10:33:21"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-24 10:33:21"
+        "maj": "2026-10-25 10:25:50"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-24 10:33:21"
+        "maj": "2026-10-25 10:25:50"
       }
     }
   },
