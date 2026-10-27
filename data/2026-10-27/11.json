@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "11100010",
+    "dep": "11",
+    "enseigne": "Esso Express",
+    "adresse": "AVENUE CROIX SUD",
+    "cp": "11100",
+    "ville": "Narbonne",
+    "latitude": 43.161,
+    "longitude": 2.988,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.400",
+        "maj": "2026-10-26 11:06:00"
+      },
+      "E10": {
+        "valeur": "2.145",
+        "maj": "2026-10-26 11:06:00"
+      },
+      "SP98": {
+        "valeur": "2.245",
+        "maj": "2026-10-26 11:06:00"
+      }
+    }
+  },
+  {
+    "id": "11150001",
+    "dep": "11",
+    "enseigne": "Carrefour Market",
+    "adresse": "zae avenue de la preuilhe",
+    "cp": "11150",
+    "ville": "BRAM",
+    "latitude": 43.241,
+    "longitude": 2.101,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-21 08:24:35"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-21 08:24:35"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-21 08:24:35"
+      }
+    }
+  },
+  {
+    "id": "11160003",
+    "dep": "11",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue Ernest Ferroul",
+    "cp": "11160",
+    "ville": "Peyriac-Minervois",
+    "latitude": 43.284583541238,
+    "longitude": 2.5747807541329997,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-24 12:54:30"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-24 12:54:30"
+      },
+      "SP98": {
+        "valeur": "2.209",
+        "maj": "2026-10-24 12:54:30"
+      }
+    }
+  },
+  {
+    "id": "11800002",
+    "dep": "11",
+    "enseigne": "Système U",
+    "adresse": "RN 113",
+    "cp": "11800",
+    "ville": "TRèBES",
+    "latitude": 43.203,
+    "longitude": 2.443,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.327",
+        "maj": "2026-10-22 11:25:26"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-19 08:13:43"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-22 11:25:27"
+      },
+      "SP98": {
+        "valeur": "2.268",
+        "maj": "2026-10-22 11:25:27"
+      }
+    }
+  },
+  {
+    "id": "11300003",
+    "dep": "11",
+    "enseigne": "Esso Express",
+    "adresse": "23 AVENUE CAMILLE BOUCHE",
+    "cp": "11300",
+    "ville": "Limoux",
+    "latitude": 43.059,
+    "longitude": 2.214,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.375",
+        "maj": "2026-10-26 17:40:00"
+      },
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-10-26 17:40:00"
+      },
+      "E10": {
+        "valeur": "2.143",
+        "maj": "2026-10-26 17:40:00"
+      },
+      "SP98": {
+        "valeur": "2.243",
+        "maj": "2026-10-26 17:40:00"
+      }
+    }
+  },
+  {
+    "id": "11200007",
+    "dep": "11",
+    "enseigne": "Système U",
+    "adresse": "ROUTE DEPARTEMENTALE 610",
+    "cp": "11200",
+    "ville": "HOMPS",
+    "latitude": 43.265,
+    "longitude": 2.718,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-26 11:47:15"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-09-16 05:49:06"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-20 10:23:24"
+      },
+      "SP98": {
+        "valeur": "2.199",
+        "maj": "2026-10-20 10:23:24"
+      }
+    }
+  },
+  {
+    "id": "11400002",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "88 Avenue Monseigneur de Langle",
+    "cp": "11400",
+    "ville": "Castelnaudary",
+    "latitude": 43.313,
+    "longitude": 1.965,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.979",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11800003",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "Boulevard du Minervois",
+    "cp": "11800",
+    "ville": "Trèbes",
+    "latitude": 43.210397690288,
+    "longitude": 2.4542709242121,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-23 15:08:38"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-16 08:12:29"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-23 15:08:38"
+      },
+      "SP98": {
+        "valeur": "2.265",
+        "maj": "2026-10-23 15:08:38"
+      }
+    }
+  },
+  {
+    "id": "11700001",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "RN113",
+    "cp": "11700",
+    "ville": "CAPENDU",
+    "latitude": 43.18546,
+    "longitude": 2.5573,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11600005",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "RD 620 Lieu dit la pièce",
+    "cp": "11600",
+    "ville": "VILLEGLY",
+    "latitude": 43.282,
+    "longitude": 2.437,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.459",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11700009",
+    "dep": "11",
+    "enseigne": "Intermarché Contact",
+    "adresse": "LIEU DIT \"ROC DEL DIE\"",
+    "cp": "11700",
+    "ville": "Capendu",
+    "latitude": 43.188075466812,
+    "longitude": 2.5643900511237,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-23 12:01:16"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-23 12:01:16"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-23 12:01:16"
+      },
+      "SP98": {
+        "valeur": "2.265",
+        "maj": "2026-10-23 12:01:16"
+      }
+    }
+  },
+  {
+    "id": "11160002",
+    "dep": "11",
+    "enseigne": "Za les terres rouges - avenue du minervois",
+    "adresse": "ZA les Terres Rouges - avenue du Minervois",
+    "cp": "11160",
+    "ville": "Villeneuve-Minervois",
+    "latitude": 43.314,
+    "longitude": 2.47,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.472",
+        "maj": "2026-10-21 01:00:00"
+      },
+      "SP95": {
+        "valeur": "2.328",
+        "maj": "2026-10-21 01:00:00"
+      },
+      "SP98": {
+        "valeur": "2.376",
+        "maj": "2026-10-21 01:00:00"
+      }
+    }
+  },
+  {
+    "id": "11620001",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "Lieu dit La Viala",
+    "cp": "11620",
+    "ville": "VILLEMOUSTAUSSOU",
+    "latitude": 43.252,
+    "longitude": 2.361,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.459",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.111",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11210002",
+    "dep": "11",
+    "enseigne": "Système U",
+    "adresse": "928, Boulevard Général de Gaulle",
+    "cp": "11210",
+    "ville": "PORT-LA-NOUVELLE",
+    "latitude": 43.015,
+    "longitude": 3.05,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-22 06:00:00"
+      },
+      "E85": {
+        "valeur": "0.868",
+        "maj": "2026-10-10 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.158",
+        "maj": "2026-10-22 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.248",
+        "maj": "2026-10-22 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "11000013",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "10 Av. Maréchal Juin",
+    "cp": "11100",
+    "ville": "Narbonne",
+    "latitude": 43.18205593397,
+    "longitude": 3.0153544914882002,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-17 08:29:10"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-13 13:19:04"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-24 09:04:42"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-17 08:29:11"
+      }
+    }
+  },
+  {
+    "id": "11000007",
+    "dep": "11",
+    "enseigne": "Leclerc",
+    "adresse": "Route de Toulouse",
+    "cp": "11000",
+    "ville": "Carcassonne",
+    "latitude": 43.225,
+    "longitude": 2.329,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.356",
+        "maj": "2026-10-27 01:17:00"
+      },
+      "SP95": {
+        "valeur": "2.238",
+        "maj": "2026-10-27 01:17:00"
+      },
+      "E10": {
+        "valeur": "2.148",
+        "maj": "2026-10-27 01:17:00"
+      },
+      "SP98": {
+        "valeur": "2.254",
+        "maj": "2026-10-27 01:17:00"
+      }
+    }
+  },
+  {
+    "id": "11480009",
+    "dep": "11",
+    "enseigne": "Esso",
+    "adresse": "Aire de service de La Palme Ouest - Sens France Espagne",
+    "cp": "11480",
+    "ville": "La Palme",
+    "latitude": 42.951,
+    "longitude": 2.97,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.486",
+        "maj": "2026-10-20 00:30:00"
+      },
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-10-20 00:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.170",
+        "maj": "2026-10-20 00:30:00"
+      },
+      "E10": {
+        "valeur": "2.289",
+        "maj": "2026-10-20 00:30:00"
+      },
+      "SP98": {
+        "valeur": "2.380",
+        "maj": "2026-10-20 00:30:00"
+      }
+    }
+  },
+  {
+    "id": "11200001",
+    "dep": "11",
+    "enseigne": "Carrefour Market",
+    "adresse": "AVENUE DES CORBIERES",
+    "cp": "11200",
+    "ville": "LéZIGNAN-CORBIèRES",
+    "latitude": 43.189,
+    "longitude": 2.753,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-26 08:30:00"
+      },
+      "SP95": {
+        "valeur": "2.099",
+        "maj": "2026-10-21 08:30:00"
+      },
+      "E10": {
+        "valeur": "2.059",
+        "maj": "2026-10-21 08:30:00"
+      },
+      "SP98": {
+        "valeur": "2.179",
+        "maj": "2026-10-21 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "11110008",
+    "dep": "11",
+    "enseigne": "Leclerc",
+    "adresse": "AIRE DE NARBONNE VINASSAN NORD - A9",
+    "cp": "11110",
+    "ville": "SALLES D'AUDE",
+    "latitude": 43.214,
+    "longitude": 3.09,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.476",
+        "maj": "2026-10-26 09:12:24"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-08-19 11:12:53"
+      },
+      "GPLc": {
+        "valeur": "1.170",
+        "maj": "2026-10-02 14:23:03"
+      },
+      "E10": {
+        "valeur": "2.279",
+        "maj": "2026-10-26 09:12:23"
+      },
+      "SP98": {
+        "valeur": "2.370",
+        "maj": "2026-10-26 09:12:23"
+      }
+    }
+  },
+  {
+    "id": "11500005",
+    "dep": "11",
+    "enseigne": "Carrefour Market",
+    "adresse": "ZA LA PLAGE SUD",
+    "cp": "11500",
+    "ville": "QUILLAN",
+    "latitude": 42.893,
+    "longitude": 2.194,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-12 10:24:31"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-09-21 16:58:18"
+      },
+      "E10": {
+        "valeur": "2.089",
+        "maj": "2026-10-23 14:41:27"
+      }
+    }
+  },
+  {
+    "id": "11430001",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "Avenue de Narbonne",
+    "cp": "11430",
+    "ville": "GRUISSAN",
+    "latitude": 43.108,
+    "longitude": 3.091,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.111",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11150002",
+    "dep": "11",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "ld croix de l'ourmet  RN 113",
+    "cp": "11150",
+    "ville": "VILLEPINTE",
+    "latitude": 43.279337149999996,
+    "longitude": 2.0937715565,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-16 11:29:14"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-10-16 11:29:14"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-16 11:29:14"
+      }
+    }
+  },
+  {
+    "id": "11260001",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Quillan",
+    "cp": "11260",
+    "ville": "Espéraza",
+    "latitude": 42.937962357116,
+    "longitude": 2.2357543638609,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-15 11:40:28"
+      },
+      "GPLc": {
+        "valeur": "1.149",
+        "maj": "2026-09-18 05:51:10"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-22 07:07:03"
+      }
+    }
+  },
+  {
+    "id": "11700007",
+    "dep": "11",
+    "enseigne": "Avia",
+    "adresse": "Autoroute A61",
+    "cp": "11700",
+    "ville": "Capendu",
+    "latitude": 43.185,
+    "longitude": 2.561,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-15 22:00:00"
+      },
+      "E85": {
+        "valeur": "1.009",
+        "maj": "2026-10-19 22:00:00"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-15 22:00:00"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-15 22:00:00"
+      }
+    }
+  },
+  {
+    "id": "11000014",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "69 Allée d'Iéna",
+    "cp": "11000",
+    "ville": "CARCASSONNE",
+    "latitude": 43.215,
+    "longitude": 2.345,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.459",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11000012",
+    "dep": "11",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "42 Boulevard Jean Jaurès",
+    "cp": "11000",
+    "ville": "Carcassonne",
+    "latitude": 43.216,
+    "longitude": 2.355,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.490",
+        "maj": "2026-09-14 10:53:49"
+      },
+      "SP95": {
+        "valeur": "2.350",
+        "maj": "2026-09-14 10:53:49"
+      },
+      "E85": {
+        "valeur": "1.190",
+        "maj": "2026-09-14 10:53:49"
+      },
+      "SP98": {
+        "valeur": "2.390",
+        "maj": "2026-09-14 10:53:49"
+      }
+    }
+  },
+  {
+    "id": "11100004",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "Cap de la Pla - RN113",
+    "cp": "11100",
+    "ville": "NARBONNE",
+    "latitude": 43.180417745049,
+    "longitude": 2.9612291713135,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11700005",
+    "dep": "11",
+    "enseigne": "",
+    "adresse": "4 Avenue du Minervois",
+    "cp": "11700",
+    "ville": "LA REDORTE",
+    "latitude": 43.252,
+    "longitude": 2.652,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-26 09:05:21"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-20 09:06:46"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-21 09:25:28"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-21 09:25:28"
+      }
+    }
+  },
+  {
+    "id": "11110005",
+    "dep": "11",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A9 - AIRE DE NARBONNE VINASSAN SUD",
+    "cp": "11110",
+    "ville": "Salles-d'Aude",
+    "latitude": 43.2148856472,
+    "longitude": 3.0923671173400002,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-26 09:00:00"
+      },
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-10-26 09:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.154",
+        "maj": "2026-10-26 09:00:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 09:00:00"
+      }
+    }
+  },
+  {
+    "id": "11120003",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "2 ZONE ARTISANALE LA GARRIGUE",
+    "cp": "11120",
+    "ville": "Argeliers",
+    "latitude": 43.253700010604,
+    "longitude": 2.9130546119169,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-16 08:04:44"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-23 07:58:54"
+      },
+      "SP98": {
+        "valeur": "2.258",
+        "maj": "2026-10-23 07:58:54"
+      }
+    }
+  },
+  {
+    "id": "11100015",
+    "dep": "11",
+    "enseigne": "Système U",
+    "adresse": "7 rue du pont rouge",
+    "cp": "11100",
+    "ville": "Montredon-des-Corbières",
+    "latitude": 43.182977973551,
+    "longitude": 2.9359216901315,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-21 10:41:04"
+      },
+      "E85": {
+        "valeur": "0.949",
+        "maj": "2026-10-21 10:41:05"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-21 10:41:05"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-21 10:41:05"
+      }
+    }
+  },
+  {
+    "id": "11200008",
+    "dep": "11",
+    "enseigne": "",
+    "adresse": "RN 113 - 2 AVENUE DU MARECHAL F",
+    "cp": "11200",
+    "ville": "LEZIGNAN CORBIERES",
+    "latitude": 43.2,
+    "longitude": 2.75,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-27 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-27 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "11110001",
+    "dep": "11",
+    "enseigne": "Système U",
+    "adresse": "Avenue de Toulouse",
+    "cp": "11110",
+    "ville": "COURSAN",
+    "latitude": 43.23,
+    "longitude": 3.051,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-26 09:33:05"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-10-26 09:33:05"
+      },
+      "E85": {
+        "valeur": "0.915",
+        "maj": "2026-10-14 10:06:10"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-23 11:58:41"
+      }
+    }
+  },
+  {
+    "id": "11400008",
+    "dep": "11",
+    "enseigne": "",
+    "adresse": "129 AVENUE MONSEIGNEUR DELANGLE",
+    "cp": "11400",
+    "ville": "Castelnaudary",
+    "latitude": 43.315,
+    "longitude": 1.96,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-13 09:32:38"
+      },
+      "SP95": {
+        "valeur": "2.179",
+        "maj": "2026-10-22 09:25:56"
+      },
+      "GPLc": {
+        "valeur": "1.098",
+        "maj": "2026-05-04 09:26:25"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-22 09:25:56"
+      }
+    }
+  },
+  {
+    "id": "11000005",
+    "dep": "11",
+    "enseigne": "",
+    "adresse": "13 Allée d'Iéna",
+    "cp": "11000",
+    "ville": "Carcassonne",
+    "latitude": 43.211,
+    "longitude": 2.345,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.365",
+        "maj": "2026-10-26 17:40:00"
+      },
+      "E10": {
+        "valeur": "2.157",
+        "maj": "2026-10-26 17:40:00"
+      },
+      "SP98": {
+        "valeur": "2.257",
+        "maj": "2026-10-26 17:40:00"
+      }
+    }
+  },
+  {
+    "id": "11000015",
+    "dep": "11",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "ROUTE DE LIMOUX RN 118",
+    "cp": "11000",
+    "ville": "CARCASSONNE",
+    "latitude": 43.197,
+    "longitude": 2.323,
+    "carburants": {
+      "GPLc": {
+        "valeur": "1.039",
+        "maj": "2026-10-27 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "11100003",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "108 Avenue de Bordeaux",
+    "cp": "11100",
+    "ville": "NARBONNE",
+    "latitude": 43.182,
+    "longitude": 2.981,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.379",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11100009",
+    "dep": "11",
+    "enseigne": "Esso Express",
+    "adresse": "40 Boulevard Frédéric Mistral",
+    "cp": "11100",
+    "ville": "Narbonne",
+    "latitude": 43.187,
+    "longitude": 3.004,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-26 17:41:00"
+      },
+      "E85": {
+        "valeur": "1.067",
+        "maj": "2026-10-26 17:41:00"
+      },
+      "E10": {
+        "valeur": "2.144",
+        "maj": "2026-10-26 17:41:00"
+      },
+      "SP98": {
+        "valeur": "2.244",
+        "maj": "2026-10-26 17:41:00"
+      }
+    }
+  },
+  {
+    "id": "11100008",
+    "dep": "11",
+    "enseigne": "Esso Express",
+    "adresse": "Avenue de la Croix Sud - PL uniquement",
+    "cp": "11100",
+    "ville": "Narbonne",
+    "latitude": 43.163,
+    "longitude": 2.989,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.416",
+        "maj": "2026-10-24 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "11200002",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "RD6113",
+    "cp": "11200",
+    "ville": "LéZIGNAN-CORBIèRES",
+    "latitude": 43.204,
+    "longitude": 2.782,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.111",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11300004",
+    "dep": "11",
+    "enseigne": "Leclerc",
+    "adresse": "1, rue Georges Guynemer",
+    "cp": "11300",
+    "ville": "Limoux",
+    "latitude": 43.073,
+    "longitude": 2.223,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.366",
+        "maj": "2026-10-27 01:18:00"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-27 01:18:00"
+      },
+      "GPLc": {
+        "valeur": "1.040",
+        "maj": "2026-10-27 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.134",
+        "maj": "2026-10-27 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.214",
+        "maj": "2026-10-27 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "11540001",
+    "dep": "11",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE NATIONALE 9",
+    "cp": "11540",
+    "ville": "ROQUEFORT-DES-CORBIèRES",
+    "latitude": 42.992,
+    "longitude": 2.971,
+    "carburants": {
+      "E85": {
+        "valeur": "0.937",
+        "maj": "2026-10-26 10:35:44"
+      },
+      "GPLc": {
+        "valeur": "1.025",
+        "maj": "2026-10-26 10:35:44"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 10:35:44"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 10:35:44"
+      }
+    }
+  },
+  {
+    "id": "11370004",
+    "dep": "11",
+    "enseigne": "Esso",
+    "adresse": "LIEUDIT CAP DE FRONTAVENUE DES ROSEAUX",
+    "cp": "11370",
+    "ville": "PORT LEUCATE",
+    "latitude": 42.854,
+    "longitude": 3.035,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.447",
+        "maj": "2026-10-26 11:06:00"
+      },
+      "E10": {
+        "valeur": "2.161",
+        "maj": "2026-10-26 11:06:00"
+      },
+      "SP98": {
+        "valeur": "2.261",
+        "maj": "2026-10-26 11:06:00"
+      }
+    }
+  },
+  {
+    "id": "11290001",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "A61 Aire d'Arzens Sud",
+    "cp": "11290",
+    "ville": "ARZENS",
+    "latitude": 43.221,
+    "longitude": 2.206,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.456",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "1.041",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.175",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.325",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11370001",
+    "dep": "11",
+    "enseigne": "Carrefour Contact",
+    "adresse": "route de Leucate plage",
+    "cp": "11370",
+    "ville": "LEUCATE",
+    "latitude": 42.9064295874,
+    "longitude": 3.03680630734,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.368",
+        "maj": "2026-10-19 11:41:39"
+      },
+      "E10": {
+        "valeur": "2.216",
+        "maj": "2026-10-19 11:44:27"
+      },
+      "SP98": {
+        "valeur": "2.326",
+        "maj": "2026-10-19 11:41:39"
+      }
+    }
+  },
+  {
+    "id": "11300006",
+    "dep": "11",
+    "enseigne": "Système U",
+    "adresse": "59 avenue de Catalogne",
+    "cp": "11300",
+    "ville": "LIMOUX",
+    "latitude": 43.045,
+    "longitude": 2.224,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-23 09:08:29"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-23 09:08:29"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-23 09:08:29"
+      }
+    }
+  },
+  {
+    "id": "11220001",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "69, avenue de Narbonne",
+    "cp": "11220",
+    "ville": "SAINT-LAURENT-DE-LA-CABRERISSE",
+    "latitude": 43.087,
+    "longitude": 2.703,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.526",
+        "maj": "2026-10-24 08:59:13"
+      },
+      "SP95": {
+        "valeur": "2.298",
+        "maj": "2026-10-24 08:59:13"
+      },
+      "SP98": {
+        "valeur": "2.382",
+        "maj": "2026-09-21 16:52:05"
+      }
+    }
+  },
+  {
+    "id": "11110004",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "Route de Coursan",
+    "cp": "11110",
+    "ville": "Salles-d'Aude",
+    "latitude": 43.239,
+    "longitude": 3.112,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.390",
+        "maj": "2026-10-23 08:50:04"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-19 08:42:11"
+      },
+      "E10": {
+        "valeur": "2.156",
+        "maj": "2026-10-06 08:23:08"
+      },
+      "SP98": {
+        "valeur": "2.280",
+        "maj": "2026-10-06 08:23:09"
+      }
+    }
+  },
+  {
+    "id": "11480008",
+    "dep": "11",
+    "enseigne": "Avia",
+    "adresse": "route départementale 6009",
+    "cp": "11480",
+    "ville": "La Palme",
+    "latitude": 42.94543586,
+    "longitude": 2.9890048,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-10 12:22:48"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-10-02 18:19:33"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-10-02 18:19:33"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-02 18:19:33"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-02 18:19:33"
+      }
+    }
+  },
+  {
+    "id": "11700008",
+    "dep": "11",
+    "enseigne": "Avia",
+    "adresse": "A61 Aire des Corbières Nord",
+    "cp": "11700",
+    "ville": "Capendu",
+    "latitude": 43.178,
+    "longitude": 2.543,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.476",
+        "maj": "2026-10-13 06:00:00"
+      },
+      "E85": {
+        "valeur": "1.009",
+        "maj": "2026-10-20 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.307",
+        "maj": "2026-10-13 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.382",
+        "maj": "2026-10-13 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "11300001",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "16, avenue Camille Bouché",
+    "cp": "11300",
+    "ville": "Limoux",
+    "latitude": 43.06103,
+    "longitude": 2.21442,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-08 08:15:26"
+      },
+      "SP95": {
+        "valeur": "2.399",
+        "maj": "2026-09-14 13:10:16"
+      },
+      "E85": {
+        "valeur": "1.129",
+        "maj": "2026-09-18 15:20:44"
+      }
+    }
+  },
+  {
+    "id": "11560002",
+    "dep": "11",
+    "enseigne": "TotalEnergies Contact",
+    "adresse": "167 Avenue P Brossolette",
+    "cp": "11560",
+    "ville": "Saint-Pierre-la-Mer",
+    "latitude": 43.172,
+    "longitude": 3.181,
+    "carburants": {}
+  },
+  {
+    "id": "11290002",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "A61 Aire d'Arzens Nord",
+    "cp": "11290",
+    "ville": "ARZENS",
+    "latitude": 43.221,
+    "longitude": 2.202,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.456",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "1.041",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.175",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.325",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11290005",
+    "dep": "11",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Lieu dit Le GOUTAL - Route d'ALAIRAC - D211",
+    "cp": "11290",
+    "ville": "LAVALETTE",
+    "latitude": 43.184973456197994,
+    "longitude": 2.2604546015442,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-20 08:16:07"
+      },
+      "E10": {
+        "valeur": "2.172",
+        "maj": "2026-10-02 07:12:55"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-02 07:12:55"
+      }
+    }
+  },
+  {
+    "id": "11400005",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "211 ROUTE DE VILLASAVARY",
+    "cp": "11400",
+    "ville": "CASTELNAUDARY",
+    "latitude": 43.305,
+    "longitude": 1.959,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-13 06:36:54"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 08:25:05"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-22 06:19:08"
+      }
+    }
+  },
+  {
+    "id": "11310001",
+    "dep": "11",
+    "enseigne": "Carrefour Express",
+    "adresse": "698 rue Bernard Marty lot las fountetos",
+    "cp": "11310",
+    "ville": "Saissac",
+    "latitude": 43.362978379985,
+    "longitude": 2.1613941268092,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.410",
+        "maj": "2026-10-22 04:15:22"
+      },
+      "SP95": {
+        "valeur": "2.210",
+        "maj": "2026-10-07 11:35:26"
+      },
+      "SP98": {
+        "valeur": "2.260",
+        "maj": "2026-10-07 11:35:26"
+      }
+    }
+  },
+  {
+    "id": "11120001",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue de Saint-Pons",
+    "cp": "11120",
+    "ville": "Saint-Marcel-sur-Aude",
+    "latitude": 43.25362,
+    "longitude": 2.91366,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-21 09:35:00"
+      },
+      "SP95": {
+        "valeur": "2.239",
+        "maj": "2026-10-21 09:35:00"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-21 09:35:00"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-16 09:02:07"
+      }
+    }
+  },
+  {
+    "id": "11290003",
+    "dep": "11",
+    "enseigne": "TotalEnergies",
+    "adresse": "28 AVENUE DU LAURAGAIS",
+    "cp": "11290",
+    "ville": "MONTREAL",
+    "latitude": 43.2,
+    "longitude": 2.139,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 11:25:44"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 11:25:44"
+      }
+    }
+  },
+  {
+    "id": "11500004",
+    "dep": "11",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "6 Avenue F.Mitterrand",
+    "cp": "11500",
+    "ville": "QUILLAN",
+    "latitude": 42.878,
+    "longitude": 2.186,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-10-14 07:56:44"
+      },
+      "E10": {
+        "valeur": "2.290",
+        "maj": "2026-10-14 07:56:44"
+      },
+      "SP98": {
+        "valeur": "2.420",
+        "maj": "2026-10-14 07:56:44"
+      }
+    }
+  },
+  {
+    "id": "11170002",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "AVENUE DE TOULOUSE",
+    "cp": "11170",
+    "ville": "ALZONNE",
+    "latitude": 43.255,
+    "longitude": 2.168,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-23 15:49:49"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-23 15:49:50"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-23 15:49:50"
+      },
+      "SP98": {
+        "valeur": "2.339",
+        "maj": "2026-10-23 15:49:50"
+      }
+    }
+  },
+  {
+    "id": "11120002",
+    "dep": "11",
+    "enseigne": "Carrefour Contact",
+    "adresse": "RN 113 AVENUE MARECHAL GALLIENI",
+    "cp": "11200",
+    "ville": "Lézignan-Corbières",
+    "latitude": 43.2036793,
+    "longitude": 2.7649696999999995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.347",
+        "maj": "2026-10-23 07:26:12"
+      },
+      "E10": {
+        "valeur": "2.192",
+        "maj": "2026-09-28 07:36:58"
+      },
+      "SP98": {
+        "valeur": "2.303",
+        "maj": "2026-09-28 07:36:58"
+      }
+    }
+  },
+  {
+    "id": "11480007",
+    "dep": "11",
+    "enseigne": "Avia",
+    "adresse": "AIRE DE LAPALME EST",
+    "cp": "11480",
+    "ville": "La Palme",
+    "latitude": 42.97984,
+    "longitude": 2.98637,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.549",
+        "maj": "2026-09-15 11:56:01"
+      },
+      "GPLc": {
+        "valeur": "1.160",
+        "maj": "2026-09-14 11:20:45"
+      },
+      "E10": {
+        "valeur": "2.309",
+        "maj": "2026-09-14 11:20:45"
+      },
+      "SP98": {
+        "valeur": "2.509",
+        "maj": "2026-09-14 11:20:45"
+      }
+    }
+  },
+  {
+    "id": "11140001",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "Lieu Dit La Condomine",
+    "cp": "11140",
+    "ville": "AXAT",
+    "latitude": 42.8041025698,
+    "longitude": 2.23146003573,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.509",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11106001",
+    "dep": "11",
+    "enseigne": "Leclerc",
+    "adresse": "199 avenue de Bordeaux",
+    "cp": "11100",
+    "ville": "NARBONNE",
+    "latitude": 43.181,
+    "longitude": 2.97,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-27 01:18:00"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-27 01:18:00"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-27 01:18:00"
+      }
+    }
+  },
+  {
+    "id": "11000009",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "Rue Claude Chappe",
+    "cp": "11000",
+    "ville": "Carcassonne",
+    "latitude": 43.212,
+    "longitude": 2.325,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-27 06:39:14"
+      },
+      "E10": {
+        "valeur": "2.177",
+        "maj": "2026-10-21 14:48:32"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-21 14:48:32"
+      }
+    }
+  },
+  {
+    "id": "11590002",
+    "dep": "11",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Place du Portail",
+    "cp": "11590",
+    "ville": "Sallèles-d'Aude",
+    "latitude": 43.25654,
+    "longitude": 2.94731,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.400",
+        "maj": "2026-10-13 06:27:03"
+      },
+      "SP95": {
+        "valeur": "2.400",
+        "maj": "2026-09-25 06:32:30"
+      },
+      "SP98": {
+        "valeur": "2.420",
+        "maj": "2026-09-24 07:56:54"
+      }
+    }
+  },
+  {
+    "id": "11200006",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "Rue de L'Estagnol",
+    "cp": "11200",
+    "ville": "LéZIGNAN-CORBIèRES",
+    "latitude": 43.187,
+    "longitude": 2.751,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-26 07:36:57"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-26 07:36:57"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-26 07:36:58"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-26 07:36:58"
+      }
+    }
+  },
+  {
+    "id": "11400004",
+    "dep": "11",
+    "enseigne": "TotalEnergies",
+    "adresse": "ROUTE DE CARCASSONNE",
+    "cp": "11400",
+    "ville": "Castelnaudary",
+    "latitude": 43.311,
+    "longitude": 1.971,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-14 09:55:51"
+      },
+      "E85": {
+        "valeur": "0.959",
+        "maj": "2026-10-14 09:55:51"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 09:55:51"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-14 09:55:51"
+      }
+    }
+  },
+  {
+    "id": "11590004",
+    "dep": "11",
+    "enseigne": "Auchan supermarché",
+    "adresse": "Route d'Ouveillan",
+    "cp": "11590",
+    "ville": "Sallèles-d'Aude",
+    "latitude": 43.26593478874901,
+    "longitude": 2.9489985947624002,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-21 10:52:23"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-21 10:52:23"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-16 10:53:14"
+      }
+    }
+  },
+  {
+    "id": "11000018",
+    "dep": "11",
+    "enseigne": "Auchan",
+    "adresse": "Centre Commercial Salvaza ZI la Bouriette",
+    "cp": "11000",
+    "ville": "Carcassonne",
+    "latitude": 43.208,
+    "longitude": 2.311,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.356",
+        "maj": "2026-10-26 11:06:54"
+      },
+      "SP95": {
+        "valeur": "2.238",
+        "maj": "2026-10-23 10:51:12"
+      },
+      "GPLc": {
+        "valeur": "1.039",
+        "maj": "2026-10-07 11:06:58"
+      },
+      "E10": {
+        "valeur": "2.148",
+        "maj": "2026-10-26 11:07:17"
+      }
+    }
+  },
+  {
+    "id": "11390001",
+    "dep": "11",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "1, impasse des Corbières",
+    "cp": "11330",
+    "ville": "MOUTHOUMET",
+    "latitude": 42.96,
+    "longitude": 2.529,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.484",
+        "maj": "2026-10-21 13:24:34"
+      },
+      "SP95": {
+        "valeur": "2.304",
+        "maj": "2026-09-25 10:43:12"
+      },
+      "E85": {
+        "valeur": "0.984",
+        "maj": "2026-09-11 10:06:11"
+      }
+    }
+  },
+  {
+    "id": "11130001",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "29 ZAE du Peyrou",
+    "cp": "11130",
+    "ville": "SIGEAN",
+    "latitude": 43.031,
+    "longitude": 2.965,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-17 08:16:51"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-17 08:16:51"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-09 15:57:27"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-02 08:16:11"
+      }
+    }
+  },
+  {
+    "id": "11430002",
+    "dep": "11",
+    "enseigne": "Intermarché",
+    "adresse": "ZA DE MATEILLE",
+    "cp": "11430",
+    "ville": "GRUISSAN",
+    "latitude": 43.118,
+    "longitude": 3.104,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.414",
+        "maj": "2026-10-23 10:57:55"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-23 10:57:55"
+      },
+      "E10": {
+        "valeur": "2.095",
+        "maj": "2026-10-23 10:57:55"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-23 10:57:55"
+      }
+    }
+  },
+  {
+    "id": "11130002",
+    "dep": "11",
+    "enseigne": "Carrefour Market",
+    "adresse": "Rue François Arago",
+    "cp": "11130",
+    "ville": "Sigean",
+    "latitude": 43.027,
+    "longitude": 2.995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-23 10:00:49"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-02 12:10:36"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-23 10:00:49"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-02 12:10:36"
+      }
+    }
+  },
+  {
+    "id": "11000016",
+    "dep": "11",
+    "enseigne": "Carrefour",
+    "adresse": "ZI PONT ROUGE",
+    "cp": "11000",
+    "ville": "CARCASSONNE",
+    "latitude": 43.236,
+    "longitude": 2.369,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.356",
+        "maj": "2026-10-24 10:00:00"
+      },
+      "E10": {
+        "valeur": "2.148",
+        "maj": "2026-10-23 11:42:14"
+      },
+      "SP98": {
+        "valeur": "2.254",
+        "maj": "2026-10-23 11:42:14"
+      }
+    }
+  },
+  {
+    "id": "11500002",
+    "dep": "11",
+    "enseigne": "TotalEnergies",
+    "adresse": "STATION PIERRE LYS",
+    "cp": "11500",
+    "ville": "Quillan",
+    "latitude": 42.878,
+    "longitude": 2.183,
+    "carburants": {}
+  },
+  {
+    "id": "11100017",
+    "dep": "11",
+    "enseigne": "TotalEnergies",
+    "adresse": "82 AVENUE CARNOT",
+    "cp": "11100",
+    "ville": "Narbonne",
+    "latitude": 43.196,
+    "longitude": 3.012,
+    "carburants": {}
+  },
+  {
+    "id": "11000019",
+    "dep": "11",
+    "enseigne": "Leclerc",
+    "adresse": "1 rue Joséphine Baker",
+    "cp": "11000",
+    "ville": "Carcassonne",
+    "latitude": 43.207,
+    "longitude": 2.393,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.357",
+        "maj": "2026-10-26 08:45:00"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-23 09:00:00"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-26 08:45:00"
+      },
+      "SP98": {
+        "valeur": "2.255",
+        "maj": "2026-10-26 08:45:00"
+      }
+    }
+  },
+  {
+    "id": "11000003",
+    "dep": "11",
+    "enseigne": "TotalEnergies",
+    "adresse": "AVENUE DU 3ème RPIMA",
+    "cp": "11000",
+    "ville": "Carcassonne",
+    "latitude": 43.207,
+    "longitude": 2.386,
+    "carburants": {
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-26 17:52:13"
+      }
+    }
+  },
+  {
+    "id": "11100013",
+    "dep": "11",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "60AVENUE DU GENERAL LECLERC",
+    "cp": "11100",
+    "ville": "NARBONNE",
+    "latitude": 43.174,
+    "longitude": 2.992,
+    "carburants": {
+      "GPLc": {
+        "valeur": "1.029",
+        "maj": "2026-10-27 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "11250001",
+    "dep": "11",
+    "enseigne": "TotalEnergies Contact",
+    "adresse": "100 chemin de la plaine, station service total",
+    "cp": "11250",
+    "ville": "Rouffiac d'Aude",
+    "latitude": 43.124,
+    "longitude": 2.294,
+    "carburants": {}
+  },
+  {
+    "id": "11100002",
+    "dep": "11",
+    "enseigne": "Dyneff",
+    "adresse": "14 Avenue Carnot",
+    "cp": "11100",
+    "ville": "NARBONNE",
+    "latitude": 43.191,
+    "longitude": 3.007,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-26 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-26 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "11360002",
+    "dep": "11",
+    "enseigne": "Système U",
+    "adresse": "22 AVENUE DE NARBONNE",
+    "cp": "11360",
+    "ville": "DURBAN-CORBIERES",
+    "latitude": 42.997218294324,
+    "longitude": 2.8193464003296,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-24 08:23:21"
+      },
+      "E10": {
+        "valeur": "2.168",
+        "maj": "2026-10-24 08:23:21"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-24 08:23:21"
+      }
+    }
+  },
+  {
+    "id": "11400009",
+    "dep": "11",
+    "enseigne": "Netto",
+    "adresse": "1033 AVENUE MARTIN DAUCH",
+    "cp": "11400",
+    "ville": "CASTELNAUDARY",
+    "latitude": 43.324,
+    "longitude": 1.936,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-13 08:25:51"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 09:04:07"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-22 09:24:19"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-09 08:33:07"
+      }
+    }
+  },
+  {
+    "id": "11101001",
+    "dep": "11",
+    "enseigne": "Carrefour",
+    "adresse": "AVENUE HUBERT MOULY",
+    "cp": "11100",
+    "ville": "NARBONNE",
+    "latitude": 43.179,
+    "longitude": 3.029,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.375",
+        "maj": "2026-10-26 14:55:38"
+      },
+      "E10": {
+        "valeur": "2.089",
+        "maj": "2026-10-26 14:55:38"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-20 10:14:19"
+      }
+    }
+  },
+  {
+    "id": "11100016",
+    "dep": "11",
+    "enseigne": "Auchan",
+    "adresse": "AVENUE D ESPAGNE",
+    "cp": "11100",
+    "ville": "NARBONNE",
+    "latitude": 43.16,
+    "longitude": 2.982,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.355",
+        "maj": "2026-10-26 10:54:09"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-28 10:54:05"
+      },
+      "GPLc": {
+        "valeur": "1.029",
+        "maj": "2026-10-06 11:04:15"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-24 11:43:33"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-19 11:27:47"
+      }
+    }
+  }
+]
