@@ -1,0 +1,839 @@
+[
+  {
+    "id": "48000006",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "3 rue de la tendelle, ZAE du Causse d'Auge",
+    "cp": "48000",
+    "ville": "Mende",
+    "latitude": 44.535,
+    "longitude": 3.503,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-23 09:37:11"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-12 15:41:46"
+      }
+    }
+  },
+  {
+    "id": "48170001",
+    "dep": "48",
+    "enseigne": "TotalEnergies",
+    "adresse": "Lieu-Dit l'Habitarelle",
+    "cp": "48170",
+    "ville": "Châteauneuf-de-Randon",
+    "latitude": 44.632,
+    "longitude": 3.676,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-22 08:40:50"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-22 08:40:50"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-22 08:40:50"
+      }
+    }
+  },
+  {
+    "id": "48400003",
+    "dep": "48",
+    "enseigne": "Avia",
+    "adresse": "65 AVENUE JEAN MONESTIER",
+    "cp": "48400",
+    "ville": "Florac",
+    "latitude": 44.328,
+    "longitude": 3.592,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-18 10:54:59"
+      },
+      "SP95": {
+        "valeur": "2.358",
+        "maj": "2026-10-18 10:54:59"
+      },
+      "SP98": {
+        "valeur": "2.397",
+        "maj": "2026-10-18 10:54:59"
+      }
+    }
+  },
+  {
+    "id": "48200007",
+    "dep": "48",
+    "enseigne": "Esso",
+    "adresse": "D809 Aire de la Garde",
+    "cp": "48200",
+    "ville": "Albaret-Sainte-Marie",
+    "latitude": 44.871,
+    "longitude": 3.253,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-24 13:04:25"
+      },
+      "E10": {
+        "valeur": "2.319",
+        "maj": "2026-10-21 11:36:58"
+      },
+      "SP98": {
+        "valeur": "2.489",
+        "maj": "2026-10-21 11:36:58"
+      }
+    }
+  },
+  {
+    "id": "48200008",
+    "dep": "48",
+    "enseigne": "Avia",
+    "adresse": "A 75 AIRE DE LA LOZERE",
+    "cp": "48200",
+    "ville": "les Monts verts",
+    "latitude": 44.87021,
+    "longitude": 3.248061,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-27 10:05:44"
+      },
+      "E10": {
+        "valeur": "2.185",
+        "maj": "2026-10-27 10:05:44"
+      },
+      "SP98": {
+        "valeur": "2.258",
+        "maj": "2026-10-27 10:05:44"
+      }
+    }
+  },
+  {
+    "id": "48200001",
+    "dep": "48",
+    "enseigne": "TotalEnergies",
+    "adresse": "AVENUE PIGNIDE",
+    "cp": "48200",
+    "ville": "Saint-Chély-d'Apcher",
+    "latitude": 44.797,
+    "longitude": 3.278,
+    "carburants": {}
+  },
+  {
+    "id": "48700001",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "RD806",
+    "cp": "48700",
+    "ville": "Rieutort-de-Randon",
+    "latitude": 44.63336,
+    "longitude": 3.47619,
+    "carburants": {}
+  },
+  {
+    "id": "48100003",
+    "dep": "48",
+    "enseigne": "Système U",
+    "adresse": "PLACE DES CORDELIERS",
+    "cp": "48100",
+    "ville": "Marvejols",
+    "latitude": 44.552,
+    "longitude": 3.293,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-20 09:35:20"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-20 09:35:20"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-20 09:35:20"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-20 09:35:20"
+      }
+    }
+  },
+  {
+    "id": "48200003",
+    "dep": "48",
+    "enseigne": "Avia",
+    "adresse": "41 Boulevard Guérin d'Apcher",
+    "cp": "48200",
+    "ville": "Saint-Chély-d'Apcher",
+    "latitude": 44.80696,
+    "longitude": 3.27132,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.520",
+        "maj": "2026-10-26 17:30:53"
+      },
+      "SP95": {
+        "valeur": "2.360",
+        "maj": "2026-09-28 09:07:14"
+      },
+      "SP98": {
+        "valeur": "2.360",
+        "maj": "2026-09-19 09:05:19"
+      }
+    }
+  },
+  {
+    "id": "48190003",
+    "dep": "48",
+    "enseigne": "Carrefour Express",
+    "adresse": "quartier de la remise",
+    "cp": "48190",
+    "ville": "LE BLEYMARD",
+    "latitude": 44.490428422088,
+    "longitude": 3.7403639676617,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-27 06:06:31"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-27 06:06:31"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-27 06:06:31"
+      }
+    }
+  },
+  {
+    "id": "48400007",
+    "dep": "48",
+    "enseigne": "Dyneff",
+    "adresse": "15 route de mende",
+    "cp": "48400",
+    "ville": "Florac",
+    "latitude": 44.344,
+    "longitude": 3.582,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-22 09:50:53"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-26 23:59:00"
+      }
+    }
+  },
+  {
+    "id": "48000008",
+    "dep": "48",
+    "enseigne": "Avia",
+    "adresse": "10 avenue du 8 mai 1945",
+    "cp": "48000",
+    "ville": "Mende",
+    "latitude": 44.522849686909,
+    "longitude": 3.4982514507873,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-20 22:28:34"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-10-14 06:46:22"
+      },
+      "E85": {
+        "valeur": "0.939",
+        "maj": "2026-10-20 22:28:34"
+      }
+    }
+  },
+  {
+    "id": "48800002",
+    "dep": "48",
+    "enseigne": "Avia",
+    "adresse": "65 AVENUE DES CEVENNES",
+    "cp": "48800",
+    "ville": "VILLEFORT",
+    "latitude": 44.435,
+    "longitude": 3.933,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-16 21:00:00"
+      },
+      "SP95": {
+        "valeur": "2.248",
+        "maj": "2026-10-16 21:00:00"
+      }
+    }
+  },
+  {
+    "id": "48300001",
+    "dep": "48",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Quartier du Pont d'Allier",
+    "cp": "48300",
+    "ville": "Langogne",
+    "latitude": 44.7353,
+    "longitude": 3.8584,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.390",
+        "maj": "2026-10-10 07:51:26"
+      },
+      "SP95": {
+        "valeur": "2.279",
+        "maj": "2026-09-29 10:55:20"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-09-29 10:55:20"
+      }
+    }
+  },
+  {
+    "id": "48100007",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "4 BIS PROMENADE LOUIS CABANETTE",
+    "cp": "48100",
+    "ville": "MARVEJOLS",
+    "latitude": 44.544,
+    "longitude": 3.287,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-07 19:08:32"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-22 11:51:59"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-09-29 08:58:33"
+      }
+    }
+  },
+  {
+    "id": "48100004",
+    "dep": "48",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue Théophile Roussel",
+    "cp": "48100",
+    "ville": "MARVEJOLS",
+    "latitude": 44.557,
+    "longitude": 3.291,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-21 11:05:25"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-09 09:14:24"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-21 11:05:25"
+      }
+    }
+  },
+  {
+    "id": "48100002",
+    "dep": "48",
+    "enseigne": "Avia",
+    "adresse": "Boulevard Maréchal Foch",
+    "cp": "48100",
+    "ville": "Marvejols",
+    "latitude": 44.55129363138,
+    "longitude": 3.2911064193346,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-12 10:55:48"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-12 10:55:49"
+      }
+    }
+  },
+  {
+    "id": "48230001",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "AV DE LA GARE",
+    "cp": "48230",
+    "ville": "Chanac",
+    "latitude": 44.47003,
+    "longitude": 3.3461,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-10-27 12:32:20"
+      },
+      "SP95": {
+        "valeur": "2.190",
+        "maj": "2026-10-27 12:32:20"
+      }
+    }
+  },
+  {
+    "id": "48150002",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "ROUTE DE MENDE",
+    "cp": "48150",
+    "ville": "Meyrueis",
+    "latitude": 44.18,
+    "longitude": 3.43,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-22 10:14:20"
+      },
+      "E10": {
+        "valeur": "2.198",
+        "maj": "2026-10-22 10:14:20"
+      },
+      "SP98": {
+        "valeur": "2.298",
+        "maj": "2026-09-23 10:07:17"
+      }
+    }
+  },
+  {
+    "id": "48100006",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "LA GARE",
+    "cp": "48100",
+    "ville": "LE MONASTIER PIN-MORIES",
+    "latitude": 44.50867691719999,
+    "longitude": 3.25113007146,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.430",
+        "maj": "2026-10-27 12:31:26"
+      }
+    }
+  },
+  {
+    "id": "48140002",
+    "dep": "48",
+    "enseigne": "Carrefour Express",
+    "adresse": "route de saugues",
+    "cp": "48140",
+    "ville": "LE MALZIEU VILLE",
+    "latitude": 44.856,
+    "longitude": 3.332,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-07 06:16:53"
+      },
+      "E10": {
+        "valeur": "2.339",
+        "maj": "2026-10-07 06:16:54"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-07 06:16:54"
+      }
+    }
+  },
+  {
+    "id": "48000005",
+    "dep": "48",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "14 AVENUE FOCH",
+    "cp": "48000",
+    "ville": "MENDE",
+    "latitude": 44.518,
+    "longitude": 3.492,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-28 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-10-28 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "48200004",
+    "dep": "48",
+    "enseigne": "Intermarché",
+    "adresse": "Route du Malzieu",
+    "cp": "48200",
+    "ville": "Saint-Chély-d'Apcher",
+    "latitude": 44.805,
+    "longitude": 3.281,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-23 17:00:00"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-10-23 17:00:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 10:49:59"
+      },
+      "E10": {
+        "valeur": "2.059",
+        "maj": "2026-10-23 17:00:00"
+      },
+      "SP98": {
+        "valeur": "2.199",
+        "maj": "2026-10-23 17:00:00"
+      }
+    }
+  },
+  {
+    "id": "48300003",
+    "dep": "48",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue Jean Moulin",
+    "cp": "48300",
+    "ville": "Langogne",
+    "latitude": 44.72425,
+    "longitude": 3.86052,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-10-27 09:01:03"
+      },
+      "E10": {
+        "valeur": "2.118",
+        "maj": "2026-10-27 09:01:16"
+      },
+      "SP98": {
+        "valeur": "2.237",
+        "maj": "2026-10-27 09:01:28"
+      }
+    }
+  },
+  {
+    "id": "48500001",
+    "dep": "48",
+    "enseigne": "Intermarché",
+    "adresse": "74 AVENUE DU LOT",
+    "cp": "48500",
+    "ville": "Banassac",
+    "latitude": 44.432,
+    "longitude": 3.214,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-22 10:14:27"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-14 10:21:53"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-22 10:14:27"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-14 10:21:53"
+      }
+    }
+  },
+  {
+    "id": "48400006",
+    "dep": "48",
+    "enseigne": "Intermarché",
+    "adresse": "2 rue du Vibron, ZAE Saint Julien du Gourg",
+    "cp": "48400",
+    "ville": "Florac",
+    "latitude": 44.343203030000005,
+    "longitude": 3.5819184,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-26 10:47:12"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-14 16:45:42"
+      },
+      "E10": {
+        "valeur": "2.049",
+        "maj": "2026-10-26 10:47:12"
+      },
+      "SP98": {
+        "valeur": "2.209",
+        "maj": "2026-10-26 10:47:12"
+      }
+    }
+  },
+  {
+    "id": "48600002",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Route de Grandieu",
+    "cp": "48600",
+    "ville": "CHAMBON-LE-CHâTEAU",
+    "latitude": 44.85347,
+    "longitude": 3.66108,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-23 08:36:15"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-09-18 07:53:08"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-09-18 07:53:08"
+      }
+    }
+  },
+  {
+    "id": "48310001",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Route de Saint Juery",
+    "cp": "48310",
+    "ville": "Fournels",
+    "latitude": 44.817,
+    "longitude": 3.117,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-06 17:40:06"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-10-06 17:40:06"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-06 17:40:06"
+      }
+    }
+  },
+  {
+    "id": "48200005",
+    "dep": "48",
+    "enseigne": "Système U",
+    "adresse": "Boulevard Guérin d'Apcher",
+    "cp": "48200",
+    "ville": "SAINT-CHéLY-D'APCHER",
+    "latitude": 44.801,
+    "longitude": 3.272,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-27 09:05:08"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-09-30 11:00:02"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-21 10:42:49"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-21 10:42:49"
+      }
+    }
+  },
+  {
+    "id": "48100001",
+    "dep": "48",
+    "enseigne": "TotalEnergies",
+    "adresse": "38 AVENUE THEOPHILE ROUSSEL",
+    "cp": "48100",
+    "ville": "MARVEJOLS",
+    "latitude": 44.562428946000004,
+    "longitude": 3.29229521343,
+    "carburants": {}
+  },
+  {
+    "id": "48100008",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "VILLAGE DE MALBOUZON",
+    "cp": "48100",
+    "ville": "PRINSUEJOLS MALBOUZON",
+    "latitude": 44.697664560997005,
+    "longitude": 3.1232240123376,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-20 14:47:56"
+      },
+      "E85": {
+        "valeur": "0.988",
+        "maj": "2026-10-07 15:08:38"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-07 15:08:39"
+      }
+    }
+  },
+  {
+    "id": "48600003",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "ROUTE DE ST CHELY",
+    "cp": "48600",
+    "ville": "Grandrieu",
+    "latitude": 44.784,
+    "longitude": 3.636,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-23 09:39:04"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-10-02 15:51:11"
+      },
+      "E85": {
+        "valeur": "0.989",
+        "maj": "2026-10-23 09:39:04"
+      }
+    }
+  },
+  {
+    "id": "48130001",
+    "dep": "48",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue de la Méridienne Aumont-Aubrac",
+    "cp": "48130",
+    "ville": "PEYRE EN AUBRAC",
+    "latitude": 44.734,
+    "longitude": 3.292,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-09-28 11:11:51"
+      },
+      "E85": {
+        "valeur": "0.949",
+        "maj": "2026-09-18 10:02:23"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-09-18 10:02:23"
+      }
+    }
+  },
+  {
+    "id": "48000001",
+    "dep": "48",
+    "enseigne": "Système U",
+    "adresse": "ZAC DE RAMILLES",
+    "cp": "48000",
+    "ville": "MENDE",
+    "latitude": 44.516,
+    "longitude": 3.478,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-26 08:45:28"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-09-24 09:37:07"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-26 08:45:28"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-26 08:45:28"
+      }
+    }
+  },
+  {
+    "id": "48300006",
+    "dep": "48",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "AV. MARECHAL FOCH",
+    "cp": "48300",
+    "ville": "LANGOGNE",
+    "latitude": 44.72842,
+    "longitude": 3.85645,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-28 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-28 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "48120001",
+    "dep": "48",
+    "enseigne": "Supermarchés Spar",
+    "adresse": "avenue de Saint Chely",
+    "cp": "48120",
+    "ville": "saint alban sur limagnole",
+    "latitude": 44.779254785345,
+    "longitude": 3.3840133333129,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-21 11:17:30"
+      },
+      "E10": {
+        "valeur": "2.219",
+        "maj": "2026-10-21 11:17:31"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-21 11:17:31"
+      }
+    }
+  },
+  {
+    "id": "48600001",
+    "dep": "48",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Route de Saint-Chély",
+    "cp": "48600",
+    "ville": "Grandrieu",
+    "latitude": 44.78,
+    "longitude": 3.63,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-02 18:00:00"
+      },
+      "SP95": {
+        "valeur": "2.219",
+        "maj": "2026-09-18 06:48:50"
+      }
+    }
+  }
+]

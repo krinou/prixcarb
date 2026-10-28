@@ -402,12 +402,12 @@
     "longitude": 8.74,
     "carburants": {
       "Gazole": {
-        "valeur": "2.461",
-        "maj": "2026-10-23 13:50:40"
+        "valeur": "2.393",
+        "maj": "2026-10-27 08:10:26"
       },
       "SP95": {
-        "valeur": "2.309",
-        "maj": "2026-10-23 13:50:41"
+        "valeur": "2.186",
+        "maj": "2026-10-27 08:10:27"
       }
     }
   },
@@ -674,8 +674,8 @@
     "longitude": 9.53,
     "carburants": {
       "Gazole": {
-        "valeur": "2.290",
-        "maj": "2026-10-08 10:12:30"
+        "valeur": "2.340",
+        "maj": "2026-10-27 19:48:07"
       },
       "SP95": {
         "valeur": "2.220",
@@ -858,12 +858,12 @@
     "longitude": 9.3642222,
     "carburants": {
       "Gazole": {
-        "valeur": "2.230",
-        "maj": "2026-07-27 08:47:32"
+        "valeur": "2.200",
+        "maj": "2026-10-27 09:35:24"
       },
       "SP95": {
-        "valeur": "1.990",
-        "maj": "2026-07-27 08:48:09"
+        "valeur": "1.920",
+        "maj": "2026-10-27 09:35:57"
       }
     }
   },
@@ -922,8 +922,8 @@
     "longitude": 9.444,
     "carburants": {
       "Gazole": {
-        "valeur": "2.280",
-        "maj": "2026-10-12 06:00:00"
+        "valeur": "2.330",
+        "maj": "2026-10-27 19:30:12"
       },
       "SP95": {
         "valeur": "2.210",
@@ -1042,12 +1042,12 @@
     "longitude": 9.209,
     "carburants": {
       "Gazole": {
-        "valeur": "2.279",
-        "maj": "2026-10-21 09:41:13"
+        "valeur": "2.245",
+        "maj": "2026-10-27 08:56:45"
       },
       "SP95": {
-        "valeur": "2.199",
-        "maj": "2026-09-29 09:12:43"
+        "valeur": "2.139",
+        "maj": "2026-10-27 08:56:45"
       }
     }
   },
@@ -1162,7 +1162,7 @@
   {
     "id": "20220002",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "29, Ave Pdt Paul Doumer",
     "cp": "20220",
     "ville": "L'ÎLE-ROUSSE",
@@ -1182,7 +1182,7 @@
   {
     "id": "20160001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "ENI",
     "adresse": "Cours Joseph Colonna",
     "cp": "20160",
     "ville": "vico",
@@ -1190,12 +1190,12 @@
     "longitude": 8.799,
     "carburants": {
       "Gazole": {
-        "valeur": "2.407",
-        "maj": "2026-10-20 18:17:08"
+        "valeur": "2.419",
+        "maj": "2026-10-27 11:17:44"
       },
       "SP95": {
-        "valeur": "2.183",
-        "maj": "2026-10-20 18:17:08"
+        "valeur": "2.198",
+        "maj": "2026-10-27 11:17:44"
       }
     }
   },
@@ -2017,7 +2017,7 @@
   {
     "id": "20145001",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "RN 198 - Solenzara",
     "cp": "20145",
     "ville": "Sari-Solenzara",
@@ -2037,7 +2037,7 @@
   {
     "id": "20000002",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "Route du Bord de Mer",
     "cp": "20090",
     "ville": "Ajaccio",
