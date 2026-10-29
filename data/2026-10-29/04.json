@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "4170002",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN 202",
+    "cp": "04170",
+    "ville": "SAINT-ANDRé-LES-ALPES",
+    "latitude": 43.967,
+    "longitude": 6.507,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-09-24 08:17:07"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-09-24 08:17:07"
+      }
+    }
+  },
+  {
+    "id": "4120002",
+    "dep": "04",
+    "enseigne": "Proxi",
+    "adresse": "4 rue grande",
+    "cp": "04120",
+    "ville": "LA PALUD-SUR-VERDON",
+    "latitude": 43.78,
+    "longitude": 6.342,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.479",
+        "maj": "2026-10-01 06:00:00"
+      },
+      "SP95": {
+        "valeur": "2.279",
+        "maj": "2026-10-01 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "4320001",
+    "dep": "04",
+    "enseigne": "ENI",
+    "adresse": "STATION RN 4202",
+    "cp": "04320",
+    "ville": "Entrevaux",
+    "latitude": 43.949,
+    "longitude": 6.81,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.329",
+        "maj": "2026-10-28 08:00:00"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-28 08:00:00"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-28 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "4360001",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "QUARTIER SAINT JEAN",
+    "cp": "04360",
+    "ville": "MOUSTIERS-SAINTE-MARIE",
+    "latitude": 43.844,
+    "longitude": 6.215,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-07 09:28:46"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-07 09:28:32"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-07 09:28:32"
+      }
+    }
+  },
+  {
+    "id": "4330007",
+    "dep": "04",
+    "enseigne": "Avia",
+    "adresse": "17 route de Digne",
+    "cp": "04330",
+    "ville": "BARREME",
+    "latitude": 43.952618,
+    "longitude": 6.365009000000001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-09-16 05:30:53"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-09-16 05:30:53"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-09-16 05:30:53"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-09-16 05:30:53"
+      }
+    }
+  },
+  {
+    "id": "4200010",
+    "dep": "04",
+    "enseigne": "",
+    "adresse": "3 AVENUE DE LA LIBERATION",
+    "cp": "04200",
+    "ville": "SISTERON",
+    "latitude": 44.193,
+    "longitude": 5.944,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.368",
+        "maj": "2026-10-23 18:09:50"
+      },
+      "E85": {
+        "valeur": "0.859",
+        "maj": "2026-10-23 18:09:50"
+      },
+      "E10": {
+        "valeur": "2.138",
+        "maj": "2026-10-23 18:09:50"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-22 09:56:36"
+      }
+    }
+  },
+  {
+    "id": "4700006",
+    "dep": "04",
+    "enseigne": "Carrefour Contact",
+    "adresse": "AVENUE FLOURENS AILLAUD",
+    "cp": "04700",
+    "ville": "Oraison",
+    "latitude": 43.912383289938,
+    "longitude": 5.9157381351348,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-28 06:00:00"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-09-17 07:00:00"
+      },
+      "E10": {
+        "valeur": "2.089",
+        "maj": "2026-10-28 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.179",
+        "maj": "2026-10-28 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "4300005",
+    "dep": "04",
+    "enseigne": "Auchan supermarché",
+    "adresse": "QUARTIER LA BEAUDINED4100 CC LES 3 ROUTES",
+    "cp": "04300",
+    "ville": "FORCALQUIER",
+    "latitude": 43.951,
+    "longitude": 5.771,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-28 09:45:02"
+      },
+      "E10": {
+        "valeur": "2.069",
+        "maj": "2026-10-28 09:45:02"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-28 09:45:03"
+      }
+    }
+  },
+  {
+    "id": "4280001",
+    "dep": "04",
+    "enseigne": "Système U",
+    "adresse": "ZA du Haut Moulin, quartier de la gare",
+    "cp": "04280",
+    "ville": "Céreste",
+    "latitude": 43.858,
+    "longitude": 5.597,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.403",
+        "maj": "2026-10-21 06:22:00"
+      },
+      "E10": {
+        "valeur": "2.105",
+        "maj": "2026-10-21 06:22:00"
+      },
+      "SP98": {
+        "valeur": "2.200",
+        "maj": "2026-10-21 06:22:00"
+      }
+    }
+  },
+  {
+    "id": "4100002",
+    "dep": "04",
+    "enseigne": "Auchan hypermarché",
+    "adresse": "Quartier des Quintrands - Route de Sisteron",
+    "cp": "04100",
+    "ville": "Manosque",
+    "latitude": 43.849807797608,
+    "longitude": 5.82262730505,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-28 09:28:25"
+      },
+      "E85": {
+        "valeur": "0.909",
+        "maj": "2026-10-28 09:28:26"
+      },
+      "GPLc": {
+        "valeur": "0.989",
+        "maj": "2026-10-28 09:28:26"
+      },
+      "E10": {
+        "valeur": "2.061",
+        "maj": "2026-10-28 09:28:26"
+      },
+      "SP98": {
+        "valeur": "2.168",
+        "maj": "2026-10-28 09:28:26"
+      }
+    }
+  },
+  {
+    "id": "4160002",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "70 Avenue du Général de Gaulle",
+    "cp": "04160",
+    "ville": "Château-Arnoux-Saint-Auban",
+    "latitude": 44.099,
+    "longitude": 6.01,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-07-24 08:09:19"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-07-24 08:09:20"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-07-24 08:09:20"
+      }
+    }
+  },
+  {
+    "id": "4140001",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "LIEUDIT PRAS GAVOUETS ZONE ARTISANALE B",
+    "cp": "04140",
+    "ville": "Seyne-les-Alpes",
+    "latitude": 44.341,
+    "longitude": 6.378,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-13 15:37:40"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-23 16:13:32"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-23 16:13:32"
+      }
+    }
+  },
+  {
+    "id": "4100012",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "41 Avenue Saint Lazare",
+    "cp": "04100",
+    "ville": "Manosque",
+    "latitude": 43.831047865361,
+    "longitude": 5.7909129593379,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.460",
+        "maj": "2026-10-23 11:48:39"
+      },
+      "E10": {
+        "valeur": "2.220",
+        "maj": "2026-10-23 11:48:39"
+      }
+    }
+  },
+  {
+    "id": "4370001",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "890, Route des Clots",
+    "cp": "04370",
+    "ville": "Villars-Colmars",
+    "latitude": 44.163,
+    "longitude": 6.609,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-09-30 12:11:38"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-09-30 12:11:38"
+      }
+    }
+  },
+  {
+    "id": "4500003",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "Quartier Samson",
+    "cp": "04500",
+    "ville": "Riez",
+    "latitude": 43.822,
+    "longitude": 6.091,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-22 10:51:11"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-22 10:51:11"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-22 10:51:12"
+      }
+    }
+  },
+  {
+    "id": "4800001",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "46 Avenue des Alpes",
+    "cp": "04800",
+    "ville": "Gréoux-les-Bains",
+    "latitude": 43.756,
+    "longitude": 5.887,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 16:55:17"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-27 17:23:32"
+      }
+    }
+  },
+  {
+    "id": "4100007",
+    "dep": "04",
+    "enseigne": "Leclerc",
+    "adresse": "Route de Volx",
+    "cp": "04100",
+    "ville": "MANOSQUE",
+    "latitude": 43.839687317199996,
+    "longitude": 5.8029165555499995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-12 08:41:45"
+      },
+      "GPLc": {
+        "valeur": "0.959",
+        "maj": "2026-05-06 08:37:51"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-12 08:41:46"
+      },
+      "SP98": {
+        "valeur": "2.282",
+        "maj": "2026-10-12 08:41:46"
+      }
+    }
+  },
+  {
+    "id": "4160004",
+    "dep": "04",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "LE BELVEDERE - RN 96",
+    "cp": "04160",
+    "ville": "Château-Arnoux-Saint-Auban",
+    "latitude": 44.088,
+    "longitude": 6.009,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.924",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.009",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "4190001",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "Rue de l'Anonciade",
+    "cp": "04190",
+    "ville": "Les Mées",
+    "latitude": 44.032,
+    "longitude": 5.972,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-26 07:52:45"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-26 07:52:45"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-26 07:52:45"
+      },
+      "SP98": {
+        "valeur": "2.245",
+        "maj": "2026-10-26 07:52:45"
+      }
+    }
+  },
+  {
+    "id": "4400004",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Terres Neuves. St Pons",
+    "cp": "04400",
+    "ville": "BARCELONNETTE",
+    "latitude": 44.387,
+    "longitude": 6.629,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-16 12:33:29"
+      },
+      "SP95": {
+        "valeur": "2.279",
+        "maj": "2026-10-16 12:33:29"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-10-25 20:14:55"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-16 12:33:29"
+      },
+      "SP98": {
+        "valeur": "2.349",
+        "maj": "2026-10-06 20:01:10"
+      }
+    }
+  },
+  {
+    "id": "4200007",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "10 AVENUE DE LA LIBERATION",
+    "cp": "04200",
+    "ville": "SISTERON",
+    "latitude": 44.192,
+    "longitude": 5.945,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-23 19:23:08"
+      },
+      "E85": {
+        "valeur": "0.839",
+        "maj": "2026-10-22 11:13:27"
+      },
+      "E10": {
+        "valeur": "2.062",
+        "maj": "2026-10-23 19:23:09"
+      }
+    }
+  },
+  {
+    "id": "4204001",
+    "dep": "04",
+    "enseigne": "Système U",
+    "adresse": "50 allée des Genêts BP 200",
+    "cp": "04204",
+    "ville": "SISTERON",
+    "latitude": 44.237,
+    "longitude": 5.914,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-24 07:46:50"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-23 07:06:06"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-23 07:06:06"
+      },
+      "GPLc": {
+        "valeur": "1.069",
+        "maj": "2026-09-05 11:27:17"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-24 07:46:50"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-24 07:46:50"
+      }
+    }
+  },
+  {
+    "id": "4000004",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "8 avenue du 8 Mai 1945",
+    "cp": "04000",
+    "ville": "Digne-les-Bains",
+    "latitude": 44.0896,
+    "longitude": 6.23748,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.441",
+        "maj": "2026-10-28 09:42:39"
+      },
+      "SP95": {
+        "valeur": "2.228",
+        "maj": "2026-10-28 09:42:40"
+      },
+      "E10": {
+        "valeur": "2.158",
+        "maj": "2026-10-28 09:42:40"
+      }
+    }
+  },
+  {
+    "id": "4260002",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Lieu-dit Bouchier",
+    "cp": "04260",
+    "ville": "Allos",
+    "latitude": 44.26338,
+    "longitude": 6.64132,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.450",
+        "maj": "2026-10-22 15:41:06"
+      },
+      "SP95": {
+        "valeur": "2.280",
+        "maj": "2026-09-29 18:35:08"
+      },
+      "SP98": {
+        "valeur": "2.320",
+        "maj": "2026-09-29 18:35:25"
+      }
+    }
+  },
+  {
+    "id": "4200011",
+    "dep": "04",
+    "enseigne": "Avia",
+    "adresse": "A51 - AIRE AUBIGNOSC EST",
+    "cp": "04200",
+    "ville": "AUBIGNOSC",
+    "latitude": 44.129143,
+    "longitude": 5.981151,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.589",
+        "maj": "2026-09-15 07:10:39"
+      },
+      "E10": {
+        "valeur": "2.439",
+        "maj": "2026-09-29 11:31:05"
+      },
+      "SP98": {
+        "valeur": "2.539",
+        "maj": "2026-09-29 11:31:05"
+      }
+    }
+  },
+  {
+    "id": "4130004",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A51 - AIRE DE VOLX OUEST",
+    "cp": "04130",
+    "ville": "VOLX",
+    "latitude": 43.94225,
+    "longitude": 5.89247,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "4500001",
+    "dep": "04",
+    "enseigne": "Avia",
+    "adresse": "Route de Marseille",
+    "cp": "04500",
+    "ville": "Riez",
+    "latitude": 43.815,
+    "longitude": 6.087,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.510",
+        "maj": "2026-10-01 16:01:33"
+      },
+      "SP95": {
+        "valeur": "2.260",
+        "maj": "2026-10-01 16:02:03"
+      },
+      "E85": {
+        "valeur": "1.050",
+        "maj": "2026-10-01 16:02:34"
+      }
+    }
+  },
+  {
+    "id": "4000003",
+    "dep": "04",
+    "enseigne": "Esso Express",
+    "adresse": "39 AV DE VERDUN",
+    "cp": "04000",
+    "ville": "Digne-les-Bains",
+    "latitude": 44.088,
+    "longitude": 6.222,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.450",
+        "maj": "2026-10-28 06:41:00"
+      },
+      "E10": {
+        "valeur": "2.168",
+        "maj": "2026-10-28 06:41:00"
+      },
+      "SP98": {
+        "valeur": "2.268",
+        "maj": "2026-10-28 06:41:00"
+      }
+    }
+  },
+  {
+    "id": "4340002",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "290 route de barcelonnette",
+    "cp": "04340",
+    "ville": "Ubaye serre poncon",
+    "latitude": 44.430817000000005,
+    "longitude": 6.373557,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-28 11:44:51"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-28 11:44:51"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-28 11:44:51"
+      }
+    }
+  },
+  {
+    "id": "4600002",
+    "dep": "04",
+    "enseigne": "Avia",
+    "adresse": "RN96",
+    "cp": "04160",
+    "ville": "Château-Arnoux-Saint-Auban",
+    "latitude": 44.075,
+    "longitude": 5.993,
+    "carburants": {}
+  },
+  {
+    "id": "4170003",
+    "dep": "04",
+    "enseigne": "Système U",
+    "adresse": "Route de Nice",
+    "cp": "04170",
+    "ville": "Saint-André-les-Alpes",
+    "latitude": 43.96477,
+    "longitude": 6.50654,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.490",
+        "maj": "2026-09-24 06:15:49"
+      },
+      "E10": {
+        "valeur": "2.250",
+        "maj": "2026-09-24 06:15:49"
+      },
+      "SP98": {
+        "valeur": "2.350",
+        "maj": "2026-09-26 06:39:59"
+      }
+    }
+  },
+  {
+    "id": "4300002",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue des Chalus",
+    "cp": "04300",
+    "ville": "Forcalquier",
+    "latitude": 43.95817,
+    "longitude": 5.79229,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-28 06:12:42"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-27 10:16:49"
+      },
+      "E10": {
+        "valeur": "2.069",
+        "maj": "2026-10-28 06:12:42"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-28 06:12:43"
+      }
+    }
+  },
+  {
+    "id": "4100010",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "214 AV. FREDERIC MISTRAL",
+    "cp": "04100",
+    "ville": "MANOSQUE",
+    "latitude": 43.824,
+    "longitude": 5.788,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "4210006",
+    "dep": "04",
+    "enseigne": "Système U",
+    "adresse": "RTE DE MANOSQUE",
+    "cp": "04210",
+    "ville": "VALENSOLE",
+    "latitude": 43.836,
+    "longitude": 5.977,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-13 11:11:53"
+      },
+      "E10": {
+        "valeur": "2.205",
+        "maj": "2026-10-13 11:11:53"
+      },
+      "SP98": {
+        "valeur": "2.305",
+        "maj": "2026-10-13 11:11:54"
+      }
+    }
+  },
+  {
+    "id": "4510003",
+    "dep": "04",
+    "enseigne": "Avia",
+    "adresse": "RN 85",
+    "cp": "04510",
+    "ville": "Mallemoisson - Les Grillons",
+    "latitude": 44.044,
+    "longitude": 6.13,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.398",
+        "maj": "2026-10-12 19:00:58"
+      },
+      "SP95": {
+        "valeur": "2.278",
+        "maj": "2026-10-09 08:54:19"
+      },
+      "SP98": {
+        "valeur": "2.328",
+        "maj": "2026-10-09 08:54:19"
+      }
+    }
+  },
+  {
+    "id": "4200009",
+    "dep": "04",
+    "enseigne": "Avia",
+    "adresse": "AIRE D AUBIGNOSC",
+    "cp": "04200",
+    "ville": "Aubignosc",
+    "latitude": 44.133508652902,
+    "longitude": 5.9775342421699005,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.589",
+        "maj": "2026-09-30 06:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.165",
+        "maj": "2026-09-29 11:28:20"
+      },
+      "E10": {
+        "valeur": "2.439",
+        "maj": "2026-09-29 11:28:20"
+      },
+      "SP98": {
+        "valeur": "2.539",
+        "maj": "2026-09-29 11:28:20"
+      }
+    }
+  },
+  {
+    "id": "4120004",
+    "dep": "04",
+    "enseigne": "Avia",
+    "adresse": "Boulevard Saint Michel",
+    "cp": "04120",
+    "ville": "Castellane",
+    "latitude": 43.851,
+    "longitude": 6.508,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-10-02 22:37:00"
+      },
+      "E10": {
+        "valeur": "2.259",
+        "maj": "2026-09-29 20:34:45"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-09-29 20:34:45"
+      }
+    }
+  },
+  {
+    "id": "4700003",
+    "dep": "04",
+    "enseigne": "Carrefour Market",
+    "adresse": "RN 96 CENTRE COMMERCIAL LE PLAN",
+    "cp": "04700",
+    "ville": "LA BRILLANNE",
+    "latitude": 43.92768,
+    "longitude": 5.89091,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-28 09:19:40"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-10-16 09:59:47"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-09-15 08:55:33"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-10-03 09:22:16"
+      }
+    }
+  },
+  {
+    "id": "4100001",
+    "dep": "04",
+    "enseigne": "Système U",
+    "adresse": "9 avenue des Plantiers BP201",
+    "cp": "04204",
+    "ville": "SISTERON",
+    "latitude": 44.188166608100005,
+    "longitude": 5.94679759778,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.339",
+        "maj": "2026-10-08 08:04:19"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-10-08 08:04:19"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-08 08:04:19"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-08 08:04:19"
+      }
+    }
+  },
+  {
+    "id": "4320002",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "ZA LE BREC 2",
+    "cp": "04320",
+    "ville": "Entrevaux",
+    "latitude": 43.965,
+    "longitude": 6.786,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.333",
+        "maj": "2026-10-14 11:39:39"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-14 11:39:39"
+      },
+      "E10": {
+        "valeur": "2.168",
+        "maj": "2026-10-14 11:39:39"
+      },
+      "SP98": {
+        "valeur": "2.295",
+        "maj": "2026-10-14 11:39:39"
+      }
+    }
+  },
+  {
+    "id": "4100009",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Avenue Mestre Raoul Arnaud",
+    "cp": "04100",
+    "ville": "Manosque",
+    "latitude": 43.831,
+    "longitude": 5.779,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-14 22:29:38"
+      },
+      "SP95": {
+        "valeur": "2.269",
+        "maj": "2026-10-14 22:29:38"
+      }
+    }
+  },
+  {
+    "id": "4240002",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "CD 908 LE CASTAGNERET",
+    "cp": "04240",
+    "ville": "ANNOT",
+    "latitude": 43.969,
+    "longitude": 6.668,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-01 08:16:29"
+      },
+      "SP95": {
+        "valeur": "2.275",
+        "maj": "2026-10-01 08:16:29"
+      }
+    }
+  },
+  {
+    "id": "4103001",
+    "dep": "04",
+    "enseigne": "Système U",
+    "adresse": "ZI St JosephBP335",
+    "cp": "04100",
+    "ville": "MANOSQUE",
+    "latitude": 43.818,
+    "longitude": 5.799,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.375",
+        "maj": "2026-10-29 06:31:01"
+      },
+      "E85": {
+        "valeur": "0.979",
+        "maj": "2026-10-27 06:32:05"
+      },
+      "E10": {
+        "valeur": "2.057",
+        "maj": "2026-10-29 06:31:01"
+      },
+      "SP98": {
+        "valeur": "2.145",
+        "maj": "2026-10-29 06:31:01"
+      }
+    }
+  },
+  {
+    "id": "4200003",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "route de Sisteron",
+    "cp": "04200",
+    "ville": "PEIPIN",
+    "latitude": 44.14295,
+    "longitude": 5.95926,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-24 07:35:42"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-24 07:35:42"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-24 07:35:42"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-24 07:35:42"
+      }
+    }
+  },
+  {
+    "id": "4000001",
+    "dep": "04",
+    "enseigne": "Carrefour",
+    "adresse": "ROUTE DE MARSEILLE",
+    "cp": "04000",
+    "ville": "DIGNE-LES-BAINS",
+    "latitude": 44.076,
+    "longitude": 6.188,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.441",
+        "maj": "2026-10-28 00:46:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-28 00:46:00"
+      },
+      "GPLc": {
+        "valeur": "1.102",
+        "maj": "2026-10-28 00:46:00"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-28 00:46:00"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-28 00:46:00"
+      }
+    }
+  },
+  {
+    "id": "4120008",
+    "dep": "04",
+    "enseigne": "Auchan supermarché",
+    "adresse": "Route de Digne",
+    "cp": "04120",
+    "ville": "Castellane",
+    "latitude": 43.858137,
+    "longitude": 6.490153,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.441",
+        "maj": "2026-10-28 08:55:25"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-27 10:01:00"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-10-27 10:01:00"
+      }
+    }
+  },
+  {
+    "id": "4160008",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "30 ROUTE NATIONALE 96",
+    "cp": "04160",
+    "ville": "Château-Arnoux-Saint-Auban",
+    "latitude": 44.074616472074,
+    "longitude": 5.992643254634699,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-24 06:11:33"
+      },
+      "E85": {
+        "valeur": "0.839",
+        "maj": "2026-10-24 06:11:33"
+      },
+      "E10": {
+        "valeur": "2.062",
+        "maj": "2026-10-24 06:11:33"
+      }
+    }
+  },
+  {
+    "id": "4700002",
+    "dep": "04",
+    "enseigne": "Intermarché",
+    "adresse": "route La Brillanne",
+    "cp": "04700",
+    "ville": "ORAISON",
+    "latitude": 43.923,
+    "longitude": 5.908,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-24 07:37:32"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-20 07:43:09"
+      },
+      "E10": {
+        "valeur": "2.049",
+        "maj": "2026-10-24 07:37:32"
+      },
+      "SP98": {
+        "valeur": "2.179",
+        "maj": "2026-10-24 07:37:32"
+      }
+    }
+  },
+  {
+    "id": "4400002",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "49 Avenue des trois frères Arnaud",
+    "cp": "04400",
+    "ville": "Barcelonnette",
+    "latitude": 44.386,
+    "longitude": 6.645,
+    "carburants": {}
+  },
+  {
+    "id": "4160007",
+    "dep": "04",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "5 AVENUE CALENDAL QUARTIER DE L'EMPRUNT",
+    "cp": "04160",
+    "ville": "CHATEAU ARNOUX ST AUBAN",
+    "latitude": 44.107,
+    "longitude": 6.005,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.335",
+        "maj": "2026-10-24 06:06:27"
+      },
+      "E10": {
+        "valeur": "2.062",
+        "maj": "2026-10-24 06:06:27"
+      }
+    }
+  },
+  {
+    "id": "4400005",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "27 Avenue Antoine Signoret",
+    "cp": "04400",
+    "ville": "Barcelonnette",
+    "latitude": 44.39,
+    "longitude": 6.669,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-02 09:02:33"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-02 09:02:33"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-02 09:02:33"
+      }
+    }
+  },
+  {
+    "id": "4160006",
+    "dep": "04",
+    "enseigne": "Auchan supermarché",
+    "adresse": "AVENUE DU JASRN 96",
+    "cp": "04160",
+    "ville": "CHATEAU-ARNOUX-SAINT-AUBAN",
+    "latitude": 44.081,
+    "longitude": 6.002,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.369",
+        "maj": "2026-10-24 09:24:54"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-24 09:24:54"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-24 09:24:54"
+      }
+    }
+  },
+  {
+    "id": "4130005",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A51 - AIRE DE MANOSQUE",
+    "cp": "04130",
+    "ville": "VOLX",
+    "latitude": 43.842885752117,
+    "longitude": 5.851421022464799,
+    "carburants": {
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "4700007",
+    "dep": "04",
+    "enseigne": "TotalEnergies",
+    "adresse": "470 AVENUE CHARLES RICHAUD",
+    "cp": "04700",
+    "ville": "ORAISON",
+    "latitude": 43.922299764213,
+    "longitude": 5.914338136639699,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-28 19:55:06"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-28 19:55:06"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-28 19:55:06"
+      }
+    }
+  },
+  {
+    "id": "4100011",
+    "dep": "04",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN96 - CHEMIN DES PLANTIERS",
+    "cp": "04100",
+    "ville": "MANOSQUE",
+    "latitude": 43.823,
+    "longitude": 5.787,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.928",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "0.994",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 00:01:00"
+      }
+    }
+  }
+]
