@@ -1,0 +1,3587 @@
+[
+  {
+    "id": "6110002",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "Boulevard Carnot",
+    "cp": "06110",
+    "ville": "Le Cannet",
+    "latitude": 43.572,
+    "longitude": 7.016,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-29 08:07:48"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-29 08:07:48"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-10-29 08:07:48"
+      }
+    }
+  },
+  {
+    "id": "6201001",
+    "dep": "06",
+    "enseigne": "Carrefour",
+    "adresse": "606 boulevard du mercantour",
+    "cp": "06200",
+    "ville": "Nice",
+    "latitude": 43.73,
+    "longitude": 7.186,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-29 13:10:00"
+      },
+      "E85": {
+        "valeur": "0.979",
+        "maj": "2026-10-29 13:10:00"
+      },
+      "GPLc": {
+        "valeur": "0.935",
+        "maj": "2026-10-22 22:45:00"
+      },
+      "E10": {
+        "valeur": "2.089",
+        "maj": "2026-10-29 13:10:00"
+      },
+      "SP98": {
+        "valeur": "2.209",
+        "maj": "2026-10-29 13:10:00"
+      }
+    }
+  },
+  {
+    "id": "6580001",
+    "dep": "06",
+    "enseigne": "Système U",
+    "adresse": "87 Route de la Fènerie",
+    "cp": "06580",
+    "ville": "PéGOMAS",
+    "latitude": 43.592,
+    "longitude": 6.93,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-27 07:23:45"
+      },
+      "SP95": {
+        "valeur": "2.209",
+        "maj": "2026-10-27 07:23:45"
+      },
+      "E85": {
+        "valeur": "0.889",
+        "maj": "2026-10-27 07:23:45"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-27 07:23:45"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-27 07:23:45"
+      }
+    }
+  },
+  {
+    "id": "6600008",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "20 Boulevard Maréchal Leclerc",
+    "cp": "06600",
+    "ville": "Antibes",
+    "latitude": 43.574,
+    "longitude": 7.124,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.368",
+        "maj": "2026-10-26 11:05:00"
+      },
+      "E85": {
+        "valeur": "1.024",
+        "maj": "2026-10-26 11:05:00"
+      },
+      "E10": {
+        "valeur": "2.118",
+        "maj": "2026-10-26 11:05:00"
+      },
+      "SP98": {
+        "valeur": "2.218",
+        "maj": "2026-10-26 11:05:00"
+      }
+    }
+  },
+  {
+    "id": "6540002",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "839 route de LA GIANDOLA",
+    "cp": "06540",
+    "ville": "Breil-sur-Roya",
+    "latitude": 43.964,
+    "longitude": 7.524,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.433",
+        "maj": "2026-10-13 18:03:39"
+      },
+      "E10": {
+        "valeur": "2.307",
+        "maj": "2026-10-13 18:03:39"
+      },
+      "SP98": {
+        "valeur": "2.363",
+        "maj": "2026-10-13 18:03:40"
+      }
+    }
+  },
+  {
+    "id": "6640002",
+    "dep": "06",
+    "enseigne": "Système U",
+    "adresse": "QUARTIER LE PEYRON",
+    "cp": "06640",
+    "ville": "SAINT JEANNET",
+    "latitude": 43.743572997273,
+    "longitude": 7.1463555621190995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-18 12:31:45"
+      },
+      "E10": {
+        "valeur": "2.305",
+        "maj": "2026-10-18 12:32:08"
+      },
+      "SP98": {
+        "valeur": "2.405",
+        "maj": "2026-10-18 12:32:28"
+      }
+    }
+  },
+  {
+    "id": "6670010",
+    "dep": "06",
+    "enseigne": "Elan",
+    "adresse": "483 AVENUE PORTE DES ALPES",
+    "cp": "06670",
+    "ville": "PLAN DU VAR",
+    "latitude": 43.855493454462994,
+    "longitude": 7.1973328111143005,
+    "carburants": {}
+  },
+  {
+    "id": "6150011",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "56 AVENUE DU DR PICAUD",
+    "cp": "06150",
+    "ville": "CANNES LA BOCCA",
+    "latitude": 43.5506,
+    "longitude": 6.9923,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-29 20:00:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-29 20:00:00"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-29 20:00:00"
+      }
+    }
+  },
+  {
+    "id": "6200031",
+    "dep": "06",
+    "enseigne": "Dyneff",
+    "adresse": "Aéroport Nice Côte d'Azur",
+    "cp": "06200",
+    "ville": "Nice",
+    "latitude": 43.665,
+    "longitude": 7.201,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-29 14:00:00"
+      },
+      "E85": {
+        "valeur": "0.939",
+        "maj": "2026-10-29 14:00:00"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-29 14:00:00"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-29 14:00:00"
+      }
+    }
+  },
+  {
+    "id": "6100006",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "63 BOULEVARD GORBELLA",
+    "cp": "06100",
+    "ville": "Nice",
+    "latitude": 43.724,
+    "longitude": 7.256,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-29 16:38:33"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-27 13:39:24"
+      },
+      "SP98": {
+        "valeur": "2.479",
+        "maj": "2026-10-27 13:39:24"
+      }
+    }
+  },
+  {
+    "id": "6510003",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "345 AV DE LA TOURRE",
+    "cp": "06510",
+    "ville": "GATTIERES",
+    "latitude": 43.764,
+    "longitude": 7.2,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.457",
+        "maj": "2026-10-27 08:47:11"
+      },
+      "E10": {
+        "valeur": "2.106",
+        "maj": "2026-10-27 08:47:12"
+      },
+      "SP98": {
+        "valeur": "2.226",
+        "maj": "2026-10-27 08:47:12"
+      }
+    }
+  },
+  {
+    "id": "6200014",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "Route de Grenoble",
+    "cp": "06200",
+    "ville": "Nice",
+    "latitude": 43.759,
+    "longitude": 7.2,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.438",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-28 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "6110010",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "ZAC Les Mimosas, 374 Av. Général de Gaulle",
+    "cp": "06110",
+    "ville": "Le Cannet",
+    "latitude": 43.569,
+    "longitude": 6.996,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-20 07:26:33"
+      },
+      "E85": {
+        "valeur": "0.878",
+        "maj": "2026-10-20 07:26:33"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-20 07:26:33"
+      }
+    }
+  },
+  {
+    "id": "6300018",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "93 ROUTE DE TURIN RN 204",
+    "cp": "06300",
+    "ville": "NICE",
+    "latitude": 43.72,
+    "longitude": 7.286,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6410003",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "518 Route de la Mer",
+    "cp": "06410",
+    "ville": "BIOT",
+    "latitude": 43.62474,
+    "longitude": 7.10244,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.488",
+        "maj": "2026-10-15 08:27:29"
+      },
+      "SP95": {
+        "valeur": "2.302",
+        "maj": "2026-10-15 08:27:29"
+      },
+      "SP98": {
+        "valeur": "2.355",
+        "maj": "2026-09-30 06:35:09"
+      }
+    }
+  },
+  {
+    "id": "6800031",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "26 AVENUE DE CANNES",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.654,
+    "longitude": 7.147,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-29 21:00:00"
+      },
+      "E85": {
+        "valeur": "0.969",
+        "maj": "2026-10-29 21:00:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-29 21:00:00"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-29 21:00:00"
+      }
+    }
+  },
+  {
+    "id": "6150005",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue Francis Tonner",
+    "cp": "06150",
+    "ville": "CANNES",
+    "latitude": 43.55,
+    "longitude": 6.97,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.376",
+        "maj": "2026-10-14 09:41:17"
+      },
+      "E10": {
+        "valeur": "2.192",
+        "maj": "2026-10-14 09:41:17"
+      },
+      "SP98": {
+        "valeur": "2.298",
+        "maj": "2026-10-14 09:41:17"
+      }
+    }
+  },
+  {
+    "id": "6600012",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "841 Route de Nice",
+    "cp": "06600",
+    "ville": "ANTIBES",
+    "latitude": 43.607,
+    "longitude": 7.124,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 08:18:07"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 08:18:07"
+      }
+    }
+  },
+  {
+    "id": "6190011",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "Avenue de la côte d'Azur, 83",
+    "cp": "06190",
+    "ville": "ROQUEBRUNE CAP MARTIN",
+    "latitude": 43.762348422213,
+    "longitude": 7.457574677783099,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.529",
+        "maj": "2026-10-30 06:00:00"
+      },
+      "E10": {
+        "valeur": "2.269",
+        "maj": "2026-10-30 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.369",
+        "maj": "2026-10-30 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "6800018",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "81 AV. DE LA GARE CD 36",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.66223,
+    "longitude": 7.14933,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6140005",
+    "dep": "06",
+    "enseigne": "Carrefour Contact",
+    "adresse": "976 avenue rhin et danube",
+    "cp": "06140",
+    "ville": "vence",
+    "latitude": 43.725,
+    "longitude": 7.096,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-10-22 09:24:28"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-22 09:24:29"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-22 09:24:29"
+      }
+    }
+  },
+  {
+    "id": "6200026",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "217 PROMENADE DES ANGLAIS",
+    "cp": "06200",
+    "ville": "NICE",
+    "latitude": 43.68588,
+    "longitude": 7.23677,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6460002",
+    "dep": "06",
+    "enseigne": "Intermarché Contact",
+    "adresse": "CHEMIN ST ANNE",
+    "cp": "06460",
+    "ville": "Saint-Vallier-de-Thiey",
+    "latitude": 43.698,
+    "longitude": 6.841,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.466",
+        "maj": "2026-10-28 15:19:19"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-28 15:19:19"
+      },
+      "E10": {
+        "valeur": "2.146",
+        "maj": "2026-10-28 15:19:19"
+      },
+      "SP98": {
+        "valeur": "2.236",
+        "maj": "2026-10-28 15:19:19"
+      }
+    }
+  },
+  {
+    "id": "6700006",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "702 AVENUE DU GENERAL DE GAULLE",
+    "cp": "06700",
+    "ville": "Saint-Laurent-du-Var",
+    "latitude": 43.669,
+    "longitude": 7.192,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.955",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6530002",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "94 Avenue de Boutiny",
+    "cp": "06530",
+    "ville": "Peymeinade",
+    "latitude": 43.64464,
+    "longitude": 6.88496,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.418",
+        "maj": "2026-10-28 10:53:49"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-02 12:14:03"
+      },
+      "E10": {
+        "valeur": "2.096",
+        "maj": "2026-10-28 10:53:49"
+      },
+      "SP98": {
+        "valeur": "2.186",
+        "maj": "2026-10-28 10:53:49"
+      }
+    }
+  },
+  {
+    "id": "6530008",
+    "dep": "06",
+    "enseigne": "Carrefour Contact",
+    "adresse": "ROUTE DE GRASSE",
+    "cp": "06530",
+    "ville": "SAINT-CEZAIRE-SUR-SIAGNE",
+    "latitude": 43.650151177447,
+    "longitude": 6.8105790964874,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-23 05:00:00"
+      },
+      "SP95": {
+        "valeur": "2.159",
+        "maj": "2026-10-23 05:00:00"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-10-23 05:00:00"
+      }
+    }
+  },
+  {
+    "id": "6110008",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "14 Chemin des Campelières",
+    "cp": "06110",
+    "ville": "Le Cannet",
+    "latitude": 43.581,
+    "longitude": 7.007,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-30 07:11:45"
+      },
+      "E85": {
+        "valeur": "1.098",
+        "maj": "2026-09-12 08:17:34"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-09-24 06:22:40"
+      },
+      "SP98": {
+        "valeur": "2.359",
+        "maj": "2026-09-24 07:43:15"
+      }
+    }
+  },
+  {
+    "id": "6500005",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "45 AV DE ST ROMAN",
+    "cp": "06500",
+    "ville": "MENTON",
+    "latitude": 43.805,
+    "longitude": 7.487,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.465",
+        "maj": "2026-10-29 08:53:58"
+      },
+      "SP95": {
+        "valeur": "2.299",
+        "maj": "2026-10-29 08:53:58"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-29 08:53:58"
+      },
+      "E10": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 08:53:58"
+      },
+      "SP98": {
+        "valeur": "2.325",
+        "maj": "2026-10-29 08:53:58"
+      }
+    }
+  },
+  {
+    "id": "6250012",
+    "dep": "06",
+    "enseigne": "Shell",
+    "adresse": "AUTOROUTE A8 - AIRE DES BREGUIÈRES",
+    "cp": "06250",
+    "ville": "MOUGINS",
+    "latitude": 43.592039865594,
+    "longitude": 7.0361577914048,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.745",
+        "maj": "2026-10-29 09:30:00"
+      },
+      "E10": {
+        "valeur": "2.476",
+        "maj": "2026-10-29 09:30:00"
+      },
+      "SP98": {
+        "valeur": "2.626",
+        "maj": "2026-10-29 09:30:00"
+      }
+    }
+  },
+  {
+    "id": "6210009",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "ROUTE NATIONALE 7",
+    "cp": "06210",
+    "ville": "Mandelieu-la-Napoule",
+    "latitude": 43.522,
+    "longitude": 6.899,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.559",
+        "maj": "2026-10-27 13:35:03"
+      },
+      "E85": {
+        "valeur": "0.939",
+        "maj": "2026-10-27 13:35:03"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-27 13:35:03"
+      },
+      "SP98": {
+        "valeur": "2.449",
+        "maj": "2026-10-27 13:35:03"
+      }
+    }
+  },
+  {
+    "id": "6430001",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "Quartier celestrera",
+    "cp": "06430",
+    "ville": "Tende",
+    "latitude": 44.088,
+    "longitude": 7.594,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.500",
+        "maj": "2026-10-23 15:48:22"
+      },
+      "SP95": {
+        "valeur": "2.250",
+        "maj": "2026-10-23 15:48:22"
+      }
+    }
+  },
+  {
+    "id": "6560001",
+    "dep": "06",
+    "enseigne": "Carrefour Market",
+    "adresse": "Chemin du Darbousson",
+    "cp": "06560",
+    "ville": "VALBONNE",
+    "latitude": 43.645,
+    "longitude": 7.049,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-23 08:28:17"
+      },
+      "E10": {
+        "valeur": "2.077",
+        "maj": "2026-10-23 08:28:18"
+      },
+      "SP98": {
+        "valeur": "2.176",
+        "maj": "2026-10-23 08:28:18"
+      }
+    }
+  },
+  {
+    "id": "6650003",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "Rond Point Font Neuve",
+    "cp": "06650",
+    "ville": "Opio",
+    "latitude": 43.668,
+    "longitude": 6.985,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.790",
+        "maj": "2026-09-15 12:28:49"
+      },
+      "E10": {
+        "valeur": "2.580",
+        "maj": "2026-09-15 12:28:49"
+      }
+    }
+  },
+  {
+    "id": "6156001",
+    "dep": "06",
+    "enseigne": "Carrefour Market",
+    "adresse": "Z.I. Les Tourrades",
+    "cp": "06150",
+    "ville": "Cannes",
+    "latitude": 43.571,
+    "longitude": 6.959,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-30 00:46:00"
+      },
+      "E85": {
+        "valeur": "0.928",
+        "maj": "2026-10-30 00:46:00"
+      },
+      "GPLc": {
+        "valeur": "0.979",
+        "maj": "2026-01-29 12:08:45"
+      },
+      "E10": {
+        "valeur": "2.077",
+        "maj": "2026-10-30 00:46:00"
+      },
+      "SP98": {
+        "valeur": "2.174",
+        "maj": "2026-10-30 00:46:00"
+      }
+    }
+  },
+  {
+    "id": "6310002",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN.559 BASSE CORNICHE",
+    "cp": "06310",
+    "ville": "Beaulieu-sur-Mer",
+    "latitude": 43.707,
+    "longitude": 7.334,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6300012",
+    "dep": "06",
+    "enseigne": "Dyneff",
+    "adresse": "10 Corniche André de Joly",
+    "cp": "06300",
+    "ville": "Nice",
+    "latitude": 43.702,
+    "longitude": 7.294,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.482",
+        "maj": "2026-10-22 07:55:11"
+      },
+      "E10": {
+        "valeur": "2.290",
+        "maj": "2026-10-22 07:55:11"
+      },
+      "SP98": {
+        "valeur": "2.422",
+        "maj": "2026-10-22 07:55:11"
+      }
+    }
+  },
+  {
+    "id": "6750002",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "7794 ROUTE NAPOLÉON",
+    "cp": "06750",
+    "ville": "Séranon",
+    "latitude": 43.764,
+    "longitude": 6.656,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.460",
+        "maj": "2026-10-27 10:55:10"
+      },
+      "E10": {
+        "valeur": "2.190",
+        "maj": "2026-10-27 10:55:10"
+      },
+      "SP98": {
+        "valeur": "2.260",
+        "maj": "2026-10-27 10:55:10"
+      }
+    }
+  },
+  {
+    "id": "6150007",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "1 AV.VICTOR HUGO",
+    "cp": "06150",
+    "ville": "Cannes",
+    "latitude": 43.569,
+    "longitude": 6.966,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.408",
+        "maj": "2026-10-29 09:05:46"
+      },
+      "E10": {
+        "valeur": "2.088",
+        "maj": "2026-10-29 09:05:47"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-27 09:28:13"
+      }
+    }
+  },
+  {
+    "id": "6110011",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "34 Avenue Franklin Roosevelt",
+    "cp": "06110",
+    "ville": "LE CANNET",
+    "latitude": 43.570509,
+    "longitude": 7.002945,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-26 08:00:00"
+      },
+      "SP95": {
+        "valeur": "2.139",
+        "maj": "2026-10-26 08:00:00"
+      },
+      "E10": {
+        "valeur": "2.089",
+        "maj": "2026-10-26 08:00:00"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-26 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "6700008",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "ZI A4 AVENUE PIERRE ET MARIE CURIE",
+    "cp": "06700",
+    "ville": "Saint-Laurent-du-Var",
+    "latitude": 43.686012971315996,
+    "longitude": 7.1871525112118,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-28 12:17:22"
+      },
+      "E85": {
+        "valeur": "0.936",
+        "maj": "2026-10-28 12:17:22"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-28 12:17:23"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-28 12:17:23"
+      }
+    }
+  },
+  {
+    "id": "6500004",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "91, route Val des Castagnins",
+    "cp": "06500",
+    "ville": "MENTON",
+    "latitude": 43.78,
+    "longitude": 7.482,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.455",
+        "maj": "2026-10-21 09:02:39"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-21 09:02:40"
+      },
+      "E10": {
+        "valeur": "2.250",
+        "maj": "2026-10-21 09:02:40"
+      },
+      "SP98": {
+        "valeur": "2.325",
+        "maj": "2026-10-21 09:02:40"
+      }
+    }
+  },
+  {
+    "id": "6600023",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "1945 ROUTE DE GRASSE",
+    "cp": "06600",
+    "ville": "ANTIBES",
+    "latitude": 43.598,
+    "longitude": 7.088,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6220006",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "1750 CHEMIN SAINT BERNARD",
+    "cp": "06220",
+    "ville": "VALLAURIS",
+    "latitude": 43.593,
+    "longitude": 7.057,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-28 08:28:13"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-14 08:15:51"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-21 08:26:01"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-21 08:26:01"
+      }
+    }
+  },
+  {
+    "id": "6610002",
+    "dep": "06",
+    "enseigne": "Dyneff",
+    "adresse": "646 ROUTE DE SAINT LAURENT",
+    "cp": "06610",
+    "ville": "LA GAUDE",
+    "latitude": 43.732,
+    "longitude": 7.163,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.463",
+        "maj": "2026-10-16 09:11:27"
+      },
+      "SP95": {
+        "valeur": "2.229",
+        "maj": "2026-10-16 09:11:27"
+      },
+      "SP98": {
+        "valeur": "2.288",
+        "maj": "2026-10-16 09:11:27"
+      }
+    }
+  },
+  {
+    "id": "6600022",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "2 AVENUE DE NICE",
+    "cp": "06600",
+    "ville": "ANTIBES",
+    "latitude": 43.589,
+    "longitude": 7.12,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.938",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6110004",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "150 AVENUE DU CAMPON",
+    "cp": "06110",
+    "ville": "Le Cannet",
+    "latitude": 43.575,
+    "longitude": 7.012,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.407",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "E85": {
+        "valeur": "1.064",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "E10": {
+        "valeur": "2.137",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "SP98": {
+        "valeur": "2.237",
+        "maj": "2026-10-28 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "6300016",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "27 AVENUE DENIS SEMERIA",
+    "cp": "06300",
+    "ville": "NICE",
+    "latitude": 43.715,
+    "longitude": 7.287,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 06:00:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 06:00:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "6420001",
+    "dep": "06",
+    "enseigne": "Dyneff",
+    "adresse": "Quartier Saint-Pierre",
+    "cp": "06420",
+    "ville": "ISOLA",
+    "latitude": 44.184,
+    "longitude": 7.056,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.599",
+        "maj": "2026-09-21 23:52:00"
+      },
+      "SP95": {
+        "valeur": "2.388",
+        "maj": "2026-09-21 23:52:00"
+      },
+      "SP98": {
+        "valeur": "2.467",
+        "maj": "2026-09-21 23:52:00"
+      }
+    }
+  },
+  {
+    "id": "6550002",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "Avenue de la République",
+    "cp": "06550",
+    "ville": "La Roquette-sur-Siagne",
+    "latitude": 43.576,
+    "longitude": 6.952,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-23 18:47:52"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-23 18:47:52"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-10-23 18:47:52"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-23 18:47:52"
+      }
+    }
+  },
+  {
+    "id": "6300019",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "94 CORNICHE ANDRE DE JOLY",
+    "cp": "06300",
+    "ville": "Nice",
+    "latitude": 43.702,
+    "longitude": 7.293,
+    "carburants": {}
+  },
+  {
+    "id": "6130013",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "13 route de Draguignan",
+    "cp": "06130",
+    "ville": "Grasse",
+    "latitude": 43.641,
+    "longitude": 6.909,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.495",
+        "maj": "2026-10-28 15:08:39"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-09-25 15:26:27"
+      },
+      "E10": {
+        "valeur": "2.165",
+        "maj": "2026-10-28 15:09:23"
+      },
+      "SP98": {
+        "valeur": "2.235",
+        "maj": "2026-10-28 15:08:40"
+      }
+    }
+  },
+  {
+    "id": "6220003",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "117 Vieille Route de Cannes",
+    "cp": "06220",
+    "ville": "VALLAURIS",
+    "latitude": 43.56968,
+    "longitude": 7.04684,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.392",
+        "maj": "2026-10-27 08:14:56"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-16 11:35:22"
+      },
+      "E10": {
+        "valeur": "2.046",
+        "maj": "2026-10-23 07:42:45"
+      },
+      "SP98": {
+        "valeur": "2.160",
+        "maj": "2026-10-23 07:42:45"
+      }
+    }
+  },
+  {
+    "id": "6520001",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "194 Avenue Auguste Renoir",
+    "cp": "06520",
+    "ville": "Grasse",
+    "latitude": 43.681,
+    "longitude": 6.969,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-28 11:20:00"
+      },
+      "E10": {
+        "valeur": "2.107",
+        "maj": "2026-10-28 11:20:00"
+      },
+      "SP98": {
+        "valeur": "2.207",
+        "maj": "2026-10-28 11:20:00"
+      }
+    }
+  },
+  {
+    "id": "6700005",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "526 ROUTE DES VESPINS (RN7)",
+    "cp": "06700",
+    "ville": "Saint-Laurent-du-Var",
+    "latitude": 43.66001,
+    "longitude": 7.18354,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.450",
+        "maj": "2026-10-06 06:24:09"
+      },
+      "SP95": {
+        "valeur": "2.480",
+        "maj": "2026-10-06 06:05:52"
+      },
+      "E10": {
+        "valeur": "2.460",
+        "maj": "2026-10-06 06:05:52"
+      },
+      "SP98": {
+        "valeur": "2.540",
+        "maj": "2026-10-06 06:05:52"
+      }
+    }
+  },
+  {
+    "id": "6670011",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "RN 202 PONT DE LA MANDA",
+    "cp": "06670",
+    "ville": "Colomars",
+    "latitude": 43.762,
+    "longitude": 7.203,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-29 21:00:00"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-29 21:00:00"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-29 21:00:00"
+      }
+    }
+  },
+  {
+    "id": "6160008",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "122-124 Boulevard Raymond Poincaré",
+    "cp": "06160",
+    "ville": "Antibes",
+    "latitude": 43.572753662013,
+    "longitude": 7.101651755897599,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-30 05:45:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-30 05:45:00"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-30 05:45:00"
+      }
+    }
+  },
+  {
+    "id": "6240004",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "96 avenue Prince Rainier III",
+    "cp": "06240",
+    "ville": "Beausoleil",
+    "latitude": 43.745,
+    "longitude": 7.427,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-23 05:47:36"
+      },
+      "SP95": {
+        "valeur": "2.271",
+        "maj": "2026-10-23 05:47:36"
+      },
+      "SP98": {
+        "valeur": "2.346",
+        "maj": "2026-10-23 05:47:36"
+      }
+    }
+  },
+  {
+    "id": "6400005",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "96 Avenue Maréchal Juin",
+    "cp": "06400",
+    "ville": "Cannes",
+    "latitude": 43.54738,
+    "longitude": 7.04418,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.610",
+        "maj": "2026-10-02 06:41:41"
+      },
+      "SP95": {
+        "valeur": "2.350",
+        "maj": "2026-10-27 07:41:24"
+      },
+      "SP98": {
+        "valeur": "2.380",
+        "maj": "2026-10-27 07:41:24"
+      }
+    }
+  },
+  {
+    "id": "6300008",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "11 Boulevard Pierre Sémard",
+    "cp": "06300",
+    "ville": "Nice",
+    "latitude": 43.722,
+    "longitude": 7.292,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.451",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "E10": {
+        "valeur": "2.125",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "SP98": {
+        "valeur": "2.225",
+        "maj": "2026-10-28 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "6296001",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "111 Avenue Saint-Augustin",
+    "cp": "06200",
+    "ville": "Nice",
+    "latitude": 43.6775,
+    "longitude": 7.22636,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.479",
+        "maj": "2026-10-28 09:09:00"
+      },
+      "SP95": {
+        "valeur": "2.298",
+        "maj": "2026-09-15 09:38:18"
+      }
+    }
+  },
+  {
+    "id": "6400004",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "106 Avenue Maréchal Juin",
+    "cp": "06400",
+    "ville": "Cannes",
+    "latitude": 43.547,
+    "longitude": 7.046,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.405",
+        "maj": "2026-10-29 07:31:00"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-10-29 07:31:00"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-29 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "6320006",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "77 AVENUE DU 3 SEPTEMBRE",
+    "cp": "06320",
+    "ville": "Cap-d'Ail",
+    "latitude": 43.72306286293401,
+    "longitude": 7.3977043091927,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6600009",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "29 BD GENERAL VAUTRIN",
+    "cp": "06600",
+    "ville": "Antibes",
+    "latitude": 43.587,
+    "longitude": 7.119,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.368",
+        "maj": "2026-10-27 07:31:00"
+      },
+      "E10": {
+        "valeur": "2.118",
+        "maj": "2026-10-27 07:31:00"
+      },
+      "SP98": {
+        "valeur": "2.218",
+        "maj": "2026-10-27 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "6600010",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "236 Route de Grasse",
+    "cp": "06600",
+    "ville": "Antibes",
+    "latitude": 43.592,
+    "longitude": 7.105,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.384",
+        "maj": "2026-10-29 07:31:00"
+      },
+      "E10": {
+        "valeur": "2.142",
+        "maj": "2026-10-29 07:31:00"
+      },
+      "SP98": {
+        "valeur": "2.242",
+        "maj": "2026-10-29 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "6650002",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "20 Route de Cannes",
+    "cp": "06650",
+    "ville": "OPIO",
+    "latitude": 43.65814,
+    "longitude": 6.99578,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.490",
+        "maj": "2026-09-09 06:40:23"
+      },
+      "SP95": {
+        "valeur": "2.320",
+        "maj": "2026-09-09 06:40:23"
+      },
+      "E85": {
+        "valeur": "1.210",
+        "maj": "2026-09-09 06:40:23"
+      },
+      "SP98": {
+        "valeur": "2.480",
+        "maj": "2026-09-09 06:40:24"
+      }
+    }
+  },
+  {
+    "id": "6800006",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "Boulevard de la Plage",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.657,
+    "longitude": 7.174,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-29 20:00:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-29 20:00:00"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-29 20:00:00"
+      }
+    }
+  },
+  {
+    "id": "6130008",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "35 Avenue de la Libération",
+    "cp": "06130",
+    "ville": "Grasse",
+    "latitude": 43.648,
+    "longitude": 6.915,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.429",
+        "maj": "2026-10-28 11:20:00"
+      },
+      "E85": {
+        "valeur": "1.040",
+        "maj": "2026-10-28 11:20:00"
+      },
+      "E10": {
+        "valeur": "2.107",
+        "maj": "2026-10-28 11:20:00"
+      },
+      "SP98": {
+        "valeur": "2.207",
+        "maj": "2026-10-28 11:20:00"
+      }
+    }
+  },
+  {
+    "id": "62000015",
+    "dep": "06",
+    "enseigne": "ENI",
+    "adresse": "61 AVENUE STE MARGUERITE",
+    "cp": "06200",
+    "ville": "NICE",
+    "latitude": 43.678,
+    "longitude": 7.219,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.529",
+        "maj": "2026-10-29 20:00:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-29 20:00:00"
+      },
+      "SP98": {
+        "valeur": "2.329",
+        "maj": "2026-10-29 20:00:00"
+      }
+    }
+  },
+  {
+    "id": "6800025",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "5 AVENUE CHEIRON",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.67,
+    "longitude": 7.125,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-10-27 13:37:33"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-28 13:35:23"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-27 13:37:33"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-27 13:37:33"
+      }
+    }
+  },
+  {
+    "id": "6200032",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "ZAC ARENAS 125 BD RENE CASSIN",
+    "cp": "06200",
+    "ville": "NICE",
+    "latitude": 43.67,
+    "longitude": 7.217,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-29 16:35:37"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-29 16:35:37"
+      },
+      "E10": {
+        "valeur": "2.249",
+        "maj": "2026-10-29 16:35:36"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-29 16:35:37"
+      }
+    }
+  },
+  {
+    "id": "6130009",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "111 Route de la Paoute",
+    "cp": "06130",
+    "ville": "GRASSE",
+    "latitude": 43.633,
+    "longitude": 6.958,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-10-29 16:37:23"
+      },
+      "E85": {
+        "valeur": "1.009",
+        "maj": "2026-10-29 16:37:23"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-29 16:37:23"
+      },
+      "SP98": {
+        "valeur": "2.389",
+        "maj": "2026-10-29 16:37:23"
+      }
+    }
+  },
+  {
+    "id": "6250011",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "1064-1126 AVENUE SAINT MARTIN",
+    "cp": "06250",
+    "ville": "MOUGINS",
+    "latitude": 43.612,
+    "longitude": 6.978,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.479",
+        "maj": "2026-10-29 16:34:03"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-29 16:34:03"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-27 13:34:58"
+      },
+      "SP98": {
+        "valeur": "2.399",
+        "maj": "2026-10-27 13:34:58"
+      }
+    }
+  },
+  {
+    "id": "6500010",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "1 AVENUE GENERAL DE GAULLE",
+    "cp": "06500",
+    "ville": "MENTON",
+    "latitude": 43.766,
+    "longitude": 7.487,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.439",
+        "maj": "2026-10-27 13:34:53"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-28 13:33:13"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-27 13:34:53"
+      },
+      "SP98": {
+        "valeur": "2.409",
+        "maj": "2026-10-27 13:34:53"
+      }
+    }
+  },
+  {
+    "id": "6600001",
+    "dep": "06",
+    "enseigne": "Carrefour",
+    "adresse": "Chemin de Saint-Claude",
+    "cp": "06600",
+    "ville": "ANTIBES",
+    "latitude": 43.603,
+    "longitude": 7.085,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-28 13:11:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-10-29 11:52:34"
+      },
+      "E10": {
+        "valeur": "2.098",
+        "maj": "2026-10-29 11:52:34"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-23 08:26:00"
+      }
+    }
+  },
+  {
+    "id": "6000032",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "123 Boulevard Gambetta",
+    "cp": "06000",
+    "ville": "Nice",
+    "latitude": 43.71,
+    "longitude": 7.256,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-29 16:34:46"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-29 16:34:46"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-27 13:37:03"
+      },
+      "SP98": {
+        "valeur": "2.479",
+        "maj": "2026-10-27 13:37:04"
+      }
+    }
+  },
+  {
+    "id": "6400010",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "57 BD DU RIOU",
+    "cp": "06400",
+    "ville": "CANNES",
+    "latitude": 43.559,
+    "longitude": 7.002,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.929",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6270004",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "ROUTE DU BORD DE MER",
+    "cp": "06270",
+    "ville": "VILLENEUVE LOUBET",
+    "latitude": 43.64,
+    "longitude": 7.139,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-29 08:32:51"
+      },
+      "GPLc": {
+        "valeur": "1.189",
+        "maj": "2026-10-29 08:32:51"
+      },
+      "E10": {
+        "valeur": "2.049",
+        "maj": "2026-10-29 08:32:51"
+      },
+      "SP98": {
+        "valeur": "2.169",
+        "maj": "2026-10-29 08:32:51"
+      }
+    }
+  },
+  {
+    "id": "6800017",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "53 AVENUE DU VAL FLEURI",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.665,
+    "longitude": 7.171,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.955",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6000007",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "77 Promenade des Anglais",
+    "cp": "06000",
+    "ville": "NICE",
+    "latitude": 43.69233,
+    "longitude": 7.24991,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-27 06:06:00"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-27 06:00:00"
+      },
+      "SP98": {
+        "valeur": "2.275",
+        "maj": "2026-10-26 16:53:19"
+      }
+    }
+  },
+  {
+    "id": "6560006",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "1600 ROUTE DE CANNES",
+    "cp": "06560",
+    "ville": "Valbonne",
+    "latitude": 43.626985999999995,
+    "longitude": 6.99861,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-28 19:26:36"
+      },
+      "E85": {
+        "valeur": "0.937",
+        "maj": "2026-10-28 19:26:36"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-28 19:26:36"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-28 19:26:36"
+      }
+    }
+  },
+  {
+    "id": "6140004",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "891 ROUTE DE ST PAUL",
+    "cp": "06140",
+    "ville": "VENCE",
+    "latitude": 43.715025979924,
+    "longitude": 7.117118026644899,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6480002",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "344, Chemin des Moulières",
+    "cp": "06480",
+    "ville": "LA COLLE-SUR-LOUP",
+    "latitude": 43.674,
+    "longitude": 7.123,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.348",
+        "maj": "2026-10-29 22:15:00"
+      },
+      "SP95": {
+        "valeur": "2.125",
+        "maj": "2026-10-29 22:15:00"
+      },
+      "E10": {
+        "valeur": "2.045",
+        "maj": "2026-10-29 22:15:00"
+      },
+      "SP98": {
+        "valeur": "2.159",
+        "maj": "2026-10-29 22:15:00"
+      }
+    }
+  },
+  {
+    "id": "6320003",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "AUTOROUTE A8 / ESSO - BP 102 (4391808)",
+    "cp": "06320",
+    "ville": "La Turbie",
+    "latitude": 43.755,
+    "longitude": 7.398,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.502",
+        "maj": "2026-10-27 09:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.009",
+        "maj": "2026-10-27 09:30:00"
+      },
+      "E10": {
+        "valeur": "2.261",
+        "maj": "2026-10-27 09:30:00"
+      },
+      "SP98": {
+        "valeur": "2.354",
+        "maj": "2026-10-27 09:30:00"
+      }
+    }
+  },
+  {
+    "id": "6250010",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "492 ROUTE DU CANNET",
+    "cp": "06250",
+    "ville": "MOUGINS",
+    "latitude": 43.5833864141,
+    "longitude": 7.009567855869999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.928",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6110009",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "BOULEVARD JEAN MOULIN",
+    "cp": "06110",
+    "ville": "LE CANNET",
+    "latitude": 43.562,
+    "longitude": 6.967,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6320004",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Quartier le Prat",
+    "cp": "06320",
+    "ville": "LA TURBIE",
+    "latitude": 43.745,
+    "longitude": 7.392,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.487",
+        "maj": "2026-10-20 17:42:26"
+      },
+      "SP95": {
+        "valeur": "2.398",
+        "maj": "2026-10-20 17:42:26"
+      },
+      "E85": {
+        "valeur": "1.118",
+        "maj": "2026-09-09 11:05:12"
+      },
+      "SP98": {
+        "valeur": "2.443",
+        "maj": "2026-10-20 17:42:26"
+      }
+    }
+  },
+  {
+    "id": "6190004",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "171 Avenue Louis Pasteur",
+    "cp": "06190",
+    "ville": "Roquebrune-Cap-Martin",
+    "latitude": 43.764,
+    "longitude": 7.48,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.519",
+        "maj": "2026-10-28 08:16:56"
+      },
+      "E85": {
+        "valeur": "1.149",
+        "maj": "2026-10-28 08:16:56"
+      },
+      "E10": {
+        "valeur": "2.179",
+        "maj": "2026-10-28 08:16:57"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-28 08:16:57"
+      }
+    }
+  },
+  {
+    "id": "6670007",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RD 6202",
+    "cp": "06670",
+    "ville": "COLOMARS",
+    "latitude": 43.76,
+    "longitude": 7.2,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6500008",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "PORTE DE FRANCE",
+    "cp": "06500",
+    "ville": "MENTON",
+    "latitude": 43.784,
+    "longitude": 7.521,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 06:00:00"
+      }
+    }
+  },
+  {
+    "id": "6400001",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "26 Boulevard de la République",
+    "cp": "06400",
+    "ville": "Cannes",
+    "latitude": 43.5553,
+    "longitude": 7.02483,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-13 08:31:18"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 08:31:18"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-13 08:31:18"
+      }
+    }
+  },
+  {
+    "id": "6600007",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "136 Route de Nice",
+    "cp": "06600",
+    "ville": "ANTIBES",
+    "latitude": 43.600876047599996,
+    "longitude": 7.12225595196,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.375",
+        "maj": "2026-10-27 06:32:44"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-10-09 23:03:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-09 23:03:00"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-09 23:03:00"
+      }
+    }
+  },
+  {
+    "id": "6000026",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "10 BOULEVARD ARMEE DES ALPES",
+    "cp": "06300",
+    "ville": "NICE",
+    "latitude": 43.707,
+    "longitude": 7.292,
+    "carburants": {}
+  },
+  {
+    "id": "6370003",
+    "dep": "06",
+    "enseigne": "Auchan supermarché",
+    "adresse": "1005 Chemin des Gourettes",
+    "cp": "06370",
+    "ville": "Mouans Sartoux",
+    "latitude": 43.613699062005004,
+    "longitude": 6.9763560462734,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-29 14:34:39"
+      },
+      "E85": {
+        "valeur": "0.849",
+        "maj": "2026-10-29 14:34:39"
+      },
+      "E10": {
+        "valeur": "2.098",
+        "maj": "2026-10-29 14:34:39"
+      },
+      "SP98": {
+        "valeur": "2.188",
+        "maj": "2026-10-29 14:34:39"
+      }
+    }
+  },
+  {
+    "id": "6260002",
+    "dep": "06",
+    "enseigne": "Carrefour Market",
+    "adresse": "RN 202 Quartier St-Roch",
+    "cp": "06260",
+    "ville": "PUGET-THENIERS",
+    "latitude": 43.954755139463,
+    "longitude": 6.89044101879,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.289",
+        "maj": "2026-09-25 15:46:52"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-09-25 15:46:52"
+      },
+      "SP98": {
+        "valeur": "2.279",
+        "maj": "2026-09-25 15:46:52"
+      }
+    }
+  },
+  {
+    "id": "6450002",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Quartier Gordolon RM2565",
+    "cp": "06450",
+    "ville": "La Bollène-Vésubie",
+    "latitude": 43.993,
+    "longitude": 7.319,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-27 07:15:56"
+      },
+      "SP95": {
+        "valeur": "2.249",
+        "maj": "2026-10-24 08:17:52"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-24 08:17:52"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-10-24 08:17:53"
+      }
+    }
+  },
+  {
+    "id": "6200027",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "280 ROUTE DE GRENOBLE",
+    "cp": "06200",
+    "ville": "NICE",
+    "latitude": 43.68801625970001,
+    "longitude": 7.197364288269999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.938",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6340002",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "240 Voie Communale des Plans de la Bégude",
+    "cp": "06340",
+    "ville": "Cantaron",
+    "latitude": 43.775,
+    "longitude": 7.335,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.364",
+        "maj": "2026-10-30 06:20:18"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-28 06:14:21"
+      },
+      "E10": {
+        "valeur": "2.029",
+        "maj": "2026-10-30 06:20:18"
+      },
+      "SP98": {
+        "valeur": "2.139",
+        "maj": "2026-10-30 06:20:18"
+      }
+    }
+  },
+  {
+    "id": "6600024",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RD 35 1856 RTE DE GRASSE",
+    "cp": "06600",
+    "ville": "ANTIBES",
+    "latitude": 43.599,
+    "longitude": 7.087,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.928",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6150008",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "AEROPORT CANNES MANDELIEU RN 7",
+    "cp": "06150",
+    "ville": "Cannes",
+    "latitude": 43.55,
+    "longitude": 6.958,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.928",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6260001",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "QUARTIER L'ISLE RN.202",
+    "cp": "06260",
+    "ville": "PUGET-THéNIERS",
+    "latitude": 43.95599,
+    "longitude": 6.89387,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 18:15:54"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 18:15:54"
+      }
+    }
+  },
+  {
+    "id": "6700002",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "373 Avenue du Général de Gaulle",
+    "cp": "06700",
+    "ville": "SAINT-LAURENT-DU-VAR",
+    "latitude": 43.666,
+    "longitude": 7.193,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-26 23:20:00"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-10-26 23:20:00"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-10-26 23:20:00"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-26 23:20:00"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-26 23:20:00"
+      }
+    }
+  },
+  {
+    "id": "6230003",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "1280 BOULEVARD NAPOLEON 3",
+    "cp": "06230",
+    "ville": "Villefranche-sur-Mer",
+    "latitude": 43.706,
+    "longitude": 7.32,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6530009",
+    "dep": "06",
+    "enseigne": "Carrefour Market",
+    "adresse": "FAISSE LONGUE",
+    "cp": "06530",
+    "ville": "LE TIGNET",
+    "latitude": 43.634466130711,
+    "longitude": 6.8536449026235,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-29 09:09:41"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-10-29 09:09:41"
+      }
+    }
+  },
+  {
+    "id": "6600026",
+    "dep": "06",
+    "enseigne": "Auchan supermarché",
+    "adresse": "Av. Philippe Rochat",
+    "cp": "06600",
+    "ville": "Antibes",
+    "latitude": 43.590643167347004,
+    "longitude": 7.109473952493801,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.359",
+        "maj": "2026-10-23 09:05:27"
+      },
+      "E85": {
+        "valeur": "0.943",
+        "maj": "2026-10-26 11:15:37"
+      },
+      "E10": {
+        "valeur": "2.109",
+        "maj": "2026-10-22 10:27:03"
+      },
+      "SP98": {
+        "valeur": "2.199",
+        "maj": "2026-10-22 10:27:03"
+      }
+    }
+  },
+  {
+    "id": "6130010",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "QUARTIER MOULIN DE BRUN RD.4",
+    "cp": "06130",
+    "ville": "GRASSE",
+    "latitude": 43.654,
+    "longitude": 6.943,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6510001",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "854 rd1 QR MOURLANCHINIERS",
+    "cp": "06510",
+    "ville": "Carros",
+    "latitude": 43.776,
+    "longitude": 7.199,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-05 11:07:17"
+      }
+    }
+  },
+  {
+    "id": "6220005",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "RN7 LA BATTERIE",
+    "cp": "06220",
+    "ville": "Golfe-Juan",
+    "latitude": 43.58,
+    "longitude": 7.062,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6610005",
+    "dep": "06",
+    "enseigne": "Carrefour Contact",
+    "adresse": "ROUTE DE CAGNES",
+    "cp": "06610",
+    "ville": "LA GAUDE",
+    "latitude": 43.717648206695,
+    "longitude": 7.1522485398704,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.449",
+        "maj": "2026-09-18 05:31:22"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-09-18 05:31:22"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-09-18 05:31:23"
+      }
+    }
+  },
+  {
+    "id": "6340001",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "19 Avenue du Général de Gaulle",
+    "cp": "06340",
+    "ville": "Drap",
+    "latitude": 43.757,
+    "longitude": 7.32,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.390",
+        "maj": "2026-10-13 09:43:11"
+      },
+      "SP95": {
+        "valeur": "2.290",
+        "maj": "2026-10-13 09:43:11"
+      },
+      "SP98": {
+        "valeur": "2.360",
+        "maj": "2026-10-13 09:43:11"
+      }
+    }
+  },
+  {
+    "id": "6110006",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "46 Avenue Franklin Roosevelt",
+    "cp": "06110",
+    "ville": "Le Cannet",
+    "latitude": 43.573,
+    "longitude": 7.001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-26 08:00:00"
+      },
+      "E10": {
+        "valeur": "2.089",
+        "maj": "2026-10-26 08:00:00"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-26 08:00:00"
+      }
+    }
+  },
+  {
+    "id": "6210010",
+    "dep": "06",
+    "enseigne": "Auchan hypermarché",
+    "adresse": "AVENUE DE FREJUS",
+    "cp": "06210",
+    "ville": "MANDELIEU LA NAPOULE",
+    "latitude": 43.534,
+    "longitude": 6.934,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.368",
+        "maj": "2026-10-28 08:51:34"
+      },
+      "E85": {
+        "valeur": "0.939",
+        "maj": "2026-10-28 08:51:34"
+      },
+      "GPLc": {
+        "valeur": "0.980",
+        "maj": "2026-10-28 08:51:34"
+      },
+      "E10": {
+        "valeur": "2.058",
+        "maj": "2026-10-28 08:51:34"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-10-28 08:51:34"
+      }
+    }
+  },
+  {
+    "id": "6330003",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "RD 2085",
+    "cp": "06330",
+    "ville": "Roquefort-les-Pins",
+    "latitude": 43.667,
+    "longitude": 7.051,
+    "carburants": {
+      "E85": {
+        "valeur": "0.934",
+        "maj": "2026-10-29 06:15:31"
+      }
+    }
+  },
+  {
+    "id": "6240006",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "A8 Aire de la Riviera Française",
+    "cp": "06240",
+    "ville": "Beausoleil",
+    "latitude": 43.75,
+    "longitude": 7.423,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.481",
+        "maj": "2026-10-27 10:40:23"
+      },
+      "GPLc": {
+        "valeur": "1.150",
+        "maj": "2026-05-30 09:56:14"
+      },
+      "E10": {
+        "valeur": "2.246",
+        "maj": "2026-10-27 10:37:13"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-10-27 10:40:23"
+      }
+    }
+  },
+  {
+    "id": "6345001",
+    "dep": "06",
+    "enseigne": "Auchan hypermarché",
+    "adresse": "31 Route de Laghet",
+    "cp": "06345",
+    "ville": "La Trinité",
+    "latitude": 43.743310338554004,
+    "longitude": 7.3213261846714,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.390",
+        "maj": "2026-10-28 08:29:28"
+      },
+      "E85": {
+        "valeur": "0.860",
+        "maj": "2026-10-28 08:29:28"
+      },
+      "E10": {
+        "valeur": "2.069",
+        "maj": "2026-10-28 08:29:29"
+      },
+      "SP98": {
+        "valeur": "2.166",
+        "maj": "2026-10-28 08:29:29"
+      }
+    }
+  },
+  {
+    "id": "6130012",
+    "dep": "06",
+    "enseigne": "Système U",
+    "adresse": "1 CHEMIN DU CASTELLARAS",
+    "cp": "06130",
+    "ville": "PLASCASSIER - GRASSE",
+    "latitude": 43.639023713571,
+    "longitude": 6.9763076001534,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-28 09:26:52"
+      },
+      "E85": {
+        "valeur": "0.849",
+        "maj": "2026-10-27 09:55:08"
+      },
+      "E10": {
+        "valeur": "2.098",
+        "maj": "2026-10-28 09:26:53"
+      },
+      "SP98": {
+        "valeur": "2.188",
+        "maj": "2026-10-28 09:26:53"
+      }
+    }
+  },
+  {
+    "id": "6270003",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "51 Avenue des Maurettes",
+    "cp": "06270",
+    "ville": "Villeneuve-Loubet",
+    "latitude": 43.629,
+    "longitude": 7.134,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-26 07:08:38"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-10-26 07:08:38"
+      },
+      "SP98": {
+        "valeur": "2.209",
+        "maj": "2026-10-26 07:08:38"
+      }
+    }
+  },
+  {
+    "id": "6250009",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A8 - AIRE DE LA CÔTE D'AZUR",
+    "cp": "06250",
+    "ville": "MOUGINS",
+    "latitude": 43.584,
+    "longitude": 7.025,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "1.024",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.151",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6230002",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "1 Boulevard de la Corne d'Or",
+    "cp": "06230",
+    "ville": "Villefranche-sur-Mer",
+    "latitude": 43.706,
+    "longitude": 7.301,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.413",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-10-28 07:31:00"
+      },
+      "SP98": {
+        "valeur": "2.229",
+        "maj": "2026-10-28 07:31:00"
+      }
+    }
+  },
+  {
+    "id": "6600027",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "15 AVENUE NICOLAS AUSSEL",
+    "cp": "06600",
+    "ville": "ANTIBES",
+    "latitude": 43.577344000000004,
+    "longitude": 7.107005,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.349",
+        "maj": "2026-10-19 08:10:25"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-28 07:03:15"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-23 16:01:03"
+      }
+    }
+  },
+  {
+    "id": "6620001",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "768 allée de la ferrage",
+    "cp": "06620",
+    "ville": "Gréolières",
+    "latitude": 43.79666099999999,
+    "longitude": 6.949831,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.455",
+        "maj": "2026-10-13 14:09:18"
+      },
+      "E10": {
+        "valeur": "2.258",
+        "maj": "2026-10-13 14:09:18"
+      }
+    }
+  },
+  {
+    "id": "6250001",
+    "dep": "06",
+    "enseigne": "Carrefour Market",
+    "adresse": "3256 CHEMIN DE CARIMAÏ",
+    "cp": "06250",
+    "ville": "MOUGINS",
+    "latitude": 43.579827627633996,
+    "longitude": 6.9959674750295004,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.409",
+        "maj": "2026-10-23 07:31:16"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-23 07:31:16"
+      },
+      "E10": {
+        "valeur": "2.069",
+        "maj": "2026-10-23 07:31:16"
+      },
+      "SP98": {
+        "valeur": "2.169",
+        "maj": "2026-10-23 07:31:17"
+      }
+    }
+  },
+  {
+    "id": "6400013",
+    "dep": "06",
+    "enseigne": "Esso Express",
+    "adresse": "19-21 BD VALLOMBROSA",
+    "cp": "06400",
+    "ville": "CANNES",
+    "latitude": 43.552,
+    "longitude": 7.006,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.489",
+        "maj": "2026-10-27 15:47:13"
+      },
+      "E10": {
+        "valeur": "2.239",
+        "maj": "2026-10-27 15:47:13"
+      },
+      "SP98": {
+        "valeur": "2.419",
+        "maj": "2026-10-27 15:47:13"
+      }
+    }
+  },
+  {
+    "id": "6800029",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "36 AVENUE DES ALPES",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.66,
+    "longitude": 7.138,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.469",
+        "maj": "2026-10-27 13:39:03"
+      },
+      "GPLc": {
+        "valeur": "1.189",
+        "maj": "2026-08-31 14:35:43"
+      },
+      "E10": {
+        "valeur": "2.229",
+        "maj": "2026-10-27 13:39:03"
+      },
+      "SP98": {
+        "valeur": "2.409",
+        "maj": "2026-10-27 13:39:03"
+      }
+    }
+  },
+  {
+    "id": "6000028",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "29 BIS AV. PAUL ARENE",
+    "cp": "06000",
+    "ville": "NICE",
+    "latitude": 43.706,
+    "longitude": 7.251,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.944",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6130007",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "CHEMIN DE L'ORME",
+    "cp": "06130",
+    "ville": "Grasse",
+    "latitude": 43.652,
+    "longitude": 6.946,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.419",
+        "maj": "2026-10-28 09:50:43"
+      },
+      "E85": {
+        "valeur": "0.826",
+        "maj": "2026-10-28 09:50:43"
+      },
+      "E10": {
+        "valeur": "2.097",
+        "maj": "2026-10-28 09:50:43"
+      },
+      "SP98": {
+        "valeur": "2.187",
+        "maj": "2026-10-28 09:50:43"
+      }
+    }
+  },
+  {
+    "id": "6190008",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "175 AVENUE PASTEUR - RD 6007",
+    "cp": "06190",
+    "ville": "Roquebrune-Cap-Martin",
+    "latitude": 43.764,
+    "longitude": 7.481,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.924",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6800019",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "79 AV. DE NICE",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.65936,
+    "longitude": 7.16732,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6440001",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "RD 2204 LA POINTE",
+    "cp": "06440",
+    "ville": "BLAUSASC",
+    "latitude": 43.77850599999999,
+    "longitude": 7.338931,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.364",
+        "maj": "2026-10-30 06:13:31"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-28 06:07:21"
+      },
+      "E10": {
+        "valeur": "2.029",
+        "maj": "2026-10-30 06:13:31"
+      },
+      "SP98": {
+        "valeur": "2.139",
+        "maj": "2026-10-30 06:13:32"
+      }
+    }
+  },
+  {
+    "id": "6200028",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "PROMENADE DES ANGLAIS",
+    "cp": "06200",
+    "ville": "NICE",
+    "latitude": 43.675,
+    "longitude": 7.229,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.944",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6670008",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "2 avenue Charles David",
+    "cp": "06670",
+    "ville": "Levens",
+    "latitude": 43.856,
+    "longitude": 7.227,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.653",
+        "maj": "2026-10-27 18:00:00"
+      },
+      "SP95": {
+        "valeur": "2.466",
+        "maj": "2026-10-27 17:28:03"
+      }
+    }
+  },
+  {
+    "id": "6200033",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "61 Boulevard Napoléon III",
+    "cp": "06200",
+    "ville": "Nice",
+    "latitude": 43.687258275145005,
+    "longitude": 7.2274375422793,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-29 06:52:53"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 06:52:53"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-29 06:52:53"
+      }
+    }
+  },
+  {
+    "id": "6130001",
+    "dep": "06",
+    "enseigne": "Auchan hypermarché",
+    "adresse": "158 route de cannes",
+    "cp": "06130",
+    "ville": "GRASSE",
+    "latitude": 43.635,
+    "longitude": 6.952,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.420",
+        "maj": "2026-10-28 09:13:45"
+      },
+      "E85": {
+        "valeur": "0.827",
+        "maj": "2026-10-28 09:13:45"
+      },
+      "GPLc": {
+        "valeur": "0.952",
+        "maj": "2026-10-28 09:13:46"
+      },
+      "E10": {
+        "valeur": "2.098",
+        "maj": "2026-10-28 09:13:46"
+      },
+      "SP98": {
+        "valeur": "2.188",
+        "maj": "2026-10-28 09:13:46"
+      }
+    }
+  },
+  {
+    "id": "6201002",
+    "dep": "06",
+    "enseigne": "Leclerc",
+    "adresse": "456 Boulevard du Mercantour - Quartier Saint Isidore",
+    "cp": "06200",
+    "ville": "Nice",
+    "latitude": 43.71005,
+    "longitude": 7.18846,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.389",
+        "maj": "2026-10-29 07:50:56"
+      },
+      "SP95": {
+        "valeur": "2.159",
+        "maj": "2026-10-29 07:50:56"
+      },
+      "GPLc": {
+        "valeur": "0.934",
+        "maj": "2026-10-29 07:50:56"
+      },
+      "E10": {
+        "valeur": "2.089",
+        "maj": "2026-10-29 07:50:56"
+      },
+      "SP98": {
+        "valeur": "2.209",
+        "maj": "2026-10-29 07:50:56"
+      }
+    }
+  },
+  {
+    "id": "6910002",
+    "dep": "06",
+    "enseigne": "Proxi",
+    "adresse": "5 route de Sigale",
+    "cp": "06910",
+    "ville": "Roquesteron",
+    "latitude": 43.874,
+    "longitude": 7.004,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.649",
+        "maj": "2026-09-25 21:55:02"
+      },
+      "SP98": {
+        "valeur": "2.549",
+        "maj": "2026-09-25 21:55:02"
+      }
+    }
+  },
+  {
+    "id": "6660003",
+    "dep": "06",
+    "enseigne": "TotalEnergies",
+    "adresse": "route de nice",
+    "cp": "06660",
+    "ville": "SAINT ETIENNE DE TINEE",
+    "latitude": 44.226,
+    "longitude": 6.96,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-08-26 10:35:04"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-08-26 10:35:04"
+      }
+    }
+  },
+  {
+    "id": "6000037",
+    "dep": "06",
+    "enseigne": "Avia",
+    "adresse": "PONT VINCENT AURIOL",
+    "cp": "06000",
+    "ville": "NICE",
+    "latitude": 43.717,
+    "longitude": 7.282,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-27 00:00:00"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-09-17 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.199",
+        "maj": "2026-10-27 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.275",
+        "maj": "2026-10-27 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "6650004",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "4 ROUTE DE NICE",
+    "cp": "06650",
+    "ville": "LE ROURET",
+    "latitude": 43.672993340900994,
+    "longitude": 6.9940596192009,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.358",
+        "maj": "2026-10-29 12:38:43"
+      },
+      "E10": {
+        "valeur": "2.037",
+        "maj": "2026-10-29 12:38:44"
+      },
+      "SP98": {
+        "valeur": "2.149",
+        "maj": "2026-10-29 12:38:44"
+      }
+    }
+  },
+  {
+    "id": "6330002",
+    "dep": "06",
+    "enseigne": "Intermarché",
+    "adresse": "PLAN DE ROQUEFORT",
+    "cp": "06330",
+    "ville": "Roquefort-les-Pins",
+    "latitude": 43.668,
+    "longitude": 7.043,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.405",
+        "maj": "2026-10-20 10:38:11"
+      },
+      "E10": {
+        "valeur": "2.144",
+        "maj": "2026-10-20 10:38:12"
+      },
+      "SP98": {
+        "valeur": "2.261",
+        "maj": "2026-10-20 10:38:12"
+      }
+    }
+  },
+  {
+    "id": "6000036",
+    "dep": "06",
+    "enseigne": "Esso",
+    "adresse": "Boulevard Comté de Falicon",
+    "cp": "06000",
+    "ville": "Nice",
+    "latitude": 43.728,
+    "longitude": 7.256,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.499",
+        "maj": "2026-10-29 16:38:13"
+      },
+      "E10": {
+        "valeur": "2.299",
+        "maj": "2026-10-27 13:37:05"
+      },
+      "SP98": {
+        "valeur": "2.479",
+        "maj": "2026-10-27 13:37:05"
+      }
+    }
+  },
+  {
+    "id": "6450003",
+    "dep": "06",
+    "enseigne": "Carrefour Market",
+    "adresse": "LIEU DIT LE TOURON RM2565 ROUTE DE NICE",
+    "cp": "06450",
+    "ville": "Saint Martin Vésubie",
+    "latitude": 44.059,
+    "longitude": 7.26,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.436",
+        "maj": "2026-10-14 15:33:45"
+      },
+      "E85": {
+        "valeur": "1.039",
+        "maj": "2026-09-25 07:53:31"
+      },
+      "E10": {
+        "valeur": "2.289",
+        "maj": "2026-10-14 15:33:45"
+      },
+      "SP98": {
+        "valeur": "2.370",
+        "maj": "2026-10-14 15:33:45"
+      }
+    }
+  },
+  {
+    "id": "6800020",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "RN.7 COTE HIPPODROME",
+    "cp": "06800",
+    "ville": "Cagnes-sur-Mer",
+    "latitude": 43.654,
+    "longitude": 7.148,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6000029",
+    "dep": "06",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "57, av. J.RAYBAUD",
+    "cp": "06000",
+    "ville": "NICE",
+    "latitude": 43.728,
+    "longitude": 7.282,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E85": {
+        "valeur": "0.928",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-10-30 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "6380002",
+    "dep": "06",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "Moulin Ricci - Route de la Pénétrante",
+    "cp": "06380",
+    "ville": "Sospel",
+    "latitude": 43.87380862385,
+    "longitude": 7.4478779887466,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.471",
+        "maj": "2026-10-29 12:11:20"
+      },
+      "E10": {
+        "valeur": "2.325",
+        "maj": "2026-10-29 12:11:20"
+      },
+      "SP98": {
+        "valeur": "2.392",
+        "maj": "2026-10-29 12:11:20"
+      }
+    }
+  }
+]
