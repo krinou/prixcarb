@@ -34,20 +34,20 @@
     "longitude": 3.886,
     "carburants": {
       "Gazole": {
-        "valeur": "2.456",
-        "maj": "2026-10-30 07:31:00"
+        "valeur": "2.294",
+        "maj": "2026-11-01 00:26:00"
       },
       "E85": {
         "valeur": "1.032",
-        "maj": "2026-10-30 07:31:00"
+        "maj": "2026-11-01 00:26:00"
       },
       "E10": {
         "valeur": "2.133",
-        "maj": "2026-10-30 07:31:00"
+        "maj": "2026-11-01 00:26:00"
       },
       "SP98": {
         "valeur": "2.233",
-        "maj": "2026-10-30 07:31:00"
+        "maj": "2026-11-01 00:26:00"
       }
     }
   },
@@ -212,30 +212,6 @@
     }
   },
   {
-    "id": "43220003",
-    "dep": "43",
-    "enseigne": "Montmeat",
-    "adresse": "MONTMEAT",
-    "cp": "43220",
-    "ville": "RIOTORD",
-    "latitude": 45.223119214503,
-    "longitude": 4.3929114359743995,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.379",
-        "maj": "2026-10-01 11:06:08"
-      },
-      "SP95": {
-        "valeur": "2.209",
-        "maj": "2026-10-12 10:08:12"
-      },
-      "SP98": {
-        "valeur": "2.259",
-        "maj": "2026-10-12 10:08:12"
-      }
-    }
-  },
-  {
     "id": "43320003",
     "dep": "43",
     "enseigne": "TotalEnergies",
@@ -260,6 +236,30 @@
     }
   },
   {
+    "id": "43220003",
+    "dep": "43",
+    "enseigne": "Montmeat",
+    "adresse": "MONTMEAT",
+    "cp": "43220",
+    "ville": "RIOTORD",
+    "latitude": 45.223119214503,
+    "longitude": 4.3929114359743995,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.379",
+        "maj": "2026-10-01 11:06:08"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-10-31 10:51:22"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-10-31 10:51:22"
+      }
+    }
+  },
+  {
     "id": "43200008",
     "dep": "43",
     "enseigne": "VITO",
@@ -278,7 +278,7 @@
   {
     "id": "43350001",
     "dep": "43",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Le Verdier",
     "cp": "43350",
     "ville": "Saint-Paulien",
@@ -460,6 +460,30 @@
     }
   },
   {
+    "id": "43120001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "rue jean martouret",
+    "cp": "43120",
+    "ville": "MONISTROL-SUR-LOIRE",
+    "latitude": 45.290704469999994,
+    "longitude": 4.16960856,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.399",
+        "maj": "2026-10-31 08:34:17"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-10-31 08:34:17"
+      },
+      "SP98": {
+        "valeur": "2.289",
+        "maj": "2026-10-31 08:34:17"
+      }
+    }
+  },
+  {
     "id": "43260002",
     "dep": "43",
     "enseigne": "Intermarché",
@@ -480,30 +504,6 @@
       "SP98": {
         "valeur": "2.180",
         "maj": "2026-10-23 06:38:24"
-      }
-    }
-  },
-  {
-    "id": "43120001",
-    "dep": "43",
-    "enseigne": "Carrefour Market",
-    "adresse": "rue jean martouret",
-    "cp": "43120",
-    "ville": "MONISTROL-SUR-LOIRE",
-    "latitude": 45.290704469999994,
-    "longitude": 4.16960856,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-30 08:24:19"
-      },
-      "E10": {
-        "valeur": "2.169",
-        "maj": "2026-10-30 08:24:19"
-      },
-      "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-10-30 08:24:19"
       }
     }
   },
@@ -616,28 +616,7 @@
     "ville": "LE PUY EN VELAY",
     "latitude": 45.0479250728,
     "longitude": 3.89342284693,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-10-31 06:57:49"
-      },
-      "E85": {
-        "valeur": "0.938",
-        "maj": "2026-10-31 06:57:49"
-      },
-      "GPLc": {
-        "valeur": "0.969",
-        "maj": "2026-10-31 06:57:49"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-31 06:57:49"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-31 06:57:49"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "43800002",
@@ -885,7 +864,7 @@
   {
     "id": "43700002",
     "dep": "43",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "Zi de Bombes",
     "cp": "43700",
     "ville": "Saint-Germain-Laprade",
@@ -995,14 +974,6 @@
       "Gazole": {
         "valeur": "2.250",
         "maj": "2026-10-30 15:09:07"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 15:09:07"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 15:09:07"
       }
     }
   },
@@ -1018,11 +989,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-30 18:15:55"
+        "maj": "2026-10-31 08:19:57"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-30 18:15:55"
+        "maj": "2026-10-31 08:19:57"
       }
     }
   },
@@ -1173,27 +1144,27 @@
     "longitude": 3.878477,
     "carburants": {
       "Gazole": {
-        "valeur": "2.354",
-        "maj": "2026-10-27 08:19:17"
+        "valeur": "2.380",
+        "maj": "2026-10-31 10:56:10"
       },
       "GPLc": {
         "valeur": "1.102",
-        "maj": "2026-10-27 08:19:17"
+        "maj": "2026-10-31 10:56:11"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-10-27 08:19:17"
+        "valeur": "2.263",
+        "maj": "2026-10-31 10:56:11"
       },
       "SP98": {
         "valeur": "2.127",
-        "maj": "2026-10-27 08:19:17"
+        "maj": "2026-10-31 10:56:11"
       }
     }
   },
   {
     "id": "43360004",
     "dep": "43",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "A75 AIRE DE LAFAYETTE",
     "cp": "43360",
     "ville": "LORLANGES",
@@ -1201,24 +1172,24 @@
     "longitude": 3.274313,
     "carburants": {
       "Gazole": {
-        "valeur": "2.450",
-        "maj": "2026-10-30 09:08:22"
+        "valeur": "2.375",
+        "maj": "2026-11-01 06:00:00"
       },
       "E85": {
         "valeur": "0.966",
-        "maj": "2026-10-30 09:08:22"
+        "maj": "2026-11-01 06:00:00"
       },
       "GPLc": {
         "valeur": "1.109",
-        "maj": "2026-10-30 09:08:22"
+        "maj": "2026-11-01 06:00:00"
       },
       "E10": {
         "valeur": "2.185",
-        "maj": "2026-10-30 09:08:22"
+        "maj": "2026-11-01 06:00:00"
       },
       "SP98": {
         "valeur": "2.258",
-        "maj": "2026-10-30 09:08:22"
+        "maj": "2026-11-01 06:00:00"
       }
     }
   },
@@ -1265,7 +1236,7 @@
   {
     "id": "43210003",
     "dep": "43",
-    "enseigne": "Intermarché Contact",
+    "enseigne": "",
     "adresse": "15 AVENUE ALFRED DE VISSAGUET",
     "cp": "43210",
     "ville": "BAS EN BASSET",
