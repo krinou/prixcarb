@@ -101,7 +101,7 @@
   {
     "id": "15250004",
     "dep": "15",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "Avenue de la Plaine",
     "cp": "15250",
     "ville": "JUSSAC",
@@ -309,7 +309,7 @@
   {
     "id": "15000003",
     "dep": "15",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "86 BLD LOUIS DAUZIER",
     "cp": "15000",
     "ville": "AURILLAC",
@@ -325,7 +325,7 @@
   {
     "id": "15320001",
     "dep": "15",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "LE BOURG",
     "cp": "15320",
     "ville": "Ruynes-en-Margeride",
@@ -349,7 +349,7 @@
   {
     "id": "15100011",
     "dep": "15",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "31 avenue de la republique",
     "cp": "15100",
     "ville": "Saint-Flour",
@@ -397,7 +397,7 @@
   {
     "id": "15800004",
     "dep": "15",
-    "enseigne": "15 grand'rue",
+    "enseigne": "",
     "adresse": "15 Grand'Rue",
     "cp": "15800",
     "ville": "Thiézac",
@@ -545,7 +545,7 @@
   {
     "id": "15500006",
     "dep": "15",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "Avenue du Général de Gaulle",
     "cp": "15500",
     "ville": "MASSIAC",
@@ -653,7 +653,7 @@
   {
     "id": "15800002",
     "dep": "15",
-    "enseigne": "Intermarché Contact",
+    "enseigne": "",
     "adresse": "ZA DU COMBLAT",
     "cp": "15800",
     "ville": "Vic-sur-Cère",
@@ -681,7 +681,7 @@
   {
     "id": "15500003",
     "dep": "15",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "PRE CHAMBON",
     "cp": "15500",
     "ville": "MASSIAC",
@@ -705,7 +705,7 @@
   {
     "id": "15220002",
     "dep": "15",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "RN122 La Croix Blanche",
     "cp": "15220",
     "ville": "Saint-Mamet-la-Salvetat",
@@ -716,7 +716,7 @@
   {
     "id": "15000017",
     "dep": "15",
-    "enseigne": "Carrefour",
+    "enseigne": "",
     "adresse": "ZAC de la Sablière",
     "cp": "15000",
     "ville": "Aurillac",
@@ -748,7 +748,7 @@
   {
     "id": "15300002",
     "dep": "15",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "36 Av. Hector Peschaud",
     "cp": "15300",
     "ville": "Murat",
@@ -759,7 +759,7 @@
   {
     "id": "15300006",
     "dep": "15",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "Chemin de la Croix Jolie",
     "cp": "15300",
     "ville": "Murat",
@@ -775,7 +775,7 @@
   {
     "id": "15000009",
     "dep": "15",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "120 Avenue du Général Leclerc",
     "cp": "15000",
     "ville": "Aurillac",
@@ -807,7 +807,7 @@
   {
     "id": "15130003",
     "dep": "15",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "5 RUE DE VEZOU",
     "cp": "15230",
     "ville": "PIERREFORT",
@@ -1142,11 +1142,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   }

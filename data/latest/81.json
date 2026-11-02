@@ -2,7 +2,7 @@
   {
     "id": "81600001",
     "dep": "81",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "Route de Toulouse",
     "cp": "81600",
     "ville": "GAILLAC",
@@ -11,19 +11,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.188",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E85": {
         "valeur": "0.899",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E10": {
-        "valeur": "2.169",
-        "maj": "2026-11-01 00:51:00"
+        "valeur": "2.099",
+        "maj": "2026-11-02 01:17:00"
       },
       "SP98": {
         "valeur": "2.259",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:17:00"
       }
     }
   },
@@ -69,7 +69,7 @@
   {
     "id": "81990002",
     "dep": "81",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Chemin de Cap Long",
     "cp": "81990",
     "ville": "Le Sequestre",
@@ -113,7 +113,7 @@
   {
     "id": "81700006",
     "dep": "81",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "483 Route de revel",
     "cp": "81700",
     "ville": "PUYLAURENS",
@@ -169,7 +169,7 @@
   {
     "id": "81380001",
     "dep": "81",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "Route de Carmaux",
     "cp": "81380",
     "ville": "Lescure-d'Albigeois",
@@ -197,7 +197,7 @@
   {
     "id": "81400001",
     "dep": "81",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "150 Avenue d'Albi",
     "cp": "81400",
     "ville": "BLAYE-LES-MINES",
@@ -427,20 +427,16 @@
   {
     "id": "81800006",
     "dep": "81",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "ZONE DES MASSIES",
     "cp": "81800",
     "ville": "COUFFOULLEUX",
     "latitude": 43.795687,
     "longitude": 1.756095,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.424",
-        "maj": "2026-10-28 08:03:22"
-      },
       "E85": {
-        "valeur": "0.878",
-        "maj": "2026-10-14 09:17:37"
+        "valeur": "2.224",
+        "maj": "2026-11-02 07:23:50"
       },
       "E10": {
         "valeur": "2.099",
@@ -455,7 +451,7 @@
   {
     "id": "81290002",
     "dep": "81",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Route de l'Aéroport",
     "cp": "81290",
     "ville": "Labruguière",
@@ -463,16 +459,16 @@
     "longitude": 2.27344,
     "carburants": {
       "Gazole": {
-        "valeur": "2.425",
-        "maj": "2026-10-28 13:21:54"
+        "valeur": "2.225",
+        "maj": "2026-11-02 06:19:17"
       },
       "SP95": {
         "valeur": "2.185",
         "maj": "2026-10-22 12:18:51"
       },
       "E85": {
-        "valeur": "0.879",
-        "maj": "2026-10-22 12:18:51"
+        "valeur": "0.869",
+        "maj": "2026-11-02 06:19:17"
       },
       "E10": {
         "valeur": "2.125",
@@ -511,7 +507,7 @@
   {
     "id": "81000011",
     "dep": "81",
-    "enseigne": "Fina",
+    "enseigne": "",
     "adresse": "105 ROUTE DE TEILLET",
     "cp": "81000",
     "ville": "Albi",
@@ -559,7 +555,7 @@
   {
     "id": "81120002",
     "dep": "81",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "27 Rue de la Bouriotte",
     "cp": "81120",
     "ville": "Réalmont",
@@ -600,30 +596,30 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.119",
-        "maj": "2026-11-01 00:48:00"
+        "maj": "2026-11-02 01:15:00"
       },
       "E85": {
         "valeur": "0.879",
-        "maj": "2026-11-01 00:48:00"
+        "maj": "2026-11-02 01:15:00"
       },
       "GPLc": {
         "valeur": "1.028",
-        "maj": "2026-11-01 00:48:00"
+        "maj": "2026-11-02 01:15:00"
       },
       "E10": {
         "valeur": "2.099",
-        "maj": "2026-11-01 00:48:00"
+        "maj": "2026-11-02 01:15:00"
       },
       "SP98": {
         "valeur": "2.199",
-        "maj": "2026-11-01 00:48:00"
+        "maj": "2026-11-02 01:15:00"
       }
     }
   },
   {
     "id": "81170001",
     "dep": "81",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "ROUTE D ALBI",
     "cp": "81170",
     "ville": "LIVERS-CAZELLES",
@@ -634,7 +630,7 @@
   {
     "id": "81000001",
     "dep": "81",
-    "enseigne": "Carrefour",
+    "enseigne": "",
     "adresse": "2 Rue Francisco Goya",
     "cp": "81000",
     "ville": "ALBI",
@@ -755,23 +751,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E85": {
         "valeur": "0.879",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "GPLc": {
         "valeur": "1.062",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E10": {
         "valeur": "2.095",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "SP98": {
         "valeur": "2.187",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:17:00"
       }
     }
   },
@@ -834,7 +830,7 @@
   {
     "id": "81600006",
     "dep": "81",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "190 RUE DU CASTELLET ZA GARRIGUE LONGUE",
     "cp": "81600",
     "ville": "MONTANS",
@@ -858,8 +854,8 @@
     "longitude": 1.995,
     "carburants": {
       "Gazole": {
-        "valeur": "2.385",
-        "maj": "2026-10-30 09:12:29"
+        "valeur": "2.185",
+        "maj": "2026-11-02 07:10:40"
       },
       "E85": {
         "valeur": "0.878",
@@ -878,7 +874,7 @@
   {
     "id": "81630001",
     "dep": "81",
-    "enseigne": "Aire C",
+    "enseigne": "",
     "adresse": "CHEMIN DE SOURIGOUS",
     "cp": "81630",
     "ville": "SALVAGNAC",
@@ -910,20 +906,20 @@
     "longitude": 2.006,
     "carburants": {
       "Gazole": {
-        "valeur": "2.349",
-        "maj": "2026-10-27 10:02:15"
+        "valeur": "2.149",
+        "maj": "2026-11-02 05:25:32"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-09-29 07:03:48"
       },
       "E10": {
-        "valeur": "2.079",
-        "maj": "2026-10-27 10:02:15"
+        "valeur": "2.059",
+        "maj": "2026-11-02 05:25:32"
       },
       "SP98": {
-        "valeur": "2.198",
-        "maj": "2026-10-27 10:02:15"
+        "valeur": "2.145",
+        "maj": "2026-11-02 05:25:32"
       }
     }
   },
@@ -1000,12 +996,7 @@
     "ville": "SAIX",
     "latitude": 43.58,
     "longitude": 2.175,
-    "carburants": {
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "81400004",
@@ -1062,7 +1053,7 @@
   {
     "id": "81430001",
     "dep": "81",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "Route de Millau",
     "cp": "81430",
     "ville": "Villefranche-d'Albigeois",
@@ -1167,26 +1158,26 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E85": {
         "valeur": "0.879",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.095",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP98": {
         "valeur": "2.187",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },
   {
     "id": "81500003",
     "dep": "81",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "44 Avenue Jacques Besse",
     "cp": "81500",
     "ville": "Lavaur",
@@ -1194,27 +1185,27 @@
     "longitude": 1.817,
     "carburants": {
       "Gazole": {
-        "valeur": "2.353",
-        "maj": "2026-10-30 09:07:28"
+        "valeur": "2.155",
+        "maj": "2026-11-02 06:53:32"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-30 09:07:28"
       },
       "E10": {
-        "valeur": "2.069",
-        "maj": "2026-10-31 19:30:00"
+        "valeur": "2.079",
+        "maj": "2026-11-02 06:53:32"
       },
       "SP98": {
         "valeur": "2.189",
-        "maj": "2026-10-31 19:30:00"
+        "maj": "2026-11-02 06:53:32"
       }
     }
   },
   {
     "id": "81540001",
     "dep": "81",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "2 passage du verrier",
     "cp": "81540",
     "ville": "Sorèze",
@@ -1279,19 +1270,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.188",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E85": {
         "valeur": "0.878",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "GPLc": {
         "valeur": "1.059",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.099",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },
@@ -1426,8 +1417,8 @@
     "longitude": 1.738,
     "carburants": {
       "Gazole": {
-        "valeur": "2.368",
-        "maj": "2026-10-30 11:11:32"
+        "valeur": "2.168",
+        "maj": "2026-11-02 07:24:37"
       },
       "E85": {
         "valeur": "0.878",
@@ -1605,15 +1596,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 06:12:38"
+        "maj": "2026-11-02 06:49:44"
       },
       "E85": {
         "valeur": "0.914",
-        "maj": "2026-11-01 06:12:38"
+        "maj": "2026-11-02 06:49:44"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 06:12:38"
+        "maj": "2026-11-02 06:49:44"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 06:49:44"
       }
     }
   },
@@ -1737,30 +1732,30 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.214",
-        "maj": "2026-11-01 05:30:00"
+        "maj": "2026-11-02 05:30:00"
       },
       "E85": {
         "valeur": "0.899",
-        "maj": "2026-11-01 05:30:00"
+        "maj": "2026-11-02 05:30:00"
       },
       "GPLc": {
         "valeur": "0.999",
-        "maj": "2026-11-01 05:30:00"
+        "maj": "2026-11-02 05:30:00"
       },
       "E10": {
         "valeur": "2.089",
-        "maj": "2026-11-01 05:30:00"
+        "maj": "2026-11-02 05:30:00"
       },
       "SP98": {
         "valeur": "2.199",
-        "maj": "2026-11-01 05:30:00"
+        "maj": "2026-11-02 05:30:00"
       }
     }
   },
   {
     "id": "81000010",
     "dep": "81",
-    "enseigne": "",
+    "enseigne": "Carrefour Contact",
     "adresse": "3 rue des trois buissons",
     "cp": "81000",
     "ville": "Albi",
@@ -1768,16 +1763,16 @@
     "longitude": 2.183,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-12 09:10:16"
+        "valeur": "2.349",
+        "maj": "2026-11-01 13:14:16"
       },
       "SP95": {
-        "valeur": "2.247",
-        "maj": "2026-10-12 09:10:16"
+        "valeur": "2.159",
+        "maj": "2026-11-01 13:14:16"
       },
       "SP98": {
-        "valeur": "2.268",
-        "maj": "2026-10-12 09:10:16"
+        "valeur": "2.199",
+        "maj": "2026-11-01 13:14:16"
       }
     }
   }

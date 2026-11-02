@@ -2,7 +2,7 @@
   {
     "id": "43770001",
     "dep": "43",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "17 Avenue des Champs Élysées",
     "cp": "43770",
     "ville": "Chadrac",
@@ -74,7 +74,7 @@
   {
     "id": "43190003",
     "dep": "43",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "44 Rue de Saint-Agrève",
     "cp": "43190",
     "ville": "Tence",
@@ -98,7 +98,7 @@
   {
     "id": "43000002",
     "dep": "43",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "16 Avenue de Bonneville",
     "cp": "43000",
     "ville": "Aiguilhe",
@@ -106,12 +106,12 @@
     "longitude": 3.888,
     "carburants": {
       "Gazole": {
-        "valeur": "2.380",
-        "maj": "2026-10-28 08:24:39"
+        "valeur": "2.354",
+        "maj": "2026-11-01 09:21:56"
       },
       "E10": {
-        "valeur": "2.263",
-        "maj": "2026-10-28 08:24:39"
+        "valeur": "2.139",
+        "maj": "2026-11-01 09:21:56"
       },
       "SP98": {
         "valeur": "2.263",
@@ -153,9 +153,9 @@
     "latitude": 45.097,
     "longitude": 4.059,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-30 13:22:35"
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:34:12"
       }
     }
   },
@@ -278,7 +278,7 @@
   {
     "id": "43350001",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Intermarché",
     "adresse": "Le Verdier",
     "cp": "43350",
     "ville": "Saint-Paulien",
@@ -306,7 +306,7 @@
   {
     "id": "43220001",
     "dep": "43",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Rue Traversière",
     "cp": "43220",
     "ville": "Dunières",
@@ -326,7 +326,7 @@
   {
     "id": "43300002",
     "dep": "43",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "Avenue d'Auvergne",
     "cp": "43300",
     "ville": "Langeac",
@@ -370,7 +370,7 @@
   {
     "id": "43190002",
     "dep": "43",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "za de leygat",
     "cp": "43190",
     "ville": "TENCE",
@@ -386,7 +386,7 @@
   {
     "id": "43100001",
     "dep": "43",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Route de Clermont",
     "cp": "43100",
     "ville": "BRIOUDE",
@@ -460,9 +460,33 @@
     }
   },
   {
+    "id": "43260002",
+    "dep": "43",
+    "enseigne": "",
+    "adresse": "Route du Puy",
+    "cp": "43260",
+    "ville": "SAINT-JULIEN-CHAPTEUIL",
+    "latitude": 45.037,
+    "longitude": 4.055,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.185",
+        "maj": "2026-11-02 06:02:28"
+      },
+      "SP95": {
+        "valeur": "2.121",
+        "maj": "2026-11-02 06:02:28"
+      },
+      "SP98": {
+        "valeur": "2.180",
+        "maj": "2026-11-02 06:02:28"
+      }
+    }
+  },
+  {
     "id": "43120001",
     "dep": "43",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "rue jean martouret",
     "cp": "43120",
     "ville": "MONISTROL-SUR-LOIRE",
@@ -471,46 +495,22 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.399",
-        "maj": "2026-10-31 08:34:17"
+        "maj": "2026-11-02 07:38:00"
       },
       "E10": {
         "valeur": "2.169",
-        "maj": "2026-10-31 08:34:17"
+        "maj": "2026-11-02 07:38:01"
       },
       "SP98": {
         "valeur": "2.289",
-        "maj": "2026-10-31 08:34:17"
-      }
-    }
-  },
-  {
-    "id": "43260002",
-    "dep": "43",
-    "enseigne": "Intermarché",
-    "adresse": "Route du Puy",
-    "cp": "43260",
-    "ville": "SAINT-JULIEN-CHAPTEUIL",
-    "latitude": 45.037,
-    "longitude": 4.055,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.376",
-        "maj": "2026-10-23 06:38:24"
-      },
-      "SP95": {
-        "valeur": "2.125",
-        "maj": "2026-10-23 06:38:24"
-      },
-      "SP98": {
-        "valeur": "2.180",
-        "maj": "2026-10-23 06:38:24"
+        "maj": "2026-11-02 07:38:01"
       }
     }
   },
   {
     "id": "43200006",
     "dep": "43",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "LA GUIDE",
     "cp": "43200",
     "ville": "Yssingeaux",
@@ -673,7 +673,7 @@
   {
     "id": "43590002",
     "dep": "43",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "741 ROUTE DE BAS",
     "cp": "43590",
     "ville": "BEAUZAC",
@@ -704,7 +704,7 @@
   {
     "id": "43700001",
     "dep": "43",
-    "enseigne": "Auchan hypermarché",
+    "enseigne": "",
     "adresse": "1 Avenue de Coubon",
     "cp": "43700",
     "ville": "BRIVES-CHARENSAC",
@@ -736,7 +736,7 @@
   {
     "id": "43130001",
     "dep": "43",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Rue Jean-Baptiste Ribeyron",
     "cp": "43130",
     "ville": "RETOURNAC",
@@ -760,7 +760,7 @@
   {
     "id": "43200004",
     "dep": "43",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "45 Rue des Entreprises - Villeneuve",
     "cp": "43200",
     "ville": "Yssingeaux",
@@ -864,7 +864,7 @@
   {
     "id": "43700002",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Indépendant sans enseigne",
     "adresse": "Zi de Bombes",
     "cp": "43700",
     "ville": "Saint-Germain-Laprade",
@@ -989,11 +989,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-31 08:19:57"
+        "maj": "2026-11-02 06:34:47"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-31 08:19:57"
+        "maj": "2026-11-02 06:34:47"
       }
     }
   },
@@ -1101,11 +1101,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-28 08:12:15"
+        "maj": "2026-11-02 07:32:05"
       },
       "SP95": {
         "valeur": "1.990",
-        "maj": "2026-10-28 08:12:16"
+        "maj": "2026-11-02 07:32:05"
       }
     }
   },
@@ -1164,7 +1164,7 @@
   {
     "id": "43360004",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "A75 AIRE DE LAFAYETTE",
     "cp": "43360",
     "ville": "LORLANGES",
@@ -1236,7 +1236,7 @@
   {
     "id": "43210003",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Intermarché Contact",
     "adresse": "15 AVENUE ALFRED DE VISSAGUET",
     "cp": "43210",
     "ville": "BAS EN BASSET",
@@ -1244,12 +1244,12 @@
     "longitude": 4.113994,
     "carburants": {
       "Gazole": {
-        "valeur": "2.369",
-        "maj": "2026-10-14 11:40:20"
+        "valeur": "2.149",
+        "maj": "2026-11-02 07:34:29"
       },
       "E10": {
-        "valeur": "2.159",
-        "maj": "2026-10-13 12:40:27"
+        "valeur": "2.149",
+        "maj": "2026-11-02 07:34:29"
       }
     }
   },

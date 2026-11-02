@@ -2,7 +2,7 @@
   {
     "id": "5100009",
     "dep": "05",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "RN 94",
     "cp": "05100",
     "ville": "Montgenèvre",
@@ -65,9 +65,17 @@
     "latitude": 44.552,
     "longitude": 6.256,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.150",
+        "maj": "2026-11-02 06:40:09"
+      },
       "E85": {
         "valeur": "0.924",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 06:40:09"
       }
     }
   },
@@ -150,7 +158,7 @@
   {
     "id": "5400003",
     "dep": "05",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "1256 route de gap",
     "cp": "05400",
     "ville": "Veynes",
@@ -174,7 +182,7 @@
   {
     "id": "5240004",
     "dep": "05",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "60 rue de la guisane",
     "cp": "05240",
     "ville": "la salle les alpes",
@@ -198,7 +206,7 @@
   {
     "id": "5600006",
     "dep": "05",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Porte du Queyras",
     "cp": "05600",
     "ville": "GUILLESTRE",
@@ -226,7 +234,7 @@
   {
     "id": "5400004",
     "dep": "05",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "ROUTE DE GAP",
     "cp": "05400",
     "ville": "VEYNES",
@@ -274,7 +282,7 @@
   {
     "id": "5000017",
     "dep": "05",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "46 AV. DE PROVENCE",
     "cp": "05000",
     "ville": "GAP",
@@ -283,11 +291,11 @@
     "carburants": {
       "E85": {
         "valeur": "0.939",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "0.999",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -318,7 +326,7 @@
   {
     "id": "5120003",
     "dep": "05",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "RN 94 Lieu-dit Pont la Lame",
     "cp": "05120",
     "ville": "Saint-Martin-de-Queyrières",
@@ -342,7 +350,7 @@
   {
     "id": "5130002",
     "dep": "05",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "230 avenue Pierre Bernard Reymond",
     "cp": "05130",
     "ville": "Tallard",
@@ -350,20 +358,20 @@
     "longitude": 6.0351392063597995,
     "carburants": {
       "Gazole": {
-        "valeur": "2.356",
-        "maj": "2026-10-29 11:24:27"
+        "valeur": "2.159",
+        "maj": "2026-11-02 07:38:09"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-27 08:55:59"
       },
       "E10": {
-        "valeur": "2.149",
-        "maj": "2026-10-19 09:28:24"
+        "valeur": "2.129",
+        "maj": "2026-11-02 07:38:10"
       },
       "SP98": {
-        "valeur": "2.259",
-        "maj": "2026-10-19 09:28:24"
+        "valeur": "2.219",
+        "maj": "2026-11-02 07:38:10"
       }
     }
   },
@@ -378,8 +386,8 @@
     "longitude": 6.487,
     "carburants": {
       "Gazole": {
-        "valeur": "2.445",
-        "maj": "2026-10-28 18:00:00"
+        "valeur": "2.325",
+        "maj": "2026-11-01 13:53:03"
       },
       "SP95": {
         "valeur": "2.215",
@@ -402,8 +410,8 @@
     "longitude": 6.084,
     "carburants": {
       "Gazole": {
-        "valeur": "2.355",
-        "maj": "2026-10-27 12:18:28"
+        "valeur": "2.149",
+        "maj": "2026-11-02 07:41:00"
       },
       "E10": {
         "valeur": "2.128",
@@ -425,17 +433,13 @@
     "latitude": 44.903718328593996,
     "longitude": 6.6290858578086,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
       "E85": {
         "valeur": "0.948",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "1.069",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -466,7 +470,7 @@
   {
     "id": "5200001",
     "dep": "05",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "Zone d'Entraigues",
     "cp": "05200",
     "ville": "Embrun",
@@ -646,7 +650,7 @@
   {
     "id": "5000018",
     "dep": "05",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "10 AV.GUILLAUME FAREL",
     "cp": "05000",
     "ville": "GAP",
@@ -655,15 +659,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E85": {
         "valeur": "0.938",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -698,7 +702,7 @@
   {
     "id": "5120002",
     "dep": "05",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "PLACE DE LA MAIRIE",
     "cp": "05120",
     "ville": "L'Argentière-la-Bessée",
@@ -770,19 +774,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-31 08:50:15"
+        "maj": "2026-11-01 09:10:11"
       },
       "SP95": {
         "valeur": "1.990",
-        "maj": "2026-10-31 08:50:15"
+        "maj": "2026-11-01 09:10:11"
       },
       "E85": {
         "valeur": "1.990",
-        "maj": "2026-10-31 08:50:15"
+        "maj": "2026-11-01 09:10:11"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-31 08:50:15"
+        "maj": "2026-11-01 09:10:11"
       }
     }
   },
@@ -845,7 +849,7 @@
   {
     "id": "5500002",
     "dep": "05",
-    "enseigne": "",
+    "enseigne": "Carrefour Market",
     "adresse": "ZA DU MOULIN",
     "cp": "05500",
     "ville": "Saint-Bonnet-en-Champsaur",
@@ -945,8 +949,8 @@
     "longitude": 5.823,
     "carburants": {
       "Gazole": {
-        "valeur": "2.369",
-        "maj": "2026-10-29 10:09:25"
+        "valeur": "2.169",
+        "maj": "2026-11-02 07:32:35"
       },
       "E85": {
         "valeur": "0.869",
@@ -1041,8 +1045,8 @@
     "longitude": 6.074,
     "carburants": {
       "Gazole": {
-        "valeur": "2.347",
-        "maj": "2026-10-23 11:33:27"
+        "valeur": "2.158",
+        "maj": "2026-11-02 07:09:17"
       },
       "E85": {
         "valeur": "0.879",

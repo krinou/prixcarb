@@ -138,27 +138,27 @@
     "longitude": 2.718,
     "carburants": {
       "Gazole": {
-        "valeur": "2.349",
-        "maj": "2026-10-31 17:31:01"
+        "valeur": "2.299",
+        "maj": "2026-11-01 09:08:59"
       },
       "E85": {
         "valeur": "0.879",
         "maj": "2026-09-16 05:49:06"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-10-20 10:23:24"
+        "valeur": "2.079",
+        "maj": "2026-11-01 09:12:33"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-10-20 10:23:24"
+        "valeur": "2.179",
+        "maj": "2026-11-01 09:12:33"
       }
     }
   },
   {
     "id": "11400002",
     "dep": "11",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "88 Avenue Monseigneur de Langle",
     "cp": "11400",
     "ville": "Castelnaudary",
@@ -398,7 +398,7 @@
   {
     "id": "11000007",
     "dep": "11",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "Route de Toulouse",
     "cp": "11000",
     "ville": "Carcassonne",
@@ -407,19 +407,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.169",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP95": {
         "valeur": "2.179",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.095",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP98": {
         "valeur": "2.189",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },
@@ -466,8 +466,8 @@
     "longitude": 2.753,
     "carburants": {
       "Gazole": {
-        "valeur": "2.359",
-        "maj": "2026-10-26 08:30:00"
+        "valeur": "2.149",
+        "maj": "2026-11-02 07:49:10"
       },
       "SP95": {
         "valeur": "2.099",
@@ -494,8 +494,8 @@
     "longitude": 3.09,
     "carburants": {
       "Gazole": {
-        "valeur": "2.492",
-        "maj": "2026-10-30 08:52:33"
+        "valeur": "2.282",
+        "maj": "2026-11-01 08:14:03"
       },
       "E85": {
         "valeur": "0.999",
@@ -518,7 +518,7 @@
   {
     "id": "11500005",
     "dep": "11",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "ZA LA PLAGE SUD",
     "cp": "11500",
     "ville": "QUILLAN",
@@ -542,7 +542,7 @@
   {
     "id": "11150002",
     "dep": "11",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "ld croix de l'ourmet  RN 113",
     "cp": "11150",
     "ville": "VILLEPINTE",
@@ -566,7 +566,7 @@
   {
     "id": "11430001",
     "dep": "11",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "Avenue de Narbonne",
     "cp": "11430",
     "ville": "GRUISSAN",
@@ -767,23 +767,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-01 09:00:00"
       },
       "E85": {
         "valeur": "1.059",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-01 09:00:00"
       },
       "GPLc": {
         "valeur": "1.154",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-01 09:00:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-01 09:00:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-02 07:20:22"
       }
     }
   },
@@ -822,20 +822,20 @@
     "longitude": 2.9359216901315,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-27 10:59:12"
+        "valeur": "2.249",
+        "maj": "2026-11-02 04:12:01"
       },
       "E85": {
         "valeur": "0.949",
-        "maj": "2026-10-27 10:59:12"
+        "maj": "2026-11-02 04:12:01"
       },
       "E10": {
         "valeur": "2.099",
-        "maj": "2026-10-27 10:59:12"
+        "maj": "2026-11-02 04:12:01"
       },
       "SP98": {
         "valeur": "2.199",
-        "maj": "2026-10-27 10:59:13"
+        "maj": "2026-11-02 04:12:01"
       }
     }
   },
@@ -848,21 +848,12 @@
     "ville": "LEZIGNAN CORBIERES",
     "latitude": 43.2,
     "longitude": 2.75,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "11110001",
     "dep": "11",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "Avenue de Toulouse",
     "cp": "11110",
     "ville": "COURSAN",
@@ -890,7 +881,7 @@
   {
     "id": "11400008",
     "dep": "11",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "129 AVENUE MONSEIGNEUR DELANGLE",
     "cp": "11400",
     "ville": "Castelnaudary",
@@ -951,7 +942,7 @@
     "carburants": {
       "GPLc": {
         "valeur": "1.039",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -1067,23 +1058,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.149",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E85": {
         "valeur": "1.049",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "GPLc": {
         "valeur": "1.040",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.118",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP98": {
         "valeur": "2.189",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },
@@ -1108,17 +1099,13 @@
       "GPLc": {
         "valeur": "1.025",
         "maj": "2026-10-30 16:34:53"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 16:34:53"
       }
     }
   },
   {
     "id": "11370004",
     "dep": "11",
-    "enseigne": "Esso",
+    "enseigne": "",
     "adresse": "LIEUDIT CAP DE FRONTAVENUE DES ROSEAUX",
     "cp": "11370",
     "ville": "PORT LEUCATE",
@@ -1397,7 +1384,7 @@
   {
     "id": "11290005",
     "dep": "11",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "Lieu dit Le GOUTAL - Route d'ALAIRAC - D211",
     "cp": "11290",
     "ville": "LAVALETTE",
@@ -1421,7 +1408,7 @@
   {
     "id": "11400005",
     "dep": "11",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "211 ROUTE DE VILLASAVARY",
     "cp": "11400",
     "ville": "CASTELNAUDARY",
@@ -1429,16 +1416,16 @@
     "longitude": 1.959,
     "carburants": {
       "Gazole": {
-        "valeur": "2.419",
-        "maj": "2026-10-28 06:32:16"
+        "valeur": "2.209",
+        "maj": "2026-11-02 05:57:14"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-30 06:52:41"
       },
       "E10": {
-        "valeur": "2.119",
-        "maj": "2026-10-22 06:19:08"
+        "valeur": "2.099",
+        "maj": "2026-11-02 05:57:14"
       }
     }
   },
@@ -1497,7 +1484,7 @@
   {
     "id": "11290003",
     "dep": "11",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "28 AVENUE DU LAURAGAIS",
     "cp": "11290",
     "ville": "MONTREAL",
@@ -1508,7 +1495,7 @@
   {
     "id": "11500004",
     "dep": "11",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "6 Avenue F.Mitterrand",
     "cp": "11500",
     "ville": "QUILLAN",
@@ -1584,7 +1571,7 @@
   {
     "id": "11480007",
     "dep": "11",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "AIRE DE LAPALME EST",
     "cp": "11480",
     "ville": "La Palme",
@@ -1612,7 +1599,7 @@
   {
     "id": "11140001",
     "dep": "11",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "Lieu Dit La Condomine",
     "cp": "11140",
     "ville": "AXAT",
@@ -1641,15 +1628,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.175",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.069",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP98": {
         "valeur": "2.189",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },
@@ -1928,8 +1915,8 @@
     "longitude": 2.369,
     "carburants": {
       "Gazole": {
-        "valeur": "2.379",
-        "maj": "2026-10-30 20:44:00"
+        "valeur": "2.229",
+        "maj": "2026-11-02 07:00:00"
       },
       "E10": {
         "valeur": "2.095",
@@ -1954,10 +1941,6 @@
       "Gazole": {
         "valeur": "2.250",
         "maj": "2026-10-30 07:38:02"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 07:38:03"
       }
     }
   },
@@ -2009,7 +1992,12 @@
     "ville": "Carcassonne",
     "latitude": 43.207,
     "longitude": 2.386,
-    "carburants": {}
+    "carburants": {
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:46:17"
+      }
+    }
   },
   {
     "id": "11100013",
@@ -2023,15 +2011,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "1.029",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -2044,16 +2032,7 @@
     "ville": "Rouffiac d'Aude",
     "latitude": 43.124,
     "longitude": 2.294,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.249",
-        "maj": "2026-10-30 11:09:39"
-      },
-      "SP95": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 11:09:39"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "11100002",
@@ -2114,16 +2093,16 @@
     "longitude": 1.936,
     "carburants": {
       "Gazole": {
-        "valeur": "2.419",
-        "maj": "2026-10-28 08:57:02"
+        "valeur": "2.209",
+        "maj": "2026-11-02 07:11:21"
       },
       "E85": {
-        "valeur": "0.879",
-        "maj": "2026-10-14 09:04:07"
+        "valeur": "0.869",
+        "maj": "2026-11-02 07:11:21"
       },
       "E10": {
-        "valeur": "2.119",
-        "maj": "2026-10-22 09:24:19"
+        "valeur": "2.099",
+        "maj": "2026-11-02 07:11:22"
       },
       "SP98": {
         "valeur": "2.229",

@@ -10,8 +10,8 @@
     "longitude": 2.176,
     "carburants": {
       "Gazole": {
-        "valeur": "2.472",
-        "maj": "2026-10-27 07:28:29"
+        "valeur": "2.272",
+        "maj": "2026-11-02 07:36:37"
       },
       "E10": {
         "valeur": "2.132",
@@ -102,7 +102,7 @@
   {
     "id": "23230001",
     "dep": "23",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Avenue du Berry",
     "cp": "23230",
     "ville": "GOUZON",
@@ -126,7 +126,7 @@
   {
     "id": "23150001",
     "dep": "23",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "zone artisanale de la ganne",
     "cp": "23150",
     "ville": "AHUN",
@@ -134,8 +134,8 @@
     "longitude": 2.034,
     "carburants": {
       "Gazole": {
-        "valeur": "2.395",
-        "maj": "2026-10-24 19:25:36"
+        "valeur": "2.247",
+        "maj": "2026-11-02 00:00:00"
       },
       "E85": {
         "valeur": "0.879",
@@ -154,7 +154,7 @@
   {
     "id": "23300010",
     "dep": "23",
-    "enseigne": "Shell",
+    "enseigne": "",
     "adresse": "14 LA CROISIERE",
     "cp": "23300",
     "ville": "SAINT MAURICE LA SOUTERRAINE",
@@ -170,7 +170,7 @@
   {
     "id": "23130002",
     "dep": "23",
-    "enseigne": "Carrefour Express",
+    "enseigne": "",
     "adresse": "7 ROUTE D'AUBUSSON",
     "cp": "23130",
     "ville": "CHENERAILLES",
@@ -242,8 +242,8 @@
     "longitude": 1.4792175194644,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-31 06:07:33"
+        "valeur": "2.199",
+        "maj": "2026-11-02 05:36:14"
       },
       "SP95": {
         "valeur": "2.129",
@@ -254,8 +254,8 @@
         "maj": "2026-10-24 07:57:04"
       },
       "E10": {
-        "valeur": "2.081",
-        "maj": "2026-10-31 06:07:34"
+        "valeur": "2.069",
+        "maj": "2026-11-02 05:36:14"
       }
     }
   },
@@ -390,7 +390,7 @@
   {
     "id": "23220001",
     "dep": "23",
-    "enseigne": "Intermarché Contact",
+    "enseigne": "",
     "adresse": "38 avenue de la marche",
     "cp": "23220",
     "ville": "Bonnat",
@@ -398,8 +398,8 @@
     "longitude": 1.916,
     "carburants": {
       "Gazole": {
-        "valeur": "2.449",
-        "maj": "2026-10-30 04:59:02"
+        "valeur": "2.249",
+        "maj": "2026-11-02 04:39:56"
       },
       "E85": {
         "valeur": "0.869",
@@ -426,8 +426,8 @@
     "longitude": 1.76,
     "carburants": {
       "Gazole": {
-        "valeur": "2.419",
-        "maj": "2026-10-27 07:17:30"
+        "valeur": "2.345",
+        "maj": "2026-11-01 09:09:11"
       },
       "SP95": {
         "valeur": "2.188",
@@ -470,7 +470,7 @@
   {
     "id": "23290001",
     "dep": "23",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "8 route de la souterraine",
     "cp": "23290",
     "ville": "FURSAC",
@@ -494,7 +494,7 @@
   {
     "id": "23140003",
     "dep": "23",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "ROUTE NATIONALE 145 - AIRE DE PARSAC",
     "cp": "23140",
     "ville": "PARSAC",
@@ -503,23 +503,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E85": {
         "valeur": "0.914",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "1.089",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -614,8 +606,8 @@
     "longitude": 2.43,
     "carburants": {
       "Gazole": {
-        "valeur": "2.429",
-        "maj": "2026-10-31 08:02:32"
+        "valeur": "2.229",
+        "maj": "2026-11-02 07:37:18"
       },
       "E10": {
         "valeur": "2.179",
@@ -754,7 +746,7 @@
   {
     "id": "23300012",
     "dep": "23",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "7 Av. de la République",
     "cp": "23300",
     "ville": "La Souterraine",
@@ -778,8 +770,8 @@
     "longitude": 1.764754648762,
     "carburants": {
       "Gazole": {
-        "valeur": "2.419",
-        "maj": "2026-10-27 07:16:55"
+        "valeur": "2.345",
+        "maj": "2026-11-01 09:08:45"
       },
       "E85": {
         "valeur": "0.949",

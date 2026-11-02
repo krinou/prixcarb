@@ -10,8 +10,8 @@
     "longitude": 1.178,
     "carburants": {
       "Gazole": {
-        "valeur": "2.439",
-        "maj": "2026-10-29 16:35:38"
+        "valeur": "2.289",
+        "maj": "2026-11-01 12:02:44"
       },
       "E10": {
         "valeur": "2.209",
@@ -33,20 +33,16 @@
     "latitude": 47.797,
     "longitude": 1.059,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
   {
     "id": "41240003",
     "dep": "41",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "15 Rue du 8 Mai 1945",
     "cp": "41240",
     "ville": "Binas",
@@ -99,23 +95,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.369",
-        "maj": "2026-10-31 20:00:00"
+        "maj": "2026-11-01 20:00:00"
       },
       "E85": {
         "valeur": "0.999",
-        "maj": "2026-10-31 20:00:00"
+        "maj": "2026-11-01 20:00:00"
       },
       "GPLc": {
         "valeur": "1.099",
-        "maj": "2026-10-31 20:00:00"
+        "maj": "2026-11-01 20:00:00"
       },
       "E10": {
         "valeur": "2.169",
-        "maj": "2026-10-31 20:00:00"
+        "maj": "2026-11-01 20:00:00"
       },
       "SP98": {
         "valeur": "2.244",
-        "maj": "2026-10-31 20:00:00"
+        "maj": "2026-11-01 20:00:00"
       }
     }
   },
@@ -206,7 +202,7 @@
   {
     "id": "41400007",
     "dep": "41",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "63 route de montrichard",
     "cp": "41400",
     "ville": "Pontlevoy",
@@ -246,7 +242,7 @@
   {
     "id": "41100005",
     "dep": "41",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Route de Blois La Pierre Levée",
     "cp": "41100",
     "ville": "Vendôme",
@@ -254,8 +250,8 @@
     "longitude": 1.071,
     "carburants": {
       "Gazole": {
-        "valeur": "2.409",
-        "maj": "2026-10-29 09:34:37"
+        "valeur": "2.205",
+        "maj": "2026-11-02 07:34:09"
       },
       "GPLc": {
         "valeur": "0.979",
@@ -263,18 +259,18 @@
       },
       "E10": {
         "valeur": "2.159",
-        "maj": "2026-10-29 09:34:37"
+        "maj": "2026-11-02 07:34:09"
       },
       "SP98": {
         "valeur": "2.277",
-        "maj": "2026-10-29 09:34:37"
+        "maj": "2026-11-02 07:34:09"
       }
     }
   },
   {
     "id": "41000021",
     "dep": "41",
-    "enseigne": "Esso",
+    "enseigne": "",
     "adresse": "A10 Aire de Blois Ménars",
     "cp": "41000",
     "ville": "Villerbon",
@@ -314,8 +310,8 @@
     "longitude": 1.3507251442652999,
     "carburants": {
       "Gazole": {
-        "valeur": "2.429",
-        "maj": "2026-10-29 16:34:25"
+        "valeur": "2.279",
+        "maj": "2026-11-01 12:08:19"
       },
       "E10": {
         "valeur": "2.229",
@@ -365,7 +361,7 @@
   {
     "id": "41360005",
     "dep": "41",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "5 bis avenue de la Braye",
     "cp": "41360",
     "ville": "Savigny-sur-Braye",
@@ -389,7 +385,7 @@
   {
     "id": "41300007",
     "dep": "41",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "Autoroute A71 - Aire de Salbris La Loge - Sens Province Paris",
     "cp": "41300",
     "ville": "Theillay",
@@ -421,7 +417,7 @@
   {
     "id": "41370004",
     "dep": "41",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "Route de Blois",
     "cp": "41370",
     "ville": "MARCHENOIR",
@@ -445,7 +441,7 @@
   {
     "id": "41300008",
     "dep": "41",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "Autoroute A71, Sens Paris-Vierzon",
     "cp": "41300",
     "ville": "Theillay",
@@ -547,10 +543,6 @@
       "E85": {
         "valeur": "0.939",
         "maj": "2026-10-29 19:36:07"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-29 19:36:07"
       }
     }
   },
@@ -574,7 +566,16 @@
     "ville": "SAINT-GEORGES-SUR-CHER",
     "latitude": 47.3298125,
     "longitude": 1.1500625,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 07:33:36"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:33:36"
+      }
+    }
   },
   {
     "id": "41120002",
@@ -671,7 +672,7 @@
   {
     "id": "41000005",
     "dep": "41",
-    "enseigne": "Shell",
+    "enseigne": "",
     "adresse": "A10 - Aire de Blois-Villerbon",
     "cp": "41000",
     "ville": "Villerbon",
@@ -695,7 +696,7 @@
   {
     "id": "41240002",
     "dep": "41",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "2 Bis Voie Romaine",
     "cp": "41240",
     "ville": "BEAUCE LA ROMAINE",
@@ -719,7 +720,7 @@
   {
     "id": "41400004",
     "dep": "41",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "CENTRE COMMERCIAL MONTPARNASSE",
     "cp": "41400",
     "ville": "FAVEROLLES-SUR-CHER",
@@ -768,23 +769,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E85": {
         "valeur": "1.019",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "1.131",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -826,7 +827,7 @@
   {
     "id": "41200006",
     "dep": "41",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "La Brigaudière",
     "cp": "41200",
     "ville": "Pruniers-en-Sologne / Romorantin",
@@ -834,27 +835,27 @@
     "longitude": 1.728,
     "carburants": {
       "Gazole": {
-        "valeur": "2.415",
-        "maj": "2026-10-29 09:04:16"
+        "valeur": "2.365",
+        "maj": "2026-11-02 07:31:24"
       },
       "SP95": {
-        "valeur": "2.130",
-        "maj": "2026-10-30 08:02:12"
+        "valeur": "2.115",
+        "maj": "2026-11-02 07:31:24"
       },
       "E10": {
-        "valeur": "2.095",
-        "maj": "2026-10-30 08:02:12"
+        "valeur": "2.080",
+        "maj": "2026-11-02 07:31:25"
       },
       "SP98": {
-        "valeur": "2.205",
-        "maj": "2026-10-29 09:04:16"
+        "valeur": "2.190",
+        "maj": "2026-11-02 07:31:25"
       }
     }
   },
   {
     "id": "41110001",
     "dep": "41",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "Impasse des Terres Rouges",
     "cp": "41110",
     "ville": "SAINT-AIGNAN",
@@ -886,7 +887,7 @@
   {
     "id": "41200005",
     "dep": "41",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "LA BRIGAUDIERE",
     "cp": "41200",
     "ville": "ROMORANTIN-LANTHENAY",
@@ -905,12 +906,12 @@
     "longitude": 1.713,
     "carburants": {
       "Gazole": {
-        "valeur": "2.403",
-        "maj": "2026-10-29 07:45:00"
+        "valeur": "2.326",
+        "maj": "2026-11-02 07:00:00"
       },
       "SP95": {
-        "valeur": "2.110",
-        "maj": "2026-10-30 07:30:00"
+        "valeur": "2.104",
+        "maj": "2026-11-02 07:00:00"
       },
       "E85": {
         "valeur": "0.855",
@@ -921,15 +922,15 @@
         "maj": "2026-10-31 12:03:59"
       },
       "E10": {
-        "valeur": "2.075",
-        "maj": "2026-10-30 07:30:00"
+        "valeur": "2.065",
+        "maj": "2026-11-02 07:00:00"
       }
     }
   },
   {
     "id": "41800002",
     "dep": "41",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "avenue de la Paix",
     "cp": "41800",
     "ville": "Montoire-sur-le-Loir",
@@ -961,7 +962,7 @@
   {
     "id": "41000022",
     "dep": "41",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "1 rue de la Quinière",
     "cp": "41000",
     "ville": "Blois",
@@ -989,7 +990,7 @@
   {
     "id": "41350001",
     "dep": "41",
-    "enseigne": "Auchan hypermarché",
+    "enseigne": "",
     "adresse": "ZI Les Gâts de Coeur",
     "cp": "41350",
     "ville": "VINEUIL",
@@ -1089,15 +1090,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E85": {
         "valeur": "0.961",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "0.949",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -1171,17 +1172,9 @@
     "latitude": 47.573033498700994,
     "longitude": 1.3698788385309,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
       "E85": {
         "valeur": "0.959",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -1251,14 +1244,6 @@
     "latitude": 47.715,
     "longitude": 1.613,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-26 07:35:27"
-      },
-      "E85": {
-        "valeur": "0.879",
-        "maj": "2026-10-23 07:30:42"
-      },
       "E10": {
         "valeur": "2.099",
         "maj": "2026-10-30 07:33:24"
@@ -1280,16 +1265,16 @@
     "longitude": 1.737,
     "carburants": {
       "Gazole": {
-        "valeur": "2.403",
-        "maj": "2026-10-29 07:45:00"
+        "valeur": "2.326",
+        "maj": "2026-11-02 07:00:00"
       },
       "SP95": {
-        "valeur": "2.110",
-        "maj": "2026-10-30 07:30:00"
+        "valeur": "2.104",
+        "maj": "2026-11-02 07:00:00"
       },
       "SP98": {
-        "valeur": "2.195",
-        "maj": "2026-10-23 08:00:00"
+        "valeur": "2.170",
+        "maj": "2026-11-02 07:00:00"
       }
     }
   },
@@ -1377,19 +1362,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.172",
-        "maj": "2026-11-01 00:19:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP95": {
         "valeur": "2.255",
-        "maj": "2026-11-01 00:19:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.157",
-        "maj": "2026-11-01 00:19:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP98": {
         "valeur": "2.275",
-        "maj": "2026-11-01 00:19:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },

@@ -26,8 +26,8 @@
     "longitude": 1.089,
     "carburants": {
       "Gazole": {
-        "valeur": "2.419",
-        "maj": "2026-10-31 20:00:00"
+        "valeur": "2.299",
+        "maj": "2026-11-01 12:58:33"
       },
       "SP95": {
         "valeur": "2.149",
@@ -335,22 +335,6 @@
     "ville": "Riscle",
     "latitude": 43.668,
     "longitude": -0.079,
-    "carburants": {
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 16:50:58"
-      }
-    }
-  },
-  {
-    "id": "32550001",
-    "dep": "32",
-    "enseigne": "TotalEnergies",
-    "adresse": "Route de Tarbes",
-    "cp": "32550",
-    "ville": "PAVIE",
-    "latitude": 43.617,
-    "longitude": 0.575,
     "carburants": {}
   },
   {
@@ -376,6 +360,17 @@
         "maj": "2026-10-10 15:10:21"
       }
     }
+  },
+  {
+    "id": "32550001",
+    "dep": "32",
+    "enseigne": "TotalEnergies",
+    "adresse": "Route de Tarbes",
+    "cp": "32550",
+    "ville": "PAVIE",
+    "latitude": 43.617,
+    "longitude": 0.575,
+    "carburants": {}
   },
   {
     "id": "32800001",
@@ -444,8 +439,8 @@
     "longitude": 0.172,
     "carburants": {
       "Gazole": {
-        "valeur": "2.459",
-        "maj": "2026-10-28 14:49:17"
+        "valeur": "2.259",
+        "maj": "2026-11-02 07:01:19"
       },
       "SP95": {
         "valeur": "2.139",
@@ -712,8 +707,8 @@
     "longitude": 0.37835,
     "carburants": {
       "Gazole": {
-        "valeur": "2.386",
-        "maj": "2026-10-30 08:50:56"
+        "valeur": "2.179",
+        "maj": "2026-11-01 11:03:29"
       },
       "E10": {
         "valeur": "2.069",
@@ -919,10 +914,6 @@
     "latitude": 43.853,
     "longitude": 0.664,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.239",
-        "maj": "2026-10-29 11:39:08"
-      },
       "SP95": {
         "valeur": "1.990",
         "maj": "2026-10-29 11:39:08"
@@ -1164,24 +1155,24 @@
     "longitude": 0.591,
     "carburants": {
       "Gazole": {
-        "valeur": "2.359",
-        "maj": "2026-10-15 19:40:07"
+        "valeur": "2.149",
+        "maj": "2026-11-01 09:10:46"
       },
       "E85": {
-        "valeur": "0.845",
-        "maj": "2026-10-02 09:03:59"
+        "valeur": "0.819",
+        "maj": "2026-11-01 08:30:00"
       },
       "GPLc": {
         "valeur": "0.999",
         "maj": "2026-09-28 12:12:31"
       },
       "E10": {
-        "valeur": "2.219",
-        "maj": "2026-10-12 19:45:00"
+        "valeur": "2.079",
+        "maj": "2026-11-01 08:30:00"
       },
       "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-10-15 19:40:07"
+        "valeur": "2.199",
+        "maj": "2026-11-01 08:30:00"
       }
     }
   }

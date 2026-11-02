@@ -127,23 +127,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.178",
-        "maj": "2026-11-01 00:22:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E85": {
         "valeur": "0.865",
-        "maj": "2026-11-01 00:22:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "GPLc": {
         "valeur": "1.089",
-        "maj": "2026-11-01 00:22:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.077",
-        "maj": "2026-11-01 00:22:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP98": {
         "valeur": "2.237",
-        "maj": "2026-11-01 00:22:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },
@@ -294,7 +294,7 @@
   {
     "id": "61110002",
     "dep": "61",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "ZA ST MARC",
     "cp": "61110",
     "ville": "Rémalard en Perche",
@@ -346,7 +346,7 @@
   {
     "id": "61260003",
     "dep": "61",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "29 AVENUE DES LOGES",
     "cp": "61260",
     "ville": "Val-au-Perche",
@@ -366,7 +366,7 @@
   {
     "id": "61220001",
     "dep": "61",
-    "enseigne": "G20",
+    "enseigne": "",
     "adresse": "RUE D'ARGENTAN",
     "cp": "61220",
     "ville": "BRIOUZE",
@@ -390,7 +390,7 @@
   {
     "id": "61250002",
     "dep": "61",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "28 Rue d'Alençon",
     "cp": "61250",
     "ville": "Condé-sur-Sarthe",
@@ -414,7 +414,7 @@
   {
     "id": "61260002",
     "dep": "61",
-    "enseigne": "Rond point de queux - mâle",
+    "enseigne": "",
     "adresse": "rond Point de Queux - Mâle",
     "cp": "61260",
     "ville": "VAL AU PERCHE",
@@ -462,7 +462,7 @@
   {
     "id": "61120004",
     "dep": "61",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "353 Route de Livarot",
     "cp": "61120",
     "ville": "Vimoutiers",
@@ -658,20 +658,20 @@
     "longitude": -0.56304856211159,
     "carburants": {
       "Gazole": {
-        "valeur": "2.390",
-        "maj": "2026-10-29 14:27:17"
+        "valeur": "2.190",
+        "maj": "2026-11-01 10:41:37"
       },
       "SP95": {
-        "valeur": "2.163",
-        "maj": "2026-10-29 08:34:29"
+        "valeur": "2.133",
+        "maj": "2026-11-01 10:41:37"
       },
       "E85": {
         "valeur": "0.878",
-        "maj": "2026-10-19 09:43:34"
+        "maj": "2026-11-01 10:41:37"
       },
       "E10": {
-        "valeur": "2.089",
-        "maj": "2026-10-29 08:34:30"
+        "valeur": "2.061",
+        "maj": "2026-11-01 10:41:37"
       }
     }
   },
@@ -781,28 +781,20 @@
     "latitude": 48.444,
     "longitude": 0.1,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
       "E85": {
         "valeur": "0.904",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "1.099",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 07:42:16"
       }
     }
   },
   {
     "id": "61400004",
     "dep": "61",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "16 Rue du Faubourg Saint Eloi",
     "cp": "61400",
     "ville": "Mortagne-au-Perche",
@@ -822,7 +814,7 @@
   {
     "id": "61790001",
     "dep": "61",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "ZA LA REMAIZIERE",
     "cp": "61790",
     "ville": "Saint-Pierre-du-Regard",
@@ -846,7 +838,7 @@
   {
     "id": "61400001",
     "dep": "61",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "Route d'Alençon Ancienne RN 12",
     "cp": "61400",
     "ville": "SAINT-LANGIS-LèS-MORTAGNE",
@@ -911,41 +903,9 @@
     "carburants": {}
   },
   {
-    "id": "61250003",
-    "dep": "61",
-    "enseigne": "TotalEnergies",
-    "adresse": "AUTOROUTE A28 - AIRE DE LA DENTELLE D'ALENÇON",
-    "cp": "61250",
-    "ville": "VALFRAMBERT",
-    "latitude": 48.456738391763,
-    "longitude": 0.12705878900904,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E85": {
-        "valeur": "1.059",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "GPLc": {
-        "valeur": "1.149",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
-  },
-  {
     "id": "61170001",
     "dep": "61",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Lieu-Dit les Naudières",
     "cp": "61170",
     "ville": "Saint-Julien-sur-Sarthe",
@@ -975,9 +935,37 @@
     }
   },
   {
+    "id": "61250003",
+    "dep": "61",
+    "enseigne": "TotalEnergies",
+    "adresse": "AUTOROUTE A28 - AIRE DE LA DENTELLE D'ALENÇON",
+    "cp": "61250",
+    "ville": "VALFRAMBERT",
+    "latitude": 48.456738391763,
+    "longitude": 0.12705878900904,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 00:01:00"
+      },
+      "E85": {
+        "valeur": "1.059",
+        "maj": "2026-11-02 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.149",
+        "maj": "2026-11-02 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 00:01:00"
+      }
+    }
+  },
+  {
     "id": "61500004",
     "dep": "61",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Rue du général Leclerc",
     "cp": "61500",
     "ville": "Sées",
@@ -1137,16 +1125,16 @@
     "longitude": -0.36540370000000005,
     "carburants": {
       "Gazole": {
-        "valeur": "2.418",
-        "maj": "2026-10-30 12:13:52"
+        "valeur": "2.208",
+        "maj": "2026-11-02 07:38:55"
       },
       "E10": {
         "valeur": "2.107",
-        "maj": "2026-10-30 12:13:52"
+        "maj": "2026-11-02 07:38:55"
       },
       "SP98": {
         "valeur": "2.267",
-        "maj": "2026-10-30 12:13:52"
+        "maj": "2026-11-02 07:38:56"
       }
     }
   },
@@ -1263,7 +1251,12 @@
     "ville": "Argentan",
     "latitude": 48.749,
     "longitude": -0.011,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.115",
+        "maj": "2026-11-02 00:01:00"
+      }
+    }
   },
   {
     "id": "61200006",
@@ -1328,16 +1321,16 @@
     "longitude": 0.09830530000000001,
     "carburants": {
       "Gazole": {
-        "valeur": "2.395",
-        "maj": "2026-10-30 14:21:17"
+        "valeur": "2.370",
+        "maj": "2026-11-01 08:25:38"
       },
       "E10": {
         "valeur": "2.237",
-        "maj": "2026-10-30 14:21:17"
+        "maj": "2026-11-01 08:25:38"
       },
       "SP98": {
         "valeur": "2.350",
-        "maj": "2026-10-30 14:21:17"
+        "maj": "2026-11-01 08:25:38"
       }
     }
   },
@@ -1350,7 +1343,20 @@
     "ville": "Domfront en Poiraie",
     "latitude": 48.589,
     "longitude": -0.635,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 07:28:03"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:28:03"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:28:03"
+      }
+    }
   },
   {
     "id": "61130004",
@@ -1372,7 +1378,16 @@
     "ville": "Saint-Langis-lès-Mortagne",
     "latitude": 48.531873198923996,
     "longitude": 0.51166496256938,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 07:01:40"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:01:41"
+      }
+    }
   },
   {
     "id": "61290002",
@@ -1385,16 +1400,16 @@
     "longitude": 0.749707,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-12 09:41:49"
+        "valeur": "2.168",
+        "maj": "2026-11-02 07:22:42"
       },
       "E10": {
-        "valeur": "2.189",
-        "maj": "2026-10-12 09:41:49"
+        "valeur": "2.129",
+        "maj": "2026-11-02 07:22:42"
       },
       "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-10-12 09:41:49"
+        "valeur": "2.249",
+        "maj": "2026-11-02 07:22:42"
       }
     }
   }

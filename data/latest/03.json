@@ -10,8 +10,8 @@
     "longitude": 3.203,
     "carburants": {
       "Gazole": {
-        "valeur": "2.428",
-        "maj": "2026-10-22 07:42:18"
+        "valeur": "2.228",
+        "maj": "2026-11-02 06:42:09"
       },
       "SP95": {
         "valeur": "2.279",
@@ -148,7 +148,12 @@
     "ville": "COMMENTRY",
     "latitude": 46.289,
     "longitude": 2.744,
-    "carburants": {}
+    "carburants": {
+      "E85": {
+        "valeur": "0.959",
+        "maj": "2026-11-02 07:43:35"
+      }
+    }
   },
   {
     "id": "3000003",
@@ -161,8 +166,8 @@
     "longitude": 3.315,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-28 11:14:37"
+        "valeur": "2.189",
+        "maj": "2026-11-01 14:01:04"
       },
       "SP95": {
         "valeur": "2.189",
@@ -198,17 +203,12 @@
     "ville": "DESERTINES",
     "latitude": 46.345,
     "longitude": 2.619,
-    "carburants": {
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "3450001",
     "dep": "03",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "ZA LES VARENNES",
     "cp": "03450",
     "ville": "EBREUIL",
@@ -232,7 +232,7 @@
   {
     "id": "3150008",
     "dep": "03",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "37 avenue de Lyon",
     "cp": "03150",
     "ville": "VARENNES SUR ALLIER",
@@ -256,7 +256,7 @@
   {
     "id": "3400005",
     "dep": "03",
-    "enseigne": "Shell",
+    "enseigne": "",
     "adresse": "ZONE ARTISANALE DU LARRY",
     "cp": "03400",
     "ville": "TOULON SUR ALLIER",
@@ -272,7 +272,7 @@
   {
     "id": "3410007",
     "dep": "03",
-    "enseigne": "Esso Express",
+    "enseigne": "",
     "adresse": "61 avenue des Martyrs",
     "cp": "03410",
     "ville": "DOMERAT",
@@ -280,8 +280,8 @@
     "longitude": 2.564,
     "carburants": {
       "Gazole": {
-        "valeur": "2.459",
-        "maj": "2026-10-27 15:49:05"
+        "valeur": "2.309",
+        "maj": "2026-11-01 12:04:35"
       },
       "E10": {
         "valeur": "2.219",
@@ -296,7 +296,7 @@
   {
     "id": "3500002",
     "dep": "03",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Route de Montmarault",
     "cp": "03500",
     "ville": "SAINT-POURçAIN-SUR-SIOULE",
@@ -307,7 +307,7 @@
   {
     "id": "3310002",
     "dep": "03",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Route de Clermont",
     "cp": "03310",
     "ville": "Néris-les-Bains",
@@ -331,7 +331,7 @@
   {
     "id": "3000006",
     "dep": "03",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "ZAC les portes de l'Allier",
     "cp": "03000",
     "ville": "Avermes",
@@ -339,20 +339,44 @@
     "longitude": 3.3225707144141,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-28 11:15:30"
+        "valeur": "2.189",
+        "maj": "2026-11-01 14:00:23"
       },
       "GPLc": {
         "valeur": "0.999",
         "maj": "2026-05-04 12:04:32"
       },
       "E10": {
-        "valeur": "2.129",
-        "maj": "2026-10-23 08:41:02"
+        "valeur": "2.119",
+        "maj": "2026-11-01 14:00:23"
       },
       "SP98": {
-        "valeur": "2.229",
-        "maj": "2026-10-23 08:41:02"
+        "valeur": "2.199",
+        "maj": "2026-11-01 14:00:24"
+      }
+    }
+  },
+  {
+    "id": "3700002",
+    "dep": "03",
+    "enseigne": "TotalEnergies",
+    "adresse": "22 avenue de la République",
+    "cp": "03700",
+    "ville": "BELLERIVE-SUR-ALLIER",
+    "latitude": 46.118,
+    "longitude": 3.412,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 07:09:31"
+      },
+      "E85": {
+        "valeur": "0.959",
+        "maj": "2026-11-02 07:09:31"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-11-02 07:09:31"
       }
     }
   },
@@ -417,7 +441,20 @@
     "ville": "SAINT-POURCAIN-SUR-SIOULE",
     "latitude": 46.307,
     "longitude": 3.294,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 07:04:49"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:04:49"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:04:49"
+      }
+    }
   },
   {
     "id": "3100001",
@@ -562,7 +599,7 @@
   {
     "id": "3410008",
     "dep": "03",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "Rue de la Chevêche",
     "cp": "03410",
     "ville": "Domérat",
@@ -594,7 +631,7 @@
   {
     "id": "3110001",
     "dep": "03",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "19 Route de Saint-Pourçain",
     "cp": "03110",
     "ville": "CHARMEIL",
@@ -677,8 +714,8 @@
     "longitude": 3.66341,
     "carburants": {
       "Gazole": {
-        "valeur": "2.374",
-        "maj": "2026-10-28 09:22:11"
+        "valeur": "2.174",
+        "maj": "2026-11-02 06:25:55"
       },
       "E10": {
         "valeur": "2.064",
@@ -775,17 +812,13 @@
       "Gazole": {
         "valeur": "2.250",
         "maj": "2026-10-26 10:07:52"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-28 10:13:36"
       }
     }
   },
   {
     "id": "3130002",
     "dep": "03",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "11 Avenue Préveraud",
     "cp": "03130",
     "ville": "Le Donjon",
@@ -794,15 +827,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.480",
-        "maj": "2026-10-20 08:03:33"
+        "maj": "2026-11-01 10:08:06"
       },
       "SP95": {
         "valeur": "2.300",
-        "maj": "2026-10-20 08:03:50"
+        "maj": "2026-11-01 10:08:06"
       },
       "SP98": {
         "valeur": "2.340",
-        "maj": "2026-10-20 08:04:10"
+        "maj": "2026-11-01 10:08:06"
       }
     }
   },
@@ -833,7 +866,7 @@
   {
     "id": "3400007",
     "dep": "03",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "65 ROUTE DE MONTBEUGNY",
     "cp": "03400",
     "ville": "YZEURE",
@@ -969,8 +1002,8 @@
     "longitude": 3.6221078417659,
     "carburants": {
       "Gazole": {
-        "valeur": "2.389",
-        "maj": "2026-10-27 15:12:10"
+        "valeur": "2.199",
+        "maj": "2026-11-02 07:20:00"
       },
       "E85": {
         "valeur": "0.869",
@@ -989,7 +1022,7 @@
   {
     "id": "3320001",
     "dep": "03",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "ROUTE DE MOULINS",
     "cp": "03320",
     "ville": "Lurcy-Lévis",
@@ -1013,7 +1046,7 @@
   {
     "id": "3100010",
     "dep": "03",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "AVENUE JULES GUESDE",
     "cp": "03100",
     "ville": "MONTLUçON",
@@ -1021,23 +1054,23 @@
     "longitude": 2.582,
     "carburants": {
       "Gazole": {
-        "valeur": "2.429",
-        "maj": "2026-10-29 09:44:34"
+        "valeur": "2.229",
+        "maj": "2026-11-01 08:54:04"
       },
       "E10": {
-        "valeur": "2.149",
-        "maj": "2026-10-27 09:55:22"
+        "valeur": "2.099",
+        "maj": "2026-11-01 08:54:04"
       },
       "SP98": {
-        "valeur": "2.239",
-        "maj": "2026-10-27 09:55:22"
+        "valeur": "2.229",
+        "maj": "2026-11-01 08:54:04"
       }
     }
   },
   {
     "id": "3120001",
     "dep": "03",
-    "enseigne": "ENI",
+    "enseigne": "",
     "adresse": "94 RUE PRESIDENT ROOSEVELT",
     "cp": "03120",
     "ville": "LAPALISSE",
@@ -1061,7 +1094,7 @@
   {
     "id": "3630004",
     "dep": "03",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "51 RUE DE LA REPUBLIQUE",
     "cp": "03630",
     "ville": "DESERTINES",
@@ -1165,8 +1198,8 @@
     "longitude": 2.468,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-23 09:29:28"
+        "valeur": "2.199",
+        "maj": "2026-11-02 07:14:46"
       },
       "SP95": {
         "valeur": "2.259",
@@ -1181,7 +1214,7 @@
   {
     "id": "3290001",
     "dep": "03",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "la chapelle",
     "cp": "03290",
     "ville": "Dompierre-sur-Besbre",
@@ -1229,7 +1262,7 @@
   {
     "id": "3100009",
     "dep": "03",
-    "enseigne": "ENI",
+    "enseigne": "",
     "adresse": "106 Avenue John Kennedy",
     "cp": "03100",
     "ville": "Montluçon",
@@ -1365,16 +1398,16 @@
     "longitude": 2.613,
     "carburants": {
       "Gazole": {
-        "valeur": "2.477",
-        "maj": "2026-10-18 20:44:43"
+        "valeur": "2.397",
+        "maj": "2026-11-01 21:22:58"
       },
       "SP95": {
-        "valeur": "2.297",
-        "maj": "2026-10-18 20:44:43"
+        "valeur": "2.247",
+        "maj": "2026-11-01 21:22:58"
       },
       "SP98": {
-        "valeur": "2.347",
-        "maj": "2026-10-18 20:44:43"
+        "valeur": "2.317",
+        "maj": "2026-11-01 21:22:58"
       }
     }
   },
@@ -1464,21 +1497,17 @@
     "latitude": 46.245522061353,
     "longitude": 3.611568909912,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-31 09:55:45"
-      },
       "E85": {
         "valeur": "0.969",
-        "maj": "2026-10-31 09:55:45"
+        "maj": "2026-11-01 10:00:37"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-31 09:55:45"
+        "maj": "2026-11-01 10:00:37"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-31 09:55:45"
+        "maj": "2026-11-01 10:00:37"
       }
     }
   },
@@ -1675,9 +1704,17 @@
     "latitude": 46.29,
     "longitude": 3.293,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.150",
+        "maj": "2026-11-02 05:50:32"
+      },
       "GPLc": {
         "valeur": "1.099",
-        "maj": "2026-10-31 08:53:54"
+        "maj": "2026-11-02 05:50:32"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 05:50:32"
       }
     }
   },
@@ -1696,10 +1733,6 @@
         "maj": "2026-10-31 08:04:13"
       },
       "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-31 08:04:13"
-      },
-      "SP98": {
         "valeur": "1.990",
         "maj": "2026-10-31 08:04:13"
       }
@@ -1804,7 +1837,7 @@
   {
     "id": "3240003",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "route de longeville",
     "cp": "03240",
     "ville": "Deux-Chaises",
@@ -1820,7 +1853,7 @@
   {
     "id": "3500007",
     "dep": "03",
-    "enseigne": "",
+    "enseigne": "Intermarché Contact",
     "adresse": "1 AVENUE GEORGES POMPIDOU",
     "cp": "03500",
     "ville": "SAINT POURCAIN SUR SIOULE",

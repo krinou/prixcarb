@@ -10,20 +10,20 @@
     "longitude": 1.47203766924,
     "carburants": {
       "Gazole": {
-        "valeur": "2.349",
-        "maj": "2026-10-20 05:39:47"
+        "valeur": "2.149",
+        "maj": "2026-11-02 06:48:21"
       },
       "SP95": {
-        "valeur": "2.199",
-        "maj": "2026-10-23 08:57:55"
+        "valeur": "2.139",
+        "maj": "2026-11-02 06:48:21"
       },
       "E10": {
         "valeur": "2.075",
-        "maj": "2026-10-30 05:58:18"
+        "maj": "2026-11-02 06:48:21"
       },
       "SP98": {
-        "valeur": "2.165",
-        "maj": "2026-10-23 08:57:56"
+        "valeur": "2.195",
+        "maj": "2026-11-02 06:48:21"
       }
     }
   },
@@ -169,8 +169,8 @@
         "maj": "2026-09-12 10:40:05"
       },
       "E10": {
-        "valeur": "2.034",
-        "maj": "2026-10-23 12:47:27"
+        "valeur": "2.048",
+        "maj": "2026-11-01 12:06:06"
       },
       "SP98": {
         "valeur": "2.168",
@@ -201,7 +201,7 @@
   {
     "id": "31500008",
     "dep": "31",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "151 AVENUE JEAN CHAUBET",
     "cp": "31500",
     "ville": "TOULOUSE",
@@ -212,7 +212,7 @@
   {
     "id": "31240002",
     "dep": "31",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "AVENUE DE BAYONNE",
     "cp": "31240",
     "ville": "L'UNION",
@@ -223,7 +223,7 @@
   {
     "id": "31470006",
     "dep": "31",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "Lieu dit La Pichette - 1 place Campariol",
     "cp": "31470",
     "ville": "FONTENILLES",
@@ -247,7 +247,7 @@
   {
     "id": "31210001",
     "dep": "31",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "Avenue de Luchon",
     "cp": "31210",
     "ville": "GOURDAN-POLIGNAN",
@@ -255,8 +255,8 @@
     "longitude": 0.58785,
     "carburants": {
       "Gazole": {
-        "valeur": "2.249",
-        "maj": "2026-10-31 19:06:11"
+        "valeur": "2.229",
+        "maj": "2026-11-02 07:00:07"
       },
       "E85": {
         "valeur": "0.849",
@@ -359,7 +359,7 @@
   {
     "id": "31670001",
     "dep": "31",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "CENTRE COMMERCIAL DE L'AUTAN",
     "cp": "31670",
     "ville": "LABEGE",
@@ -471,24 +471,24 @@
     "longitude": 1.8098553706031,
     "carburants": {
       "Gazole": {
-        "valeur": "2.461",
-        "maj": "2026-10-27 10:03:41"
+        "valeur": "2.251",
+        "maj": "2026-11-01 07:55:03"
       },
       "E85": {
         "valeur": "1.007",
-        "maj": "2026-10-27 10:03:41"
+        "maj": "2026-11-01 07:55:03"
       },
       "GPLc": {
         "valeur": "1.150",
-        "maj": "2026-10-27 10:03:41"
+        "maj": "2026-11-01 07:55:03"
       },
       "E10": {
         "valeur": "2.226",
-        "maj": "2026-10-27 10:03:41"
+        "maj": "2026-11-01 07:55:03"
       },
       "SP98": {
         "valeur": "2.299",
-        "maj": "2026-10-27 10:03:41"
+        "maj": "2026-11-01 07:55:03"
       }
     }
   },
@@ -525,22 +525,6 @@
     }
   },
   {
-    "id": "31190004",
-    "dep": "31",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "27 ROUTE DE TOULOUSE",
-    "cp": "31190",
-    "ville": "AUTERIVE",
-    "latitude": 43.35226,
-    "longitude": 1.4697,
-    "carburants": {
-      "E85": {
-        "valeur": "0.908",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
-  },
-  {
     "id": "31000004",
     "dep": "31",
     "enseigne": "TotalEnergies Access",
@@ -552,7 +536,23 @@
     "carburants": {
       "E85": {
         "valeur": "0.909",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "31190004",
+    "dep": "31",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "27 ROUTE DE TOULOUSE",
+    "cp": "31190",
+    "ville": "AUTERIVE",
+    "latitude": 43.35226,
+    "longitude": 1.4697,
+    "carburants": {
+      "E85": {
+        "valeur": "0.908",
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -567,20 +567,20 @@
     "longitude": 1.712,
     "carburants": {
       "Gazole": {
-        "valeur": "2.286",
-        "maj": "2026-11-01 00:28:00"
+        "valeur": "2.299",
+        "maj": "2026-11-02 07:32:00"
       },
       "E85": {
         "valeur": "1.006",
-        "maj": "2026-11-01 00:28:00"
+        "maj": "2026-11-02 07:32:00"
       },
       "E10": {
         "valeur": "2.078",
-        "maj": "2026-11-01 00:28:00"
+        "maj": "2026-11-02 07:32:00"
       },
       "SP98": {
         "valeur": "2.178",
-        "maj": "2026-11-01 00:28:00"
+        "maj": "2026-11-02 07:32:00"
       }
     }
   },
@@ -638,8 +638,8 @@
     "longitude": 1.3159670836853001,
     "carburants": {
       "Gazole": {
-        "valeur": "2.353",
-        "maj": "2026-10-27 07:10:00"
+        "valeur": "2.153",
+        "maj": "2026-11-02 05:08:37"
       },
       "E85": {
         "valeur": "0.869",
@@ -667,23 +667,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E85": {
         "valeur": "1.039",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "1.155",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -723,23 +723,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.159",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E85": {
         "valeur": "0.883",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "GPLc": {
         "valeur": "1.037",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E10": {
         "valeur": "2.128",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "SP98": {
         "valeur": "2.248",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       }
     }
   },
@@ -766,7 +766,7 @@
     "carburants": {
       "E85": {
         "valeur": "0.912",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -801,7 +801,7 @@
   {
     "id": "31410009",
     "dep": "31",
-    "enseigne": "Carrefour Contact",
+    "enseigne": "",
     "adresse": "6 Chemin de Lavernose",
     "cp": "31410",
     "ville": "Longages",
@@ -825,7 +825,7 @@
   {
     "id": "31076001",
     "dep": "31",
-    "enseigne": "Carrefour",
+    "enseigne": "",
     "adresse": "36 route de bayonne",
     "cp": "31076",
     "ville": "TOULOUSE",
@@ -833,35 +833,35 @@
     "longitude": 1.397,
     "carburants": {
       "Gazole": {
-        "valeur": "2.384",
-        "maj": "2026-10-31 13:09:00"
+        "valeur": "2.165",
+        "maj": "2026-11-02 00:49:00"
       },
       "SP95": {
-        "valeur": "2.138",
-        "maj": "2026-10-31 13:09:00"
+        "valeur": "2.110",
+        "maj": "2026-11-02 00:49:00"
       },
       "E85": {
-        "valeur": "0.878",
-        "maj": "2026-10-31 13:09:00"
+        "valeur": "0.869",
+        "maj": "2026-11-02 00:49:00"
       },
       "GPLc": {
-        "valeur": "1.102",
-        "maj": "2026-10-23 13:10:00"
+        "valeur": "1.076",
+        "maj": "2026-11-02 00:49:00"
       },
       "E10": {
-        "valeur": "2.094",
-        "maj": "2026-10-31 13:09:00"
+        "valeur": "2.030",
+        "maj": "2026-11-02 00:49:00"
       },
       "SP98": {
-        "valeur": "2.186",
-        "maj": "2026-10-31 13:09:00"
+        "valeur": "2.173",
+        "maj": "2026-11-02 00:49:00"
       }
     }
   },
   {
     "id": "31590004",
     "dep": "31",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "2 Avenue de Lavaur",
     "cp": "31590",
     "ville": "VERFEIL",
@@ -872,7 +872,7 @@
   {
     "id": "31350002",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "ROUTE DE ST GAUDENS",
     "cp": "31350",
     "ville": "Boulogne-sur-Gesse",
@@ -896,7 +896,7 @@
   {
     "id": "31260001",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "route Salies",
     "cp": "31260",
     "ville": "Mane",
@@ -924,7 +924,7 @@
   {
     "id": "31450006",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Avenue de Lauragais - Lieu dit Condamine",
     "cp": "31450",
     "ville": "Pompertuzat",
@@ -952,7 +952,7 @@
   {
     "id": "31140005",
     "dep": "31",
-    "enseigne": "Aire C",
+    "enseigne": "",
     "adresse": "Rue Jean Rouquette",
     "cp": "31140",
     "ville": "Saint-Alban",
@@ -962,10 +962,6 @@
       "Gazole": {
         "valeur": "2.470",
         "maj": "2026-10-29 09:27:26"
-      },
-      "E10": {
-        "valeur": "2.230",
-        "maj": "2026-10-28 17:36:09"
       }
     }
   },
@@ -981,19 +977,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E85": {
         "valeur": "0.878",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E10": {
         "valeur": "2.094",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "SP98": {
         "valeur": "2.184",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:17:00"
       }
     }
   },
@@ -1112,7 +1108,7 @@
   {
     "id": "31140008",
     "dep": "31",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "Route de Béssières",
     "cp": "31140",
     "ville": "Fonbeauzard",
@@ -1140,7 +1136,7 @@
   {
     "id": "31650002",
     "dep": "31",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "Allée des Champs Pinsons",
     "cp": "31650",
     "ville": "SAINT-ORENS-DE-GAMEVILLE",
@@ -1149,26 +1145,26 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP95": {
         "valeur": "2.111",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "E10": {
         "valeur": "2.127",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       },
       "SP98": {
         "valeur": "2.227",
-        "maj": "2026-11-01 00:51:00"
+        "maj": "2026-11-02 01:16:00"
       }
     }
   },
   {
     "id": "31800003",
     "dep": "31",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "71 Avenue de l'Isle",
     "cp": "31800",
     "ville": "SAINT-GAUDENS",
@@ -1216,7 +1212,7 @@
   {
     "id": "31700006",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Avenue Dewoitine",
     "cp": "31700",
     "ville": "Cornebarrieu",
@@ -1240,7 +1236,7 @@
   {
     "id": "31660004",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Impasse Al Croz",
     "cp": "31660",
     "ville": "Buzet-sur-Tarn",
@@ -1268,7 +1264,7 @@
   {
     "id": "31150004",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Rue de la Gravette",
     "cp": "31150",
     "ville": "GRATENTOUR",
@@ -1296,7 +1292,7 @@
   {
     "id": "31240003",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "6 AVENUE DE DANCELLE",
     "cp": "31240",
     "ville": "SAINT-JEAN",
@@ -1324,7 +1320,7 @@
   {
     "id": "31410002",
     "dep": "31",
-    "enseigne": "Shell",
+    "enseigne": "",
     "adresse": "AUT A 64  AIRE DE VOLVESTRE",
     "cp": "31410",
     "ville": "CAPENS",
@@ -1619,11 +1615,11 @@
     "carburants": {
       "E85": {
         "valeur": "0.909",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "1.014",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -1694,7 +1690,7 @@
   {
     "id": "31660001",
     "dep": "31",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "160 avenue des Portes de Bessières",
     "cp": "31660",
     "ville": "Bessières",
@@ -1907,19 +1903,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.179",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "E85": {
         "valeur": "0.879",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "E10": {
         "valeur": "2.089",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "SP98": {
         "valeur": "2.215",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       }
     }
   },
@@ -1935,15 +1931,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E85": {
         "valeur": "0.911",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -2068,7 +2064,7 @@
     "carburants": {
       "E85": {
         "valeur": "0.908",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -2095,15 +2091,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.425",
-        "maj": "2026-10-30 06:02:35"
+        "maj": "2026-11-02 06:32:06"
       },
       "SP95": {
-        "valeur": "2.225",
-        "maj": "2026-10-30 06:02:51"
+        "valeur": "2.211",
+        "maj": "2026-11-02 05:47:05"
       },
       "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-10-30 06:03:10"
+        "valeur": "2.275",
+        "maj": "2026-11-02 05:47:25"
       }
     }
   },
@@ -2118,16 +2114,16 @@
     "longitude": 1.429,
     "carburants": {
       "Gazole": {
-        "valeur": "2.263",
-        "maj": "2026-11-01 06:41:00"
+        "valeur": "2.283",
+        "maj": "2026-11-02 07:32:00"
       },
       "E10": {
-        "valeur": "2.084",
-        "maj": "2026-11-01 06:41:00"
+        "valeur": "2.038",
+        "maj": "2026-11-02 07:32:00"
       },
       "SP98": {
-        "valeur": "2.184",
-        "maj": "2026-11-01 06:41:00"
+        "valeur": "2.138",
+        "maj": "2026-11-02 07:32:00"
       }
     }
   },
@@ -2219,19 +2215,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.275",
-        "maj": "2026-11-01 00:28:00"
+        "maj": "2026-11-02 07:32:00"
       },
       "E85": {
         "valeur": "1.068",
-        "maj": "2026-11-01 00:28:00"
+        "maj": "2026-11-02 07:32:00"
       },
       "E10": {
-        "valeur": "2.123",
-        "maj": "2026-11-01 00:28:00"
+        "valeur": "2.115",
+        "maj": "2026-11-02 07:32:00"
       },
       "SP98": {
-        "valeur": "2.223",
-        "maj": "2026-11-01 00:28:00"
+        "valeur": "2.215",
+        "maj": "2026-11-02 07:32:00"
       }
     }
   },
@@ -2247,7 +2243,7 @@
     "carburants": {
       "E85": {
         "valeur": "0.894",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -2262,8 +2258,8 @@
     "longitude": 0.649,
     "carburants": {
       "Gazole": {
-        "valeur": "2.427",
-        "maj": "2026-10-28 23:30:00"
+        "valeur": "2.227",
+        "maj": "2026-11-02 06:00:00"
       },
       "E85": {
         "valeur": "0.869",
@@ -2291,19 +2287,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.156",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "E85": {
         "valeur": "0.889",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "E10": {
         "valeur": "2.059",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "SP98": {
         "valeur": "2.179",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       }
     }
   },
@@ -2350,8 +2346,8 @@
     "longitude": 1.39,
     "carburants": {
       "Gazole": {
-        "valeur": "2.389",
-        "maj": "2026-10-26 23:59:00"
+        "valeur": "2.189",
+        "maj": "2026-11-01 23:59:00"
       },
       "E85": {
         "valeur": "0.879",
@@ -2379,19 +2375,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-01 09:00:00"
       },
       "E85": {
         "valeur": "0.924",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-01 09:00:00"
       },
       "GPLc": {
         "valeur": "1.076",
-        "maj": "2026-10-31 09:00:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-31 09:00:00"
+        "maj": "2026-11-01 09:00:00"
       }
     }
   },
@@ -2439,19 +2431,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E85": {
         "valeur": "0.914",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "GPLc": {
         "valeur": "0.999",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -2466,8 +2458,8 @@
     "longitude": 1.09067,
     "carburants": {
       "Gazole": {
-        "valeur": "2.349",
-        "maj": "2026-10-31 07:06:04"
+        "valeur": "2.169",
+        "maj": "2026-11-02 07:30:13"
       },
       "E85": {
         "valeur": "0.879",
@@ -2495,19 +2487,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.136",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "SP95": {
-        "valeur": "2.139",
-        "maj": "2026-11-01 00:49:00"
+        "valeur": "2.159",
+        "maj": "2026-11-02 01:17:00"
       },
       "E10": {
-        "valeur": "2.050",
-        "maj": "2026-11-01 00:49:00"
+        "valeur": "2.069",
+        "maj": "2026-11-02 01:17:00"
       },
       "SP98": {
-        "valeur": "2.146",
-        "maj": "2026-11-01 00:49:00"
+        "valeur": "2.189",
+        "maj": "2026-11-02 01:17:00"
       }
     }
   },
@@ -2542,7 +2534,7 @@
   {
     "id": "31140004",
     "dep": "31",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "2, rue du 8 mai 1945",
     "cp": "31140",
     "ville": "PECHBONNIEU",
@@ -2602,7 +2594,7 @@
   {
     "id": "31270007",
     "dep": "31",
-    "enseigne": "TotalEnergies Access",
+    "enseigne": "",
     "adresse": "8 AVENUE DE FRANCAZAL",
     "cp": "31270",
     "ville": "Villeneuve-Tolosane",
@@ -2611,7 +2603,7 @@
     "carburants": {
       "E85": {
         "valeur": "0.904",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -2624,37 +2616,23 @@
     "ville": "Toulouse",
     "latitude": 43.656,
     "longitude": 1.422,
-    "carburants": {
-      "E85": {
-        "valeur": "1.100",
-        "maj": "2026-09-25 13:46:22"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "31200020",
     "dep": "31",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "103 BOULEVARD DE SUISSE",
     "cp": "31200",
     "ville": "TOULOUSE",
     "latitude": 43.619,
     "longitude": 1.423,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E85": {
-        "valeur": "0.911",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "31470004",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Avenue du Château d'Eau",
     "cp": "31470",
     "ville": "FONSORBES",
@@ -2682,7 +2660,7 @@
   {
     "id": "31590002",
     "dep": "31",
-    "enseigne": "Intermarché Contact",
+    "enseigne": "",
     "adresse": "144 Rte de Puylaurens",
     "cp": "31590",
     "ville": "Verfeil",
@@ -2706,7 +2684,7 @@
   {
     "id": "31620002",
     "dep": "31",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "Rue Jean Jaurès",
     "cp": "31620",
     "ville": "BOULOC",
@@ -2717,7 +2695,7 @@
   {
     "id": "31390003",
     "dep": "31",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "Le Village",
     "cp": "31390",
     "ville": "Peyssies",
@@ -2741,18 +2719,13 @@
   {
     "id": "31000001",
     "dep": "31",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "328 Route de Saint-Simon",
     "cp": "31100",
     "ville": "Toulouse",
     "latitude": 43.588,
     "longitude": 1.41,
-    "carburants": {
-      "SP95": {
-        "valeur": "1.990",
-        "maj": "2026-10-26 11:20:07"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "31100010",
@@ -2766,7 +2739,7 @@
     "carburants": {
       "GPLc": {
         "valeur": "0.999",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -2869,12 +2842,12 @@
         "maj": "2026-10-31 19:45:00"
       },
       "E10": {
-        "valeur": "2.059",
-        "maj": "2026-10-31 19:45:00"
+        "valeur": "2.065",
+        "maj": "2026-11-01 12:30:33"
       },
       "SP98": {
-        "valeur": "2.159",
-        "maj": "2026-10-31 19:45:00"
+        "valeur": "2.165",
+        "maj": "2026-11-01 12:30:33"
       }
     }
   },
@@ -2889,24 +2862,24 @@
     "longitude": 1.504,
     "carburants": {
       "Gazole": {
-        "valeur": "2.400",
-        "maj": "2026-10-30 00:46:00"
+        "valeur": "2.165",
+        "maj": "2026-11-02 00:49:00"
       },
       "SP95": {
-        "valeur": "2.199",
-        "maj": "2026-10-30 00:46:00"
+        "valeur": "2.110",
+        "maj": "2026-11-02 00:49:00"
       },
       "E85": {
-        "valeur": "0.871",
-        "maj": "2026-10-30 00:46:00"
+        "valeur": "0.858",
+        "maj": "2026-11-02 00:49:00"
       },
       "E10": {
-        "valeur": "2.128",
-        "maj": "2026-10-30 00:46:00"
+        "valeur": "2.030",
+        "maj": "2026-11-02 00:49:00"
       },
       "SP98": {
-        "valeur": "2.239",
-        "maj": "2026-10-30 00:46:00"
+        "valeur": "2.173",
+        "maj": "2026-11-02 00:49:00"
       }
     }
   },
@@ -2993,7 +2966,7 @@
   {
     "id": "31600006",
     "dep": "31",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "1 BIS BOULEVARD JOFFRERY",
     "cp": "31600",
     "ville": "Muret",
@@ -3001,8 +2974,8 @@
     "longitude": 1.326,
     "carburants": {
       "Gazole": {
-        "valeur": "2.389",
-        "maj": "2026-10-30 09:00:00"
+        "valeur": "2.189",
+        "maj": "2026-11-02 06:53:21"
       },
       "E85": {
         "valeur": "0.869",
@@ -3021,7 +2994,7 @@
   {
     "id": "31470008",
     "dep": "31",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "615 route de Toulouse",
     "cp": "31470",
     "ville": "SAINT LYS",
@@ -3030,26 +3003,26 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.139",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "E85": {
         "valeur": "0.878",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "E10": {
         "valeur": "2.099",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       },
       "SP98": {
         "valeur": "2.173",
-        "maj": "2026-11-01 00:49:00"
+        "maj": "2026-11-02 01:18:00"
       }
     }
   },
   {
     "id": "31270003",
     "dep": "31",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "CHEMIN MAILHEAUX",
     "cp": "31270",
     "ville": "FROUZINS",
@@ -3077,7 +3050,7 @@
   {
     "id": "31800011",
     "dep": "31",
-    "enseigne": "Auchan supermarché",
+    "enseigne": "",
     "adresse": "59 Rue du Maréchal Joffre",
     "cp": "31800",
     "ville": "St Gaudens",
@@ -3101,7 +3074,7 @@
   {
     "id": "31190003",
     "dep": "31",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "89 Route de Toulouse",
     "cp": "31190",
     "ville": "AUTERIVE",
@@ -3129,7 +3102,7 @@
   {
     "id": "31120006",
     "dep": "31",
-    "enseigne": "Leclerc",
+    "enseigne": "",
     "adresse": "1 Allée de Fraïxinet",
     "cp": "31120",
     "ville": "Roques",
@@ -3138,26 +3111,26 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.110",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E85": {
         "valeur": "0.875",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "E10": {
         "valeur": "2.055",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       },
       "SP98": {
         "valeur": "2.169",
-        "maj": "2026-11-01 00:52:00"
+        "maj": "2026-11-02 01:17:00"
       }
     }
   },
   {
     "id": "31100004",
     "dep": "31",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "138 bis Route de Seysses",
     "cp": "31100",
     "ville": "TOULOUSE",
@@ -3267,6 +3240,22 @@
     }
   },
   {
+    "id": "31140010",
+    "dep": "31",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "16 AVENUE DE FRONTON",
+    "cp": "31140",
+    "ville": "Saint-Alban",
+    "latitude": 43.67109,
+    "longitude": 1.42731,
+    "carburants": {
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-11-02 00:01:00"
+      }
+    }
+  },
+  {
     "id": "31150007",
     "dep": "31",
     "enseigne": "Système U",
@@ -3291,29 +3280,9 @@
     }
   },
   {
-    "id": "31140010",
-    "dep": "31",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "16 AVENUE DE FRONTON",
-    "cp": "31140",
-    "ville": "Saint-Alban",
-    "latitude": 43.67109,
-    "longitude": 1.42731,
-    "carburants": {
-      "GPLc": {
-        "valeur": "0.999",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
-  },
-  {
     "id": "31170001",
     "dep": "31",
-    "enseigne": "",
+    "enseigne": "Carrefour Market",
     "adresse": "Route de Tarbes",
     "cp": "31170",
     "ville": "Tournefeuille",
@@ -3401,7 +3370,7 @@
   {
     "id": "31130007",
     "dep": "31",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "Lieu dit MOUSSARD  Route de Castres",
     "cp": "31130",
     "ville": "FLOURENS",
@@ -3646,7 +3615,7 @@
     "carburants": {
       "E85": {
         "valeur": "0.914",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -3687,20 +3656,7 @@
     "ville": "SAINT-JORY",
     "latitude": 43.738,
     "longitude": 1.373,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-30 13:49:52"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 13:49:52"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 13:49:52"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "31210005",
@@ -3808,24 +3764,24 @@
     "longitude": 1.3619115182773,
     "carburants": {
       "Gazole": {
-        "valeur": "2.459",
-        "maj": "2026-10-27 10:44:13"
+        "valeur": "2.249",
+        "maj": "2026-11-01 08:06:43"
       },
       "E85": {
         "valeur": "1.007",
-        "maj": "2026-10-27 10:44:14"
+        "maj": "2026-11-01 08:06:44"
       },
       "GPLc": {
         "valeur": "1.150",
-        "maj": "2026-10-27 10:44:14"
+        "maj": "2026-11-01 08:06:43"
       },
       "E10": {
         "valeur": "2.226",
-        "maj": "2026-10-27 10:44:13"
+        "maj": "2026-11-01 08:06:43"
       },
       "SP98": {
         "valeur": "2.299",
-        "maj": "2026-10-27 10:44:14"
+        "maj": "2026-11-01 08:06:43"
       }
     }
   },
@@ -3857,15 +3813,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.276",
-        "maj": "2026-11-01 06:40:00"
+        "maj": "2026-11-02 06:41:00"
       },
       "E10": {
-        "valeur": "2.103",
-        "maj": "2026-11-01 06:40:00"
+        "valeur": "2.049",
+        "maj": "2026-11-02 06:41:00"
       },
       "SP98": {
-        "valeur": "2.203",
-        "maj": "2026-11-01 06:40:00"
+        "valeur": "2.149",
+        "maj": "2026-11-02 06:41:00"
       }
     }
   },
@@ -3880,20 +3836,20 @@
     "longitude": 1.489,
     "carburants": {
       "Gazole": {
-        "valeur": "2.295",
-        "maj": "2026-11-01 00:28:00"
+        "valeur": "2.297",
+        "maj": "2026-11-02 07:32:00"
       },
       "E85": {
         "valeur": "1.068",
-        "maj": "2026-11-01 00:28:00"
+        "maj": "2026-11-02 07:32:00"
       },
       "E10": {
-        "valeur": "2.136",
-        "maj": "2026-11-01 00:28:00"
+        "valeur": "2.120",
+        "maj": "2026-11-02 07:32:00"
       },
       "SP98": {
-        "valeur": "2.236",
-        "maj": "2026-11-01 00:28:00"
+        "valeur": "2.220",
+        "maj": "2026-11-02 07:32:00"
       }
     }
   },
@@ -3956,8 +3912,8 @@
     "longitude": 1.317,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-28 21:00:00"
+        "valeur": "2.199",
+        "maj": "2026-11-02 06:30:21"
       },
       "E10": {
         "valeur": "2.089",
@@ -3980,28 +3936,28 @@
     "longitude": 1.4004176073702,
     "carburants": {
       "Gazole": {
-        "valeur": "2.350",
-        "maj": "2026-10-31 19:54:08"
+        "valeur": "2.110",
+        "maj": "2026-11-02 06:55:16"
       },
       "SP95": {
-        "valeur": "2.115",
-        "maj": "2026-10-31 19:54:08"
+        "valeur": "2.065",
+        "maj": "2026-11-02 06:55:16"
       },
       "E85": {
-        "valeur": "0.862",
-        "maj": "2026-10-30 07:53:33"
+        "valeur": "0.860",
+        "maj": "2026-11-02 06:55:16"
       },
       "GPLc": {
         "valeur": "0.999",
         "maj": "2026-10-26 07:03:01"
       },
       "E10": {
-        "valeur": "2.045",
-        "maj": "2026-10-31 19:54:08"
+        "valeur": "1.999",
+        "maj": "2026-11-02 06:55:17"
       },
       "SP98": {
-        "valeur": "2.129",
-        "maj": "2026-10-31 19:54:09"
+        "valeur": "2.115",
+        "maj": "2026-11-02 06:55:17"
       }
     }
   },
@@ -4088,12 +4044,12 @@
     "longitude": 1.47830373,
     "carburants": {
       "Gazole": {
-        "valeur": "2.379",
-        "maj": "2026-10-30 16:28:36"
+        "valeur": "2.149",
+        "maj": "2026-11-02 07:40:49"
       },
       "E85": {
-        "valeur": "0.879",
-        "maj": "2026-10-14 08:39:49"
+        "valeur": "0.869",
+        "maj": "2026-11-02 07:40:49"
       },
       "GPLc": {
         "valeur": "1.029",
@@ -4269,12 +4225,7 @@
     "ville": "BLAGNAC",
     "latitude": 43.646,
     "longitude": 1.385,
-    "carburants": {
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "31620013",
@@ -4287,8 +4238,8 @@
     "longitude": 1.3594079695285002,
     "carburants": {
       "Gazole": {
-        "valeur": "2.459",
-        "maj": "2026-10-27 11:37:13"
+        "valeur": "2.249",
+        "maj": "2026-11-01 08:00:23"
       },
       "E85": {
         "valeur": "1.007",
@@ -4345,7 +4296,20 @@
     "ville": "BLAGNAC",
     "latitude": 43.641,
     "longitude": 1.375,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.150",
+        "maj": "2026-11-02 07:00:06"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-11-02 06:26:43"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 07:00:06"
+      }
+    }
   },
   {
     "id": "31200023",
@@ -4359,11 +4323,7 @@
     "carburants": {
       "GPLc": {
         "valeur": "0.999",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -4411,12 +4371,7 @@
     "ville": "TOULOUSE",
     "latitude": 43.553,
     "longitude": 1.404,
-    "carburants": {
-      "SP95": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 18:29:23"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "31250007",
@@ -4539,20 +4494,7 @@
     "ville": "Avignonet-Lauragais",
     "latitude": 43.369,
     "longitude": 1.775,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-30 15:02:33"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 15:02:33"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-10-30 15:02:33"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "31320001",
@@ -4668,13 +4610,9 @@
     "latitude": 43.608,
     "longitude": 1.336,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
       "E85": {
         "valeur": "0.909",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },

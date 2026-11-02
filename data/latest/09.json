@@ -106,7 +106,7 @@
   {
     "id": "9400002",
     "dep": "09",
-    "enseigne": "Esso",
+    "enseigne": "",
     "adresse": "54 Avenue Victor Pilhes",
     "cp": "09400",
     "ville": "TARASCON-SUR-ARIèGE",
@@ -134,7 +134,7 @@
   {
     "id": "9600002",
     "dep": "09",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "17 Avenue du 8 Mai 1945",
     "cp": "09600",
     "ville": "Laroque-d'Olmes",
@@ -270,16 +270,16 @@
     "longitude": 1.141,
     "carburants": {
       "Gazole": {
-        "valeur": "2.379",
-        "maj": "2026-10-28 08:30:00"
+        "valeur": "2.179",
+        "maj": "2026-11-01 08:30:00"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-31 08:30:00"
       },
       "E10": {
-        "valeur": "2.109",
-        "maj": "2026-10-28 08:30:00"
+        "valeur": "2.059",
+        "maj": "2026-11-01 08:30:00"
       },
       "SP98": {
         "valeur": "2.299",
@@ -454,7 +454,7 @@
   {
     "id": "9190004",
     "dep": "09",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "60 ROUTE DE TOULOUSE",
     "cp": "09190",
     "ville": "Saint-Lizier",
@@ -478,7 +478,7 @@
   {
     "id": "9600003",
     "dep": "09",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Avenue du 11 Novembre 1918",
     "cp": "09600",
     "ville": "Laroque-d'Olmes",
@@ -530,31 +530,23 @@
   {
     "id": "9500001",
     "dep": "09",
-    "enseigne": "TotalEnergies Access",
+    "enseigne": "",
     "adresse": "247 AV CHARLES DE GAULLE",
     "cp": "09500",
     "ville": "Mirepoix",
     "latitude": 43.085,
     "longitude": 1.876,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-10-31 00:01:00"
-      },
       "E85": {
         "valeur": "0.942",
         "maj": "2026-10-29 08:05:31"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-23 07:41:46"
       }
     }
   },
   {
     "id": "9100001",
     "dep": "09",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Route de Mirepoix",
     "cp": "09100",
     "ville": "PAMIERS",
@@ -606,7 +598,7 @@
   {
     "id": "9200001",
     "dep": "09",
-    "enseigne": "",
+    "enseigne": "Carrefour Market",
     "adresse": "ROUTE D'EYCHEIL",
     "cp": "09200",
     "ville": "SAINT-GIRONS",
@@ -694,16 +686,16 @@
     "longitude": 1.6439551599408,
     "carburants": {
       "Gazole": {
-        "valeur": "2.281",
-        "maj": "2026-10-31 07:59:22"
+        "valeur": "2.175",
+        "maj": "2026-11-02 04:36:13"
       },
       "E10": {
         "valeur": "2.085",
-        "maj": "2026-10-28 05:07:45"
+        "maj": "2026-11-02 04:36:13"
       },
       "SP98": {
-        "valeur": "2.265",
-        "maj": "2026-10-28 05:07:45"
+        "valeur": "2.175",
+        "maj": "2026-11-02 04:36:13"
       }
     }
   },
@@ -744,7 +736,12 @@
     "ville": "FOIX",
     "latitude": 42.949674021199996,
     "longitude": 1.62517428827,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 07:37:08"
+      }
+    }
   },
   {
     "id": "9100003",
@@ -758,7 +755,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 06:40:38"
       }
     }
   },
@@ -805,20 +802,20 @@
     "longitude": 1.606,
     "carburants": {
       "Gazole": {
-        "valeur": "2.378",
-        "maj": "2026-10-31 09:41:43"
+        "valeur": "2.175",
+        "maj": "2026-11-02 07:15:58"
       },
       "E85": {
         "valeur": "0.878",
         "maj": "2026-10-29 09:54:59"
       },
       "E10": {
-        "valeur": "2.060",
-        "maj": "2026-10-31 09:41:43"
+        "valeur": "2.085",
+        "maj": "2026-11-02 07:15:59"
       },
       "SP98": {
-        "valeur": "2.175",
-        "maj": "2026-10-31 09:41:43"
+        "valeur": "2.195",
+        "maj": "2026-11-02 07:15:59"
       }
     }
   },

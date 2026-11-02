@@ -78,8 +78,8 @@
     "longitude": 3.253,
     "carburants": {
       "Gazole": {
-        "valeur": "2.479",
-        "maj": "2026-10-29 16:35:45"
+        "valeur": "2.329",
+        "maj": "2026-11-01 12:04:49"
       },
       "E10": {
         "valeur": "2.319",
@@ -129,7 +129,7 @@
   {
     "id": "48700001",
     "dep": "48",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "RD806",
     "cp": "48700",
     "ville": "Rieutort-de-Randon",
@@ -153,7 +153,7 @@
   {
     "id": "48100003",
     "dep": "48",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "PLACE DES CORDELIERS",
     "cp": "48100",
     "ville": "Marvejols",
@@ -181,7 +181,7 @@
   {
     "id": "48200003",
     "dep": "48",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "41 Boulevard Guérin d'Apcher",
     "cp": "48200",
     "ville": "Saint-Chély-d'Apcher",
@@ -205,7 +205,7 @@
   {
     "id": "48190003",
     "dep": "48",
-    "enseigne": "Carrefour Express",
+    "enseigne": "",
     "adresse": "quartier de la remise",
     "cp": "48190",
     "ville": "LE BLEYMARD",
@@ -229,7 +229,7 @@
   {
     "id": "48400007",
     "dep": "48",
-    "enseigne": "Dyneff",
+    "enseigne": "",
     "adresse": "15 route de mende",
     "cp": "48400",
     "ville": "Florac",
@@ -317,7 +317,7 @@
   {
     "id": "48100007",
     "dep": "48",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "4 BIS PROMENADE LOUIS CABANETTE",
     "cp": "48100",
     "ville": "MARVEJOLS",
@@ -341,7 +341,7 @@
   {
     "id": "48100004",
     "dep": "48",
-    "enseigne": "Carrefour Market",
+    "enseigne": "",
     "adresse": "Avenue Théophile Roussel",
     "cp": "48100",
     "ville": "MARVEJOLS",
@@ -480,17 +480,9 @@
     "latitude": 44.518,
     "longitude": 3.492,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
       "E85": {
         "valeur": "0.914",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
@@ -529,7 +521,7 @@
   {
     "id": "48300003",
     "dep": "48",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "Avenue Jean Moulin",
     "cp": "48300",
     "ville": "Langogne",
@@ -553,7 +545,7 @@
   {
     "id": "48400006",
     "dep": "48",
-    "enseigne": "Intermarché",
+    "enseigne": "",
     "adresse": "2 rue du Vibron, ZAE Saint Julien du Gourg",
     "cp": "48400",
     "ville": "Florac",
@@ -805,15 +797,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-01 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-01 00:01:00"
+        "maj": "2026-11-02 00:01:00"
       }
     }
   },
