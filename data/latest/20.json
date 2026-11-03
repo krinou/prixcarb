@@ -42,7 +42,7 @@
   {
     "id": "20200006",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "37 ROUTE DU CAP",
     "cp": "20200",
     "ville": "SAN-MARTINO-DI-LOTA",
@@ -62,7 +62,7 @@
   {
     "id": "20110006",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "4 Quartier Saint Joseph",
     "cp": "20110",
     "ville": "Propriano",
@@ -86,7 +86,7 @@
   {
     "id": "20166002",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "Station TOTAL - Relais du Rupione",
     "cp": "20166",
     "ville": "PIETROSELLA",
@@ -126,7 +126,7 @@
   {
     "id": "20230011",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "ALISTRO",
     "cp": "20230",
     "ville": "SAN GIULIANO",
@@ -146,7 +146,7 @@
   {
     "id": "20600004",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Rond Point de Furiani",
     "cp": "20600",
     "ville": "Furiani",
@@ -242,8 +242,8 @@
         "maj": "2026-10-13 20:00:00"
       },
       "SP95": {
-        "valeur": "2.179",
-        "maj": "2026-10-13 20:00:00"
+        "valeur": "2.145",
+        "maj": "2026-11-02 09:47:30"
       }
     }
   },
@@ -494,7 +494,7 @@
   {
     "id": "20250001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "RT 20",
     "cp": "20250",
     "ville": "Corte",
@@ -518,7 +518,7 @@
   {
     "id": "20167010",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "N194 Route de Mezzavia",
     "cp": "20167",
     "ville": "Ajaccio",
@@ -538,7 +538,7 @@
   {
     "id": "20137006",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "route de bastia",
     "cp": "20137",
     "ville": "Porto-Vecchio",
@@ -562,7 +562,7 @@
   {
     "id": "20090004",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "avenue napoleon III",
     "cp": "20000",
     "ville": "AJACCIO",
@@ -582,7 +582,7 @@
   {
     "id": "20600003",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "RN 193",
     "cp": "20600",
     "ville": "FURIANI",
@@ -602,7 +602,7 @@
   {
     "id": "20218007",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "RT20",
     "cp": "20218",
     "ville": "Ponte Leccia",
@@ -622,7 +622,7 @@
   {
     "id": "20166006",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Les Marines de Porticcio - Commune de Grosseto-Prugna",
     "cp": "20166",
     "ville": "PORTICCIO",
@@ -642,7 +642,7 @@
   {
     "id": "20620005",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "RN 193",
     "cp": "20620",
     "ville": "BIGUGLIA",
@@ -666,7 +666,7 @@
   {
     "id": "20230003",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "STATION LUISI",
     "cp": "20230",
     "ville": "Poggio-Mezzana",
@@ -686,7 +686,7 @@
   {
     "id": "20213005",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "Lieu-dit Querciolo",
     "cp": "20213",
     "ville": "Sorbo-Ocagnano",
@@ -706,7 +706,7 @@
   {
     "id": "20620002",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "ENI",
     "adresse": "Route de Rutali",
     "cp": "20620",
     "ville": "BIGUGLIA",
@@ -746,7 +746,7 @@
   {
     "id": "20169002",
     "dep": "20",
-    "enseigne": "Indépendant sans enseigne",
+    "enseigne": "",
     "adresse": "sennola",
     "cp": "20169",
     "ville": "BONIFACIO",
@@ -830,7 +830,7 @@
   {
     "id": "20166005",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "Veta Porticcio",
     "cp": "20166",
     "ville": "PORTICCIO",
@@ -850,7 +850,7 @@
   {
     "id": "20145004",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "RN T 10",
     "cp": "20145",
     "ville": "Solenzara",
@@ -870,7 +870,7 @@
   {
     "id": "20243001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Lieu-Dit Migliacciaro",
     "cp": "20243",
     "ville": "PRUNELLI-DI-FIUMORBO",
@@ -1126,8 +1126,8 @@
         "maj": "2026-10-13 20:00:00"
       },
       "SP95": {
-        "valeur": "2.179",
-        "maj": "2026-10-13 20:00:00"
+        "valeur": "2.149",
+        "maj": "2026-11-02 09:46:14"
       },
       "GPLc": {
         "valeur": "1.390",
@@ -1382,7 +1382,7 @@
   {
     "id": "20250003",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "RN 193 - lieu dit Pentone",
     "cp": "20250",
     "ville": "Corte",
@@ -1402,7 +1402,7 @@
   {
     "id": "20230008",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "Rn 198 Alistro",
     "cp": "20230",
     "ville": "San-Giuliano",
@@ -1442,7 +1442,7 @@
   {
     "id": "20290009",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "RN:193/T10 Crucetta",
     "cp": "20290",
     "ville": "LUCCIANA",
@@ -1462,7 +1462,7 @@
   {
     "id": "20270004",
     "dep": "20",
-    "enseigne": "ENI",
+    "enseigne": "",
     "adresse": "T10",
     "cp": "20270",
     "ville": "ALERIA",
@@ -1482,7 +1482,7 @@
   {
     "id": "20213008",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "Avenue de Folelli",
     "cp": "20213",
     "ville": "PENTA DI CASINCA",
@@ -1562,7 +1562,7 @@
   {
     "id": "20118001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Résidence de la Plage - RD 81",
     "cp": "20118",
     "ville": "SAGONE",
@@ -1582,7 +1582,7 @@
   {
     "id": "20113002",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "1 ROUTE DE BARACCI",
     "cp": "20113",
     "ville": "OLMETO",
@@ -1642,7 +1642,7 @@
   {
     "id": "20260002",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Station TOTAL - relais de la balagne",
     "cp": "20260",
     "ville": "CALVI",
@@ -1702,7 +1702,7 @@
   {
     "id": "20217001",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "Route Calvi",
     "cp": "20217",
     "ville": "Saint-Florent",
@@ -1722,7 +1722,7 @@
   {
     "id": "20240003",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "TRAVO",
     "cp": "20240",
     "ville": "Ventiseri",
@@ -1753,7 +1753,7 @@
   {
     "id": "20189001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "La Rocade Finosello",
     "cp": "20000",
     "ville": "AJACCIO",
@@ -1773,7 +1773,7 @@
   {
     "id": "20100005",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "Ld bellagamba",
     "cp": "20100",
     "ville": "SARTENE",
@@ -1793,7 +1793,7 @@
   {
     "id": "20230006",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "RN 198",
     "cp": "20230",
     "ville": "San-Nicolao",
@@ -1813,7 +1813,7 @@
   {
     "id": "20100003",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "ZI RIZZANESE",
     "cp": "20100",
     "ville": "Sartène",
@@ -1833,7 +1833,7 @@
   {
     "id": "20220001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "36 Avenue Paul Doumer",
     "cp": "20220",
     "ville": "L'Île-Rousse",
@@ -1853,7 +1853,7 @@
   {
     "id": "20000007",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "65 COURS LUCIEN BONAPARTE",
     "cp": "20000",
     "ville": "AJACCIO",
@@ -1873,7 +1873,7 @@
   {
     "id": "20137005",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Route de Bonifacio",
     "cp": "20137",
     "ville": "Porto-Vecchio",
@@ -2061,7 +2061,7 @@
   {
     "id": "20167003",
     "dep": "20",
-    "enseigne": "VITO",
+    "enseigne": "",
     "adresse": "mezzavia centre rn 194",
     "cp": "20090",
     "ville": "AJACCIO",
@@ -2235,26 +2235,6 @@
       "SP95": {
         "valeur": "2.150",
         "maj": "2026-09-14 19:30:00"
-      }
-    }
-  },
-  {
-    "id": "20270003",
-    "dep": "20",
-    "enseigne": "ENI",
-    "adresse": "Rn 198 Cateragghju",
-    "cp": "20270",
-    "ville": "Aléria",
-    "latitude": 42.115,
-    "longitude": 9.514,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-06-06 08:03:04"
-      },
-      "SP95": {
-        "valeur": "2.090",
-        "maj": "2026-06-06 08:03:05"
       }
     }
   },

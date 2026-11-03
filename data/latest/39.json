@@ -2,7 +2,7 @@
   {
     "id": "39100006",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Intermarché",
     "adresse": "9 Rue Léon Bel",
     "cp": "39100",
     "ville": "Dole",
@@ -34,7 +34,7 @@
   {
     "id": "39260003",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Intermarché Contact",
     "adresse": "AVENUE DE FRANCHE COMTE",
     "cp": "39260",
     "ville": "MOIRANS EN MONTAGNE",
@@ -42,23 +42,23 @@
     "longitude": 5.722,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-17 09:16:36"
+        "valeur": "2.199",
+        "maj": "2026-11-02 08:04:13"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-10-29 09:42:26"
+        "valeur": "2.069",
+        "maj": "2026-11-02 08:04:13"
       },
       "SP98": {
-        "valeur": "2.229",
-        "maj": "2026-10-29 09:42:26"
+        "valeur": "2.199",
+        "maj": "2026-11-02 08:04:13"
       }
     }
   },
   {
     "id": "39700013",
     "dep": "39",
-    "enseigne": "TotalEnergies Access",
+    "enseigne": "",
     "adresse": "ROUTE NATIONALE 73",
     "cp": "39700",
     "ville": "ROCHEFORT SUR NENON",
@@ -235,7 +235,7 @@
   {
     "id": "39460001",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "3 rue des Isles",
     "cp": "39460",
     "ville": "FONCINE LE HAUT",
@@ -263,7 +263,7 @@
   {
     "id": "39230001",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Maximarché",
     "adresse": "RUE JEAN MOULIN",
     "cp": "39230",
     "ville": "SELLIèRES",
@@ -283,7 +283,7 @@
   {
     "id": "39500007",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Shell",
     "adresse": "ROUTE NATIONALE 73",
     "cp": "39500",
     "ville": "DAMPARIS",
@@ -291,15 +291,15 @@
     "longitude": 5.429444,
     "carburants": {
       "Gazole": {
-        "valeur": "2.542",
-        "maj": "2026-11-01 00:05:00"
+        "valeur": "2.506",
+        "maj": "2026-11-03 00:00:00"
       }
     }
   },
   {
     "id": "39100005",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Carrefour",
     "adresse": "7 rn 73",
     "cp": "39100",
     "ville": "Choisey",
@@ -307,27 +307,55 @@
     "longitude": 5.455,
     "carburants": {
       "Gazole": {
-        "valeur": "2.415",
-        "maj": "2026-10-28 10:28:53"
+        "valeur": "2.140",
+        "maj": "2026-11-02 11:18:28"
       },
       "GPLc": {
         "valeur": "1.097",
         "maj": "2026-04-29 10:25:01"
       },
       "E10": {
-        "valeur": "2.090",
-        "maj": "2026-10-27 10:47:17"
+        "valeur": "2.050",
+        "maj": "2026-11-02 11:18:28"
       },
       "SP98": {
-        "valeur": "2.282",
-        "maj": "2026-10-13 10:00:32"
+        "valeur": "2.226",
+        "maj": "2026-11-02 11:18:28"
+      }
+    }
+  },
+  {
+    "id": "39300004",
+    "dep": "39",
+    "enseigne": "Netto",
+    "adresse": "1 Avenue Jean Jaurès",
+    "cp": "39300",
+    "ville": "Champagnole",
+    "latitude": 46.74,
+    "longitude": 5.916,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.203",
+        "maj": "2026-11-02 09:02:34"
+      },
+      "E85": {
+        "valeur": "0.945",
+        "maj": "2026-10-28 10:48:34"
+      },
+      "E10": {
+        "valeur": "2.125",
+        "maj": "2026-11-02 09:02:34"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-10-30 09:39:04"
       }
     }
   },
   {
     "id": "39402001",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "77 Rue de la République",
     "cp": "39400",
     "ville": "MOREZ",
@@ -349,37 +377,9 @@
     }
   },
   {
-    "id": "39300004",
-    "dep": "39",
-    "enseigne": "",
-    "adresse": "1 Avenue Jean Jaurès",
-    "cp": "39300",
-    "ville": "Champagnole",
-    "latitude": 46.74,
-    "longitude": 5.916,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.409",
-        "maj": "2026-10-29 12:33:03"
-      },
-      "E85": {
-        "valeur": "0.945",
-        "maj": "2026-10-28 10:48:34"
-      },
-      "E10": {
-        "valeur": "2.129",
-        "maj": "2026-10-30 09:57:37"
-      },
-      "SP98": {
-        "valeur": "2.249",
-        "maj": "2026-10-30 09:39:04"
-      }
-    }
-  },
-  {
     "id": "39500001",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "Rue de Dole",
     "cp": "39500",
     "ville": "TAVAUX",
@@ -407,7 +407,7 @@
   {
     "id": "39220002",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "1961 Rue de Franche-Comté",
     "cp": "39220",
     "ville": "BOIS-D'AMONT",
@@ -455,7 +455,7 @@
   {
     "id": "39100010",
     "dep": "39",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "Boulevard des frères Lumière",
     "cp": "39100",
     "ville": "Dole",
@@ -479,7 +479,7 @@
   {
     "id": "39130004",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Elan",
     "adresse": "13 Route de Lons-le-Saunier",
     "cp": "39130",
     "ville": "CLAIRVAUX-LES-LACS",
@@ -499,7 +499,7 @@
   {
     "id": "39200005",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Intermarché",
     "adresse": "38 Route de Lyon",
     "cp": "39200",
     "ville": "Saint-Claude",
@@ -507,16 +507,16 @@
     "longitude": 5.83492,
     "carburants": {
       "Gazole": {
-        "valeur": "2.389",
-        "maj": "2026-10-30 09:02:08"
+        "valeur": "2.199",
+        "maj": "2026-11-02 08:38:15"
       },
       "SP95": {
         "valeur": "2.199",
-        "maj": "2026-10-30 09:02:08"
+        "maj": "2026-11-02 08:38:15"
       },
       "E10": {
         "valeur": "2.099",
-        "maj": "2026-10-30 09:02:08"
+        "maj": "2026-11-02 08:38:15"
       }
     }
   },
@@ -585,7 +585,16 @@
     "ville": "BLETTERANS",
     "latitude": 46.746,
     "longitude": 5.457,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 14:21:16"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 14:21:16"
+      }
+    }
   },
   {
     "id": "39600002",
@@ -627,15 +636,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.205",
-        "maj": "2026-11-02 01:17:00"
+        "maj": "2026-11-03 01:17:00"
       },
       "SP95": {
         "valeur": "2.264",
-        "maj": "2026-11-02 01:17:00"
+        "maj": "2026-11-03 01:17:00"
       },
       "E10": {
         "valeur": "2.129",
-        "maj": "2026-11-02 01:17:00"
+        "maj": "2026-11-03 01:17:00"
       }
     }
   },
@@ -650,20 +659,20 @@
     "longitude": 6.055,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-28 07:57:42"
+        "valeur": "2.205",
+        "maj": "2026-11-02 15:29:28"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-31 11:47:19"
       },
       "E10": {
-        "valeur": "2.169",
-        "maj": "2026-10-27 08:42:37"
+        "valeur": "2.159",
+        "maj": "2026-11-02 15:29:28"
       },
       "SP98": {
-        "valeur": "2.269",
-        "maj": "2026-10-31 09:07:49"
+        "valeur": "2.239",
+        "maj": "2026-11-02 15:29:28"
       }
     }
   },
@@ -678,8 +687,8 @@
     "longitude": 5.687,
     "carburants": {
       "Gazole": {
-        "valeur": "2.409",
-        "maj": "2026-10-30 09:41:35"
+        "valeur": "2.199",
+        "maj": "2026-11-02 09:03:19"
       },
       "E10": {
         "valeur": "2.115",
@@ -694,7 +703,7 @@
   {
     "id": "39100013",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Netto",
     "adresse": "56 AVENUE EISENHOWER",
     "cp": "39100",
     "ville": "DOLE",
@@ -718,7 +727,7 @@
   {
     "id": "39410002",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Intermarché Contact",
     "adresse": "19A ROUTE DE LONS",
     "cp": "39410",
     "ville": "SAINT-AUBIN",
@@ -726,23 +735,23 @@
     "longitude": 5.338101999999999,
     "carburants": {
       "Gazole": {
-        "valeur": "2.359",
-        "maj": "2026-10-19 13:35:43"
+        "valeur": "2.150",
+        "maj": "2026-11-02 12:55:59"
       },
       "E10": {
-        "valeur": "2.089",
-        "maj": "2026-10-19 13:35:43"
+        "valeur": "2.039",
+        "maj": "2026-11-02 12:55:59"
       },
       "SP98": {
-        "valeur": "2.269",
-        "maj": "2026-10-19 13:35:44"
+        "valeur": "2.229",
+        "maj": "2026-11-02 12:56:00"
       }
     }
   },
   {
     "id": "39500010",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Netto",
     "adresse": "1 RUE DU LUXEMBOURG",
     "cp": "39500",
     "ville": "TAVAUX",
@@ -750,8 +759,8 @@
     "longitude": 5.421996999999999,
     "carburants": {
       "Gazole": {
-        "valeur": "2.412",
-        "maj": "2026-10-30 08:59:43"
+        "valeur": "2.208",
+        "maj": "2026-11-02 08:30:46"
       },
       "E85": {
         "valeur": "0.869",
@@ -777,6 +786,10 @@
     "latitude": 47.152,
     "longitude": 5.76,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.178",
+        "maj": "2026-11-02 16:45:11"
+      },
       "E10": {
         "valeur": "2.099",
         "maj": "2026-10-31 05:33:35"
@@ -790,7 +803,7 @@
   {
     "id": "39150002",
     "dep": "39",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "20 Rue de Paris",
     "cp": "39150",
     "ville": "Saint-Laurent-en-Grandvaux",
@@ -823,19 +836,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.529",
-        "maj": "2026-11-02 00:01:00"
+        "maj": "2026-11-03 00:01:00"
       },
       "GPLc": {
         "valeur": "1.149",
-        "maj": "2026-11-02 00:01:00"
+        "maj": "2026-11-03 00:01:00"
       },
       "E10": {
         "valeur": "2.369",
-        "maj": "2026-11-02 00:01:00"
+        "maj": "2026-11-03 00:01:00"
       },
       "SP98": {
         "valeur": "2.469",
-        "maj": "2026-11-02 00:01:00"
+        "maj": "2026-11-03 00:01:00"
       }
     }
   },
@@ -850,23 +863,23 @@
     "longitude": 5.496,
     "carburants": {
       "Gazole": {
-        "valeur": "2.277",
-        "maj": "2026-11-01 00:26:00"
+        "valeur": "2.299",
+        "maj": "2026-11-03 07:31:00"
       },
       "E10": {
         "valeur": "2.126",
-        "maj": "2026-11-01 00:26:00"
+        "maj": "2026-11-03 07:31:00"
       },
       "SP98": {
         "valeur": "2.226",
-        "maj": "2026-11-01 00:26:00"
+        "maj": "2026-11-03 07:31:00"
       }
     }
   },
   {
     "id": "39230003",
     "dep": "39",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "Route de Dole",
     "cp": "39230",
     "ville": "Toulouse-le-Château",
@@ -890,7 +903,7 @@
   {
     "id": "39220004",
     "dep": "39",
-    "enseigne": "Avia",
+    "enseigne": "",
     "adresse": "1405 ROUTE BLANCHE",
     "cp": "39220",
     "ville": "LES ROUSSES",
@@ -898,8 +911,8 @@
     "longitude": 6.0650331274283005,
     "carburants": {
       "Gazole": {
-        "valeur": "2.469",
-        "maj": "2026-10-28 10:34:23"
+        "valeur": "2.349",
+        "maj": "2026-11-02 08:05:19"
       },
       "SP95": {
         "valeur": "2.299",
@@ -918,7 +931,7 @@
   {
     "id": "39000007",
     "dep": "39",
-    "enseigne": "TotalEnergies Access",
+    "enseigne": "",
     "adresse": "BOULEVARD DE L EUROPE",
     "cp": "39000",
     "ville": "Lons-le-Saunier",
@@ -927,14 +940,14 @@
     "carburants": {
       "E85": {
         "valeur": "0.895",
-        "maj": "2026-11-02 00:01:00"
+        "maj": "2026-11-03 00:01:00"
       }
     }
   },
   {
     "id": "39700012",
     "dep": "39",
-    "enseigne": "TotalEnergies Access",
+    "enseigne": "",
     "adresse": "RD 673",
     "cp": "39700",
     "ville": "ROCHEFORT SUR NENON",
@@ -953,8 +966,8 @@
     "longitude": 5.88581893,
     "carburants": {
       "Gazole": {
-        "valeur": "2.398",
-        "maj": "2026-10-29 09:24:24"
+        "valeur": "2.198",
+        "maj": "2026-11-02 13:12:49"
       },
       "E10": {
         "valeur": "2.098",
@@ -977,16 +990,16 @@
     "longitude": 6.064013480641201,
     "carburants": {
       "Gazole": {
-        "valeur": "2.429",
-        "maj": "2026-10-27 13:59:43"
+        "valeur": "2.229",
+        "maj": "2026-11-02 11:59:54"
       },
       "SP95": {
-        "valeur": "2.299",
-        "maj": "2026-10-13 18:58:21"
+        "valeur": "2.169",
+        "maj": "2026-11-02 11:59:55"
       },
       "SP98": {
-        "valeur": "2.329",
-        "maj": "2026-10-13 18:58:21"
+        "valeur": "2.249",
+        "maj": "2026-11-02 11:59:55"
       }
     }
   },
@@ -1029,8 +1042,8 @@
     "longitude": 5.60756,
     "carburants": {
       "Gazole": {
-        "valeur": "2.449",
-        "maj": "2026-09-16 09:11:15"
+        "valeur": "2.369",
+        "maj": "2026-11-02 09:31:38"
       },
       "SP95": {
         "valeur": "2.299",
@@ -1045,7 +1058,7 @@
   {
     "id": "39570004",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "Espace Chantrans",
     "cp": "39570",
     "ville": "Montmorot",
@@ -1053,8 +1066,8 @@
     "longitude": 5.526,
     "carburants": {
       "Gazole": {
-        "valeur": "2.435",
-        "maj": "2026-10-28 09:38:25"
+        "valeur": "2.381",
+        "maj": "2026-11-02 09:46:48"
       },
       "E85": {
         "valeur": "0.889",
@@ -1065,8 +1078,8 @@
         "maj": "2026-07-10 08:18:05"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-10-28 09:38:25"
+        "valeur": "2.080",
+        "maj": "2026-11-02 09:46:48"
       },
       "SP98": {
         "valeur": "2.249",
@@ -1083,12 +1096,21 @@
     "ville": "Tavaux",
     "latitude": 47.047,
     "longitude": 5.427,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-02 13:52:56"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-02 13:52:56"
+      }
+    }
   },
   {
     "id": "39000004",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "32 Avenue Camille Prost",
     "cp": "39000",
     "ville": "LONS-LE-SAUNIER",
@@ -1188,27 +1210,27 @@
     "longitude": 5.49,
     "carburants": {
       "Gazole": {
-        "valeur": "2.204",
-        "maj": "2026-10-31 17:33:04"
+        "valeur": "2.139",
+        "maj": "2026-11-02 09:53:42"
       },
       "GPLc": {
         "valeur": "1.096",
         "maj": "2026-10-21 12:19:38"
       },
       "E10": {
-        "valeur": "2.089",
-        "maj": "2026-10-27 08:59:28"
+        "valeur": "2.049",
+        "maj": "2026-11-02 09:00:38"
       },
       "SP98": {
-        "valeur": "2.281",
-        "maj": "2026-10-13 08:33:08"
+        "valeur": "2.225",
+        "maj": "2026-11-02 09:00:39"
       }
     }
   },
   {
     "id": "39130008",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Carrefour Express",
     "adresse": "2 RUE DU PARTERRE",
     "cp": "39130",
     "ville": "Clairvaux-les-Lacs",
@@ -1216,8 +1238,8 @@
     "longitude": 5.751,
     "carburants": {
       "Gazole": {
-        "valeur": "2.469",
-        "maj": "2026-10-22 20:15:00"
+        "valeur": "2.289",
+        "maj": "2026-11-02 09:36:00"
       },
       "SP95": {
         "valeur": "2.259",
@@ -1240,8 +1262,8 @@
     "longitude": 5.524,
     "carburants": {
       "Gazole": {
-        "valeur": "2.419",
-        "maj": "2026-10-29 10:12:43"
+        "valeur": "2.199",
+        "maj": "2026-11-02 09:32:02"
       },
       "E85": {
         "valeur": "0.869",
@@ -1272,23 +1294,23 @@
     "longitude": 5.343,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-25 09:51:01"
+        "valeur": "2.379",
+        "maj": "2026-11-02 09:00:25"
       },
       "E10": {
-        "valeur": "2.149",
-        "maj": "2026-10-25 09:51:01"
+        "valeur": "2.139",
+        "maj": "2026-11-02 09:00:26"
       },
       "SP98": {
-        "valeur": "2.249",
-        "maj": "2026-10-25 09:51:01"
+        "valeur": "2.229",
+        "maj": "2026-11-02 09:00:26"
       }
     }
   },
   {
     "id": "39170002",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Avia",
     "adresse": "RUE DU CRET DU BIEF",
     "cp": "39170",
     "ville": "Lavans-lès-Saint-Claude",
@@ -1344,23 +1366,23 @@
     "longitude": 5.57,
     "carburants": {
       "Gazole": {
-        "valeur": "2.389",
-        "maj": "2026-10-30 15:15:48"
+        "valeur": "2.349",
+        "maj": "2026-11-02 12:02:51"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-10-30 15:15:48"
+        "valeur": "2.129",
+        "maj": "2026-11-02 12:02:51"
       },
       "SP98": {
-        "valeur": "2.229",
-        "maj": "2026-10-30 15:15:49"
+        "valeur": "2.199",
+        "maj": "2026-11-02 12:02:51"
       }
     }
   },
   {
     "id": "39380001",
     "dep": "39",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "Rue de la Bolée",
     "cp": "39380",
     "ville": "BANS",
@@ -1392,8 +1414,8 @@
     "longitude": 5.41392,
     "carburants": {
       "Gazole": {
-        "valeur": "2.449",
-        "maj": "2026-10-28 11:00:15"
+        "valeur": "2.249",
+        "maj": "2026-11-02 08:48:05"
       },
       "E85": {
         "valeur": "0.869",
@@ -1420,8 +1442,8 @@
     "longitude": 5.806014,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-27 12:16:49"
+        "valeur": "2.199",
+        "maj": "2026-11-02 14:44:25"
       },
       "E85": {
         "valeur": "0.879",
@@ -1458,9 +1480,21 @@
     "latitude": 46.573517686917995,
     "longitude": 5.4342132682157995,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-03 06:57:19"
+      },
       "E85": {
         "valeur": "0.949",
-        "maj": "2026-10-31 07:01:28"
+        "maj": "2026-11-03 06:57:19"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-03 06:57:19"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-03 06:57:19"
       }
     }
   },
@@ -1478,7 +1512,7 @@
   {
     "id": "39150001",
     "dep": "39",
-    "enseigne": "Système U",
+    "enseigne": "",
     "adresse": "14 rue Lacuzon",
     "cp": "39150",
     "ville": "Saint-Laurent-en-Grandvaux",
@@ -1514,12 +1548,12 @@
     "longitude": 5.905161,
     "carburants": {
       "Gazole": {
-        "valeur": "2.409",
-        "maj": "2026-10-29 12:33:12"
+        "valeur": "2.203",
+        "maj": "2026-11-02 09:01:16"
       },
       "E10": {
-        "valeur": "2.129",
-        "maj": "2026-10-30 09:56:24"
+        "valeur": "2.125",
+        "maj": "2026-11-02 09:01:16"
       },
       "SP98": {
         "valeur": "2.249",
@@ -1538,20 +1572,20 @@
     "longitude": 5.605,
     "carburants": {
       "Gazole": {
-        "valeur": "2.429",
-        "maj": "2026-10-27 19:07:35"
+        "valeur": "2.229",
+        "maj": "2026-11-02 08:56:52"
       },
       "E85": {
         "valeur": "0.899",
-        "maj": "2026-10-27 19:07:35"
+        "maj": "2026-11-02 08:56:52"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-10-27 19:07:35"
+        "valeur": "2.129",
+        "maj": "2026-11-02 08:56:52"
       },
       "SP98": {
-        "valeur": "2.229",
-        "maj": "2026-10-27 19:07:35"
+        "valeur": "2.199",
+        "maj": "2026-11-02 08:56:52"
       }
     }
   },
@@ -1591,19 +1625,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.381",
-        "maj": "2026-10-29 08:39:17"
+        "maj": "2026-11-02 08:49:27"
       },
       "GPLc": {
-        "valeur": "1.106",
-        "maj": "2026-10-29 08:39:17"
+        "valeur": "1.079",
+        "maj": "2026-11-02 08:49:27"
       },
       "E10": {
         "valeur": "2.058",
-        "maj": "2026-10-29 08:39:17"
+        "maj": "2026-11-02 08:49:27"
       },
       "SP98": {
         "valeur": "2.170",
-        "maj": "2026-10-29 08:39:17"
+        "maj": "2026-11-02 08:49:27"
       }
     }
   },
@@ -1766,6 +1800,11 @@
     "ville": "Salins-les-Bains",
     "latitude": 46.949,
     "longitude": 5.874,
-    "carburants": {}
+    "carburants": {
+      "E85": {
+        "valeur": "0.919",
+        "maj": "2026-11-03 00:01:00"
+      }
+    }
   }
 ]
