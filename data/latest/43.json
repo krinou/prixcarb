@@ -2,7 +2,7 @@
   {
     "id": "43770001",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Indépendant sans enseigne",
     "adresse": "17 Avenue des Champs Élysées",
     "cp": "43770",
     "ville": "Chadrac",
@@ -26,7 +26,7 @@
   {
     "id": "43000004",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Esso Express",
     "adresse": "106 Avenue Maréchal Foch",
     "cp": "43000",
     "ville": "Le Puy-en-Velay",
@@ -64,10 +64,6 @@
       "Gazole": {
         "valeur": "2.249",
         "maj": "2026-10-20 10:16:08"
-      },
-      "SP95": {
-        "valeur": "1.989",
-        "maj": "2026-10-20 10:16:08"
       }
     }
   },
@@ -98,7 +94,7 @@
   {
     "id": "43000002",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Système U",
     "adresse": "16 Avenue de Bonneville",
     "cp": "43000",
     "ville": "Aiguilhe",
@@ -130,8 +126,8 @@
     "longitude": 3.4919915,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-27 08:40:40"
+        "valeur": "2.249",
+        "maj": "2026-11-03 11:52:31"
       },
       "E10": {
         "valeur": "2.149",
@@ -329,8 +325,8 @@
     "longitude": 3.492,
     "carburants": {
       "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-10-27 08:41:44"
+        "valeur": "2.249",
+        "maj": "2026-11-03 11:52:56"
       },
       "SP95": {
         "valeur": "2.189",
@@ -377,8 +373,8 @@
     "longitude": 4.321,
     "carburants": {
       "Gazole": {
-        "valeur": "2.370",
-        "maj": "2026-10-23 08:38:31"
+        "valeur": "2.268",
+        "maj": "2026-11-03 10:02:41"
       }
     }
   },
@@ -435,6 +431,30 @@
     }
   },
   {
+    "id": "43120001",
+    "dep": "43",
+    "enseigne": "Carrefour Market",
+    "adresse": "rue jean martouret",
+    "cp": "43120",
+    "ville": "MONISTROL-SUR-LOIRE",
+    "latitude": 45.290704469999994,
+    "longitude": 4.16960856,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.199",
+        "maj": "2026-11-03 08:52:14"
+      },
+      "E10": {
+        "valeur": "2.149",
+        "maj": "2026-11-03 08:52:14"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-11-03 08:52:14"
+      }
+    }
+  },
+  {
     "id": "43170004",
     "dep": "43",
     "enseigne": "Carrefour Contact",
@@ -479,30 +499,6 @@
       "SP98": {
         "valeur": "2.180",
         "maj": "2026-11-02 06:02:28"
-      }
-    }
-  },
-  {
-    "id": "43120001",
-    "dep": "43",
-    "enseigne": "Carrefour Market",
-    "adresse": "rue jean martouret",
-    "cp": "43120",
-    "ville": "MONISTROL-SUR-LOIRE",
-    "latitude": 45.290704469999994,
-    "longitude": 4.16960856,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-11-02 07:38:00"
-      },
-      "E10": {
-        "valeur": "2.169",
-        "maj": "2026-11-02 07:38:01"
-      },
-      "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-11-02 07:38:01"
       }
     }
   },
@@ -557,7 +553,7 @@
   {
     "id": "43120002",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "Intermarché",
     "adresse": "ZA LES MOLETONS",
     "cp": "43120",
     "ville": "MONISTROL-SUR-LOIRE",
@@ -615,16 +611,7 @@
     "ville": "LE PUY EN VELAY",
     "latitude": 45.0479250728,
     "longitude": 3.89342284693,
-    "carburants": {
-      "E85": {
-        "valeur": "0.938",
-        "maj": "2026-11-03 07:20:13"
-      },
-      "GPLc": {
-        "valeur": "0.999",
-        "maj": "2026-11-03 07:20:13"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "43800002",
@@ -636,9 +623,21 @@
     "latitude": 45.182,
     "longitude": 3.915,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.209",
+        "maj": "2026-11-03 10:00:45"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-11-03 10:00:45"
+      },
       "E10": {
-        "valeur": "2.109",
-        "maj": "2026-10-25 21:15:26"
+        "valeur": "2.059",
+        "maj": "2026-11-03 10:00:45"
+      },
+      "SP98": {
+        "valeur": "2.179",
+        "maj": "2026-11-03 10:00:45"
       }
     }
   },
@@ -653,27 +652,27 @@
     "longitude": 3.7613253445038,
     "carburants": {
       "Gazole": {
-        "valeur": "2.395",
-        "maj": "2026-10-30 11:41:18"
+        "valeur": "2.345",
+        "maj": "2026-11-03 18:51:03"
       },
       "E85": {
-        "valeur": "0.973",
-        "maj": "2026-10-13 10:57:05"
+        "valeur": "0.959",
+        "maj": "2026-11-03 18:51:03"
       },
       "E10": {
-        "valeur": "2.199",
-        "maj": "2026-10-30 11:41:19"
+        "valeur": "2.098",
+        "maj": "2026-11-03 18:51:03"
       },
       "SP98": {
-        "valeur": "2.269",
-        "maj": "2026-10-13 10:57:06"
+        "valeur": "2.240",
+        "maj": "2026-11-03 18:51:03"
       }
     }
   },
   {
     "id": "43590002",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "741 ROUTE DE BAS",
     "cp": "43590",
     "ville": "BEAUZAC",
@@ -697,7 +696,7 @@
   {
     "id": "43170001",
     "dep": "43",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "route du Puy",
     "cp": "43170",
     "ville": "Saugues",
@@ -765,12 +764,12 @@
         "maj": "2026-11-02 15:53:29"
       },
       "E10": {
-        "valeur": "2.129",
-        "maj": "2026-11-02 15:53:29"
+        "valeur": "2.099",
+        "maj": "2026-11-03 13:31:14"
       },
       "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-11-02 15:53:29"
+        "valeur": "2.209",
+        "maj": "2026-11-03 13:31:15"
       }
     }
   },
@@ -1011,8 +1010,8 @@
     "longitude": 4.31425,
     "carburants": {
       "Gazole": {
-        "valeur": "2.470",
-        "maj": "2026-10-28 07:57:33"
+        "valeur": "2.350",
+        "maj": "2026-11-03 16:57:25"
       },
       "SP95": {
         "valeur": "2.200",
@@ -1104,11 +1103,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-02 07:32:05"
+        "maj": "2026-11-04 07:52:58"
       },
       "SP95": {
         "valeur": "1.990",
-        "maj": "2026-11-02 07:32:05"
+        "maj": "2026-11-04 07:52:58"
       }
     }
   },
@@ -1147,20 +1146,20 @@
     "longitude": 3.878477,
     "carburants": {
       "Gazole": {
-        "valeur": "2.371",
-        "maj": "2026-11-02 13:58:19"
+        "valeur": "2.205",
+        "maj": "2026-11-04 07:22:45"
       },
       "GPLc": {
         "valeur": "1.076",
-        "maj": "2026-11-02 13:58:19"
+        "maj": "2026-11-04 07:22:46"
       },
       "E10": {
-        "valeur": "2.058",
-        "maj": "2026-11-02 13:58:19"
+        "valeur": "2.037",
+        "maj": "2026-11-04 07:22:46"
       },
       "SP98": {
-        "valeur": "2.126",
-        "maj": "2026-11-02 13:58:19"
+        "valeur": "2.133",
+        "maj": "2026-11-04 07:22:46"
       }
     }
   },
@@ -1175,24 +1174,24 @@
     "longitude": 3.274313,
     "carburants": {
       "Gazole": {
-        "valeur": "2.375",
-        "maj": "2026-11-02 10:03:54"
+        "valeur": "2.439",
+        "maj": "2026-11-03 09:57:52"
       },
       "E85": {
-        "valeur": "0.966",
-        "maj": "2026-11-02 10:03:54"
+        "valeur": "0.964",
+        "maj": "2026-11-03 09:57:52"
       },
       "GPLc": {
-        "valeur": "1.109",
-        "maj": "2026-11-02 10:03:54"
+        "valeur": "1.113",
+        "maj": "2026-11-03 09:57:53"
       },
       "E10": {
-        "valeur": "2.185",
-        "maj": "2026-11-02 10:03:54"
+        "valeur": "2.164",
+        "maj": "2026-11-03 09:57:53"
       },
       "SP98": {
-        "valeur": "2.258",
-        "maj": "2026-11-02 10:03:54"
+        "valeur": "2.237",
+        "maj": "2026-11-03 09:57:53"
       }
     }
   },

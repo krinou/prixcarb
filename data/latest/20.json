@@ -2,7 +2,7 @@
   {
     "id": "20137007",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Station TOTAL - Quartier La Poretta",
     "cp": "20137",
     "ville": "PORTO-VECCHIO",
@@ -42,7 +42,7 @@
   {
     "id": "20200006",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "37 ROUTE DU CAP",
     "cp": "20200",
     "ville": "SAN-MARTINO-DI-LOTA",
@@ -62,7 +62,7 @@
   {
     "id": "20110006",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "4 Quartier Saint Joseph",
     "cp": "20110",
     "ville": "Propriano",
@@ -86,7 +86,7 @@
   {
     "id": "20166002",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Station TOTAL - Relais du Rupione",
     "cp": "20166",
     "ville": "PIETROSELLA",
@@ -362,12 +362,12 @@
     "longitude": 9.348,
     "carburants": {
       "Gazole": {
-        "valeur": "2.280",
-        "maj": "2026-10-10 20:14:35"
+        "valeur": "2.269",
+        "maj": "2026-11-03 08:38:26"
       },
       "SP95": {
-        "valeur": "2.177",
-        "maj": "2026-10-26 20:07:51"
+        "valeur": "2.155",
+        "maj": "2026-11-03 08:38:26"
       }
     }
   },
@@ -502,12 +502,12 @@
     "longitude": 9.1575178955876,
     "carburants": {
       "Gazole": {
-        "valeur": "2.300",
-        "maj": "2026-10-16 18:03:25"
+        "valeur": "2.250",
+        "maj": "2026-11-03 18:35:30"
       },
       "SP95": {
-        "valeur": "2.200",
-        "maj": "2026-09-25 09:56:20"
+        "valeur": "2.190",
+        "maj": "2026-11-03 18:35:38"
       },
       "GPLc": {
         "valeur": "1.390",
@@ -746,7 +746,7 @@
   {
     "id": "20169002",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "Indépendant sans enseigne",
     "adresse": "sennola",
     "cp": "20169",
     "ville": "BONIFACIO",
@@ -766,7 +766,7 @@
   {
     "id": "20148001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "ENI",
     "adresse": "Noce",
     "cp": "20148",
     "ville": "COZZANO",
@@ -794,19 +794,19 @@
     "longitude": 8.808,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-10-30 15:39:10"
+        "valeur": "2.230",
+        "maj": "2026-11-03 10:19:42"
       },
       "SP95": {
-        "valeur": "2.130",
-        "maj": "2026-09-30 12:09:28"
+        "valeur": "2.090",
+        "maj": "2026-11-03 10:19:42"
       }
     }
   },
   {
     "id": "20290003",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Lieu-dit Revinco - RN 193",
     "cp": "20290",
     "ville": "Borgo",
@@ -838,12 +838,12 @@
     "longitude": 8.81,
     "carburants": {
       "Gazole": {
-        "valeur": "2.229",
-        "maj": "2026-10-13 12:12:01"
+        "valeur": "2.259",
+        "maj": "2026-11-03 12:18:18"
       },
       "SP95": {
-        "valeur": "2.159",
-        "maj": "2026-10-13 12:12:01"
+        "valeur": "2.119",
+        "maj": "2026-11-03 12:18:19"
       }
     }
   },
@@ -934,7 +934,7 @@
   {
     "id": "20600014",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "Avenue de la Libération. Immeuble Santa Maria",
     "cp": "20600",
     "ville": "BASTIA LUPINU",
@@ -954,7 +954,7 @@
   {
     "id": "20221001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "T 10",
     "cp": "20221",
     "ville": "PRUNETE",
@@ -1190,19 +1190,19 @@
     "longitude": 8.799,
     "carburants": {
       "Gazole": {
-        "valeur": "2.440",
-        "maj": "2026-10-28 15:22:53"
+        "valeur": "2.290",
+        "maj": "2026-11-03 12:12:52"
       },
       "SP95": {
         "valeur": "2.209",
-        "maj": "2026-10-28 15:22:53"
+        "maj": "2026-11-03 12:12:52"
       }
     }
   },
   {
     "id": "20222001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "ENI",
     "adresse": "CAMPINCA",
     "cp": "20222",
     "ville": "Brando",
@@ -1210,19 +1210,19 @@
     "longitude": 9.469,
     "carburants": {
       "Gazole": {
-        "valeur": "2.330",
-        "maj": "2026-10-28 07:07:16"
+        "valeur": "2.250",
+        "maj": "2026-11-03 18:33:58"
       },
       "SP95": {
-        "valeur": "2.220",
-        "maj": "2026-10-15 08:02:31"
+        "valeur": "2.160",
+        "maj": "2026-11-03 19:15:18"
       }
     }
   },
   {
     "id": "20113001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Marinca - RD 157",
     "cp": "20113",
     "ville": "Olmeto",
@@ -1270,12 +1270,12 @@
     "longitude": 9.055204657531599,
     "carburants": {
       "Gazole": {
-        "valeur": "2.350",
-        "maj": "2026-09-28 08:36:08"
+        "valeur": "2.290",
+        "maj": "2026-11-03 09:17:00"
       },
       "SP95": {
-        "valeur": "2.220",
-        "maj": "2026-09-28 08:36:08"
+        "valeur": "2.190",
+        "maj": "2026-11-03 09:17:00"
       }
     }
   },
@@ -1382,7 +1382,7 @@
   {
     "id": "20250003",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "RN 193 - lieu dit Pentone",
     "cp": "20250",
     "ville": "Corte",
@@ -1390,19 +1390,19 @@
     "longitude": 9.159,
     "carburants": {
       "Gazole": {
-        "valeur": "2.300",
-        "maj": "2026-10-16 16:16:08"
+        "valeur": "2.250",
+        "maj": "2026-11-03 18:58:01"
       },
       "SP95": {
-        "valeur": "2.200",
-        "maj": "2026-09-25 10:00:04"
+        "valeur": "2.190",
+        "maj": "2026-11-03 18:58:28"
       }
     }
   },
   {
     "id": "20230008",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "Rn 198 Alistro",
     "cp": "20230",
     "ville": "San-Giuliano",
@@ -1442,7 +1442,7 @@
   {
     "id": "20290009",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "RN:193/T10 Crucetta",
     "cp": "20290",
     "ville": "LUCCIANA",
@@ -1462,7 +1462,7 @@
   {
     "id": "20270004",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "ENI",
     "adresse": "T10",
     "cp": "20270",
     "ville": "ALERIA",
@@ -1482,7 +1482,7 @@
   {
     "id": "20213008",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "Avenue de Folelli",
     "cp": "20213",
     "ville": "PENTA DI CASINCA",
@@ -1702,7 +1702,7 @@
   {
     "id": "20217001",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "Route Calvi",
     "cp": "20217",
     "ville": "Saint-Florent",
@@ -1722,7 +1722,7 @@
   {
     "id": "20240003",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "TotalEnergies",
     "adresse": "TRAVO",
     "cp": "20240",
     "ville": "Ventiseri",
@@ -1913,7 +1913,7 @@
   {
     "id": "20600011",
     "dep": "20",
-    "enseigne": "ENI",
+    "enseigne": "",
     "adresse": "RN 193",
     "cp": "20600",
     "ville": "FURIANI",
@@ -1973,7 +1973,7 @@
   {
     "id": "20147001",
     "dep": "20",
-    "enseigne": "TotalEnergies",
+    "enseigne": "",
     "adresse": "1 Trajinu",
     "cp": "20147",
     "ville": "Serriera",
@@ -2045,12 +2045,12 @@
     "longitude": 8.74403,
     "carburants": {
       "Gazole": {
-        "valeur": "2.299",
-        "maj": "2026-10-30 11:12:16"
+        "valeur": "2.249",
+        "maj": "2026-11-03 10:33:59"
       },
       "SP95": {
-        "valeur": "2.170",
-        "maj": "2026-10-30 11:12:16"
+        "valeur": "2.150",
+        "maj": "2026-11-03 10:34:00"
       },
       "GPLc": {
         "valeur": "1.409",
@@ -2061,7 +2061,7 @@
   {
     "id": "20167003",
     "dep": "20",
-    "enseigne": "",
+    "enseigne": "VITO",
     "adresse": "mezzavia centre rn 194",
     "cp": "20090",
     "ville": "AJACCIO",
@@ -2289,12 +2289,12 @@
     "longitude": 9.453,
     "carburants": {
       "Gazole": {
-        "valeur": "2.330",
-        "maj": "2026-10-28 07:50:47"
+        "valeur": "2.250",
+        "maj": "2026-11-03 19:04:42"
       },
       "SP95": {
-        "valeur": "2.220",
-        "maj": "2026-10-15 12:35:35"
+        "valeur": "2.160",
+        "maj": "2026-11-03 19:22:38"
       }
     }
   },
@@ -2309,12 +2309,12 @@
     "longitude": 9.345,
     "carburants": {
       "Gazole": {
-        "valeur": "2.280",
-        "maj": "2026-10-10 20:13:59"
+        "valeur": "2.269",
+        "maj": "2026-11-03 08:39:20"
       },
       "SP95": {
-        "valeur": "2.177",
-        "maj": "2026-10-26 20:07:09"
+        "valeur": "2.155",
+        "maj": "2026-11-03 08:39:21"
       }
     }
   },
