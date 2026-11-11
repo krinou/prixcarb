@@ -1,37 +1,5 @@
 [
   {
-    "id": "3200005",
-    "dep": "03",
-    "enseigne": "Carrefour",
-    "adresse": "Allée des ailes",
-    "cp": "03200",
-    "ville": "VICHY",
-    "latitude": 46.143,
-    "longitude": 3.415,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.092",
-        "maj": "2026-11-06 11:46:55"
-      },
-      "E85": {
-        "valeur": "0.898",
-        "maj": "2026-11-06 11:50:33"
-      },
-      "GPLc": {
-        "valeur": "1.099",
-        "maj": "2026-11-03 09:59:53"
-      },
-      "E10": {
-        "valeur": "2.100",
-        "maj": "2026-11-06 10:53:26"
-      },
-      "SP98": {
-        "valeur": "2.250",
-        "maj": "2026-11-06 10:53:26"
-      }
-    }
-  },
-  {
     "id": "3210001",
     "dep": "03",
     "enseigne": "Intermarché Contact",
@@ -84,6 +52,49 @@
       "SP98": {
         "valeur": "2.200",
         "maj": "2026-11-05 08:42:36"
+      }
+    }
+  },
+  {
+    "id": "3500006",
+    "dep": "03",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "168 ROUTE DE GANNAT",
+    "cp": "03500",
+    "ville": "Saint-Pourçain-sur-Sioule",
+    "latitude": 46.29,
+    "longitude": 3.293,
+    "carburants": {}
+  },
+  {
+    "id": "3700002",
+    "dep": "03",
+    "enseigne": "TotalEnergies",
+    "adresse": "22 avenue de la République",
+    "cp": "03700",
+    "ville": "BELLERIVE-SUR-ALLIER",
+    "latitude": 46.118,
+    "longitude": 3.412,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.210",
+        "maj": "2026-11-11 08:15:11"
+      },
+      "E85": {
+        "valeur": "0.945",
+        "maj": "2026-11-11 08:15:12"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-11-11 08:15:12"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-11 08:15:12"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-11 08:15:12"
       }
     }
   },
@@ -201,11 +212,7 @@
     "carburants": {
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 07:04:16"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:04:16"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -244,16 +251,16 @@
     "longitude": 3.412964,
     "carburants": {
       "Gazole": {
-        "valeur": "2.289",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.249",
+        "maj": "2026-11-10 23:54:00"
       },
       "E10": {
-        "valeur": "2.229",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.149",
+        "maj": "2026-11-10 23:54:00"
       },
       "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.229",
+        "maj": "2026-11-10 23:54:00"
       }
     }
   },
@@ -268,8 +275,8 @@
     "longitude": 3.3617220000000003,
     "carburants": {
       "Gazole": {
-        "valeur": "2.434",
-        "maj": "2026-11-10 00:00:00"
+        "valeur": "2.388",
+        "maj": "2026-11-11 00:00:00"
       }
     }
   },
@@ -284,29 +291,18 @@
     "longitude": 2.564,
     "carburants": {
       "Gazole": {
-        "valeur": "2.249",
-        "maj": "2026-11-09 13:30:54"
+        "valeur": "2.239",
+        "maj": "2026-11-10 13:34:57"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-11-09 13:30:53"
+        "valeur": "2.119",
+        "maj": "2026-11-10 09:46:57"
       },
       "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-11-09 13:30:53"
+        "valeur": "2.279",
+        "maj": "2026-11-10 09:46:56"
       }
     }
-  },
-  {
-    "id": "3500002",
-    "dep": "03",
-    "enseigne": "Carrefour Market",
-    "adresse": "Route de Montmarault",
-    "cp": "03500",
-    "ville": "SAINT-POURçAIN-SUR-SIOULE",
-    "latitude": 46.31156,
-    "longitude": 3.28058,
-    "carburants": {}
   },
   {
     "id": "3310002",
@@ -353,6 +349,113 @@
     }
   },
   {
+    "id": "3120006",
+    "dep": "03",
+    "enseigne": "Carrefour Market",
+    "adresse": "41 RUE DE VERDUN",
+    "cp": "03120",
+    "ville": "LAPALISSE",
+    "latitude": 46.2559,
+    "longitude": 3.62247,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.169",
+        "maj": "2026-11-05 13:52:30"
+      },
+      "E10": {
+        "valeur": "1.999",
+        "maj": "2026-11-05 13:52:30"
+      },
+      "SP98": {
+        "valeur": "2.105",
+        "maj": "2026-11-05 12:34:00"
+      }
+    }
+  },
+  {
+    "id": "3160001",
+    "dep": "03",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue Emile Guillaumin",
+    "cp": "03160",
+    "ville": "BOURBON-L'ARCHAMBAULT",
+    "latitude": 46.58424,
+    "longitude": 3.06159,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.121",
+        "maj": "2026-11-10 08:27:10"
+      },
+      "E10": {
+        "valeur": "1.971",
+        "maj": "2026-11-10 08:27:10"
+      },
+      "SP98": {
+        "valeur": "2.066",
+        "maj": "2026-11-10 08:27:11"
+      }
+    }
+  },
+  {
+    "id": "3500002",
+    "dep": "03",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route de Montmarault",
+    "cp": "03500",
+    "ville": "SAINT-POURçAIN-SUR-SIOULE",
+    "latitude": 46.31064,
+    "longitude": 3.28377,
+    "carburants": {}
+  },
+  {
+    "id": "3600001",
+    "dep": "03",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue Edouard Vaillant",
+    "cp": "03600",
+    "ville": "COMMENTRY",
+    "latitude": 46.29551,
+    "longitude": 2.74407,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.189",
+        "maj": "2026-11-05 16:42:25"
+      },
+      "E10": {
+        "valeur": "2.069",
+        "maj": "2026-11-05 16:42:25"
+      },
+      "SP98": {
+        "valeur": "2.199",
+        "maj": "2026-11-05 16:42:25"
+      }
+    }
+  },
+  {
+    "id": "3800009",
+    "dep": "03",
+    "enseigne": "Carrefour Market",
+    "adresse": "1 AVENUE DES PORTES OCCITANES",
+    "cp": "03800",
+    "ville": "GANNAT",
+    "latitude": 46.08418,
+    "longitude": 3.20076,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.100",
+        "maj": "2026-11-10 14:19:22"
+      },
+      "E10": {
+        "valeur": "1.999",
+        "maj": "2026-11-10 14:19:22"
+      },
+      "SP98": {
+        "valeur": "2.200",
+        "maj": "2026-11-10 14:19:22"
+      }
+    }
+  },
+  {
     "id": "3000006",
     "dep": "03",
     "enseigne": "Leclerc",
@@ -381,30 +484,26 @@
     }
   },
   {
-    "id": "3700002",
+    "id": "3260001",
     "dep": "03",
-    "enseigne": "TotalEnergies",
-    "adresse": "22 avenue de la République",
-    "cp": "03700",
-    "ville": "BELLERIVE-SUR-ALLIER",
-    "latitude": 46.118,
-    "longitude": 3.412,
+    "enseigne": "Intermarché Contact",
+    "adresse": "8 RUE PIERRE SEMARD",
+    "cp": "03260",
+    "ville": "Saint-Germain-des-Fossés",
+    "latitude": 46.205,
+    "longitude": 3.432,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 07:11:03"
+        "valeur": "2.069",
+        "maj": "2026-11-11 07:06:06"
       },
       "E85": {
-        "valeur": "0.951",
-        "maj": "2026-11-10 07:11:03"
+        "valeur": "0.869",
+        "maj": "2026-11-10 10:18:06"
       },
-      "GPLc": {
-        "valeur": "1.099",
-        "maj": "2026-11-10 07:11:03"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:11:03"
+      "E10": {
+        "valeur": "1.939",
+        "maj": "2026-11-11 07:06:06"
       }
     }
   },
@@ -419,36 +518,20 @@
     "longitude": 2.592,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-06 06:51:25"
+        "valeur": "2.190",
+        "maj": "2026-11-10 16:25:32"
       },
       "E85": {
         "valeur": "0.953",
-        "maj": "2026-11-09 13:16:44"
-      }
-    }
-  },
-  {
-    "id": "3260001",
-    "dep": "03",
-    "enseigne": "Intermarché Contact",
-    "adresse": "8 RUE PIERRE SEMARD",
-    "cp": "03260",
-    "ville": "Saint-Germain-des-Fossés",
-    "latitude": 46.205,
-    "longitude": 3.432,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.059",
-        "maj": "2026-11-06 10:34:01"
-      },
-      "E85": {
-        "valeur": "0.879",
-        "maj": "2026-10-20 11:01:14"
+        "maj": "2026-11-10 16:25:32"
       },
       "E10": {
-        "valeur": "1.950",
-        "maj": "2026-11-06 10:34:01"
+        "valeur": "1.990",
+        "maj": "2026-11-10 16:25:32"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 16:25:32"
       }
     }
   },
@@ -461,44 +544,7 @@
     "ville": "SAINT-POURCAIN-SUR-SIOULE",
     "latitude": 46.307,
     "longitude": 3.294,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 07:02:25"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:02:25"
-      }
-    }
-  },
-  {
-    "id": "3100001",
-    "dep": "03",
-    "enseigne": "Carrefour",
-    "adresse": "Quai ledru Rollin",
-    "cp": "03100",
-    "ville": "MONTLUçON",
-    "latitude": 46.3474438067,
-    "longitude": 2.60218545365,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.200",
-        "maj": "2026-11-09 10:54:44"
-      },
-      "SP95": {
-        "valeur": "2.100",
-        "maj": "2026-11-09 10:54:44"
-      },
-      "E10": {
-        "valeur": "2.049",
-        "maj": "2026-11-09 10:54:44"
-      },
-      "SP98": {
-        "valeur": "2.189",
-        "maj": "2026-11-06 10:39:24"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "3600003",
@@ -529,42 +575,14 @@
     }
   },
   {
-    "id": "3300003",
-    "dep": "03",
-    "enseigne": "Système U",
-    "adresse": "rue des peupliers",
-    "cp": "03300",
-    "ville": "CUSSET",
-    "latitude": 46.136,
-    "longitude": 3.455,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.119",
-        "maj": "2026-11-09 15:04:27"
-      },
-      "E85": {
-        "valeur": "0.899",
-        "maj": "2026-10-14 16:38:28"
-      },
-      "E10": {
-        "valeur": "2.099",
-        "maj": "2026-11-09 15:04:27"
-      },
-      "SP98": {
-        "valeur": "2.303",
-        "maj": "2026-10-01 12:27:42"
-      }
-    }
-  },
-  {
     "id": "3390003",
     "dep": "03",
     "enseigne": "Carrefour Market",
     "adresse": "ROUTE DE MOULINS",
     "cp": "03390",
     "ville": "MONTMARAULT",
-    "latitude": 46.321,
-    "longitude": 2.961,
+    "latitude": 46.3209,
+    "longitude": 2.96178,
     "carburants": {
       "Gazole": {
         "valeur": "2.229",
@@ -601,20 +619,8 @@
     "latitude": 46.558,
     "longitude": 3.335,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-09 08:42:49"
-      },
       "E85": {
         "valeur": "0.956",
-        "maj": "2026-11-09 08:42:49"
-      },
-      "GPLc": {
-        "valeur": "1.099",
-        "maj": "2026-11-09 08:42:49"
-      },
-      "SP98": {
-        "valeur": "1.990",
         "maj": "2026-11-09 08:42:49"
       }
     }
@@ -660,16 +666,7 @@
     "ville": "CHARMEIL",
     "latitude": 46.155,
     "longitude": 3.394,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-09 09:01:06"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:12:45"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "3300001",
@@ -678,8 +675,8 @@
     "adresse": "RTE DE CHARMEIL",
     "cp": "03300",
     "ville": "CUSSET",
-    "latitude": 46.138,
-    "longitude": 3.449,
+    "latitude": 46.13821,
+    "longitude": 3.44797,
     "carburants": {
       "Gazole": {
         "valeur": "2.405",
@@ -702,8 +699,8 @@
     "adresse": "98 avenue de Chazeuil",
     "cp": "03150",
     "ville": "VARENNES-SUR-ALLIER",
-    "latitude": 46.316,
-    "longitude": 3.398,
+    "latitude": 46.31752,
+    "longitude": 3.39784,
     "carburants": {
       "Gazole": {
         "valeur": "2.189",
@@ -798,8 +795,8 @@
     "adresse": "Avenue Jean Jaurès",
     "cp": "03350",
     "ville": "Cérilly",
-    "latitude": 46.617,
-    "longitude": 2.822,
+    "latitude": 46.61563,
+    "longitude": 2.82414,
     "carburants": {
       "Gazole": {
         "valeur": "2.259",
@@ -823,11 +820,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.190",
-        "maj": "2026-11-04 10:15:00"
+        "maj": "2026-11-10 11:49:08"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-03 17:16:49"
+        "maj": "2026-11-10 11:49:08"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 11:49:08"
       }
     }
   },
@@ -962,16 +963,16 @@
     "longitude": 3.355,
     "carburants": {
       "Gazole": {
-        "valeur": "2.369",
-        "maj": "2026-11-02 08:08:17"
+        "valeur": "2.299",
+        "maj": "2026-11-10 18:32:00"
       },
       "SP95": {
         "valeur": "2.299",
-        "maj": "2026-11-02 08:08:18"
+        "maj": "2026-11-10 18:32:00"
       },
       "SP98": {
         "valeur": "2.399",
-        "maj": "2026-11-02 08:08:18"
+        "maj": "2026-11-10 18:32:00"
       }
     }
   },
@@ -1022,12 +1023,12 @@
         "maj": "2026-11-05 11:42:13"
       },
       "E10": {
-        "valeur": "2.098",
-        "maj": "2026-11-09 15:32:31"
+        "valeur": "1.989",
+        "maj": "2026-11-11 00:01:00"
       },
       "SP98": {
-        "valeur": "2.249",
-        "maj": "2026-11-06 00:01:00"
+        "valeur": "2.199",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -1070,16 +1071,16 @@
     "longitude": 2.938,
     "carburants": {
       "Gazole": {
-        "valeur": "2.369",
-        "maj": "2026-11-01 00:00:00"
+        "valeur": "2.299",
+        "maj": "2026-11-11 00:00:00"
       },
       "SP95": {
         "valeur": "2.299",
-        "maj": "2026-11-01 00:00:00"
+        "maj": "2026-11-11 00:00:00"
       },
       "SP98": {
         "valeur": "2.369",
-        "maj": "2026-11-01 00:00:00"
+        "maj": "2026-11-11 00:00:00"
       }
     }
   },
@@ -1094,16 +1095,16 @@
     "longitude": 2.582,
     "carburants": {
       "Gazole": {
-        "valeur": "2.169",
-        "maj": "2026-11-06 10:52:17"
+        "valeur": "2.109",
+        "maj": "2026-11-10 17:05:49"
       },
       "E10": {
-        "valeur": "2.059",
-        "maj": "2026-11-06 10:52:18"
+        "valeur": "2.049",
+        "maj": "2026-11-10 17:05:49"
       },
       "SP98": {
-        "valeur": "2.159",
-        "maj": "2026-11-06 10:52:18"
+        "valeur": "2.149",
+        "maj": "2026-11-10 17:05:49"
       }
     }
   },
@@ -1138,8 +1139,8 @@
     "adresse": "51 RUE DE LA REPUBLIQUE",
     "cp": "03630",
     "ville": "DESERTINES",
-    "latitude": 46.355,
-    "longitude": 2.621,
+    "latitude": 46.3558,
+    "longitude": 2.62004,
     "carburants": {
       "Gazole": {
         "valeur": "2.179",
@@ -1266,16 +1267,16 @@
     "longitude": 3.669,
     "carburants": {
       "Gazole": {
-        "valeur": "2.299",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.259",
+        "maj": "2026-11-10 23:54:00"
       },
       "SP95": {
-        "valeur": "2.259",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.189",
+        "maj": "2026-11-10 23:54:00"
       },
       "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.229",
+        "maj": "2026-11-10 23:54:00"
       }
     }
   },
@@ -1286,20 +1287,20 @@
     "adresse": "Route de Hérisson",
     "cp": "03430",
     "ville": "COSNE-D'ALLIER",
-    "latitude": 46.474,
-    "longitude": 2.827,
+    "latitude": 46.47407,
+    "longitude": 2.82648,
     "carburants": {
       "Gazole": {
-        "valeur": "2.099",
-        "maj": "2026-11-09 10:23:53"
+        "valeur": "2.089",
+        "maj": "2026-11-10 14:55:36"
       },
       "E10": {
         "valeur": "1.939",
-        "maj": "2026-11-09 10:23:53"
+        "maj": "2026-11-10 14:55:36"
       },
       "SP98": {
         "valeur": "2.049",
-        "maj": "2026-11-09 10:23:53"
+        "maj": "2026-11-10 14:55:36"
       }
     }
   },
@@ -1356,26 +1357,26 @@
     }
   },
   {
-    "id": "3160001",
+    "id": "3000001",
     "dep": "03",
-    "enseigne": "Carrefour Market",
-    "adresse": "Avenue Emile Guillaumin",
-    "cp": "03160",
-    "ville": "BOURBON-L'ARCHAMBAULT",
-    "latitude": 46.58333,
-    "longitude": 3.06336,
+    "enseigne": "Carrefour",
+    "adresse": "169 ROUTE DE LYON",
+    "cp": "03000",
+    "ville": "MOULINS",
+    "latitude": 46.53846,
+    "longitude": 3.34515,
     "carburants": {
       "Gazole": {
-        "valeur": "2.121",
-        "maj": "2026-11-10 08:27:10"
+        "valeur": "2.159",
+        "maj": "2026-11-10 11:39:07"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-11-09 16:00:25"
       },
       "E10": {
-        "valeur": "1.971",
-        "maj": "2026-11-10 08:27:10"
-      },
-      "SP98": {
-        "valeur": "2.066",
-        "maj": "2026-11-10 08:27:11"
+        "valeur": "2.079",
+        "maj": "2026-11-09 16:00:26"
       }
     }
   },
@@ -1404,30 +1405,6 @@
       "SP98": {
         "valeur": "2.210",
         "maj": "2026-10-22 13:48:53"
-      }
-    }
-  },
-  {
-    "id": "3000001",
-    "dep": "03",
-    "enseigne": "Carrefour",
-    "adresse": "169 ROUTE DE LYON",
-    "cp": "03000",
-    "ville": "MOULINS",
-    "latitude": 46.541,
-    "longitude": 3.344,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.175",
-        "maj": "2026-11-09 16:00:25"
-      },
-      "SP95": {
-        "valeur": "2.169",
-        "maj": "2026-11-09 16:00:25"
-      },
-      "E10": {
-        "valeur": "2.079",
-        "maj": "2026-11-09 16:00:26"
       }
     }
   },
@@ -1466,16 +1443,104 @@
     "longitude": 3.2029300292,
     "carburants": {
       "Gazole": {
-        "valeur": "2.099",
-        "maj": "2026-11-09 09:47:46"
+        "valeur": "2.105",
+        "maj": "2026-11-10 09:37:07"
       },
       "E10": {
-        "valeur": "2.060",
-        "maj": "2026-11-09 09:47:46"
+        "valeur": "1.999",
+        "maj": "2026-11-10 09:37:07"
       },
       "SP98": {
         "valeur": "2.200",
-        "maj": "2026-11-06 09:13:51"
+        "maj": "2026-11-10 09:37:08"
+      }
+    }
+  },
+  {
+    "id": "3100001",
+    "dep": "03",
+    "enseigne": "Carrefour",
+    "adresse": "Quai ledru Rollin",
+    "cp": "03100",
+    "ville": "MONTLUçON",
+    "latitude": 46.34741,
+    "longitude": 2.60255,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.200",
+        "maj": "2026-11-09 10:54:44"
+      },
+      "SP95": {
+        "valeur": "2.100",
+        "maj": "2026-11-09 10:54:44"
+      },
+      "E10": {
+        "valeur": "2.049",
+        "maj": "2026-11-09 10:54:44"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-11-06 10:39:24"
+      }
+    }
+  },
+  {
+    "id": "3200005",
+    "dep": "03",
+    "enseigne": "Carrefour",
+    "adresse": "Allée des ailes",
+    "cp": "03200",
+    "ville": "VICHY",
+    "latitude": 46.14267,
+    "longitude": 3.41298,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.090",
+        "maj": "2026-11-10 11:17:43"
+      },
+      "E85": {
+        "valeur": "0.898",
+        "maj": "2026-11-10 11:17:43"
+      },
+      "GPLc": {
+        "valeur": "1.099",
+        "maj": "2026-11-10 11:17:44"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-11-10 11:17:44"
+      },
+      "SP98": {
+        "valeur": "2.250",
+        "maj": "2026-11-10 11:17:44"
+      }
+    }
+  },
+  {
+    "id": "3300003",
+    "dep": "03",
+    "enseigne": "Système U",
+    "adresse": "rue des peupliers",
+    "cp": "03300",
+    "ville": "CUSSET",
+    "latitude": 46.13786,
+    "longitude": 3.43623,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.109",
+        "maj": "2026-11-10 11:02:18"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-10-14 16:38:28"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-11-09 15:04:27"
+      },
+      "SP98": {
+        "valeur": "2.259",
+        "maj": "2026-11-10 11:02:18"
       }
     }
   },
@@ -1590,8 +1655,8 @@
     "longitude": 2.60087,
     "carburants": {
       "Gazole": {
-        "valeur": "2.105",
-        "maj": "2026-11-07 19:44:06"
+        "valeur": "2.099",
+        "maj": "2026-11-10 09:20:46"
       },
       "SP95": {
         "valeur": "2.099",
@@ -1606,8 +1671,8 @@
         "maj": "2026-11-06 09:12:58"
       },
       "SP98": {
-        "valeur": "2.159",
-        "maj": "2026-11-06 09:12:58"
+        "valeur": "2.149",
+        "maj": "2026-11-10 09:20:47"
       }
     }
   },
@@ -1624,10 +1689,6 @@
       "Gazole": {
         "valeur": "2.269",
         "maj": "2026-11-09 14:56:42"
-      },
-      "E85": {
-        "valeur": "0.999",
-        "maj": "2026-11-09 14:56:43"
       },
       "E10": {
         "valeur": "2.049",
@@ -1688,30 +1749,6 @@
     }
   },
   {
-    "id": "3800009",
-    "dep": "03",
-    "enseigne": "Carrefour Market",
-    "adresse": "1 AVENUE DES PORTES OCCITANES",
-    "cp": "03800",
-    "ville": "GANNAT",
-    "latitude": 46.084220095108,
-    "longitude": 3.2007564688000003,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-07 10:28:17"
-      },
-      "E10": {
-        "valeur": "2.059",
-        "maj": "2026-11-06 09:05:14"
-      },
-      "SP98": {
-        "valeur": "2.188",
-        "maj": "2026-11-06 09:05:14"
-      }
-    }
-  },
-  {
     "id": "3410001",
     "dep": "03",
     "enseigne": "Auchan hypermarché",
@@ -1722,8 +1759,8 @@
     "longitude": 2.567,
     "carburants": {
       "Gazole": {
-        "valeur": "2.105",
-        "maj": "2026-11-06 11:42:17"
+        "valeur": "2.111",
+        "maj": "2026-11-10 11:41:11"
       },
       "SP95": {
         "valeur": "2.099",
@@ -1742,32 +1779,8 @@
         "maj": "2026-11-06 11:42:18"
       },
       "SP98": {
-        "valeur": "2.169",
-        "maj": "2026-11-06 11:42:18"
-      }
-    }
-  },
-  {
-    "id": "3500006",
-    "dep": "03",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "168 ROUTE DE GANNAT",
-    "cp": "03500",
-    "ville": "Saint-Pourçain-sur-Sioule",
-    "latitude": 46.29,
-    "longitude": 3.293,
-    "carburants": {
-      "GPLc": {
-        "valeur": "1.099",
-        "maj": "2026-11-10 05:47:12"
-      },
-      "E10": {
-        "valeur": "1.959",
-        "maj": "2026-11-10 05:47:12"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 05:47:12"
+        "valeur": "2.149",
+        "maj": "2026-11-10 11:41:11"
       }
     }
   },
@@ -1780,44 +1793,7 @@
     "ville": "GANNAT",
     "latitude": 46.11,
     "longitude": 3.198,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 07:37:21"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:37:21"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:37:21"
-      }
-    }
-  },
-  {
-    "id": "3600001",
-    "dep": "03",
-    "enseigne": "Carrefour Market",
-    "adresse": "Avenue Edouard Vaillant",
-    "cp": "03600",
-    "ville": "COMMENTRY",
-    "latitude": 46.294,
-    "longitude": 2.741,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.189",
-        "maj": "2026-11-05 16:42:25"
-      },
-      "E10": {
-        "valeur": "2.069",
-        "maj": "2026-11-05 16:42:25"
-      },
-      "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-05 16:42:25"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "3270002",
@@ -1826,44 +1802,20 @@
     "adresse": "9004 Av. de Thiers",
     "cp": "03270",
     "ville": "Saint-Yorre",
-    "latitude": 46.054581342087,
-    "longitude": 3.4702738520894,
+    "latitude": 46.05457,
+    "longitude": 3.47024,
     "carburants": {
       "Gazole": {
-        "valeur": "2.129",
-        "maj": "2026-11-06 08:29:03"
+        "valeur": "2.090",
+        "maj": "2026-11-10 08:59:14"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-11-04 14:55:43"
+        "valeur": "2.095",
+        "maj": "2026-11-10 08:59:14"
       },
       "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-11-04 14:55:43"
-      }
-    }
-  },
-  {
-    "id": "3120006",
-    "dep": "03",
-    "enseigne": "Carrefour Market",
-    "adresse": "41 RUE DE VERDUN",
-    "cp": "03120",
-    "ville": "LAPALISSE",
-    "latitude": 46.255932488596,
-    "longitude": 3.6224796467277,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.169",
-        "maj": "2026-11-05 13:52:30"
-      },
-      "E10": {
-        "valeur": "1.999",
-        "maj": "2026-11-05 13:52:30"
-      },
-      "SP98": {
-        "valeur": "2.105",
-        "maj": "2026-11-05 12:34:00"
+        "valeur": "2.249",
+        "maj": "2026-11-10 08:59:15"
       }
     }
   },
@@ -1934,8 +1886,8 @@
         "maj": "2026-11-04 10:11:55"
       },
       "E10": {
-        "valeur": "1.969",
-        "maj": "2026-11-06 09:34:11"
+        "valeur": "1.949",
+        "maj": "2026-11-10 09:26:24"
       }
     }
   },
@@ -1950,20 +1902,20 @@
     "longitude": 3.32,
     "carburants": {
       "Gazole": {
-        "valeur": "2.066",
-        "maj": "2026-11-09 09:50:54"
+        "valeur": "2.075",
+        "maj": "2026-11-10 09:51:28"
       },
       "E85": {
         "valeur": "0.869",
-        "maj": "2026-11-09 09:50:55"
+        "maj": "2026-11-10 09:51:28"
       },
       "E10": {
         "valeur": "2.079",
-        "maj": "2026-11-09 09:50:55"
+        "maj": "2026-11-10 09:51:28"
       },
       "SP98": {
         "valeur": "2.179",
-        "maj": "2026-11-09 09:50:55"
+        "maj": "2026-11-10 09:51:28"
       }
     }
   }

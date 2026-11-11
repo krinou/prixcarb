@@ -30,16 +30,16 @@
     "longitude": 3.676,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-06 15:59:36"
+        "valeur": "2.210",
+        "maj": "2026-11-11 07:50:53"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-06 15:59:36"
+        "maj": "2026-11-11 07:50:54"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-06 15:59:36"
+        "maj": "2026-11-11 07:50:54"
       }
     }
   },
@@ -78,16 +78,16 @@
     "longitude": 3.253,
     "carburants": {
       "Gazole": {
-        "valeur": "2.269",
-        "maj": "2026-11-09 13:35:51"
+        "valeur": "2.259",
+        "maj": "2026-11-10 13:36:29"
       },
       "E10": {
-        "valeur": "2.239",
-        "maj": "2026-11-09 13:35:51"
+        "valeur": "2.219",
+        "maj": "2026-11-10 09:48:45"
       },
       "SP98": {
-        "valeur": "2.409",
-        "maj": "2026-11-09 13:35:51"
+        "valeur": "2.389",
+        "maj": "2026-11-10 09:48:45"
       }
     }
   },
@@ -203,30 +203,6 @@
     }
   },
   {
-    "id": "48190003",
-    "dep": "48",
-    "enseigne": "Carrefour Express",
-    "adresse": "quartier de la remise",
-    "cp": "48190",
-    "ville": "LE BLEYMARD",
-    "latitude": 44.490428422088,
-    "longitude": 3.7403639676617,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 08:54:45"
-      },
-      "E10": {
-        "valeur": "1.999",
-        "maj": "2026-11-06 08:54:45"
-      },
-      "SP98": {
-        "valeur": "2.239",
-        "maj": "2026-11-06 08:54:45"
-      }
-    }
-  },
-  {
     "id": "48400007",
     "dep": "48",
     "enseigne": "Dyneff",
@@ -237,8 +213,8 @@
     "longitude": 3.582,
     "carburants": {
       "Gazole": {
-        "valeur": "2.229",
-        "maj": "2026-11-06 23:59:00"
+        "valeur": "2.289",
+        "maj": "2026-11-10 23:59:00"
       },
       "E10": {
         "valeur": "2.029",
@@ -257,16 +233,40 @@
     "longitude": 3.4982514507873,
     "carburants": {
       "Gazole": {
-        "valeur": "2.319",
-        "maj": "2026-11-03 14:03:31"
+        "valeur": "2.219",
+        "maj": "2026-11-10 12:06:31"
       },
       "SP95": {
-        "valeur": "2.129",
-        "maj": "2026-11-03 14:15:25"
+        "valeur": "2.099",
+        "maj": "2026-11-10 12:06:31"
       },
       "E85": {
         "valeur": "0.939",
         "maj": "2026-10-20 22:28:34"
+      }
+    }
+  },
+  {
+    "id": "48190003",
+    "dep": "48",
+    "enseigne": "Carrefour Express",
+    "adresse": "quartier de la remise",
+    "cp": "48190",
+    "ville": "LE BLEYMARD",
+    "latitude": 44.49039,
+    "longitude": 3.74043,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.199",
+        "maj": "2026-11-06 08:54:45"
+      },
+      "E10": {
+        "valeur": "1.999",
+        "maj": "2026-11-06 08:54:45"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-11-06 08:54:45"
       }
     }
   },
@@ -297,8 +297,8 @@
     "adresse": "Quartier du Pont d'Allier",
     "cp": "48300",
     "ville": "Langogne",
-    "latitude": 44.7353,
-    "longitude": 3.8584,
+    "latitude": 44.73381,
+    "longitude": 3.85739,
     "carburants": {
       "Gazole": {
         "valeur": "2.159",
@@ -325,8 +325,8 @@
     "longitude": 3.287,
     "carburants": {
       "Gazole": {
-        "valeur": "2.309",
-        "maj": "2026-11-09 17:10:51"
+        "valeur": "2.269",
+        "maj": "2026-11-10 14:51:06"
       },
       "E10": {
         "valeur": "2.149",
@@ -335,30 +335,6 @@
       "SP98": {
         "valeur": "2.249",
         "maj": "2026-11-09 17:10:51"
-      }
-    }
-  },
-  {
-    "id": "48100004",
-    "dep": "48",
-    "enseigne": "Carrefour Market",
-    "adresse": "Avenue Théophile Roussel",
-    "cp": "48100",
-    "ville": "MARVEJOLS",
-    "latitude": 44.557,
-    "longitude": 3.291,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.297",
-        "maj": "2026-11-03 11:12:32"
-      },
-      "E85": {
-        "valeur": "0.939",
-        "maj": "2026-11-03 11:12:33"
-      },
-      "E10": {
-        "valeur": "2.119",
-        "maj": "2026-11-03 11:12:33"
       }
     }
   },
@@ -373,12 +349,12 @@
     "longitude": 3.2911064193346,
     "carburants": {
       "Gazole": {
-        "valeur": "2.309",
-        "maj": "2026-11-06 14:14:37"
+        "valeur": "2.269",
+        "maj": "2026-11-10 10:55:42"
       },
       "E10": {
-        "valeur": "2.179",
-        "maj": "2026-11-03 17:12:07"
+        "valeur": "2.149",
+        "maj": "2026-11-10 10:55:42"
       }
     }
   },
@@ -403,6 +379,30 @@
       "E85": {
         "valeur": "0.950",
         "maj": "2026-10-29 10:13:35"
+      }
+    }
+  },
+  {
+    "id": "48100004",
+    "dep": "48",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue Théophile Roussel",
+    "cp": "48100",
+    "ville": "MARVEJOLS",
+    "latitude": 44.5586,
+    "longitude": 3.29044,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.297",
+        "maj": "2026-11-03 11:12:32"
+      },
+      "E85": {
+        "valeur": "0.939",
+        "maj": "2026-11-03 11:12:33"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-11-03 11:12:33"
       }
     }
   },
@@ -453,8 +453,8 @@
     "adresse": "route de saugues",
     "cp": "48140",
     "ville": "LE MALZIEU VILLE",
-    "latitude": 44.856,
-    "longitude": 3.332,
+    "latitude": 44.85692,
+    "longitude": 3.33301,
     "carburants": {
       "Gazole": {
         "valeur": "2.389",
@@ -480,21 +480,9 @@
     "latitude": 44.518,
     "longitude": 3.492,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.128",
-        "maj": "2026-11-10 00:01:00"
-      },
       "E85": {
-        "valeur": "0.914",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.989",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.911",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -565,16 +553,16 @@
     "longitude": 3.214,
     "carburants": {
       "Gazole": {
-        "valeur": "2.129",
-        "maj": "2026-11-06 10:34:59"
+        "valeur": "2.089",
+        "maj": "2026-11-10 11:16:20"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-28 11:56:33"
       },
       "E10": {
-        "valeur": "2.029",
-        "maj": "2026-11-06 10:35:00"
+        "valeur": "1.989",
+        "maj": "2026-11-10 11:16:21"
       },
       "SP98": {
         "valeur": "2.129",
@@ -669,20 +657,20 @@
     "longitude": 3.272,
     "carburants": {
       "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 10:32:29"
+        "valeur": "2.169",
+        "maj": "2026-11-10 09:44:20"
       },
       "E85": {
         "valeur": "0.899",
         "maj": "2026-09-30 11:00:02"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-11-04 08:50:21"
+        "valeur": "1.999",
+        "maj": "2026-11-10 09:44:20"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 10:32:29"
+        "valeur": "2.135",
+        "maj": "2026-11-10 09:44:20"
       }
     }
   },
@@ -708,8 +696,8 @@
     "longitude": 3.1232240123376,
     "carburants": {
       "Gazole": {
-        "valeur": "2.339",
-        "maj": "2026-11-04 09:38:37"
+        "valeur": "2.249",
+        "maj": "2026-11-10 17:28:44"
       },
       "E85": {
         "valeur": "0.988",
@@ -752,8 +740,8 @@
     "adresse": "Avenue de la Méridienne Aumont-Aubrac",
     "cp": "48130",
     "ville": "PEYRE EN AUBRAC",
-    "latitude": 44.734,
-    "longitude": 3.292,
+    "latitude": 44.74023,
+    "longitude": 3.28958,
     "carburants": {
       "Gazole": {
         "valeur": "2.269",
@@ -804,16 +792,16 @@
     "longitude": 3.85645,
     "carburants": {
       "Gazole": {
-        "valeur": "2.109",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.110",
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },

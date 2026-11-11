@@ -6,8 +6,8 @@
     "adresse": "La Sinsole",
     "cp": "09210",
     "ville": "LEZAT SUR LEZE",
-    "latitude": 43.281,
-    "longitude": 1.348,
+    "latitude": 43.28177,
+    "longitude": 1.34719,
     "carburants": {
       "Gazole": {
         "valeur": "2.219",
@@ -34,8 +34,8 @@
     "adresse": "LIEU DIT LE RAUNIER",
     "cp": "09270",
     "ville": "MAZERES",
-    "latitude": 43.251,
-    "longitude": 1.678,
+    "latitude": 43.24615,
+    "longitude": 1.67213,
     "carburants": {
       "Gazole": {
         "valeur": "2.199",
@@ -63,7 +63,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.065",
-        "maj": "2026-11-09 09:11:24"
+        "maj": "2026-11-10 19:38:36"
       },
       "E85": {
         "valeur": "0.879",
@@ -90,8 +90,8 @@
     "adresse": "Avenue de Lavelanet",
     "cp": "09300",
     "ville": "Bélesta",
-    "latitude": 42.908,
-    "longitude": 1.927,
+    "latitude": 42.90779,
+    "longitude": 1.92702,
     "carburants": {
       "Gazole": {
         "valeur": "2.273",
@@ -170,8 +170,8 @@
     "adresse": "rue des Bruilhols",
     "cp": "09000",
     "ville": "Foix",
-    "latitude": 42.975,
-    "longitude": 1.608,
+    "latitude": 42.97538,
+    "longitude": 1.60782,
     "carburants": {
       "Gazole": {
         "valeur": "2.296",
@@ -212,6 +212,34 @@
     }
   },
   {
+    "id": "9200001",
+    "dep": "09",
+    "enseigne": "Carrefour Market",
+    "adresse": "ROUTE D'EYCHEIL",
+    "cp": "09200",
+    "ville": "SAINT-GIRONS",
+    "latitude": 42.97351,
+    "longitude": 1.15207,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.139",
+        "maj": "2026-11-10 09:37:30"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-11-10 09:37:31"
+      },
+      "E10": {
+        "valeur": "2.009",
+        "maj": "2026-11-10 09:37:31"
+      },
+      "SP98": {
+        "valeur": "2.169",
+        "maj": "2026-11-10 09:37:31"
+      }
+    }
+  },
+  {
     "id": "9190005",
     "dep": "09",
     "enseigne": "Avia",
@@ -246,8 +274,8 @@
     "adresse": "ROUTE DE DAUMAZAN",
     "cp": "09350",
     "ville": "Les Bordes-sur-Arize",
-    "latitude": 43.108130777057994,
-    "longitude": 1.37493244737,
+    "latitude": 43.10816,
+    "longitude": 1.37494,
     "carburants": {
       "Gazole": {
         "valeur": "2.430",
@@ -310,8 +338,8 @@
         "maj": "2026-11-07 07:02:03"
       },
       "E10": {
-        "valeur": "1.998",
-        "maj": "2026-11-09 10:36:43"
+        "valeur": "1.989",
+        "maj": "2026-11-10 09:15:23"
       },
       "SP98": {
         "valeur": "2.158",
@@ -330,8 +358,8 @@
     "longitude": 1.63,
     "carburants": {
       "Gazole": {
-        "valeur": "2.085",
-        "maj": "2026-11-10 08:39:53"
+        "valeur": "2.055",
+        "maj": "2026-11-10 18:17:33"
       },
       "E85": {
         "valeur": "0.865",
@@ -358,8 +386,8 @@
     "adresse": "ZA N20 ALLEE DU BOIS DES ESQUERS",
     "cp": "09110",
     "ville": "PERLES ET CASTELET",
-    "latitude": 42.7442317,
-    "longitude": 1.7855673,
+    "latitude": 42.73054,
+    "longitude": 1.7992,
     "carburants": {
       "Gazole": {
         "valeur": "2.370",
@@ -382,8 +410,8 @@
     "adresse": "RUE DU 8 MAI 1945",
     "cp": "09300",
     "ville": "LAVELANET",
-    "latitude": 42.928,
-    "longitude": 1.858,
+    "latitude": 42.92841,
+    "longitude": 1.85814,
     "carburants": {
       "Gazole": {
         "valeur": "2.209",
@@ -462,8 +490,8 @@
         "maj": "2026-11-09 10:27:20"
       },
       "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-11-04 10:26:29"
+        "valeur": "2.208",
+        "maj": "2026-11-10 09:19:55"
       }
     }
   },
@@ -502,8 +530,8 @@
     "longitude": 1.86859,
     "carburants": {
       "Gazole": {
-        "valeur": "2.114",
-        "maj": "2026-11-06 08:36:19"
+        "valeur": "2.119",
+        "maj": "2026-11-10 09:27:10"
       },
       "E85": {
         "valeur": "0.869",
@@ -578,12 +606,12 @@
     "longitude": 1.631,
     "carburants": {
       "Gazole": {
-        "valeur": "2.046",
-        "maj": "2026-11-09 10:08:39"
+        "valeur": "2.055",
+        "maj": "2026-11-10 09:18:31"
       },
       "SP95": {
-        "valeur": "2.019",
-        "maj": "2026-11-09 10:08:39"
+        "valeur": "2.040",
+        "maj": "2026-11-10 09:18:31"
       },
       "E85": {
         "valeur": "0.869",
@@ -620,34 +648,6 @@
     }
   },
   {
-    "id": "9200001",
-    "dep": "09",
-    "enseigne": "Carrefour Market",
-    "adresse": "ROUTE D'EYCHEIL",
-    "cp": "09200",
-    "ville": "SAINT-GIRONS",
-    "latitude": 42.973498985561996,
-    "longitude": 1.1520233135223,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.179",
-        "maj": "2026-11-07 18:55:25"
-      },
-      "E85": {
-        "valeur": "0.869",
-        "maj": "2026-11-07 18:55:25"
-      },
-      "E10": {
-        "valeur": "2.079",
-        "maj": "2026-11-07 18:55:25"
-      },
-      "SP98": {
-        "valeur": "2.169",
-        "maj": "2026-11-07 18:55:25"
-      }
-    }
-  },
-  {
     "id": "9300002",
     "dep": "09",
     "enseigne": "Système U",
@@ -658,8 +658,8 @@
     "longitude": 1.853,
     "carburants": {
       "Gazole": {
-        "valeur": "2.335",
-        "maj": "2026-11-05 10:30:48"
+        "valeur": "2.338",
+        "maj": "2026-11-10 16:57:46"
       },
       "E85": {
         "valeur": "0.869",
@@ -710,8 +710,8 @@
     "longitude": 1.6439551599408,
     "carburants": {
       "Gazole": {
-        "valeur": "2.095",
-        "maj": "2026-11-08 12:40:00"
+        "valeur": "2.085",
+        "maj": "2026-11-10 09:40:32"
       },
       "E10": {
         "valeur": "1.995",
@@ -768,10 +768,6 @@
       "E10": {
         "valeur": "1.990",
         "maj": "2026-11-10 07:49:17"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:49:17"
       }
     }
   },
@@ -786,12 +782,12 @@
     "longitude": 1.621,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 06:46:35"
+        "valeur": "2.210",
+        "maj": "2026-11-11 07:56:42"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 06:46:35"
+        "maj": "2026-11-11 07:56:43"
       }
     }
   },
@@ -804,12 +800,7 @@
     "ville": "Oust",
     "latitude": 42.883,
     "longitude": 1.215,
-    "carburants": {
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-10-26 08:56:15"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "9100002",
@@ -842,8 +833,8 @@
     "longitude": 1.606,
     "carburants": {
       "Gazole": {
-        "valeur": "2.046",
-        "maj": "2026-11-09 12:02:15"
+        "valeur": "2.055",
+        "maj": "2026-11-10 09:42:41"
       },
       "E85": {
         "valeur": "0.869",
@@ -866,8 +857,8 @@
     "adresse": "45 faubourg sainte croix",
     "cp": "09240",
     "ville": "La bastide de serou",
-    "latitude": 43.01196,
-    "longitude": 1.429751,
+    "latitude": 43.01223,
+    "longitude": 1.43118,
     "carburants": {
       "Gazole": {
         "valeur": "2.460",

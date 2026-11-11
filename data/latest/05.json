@@ -56,6 +56,30 @@
     }
   },
   {
+    "id": "5300005",
+    "dep": "05",
+    "enseigne": "Netto",
+    "adresse": "1 RUE DU MAQUIS MORVAN",
+    "cp": "05300",
+    "ville": "LARAGNE MONTEGLIN",
+    "latitude": 44.311,
+    "longitude": 5.823,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.149",
+        "maj": "2026-11-10 17:29:09"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-01 11:03:03"
+      },
+      "E10": {
+        "valeur": "1.979",
+        "maj": "2026-11-10 17:29:27"
+      }
+    }
+  },
+  {
     "id": "5230007",
     "dep": "05",
     "enseigne": "TotalEnergies Access",
@@ -66,16 +90,16 @@
     "longitude": 6.256,
     "carburants": {
       "Gazole": {
-        "valeur": "2.118",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.119",
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
-        "valeur": "0.924",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.921",
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "1.989",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -90,16 +114,16 @@
     "longitude": 6.689,
     "carburants": {
       "Gazole": {
-        "valeur": "2.339",
-        "maj": "2026-11-02 10:43:56"
+        "valeur": "2.299",
+        "maj": "2026-11-10 19:16:00"
       },
       "SP95": {
-        "valeur": "2.229",
-        "maj": "2026-11-02 10:43:56"
+        "valeur": "2.099",
+        "maj": "2026-11-10 19:16:00"
       },
       "SP98": {
-        "valeur": "2.249",
-        "maj": "2026-11-02 10:43:56"
+        "valeur": "2.149",
+        "maj": "2026-11-10 19:16:00"
       }
     }
   },
@@ -170,12 +194,12 @@
         "maj": "2026-11-07 17:26:39"
       },
       "E10": {
-        "valeur": "2.089",
-        "maj": "2026-11-07 17:26:39"
+        "valeur": "2.079",
+        "maj": "2026-11-10 19:14:21"
       },
       "SP98": {
-        "valeur": "2.169",
-        "maj": "2026-11-07 17:26:40"
+        "valeur": "2.129",
+        "maj": "2026-11-10 19:14:21"
       }
     }
   },
@@ -200,54 +224,6 @@
       "SP98": {
         "valeur": "1.990",
         "maj": "2026-10-13 12:47:35"
-      }
-    }
-  },
-  {
-    "id": "5600006",
-    "dep": "05",
-    "enseigne": "Carrefour Market",
-    "adresse": "Porte du Queyras",
-    "cp": "05600",
-    "ville": "GUILLESTRE",
-    "latitude": 44.660867125097,
-    "longitude": 6.653216819505,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.211",
-        "maj": "2026-11-05 08:54:37"
-      },
-      "SP95": {
-        "valeur": "2.063",
-        "maj": "2026-11-05 08:54:37"
-      },
-      "E10": {
-        "valeur": "2.027",
-        "maj": "2026-11-05 08:54:38"
-      },
-      "SP98": {
-        "valeur": "2.121",
-        "maj": "2026-11-05 08:54:38"
-      }
-    }
-  },
-  {
-    "id": "5400004",
-    "dep": "05",
-    "enseigne": "Carrefour Market",
-    "adresse": "ROUTE DE GAP",
-    "cp": "05400",
-    "ville": "VEYNES",
-    "latitude": 44.5373983,
-    "longitude": 5.834620999999999,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 18:47:53"
-      },
-      "SP95": {
-        "valeur": "2.099",
-        "maj": "2026-11-06 18:47:53"
       }
     }
   },
@@ -280,6 +256,74 @@
     }
   },
   {
+    "id": "5400004",
+    "dep": "05",
+    "enseigne": "Carrefour Market",
+    "adresse": "ROUTE DE GAP",
+    "cp": "05400",
+    "ville": "VEYNES",
+    "latitude": 44.54362,
+    "longitude": 5.84607,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.199",
+        "maj": "2026-11-06 18:47:53"
+      },
+      "SP95": {
+        "valeur": "2.099",
+        "maj": "2026-11-06 18:47:53"
+      }
+    }
+  },
+  {
+    "id": "5500002",
+    "dep": "05",
+    "enseigne": "Carrefour Market",
+    "adresse": "ZA DU MOULIN",
+    "cp": "05500",
+    "ville": "Saint-Bonnet-en-Champsaur",
+    "latitude": 44.67526,
+    "longitude": 6.07609,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.199",
+        "maj": "2026-11-06 13:57:09"
+      },
+      "SP95": {
+        "valeur": "2.189",
+        "maj": "2026-09-18 05:45:10"
+      }
+    }
+  },
+  {
+    "id": "5600006",
+    "dep": "05",
+    "enseigne": "Carrefour Market",
+    "adresse": "Porte du Queyras",
+    "cp": "05600",
+    "ville": "GUILLESTRE",
+    "latitude": 44.66049,
+    "longitude": 6.65215,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.211",
+        "maj": "2026-11-05 08:54:37"
+      },
+      "SP95": {
+        "valeur": "2.063",
+        "maj": "2026-11-05 08:54:37"
+      },
+      "E10": {
+        "valeur": "2.027",
+        "maj": "2026-11-05 08:54:38"
+      },
+      "SP98": {
+        "valeur": "2.121",
+        "maj": "2026-11-05 08:54:38"
+      }
+    }
+  },
+  {
     "id": "5000017",
     "dep": "05",
     "enseigne": "TotalEnergies",
@@ -289,13 +333,21 @@
     "latitude": 44.54104,
     "longitude": 6.05755,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.210",
+        "maj": "2026-11-11 00:01:00"
+      },
       "E85": {
-        "valeur": "0.939",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.936",
+        "maj": "2026-11-11 00:01:00"
       },
       "GPLc": {
         "valeur": "1.069",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -358,20 +410,20 @@
     "longitude": 6.0351392063597995,
     "carburants": {
       "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-11-05 11:17:20"
+        "valeur": "2.119",
+        "maj": "2026-11-10 11:52:04"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-27 08:55:59"
       },
       "E10": {
-        "valeur": "2.059",
-        "maj": "2026-11-05 11:15:07"
+        "valeur": "1.969",
+        "maj": "2026-11-10 11:52:05"
       },
       "SP98": {
-        "valeur": "2.139",
-        "maj": "2026-11-05 11:15:07"
+        "valeur": "2.059",
+        "maj": "2026-11-10 11:52:05"
       }
     }
   },
@@ -433,13 +485,21 @@
     "latitude": 44.903718328593996,
     "longitude": 6.6290858578086,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.103",
+        "maj": "2026-11-11 00:01:00"
+      },
       "E85": {
-        "valeur": "0.948",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.945",
+        "maj": "2026-11-11 00:01:00"
       },
       "GPLc": {
         "valeur": "1.139",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -659,15 +719,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.210",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
-        "valeur": "0.938",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.935",
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -706,8 +766,8 @@
     "adresse": "PLACE DE LA MAIRIE",
     "cp": "05120",
     "ville": "L'Argentière-la-Bessée",
-    "latitude": 44.7929320359,
-    "longitude": 6.55974685925,
+    "latitude": 44.79216,
+    "longitude": 6.5596,
     "carburants": {
       "Gazole": {
         "valeur": "2.129",
@@ -838,8 +898,8 @@
     "adresse": "CENTRE COMMERCIAL SUD",
     "cp": "05100",
     "ville": "BRIANCON",
-    "latitude": 44.882,
-    "longitude": 6.623,
+    "latitude": 44.8819,
+    "longitude": 6.62342,
     "carburants": {
       "Gazole": {
         "valeur": "2.113",
@@ -860,26 +920,6 @@
     }
   },
   {
-    "id": "5500002",
-    "dep": "05",
-    "enseigne": "Carrefour Market",
-    "adresse": "ZA DU MOULIN",
-    "cp": "05500",
-    "ville": "Saint-Bonnet-en-Champsaur",
-    "latitude": 44.675773217151,
-    "longitude": 6.075892485075101,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 13:57:09"
-      },
-      "SP95": {
-        "valeur": "2.189",
-        "maj": "2026-09-18 05:45:10"
-      }
-    }
-  },
-  {
     "id": "5300003",
     "dep": "05",
     "enseigne": "Intermarché",
@@ -891,15 +931,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.149",
-        "maj": "2026-11-07 15:15:15"
+        "maj": "2026-11-10 09:07:41"
       },
       "E10": {
-        "valeur": "1.999",
-        "maj": "2026-11-07 15:15:16"
+        "valeur": "1.979",
+        "maj": "2026-11-10 09:07:41"
       },
       "SP98": {
-        "valeur": "2.169",
-        "maj": "2026-11-07 15:15:16"
+        "valeur": "2.099",
+        "maj": "2026-11-10 09:07:42"
       }
     }
   },
@@ -944,30 +984,6 @@
       "E10": {
         "valeur": "1.990",
         "maj": "2026-07-09 07:16:40"
-      }
-    }
-  },
-  {
-    "id": "5300005",
-    "dep": "05",
-    "enseigne": "Netto",
-    "adresse": "1 RUE DU MAQUIS MORVAN",
-    "cp": "05300",
-    "ville": "LARAGNE MONTEGLIN",
-    "latitude": 44.311,
-    "longitude": 5.823,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.159",
-        "maj": "2026-11-04 13:26:11"
-      },
-      "E85": {
-        "valeur": "0.869",
-        "maj": "2026-10-01 11:03:03"
-      },
-      "E10": {
-        "valeur": "2.069",
-        "maj": "2026-11-04 13:26:29"
       }
     }
   },

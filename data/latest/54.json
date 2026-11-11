@@ -8,7 +8,12 @@
     "ville": "AVRICOURT",
     "latitude": 48.644,
     "longitude": 6.806,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.200",
+        "maj": "2026-11-10 13:51:43"
+      }
+    }
   },
   {
     "id": "54240002",
@@ -45,16 +50,16 @@
     "longitude": 6.192,
     "carburants": {
       "Gazole": {
-        "valeur": "2.242",
-        "maj": "2026-11-06 07:31:00"
+        "valeur": "2.209",
+        "maj": "2026-11-11 07:32:00"
       },
       "E10": {
-        "valeur": "2.063",
-        "maj": "2026-11-06 07:31:00"
+        "valeur": "2.030",
+        "maj": "2026-11-11 07:32:00"
       },
       "SP98": {
-        "valeur": "2.163",
-        "maj": "2026-11-06 07:31:00"
+        "valeur": "2.130",
+        "maj": "2026-11-11 07:32:00"
       }
     }
   },
@@ -69,16 +74,16 @@
     "longitude": 6.104,
     "carburants": {
       "Gazole": {
-        "valeur": "2.282",
-        "maj": "2026-11-08 06:41:00"
+        "valeur": "2.249",
+        "maj": "2026-11-11 07:32:00"
       },
       "E10": {
-        "valeur": "1.969",
-        "maj": "2026-11-08 06:41:00"
+        "valeur": "1.971",
+        "maj": "2026-11-11 07:32:00"
       },
       "SP98": {
-        "valeur": "2.069",
-        "maj": "2026-11-08 06:41:00"
+        "valeur": "2.071",
+        "maj": "2026-11-11 07:32:00"
       }
     }
   },
@@ -93,12 +98,36 @@
     "longitude": 6.145033000000001,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.170",
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
-        "valeur": "0.969",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.966",
+        "maj": "2026-11-11 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "54110001",
+    "dep": "54",
+    "enseigne": "Supermarché Match",
+    "adresse": "1 rue Victor Prouvé",
+    "cp": "54110",
+    "ville": "DOMBASLE-SUR-MEURTHE",
+    "latitude": 48.61042,
+    "longitude": 6.35167,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.239",
+        "maj": "2026-11-03 10:10:34"
+      },
+      "E10": {
+        "valeur": "2.119",
+        "maj": "2026-11-03 10:10:34"
+      },
+      "SP98": {
+        "valeur": "2.199",
+        "maj": "2026-11-03 10:10:34"
       }
     }
   },
@@ -109,8 +138,8 @@
     "adresse": "ZA de la Louviére",
     "cp": "54470",
     "ville": "THIAUCOURT",
-    "latitude": 48.947,
-    "longitude": 5.876,
+    "latitude": 48.94639,
+    "longitude": 5.87529,
     "carburants": {
       "Gazole": {
         "valeur": "2.239",
@@ -127,26 +156,26 @@
     }
   },
   {
-    "id": "54500008",
+    "id": "54000011",
     "dep": "54",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "2 AVENUE DE BOURGOGNE",
-    "cp": "54500",
-    "ville": "Vandoeuvre-lès-nancy",
-    "latitude": 48.64965,
-    "longitude": 6.14633,
+    "enseigne": "TotalEnergies",
+    "adresse": "5 BOULEVARD LOBAU",
+    "cp": "54000",
+    "ville": "NANCY",
+    "latitude": 48.691,
+    "longitude": 6.193,
     "carburants": {
       "Gazole": {
-        "valeur": "2.081",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.250",
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
         "valeur": "0.929",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
-        "valeur": "1.962",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "1.990",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -195,30 +224,38 @@
     }
   },
   {
-    "id": "54200007",
+    "id": "54520007",
     "dep": "54",
-    "enseigne": "Carrefour",
-    "adresse": "678 Avenue du Général Bigeard",
-    "cp": "54200",
-    "ville": "TOUL",
-    "latitude": 48.664,
-    "longitude": 5.888,
+    "enseigne": "TotalEnergies Access",
+    "adresse": "5 AVENUE DE LA RESISTANCE",
+    "cp": "54520",
+    "ville": "LAXOU",
+    "latitude": 48.694074161799996,
+    "longitude": 6.131897170929999,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.088",
-        "maj": "2026-11-09 16:43:47"
-      },
-      "GPLc": {
-        "valeur": "1.075",
-        "maj": "2026-11-05 11:27:31"
+      "E85": {
+        "valeur": "0.976",
+        "maj": "2026-11-11 07:57:24"
       },
       "E10": {
-        "valeur": "2.140",
-        "maj": "2026-11-09 16:43:47"
-      },
-      "SP98": {
-        "valeur": "2.200",
-        "maj": "2026-11-09 16:43:47"
+        "valeur": "1.988",
+        "maj": "2026-11-11 07:57:24"
+      }
+    }
+  },
+  {
+    "id": "54500008",
+    "dep": "54",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "2 AVENUE DE BOURGOGNE",
+    "cp": "54500",
+    "ville": "Vandoeuvre-lès-nancy",
+    "latitude": 48.64965,
+    "longitude": 6.14633,
+    "carburants": {
+      "E85": {
+        "valeur": "0.926",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -229,8 +266,8 @@
     "adresse": "1 RUE YVONNE FOINANT",
     "cp": "54220",
     "ville": "Malzéville",
-    "latitude": 48.718,
-    "longitude": 6.176,
+    "latitude": 48.71605,
+    "longitude": 6.17555,
     "carburants": {
       "Gazole": {
         "valeur": "2.105",
@@ -296,29 +333,18 @@
     "longitude": 6.071051,
     "carburants": {
       "Gazole": {
-        "valeur": "2.210",
-        "maj": "2026-11-09 10:44:04"
+        "valeur": "2.199",
+        "maj": "2026-11-10 09:27:04"
       },
       "SP95": {
-        "valeur": "2.159",
-        "maj": "2026-11-05 09:29:32"
+        "valeur": "2.090",
+        "maj": "2026-11-10 09:27:04"
       },
       "SP98": {
-        "valeur": "2.289",
-        "maj": "2026-11-05 09:29:32"
+        "valeur": "2.169",
+        "maj": "2026-11-10 09:27:04"
       }
     }
-  },
-  {
-    "id": "54000011",
-    "dep": "54",
-    "enseigne": "TotalEnergies",
-    "adresse": "5 BOULEVARD LOBAU",
-    "cp": "54000",
-    "ville": "NANCY",
-    "latitude": 48.691,
-    "longitude": 6.193,
-    "carburants": {}
   },
   {
     "id": "54200012",
@@ -331,8 +357,32 @@
     "longitude": 5.88828,
     "carburants": {
       "E85": {
-        "valeur": "0.919",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.916",
+        "maj": "2026-11-11 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "54840004",
+    "dep": "54",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Rue de la Croix Saint-Nicolas",
+    "cp": "54840",
+    "ville": "Gondreville",
+    "latitude": 48.6916,
+    "longitude": 5.97333,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.189",
+        "maj": "2026-11-09 15:46:38"
+      },
+      "SP95": {
+        "valeur": "2.119",
+        "maj": "2026-11-10 12:27:36"
+      },
+      "SP98": {
+        "valeur": "2.149",
+        "maj": "2026-11-10 12:27:36"
       }
     }
   },
@@ -347,8 +397,8 @@
     "longitude": 6.128,
     "carburants": {
       "Gazole": {
-        "valeur": "2.098",
-        "maj": "2026-11-06 09:22:21"
+        "valeur": "2.104",
+        "maj": "2026-11-10 09:07:31"
       },
       "E85": {
         "valeur": "0.999",
@@ -357,30 +407,6 @@
       "GPLc": {
         "valeur": "0.999",
         "maj": "2026-09-19 14:14:39"
-      },
-      "E10": {
-        "valeur": "2.199",
-        "maj": "2026-11-02 09:42:56"
-      }
-    }
-  },
-  {
-    "id": "54800001",
-    "dep": "54",
-    "enseigne": "Supermarché Match",
-    "adresse": "48 Rue de Verdun",
-    "cp": "54800",
-    "ville": "JARNY",
-    "latitude": 49.1656954684,
-    "longitude": 5.863708558669999,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.104",
-        "maj": "2026-11-06 12:04:10"
-      },
-      "E10": {
-        "valeur": "1.999",
-        "maj": "2026-11-06 12:04:11"
       }
     }
   },
@@ -405,34 +431,6 @@
     }
   },
   {
-    "id": "54540002",
-    "dep": "54",
-    "enseigne": "Carrefour Express",
-    "adresse": "6 ter avenue de la division leclerc",
-    "cp": "54540",
-    "ville": "Badonviller",
-    "latitude": 48.498,
-    "longitude": 6.89,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.219",
-        "maj": "2026-11-07 09:17:52"
-      },
-      "E85": {
-        "valeur": "0.899",
-        "maj": "2026-09-17 11:25:32"
-      },
-      "E10": {
-        "valeur": "2.099",
-        "maj": "2026-10-30 07:31:11"
-      },
-      "SP98": {
-        "valeur": "2.269",
-        "maj": "2026-09-18 16:01:58"
-      }
-    }
-  },
-  {
     "id": "54540003",
     "dep": "54",
     "enseigne": "Indépendant sans enseigne",
@@ -443,8 +441,8 @@
     "longitude": 6.886,
     "carburants": {
       "Gazole": {
-        "valeur": "2.229",
-        "maj": "2026-11-06 16:58:38"
+        "valeur": "2.179",
+        "maj": "2026-11-10 14:50:23"
       },
       "E10": {
         "valeur": "2.149",
@@ -474,20 +472,20 @@
     "longitude": 6.426,
     "carburants": {
       "Gazole": {
-        "valeur": "2.347",
-        "maj": "2026-11-06 11:21:00"
+        "valeur": "2.324",
+        "maj": "2026-11-10 11:11:00"
       },
       "GPLc": {
         "valeur": "1.069",
-        "maj": "2026-11-06 11:21:00"
+        "maj": "2026-11-10 11:11:00"
       },
       "E10": {
-        "valeur": "2.175",
-        "maj": "2026-11-06 11:21:00"
+        "valeur": "2.140",
+        "maj": "2026-11-10 11:11:00"
       },
       "SP98": {
-        "valeur": "2.275",
-        "maj": "2026-11-06 11:21:00"
+        "valeur": "2.240",
+        "maj": "2026-11-10 11:11:00"
       }
     }
   },
@@ -503,19 +501,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-09 09:00:00"
+        "maj": "2026-11-10 09:00:00"
       },
       "E85": {
         "valeur": "1.059",
-        "maj": "2026-11-09 09:00:00"
+        "maj": "2026-11-10 09:00:00"
       },
       "GPLc": {
         "valeur": "1.169",
-        "maj": "2026-11-09 09:00:00"
+        "maj": "2026-11-10 09:00:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-09 09:00:00"
+        "maj": "2026-11-10 09:00:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 09:00:00"
       }
     }
   },
@@ -550,20 +552,20 @@
     "adresse": "1.RUE DU PARTERRE",
     "cp": "54480",
     "ville": "CIREY-SUR-VEZOUZE",
-    "latitude": 48.579,
-    "longitude": 6.943,
+    "latitude": 48.57952,
+    "longitude": 6.9425,
     "carburants": {
       "Gazole": {
-        "valeur": "2.249",
-        "maj": "2026-11-06 10:53:29"
+        "valeur": "2.199",
+        "maj": "2026-11-10 12:08:25"
       },
       "SP95": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 10:53:29"
+        "valeur": "2.149",
+        "maj": "2026-11-10 12:08:25"
       },
       "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-11-06 10:53:29"
+        "valeur": "2.199",
+        "maj": "2026-11-10 12:08:25"
       }
     }
   },
@@ -578,44 +580,20 @@
     "longitude": 5.88934449977,
     "carburants": {
       "Gazole": {
-        "valeur": "2.189",
-        "maj": "2026-11-08 13:27:20"
+        "valeur": "2.178",
+        "maj": "2026-11-10 13:32:16"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-28 11:28:29"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-11-07 12:17:41"
+        "valeur": "2.125",
+        "maj": "2026-11-10 13:32:17"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-07 12:17:41"
-      }
-    }
-  },
-  {
-    "id": "54210002",
-    "dep": "54",
-    "enseigne": "Supermarché Match",
-    "adresse": "cc frunshopping bat 5 route de ville en vermois",
-    "cp": "54210",
-    "ville": "Saint-Nicolas-de-Port",
-    "latitude": 48.62,
-    "longitude": 6.282,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.100",
-        "maj": "2026-11-09 10:35:46"
-      },
-      "E10": {
-        "valeur": "2.012",
-        "maj": "2026-11-06 11:01:44"
-      },
-      "SP98": {
-        "valeur": "2.187",
-        "maj": "2026-11-06 11:01:44"
+        "valeur": "2.149",
+        "maj": "2026-11-10 13:32:17"
       }
     }
   },
@@ -644,6 +622,34 @@
     }
   },
   {
+    "id": "54540002",
+    "dep": "54",
+    "enseigne": "Carrefour Express",
+    "adresse": "6 ter avenue de la division leclerc",
+    "cp": "54540",
+    "ville": "Badonviller",
+    "latitude": 48.49809,
+    "longitude": 6.89016,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.199",
+        "maj": "2026-11-10 10:40:53"
+      },
+      "E85": {
+        "valeur": "0.899",
+        "maj": "2026-09-17 11:25:32"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-10-30 07:31:11"
+      },
+      "SP98": {
+        "valeur": "2.269",
+        "maj": "2026-09-18 16:01:58"
+      }
+    }
+  },
+  {
     "id": "54510001",
     "dep": "54",
     "enseigne": "Auchan hypermarché",
@@ -666,12 +672,12 @@
         "maj": "2026-10-22 09:07:14"
       },
       "E10": {
-        "valeur": "2.033",
-        "maj": "2026-11-09 09:53:42"
+        "valeur": "2.012",
+        "maj": "2026-11-10 09:27:36"
       },
       "SP98": {
-        "valeur": "2.133",
-        "maj": "2026-11-09 09:54:04"
+        "valeur": "2.112",
+        "maj": "2026-11-10 09:27:36"
       }
     }
   },
@@ -711,11 +717,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.190",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       },
       "GPLc": {
         "valeur": "1.069",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -732,6 +738,14 @@
       "Gazole": {
         "valeur": "2.220",
         "maj": "2026-11-07 09:48:47"
+      },
+      "SP95": {
+        "valeur": "2.108",
+        "maj": "2026-11-10 17:14:46"
+      },
+      "SP98": {
+        "valeur": "2.159",
+        "maj": "2026-11-10 17:14:46"
       }
     }
   },
@@ -802,8 +816,8 @@
     "longitude": 6.198,
     "carburants": {
       "Gazole": {
-        "valeur": "2.098",
-        "maj": "2026-11-09 11:00:35"
+        "valeur": "2.104",
+        "maj": "2026-11-10 12:24:21"
       },
       "GPLc": {
         "valeur": "1.010",
@@ -820,38 +834,6 @@
     }
   },
   {
-    "id": "54182001",
-    "dep": "54",
-    "enseigne": "Carrefour",
-    "adresse": "RD 570",
-    "cp": "54180",
-    "ville": "HEILLECOURT",
-    "latitude": 48.641,
-    "longitude": 6.183,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.092",
-        "maj": "2026-11-09 12:36:16"
-      },
-      "E85": {
-        "valeur": "0.869",
-        "maj": "2026-11-09 12:36:16"
-      },
-      "GPLc": {
-        "valeur": "1.075",
-        "maj": "2026-11-09 12:36:16"
-      },
-      "E10": {
-        "valeur": "2.083",
-        "maj": "2026-11-09 12:36:16"
-      },
-      "SP98": {
-        "valeur": "2.340",
-        "maj": "2026-11-09 12:36:16"
-      }
-    }
-  },
-  {
     "id": "54200008",
     "dep": "54",
     "enseigne": "Intermarché",
@@ -862,20 +844,20 @@
     "longitude": 5.872,
     "carburants": {
       "Gazole": {
-        "valeur": "2.189",
-        "maj": "2026-11-09 09:22:01"
+        "valeur": "2.109",
+        "maj": "2026-11-10 09:09:09"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-28 08:33:12"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-11-09 09:22:01"
+        "valeur": "2.129",
+        "maj": "2026-11-10 15:41:56"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-09 09:22:01"
+        "valeur": "2.149",
+        "maj": "2026-11-10 15:41:57"
       }
     }
   },
@@ -924,17 +906,21 @@
     "latitude": 48.654,
     "longitude": 6.177,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.149",
+        "maj": "2026-11-10 09:00:31"
+      },
       "SP95": {
-        "valeur": "2.239",
-        "maj": "2026-11-09 08:47:45"
+        "valeur": "2.139",
+        "maj": "2026-11-10 08:53:37"
       },
       "E10": {
         "valeur": "2.083",
-        "maj": "2026-11-09 08:47:45"
+        "maj": "2026-11-10 08:53:37"
       },
       "SP98": {
         "valeur": "2.340",
-        "maj": "2026-11-09 08:47:45"
+        "maj": "2026-11-10 08:53:37"
       }
     }
   },
@@ -967,46 +953,14 @@
     }
   },
   {
-    "id": "54270001",
-    "dep": "54",
-    "enseigne": "Carrefour",
-    "adresse": "avenue de saulxures",
-    "cp": "54270",
-    "ville": "ESSEY-LèS-NANCY",
-    "latitude": 48.703,
-    "longitude": 6.246,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.074",
-        "maj": "2026-11-09 12:12:08"
-      },
-      "E85": {
-        "valeur": "0.891",
-        "maj": "2026-10-14 10:47:45"
-      },
-      "GPLc": {
-        "valeur": "1.075",
-        "maj": "2026-10-16 10:36:14"
-      },
-      "E10": {
-        "valeur": "2.012",
-        "maj": "2026-11-09 12:12:08"
-      },
-      "SP98": {
-        "valeur": "2.112",
-        "maj": "2026-11-09 12:12:09"
-      }
-    }
-  },
-  {
     "id": "54530002",
     "dep": "54",
     "enseigne": "Carrefour Contact",
     "adresse": "Rue Jean Jaurès",
     "cp": "54530",
     "ville": "Pagny-sur-Moselle",
-    "latitude": 48.978,
-    "longitude": 6.027,
+    "latitude": 48.97793,
+    "longitude": 6.02714,
     "carburants": {
       "Gazole": {
         "valeur": "2.219",
@@ -1061,16 +1015,16 @@
     "longitude": 6.175,
     "carburants": {
       "Gazole": {
-        "valeur": "2.469",
-        "maj": "2026-11-02 08:24:11"
+        "valeur": "2.259",
+        "maj": "2026-11-10 10:56:13"
       },
       "SP95": {
-        "valeur": "2.115",
-        "maj": "2026-11-05 17:33:10"
+        "valeur": "2.179",
+        "maj": "2026-11-10 10:56:13"
       },
       "SP98": {
-        "valeur": "2.196",
-        "maj": "2026-11-05 17:33:11"
+        "valeur": "2.229",
+        "maj": "2026-11-10 10:56:13"
       }
     }
   },
@@ -1131,34 +1085,6 @@
       "E85": {
         "valeur": "0.949",
         "maj": "2026-11-09 17:49:08"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-09 17:49:08"
-      }
-    }
-  },
-  {
-    "id": "54250001",
-    "dep": "54",
-    "enseigne": "Supermarché Match",
-    "adresse": "Rue de Frouard",
-    "cp": "54250",
-    "ville": "Champigneulles",
-    "latitude": 48.738,
-    "longitude": 6.162,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.399",
-        "maj": "2026-11-02 12:41:01"
-      },
-      "E10": {
-        "valeur": "2.054",
-        "maj": "2026-11-02 12:41:01"
-      },
-      "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-02 12:41:01"
       }
     }
   },
@@ -1171,12 +1097,7 @@
     "ville": "LAXOU",
     "latitude": 48.694,
     "longitude": 6.133,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.087",
-        "maj": "2026-11-10 08:30:53"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "54000009",
@@ -1277,8 +1198,8 @@
     "adresse": "2 rue de Virecourt",
     "cp": "54290",
     "ville": "BAYON",
-    "latitude": 48.470178536700004,
-    "longitude": 6.31258506253,
+    "latitude": 48.4731,
+    "longitude": 6.31533,
     "carburants": {
       "Gazole": {
         "valeur": "2.149",
@@ -1350,23 +1271,23 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.178",
-        "maj": "2026-11-10 01:16:00"
+        "maj": "2026-11-11 01:17:00"
       },
       "E85": {
-        "valeur": "0.944",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "0.943",
+        "maj": "2026-11-11 01:17:00"
       },
       "GPLc": {
         "valeur": "1.007",
-        "maj": "2026-11-10 01:16:00"
+        "maj": "2026-11-11 01:17:00"
       },
       "E10": {
-        "valeur": "1.998",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "1.989",
+        "maj": "2026-11-11 01:17:00"
       },
       "SP98": {
         "valeur": "2.107",
-        "maj": "2026-11-10 01:16:00"
+        "maj": "2026-11-11 01:17:00"
       }
     }
   },
@@ -1381,20 +1302,20 @@
     "longitude": 6.149,
     "carburants": {
       "Gazole": {
-        "valeur": "2.226",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.148",
+        "maj": "2026-11-11 01:16:00"
       },
       "E85": {
         "valeur": "0.868",
-        "maj": "2026-11-10 01:17:00"
+        "maj": "2026-11-11 01:16:00"
       },
       "E10": {
-        "valeur": "2.011",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "1.998",
+        "maj": "2026-11-11 01:16:00"
       },
       "SP98": {
-        "valeur": "2.162",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.098",
+        "maj": "2026-11-11 01:16:00"
       }
     }
   },
@@ -1434,15 +1355,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.199",
-        "maj": "2026-11-07 11:27:34"
+        "maj": "2026-11-10 11:19:12"
       },
       "E10": {
-        "valeur": "2.059",
-        "maj": "2026-11-07 11:27:34"
+        "valeur": "1.979",
+        "maj": "2026-11-10 11:19:12"
       },
       "SP98": {
         "valeur": "2.199",
-        "maj": "2026-11-07 11:27:34"
+        "maj": "2026-11-10 11:19:12"
       }
     }
   },
@@ -1457,20 +1378,20 @@
     "longitude": 6.091693528860801,
     "carburants": {
       "Gazole": {
-        "valeur": "2.312",
-        "maj": "2026-11-09 14:00:00"
+        "valeur": "2.269",
+        "maj": "2026-11-10 14:00:00"
       },
       "GPLc": {
-        "valeur": "1.135",
-        "maj": "2026-11-09 14:00:00"
+        "valeur": "1.140",
+        "maj": "2026-11-10 14:00:00"
       },
       "E10": {
-        "valeur": "2.186",
-        "maj": "2026-11-09 14:00:00"
+        "valeur": "2.126",
+        "maj": "2026-11-10 14:00:00"
       },
       "SP98": {
-        "valeur": "2.260",
-        "maj": "2026-11-09 14:00:00"
+        "valeur": "2.207",
+        "maj": "2026-11-10 14:00:00"
       }
     }
   },
@@ -1513,24 +1434,24 @@
     "longitude": 5.925,
     "carburants": {
       "Gazole": {
-        "valeur": "2.189",
-        "maj": "2026-11-09 16:46:26"
+        "valeur": "2.108",
+        "maj": "2026-11-10 19:00:30"
       },
       "SP95": {
         "valeur": "2.139",
-        "maj": "2026-11-09 16:46:26"
+        "maj": "2026-11-10 19:00:30"
       },
       "E85": {
         "valeur": "0.869",
-        "maj": "2026-11-09 16:46:26"
+        "maj": "2026-11-10 15:54:08"
       },
       "E10": {
-        "valeur": "2.139",
-        "maj": "2026-11-09 16:46:26"
+        "valeur": "2.125",
+        "maj": "2026-11-10 19:00:30"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-09 16:46:26"
+        "valeur": "2.149",
+        "maj": "2026-11-10 19:00:30"
       }
     }
   },
@@ -1573,16 +1494,16 @@
     "longitude": 6.163,
     "carburants": {
       "Gazole": {
-        "valeur": "2.449",
-        "maj": "2026-11-02 11:00:01"
+        "valeur": "2.354",
+        "maj": "2026-11-10 11:51:47"
       },
       "SP95": {
-        "valeur": "2.287",
-        "maj": "2026-11-02 11:00:02"
+        "valeur": "2.192",
+        "maj": "2026-11-10 11:51:48"
       },
       "E10": {
-        "valeur": "2.248",
-        "maj": "2026-11-02 11:00:02"
+        "valeur": "2.162",
+        "maj": "2026-11-10 11:51:48"
       }
     }
   },
@@ -1595,7 +1516,20 @@
     "ville": "SEICHAMPS",
     "latitude": 48.713243511792,
     "longitude": 6.2493570160388,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.064",
+        "maj": "2026-11-11 07:40:19"
+      },
+      "E85": {
+        "valeur": "0.916",
+        "maj": "2026-11-11 07:40:19"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-11 07:40:19"
+      }
+    }
   },
   {
     "id": "54150002",
@@ -1618,30 +1552,6 @@
       "SP98": {
         "valeur": "2.139",
         "maj": "2026-11-06 15:37:30"
-      }
-    }
-  },
-  {
-    "id": "54110001",
-    "dep": "54",
-    "enseigne": "Supermarché Match",
-    "adresse": "1 rue Victor Prouvé",
-    "cp": "54110",
-    "ville": "DOMBASLE-SUR-MEURTHE",
-    "latitude": 48.61,
-    "longitude": 6.352,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.239",
-        "maj": "2026-11-03 10:10:34"
-      },
-      "E10": {
-        "valeur": "2.119",
-        "maj": "2026-11-03 10:10:34"
-      },
-      "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-03 10:10:34"
       }
     }
   },
@@ -1712,20 +1622,20 @@
     "longitude": 6.174,
     "carburants": {
       "Gazole": {
-        "valeur": "2.368",
-        "maj": "2026-11-06 14:50:00"
+        "valeur": "2.344",
+        "maj": "2026-11-10 14:51:00"
       },
       "GPLc": {
         "valeur": "1.075",
-        "maj": "2026-11-06 14:50:00"
+        "maj": "2026-11-10 14:51:00"
       },
       "E10": {
-        "valeur": "2.172",
-        "maj": "2026-11-06 14:50:00"
+        "valeur": "2.141",
+        "maj": "2026-11-10 14:51:00"
       },
       "SP98": {
-        "valeur": "2.272",
-        "maj": "2026-11-06 14:50:00"
+        "valeur": "2.241",
+        "maj": "2026-11-10 14:51:00"
       }
     }
   },
@@ -1740,44 +1650,20 @@
     "longitude": 6.183,
     "carburants": {
       "Gazole": {
-        "valeur": "2.244",
-        "maj": "2026-11-10 07:31:00"
+        "valeur": "2.224",
+        "maj": "2026-11-11 07:31:00"
       },
       "E85": {
         "valeur": "0.984",
-        "maj": "2026-11-10 07:31:00"
+        "maj": "2026-11-11 07:31:00"
       },
       "E10": {
         "valeur": "2.035",
-        "maj": "2026-11-10 07:31:00"
+        "maj": "2026-11-11 07:31:00"
       },
       "SP98": {
         "valeur": "2.135",
-        "maj": "2026-11-10 07:31:00"
-      }
-    }
-  },
-  {
-    "id": "54840004",
-    "dep": "54",
-    "enseigne": "Carrefour Contact",
-    "adresse": "Rue de la Croix Saint-Nicolas",
-    "cp": "54840",
-    "ville": "Gondreville",
-    "latitude": 48.691,
-    "longitude": 5.969,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.189",
-        "maj": "2026-11-09 15:46:38"
-      },
-      "SP95": {
-        "valeur": "2.129",
-        "maj": "2026-11-07 11:16:35"
-      },
-      "SP98": {
-        "valeur": "2.159",
-        "maj": "2026-11-07 11:16:35"
+        "maj": "2026-11-11 07:31:00"
       }
     }
   },
@@ -1793,15 +1679,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.306",
-        "maj": "2026-11-10 07:31:00"
+        "maj": "2026-11-11 07:32:00"
       },
       "E10": {
-        "valeur": "2.015",
-        "maj": "2026-11-10 07:31:00"
+        "valeur": "2.013",
+        "maj": "2026-11-11 07:32:00"
       },
       "SP98": {
-        "valeur": "2.115",
-        "maj": "2026-11-10 07:31:00"
+        "valeur": "2.113",
+        "maj": "2026-11-11 07:32:00"
       }
     }
   },
@@ -1844,20 +1730,20 @@
     "longitude": 5.799,
     "carburants": {
       "Gazole": {
-        "valeur": "2.224",
-        "maj": "2026-11-05 14:28:16"
+        "valeur": "2.169",
+        "maj": "2026-11-10 09:11:08"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-27 15:55:51"
       },
       "E10": {
-        "valeur": "2.016",
-        "maj": "2026-11-05 14:28:17"
+        "valeur": "1.996",
+        "maj": "2026-11-10 09:11:09"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-05 14:28:17"
+        "valeur": "2.163",
+        "maj": "2026-11-10 09:11:09"
       }
     }
   },
@@ -1868,8 +1754,8 @@
     "adresse": "25 Avenue Pierre Semard",
     "cp": "54360",
     "ville": "Blainville-sur-l'Eau",
-    "latitude": 48.556,
-    "longitude": 6.398,
+    "latitude": 48.55595,
+    "longitude": 6.39778,
     "carburants": {
       "Gazole": {
         "valeur": "2.259",
@@ -1918,16 +1804,18 @@
     "ville": "LONGUYON",
     "latitude": 49.431691183209,
     "longitude": 5.6158982609434,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-06 14:58:23"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-03 06:46:08"
-      }
-    }
+    "carburants": {}
+  },
+  {
+    "id": "54134002",
+    "dep": "54",
+    "enseigne": "TotalEnergies",
+    "adresse": "Rte de Tantonville",
+    "cp": "54134",
+    "ville": "Ceintrey",
+    "latitude": 48.521689,
+    "longitude": 6.157557,
+    "carburants": {}
   },
   {
     "id": "54380010",
@@ -1940,8 +1828,8 @@
     "longitude": 6.0642620759072,
     "carburants": {
       "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-11-06 13:40:37"
+        "valeur": "2.099",
+        "maj": "2026-11-10 14:32:59"
       },
       "E85": {
         "valeur": "0.869",
@@ -1952,17 +1840,6 @@
         "maj": "2026-11-06 13:40:37"
       }
     }
-  },
-  {
-    "id": "54134002",
-    "dep": "54",
-    "enseigne": "TotalEnergies",
-    "adresse": "Rte de Tantonville",
-    "cp": "54134",
-    "ville": "Ceintrey",
-    "latitude": 48.521689,
-    "longitude": 6.157557,
-    "carburants": {}
   },
   {
     "id": "54830001",
@@ -2022,56 +1899,105 @@
     "latitude": 48.655,
     "longitude": 6.186,
     "carburants": {
-      "Gazole": {
-        "valeur": "2.063",
-        "maj": "2026-11-10 00:01:00"
-      },
       "E85": {
-        "valeur": "0.969",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.966",
+        "maj": "2026-11-11 00:01:00"
       },
       "GPLc": {
         "valeur": "1.049",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
   {
-    "id": "54520007",
+    "id": "54182001",
     "dep": "54",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "5 AVENUE DE LA RESISTANCE",
-    "cp": "54520",
-    "ville": "LAXOU",
-    "latitude": 48.694074161799996,
-    "longitude": 6.131897170929999,
-    "carburants": {}
-  },
-  {
-    "id": "54300006",
-    "dep": "54",
-    "enseigne": "Leclerc",
-    "adresse": "Rue Boutet de Monvel",
-    "cp": "54300",
-    "ville": "LUNEVILLE",
-    "latitude": 48.6,
-    "longitude": 6.492,
+    "enseigne": "Carrefour",
+    "adresse": "RD 570",
+    "cp": "54180",
+    "ville": "HEILLECOURT",
+    "latitude": 48.64086,
+    "longitude": 6.18302,
     "carburants": {
       "Gazole": {
-        "valeur": "2.198",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.086",
+        "maj": "2026-11-10 12:45:20"
       },
       "E85": {
-        "valeur": "0.892",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "0.869",
+        "maj": "2026-11-10 12:45:20"
+      },
+      "GPLc": {
+        "valeur": "1.075",
+        "maj": "2026-11-10 12:45:20"
       },
       "E10": {
-        "valeur": "1.989",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.033",
+        "maj": "2026-11-10 12:45:20"
+      },
+      "SP98": {
+        "valeur": "2.133",
+        "maj": "2026-11-10 12:45:21"
+      }
+    }
+  },
+  {
+    "id": "54200007",
+    "dep": "54",
+    "enseigne": "Carrefour",
+    "adresse": "678 Avenue du Général Bigeard",
+    "cp": "54200",
+    "ville": "TOUL",
+    "latitude": 48.66417,
+    "longitude": 5.88836,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.088",
+        "maj": "2026-11-09 16:43:47"
+      },
+      "GPLc": {
+        "valeur": "1.075",
+        "maj": "2026-11-05 11:27:31"
+      },
+      "E10": {
+        "valeur": "2.140",
+        "maj": "2026-11-09 16:43:47"
+      },
+      "SP98": {
+        "valeur": "2.200",
+        "maj": "2026-11-09 16:43:47"
+      }
+    }
+  },
+  {
+    "id": "54270001",
+    "dep": "54",
+    "enseigne": "Carrefour",
+    "adresse": "avenue de saulxures",
+    "cp": "54270",
+    "ville": "ESSEY-LèS-NANCY",
+    "latitude": 48.70345,
+    "longitude": 6.24585,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.074",
+        "maj": "2026-11-09 12:12:08"
+      },
+      "E85": {
+        "valeur": "0.891",
+        "maj": "2026-10-14 10:47:45"
+      },
+      "GPLc": {
+        "valeur": "1.075",
+        "maj": "2026-10-16 10:36:14"
+      },
+      "E10": {
+        "valeur": "2.012",
+        "maj": "2026-11-09 12:12:08"
+      },
+      "SP98": {
+        "valeur": "2.112",
+        "maj": "2026-11-09 12:12:09"
       }
     }
   },
@@ -2082,8 +2008,8 @@
     "adresse": "6 rue tuilier",
     "cp": "54300",
     "ville": "Moncel-lès-Lunéville",
-    "latitude": 48.579,
-    "longitude": 6.518,
+    "latitude": 48.57867,
+    "longitude": 6.51829,
     "carburants": {
       "Gazole": {
         "valeur": "2.162",
@@ -2112,22 +2038,26 @@
     }
   },
   {
-    "id": "54700009",
+    "id": "54300006",
     "dep": "54",
-    "enseigne": "Supermarché Match",
-    "adresse": "Le Pré Latour",
-    "cp": "54700",
-    "ville": "PONT-à-MOUSSON",
-    "latitude": 48.917,
-    "longitude": 6.065,
+    "enseigne": "Leclerc",
+    "adresse": "Rue Boutet de Monvel",
+    "cp": "54300",
+    "ville": "LUNEVILLE",
+    "latitude": 48.6,
+    "longitude": 6.492,
     "carburants": {
       "Gazole": {
-        "valeur": "2.084",
-        "maj": "2026-11-06 12:27:03"
+        "valeur": "2.161",
+        "maj": "2026-11-11 01:17:00"
       },
-      "SP98": {
-        "valeur": "2.017",
-        "maj": "2026-11-06 12:27:03"
+      "E85": {
+        "valeur": "0.889",
+        "maj": "2026-11-11 01:17:00"
+      },
+      "E10": {
+        "valeur": "1.984",
+        "maj": "2026-11-11 01:17:00"
       }
     }
   },
@@ -2146,12 +2076,12 @@
         "maj": "2026-11-10 08:30:00"
       },
       "SP95": {
-        "valeur": "2.010",
-        "maj": "2026-11-09 08:30:00"
+        "valeur": "2.015",
+        "maj": "2026-11-10 09:35:26"
       },
       "E10": {
-        "valeur": "1.957",
-        "maj": "2026-11-09 08:30:00"
+        "valeur": "1.962",
+        "maj": "2026-11-10 09:35:26"
       },
       "SP98": {
         "valeur": "2.085",
@@ -2220,10 +2150,97 @@
     "ville": "Villers-lès-Nancy",
     "latitude": 48.67308,
     "longitude": 6.15342,
+    "carburants": {}
+  },
+  {
+    "id": "54210002",
+    "dep": "54",
+    "enseigne": "Supermarché Match",
+    "adresse": "cc frunshopping bat 5 route de ville en vermois",
+    "cp": "54210",
+    "ville": "Saint-Nicolas-de-Port",
+    "latitude": 48.62029,
+    "longitude": 6.28095,
     "carburants": {
-      "E85": {
-        "valeur": "0.964",
-        "maj": "2026-11-10 00:01:00"
+      "Gazole": {
+        "valeur": "2.096",
+        "maj": "2026-11-10 11:19:48"
+      },
+      "E10": {
+        "valeur": "2.012",
+        "maj": "2026-11-06 11:01:44"
+      },
+      "SP98": {
+        "valeur": "2.187",
+        "maj": "2026-11-06 11:01:44"
+      }
+    }
+  },
+  {
+    "id": "54250001",
+    "dep": "54",
+    "enseigne": "Supermarché Match",
+    "adresse": "Rue de Frouard",
+    "cp": "54250",
+    "ville": "Champigneulles",
+    "latitude": 48.73724,
+    "longitude": 6.16246,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.094",
+        "maj": "2026-11-10 12:42:36"
+      },
+      "E10": {
+        "valeur": "1.999",
+        "maj": "2026-11-10 12:42:36"
+      },
+      "SP98": {
+        "valeur": "2.099",
+        "maj": "2026-11-10 12:42:37"
+      }
+    }
+  },
+  {
+    "id": "54700009",
+    "dep": "54",
+    "enseigne": "Supermarché Match",
+    "adresse": "Le Pré Latour",
+    "cp": "54700",
+    "ville": "PONT-à-MOUSSON",
+    "latitude": 48.91697,
+    "longitude": 6.0645,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.075",
+        "maj": "2026-11-10 11:52:06"
+      },
+      "E10": {
+        "valeur": "1.933",
+        "maj": "2026-11-10 11:52:06"
+      },
+      "SP98": {
+        "valeur": "2.029",
+        "maj": "2026-11-10 11:52:06"
+      }
+    }
+  },
+  {
+    "id": "54800001",
+    "dep": "54",
+    "enseigne": "Supermarché Match",
+    "adresse": "48 Rue de Verdun",
+    "cp": "54800",
+    "ville": "JARNY",
+    "latitude": 49.16571,
+    "longitude": 5.86401,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.099",
+        "maj": "2026-11-10 14:20:36"
+      },
+      "E10": {
+        "valeur": "1.999",
+        "maj": "2026-11-10 14:20:36"
       }
     }
   }

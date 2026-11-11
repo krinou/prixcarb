@@ -54,8 +54,8 @@
     "adresse": "Route de Lyon",
     "cp": "07430",
     "ville": "DAVéZIEUX",
-    "latitude": 45.261,
-    "longitude": 4.703,
+    "latitude": 45.26094,
+    "longitude": 4.70202,
     "carburants": {
       "Gazole": {
         "valeur": "2.101",
@@ -76,6 +76,58 @@
     }
   },
   {
+    "id": "7430006",
+    "dep": "07",
+    "enseigne": "Avia",
+    "adresse": "ZI LA LOMBARDIERE",
+    "cp": "07430",
+    "ville": "DAVEZIEUX",
+    "latitude": 45.25171400000001,
+    "longitude": 4.696600999999999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.259",
+        "maj": "2026-11-10 20:00:00"
+      },
+      "E10": {
+        "valeur": "2.169",
+        "maj": "2026-11-10 20:00:00"
+      },
+      "SP98": {
+        "valeur": "2.249",
+        "maj": "2026-11-10 20:00:00"
+      }
+    }
+  },
+  {
+    "id": "7130006",
+    "dep": "07",
+    "enseigne": "Avia",
+    "adresse": "AVENUE GROSS UMSTADT",
+    "cp": "07130",
+    "ville": "SAINT PERAY",
+    "latitude": 44.943,
+    "longitude": 4.859,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.249",
+        "maj": "2026-11-10 20:00:00"
+      },
+      "GPLc": {
+        "valeur": "1.086",
+        "maj": "2026-10-07 20:00:00"
+      },
+      "E10": {
+        "valeur": "2.159",
+        "maj": "2026-11-10 20:00:00"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-11-10 20:00:00"
+      }
+    }
+  },
+  {
     "id": "7100006",
     "dep": "07",
     "enseigne": "TotalEnergies",
@@ -84,7 +136,16 @@
     "ville": "ANNONAY",
     "latitude": 45.235,
     "longitude": 4.672,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.250",
+        "maj": "2026-11-10 11:03:36"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 11:03:36"
+      }
+    }
   },
   {
     "id": "7130005",
@@ -151,24 +212,7 @@
     "ville": "AUBENAS",
     "latitude": 44.6320217749,
     "longitude": 4.37986312289,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.094",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E85": {
-        "valeur": "0.919",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.975",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 06:41:29"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "7230001",
@@ -224,9 +268,13 @@
     "latitude": 44.55,
     "longitude": 4.416,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.268",
+        "maj": "2026-11-10 11:07:35"
+      },
       "SP95": {
-        "valeur": "2.200",
-        "maj": "2026-11-03 10:56:15"
+        "valeur": "2.185",
+        "maj": "2026-11-10 10:44:09"
       }
     }
   },
@@ -265,20 +313,20 @@
     "longitude": 4.13,
     "carburants": {
       "Gazole": {
-        "valeur": "2.179",
-        "maj": "2026-11-02 10:46:29"
+        "valeur": "2.099",
+        "maj": "2026-11-10 13:22:42"
       },
       "SP95": {
-        "valeur": "2.199",
-        "maj": "2026-10-20 12:21:40"
+        "valeur": "1.999",
+        "maj": "2026-11-10 13:22:42"
       },
       "E85": {
         "valeur": "0.899",
         "maj": "2026-10-08 10:35:32"
       },
       "SP98": {
-        "valeur": "2.249",
-        "maj": "2026-10-20 12:21:41"
+        "valeur": "2.099",
+        "maj": "2026-11-10 13:22:42"
       }
     }
   },
@@ -289,8 +337,8 @@
     "adresse": "Grande Rue",
     "cp": "07190",
     "ville": "Saint-Sauveur-de-Montagut",
-    "latitude": 44.822,
-    "longitude": 4.584,
+    "latitude": 44.82113,
+    "longitude": 4.58487,
     "carburants": {
       "Gazole": {
         "valeur": "2.192",
@@ -409,16 +457,16 @@
     "longitude": 4.8210354374187,
     "carburants": {
       "Gazole": {
-        "valeur": "2.299",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.259",
+        "maj": "2026-11-10 23:54:00"
       },
       "SP95": {
-        "valeur": "2.249",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.179",
+        "maj": "2026-11-10 23:54:00"
       },
       "E10": {
-        "valeur": "2.219",
-        "maj": "2026-11-06 23:54:00"
+        "valeur": "2.139",
+        "maj": "2026-11-10 23:54:00"
       }
     }
   },
@@ -429,20 +477,20 @@
     "adresse": "1520 Route du Sara",
     "cp": "07320",
     "ville": "Saint-Agrève",
-    "latitude": 45.012764000000004,
-    "longitude": 4.387518,
+    "latitude": 45.01307,
+    "longitude": 4.38785,
     "carburants": {
       "Gazole": {
         "valeur": "2.169",
-        "maj": "2026-11-09 06:44:43"
+        "maj": "2026-11-10 14:27:56"
       },
       "SP95": {
         "valeur": "2.119",
-        "maj": "2026-11-09 06:48:28"
+        "maj": "2026-11-10 14:27:56"
       },
       "SP98": {
         "valeur": "2.199",
-        "maj": "2026-11-09 06:48:28"
+        "maj": "2026-11-10 14:27:56"
       }
     }
   },
@@ -553,24 +601,24 @@
     "longitude": 4.384,
     "carburants": {
       "Gazole": {
-        "valeur": "2.105",
-        "maj": "2026-11-09 09:02:51"
+        "valeur": "2.094",
+        "maj": "2026-11-10 10:00:56"
       },
       "SP95": {
-        "valeur": "2.105",
-        "maj": "2026-11-06 09:20:42"
+        "valeur": "2.068",
+        "maj": "2026-11-10 09:54:08"
       },
       "GPLc": {
         "valeur": "1.064",
         "maj": "2026-10-20 10:05:14"
       },
       "E10": {
-        "valeur": "1.985",
-        "maj": "2026-11-09 09:02:33"
+        "valeur": "1.974",
+        "maj": "2026-11-10 09:54:08"
       },
       "SP98": {
-        "valeur": "2.125",
-        "maj": "2026-11-09 09:02:33"
+        "valeur": "2.088",
+        "maj": "2026-11-10 09:54:09"
       }
     }
   },
@@ -713,8 +761,8 @@
     "longitude": 4.8614537844062005,
     "carburants": {
       "Gazole": {
-        "valeur": "2.099",
-        "maj": "2026-11-09 18:46:56"
+        "valeur": "2.073",
+        "maj": "2026-11-10 18:05:03"
       },
       "E85": {
         "valeur": "0.869",
@@ -800,8 +848,8 @@
     "adresse": "RD 86 - LIEUDIT LES COTES",
     "cp": "07800",
     "ville": "Saint-Georges-les-Bains",
-    "latitude": 44.857,
-    "longitude": 4.83,
+    "latitude": 44.85652,
+    "longitude": 4.83026,
     "carburants": {
       "Gazole": {
         "valeur": "2.159",
@@ -828,16 +876,16 @@
     "longitude": 4.832,
     "carburants": {
       "Gazole": {
-        "valeur": "2.197",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.216",
+        "maj": "2026-11-11 01:18:00"
       },
       "SP95": {
-        "valeur": "2.134",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.147",
+        "maj": "2026-11-11 01:18:00"
       },
       "E10": {
         "valeur": "2.080",
-        "maj": "2026-11-10 01:17:00"
+        "maj": "2026-11-11 01:18:00"
       }
     }
   },
@@ -894,30 +942,6 @@
     }
   },
   {
-    "id": "7140001",
-    "dep": "07",
-    "enseigne": "Carrefour Market",
-    "adresse": "Centre Commercial La Clairette",
-    "cp": "07140",
-    "ville": "LES VANS",
-    "latitude": 44.406,
-    "longitude": 4.137,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.179",
-        "maj": "2026-11-05 08:28:21"
-      },
-      "SP95": {
-        "valeur": "2.119",
-        "maj": "2026-11-05 08:28:22"
-      },
-      "SP98": {
-        "valeur": "2.189",
-        "maj": "2026-11-05 08:28:22"
-      }
-    }
-  },
-  {
     "id": "7170001",
     "dep": "07",
     "enseigne": "TotalEnergies",
@@ -938,6 +962,30 @@
     }
   },
   {
+    "id": "7140001",
+    "dep": "07",
+    "enseigne": "Carrefour Market",
+    "adresse": "Centre Commercial La Clairette",
+    "cp": "07140",
+    "ville": "LES VANS",
+    "latitude": 44.40655,
+    "longitude": 4.13695,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.179",
+        "maj": "2026-11-05 08:28:21"
+      },
+      "SP95": {
+        "valeur": "2.119",
+        "maj": "2026-11-05 08:28:22"
+      },
+      "SP98": {
+        "valeur": "2.189",
+        "maj": "2026-11-05 08:28:22"
+      }
+    }
+  },
+  {
     "id": "7150001",
     "dep": "07",
     "enseigne": "Elan",
@@ -950,6 +998,10 @@
       "Gazole": {
         "valeur": "2.209",
         "maj": "2026-11-05 08:02:29"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 15:04:45"
       }
     }
   },
@@ -996,12 +1048,12 @@
     "longitude": 4.64767,
     "carburants": {
       "Gazole": {
-        "valeur": "2.219",
-        "maj": "2026-11-03 08:54:08"
+        "valeur": "2.139",
+        "maj": "2026-11-10 10:04:27"
       },
       "SP95": {
-        "valeur": "2.199",
-        "maj": "2026-11-03 08:54:08"
+        "valeur": "2.189",
+        "maj": "2026-11-10 10:04:27"
       }
     }
   },
@@ -1012,8 +1064,8 @@
     "adresse": "Les Beaumes",
     "cp": "07260",
     "ville": "JOYEUSE",
-    "latitude": 44.479,
-    "longitude": 4.248,
+    "latitude": 44.47938,
+    "longitude": 4.24797,
     "carburants": {
       "Gazole": {
         "valeur": "2.295",
@@ -1036,8 +1088,8 @@
     "adresse": "56 Avenue de Bellande",
     "cp": "07200",
     "ville": "Aubenas",
-    "latitude": 44.605,
-    "longitude": 4.387,
+    "latitude": 44.60499,
+    "longitude": 4.38713,
     "carburants": {
       "Gazole": {
         "valeur": "2.236",
@@ -1064,8 +1116,8 @@
     "adresse": "RUE HELENE DE TOURNON",
     "cp": "07300",
     "ville": "TOURNON-SUR-RHôNE",
-    "latitude": 45.055,
-    "longitude": 4.839,
+    "latitude": 45.05456,
+    "longitude": 4.83882,
     "carburants": {
       "Gazole": {
         "valeur": "2.190",
@@ -1124,16 +1176,16 @@
     "longitude": 4.16313,
     "carburants": {
       "Gazole": {
-        "valeur": "2.210",
-        "maj": "2026-11-10 06:35:21"
+        "valeur": "2.190",
+        "maj": "2026-11-11 06:29:27"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 06:35:21"
+        "maj": "2026-11-11 06:29:27"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-10 06:35:21"
+        "maj": "2026-11-11 06:29:27"
       }
     }
   },
@@ -1148,20 +1200,20 @@
     "longitude": 4.406,
     "carburants": {
       "Gazole": {
-        "valeur": "2.299",
-        "maj": "2026-10-31 23:58:00"
+        "valeur": "2.259",
+        "maj": "2026-11-10 20:30:00"
       },
       "GPLc": {
         "valeur": "1.086",
         "maj": "2026-10-07 20:30:00"
       },
       "E10": {
-        "valeur": "2.249",
-        "maj": "2026-11-06 20:30:00"
+        "valeur": "2.169",
+        "maj": "2026-11-10 20:30:00"
       },
       "SP98": {
-        "valeur": "2.309",
-        "maj": "2026-11-06 20:30:00"
+        "valeur": "2.249",
+        "maj": "2026-11-10 20:30:00"
       }
     }
   },
@@ -1252,8 +1304,8 @@
     "adresse": "76 avenue de la République",
     "cp": "07110",
     "ville": "Largentière",
-    "latitude": 44.538,
-    "longitude": 4.293,
+    "latitude": 44.53808,
+    "longitude": 4.29248,
     "carburants": {
       "Gazole": {
         "valeur": "2.189",
@@ -1288,8 +1340,8 @@
         "maj": "2026-11-09 09:12:49"
       },
       "E10": {
-        "valeur": "2.035",
-        "maj": "2026-11-09 09:12:49"
+        "valeur": "1.999",
+        "maj": "2026-11-10 11:05:00"
       }
     }
   },
@@ -1304,16 +1356,16 @@
     "longitude": 4.407,
     "carburants": {
       "Gazole": {
-        "valeur": "2.108",
-        "maj": "2026-11-09 08:19:03"
+        "valeur": "2.107",
+        "maj": "2026-11-11 06:19:52"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-09 08:19:03"
+        "maj": "2026-11-11 06:19:52"
       },
       "SP98": {
-        "valeur": "2.129",
-        "maj": "2026-11-09 08:19:03"
+        "valeur": "2.128",
+        "maj": "2026-11-11 06:19:52"
       }
     }
   },
@@ -1324,8 +1376,8 @@
     "adresse": "QUARTIER PLANZOLLES RN86",
     "cp": "07220",
     "ville": "Viviers",
-    "latitude": 44.475896399999996,
-    "longitude": 4.692095800000001,
+    "latitude": 44.47514,
+    "longitude": 4.68818,
     "carburants": {
       "Gazole": {
         "valeur": "2.189",
@@ -1402,7 +1454,20 @@
     "ville": "FéLINES",
     "latitude": 45.309,
     "longitude": 4.742,
-    "carburants": {}
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.190",
+        "maj": "2026-11-10 12:45:41"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 12:45:41"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 12:45:41"
+      }
+    }
   },
   {
     "id": "7260002",
@@ -1448,7 +1513,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.240",
-        "maj": "2026-11-03 11:36:38"
+        "maj": "2026-11-10 10:01:22"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 10:01:22"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 10:01:22"
       }
     }
   },
@@ -1598,12 +1671,16 @@
     "longitude": 4.84,
     "carburants": {
       "Gazole": {
-        "valeur": "2.210",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.170",
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -1664,34 +1741,6 @@
     }
   },
   {
-    "id": "7130006",
-    "dep": "07",
-    "enseigne": "Avia",
-    "adresse": "AVENUE GROSS UMSTADT",
-    "cp": "07130",
-    "ville": "SAINT PERAY",
-    "latitude": 44.943,
-    "longitude": 4.859,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.289",
-        "maj": "2026-11-01 08:00:00"
-      },
-      "GPLc": {
-        "valeur": "1.086",
-        "maj": "2026-10-07 20:00:00"
-      },
-      "E10": {
-        "valeur": "2.239",
-        "maj": "2026-11-06 20:00:00"
-      },
-      "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-11-06 20:00:00"
-      }
-    }
-  },
-  {
     "id": "7700003",
     "dep": "07",
     "enseigne": "Intermarché Contact",
@@ -1726,8 +1775,8 @@
     "longitude": 4.86654,
     "carburants": {
       "Gazole": {
-        "valeur": "2.067",
-        "maj": "2026-11-10 07:24:59"
+        "valeur": "2.073",
+        "maj": "2026-11-10 09:00:49"
       },
       "E85": {
         "valeur": "0.869",
@@ -1740,30 +1789,6 @@
       "SP98": {
         "valeur": "2.166",
         "maj": "2026-11-09 12:12:33"
-      }
-    }
-  },
-  {
-    "id": "7430006",
-    "dep": "07",
-    "enseigne": "Avia",
-    "adresse": "ZI LA LOMBARDIERE",
-    "cp": "07430",
-    "ville": "DAVEZIEUX",
-    "latitude": 45.25171400000001,
-    "longitude": 4.696600999999999,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.299",
-        "maj": "2026-11-01 08:00:00"
-      },
-      "E10": {
-        "valeur": "2.249",
-        "maj": "2026-11-06 20:00:00"
-      },
-      "SP98": {
-        "valeur": "2.309",
-        "maj": "2026-11-06 20:00:00"
       }
     }
   }

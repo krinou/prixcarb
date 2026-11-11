@@ -1,5 +1,29 @@
 [
   {
+    "id": "23000007",
+    "dep": "23",
+    "enseigne": "Avia",
+    "adresse": "Rue du Docteur Manouvrier",
+    "cp": "23000",
+    "ville": "GUéRET",
+    "latitude": 46.168,
+    "longitude": 1.874,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.319",
+        "maj": "2026-11-10 00:00:00"
+      },
+      "E10": {
+        "valeur": "2.139",
+        "maj": "2026-11-10 00:00:00"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-11-10 00:00:00"
+      }
+    }
+  },
+  {
     "id": "23500002",
     "dep": "23",
     "enseigne": "Intermarché",
@@ -30,8 +54,8 @@
     "adresse": "Route de Bénévent",
     "cp": "23400",
     "ville": "BOURGANEUF",
-    "latitude": 45.96,
-    "longitude": 1.76,
+    "latitude": 45.95935,
+    "longitude": 1.75997,
     "carburants": {
       "Gazole": {
         "valeur": "2.355",
@@ -58,68 +82,20 @@
     "longitude": 2.193,
     "carburants": {
       "Gazole": {
-        "valeur": "2.133",
-        "maj": "2026-11-06 14:30:44"
+        "valeur": "2.097",
+        "maj": "2026-11-10 09:25:16"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-30 08:41:45"
       },
       "E10": {
-        "valeur": "1.999",
-        "maj": "2026-11-06 14:31:04"
+        "valeur": "1.966",
+        "maj": "2026-11-10 09:25:32"
       },
       "SP98": {
-        "valeur": "2.139",
-        "maj": "2026-11-06 14:31:22"
-      }
-    }
-  },
-  {
-    "id": "23600001",
-    "dep": "23",
-    "enseigne": "Carrefour Market",
-    "adresse": "avenue de bourbonnais",
-    "cp": "23600",
-    "ville": "BOUSSAC",
-    "latitude": 46.35,
-    "longitude": 2.215,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.249",
-        "maj": "2026-11-05 08:29:45"
-      },
-      "E10": {
-        "valeur": "2.099",
-        "maj": "2026-11-03 11:00:14"
-      },
-      "SP98": {
-        "valeur": "2.209",
-        "maj": "2026-11-03 11:00:14"
-      }
-    }
-  },
-  {
-    "id": "23230001",
-    "dep": "23",
-    "enseigne": "Carrefour Market",
-    "adresse": "Avenue du Berry",
-    "cp": "23230",
-    "ville": "GOUZON",
-    "latitude": 46.19516,
-    "longitude": 2.23891,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.219",
-        "maj": "2026-11-06 09:00:00"
-      },
-      "SP95": {
-        "valeur": "2.059",
-        "maj": "2026-11-06 09:00:00"
-      },
-      "SP98": {
-        "valeur": "2.130",
-        "maj": "2026-11-06 09:00:00"
+        "valeur": "2.061",
+        "maj": "2026-11-10 09:26:00"
       }
     }
   },
@@ -162,8 +138,28 @@
     "longitude": 1.38583,
     "carburants": {
       "Gazole": {
-        "valeur": "2.434",
-        "maj": "2026-11-10 00:00:00"
+        "valeur": "2.388",
+        "maj": "2026-11-11 00:00:00"
+      }
+    }
+  },
+  {
+    "id": "23210003",
+    "dep": "23",
+    "enseigne": "Carrefour Contact",
+    "adresse": "4 avenue du limousin",
+    "cp": "23210",
+    "ville": "Bénévent l Abbaye",
+    "latitude": 46.1163,
+    "longitude": 1.62382,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.259",
+        "maj": "2026-11-06 11:18:00"
+      },
+      "SP95": {
+        "valeur": "2.069",
+        "maj": "2026-11-06 11:18:00"
       }
     }
   },
@@ -174,8 +170,8 @@
     "adresse": "7 ROUTE D'AUBUSSON",
     "cp": "23130",
     "ville": "CHENERAILLES",
-    "latitude": 46.108378471703,
-    "longitude": 2.178214427131,
+    "latitude": 46.10835,
+    "longitude": 2.17823,
     "carburants": {
       "Gazole": {
         "valeur": "2.299",
@@ -192,46 +188,74 @@
     }
   },
   {
-    "id": "23210003",
-    "dep": "23",
-    "enseigne": "Carrefour Contact",
-    "adresse": "4 avenue du limousin",
-    "cp": "23210",
-    "ville": "Bénévent l Abbaye",
-    "latitude": 46.116,
-    "longitude": 1.624,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.259",
-        "maj": "2026-11-06 11:18:00"
-      },
-      "SP95": {
-        "valeur": "2.069",
-        "maj": "2026-11-06 11:18:00"
-      }
-    }
-  },
-  {
     "id": "23200001",
     "dep": "23",
     "enseigne": "Carrefour Market",
     "adresse": "La Rebeyrette",
     "cp": "23200",
     "ville": "AUBUSSON",
-    "latitude": 45.948,
-    "longitude": 2.172,
+    "latitude": 45.94932,
+    "longitude": 2.17279,
     "carburants": {
       "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-07 16:07:19"
+        "valeur": "2.097",
+        "maj": "2026-11-10 12:34:59"
       },
       "E10": {
-        "valeur": "2.068",
-        "maj": "2026-11-05 15:11:39"
+        "valeur": "1.966",
+        "maj": "2026-11-10 12:34:59"
       },
       "SP98": {
         "valeur": "2.179",
-        "maj": "2026-11-05 15:11:39"
+        "maj": "2026-11-10 12:35:00"
+      }
+    }
+  },
+  {
+    "id": "23230001",
+    "dep": "23",
+    "enseigne": "Carrefour Market",
+    "adresse": "Avenue du Berry",
+    "cp": "23230",
+    "ville": "GOUZON",
+    "latitude": 46.19706,
+    "longitude": 2.23854,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.219",
+        "maj": "2026-11-06 09:00:00"
+      },
+      "SP95": {
+        "valeur": "2.059",
+        "maj": "2026-11-06 09:00:00"
+      },
+      "SP98": {
+        "valeur": "2.130",
+        "maj": "2026-11-06 09:00:00"
+      }
+    }
+  },
+  {
+    "id": "23600001",
+    "dep": "23",
+    "enseigne": "Carrefour Market",
+    "adresse": "avenue de bourbonnais",
+    "cp": "23600",
+    "ville": "BOUSSAC",
+    "latitude": 46.35285,
+    "longitude": 2.21507,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.249",
+        "maj": "2026-11-05 08:29:45"
+      },
+      "E10": {
+        "valeur": "2.099",
+        "maj": "2026-11-03 11:00:14"
+      },
+      "SP98": {
+        "valeur": "2.209",
+        "maj": "2026-11-03 11:00:14"
       }
     }
   },
@@ -246,8 +270,8 @@
     "longitude": 1.4792175194644,
     "carburants": {
       "Gazole": {
-        "valeur": "2.119",
-        "maj": "2026-11-10 05:51:56"
+        "valeur": "2.109",
+        "maj": "2026-11-10 09:29:42"
       },
       "SP95": {
         "valeur": "2.029",
@@ -258,36 +282,8 @@
         "maj": "2026-11-06 06:15:44"
       },
       "E10": {
-        "valeur": "1.979",
-        "maj": "2026-11-10 05:51:56"
-      }
-    }
-  },
-  {
-    "id": "23000001",
-    "dep": "23",
-    "enseigne": "Carrefour",
-    "adresse": "46 Avenue d'Auvergne",
-    "cp": "23000",
-    "ville": "Guéret",
-    "latitude": 46.168,
-    "longitude": 1.888,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 10:55:59"
-      },
-      "SP95": {
-        "valeur": "2.116",
-        "maj": "2026-11-06 10:56:00"
-      },
-      "E10": {
-        "valeur": "2.029",
-        "maj": "2026-11-06 10:56:00"
-      },
-      "SP98": {
-        "valeur": "2.220",
-        "maj": "2026-11-02 15:50:19"
+        "valeur": "1.969",
+        "maj": "2026-11-10 09:29:43"
       }
     }
   },
@@ -506,20 +502,20 @@
     "longitude": 2.18365471322,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.210",
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
-        "valeur": "0.909",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.905",
+        "maj": "2026-11-11 00:01:00"
       },
       "GPLc": {
         "valeur": "1.089",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -534,12 +530,40 @@
     "longitude": 1.4841663868651,
     "carburants": {
       "Gazole": {
-        "valeur": "2.467",
-        "maj": "2026-10-28 09:54:42"
+        "valeur": "2.279",
+        "maj": "2026-11-10 12:14:24"
       },
       "E10": {
         "valeur": "2.118",
         "maj": "2026-11-02 12:03:13"
+      }
+    }
+  },
+  {
+    "id": "23000001",
+    "dep": "23",
+    "enseigne": "Carrefour",
+    "adresse": "46 Avenue d'Auvergne",
+    "cp": "23000",
+    "ville": "Guéret",
+    "latitude": 46.16773,
+    "longitude": 1.88781,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.199",
+        "maj": "2026-11-06 10:55:59"
+      },
+      "SP95": {
+        "valeur": "2.116",
+        "maj": "2026-11-06 10:56:00"
+      },
+      "E10": {
+        "valeur": "2.029",
+        "maj": "2026-11-06 10:56:00"
+      },
+      "SP98": {
+        "valeur": "2.220",
+        "maj": "2026-11-02 15:50:19"
       }
     }
   },
@@ -610,12 +634,12 @@
     "longitude": 2.43,
     "carburants": {
       "Gazole": {
-        "valeur": "2.169",
-        "maj": "2026-11-06 10:11:18"
+        "valeur": "2.116",
+        "maj": "2026-11-10 09:09:17"
       },
       "E10": {
-        "valeur": "2.069",
-        "maj": "2026-11-06 10:11:18"
+        "valeur": "2.059",
+        "maj": "2026-11-10 09:09:17"
       },
       "SP98": {
         "valeur": "2.169",
@@ -654,8 +678,8 @@
     "longitude": 1.8979191984533998,
     "carburants": {
       "Gazole": {
-        "valeur": "2.099",
-        "maj": "2026-11-09 09:19:59"
+        "valeur": "2.097",
+        "maj": "2026-11-10 09:12:15"
       },
       "E85": {
         "valeur": "0.869",
@@ -666,8 +690,8 @@
         "maj": "2026-10-15 10:04:37"
       },
       "E10": {
-        "valeur": "1.959",
-        "maj": "2026-11-07 08:51:38"
+        "valeur": "1.957",
+        "maj": "2026-11-10 09:12:15"
       }
     }
   },
@@ -796,30 +820,6 @@
       "SP98": {
         "valeur": "2.168",
         "maj": "2026-11-06 21:23:16"
-      }
-    }
-  },
-  {
-    "id": "23000007",
-    "dep": "23",
-    "enseigne": "Avia",
-    "adresse": "Rue du Docteur Manouvrier",
-    "cp": "23000",
-    "ville": "GUéRET",
-    "latitude": 46.168,
-    "longitude": 1.874,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.319",
-        "maj": "2026-11-10 00:00:00"
-      },
-      "E10": {
-        "valeur": "2.139",
-        "maj": "2026-11-10 00:00:00"
-      },
-      "SP98": {
-        "valeur": "2.219",
-        "maj": "2026-11-10 00:00:00"
       }
     }
   }

@@ -6,8 +6,8 @@
     "adresse": "Rue Joliot Curie",
     "cp": "80570",
     "ville": "Dargnies",
-    "latitude": 50.04475,
-    "longitude": 1.52562,
+    "latitude": 50.04553,
+    "longitude": 1.52668,
     "carburants": {
       "Gazole": {
         "valeur": "2.255",
@@ -83,15 +83,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.246",
-        "maj": "2026-11-10 06:50:00"
+        "maj": "2026-11-11 06:51:00"
       },
       "E10": {
-        "valeur": "1.925",
-        "maj": "2026-11-10 06:50:00"
+        "valeur": "1.929",
+        "maj": "2026-11-11 06:51:00"
       },
       "SP98": {
-        "valeur": "2.025",
-        "maj": "2026-11-10 06:50:00"
+        "valeur": "2.029",
+        "maj": "2026-11-11 06:51:00"
       }
     }
   },
@@ -107,11 +107,63 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-07 07:06:04"
+        "maj": "2026-11-10 13:17:01"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-07 07:06:04"
+        "maj": "2026-11-10 13:17:01"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 13:17:01"
+      }
+    }
+  },
+  {
+    "id": "80260001",
+    "dep": "80",
+    "enseigne": "Carrefour Market",
+    "adresse": "Rue du Château d'Eau",
+    "cp": "80260",
+    "ville": "Villers-Bocage",
+    "latitude": 50.00355,
+    "longitude": 2.31377,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.119",
+        "maj": "2026-11-11 08:01:05"
+      },
+      "E10": {
+        "valeur": "1.970",
+        "maj": "2026-11-11 08:01:05"
+      },
+      "SP98": {
+        "valeur": "2.065",
+        "maj": "2026-11-11 08:01:05"
+      }
+    }
+  },
+  {
+    "id": "80270001",
+    "dep": "80",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route d'Abbeville",
+    "cp": "80270",
+    "ville": "Airaines",
+    "latitude": 49.97839,
+    "longitude": 1.93838,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.135",
+        "maj": "2026-11-10 18:38:34"
+      },
+      "E10": {
+        "valeur": "2.069",
+        "maj": "2026-11-10 18:38:34"
+      },
+      "SP98": {
+        "valeur": "2.199",
+        "maj": "2026-11-10 18:38:34"
       }
     }
   },
@@ -126,20 +178,20 @@
     "longitude": 2.067,
     "carburants": {
       "Gazole": {
-        "valeur": "2.089",
-        "maj": "2026-11-06 10:13:06"
+        "valeur": "2.099",
+        "maj": "2026-11-10 09:16:29"
       },
       "GPLc": {
         "valeur": "1.080",
         "maj": "2026-10-27 08:40:09"
       },
       "E10": {
-        "valeur": "1.969",
-        "maj": "2026-11-06 10:13:07"
+        "valeur": "1.976",
+        "maj": "2026-11-10 09:16:29"
       },
       "SP98": {
-        "valeur": "1.999",
-        "maj": "2026-11-06 10:13:07"
+        "valeur": "2.049",
+        "maj": "2026-11-10 09:16:30"
       }
     }
   },
@@ -154,12 +206,12 @@
     "longitude": 2.766,
     "carburants": {
       "Gazole": {
-        "valeur": "2.279",
-        "maj": "2026-11-09 13:37:55"
+        "valeur": "2.269",
+        "maj": "2026-11-10 13:36:25"
       },
       "SP98": {
-        "valeur": "2.239",
-        "maj": "2026-11-09 13:37:56"
+        "valeur": "2.219",
+        "maj": "2026-11-10 09:53:40"
       }
     }
   },
@@ -203,11 +255,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-09 15:49:15"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-09 15:49:15"
+        "maj": "2026-11-10 11:58:34"
       }
     }
   },
@@ -222,8 +270,8 @@
     "longitude": 1.657,
     "carburants": {
       "Gazole": {
-        "valeur": "2.389",
-        "maj": "2026-11-09 13:36:24"
+        "valeur": "2.379",
+        "maj": "2026-11-10 12:51:06"
       },
       "GPLc": {
         "valeur": "1.259",
@@ -240,26 +288,62 @@
     }
   },
   {
-    "id": "80460003",
+    "id": "80440003",
     "dep": "80",
-    "enseigne": "Carrefour Contact",
-    "adresse": "Avenue du Général Leclerc",
-    "cp": "80460",
-    "ville": "AULT",
-    "latitude": 50.09824,
-    "longitude": 1.4559,
+    "enseigne": "Intermarché",
+    "adresse": "C.C Grand A Route de saint Quentin",
+    "cp": "80440",
+    "ville": "Glisy",
+    "latitude": 49.865,
+    "longitude": 2.377,
     "carburants": {
       "Gazole": {
-        "valeur": "2.090",
-        "maj": "2026-11-09 17:28:46"
+        "valeur": "2.089",
+        "maj": "2026-11-10 16:13:49"
       },
-      "SP95": {
-        "valeur": "2.100",
-        "maj": "2026-11-09 17:28:46"
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-10-30 10:10:33"
+      },
+      "GPLc": {
+        "valeur": "0.999",
+        "maj": "2026-10-13 16:36:36"
+      },
+      "E10": {
+        "valeur": "1.959",
+        "maj": "2026-11-10 16:13:49"
       },
       "SP98": {
-        "valeur": "2.130",
-        "maj": "2026-11-09 17:28:47"
+        "valeur": "2.099",
+        "maj": "2026-11-05 11:20:58"
+      }
+    }
+  },
+  {
+    "id": "80290008",
+    "dep": "80",
+    "enseigne": "Esso Express",
+    "adresse": "A29 Aire de CROIXRAULT",
+    "cp": "80290",
+    "ville": "CROIXRAULT",
+    "latitude": 49.808,
+    "longitude": 1.968,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.133",
+        "maj": "2026-11-11 07:32:00"
+      },
+      "E85": {
+        "valeur": "0.971",
+        "maj": "2026-11-11 07:32:00"
+      },
+      "E10": {
+        "valeur": "2.060",
+        "maj": "2026-11-11 07:32:00"
+      },
+      "SP98": {
+        "valeur": "2.141",
+        "maj": "2026-11-11 07:32:00"
       }
     }
   },
@@ -270,8 +354,8 @@
     "adresse": "CARREFOUR AMIENS Route de Doullens",
     "cp": "80080",
     "ville": "AMIENS",
-    "latitude": 49.922,
-    "longitude": 2.304,
+    "latitude": 49.9221,
+    "longitude": 2.30398,
     "carburants": {
       "Gazole": {
         "valeur": "2.255",
@@ -292,62 +376,26 @@
     }
   },
   {
-    "id": "80440003",
+    "id": "80100012",
     "dep": "80",
-    "enseigne": "Intermarché",
-    "adresse": "C.C Grand A Route de saint Quentin",
-    "cp": "80440",
-    "ville": "Glisy",
-    "latitude": 49.865,
-    "longitude": 2.377,
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "1 Rue Philippe Duclercq",
+    "cp": "80100",
+    "ville": "Abbeville",
+    "latitude": 50.128,
+    "longitude": 1.833,
     "carburants": {
       "Gazole": {
-        "valeur": "2.083",
-        "maj": "2026-11-09 11:20:56"
+        "valeur": "2.129",
+        "maj": "2026-11-10 09:18:48"
       },
       "E85": {
-        "valeur": "0.869",
-        "maj": "2026-10-30 10:10:33"
-      },
-      "GPLc": {
-        "valeur": "0.999",
-        "maj": "2026-10-13 16:36:36"
+        "valeur": "0.929",
+        "maj": "2026-11-10 09:18:49"
       },
       "E10": {
-        "valeur": "1.949",
-        "maj": "2026-11-09 11:20:56"
-      },
-      "SP98": {
-        "valeur": "2.099",
-        "maj": "2026-11-05 11:20:58"
-      }
-    }
-  },
-  {
-    "id": "80290008",
-    "dep": "80",
-    "enseigne": "Esso Express",
-    "adresse": "A29 Aire de CROIXRAULT",
-    "cp": "80290",
-    "ville": "CROIXRAULT",
-    "latitude": 49.808,
-    "longitude": 1.968,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.142",
-        "maj": "2026-11-10 07:31:00"
-      },
-      "E85": {
-        "valeur": "0.971",
-        "maj": "2026-11-10 07:31:00"
-      },
-      "E10": {
-        "valeur": "2.060",
-        "maj": "2026-11-10 07:31:00"
-      },
-      "SP98": {
-        "valeur": "2.141",
-        "maj": "2026-11-10 07:31:00"
+        "valeur": "1.961",
+        "maj": "2026-11-10 09:18:49"
       }
     }
   },
@@ -362,44 +410,20 @@
     "longitude": 2.341,
     "carburants": {
       "Gazole": {
-        "valeur": "2.169",
-        "maj": "2026-11-06 10:03:11"
+        "valeur": "2.089",
+        "maj": "2026-11-10 09:40:32"
       },
       "E85": {
         "valeur": "0.869",
-        "maj": "2026-11-06 10:03:11"
+        "maj": "2026-11-10 09:40:32"
       },
       "E10": {
-        "valeur": "2.059",
-        "maj": "2026-11-06 10:03:11"
+        "valeur": "1.959",
+        "maj": "2026-11-10 09:40:32"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-06 10:03:11"
-      }
-    }
-  },
-  {
-    "id": "80100012",
-    "dep": "80",
-    "enseigne": "Indépendant sans enseigne",
-    "adresse": "1 Rue Philippe Duclercq",
-    "cp": "80100",
-    "ville": "Abbeville",
-    "latitude": 50.128,
-    "longitude": 1.833,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.132",
-        "maj": "2026-11-09 08:49:31"
-      },
-      "E85": {
-        "valeur": "0.929",
-        "maj": "2026-11-09 08:49:32"
-      },
-      "E10": {
-        "valeur": "1.962",
-        "maj": "2026-11-09 08:49:32"
+        "valeur": "2.099",
+        "maj": "2026-11-10 09:40:32"
       }
     }
   },
@@ -546,8 +570,8 @@
     "adresse": "3 rue Castel",
     "cp": "80340",
     "ville": "Bray-sur-Somme",
-    "latitude": 49.9396975,
-    "longitude": 2.7176620000000002,
+    "latitude": 49.93827,
+    "longitude": 2.7182,
     "carburants": {
       "Gazole": {
         "valeur": "2.169",
@@ -585,20 +609,20 @@
     "longitude": 2.287,
     "carburants": {
       "Gazole": {
-        "valeur": "2.309",
-        "maj": "2026-11-09 13:36:11"
+        "valeur": "2.299",
+        "maj": "2026-11-10 13:37:23"
       },
       "E85": {
         "valeur": "0.909",
         "maj": "2026-10-30 13:36:03"
       },
       "E10": {
-        "valeur": "2.159",
-        "maj": "2026-11-09 13:36:11"
+        "valeur": "2.139",
+        "maj": "2026-11-10 09:47:43"
       },
       "SP98": {
-        "valeur": "2.339",
-        "maj": "2026-11-09 13:36:10"
+        "valeur": "2.319",
+        "maj": "2026-11-10 09:47:43"
       }
     }
   },
@@ -613,16 +637,16 @@
     "longitude": 2.313,
     "carburants": {
       "Gazole": {
-        "valeur": "2.269",
-        "maj": "2026-11-09 13:36:33"
+        "valeur": "2.259",
+        "maj": "2026-11-10 12:53:15"
       },
       "E10": {
-        "valeur": "2.149",
-        "maj": "2026-11-09 13:36:32"
+        "valeur": "2.129",
+        "maj": "2026-11-10 09:51:09"
       },
       "SP98": {
-        "valeur": "2.329",
-        "maj": "2026-11-09 13:36:33"
+        "valeur": "2.309",
+        "maj": "2026-11-10 09:51:08"
       }
     }
   },
@@ -675,30 +699,6 @@
     }
   },
   {
-    "id": "80120003",
-    "dep": "80",
-    "enseigne": "Carrefour Market",
-    "adresse": "Rue du Moulin",
-    "cp": "80120",
-    "ville": "RUE",
-    "latitude": 50.273461,
-    "longitude": 1.66324377,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-05 08:36:24"
-      },
-      "E10": {
-        "valeur": "1.984",
-        "maj": "2026-11-05 08:36:24"
-      },
-      "SP98": {
-        "valeur": "2.069",
-        "maj": "2026-11-05 08:36:24"
-      }
-    }
-  },
-  {
     "id": "80470001",
     "dep": "80",
     "enseigne": "Esso",
@@ -741,8 +741,8 @@
         "maj": "2026-10-08 08:03:30"
       },
       "E10": {
-        "valeur": "1.999",
-        "maj": "2026-11-06 10:54:06"
+        "valeur": "1.979",
+        "maj": "2026-11-10 08:53:13"
       },
       "SP98": {
         "valeur": "2.099",
@@ -757,8 +757,8 @@
     "adresse": "rue des pommiers",
     "cp": "80120",
     "ville": "QUEND",
-    "latitude": 50.331,
-    "longitude": 1.589,
+    "latitude": 50.33097,
+    "longitude": 1.58914,
     "carburants": {
       "Gazole": {
         "valeur": "2.152",
@@ -775,6 +775,78 @@
     }
   },
   {
+    "id": "80240001",
+    "dep": "80",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Rue du Nouveau Monde",
+    "cp": "80240",
+    "ville": "ROISEL",
+    "latitude": 49.94818,
+    "longitude": 3.10779,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.249",
+        "maj": "2026-11-03 10:36:21"
+      },
+      "SP95": {
+        "valeur": "2.169",
+        "maj": "2026-11-03 10:36:21"
+      },
+      "SP98": {
+        "valeur": "2.219",
+        "maj": "2026-11-03 10:36:21"
+      }
+    }
+  },
+  {
+    "id": "80410005",
+    "dep": "80",
+    "enseigne": "Carrefour Contact",
+    "adresse": "184 rue du maréchal foch",
+    "cp": "80410",
+    "ville": "Cayeux-sur-mer",
+    "latitude": 50.18178,
+    "longitude": 1.49443,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.229",
+        "maj": "2026-11-04 09:18:31"
+      },
+      "SP95": {
+        "valeur": "2.099",
+        "maj": "2026-11-04 09:18:31"
+      },
+      "SP98": {
+        "valeur": "2.199",
+        "maj": "2026-11-04 09:18:32"
+      }
+    }
+  },
+  {
+    "id": "80460003",
+    "dep": "80",
+    "enseigne": "Carrefour Contact",
+    "adresse": "Avenue du Général Leclerc",
+    "cp": "80460",
+    "ville": "AULT",
+    "latitude": 50.09574,
+    "longitude": 1.46088,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.090",
+        "maj": "2026-11-09 17:28:46"
+      },
+      "SP95": {
+        "valeur": "2.100",
+        "maj": "2026-11-09 17:28:46"
+      },
+      "SP98": {
+        "valeur": "2.130",
+        "maj": "2026-11-09 17:28:47"
+      }
+    }
+  },
+  {
     "id": "80330004",
     "dep": "80",
     "enseigne": "TotalEnergies",
@@ -785,16 +857,12 @@
     "longitude": 2.368,
     "carburants": {
       "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-10 07:05:12"
+        "valeur": "2.170",
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 07:05:12"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 07:05:12"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -809,16 +877,16 @@
     "longitude": 2.933,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-09 10:42:26"
+        "valeur": "2.210",
+        "maj": "2026-11-11 07:15:39"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-09 10:42:26"
+        "maj": "2026-11-11 07:15:39"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-09 10:42:26"
+        "maj": "2026-11-11 07:15:40"
       }
     }
   },
@@ -851,30 +919,6 @@
     }
   },
   {
-    "id": "80600002",
-    "dep": "80",
-    "enseigne": "Supermarché Match",
-    "adresse": "Rue du Pont des 9 Moulins",
-    "cp": "80600",
-    "ville": "Doullens",
-    "latitude": 50.16005,
-    "longitude": 2.34759,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.208",
-        "maj": "2026-11-03 13:01:37"
-      },
-      "E10": {
-        "valeur": "2.050",
-        "maj": "2026-11-04 10:47:55"
-      },
-      "SP98": {
-        "valeur": "2.275",
-        "maj": "2026-11-01 10:06:24"
-      }
-    }
-  },
-  {
     "id": "80690001",
     "dep": "80",
     "enseigne": "Elan",
@@ -895,38 +939,14 @@
     }
   },
   {
-    "id": "80240001",
-    "dep": "80",
-    "enseigne": "Carrefour Contact",
-    "adresse": "Rue du Nouveau Monde",
-    "cp": "80240",
-    "ville": "ROISEL",
-    "latitude": 49.948,
-    "longitude": 3.108,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.249",
-        "maj": "2026-11-03 10:36:21"
-      },
-      "SP95": {
-        "valeur": "2.169",
-        "maj": "2026-11-03 10:36:21"
-      },
-      "SP98": {
-        "valeur": "2.219",
-        "maj": "2026-11-03 10:36:21"
-      }
-    }
-  },
-  {
     "id": "80100003",
     "dep": "80",
     "enseigne": "Carrefour Contact",
     "adresse": "1 RUE DE LA MAIRIE",
     "cp": "80860",
     "ville": "NOUVION",
-    "latitude": 50.2117728505,
-    "longitude": 1.77888380782,
+    "latitude": 50.21149,
+    "longitude": 1.77895,
     "carburants": {
       "Gazole": {
         "valeur": "2.229",
@@ -952,50 +972,6 @@
     "latitude": 49.96,
     "longitude": 1.766,
     "carburants": {}
-  },
-  {
-    "id": "80110002",
-    "dep": "80",
-    "enseigne": "Carrefour Market",
-    "adresse": "Route de Thennes",
-    "cp": "80110",
-    "ville": "MOREUIL",
-    "latitude": 49.788,
-    "longitude": 2.469,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.169",
-        "maj": "2026-11-04 16:49:37"
-      },
-      "SP98": {
-        "valeur": "2.149",
-        "maj": "2026-11-07 08:26:05"
-      }
-    }
-  },
-  {
-    "id": "80270001",
-    "dep": "80",
-    "enseigne": "Carrefour Market",
-    "adresse": "Route d'Abbeville",
-    "cp": "80270",
-    "ville": "Airaines",
-    "latitude": 49.974,
-    "longitude": 1.941,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.239",
-        "maj": "2026-11-03 14:17:51"
-      },
-      "E10": {
-        "valeur": "2.063",
-        "maj": "2026-11-03 14:17:52"
-      },
-      "SP98": {
-        "valeur": "2.157",
-        "maj": "2026-11-03 14:17:52"
-      }
-    }
   },
   {
     "id": "80300001",
@@ -1065,59 +1041,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.150",
-        "maj": "2026-11-07 08:22:26"
+        "maj": "2026-11-10 09:43:44"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-05 08:26:54"
-      }
-    }
-  },
-  {
-    "id": "80100001",
-    "dep": "80",
-    "enseigne": "Carrefour Market",
-    "adresse": "RUE DES CORDELIERS",
-    "cp": "80100",
-    "ville": "ABBEVILLE",
-    "latitude": 50.104,
-    "longitude": 1.828,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-06 09:41:16"
-      },
-      "E10": {
-        "valeur": "2.065",
-        "maj": "2026-11-06 09:41:17"
+        "maj": "2026-11-10 09:43:44"
       },
       "SP98": {
-        "valeur": "2.159",
-        "maj": "2026-11-06 09:41:17"
-      }
-    }
-  },
-  {
-    "id": "80260001",
-    "dep": "80",
-    "enseigne": "Carrefour Market",
-    "adresse": "Rue du Château d'Eau",
-    "cp": "80260",
-    "ville": "Villers-Bocage",
-    "latitude": 50.001,
-    "longitude": 2.316,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.081",
-        "maj": "2026-11-09 11:10:44"
-      },
-      "E10": {
-        "valeur": "1.920",
-        "maj": "2026-11-09 11:10:44"
-      },
-      "SP98": {
-        "valeur": "2.015",
-        "maj": "2026-11-09 11:10:44"
+        "valeur": "1.990",
+        "maj": "2026-11-10 09:43:44"
       }
     }
   },
@@ -1186,28 +1118,7 @@
     "ville": "MONTDIDIER",
     "latitude": 49.64844,
     "longitude": 2.58299,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.139",
-        "maj": "2026-11-07 08:10:17"
-      },
-      "E85": {
-        "valeur": "0.879",
-        "maj": "2026-09-25 08:05:28"
-      },
-      "GPLc": {
-        "valeur": "1.019",
-        "maj": "2026-08-17 10:20:16"
-      },
-      "E10": {
-        "valeur": "1.989",
-        "maj": "2026-11-06 08:18:19"
-      },
-      "SP98": {
-        "valeur": "2.139",
-        "maj": "2026-11-06 08:12:36"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "80300006",
@@ -1220,16 +1131,12 @@
     "longitude": 2.666,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.210",
+        "maj": "2026-11-11 00:01:00"
       },
       "GPLc": {
-        "valeur": "1.071",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "1.052",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -1276,16 +1183,8 @@
     "longitude": 2.292,
     "carburants": {
       "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.170",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -1301,19 +1200,19 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.223",
-        "maj": "2026-11-10 07:31:00"
+        "maj": "2026-11-10 11:10:00"
       },
       "E85": {
         "valeur": "0.947",
-        "maj": "2026-11-10 07:31:00"
+        "maj": "2026-11-10 11:10:00"
       },
       "E10": {
-        "valeur": "2.008",
-        "maj": "2026-11-10 07:31:00"
+        "valeur": "1.988",
+        "maj": "2026-11-10 11:10:00"
       },
       "SP98": {
-        "valeur": "2.108",
-        "maj": "2026-11-10 07:31:00"
+        "valeur": "2.088",
+        "maj": "2026-11-10 11:10:00"
       }
     }
   },
@@ -1385,6 +1284,126 @@
     "carburants": {}
   },
   {
+    "id": "80100001",
+    "dep": "80",
+    "enseigne": "Carrefour Market",
+    "adresse": "RUE DES CORDELIERS",
+    "cp": "80100",
+    "ville": "ABBEVILLE",
+    "latitude": 50.10353,
+    "longitude": 1.82733,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.190",
+        "maj": "2026-11-06 09:41:16"
+      },
+      "E10": {
+        "valeur": "2.065",
+        "maj": "2026-11-06 09:41:17"
+      },
+      "SP98": {
+        "valeur": "2.159",
+        "maj": "2026-11-06 09:41:17"
+      }
+    }
+  },
+  {
+    "id": "80110002",
+    "dep": "80",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route de Thennes",
+    "cp": "80110",
+    "ville": "MOREUIL",
+    "latitude": 49.79053,
+    "longitude": 2.46943,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.093",
+        "maj": "2026-11-10 09:36:01"
+      },
+      "E10": {
+        "valeur": "1.989",
+        "maj": "2026-11-10 09:36:40"
+      },
+      "SP98": {
+        "valeur": "2.129",
+        "maj": "2026-11-10 09:36:02"
+      }
+    }
+  },
+  {
+    "id": "80120003",
+    "dep": "80",
+    "enseigne": "Carrefour Market",
+    "adresse": "Rue du Moulin",
+    "cp": "80120",
+    "ville": "RUE",
+    "latitude": 50.27539,
+    "longitude": 1.66055,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.190",
+        "maj": "2026-11-05 08:36:24"
+      },
+      "E10": {
+        "valeur": "1.984",
+        "maj": "2026-11-05 08:36:24"
+      },
+      "SP98": {
+        "valeur": "2.069",
+        "maj": "2026-11-05 08:36:24"
+      }
+    }
+  },
+  {
+    "id": "80290001",
+    "dep": "80",
+    "enseigne": "Carrefour Market",
+    "adresse": "RUE DU CAPITAINE FAY",
+    "cp": "80290",
+    "ville": "POIX-DE-PICARDIE",
+    "latitude": 49.77578,
+    "longitude": 1.97897,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.422",
+        "maj": "2026-10-30 10:52:57"
+      },
+      "E10": {
+        "valeur": "2.105",
+        "maj": "2026-09-30 10:32:45"
+      },
+      "SP98": {
+        "valeur": "2.205",
+        "maj": "2026-09-30 10:32:45"
+      }
+    }
+  },
+  {
+    "id": "80400005",
+    "dep": "80",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route de chauny",
+    "cp": "80400",
+    "ville": "HAM",
+    "latitude": 49.74205,
+    "longitude": 3.09178,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.222",
+        "maj": "2026-11-05 08:32:02"
+      },
+      "E10": {
+        "valeur": "2.051",
+        "maj": "2026-11-05 08:32:02"
+      },
+      "SP98": {
+        "valeur": "2.123",
+        "maj": "2026-11-05 08:32:02"
+      }
+    }
+  },
+  {
     "id": "80200005",
     "dep": "80",
     "enseigne": "Esso",
@@ -1395,20 +1414,20 @@
     "longitude": 2.837,
     "carburants": {
       "Gazole": {
-        "valeur": "2.413",
-        "maj": "2026-11-06 11:21:00"
+        "valeur": "2.403",
+        "maj": "2026-11-10 11:11:00"
       },
       "GPLc": {
-        "valeur": "1.113",
-        "maj": "2026-11-06 11:21:00"
+        "valeur": "1.117",
+        "maj": "2026-11-10 11:11:00"
       },
       "E10": {
-        "valeur": "2.228",
-        "maj": "2026-11-06 11:21:00"
+        "valeur": "2.200",
+        "maj": "2026-11-10 11:11:00"
       },
       "SP98": {
-        "valeur": "2.328",
-        "maj": "2026-11-06 11:21:00"
+        "valeur": "2.300",
+        "maj": "2026-11-10 11:11:00"
       }
     }
   },
@@ -1423,15 +1442,11 @@
     "longitude": 2.2775469819,
     "carburants": {
       "Gazole": {
-        "valeur": "2.084",
-        "maj": "2026-11-06 09:05:35"
+        "valeur": "2.090",
+        "maj": "2026-11-10 09:26:44"
       },
       "E85": {
         "valeur": "0.869",
-        "maj": "2026-11-06 09:05:36"
-      },
-      "GPLc": {
-        "valeur": "0.999",
         "maj": "2026-11-06 09:05:36"
       },
       "E10": {
@@ -1451,8 +1466,8 @@
     "adresse": "HAMEAU DE PINCHEFALISE",
     "cp": "80230",
     "ville": "Boismont",
-    "latitude": 50.172,
-    "longitude": 1.649,
+    "latitude": 50.17177,
+    "longitude": 1.64908,
     "carburants": {
       "Gazole": {
         "valeur": "2.090",
@@ -1475,8 +1490,8 @@
     "adresse": "Rue Henri Dunant",
     "cp": "80160",
     "ville": "Conty",
-    "latitude": 49.73859,
-    "longitude": 2.15396,
+    "latitude": 49.73854,
+    "longitude": 2.15426,
     "carburants": {
       "Gazole": {
         "valeur": "2.269",
@@ -1559,8 +1574,8 @@
     "adresse": "26 AVENUE DE LA LIBERATION",
     "cp": "80430",
     "ville": "BEAUCAMPS-LE-VIEUX",
-    "latitude": 49.842,
-    "longitude": 1.778,
+    "latitude": 49.84225,
+    "longitude": 1.77815,
     "carburants": {
       "Gazole": {
         "valeur": "2.129",
@@ -1587,20 +1602,20 @@
     "longitude": 1.755,
     "carburants": {
       "Gazole": {
-        "valeur": "2.465",
-        "maj": "2026-11-09 13:00:00"
+        "valeur": "2.436",
+        "maj": "2026-11-10 09:30:00"
       },
       "GPLc": {
         "valeur": "1.177",
-        "maj": "2026-11-09 13:00:00"
+        "maj": "2026-11-10 09:30:00"
       },
       "E10": {
-        "valeur": "2.327",
-        "maj": "2026-11-09 13:00:00"
+        "valeur": "2.325",
+        "maj": "2026-11-10 09:30:00"
       },
       "SP98": {
-        "valeur": "2.477",
-        "maj": "2026-11-09 13:00:00"
+        "valeur": "2.475",
+        "maj": "2026-11-10 09:30:00"
       }
     }
   },
@@ -1615,8 +1630,8 @@
     "longitude": 2.718,
     "carburants": {
       "Gazole": {
-        "valeur": "2.270",
-        "maj": "2026-11-05 14:55:27"
+        "valeur": "2.170",
+        "maj": "2026-11-10 14:46:31"
       }
     }
   },
@@ -1631,20 +1646,20 @@
     "longitude": 2.712,
     "carburants": {
       "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-11-05 12:29:52"
+        "valeur": "2.078",
+        "maj": "2026-11-10 14:58:47"
       },
       "E85": {
         "valeur": "0.869",
-        "maj": "2026-10-28 14:26:47"
+        "maj": "2026-11-10 14:58:47"
       },
       "E10": {
-        "valeur": "1.963",
-        "maj": "2026-11-05 12:29:52"
+        "valeur": "1.952",
+        "maj": "2026-11-10 14:58:47"
       },
       "SP98": {
-        "valeur": "2.058",
-        "maj": "2026-11-05 12:29:52"
+        "valeur": "2.046",
+        "maj": "2026-11-10 14:58:47"
       }
     }
   },
@@ -1705,30 +1720,6 @@
     }
   },
   {
-    "id": "80550001",
-    "dep": "80",
-    "enseigne": "Carrefour Contact",
-    "adresse": "rue du 8 mai",
-    "cp": "80550",
-    "ville": "LE CROTOY",
-    "latitude": 50.217,
-    "longitude": 1.625,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.241",
-        "maj": "2026-11-02 13:42:34"
-      },
-      "SP95": {
-        "valeur": "2.125",
-        "maj": "2026-11-02 13:42:35"
-      },
-      "SP98": {
-        "valeur": "2.179",
-        "maj": "2026-11-02 13:42:35"
-      }
-    }
-  },
-  {
     "id": "80380001",
     "dep": "80",
     "enseigne": "TotalEnergies",
@@ -1740,11 +1731,35 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.210",
-        "maj": "2026-11-09 08:04:38"
+        "maj": "2026-11-10 08:56:45"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-09 08:04:38"
+        "maj": "2026-11-10 08:56:45"
+      }
+    }
+  },
+  {
+    "id": "80550001",
+    "dep": "80",
+    "enseigne": "Carrefour Contact",
+    "adresse": "rue du 8 mai",
+    "cp": "80550",
+    "ville": "LE CROTOY",
+    "latitude": 50.21863,
+    "longitude": 1.62485,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.155",
+        "maj": "2026-11-10 10:46:04"
+      },
+      "SP95": {
+        "valeur": "2.052",
+        "maj": "2026-11-10 10:46:04"
+      },
+      "SP98": {
+        "valeur": "2.169",
+        "maj": "2026-11-10 10:46:04"
       }
     }
   },
@@ -1827,8 +1842,8 @@
     "adresse": "43 RUE VICTOR HUGO",
     "cp": "80210",
     "ville": "FEUQUIèRES-EN-VIMEU",
-    "latitude": 50.06153703,
-    "longitude": 1.5945566500000001,
+    "latitude": 50.06183,
+    "longitude": 1.59491,
     "carburants": {
       "Gazole": {
         "valeur": "2.129",
@@ -1925,30 +1940,6 @@
     }
   },
   {
-    "id": "80290001",
-    "dep": "80",
-    "enseigne": "Carrefour Market",
-    "adresse": "RUE DU CAPITAINE FAY",
-    "cp": "80290",
-    "ville": "POIX-DE-PICARDIE",
-    "latitude": 49.776,
-    "longitude": 1.978,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.422",
-        "maj": "2026-10-30 10:52:57"
-      },
-      "E10": {
-        "valeur": "2.105",
-        "maj": "2026-09-30 10:32:45"
-      },
-      "SP98": {
-        "valeur": "2.205",
-        "maj": "2026-09-30 10:32:45"
-      }
-    }
-  },
-  {
     "id": "80500004",
     "dep": "80",
     "enseigne": "TotalEnergies",
@@ -1960,35 +1951,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.210",
-        "maj": "2026-11-09 16:16:40"
+        "maj": "2026-11-10 08:51:57"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-09 16:16:41"
-      }
-    }
-  },
-  {
-    "id": "80400005",
-    "dep": "80",
-    "enseigne": "Carrefour Market",
-    "adresse": "Route de chauny",
-    "cp": "80400",
-    "ville": "HAM",
-    "latitude": 49.742057621656,
-    "longitude": 3.0917620513657,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.222",
-        "maj": "2026-11-05 08:32:02"
-      },
-      "E10": {
-        "valeur": "2.051",
-        "maj": "2026-11-05 08:32:02"
-      },
-      "SP98": {
-        "valeur": "2.123",
-        "maj": "2026-11-05 08:32:02"
+        "maj": "2026-11-10 08:51:57"
       }
     }
   },
@@ -2089,30 +2056,6 @@
       "SP98": {
         "valeur": "2.141",
         "maj": "2026-11-05 11:00:36"
-      }
-    }
-  },
-  {
-    "id": "80410005",
-    "dep": "80",
-    "enseigne": "Carrefour Contact",
-    "adresse": "184 rue du maréchal foch",
-    "cp": "80410",
-    "ville": "Cayeux-sur-mer",
-    "latitude": 50.181785861603004,
-    "longitude": 1.4943816717326999,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.229",
-        "maj": "2026-11-04 09:18:31"
-      },
-      "SP95": {
-        "valeur": "2.099",
-        "maj": "2026-11-04 09:18:31"
-      },
-      "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-04 09:18:32"
       }
     }
   },
@@ -2235,16 +2178,16 @@
     "longitude": 2.327,
     "carburants": {
       "Gazole": {
-        "valeur": "2.245",
-        "maj": "2026-11-07 06:50:00"
+        "valeur": "2.219",
+        "maj": "2026-11-11 07:32:00"
       },
       "E10": {
         "valeur": "1.999",
-        "maj": "2026-11-07 06:50:00"
+        "maj": "2026-11-11 07:32:00"
       },
       "SP98": {
         "valeur": "2.162",
-        "maj": "2026-11-07 06:50:00"
+        "maj": "2026-11-11 07:32:00"
       }
     }
   },
@@ -2259,20 +2202,20 @@
     "longitude": 3.067,
     "carburants": {
       "Gazole": {
-        "valeur": "2.127",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "2.119",
+        "maj": "2026-11-11 01:17:00"
       },
       "E85": {
         "valeur": "0.864",
-        "maj": "2026-11-10 01:16:00"
+        "maj": "2026-11-11 01:17:00"
       },
       "E10": {
-        "valeur": "1.960",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "1.958",
+        "maj": "2026-11-11 01:17:00"
       },
       "SP98": {
-        "valeur": "2.040",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "2.103",
+        "maj": "2026-11-11 01:17:00"
       }
     }
   },
@@ -2283,8 +2226,8 @@
     "adresse": "34 RUE ROGER SALENGRO",
     "cp": "80320",
     "ville": "CHAULNES",
-    "latitude": 49.816,
-    "longitude": 2.803,
+    "latitude": 49.8159,
+    "longitude": 2.80426,
     "carburants": {
       "Gazole": {
         "valeur": "2.159",
@@ -2366,9 +2309,17 @@
     "latitude": 50.113,
     "longitude": 1.829,
     "carburants": {
+      "Gazole": {
+        "valeur": "2.032",
+        "maj": "2026-11-11 00:01:00"
+      },
       "E10": {
-        "valeur": "1.905",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "1.910",
+        "maj": "2026-11-11 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -2383,16 +2334,16 @@
     "longitude": 2.51,
     "carburants": {
       "Gazole": {
-        "valeur": "2.208",
-        "maj": "2026-11-04 09:19:10"
+        "valeur": "2.214",
+        "maj": "2026-11-10 09:27:50"
       },
       "E10": {
         "valeur": "2.029",
-        "maj": "2026-11-04 09:19:10"
+        "maj": "2026-11-10 09:27:50"
       },
       "SP98": {
-        "valeur": "2.129",
-        "maj": "2026-11-04 09:19:10"
+        "valeur": "2.115",
+        "maj": "2026-11-10 09:27:50"
       }
     }
   },
@@ -2479,16 +2430,16 @@
     "longitude": 1.801,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-09 08:10:23"
+        "valeur": "2.210",
+        "maj": "2026-11-11 06:59:37"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-09 08:10:23"
+        "maj": "2026-11-11 06:59:37"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-09 08:10:23"
+        "maj": "2026-11-11 06:59:37"
       }
     }
   },
@@ -2504,7 +2455,11 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-11-05 09:36:22"
+        "maj": "2026-11-10 11:31:15"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 11:31:15"
       }
     }
   },
@@ -2520,15 +2475,15 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.250",
-        "maj": "2026-10-30 10:42:51"
+        "maj": "2026-11-10 12:05:56"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-10-30 10:42:51"
+        "maj": "2026-11-10 12:05:56"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-10-30 10:42:51"
+        "maj": "2026-11-10 12:05:56"
       }
     }
   },
@@ -2593,10 +2548,6 @@
       "Gazole": {
         "valeur": "2.190",
         "maj": "2026-11-10 07:51:11"
-      },
-      "E10": {
-        "valeur": "1.990",
-        "maj": "2026-11-09 07:09:21"
       }
     }
   },
@@ -2611,20 +2562,20 @@
     "longitude": 2.52134,
     "carburants": {
       "Gazole": {
-        "valeur": "2.339",
-        "maj": "2026-11-04 08:32:12"
+        "valeur": "2.291",
+        "maj": "2026-11-11 08:12:35"
       },
       "GPLc": {
         "valeur": "1.064",
-        "maj": "2026-11-04 08:32:12"
+        "maj": "2026-11-11 08:12:35"
       },
       "E10": {
-        "valeur": "2.209",
-        "maj": "2026-11-04 08:32:12"
+        "valeur": "2.148",
+        "maj": "2026-11-11 08:12:35"
       },
       "SP98": {
-        "valeur": "2.282",
-        "maj": "2026-11-04 08:32:12"
+        "valeur": "2.229",
+        "maj": "2026-11-11 08:12:35"
       }
     }
   },
@@ -2635,20 +2586,20 @@
     "adresse": "38 Route de Rue",
     "cp": "80150",
     "ville": "Crécy-en-Ponthieu",
-    "latitude": 50.251767199999996,
-    "longitude": 1.8843509,
+    "latitude": 50.25586,
+    "longitude": 1.87482,
     "carburants": {
       "Gazole": {
-        "valeur": "2.269",
-        "maj": "2026-11-04 08:02:38"
+        "valeur": "2.139",
+        "maj": "2026-11-10 11:52:32"
       },
       "SP95": {
-        "valeur": "2.139",
-        "maj": "2026-11-04 08:02:38"
+        "valeur": "2.099",
+        "maj": "2026-11-10 11:52:33"
       },
       "SP98": {
-        "valeur": "2.229",
-        "maj": "2026-11-04 08:02:38"
+        "valeur": "2.129",
+        "maj": "2026-11-10 11:52:33"
       }
     }
   },
@@ -2659,8 +2610,8 @@
     "adresse": "RUE DU 8 MAI",
     "cp": "80510",
     "ville": "Longpré-les-Corps-Saints",
-    "latitude": 50.029,
-    "longitude": 1.943,
+    "latitude": 50.00958,
+    "longitude": 2.00334,
     "carburants": {
       "Gazole": {
         "valeur": "2.469",
@@ -2691,8 +2642,8 @@
     "longitude": 1.665,
     "carburants": {
       "Gazole": {
-        "valeur": "2.389",
-        "maj": "2026-11-09 13:36:57"
+        "valeur": "2.379",
+        "maj": "2026-11-10 12:51:28"
       },
       "GPLc": {
         "valeur": "1.269",
@@ -2736,6 +2687,30 @@
       "SP95": {
         "valeur": "1.989",
         "maj": "2026-11-09 08:29:09"
+      }
+    }
+  },
+  {
+    "id": "80600002",
+    "dep": "80",
+    "enseigne": "Supermarché Match",
+    "adresse": "Rue du Pont des 9 Moulins",
+    "cp": "80600",
+    "ville": "Doullens",
+    "latitude": 50.15997,
+    "longitude": 2.34811,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.208",
+        "maj": "2026-11-03 13:01:37"
+      },
+      "E10": {
+        "valeur": "2.050",
+        "maj": "2026-11-04 10:47:55"
+      },
+      "SP98": {
+        "valeur": "2.275",
+        "maj": "2026-11-01 10:06:24"
       }
     }
   }

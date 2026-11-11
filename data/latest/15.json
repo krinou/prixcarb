@@ -1,29 +1,5 @@
 [
   {
-    "id": "15290001",
-    "dep": "15",
-    "enseigne": "Indépendant sans enseigne",
-    "adresse": "35 bis Avenue du 15 Septembre 1945",
-    "cp": "15290",
-    "ville": "Le Rouget",
-    "latitude": 44.855,
-    "longitude": 2.233,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.245",
-        "maj": "2026-11-06 07:55:59"
-      },
-      "E10": {
-        "valeur": "2.154",
-        "maj": "2026-11-06 07:55:59"
-      },
-      "SP98": {
-        "valeur": "2.253",
-        "maj": "2026-10-31 07:52:43"
-      }
-    }
-  },
-  {
     "id": "15200004",
     "dep": "15",
     "enseigne": "Intermarché",
@@ -34,16 +10,16 @@
     "longitude": 2.34,
     "carburants": {
       "Gazole": {
-        "valeur": "2.210",
-        "maj": "2026-11-02 08:14:45"
+        "valeur": "2.189",
+        "maj": "2026-11-10 08:55:07"
       },
       "E10": {
-        "valeur": "2.199",
-        "maj": "2026-10-05 18:52:21"
+        "valeur": "2.067",
+        "maj": "2026-11-10 08:55:07"
       },
       "SP98": {
-        "valeur": "2.299",
-        "maj": "2026-10-05 18:52:21"
+        "valeur": "2.199",
+        "maj": "2026-11-10 08:55:08"
       }
     }
   },
@@ -104,14 +80,38 @@
     }
   },
   {
+    "id": "15290001",
+    "dep": "15",
+    "enseigne": "Indépendant sans enseigne",
+    "adresse": "35 bis Avenue du 15 Septembre 1945",
+    "cp": "15290",
+    "ville": "Le Rouget",
+    "latitude": 44.855,
+    "longitude": 2.233,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.225",
+        "maj": "2026-11-10 18:31:24"
+      },
+      "E10": {
+        "valeur": "2.145",
+        "maj": "2026-11-10 18:31:24"
+      },
+      "SP98": {
+        "valeur": "2.235",
+        "maj": "2026-11-10 18:31:24"
+      }
+    }
+  },
+  {
     "id": "15250004",
     "dep": "15",
     "enseigne": "Carrefour Contact",
     "adresse": "Avenue de la Plaine",
     "cp": "15250",
     "ville": "JUSSAC",
-    "latitude": 44.99661,
-    "longitude": 2.42166,
+    "latitude": 44.997,
+    "longitude": 2.42142,
     "carburants": {
       "Gazole": {
         "valeur": "2.125",
@@ -134,8 +134,8 @@
     "adresse": "8 RUE SAINT NAZAIRE",
     "cp": "15190",
     "ville": "Condat",
-    "latitude": 45.338837005856995,
-    "longitude": 2.7590162851812,
+    "latitude": 45.33884,
+    "longitude": 2.75905,
     "carburants": {
       "Gazole": {
         "valeur": "2.299",
@@ -206,56 +206,20 @@
     "adresse": "1 route de brive",
     "cp": "15250",
     "ville": "Saint-Paul-des-Landes",
-    "latitude": 44.94448371,
-    "longitude": 2.31132819,
+    "latitude": 44.94454,
+    "longitude": 2.31154,
     "carburants": {
       "Gazole": {
-        "valeur": "2.189",
-        "maj": "2026-11-04 11:16:52"
+        "valeur": "2.129",
+        "maj": "2026-11-10 09:20:31"
       },
       "SP95": {
-        "valeur": "2.189",
-        "maj": "2026-11-04 11:16:52"
+        "valeur": "2.059",
+        "maj": "2026-11-10 09:20:31"
       },
       "SP98": {
-        "valeur": "2.229",
-        "maj": "2026-11-04 11:16:52"
-      }
-    }
-  },
-  {
-    "id": "15100005",
-    "dep": "15",
-    "enseigne": "Carrefour Market",
-    "adresse": "Route d'Aurillac",
-    "cp": "15100",
-    "ville": "SAINT-FLOUR",
-    "latitude": 45.038,
-    "longitude": 3.065,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.158",
-        "maj": "2026-11-06 08:51:07"
-      },
-      "SP95": {
-        "valeur": "2.088",
-        "maj": "2026-11-07 08:45:00"
-      },
-      "E85": {
-        "valeur": "0.868",
-        "maj": "2026-11-06 08:51:07"
-      },
-      "GPLc": {
-        "valeur": "1.090",
-        "maj": "2026-07-06 09:51:15"
-      },
-      "E10": {
-        "valeur": "1.998",
-        "maj": "2026-11-07 08:45:00"
-      },
-      "SP98": {
-        "valeur": "2.195",
-        "maj": "2026-11-06 08:51:08"
+        "valeur": "2.159",
+        "maj": "2026-11-10 09:20:31"
       }
     }
   },
@@ -286,8 +250,8 @@
     "adresse": "5 RUE DU DOCTEUR MARTY",
     "cp": "15200",
     "ville": "MAURIAC",
-    "latitude": 45.214,
-    "longitude": 2.346,
+    "latitude": 45.21426,
+    "longitude": 2.34614,
     "carburants": {
       "Gazole": {
         "valeur": "2.210",
@@ -320,12 +284,7 @@
     "ville": "AURILLAC",
     "latitude": 44.923,
     "longitude": 2.428,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-09 15:55:22"
-      }
-    }
+    "carburants": {}
   },
   {
     "id": "15320001",
@@ -420,6 +379,42 @@
     }
   },
   {
+    "id": "15100005",
+    "dep": "15",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route d'Aurillac",
+    "cp": "15100",
+    "ville": "SAINT-FLOUR",
+    "latitude": 45.03802,
+    "longitude": 3.06534,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.138",
+        "maj": "2026-11-10 09:50:20"
+      },
+      "SP95": {
+        "valeur": "2.088",
+        "maj": "2026-11-07 08:45:00"
+      },
+      "E85": {
+        "valeur": "0.868",
+        "maj": "2026-11-06 08:51:07"
+      },
+      "GPLc": {
+        "valeur": "1.090",
+        "maj": "2026-07-06 09:51:15"
+      },
+      "E10": {
+        "valeur": "1.998",
+        "maj": "2026-11-07 08:45:00"
+      },
+      "SP98": {
+        "valeur": "2.195",
+        "maj": "2026-11-06 08:51:08"
+      }
+    }
+  },
+  {
     "id": "15100003",
     "dep": "15",
     "enseigne": "Indépendant sans enseigne",
@@ -430,12 +425,12 @@
     "longitude": 3.087,
     "carburants": {
       "Gazole": {
-        "valeur": "2.270",
-        "maj": "2026-11-03 00:01:00"
+        "valeur": "2.229",
+        "maj": "2026-11-11 00:01:00"
       },
       "SP95": {
-        "valeur": "2.225",
-        "maj": "2026-10-29 00:01:00"
+        "valeur": "2.169",
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
         "valeur": "0.949",
@@ -454,12 +449,12 @@
     "longitude": 3.008,
     "carburants": {
       "Gazole": {
-        "valeur": "2.270",
-        "maj": "2026-11-04 00:01:00"
+        "valeur": "2.229",
+        "maj": "2026-11-11 00:01:00"
       },
       "SP95": {
-        "valeur": "2.225",
-        "maj": "2026-10-29 00:01:00"
+        "valeur": "2.169",
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -474,16 +469,16 @@
     "longitude": 2.22264433,
     "carburants": {
       "Gazole": {
-        "valeur": "2.188",
-        "maj": "2026-11-06 17:46:47"
+        "valeur": "2.137",
+        "maj": "2026-11-10 10:18:52"
       },
       "SP95": {
         "valeur": "2.188",
-        "maj": "2026-11-06 17:46:48"
+        "maj": "2026-11-10 10:18:53"
       },
       "E10": {
-        "valeur": "2.065",
-        "maj": "2026-11-06 17:46:48"
+        "valeur": "1.984",
+        "maj": "2026-11-10 10:18:53"
       }
     }
   },
@@ -610,20 +605,20 @@
     "longitude": 2.43189,
     "carburants": {
       "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-11-06 10:10:06"
+        "valeur": "2.116",
+        "maj": "2026-11-10 14:21:48"
       },
       "SP95": {
-        "valeur": "2.050",
-        "maj": "2026-11-06 10:10:06"
+        "valeur": "2.005",
+        "maj": "2026-11-10 14:21:48"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-11-04 07:14:41"
       },
       "E10": {
-        "valeur": "1.998",
-        "maj": "2026-11-06 10:10:06"
+        "valeur": "1.954",
+        "maj": "2026-11-10 14:21:48"
       },
       "SP98": {
         "valeur": "2.159",
@@ -695,7 +690,7 @@
     "carburants": {
       "Gazole": {
         "valeur": "2.177",
-        "maj": "2026-11-10 08:41:35"
+        "maj": "2026-11-10 18:00:00"
       },
       "SP95": {
         "valeur": "2.140",
@@ -724,38 +719,6 @@
       "SP95": {
         "valeur": "1.990",
         "maj": "2026-11-05 07:05:57"
-      }
-    }
-  },
-  {
-    "id": "15000017",
-    "dep": "15",
-    "enseigne": "Carrefour",
-    "adresse": "ZAC de la Sablière",
-    "cp": "15000",
-    "ville": "Aurillac",
-    "latitude": 44.894559139204,
-    "longitude": 2.4015925601762,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.116",
-        "maj": "2026-11-09 13:54:12"
-      },
-      "SP95": {
-        "valeur": "2.005",
-        "maj": "2026-11-09 13:54:12"
-      },
-      "E85": {
-        "valeur": "0.869",
-        "maj": "2026-11-05 14:50:55"
-      },
-      "E10": {
-        "valeur": "1.954",
-        "maj": "2026-11-09 13:54:12"
-      },
-      "SP98": {
-        "valeur": "2.159",
-        "maj": "2026-11-05 15:08:11"
       }
     }
   },
@@ -806,20 +769,20 @@
     "longitude": 2.44627,
     "carburants": {
       "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-11-06 09:52:47"
+        "valeur": "2.116",
+        "maj": "2026-11-10 14:56:37"
       },
       "SP95": {
-        "valeur": "2.050",
-        "maj": "2026-11-06 09:52:47"
+        "valeur": "2.005",
+        "maj": "2026-11-10 14:56:37"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-11-02 09:13:39"
       },
       "E10": {
-        "valeur": "1.998",
-        "maj": "2026-11-06 09:52:47"
+        "valeur": "1.954",
+        "maj": "2026-11-10 14:56:37"
       },
       "SP98": {
         "valeur": "2.159",
@@ -838,12 +801,12 @@
     "longitude": 2.839,
     "carburants": {
       "Gazole": {
-        "valeur": "2.270",
-        "maj": "2026-11-04 00:06:00"
+        "valeur": "2.229",
+        "maj": "2026-11-11 00:01:00"
       },
       "SP95": {
-        "valeur": "2.225",
-        "maj": "2026-10-29 00:01:00"
+        "valeur": "2.169",
+        "maj": "2026-11-11 00:01:00"
       },
       "SP98": {
         "valeur": "2.319",
@@ -975,16 +938,16 @@
     "adresse": "zi du Sedour",
     "cp": "15400",
     "ville": "Riom-Ès-Montagnes",
-    "latitude": 45.288,
-    "longitude": 2.669,
+    "latitude": 45.28772,
+    "longitude": 2.66865,
     "carburants": {
       "Gazole": {
-        "valeur": "2.222",
-        "maj": "2026-11-03 18:30:00"
+        "valeur": "2.177",
+        "maj": "2026-11-10 18:30:00"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-11-03 15:04:55"
+        "valeur": "1.988",
+        "maj": "2026-11-10 18:30:00"
       },
       "SP98": {
         "valeur": "2.199",
@@ -1029,6 +992,38 @@
       "Gazole": {
         "valeur": "2.190",
         "maj": "2026-11-09 07:21:52"
+      }
+    }
+  },
+  {
+    "id": "15000017",
+    "dep": "15",
+    "enseigne": "Carrefour",
+    "adresse": "ZAC de la Sablière",
+    "cp": "15000",
+    "ville": "Aurillac",
+    "latitude": 44.89466,
+    "longitude": 2.4018,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.116",
+        "maj": "2026-11-09 13:54:12"
+      },
+      "SP95": {
+        "valeur": "2.005",
+        "maj": "2026-11-09 13:54:12"
+      },
+      "E85": {
+        "valeur": "0.869",
+        "maj": "2026-11-05 14:50:55"
+      },
+      "E10": {
+        "valeur": "1.954",
+        "maj": "2026-11-09 13:54:12"
+      },
+      "SP98": {
+        "valeur": "2.159",
+        "maj": "2026-11-05 15:08:11"
       }
     }
   },
@@ -1095,8 +1090,8 @@
     "adresse": "63 AVENUE DU GENERAL DE GAULLE",
     "cp": "15500",
     "ville": "MASSIAC",
-    "latitude": 45.254,
-    "longitude": 3.197,
+    "latitude": 45.25415,
+    "longitude": 3.19712,
     "carburants": {
       "Gazole": {
         "valeur": "2.245",

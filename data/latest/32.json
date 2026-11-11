@@ -74,8 +74,8 @@
     "adresse": "ALLEE JEAN CAHUZAC",
     "cp": "32130",
     "ville": "Samatan",
-    "latitude": 43.48982650000001,
-    "longitude": 0.9319067,
+    "latitude": 43.48975,
+    "longitude": 0.93162,
     "carburants": {
       "Gazole": {
         "valeur": "2.229",
@@ -174,20 +174,20 @@
     "longitude": 0.618,
     "carburants": {
       "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-11-02 09:45:59"
+        "valeur": "2.099",
+        "maj": "2026-11-10 08:52:28"
       },
       "E85": {
         "valeur": "0.869",
         "maj": "2026-10-28 15:18:07"
       },
       "E10": {
-        "valeur": "2.079",
-        "maj": "2026-11-02 08:48:59"
+        "valeur": "1.999",
+        "maj": "2026-11-10 08:52:29"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-02 08:49:00"
+        "valeur": "2.099",
+        "maj": "2026-11-10 08:52:29"
       }
     }
   },
@@ -250,16 +250,16 @@
     "longitude": 0.10728169416186,
     "carburants": {
       "Gazole": {
-        "valeur": "2.179",
-        "maj": "2026-11-05 13:54:19"
+        "valeur": "2.129",
+        "maj": "2026-11-10 12:00:00"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-10-27 09:17:09"
+        "valeur": "1.999",
+        "maj": "2026-11-10 12:00:00"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-10-27 09:17:09"
+        "valeur": "2.159",
+        "maj": "2026-11-10 12:00:00"
       }
     }
   },
@@ -273,30 +273,6 @@
     "latitude": 43.494,
     "longitude": 0.932,
     "carburants": {}
-  },
-  {
-    "id": "32100003",
-    "dep": "32",
-    "enseigne": "Carrefour Market",
-    "adresse": "lieu dit hontaut",
-    "cp": "32100",
-    "ville": "Condom",
-    "latitude": 43.965,
-    "longitude": 0.367,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-03 15:16:26"
-      },
-      "E10": {
-        "valeur": "2.040",
-        "maj": "2026-11-05 17:20:44"
-      },
-      "SP98": {
-        "valeur": "2.140",
-        "maj": "2026-11-05 17:20:44"
-      }
-    }
   },
   {
     "id": "32100004",
@@ -353,12 +329,12 @@
     "longitude": 0.311,
     "carburants": {
       "Gazole": {
-        "valeur": "2.195",
-        "maj": "2026-11-02 09:03:05"
+        "valeur": "2.129",
+        "maj": "2026-11-10 09:40:06"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-11-06 11:24:16"
+        "valeur": "1.999",
+        "maj": "2026-11-10 09:40:07"
       },
       "SP98": {
         "valeur": "2.195",
@@ -388,48 +364,20 @@
     "longitude": 0.10749,
     "carburants": {
       "Gazole": {
-        "valeur": "2.179",
-        "maj": "2026-10-31 19:30:00"
+        "valeur": "2.129",
+        "maj": "2026-11-10 12:00:00"
       },
       "E85": {
         "valeur": "0.865",
         "maj": "2026-10-03 09:00:00"
       },
       "E10": {
-        "valeur": "2.099",
-        "maj": "2026-10-27 09:17:50"
+        "valeur": "1.999",
+        "maj": "2026-11-10 12:00:00"
       },
       "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-10-27 09:17:51"
-      }
-    }
-  },
-  {
-    "id": "32500001",
-    "dep": "32",
-    "enseigne": "Carrefour Market",
-    "adresse": "Route de Lectoure",
-    "cp": "32500",
-    "ville": "FLEURANCE",
-    "latitude": 43.860269167695996,
-    "longitude": 0.6592991017000001,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-04 15:24:08"
-      },
-      "E85": {
-        "valeur": "0.889",
-        "maj": "2026-11-04 15:24:08"
-      },
-      "E10": {
-        "valeur": "2.036",
-        "maj": "2026-11-04 15:24:08"
-      },
-      "SP98": {
-        "valeur": "2.146",
-        "maj": "2026-11-04 15:24:09"
+        "valeur": "2.159",
+        "maj": "2026-11-10 12:00:00"
       }
     }
   },
@@ -444,8 +392,8 @@
     "longitude": 0.172,
     "carburants": {
       "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-03 09:39:23"
+        "valeur": "2.149",
+        "maj": "2026-11-10 10:39:27"
       },
       "E10": {
         "valeur": "2.139",
@@ -458,14 +406,38 @@
     }
   },
   {
+    "id": "32100003",
+    "dep": "32",
+    "enseigne": "Carrefour Market",
+    "adresse": "lieu dit hontaut",
+    "cp": "32100",
+    "ville": "Condom",
+    "latitude": 43.94421,
+    "longitude": 0.36082,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.125",
+        "maj": "2026-11-10 18:24:44"
+      },
+      "E10": {
+        "valeur": "1.985",
+        "maj": "2026-11-10 18:24:45"
+      },
+      "SP98": {
+        "valeur": "2.090",
+        "maj": "2026-11-10 18:24:45"
+      }
+    }
+  },
+  {
     "id": "32110001",
     "dep": "32",
     "enseigne": "Carrefour Market",
     "adresse": "AVENUE DE PERIE",
     "cp": "32110",
     "ville": "NOGARO",
-    "latitude": 43.759,
-    "longitude": -0.033,
+    "latitude": 43.76198,
+    "longitude": -0.03203,
     "carburants": {
       "Gazole": {
         "valeur": "2.199",
@@ -486,6 +458,34 @@
     }
   },
   {
+    "id": "32500001",
+    "dep": "32",
+    "enseigne": "Carrefour Market",
+    "adresse": "Route de Lectoure",
+    "cp": "32500",
+    "ville": "FLEURANCE",
+    "latitude": 43.86028,
+    "longitude": 0.65931,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.199",
+        "maj": "2026-11-04 15:24:08"
+      },
+      "E85": {
+        "valeur": "0.889",
+        "maj": "2026-11-04 15:24:08"
+      },
+      "E10": {
+        "valeur": "2.036",
+        "maj": "2026-11-04 15:24:08"
+      },
+      "SP98": {
+        "valeur": "2.146",
+        "maj": "2026-11-04 15:24:09"
+      }
+    }
+  },
+  {
     "id": "32460001",
     "dep": "32",
     "enseigne": "Aire C",
@@ -496,8 +496,8 @@
     "longitude": -0.18739020007484,
     "carburants": {
       "Gazole": {
-        "valeur": "2.290",
-        "maj": "2026-11-02 13:50:04"
+        "valeur": "2.260",
+        "maj": "2026-11-10 09:54:21"
       },
       "E85": {
         "valeur": "0.920",
@@ -516,8 +516,8 @@
     "adresse": "ROCADE SUD",
     "cp": "32190",
     "ville": "VIC-FEZENSAC",
-    "latitude": 43.755,
-    "longitude": 0.295,
+    "latitude": 43.75523,
+    "longitude": 0.29576,
     "carburants": {
       "Gazole": {
         "valeur": "2.199",
@@ -608,16 +608,16 @@
     "longitude": 0.566,
     "carburants": {
       "Gazole": {
-        "valeur": "2.336",
-        "maj": "2026-11-05 16:53:48"
+        "valeur": "2.299",
+        "maj": "2026-11-10 16:43:36"
       },
       "E85": {
         "valeur": "0.869",
-        "maj": "2026-11-05 16:53:48"
+        "maj": "2026-11-10 16:43:36"
       },
       "E10": {
-        "valeur": "2.152",
-        "maj": "2026-11-05 16:53:49"
+        "valeur": "2.122",
+        "maj": "2026-11-10 16:43:36"
       }
     }
   },
@@ -712,16 +712,16 @@
     "longitude": 0.37835,
     "carburants": {
       "Gazole": {
-        "valeur": "2.125",
-        "maj": "2026-11-09 09:29:28"
+        "valeur": "2.119",
+        "maj": "2026-11-10 18:51:23"
       },
       "E10": {
-        "valeur": "1.989",
-        "maj": "2026-11-09 09:15:43"
+        "valeur": "1.979",
+        "maj": "2026-11-10 18:51:23"
       },
       "SP98": {
-        "valeur": "2.095",
-        "maj": "2026-11-09 09:15:44"
+        "valeur": "2.089",
+        "maj": "2026-11-10 18:51:23"
       }
     }
   },
@@ -736,8 +736,8 @@
     "longitude": -0.155,
     "carburants": {
       "Gazole": {
-        "valeur": "2.290",
-        "maj": "2026-11-02 14:18:40"
+        "valeur": "2.260",
+        "maj": "2026-11-10 09:54:49"
       },
       "E10": {
         "valeur": "2.160",
@@ -756,52 +756,24 @@
     "adresse": "Boulevard du Nord",
     "cp": "32200",
     "ville": "GIMONT",
-    "latitude": 43.626,
-    "longitude": 0.88,
+    "latitude": 43.62607,
+    "longitude": 0.87959,
     "carburants": {
       "Gazole": {
-        "valeur": "2.239",
-        "maj": "2026-11-03 09:00:16"
+        "valeur": "2.229",
+        "maj": "2026-11-10 09:04:18"
       },
       "E85": {
         "valeur": "0.959",
-        "maj": "2026-11-03 09:00:16"
+        "maj": "2026-11-10 09:04:18"
       },
       "E10": {
-        "valeur": "2.089",
-        "maj": "2026-11-03 09:00:16"
+        "valeur": "2.029",
+        "maj": "2026-11-10 09:04:18"
       },
       "SP98": {
         "valeur": "2.349",
-        "maj": "2026-11-03 09:00:16"
-      }
-    }
-  },
-  {
-    "id": "32000001",
-    "dep": "32",
-    "enseigne": "Carrefour",
-    "adresse": "ROUTE DE TARBES",
-    "cp": "32000",
-    "ville": "Auch",
-    "latitude": 43.631,
-    "longitude": 0.582,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.149",
-        "maj": "2026-11-06 09:27:57"
-      },
-      "GPLc": {
-        "valeur": "1.125",
-        "maj": "2026-07-07 08:31:51"
-      },
-      "E10": {
-        "valeur": "2.079",
-        "maj": "2026-11-02 14:59:57"
-      },
-      "SP98": {
-        "valeur": "2.199",
-        "maj": "2026-11-02 14:59:57"
+        "maj": "2026-11-10 09:04:18"
       }
     }
   },
@@ -813,7 +785,7 @@
     "cp": "32600",
     "ville": "L'ISLE-JOURDAIN",
     "latitude": 43.601,
-    "longitude": 1.069,
+    "longitude": 1.06873,
     "carburants": {
       "Gazole": {
         "valeur": "2.159",
@@ -868,8 +840,8 @@
     "adresse": "Route D'Auche, Lieu Dit Haut Rege",
     "cp": "32310",
     "ville": "Valence-sur-Baïse",
-    "latitude": 43.869,
-    "longitude": 0.392,
+    "latitude": 43.86903,
+    "longitude": 0.39156,
     "carburants": {
       "Gazole": {
         "valeur": "2.129",
@@ -950,10 +922,6 @@
       "GPLc": {
         "valeur": "1.050",
         "maj": "2026-10-13 10:48:43"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-09 10:15:43"
       }
     }
   },
@@ -968,20 +936,48 @@
     "longitude": 0.042,
     "carburants": {
       "Gazole": {
-        "valeur": "2.199",
-        "maj": "2026-11-02 09:52:39"
+        "valeur": "2.149",
+        "maj": "2026-11-10 13:53:29"
       },
       "SP95": {
-        "valeur": "2.109",
-        "maj": "2026-11-04 11:02:28"
+        "valeur": "2.089",
+        "maj": "2026-11-10 13:53:29"
       },
       "E10": {
-        "valeur": "2.059",
-        "maj": "2026-11-04 11:02:29"
+        "valeur": "1.999",
+        "maj": "2026-11-10 13:53:29"
+      },
+      "SP98": {
+        "valeur": "2.139",
+        "maj": "2026-11-10 13:53:30"
+      }
+    }
+  },
+  {
+    "id": "32000001",
+    "dep": "32",
+    "enseigne": "Carrefour",
+    "adresse": "ROUTE DE TARBES",
+    "cp": "32000",
+    "ville": "Auch",
+    "latitude": 43.63186,
+    "longitude": 0.58269,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.109",
+        "maj": "2026-11-10 09:02:24"
+      },
+      "GPLc": {
+        "valeur": "1.125",
+        "maj": "2026-07-07 08:31:51"
+      },
+      "E10": {
+        "valeur": "1.999",
+        "maj": "2026-11-10 09:02:25"
       },
       "SP98": {
         "valeur": "2.199",
-        "maj": "2026-10-29 10:06:15"
+        "maj": "2026-11-02 14:59:57"
       }
     }
   },
@@ -1060,8 +1056,8 @@
     "adresse": "Boulevard des Pyrénées",
     "cp": "32300",
     "ville": "MIRANDE",
-    "latitude": 43.515,
-    "longitude": 0.399,
+    "latitude": 43.51548,
+    "longitude": 0.39894,
     "carburants": {
       "E10": {
         "valeur": "2.042",

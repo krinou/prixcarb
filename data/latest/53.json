@@ -92,14 +92,38 @@
     }
   },
   {
+    "id": "53100007",
+    "dep": "53",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "ROUTE DE PARIS - Boulevard Paul Lintier",
+    "cp": "53100",
+    "ville": "MAYENNE",
+    "latitude": 48.309772313978996,
+    "longitude": -0.6054991359854,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.079",
+        "maj": "2026-11-11 08:06:28"
+      },
+      "E85": {
+        "valeur": "0.984",
+        "maj": "2026-11-11 08:06:28"
+      },
+      "E10": {
+        "valeur": "1.949",
+        "maj": "2026-11-11 08:06:28"
+      }
+    }
+  },
+  {
     "id": "53300003",
     "dep": "53",
     "enseigne": "Carrefour Contact",
     "adresse": "4 RUE DES VALLEES",
     "cp": "53300",
     "ville": "Ambrières-les-Vallées",
-    "latitude": 48.3960695,
-    "longitude": -0.6246813,
+    "latitude": 48.39591,
+    "longitude": -0.62406,
     "carburants": {
       "Gazole": {
         "valeur": "2.159",
@@ -116,30 +140,6 @@
     }
   },
   {
-    "id": "53600003",
-    "dep": "53",
-    "enseigne": "Carrefour Market",
-    "adresse": "8, Avenue des Sports",
-    "cp": "53600",
-    "ville": "ÉVRON",
-    "latitude": 48.153,
-    "longitude": -0.404,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.269",
-        "maj": "2026-11-03 08:22:09"
-      },
-      "E10": {
-        "valeur": "2.129",
-        "maj": "2026-11-03 08:22:09"
-      },
-      "SP98": {
-        "valeur": "2.169",
-        "maj": "2026-11-03 08:22:09"
-      }
-    }
-  },
-  {
     "id": "53190001",
     "dep": "53",
     "enseigne": "Intermarché Contact",
@@ -150,8 +150,8 @@
     "longitude": -0.981,
     "carburants": {
       "Gazole": {
-        "valeur": "2.155",
-        "maj": "2026-11-02 07:59:47"
+        "valeur": "2.099",
+        "maj": "2026-11-10 09:35:14"
       },
       "SP95": {
         "valeur": "2.219",
@@ -180,38 +180,14 @@
     }
   },
   {
-    "id": "53100001",
-    "dep": "53",
-    "enseigne": "Carrefour Market",
-    "adresse": "Rue de Bretagne",
-    "cp": "53100",
-    "ville": "MAYENNE",
-    "latitude": 48.30817,
-    "longitude": -0.62956,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.269",
-        "maj": "2026-11-03 10:53:00"
-      },
-      "E10": {
-        "valeur": "2.129",
-        "maj": "2026-11-03 10:53:01"
-      },
-      "SP98": {
-        "valeur": "2.169",
-        "maj": "2026-11-03 10:53:01"
-      }
-    }
-  },
-  {
     "id": "53950002",
     "dep": "53",
     "enseigne": "Carrefour Contact",
     "adresse": "9 rue du lavoir ROUTE DE ST jEAN",
     "cp": "53950",
     "ville": "Louverne",
-    "latitude": 48.122,
-    "longitude": -0.724,
+    "latitude": 48.12176,
+    "longitude": -0.7237,
     "carburants": {
       "Gazole": {
         "valeur": "2.239",
@@ -252,6 +228,22 @@
     }
   },
   {
+    "id": "53410004",
+    "dep": "53",
+    "enseigne": "Carrefour Express",
+    "adresse": "3 place des Cyprès",
+    "cp": "53410",
+    "ville": "Saint-Pierre-la-Cour",
+    "latitude": 48.11356,
+    "longitude": -1.02733,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.239",
+        "maj": "2026-11-03 09:14:55"
+      }
+    }
+  },
+  {
     "id": "53940001",
     "dep": "53",
     "enseigne": "Leclerc",
@@ -262,24 +254,24 @@
     "longitude": -0.811,
     "carburants": {
       "Gazole": {
-        "valeur": "2.109",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.088",
+        "maj": "2026-11-11 01:16:00"
       },
       "E85": {
-        "valeur": "0.849",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "0.829",
+        "maj": "2026-11-11 01:16:00"
       },
       "GPLc": {
         "valeur": "1.034",
-        "maj": "2026-11-10 01:17:00"
+        "maj": "2026-11-11 01:16:00"
       },
       "E10": {
-        "valeur": "1.955",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "1.959",
+        "maj": "2026-11-11 01:16:00"
       },
       "SP98": {
-        "valeur": "2.075",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.049",
+        "maj": "2026-11-11 01:16:00"
       }
     }
   },
@@ -380,10 +372,6 @@
       "Gazole": {
         "valeur": "2.247",
         "maj": "2026-11-05 16:55:06"
-      },
-      "SP98": {
-        "valeur": "2.368",
-        "maj": "2026-10-14 12:08:39"
       }
     }
   },
@@ -398,20 +386,20 @@
     "longitude": -0.561,
     "carburants": {
       "Gazole": {
-        "valeur": "2.119",
-        "maj": "2026-11-10 08:20:14"
+        "valeur": "2.149",
+        "maj": "2026-11-10 19:46:55"
       },
       "E85": {
-        "valeur": "0.859",
-        "maj": "2026-11-10 08:20:14"
+        "valeur": "0.899",
+        "maj": "2026-11-10 19:46:55"
       },
       "E10": {
-        "valeur": "1.969",
-        "maj": "2026-11-10 08:20:14"
+        "valeur": "1.999",
+        "maj": "2026-11-10 19:46:55"
       },
       "SP98": {
         "valeur": "2.099",
-        "maj": "2026-11-10 08:20:14"
+        "maj": "2026-11-10 19:46:55"
       }
     }
   },
@@ -426,16 +414,16 @@
     "longitude": -0.631,
     "carburants": {
       "Gazole": {
-        "valeur": "2.119",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "2.089",
+        "maj": "2026-11-11 01:16:00"
       },
       "SP95": {
-        "valeur": "2.009",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "1.999",
+        "maj": "2026-11-11 01:16:00"
       },
       "E10": {
-        "valeur": "1.969",
-        "maj": "2026-11-10 01:17:00"
+        "valeur": "1.959",
+        "maj": "2026-11-11 01:16:00"
       }
     }
   },
@@ -509,8 +497,8 @@
     "adresse": "1 RUE FREDERIC CHAPLET",
     "cp": "53240",
     "ville": "Andouillé",
-    "latitude": 48.174,
-    "longitude": -0.783,
+    "latitude": 48.17401,
+    "longitude": -0.78238,
     "carburants": {
       "Gazole": {
         "valeur": "2.259",
@@ -533,8 +521,8 @@
     "adresse": "le perray",
     "cp": "53480",
     "ville": "Vaiges",
-    "latitude": 48.039,
-    "longitude": -0.475,
+    "latitude": 48.03916,
+    "longitude": -0.47479,
     "carburants": {
       "Gazole": {
         "valeur": "2.249",
@@ -557,16 +545,12 @@
     "longitude": -0.77497,
     "carburants": {
       "Gazole": {
-        "valeur": "2.098",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.078",
+        "maj": "2026-11-11 00:01:00"
       },
       "GPLc": {
         "valeur": "1.034",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.945",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -591,14 +575,82 @@
     }
   },
   {
+    "id": "53100001",
+    "dep": "53",
+    "enseigne": "Carrefour Market",
+    "adresse": "Rue de Bretagne",
+    "cp": "53100",
+    "ville": "MAYENNE",
+    "latitude": 48.30865,
+    "longitude": -0.63015,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.269",
+        "maj": "2026-11-03 10:53:00"
+      },
+      "SP98": {
+        "valeur": "2.169",
+        "maj": "2026-11-03 10:53:01"
+      }
+    }
+  },
+  {
+    "id": "53500004",
+    "dep": "53",
+    "enseigne": "Carrefour Market",
+    "adresse": "La Hainaud",
+    "cp": "53500",
+    "ville": "ERNEE",
+    "latitude": 48.29209,
+    "longitude": -0.92683,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.243",
+        "maj": "2026-11-03 09:43:22"
+      },
+      "SP95": {
+        "valeur": "2.099",
+        "maj": "2026-11-03 09:43:22"
+      },
+      "E10": {
+        "valeur": "2.069",
+        "maj": "2026-11-03 09:43:22"
+      }
+    }
+  },
+  {
+    "id": "53600003",
+    "dep": "53",
+    "enseigne": "Carrefour Market",
+    "adresse": "8, Avenue des Sports",
+    "cp": "53600",
+    "ville": "ÉVRON",
+    "latitude": 48.15281,
+    "longitude": -0.40476,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.269",
+        "maj": "2026-11-03 08:22:09"
+      },
+      "E10": {
+        "valeur": "2.129",
+        "maj": "2026-11-03 08:22:09"
+      },
+      "SP98": {
+        "valeur": "2.169",
+        "maj": "2026-11-03 08:22:09"
+      }
+    }
+  },
+  {
     "id": "53230003",
     "dep": "53",
     "enseigne": "Carrefour Contact",
     "adresse": "ROUTE DE CRAON",
     "cp": "53230",
     "ville": "Cossé-le-Vivien",
-    "latitude": 47.9446195,
-    "longitude": -0.9110776700000001,
+    "latitude": 47.93656,
+    "longitude": -0.91625,
     "carburants": {
       "Gazole": {
         "valeur": "2.249",
@@ -625,16 +677,16 @@
     "longitude": -0.34336203889620004,
     "carburants": {
       "Gazole": {
-        "valeur": "2.356",
-        "maj": "2026-11-09 14:00:00"
+        "valeur": "2.313",
+        "maj": "2026-11-10 14:00:00"
       },
       "E10": {
-        "valeur": "2.230",
-        "maj": "2026-11-09 14:00:00"
+        "valeur": "2.170",
+        "maj": "2026-11-10 14:00:00"
       },
       "SP98": {
-        "valeur": "2.304",
-        "maj": "2026-11-09 14:00:00"
+        "valeur": "2.251",
+        "maj": "2026-11-10 14:00:00"
       }
     }
   },
@@ -665,8 +717,8 @@
     "adresse": "Impasse des Sablons",
     "cp": "53810",
     "ville": "Changé",
-    "latitude": 48.1,
-    "longitude": -0.782,
+    "latitude": 48.09997,
+    "longitude": -0.78149,
     "carburants": {
       "Gazole": {
         "valeur": "2.199",
@@ -697,44 +749,24 @@
     "longitude": -0.686,
     "carburants": {
       "Gazole": {
-        "valeur": "2.099",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "2.088",
+        "maj": "2026-11-11 01:17:00"
       },
       "SP95": {
-        "valeur": "2.055",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "2.029",
+        "maj": "2026-11-11 01:17:00"
       },
       "E85": {
         "valeur": "0.766",
-        "maj": "2026-11-10 01:16:00"
+        "maj": "2026-11-11 01:17:00"
       },
       "GPLc": {
         "valeur": "0.990",
-        "maj": "2026-11-10 01:16:00"
+        "maj": "2026-11-11 01:17:00"
       },
       "SP98": {
-        "valeur": "2.075",
-        "maj": "2026-11-10 01:16:00"
-      }
-    }
-  },
-  {
-    "id": "53410004",
-    "dep": "53",
-    "enseigne": "Carrefour Express",
-    "adresse": "3 place des Cyprès",
-    "cp": "53410",
-    "ville": "Saint-Pierre-la-Cour",
-    "latitude": 48.114,
-    "longitude": -1.027,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.239",
-        "maj": "2026-11-03 09:14:55"
-      },
-      "SP98": {
-        "valeur": "2.169",
-        "maj": "2026-11-03 09:14:56"
+        "valeur": "2.049",
+        "maj": "2026-11-11 01:17:00"
       }
     }
   },
@@ -795,38 +827,14 @@
     }
   },
   {
-    "id": "53500004",
-    "dep": "53",
-    "enseigne": "Carrefour Market",
-    "adresse": "La Hainaud",
-    "cp": "53500",
-    "ville": "ERNEE",
-    "latitude": 48.2923999416,
-    "longitude": -0.926654863355,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.243",
-        "maj": "2026-11-03 09:43:22"
-      },
-      "SP95": {
-        "valeur": "2.099",
-        "maj": "2026-11-03 09:43:22"
-      },
-      "E10": {
-        "valeur": "2.069",
-        "maj": "2026-11-03 09:43:22"
-      }
-    }
-  },
-  {
     "id": "53160002",
     "dep": "53",
     "enseigne": "Carrefour Contact",
     "adresse": "zi de l'aubriere",
     "cp": "53160",
     "ville": "Bais",
-    "latitude": 48.259,
-    "longitude": -0.373,
+    "latitude": 48.25922,
+    "longitude": -0.37053,
     "carburants": {
       "Gazole": {
         "valeur": "2.249",
@@ -933,24 +941,24 @@
     "longitude": -0.736,
     "carburants": {
       "Gazole": {
-        "valeur": "2.109",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "2.088",
+        "maj": "2026-11-11 01:16:00"
       },
       "E85": {
-        "valeur": "0.849",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "0.829",
+        "maj": "2026-11-11 01:16:00"
       },
       "GPLc": {
         "valeur": "1.034",
-        "maj": "2026-11-10 01:16:00"
+        "maj": "2026-11-11 01:16:00"
       },
       "E10": {
-        "valeur": "1.955",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "1.959",
+        "maj": "2026-11-11 01:16:00"
       },
       "SP98": {
-        "valeur": "2.075",
-        "maj": "2026-11-10 01:16:00"
+        "valeur": "2.049",
+        "maj": "2026-11-11 01:16:00"
       }
     }
   },
@@ -997,12 +1005,12 @@
     "longitude": -0.693126691,
     "carburants": {
       "Gazole": {
-        "valeur": "2.129",
-        "maj": "2026-11-06 09:04:07"
+        "valeur": "2.099",
+        "maj": "2026-11-10 09:19:38"
       },
       "SP95": {
-        "valeur": "2.049",
-        "maj": "2026-11-05 09:11:11"
+        "valeur": "2.039",
+        "maj": "2026-11-10 09:19:39"
       },
       "SP98": {
         "valeur": "2.079",
@@ -1021,16 +1029,16 @@
     "longitude": -0.753,
     "carburants": {
       "Gazole": {
-        "valeur": "2.250",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.210",
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
         "valeur": "0.921",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -1091,38 +1099,6 @@
     }
   },
   {
-    "id": "53002001",
-    "dep": "53",
-    "enseigne": "Carrefour",
-    "adresse": "46 avenue de lattre de tassigny",
-    "cp": "53000",
-    "ville": "LAVAL",
-    "latitude": 48.079,
-    "longitude": -0.799,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.109",
-        "maj": "2026-11-09 10:20:18"
-      },
-      "SP95": {
-        "valeur": "2.039",
-        "maj": "2026-11-09 10:20:18"
-      },
-      "E85": {
-        "valeur": "0.839",
-        "maj": "2026-11-09 10:20:19"
-      },
-      "E10": {
-        "valeur": "1.969",
-        "maj": "2026-11-09 10:20:19"
-      },
-      "SP98": {
-        "valeur": "2.059",
-        "maj": "2026-11-09 10:20:19"
-      }
-    }
-  },
-  {
     "id": "53500003",
     "dep": "53",
     "enseigne": "TotalEnergies",
@@ -1139,22 +1115,10 @@
       "E10": {
         "valeur": "1.990",
         "maj": "2026-11-06 17:32:42"
-      }
-    }
-  },
-  {
-    "id": "53100007",
-    "dep": "53",
-    "enseigne": "TotalEnergies Access",
-    "adresse": "ROUTE DE PARIS - Boulevard Paul Lintier",
-    "cp": "53100",
-    "ville": "MAYENNE",
-    "latitude": 48.309772313978996,
-    "longitude": -0.6054991359854,
-    "carburants": {
-      "E85": {
-        "valeur": "0.984",
-        "maj": "2026-11-10 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-10 15:09:45"
       }
     }
   },
@@ -1169,20 +1133,20 @@
     "longitude": -0.19085232277825998,
     "carburants": {
       "Gazole": {
-        "valeur": "2.112",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "2.113",
+        "maj": "2026-11-11 00:01:00"
       },
       "E85": {
-        "valeur": "0.893",
-        "maj": "2026-11-10 00:01:00"
+        "valeur": "0.896",
+        "maj": "2026-11-11 00:01:00"
       },
       "E10": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       },
       "SP98": {
         "valeur": "1.990",
-        "maj": "2026-11-10 00:01:00"
+        "maj": "2026-11-11 00:01:00"
       }
     }
   },
@@ -1235,10 +1199,6 @@
       "E10": {
         "valeur": "1.990",
         "maj": "2026-11-09 07:57:10"
-      },
-      "SP98": {
-        "valeur": "1.990",
-        "maj": "2026-11-10 08:09:31"
       }
     }
   },
@@ -1253,16 +1213,48 @@
     "longitude": -0.968,
     "carburants": {
       "Gazole": {
-        "valeur": "2.178",
-        "maj": "2026-11-09 14:24:40"
+        "valeur": "2.158",
+        "maj": "2026-11-10 10:03:08"
       },
       "SP95": {
-        "valeur": "2.138",
-        "maj": "2026-11-02 11:46:50"
+        "valeur": "2.128",
+        "maj": "2026-11-10 10:03:08"
       },
       "SP98": {
-        "valeur": "2.188",
-        "maj": "2026-11-02 11:46:51"
+        "valeur": "2.168",
+        "maj": "2026-11-10 10:03:08"
+      }
+    }
+  },
+  {
+    "id": "53002001",
+    "dep": "53",
+    "enseigne": "Carrefour",
+    "adresse": "46 avenue de lattre de tassigny",
+    "cp": "53000",
+    "ville": "LAVAL",
+    "latitude": 48.07854,
+    "longitude": -0.79904,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.105",
+        "maj": "2026-11-10 10:23:23"
+      },
+      "SP95": {
+        "valeur": "2.019",
+        "maj": "2026-11-10 10:23:23"
+      },
+      "E85": {
+        "valeur": "0.839",
+        "maj": "2026-11-10 10:23:23"
+      },
+      "E10": {
+        "valeur": "1.959",
+        "maj": "2026-11-10 10:23:23"
+      },
+      "SP98": {
+        "valeur": "2.059",
+        "maj": "2026-11-10 10:23:23"
       }
     }
   },
@@ -1277,8 +1269,8 @@
     "longitude": -0.7508,
     "carburants": {
       "Gazole": {
-        "valeur": "2.109",
-        "maj": "2026-11-09 09:36:20"
+        "valeur": "2.099",
+        "maj": "2026-11-10 09:19:02"
       },
       "E10": {
         "valeur": "1.959",
@@ -1297,8 +1289,8 @@
     "adresse": "61 Boulevard Félix Grat",
     "cp": "53000",
     "ville": "LAVAL",
-    "latitude": 48.0682848174,
-    "longitude": -0.761818336311,
+    "latitude": 48.06861,
+    "longitude": -0.7618,
     "carburants": {
       "Gazole": {
         "valeur": "2.199",
@@ -1347,23 +1339,6 @@
     "ville": "LAVAL",
     "latitude": 48.07,
     "longitude": -0.794,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.098",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E85": {
-        "valeur": "0.921",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "GPLc": {
-        "valeur": "1.034",
-        "maj": "2026-11-10 00:01:00"
-      },
-      "E10": {
-        "valeur": "1.945",
-        "maj": "2026-11-10 00:01:00"
-      }
-    }
+    "carburants": {}
   }
 ]
