@@ -48,22 +48,6 @@
     }
   },
   {
-    "id": "15100013",
-    "dep": "15",
-    "enseigne": "TotalEnergies",
-    "adresse": "34 avenue de Verdun",
-    "cp": "15100",
-    "ville": "Saint-Flour",
-    "latitude": 45.031,
-    "longitude": 3.093,
-    "carburants": {
-      "Gazole": {
-        "valeur": "2.190",
-        "maj": "2026-11-10 08:33:20"
-      }
-    }
-  },
-  {
     "id": "15600001",
     "dep": "15",
     "enseigne": "TotalEnergies",
@@ -162,16 +146,16 @@
     "longitude": 2.86291,
     "carburants": {
       "Gazole": {
-        "valeur": "2.229",
-        "maj": "2026-11-06 09:37:24"
+        "valeur": "2.139",
+        "maj": "2026-11-11 09:52:58"
       },
       "E10": {
-        "valeur": "2.109",
-        "maj": "2026-10-27 08:41:29"
+        "valeur": "2.009",
+        "maj": "2026-11-11 09:52:58"
       },
       "SP98": {
-        "valeur": "2.219",
-        "maj": "2026-10-27 08:41:29"
+        "valeur": "2.109",
+        "maj": "2026-11-11 09:52:58"
       }
     }
   },
@@ -331,6 +315,26 @@
       "SP98": {
         "valeur": "2.315",
         "maj": "2026-09-17 09:28:23"
+      }
+    }
+  },
+  {
+    "id": "15100013",
+    "dep": "15",
+    "enseigne": "TotalEnergies",
+    "adresse": "34 avenue de Verdun",
+    "cp": "15100",
+    "ville": "Saint-Flour",
+    "latitude": 45.031,
+    "longitude": 3.093,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.170",
+        "maj": "2026-11-12 07:42:15"
+      },
+      "SP95": {
+        "valeur": "1.990",
+        "maj": "2026-11-12 07:42:15"
       }
     }
   },
@@ -577,12 +581,12 @@
     "longitude": 3.130412,
     "carburants": {
       "Gazole": {
-        "valeur": "2.138",
-        "maj": "2026-11-07 09:17:02"
+        "valeur": "2.068",
+        "maj": "2026-11-11 11:57:00"
       },
       "SP95": {
-        "valeur": "2.088",
-        "maj": "2026-11-07 08:09:46"
+        "valeur": "2.058",
+        "maj": "2026-11-11 11:57:00"
       },
       "E85": {
         "valeur": "0.868",
