@@ -1,11 +1,11 @@
 [
   {
-    "dep": "56",
-    "nbStations": 143,
-    "minLat": 47.33923,
-    "maxLat": 48.1443,
-    "minLon": -3.61998,
-    "maxLon": -2.101
+    "dep": "25",
+    "nbStations": 102,
+    "minLat": 46.716,
+    "maxLat": 47.54907,
+    "minLon": 5.785,
+    "maxLon": 6.916
   },
   {
     "dep": "89",
@@ -33,7 +33,7 @@
   },
   {
     "dep": "33",
-    "nbStations": 228,
+    "nbStations": 227,
     "minLat": 44.28624,
     "maxLat": 45.5128,
     "minLon": -1.19932,
@@ -48,12 +48,12 @@
     "maxLon": 4.153
   },
   {
-    "dep": "27",
-    "nbStations": 96,
-    "minLat": 48.733,
-    "maxLat": 49.41228,
-    "minLon": 0.32107,
-    "maxLon": 1.7865
+    "dep": "34",
+    "nbStations": 162,
+    "minLat": 43.26912,
+    "maxLat": 43.93026,
+    "minLon": 2.69757,
+    "maxLon": 4.178
   },
   {
     "dep": "92",
@@ -72,12 +72,12 @@
     "maxLon": 3.10779
   },
   {
-    "dep": "34",
-    "nbStations": 162,
-    "minLat": 43.26912,
-    "maxLat": 43.93026,
-    "minLon": 2.69757,
-    "maxLon": 4.178
+    "dep": "56",
+    "nbStations": 143,
+    "minLat": 47.33923,
+    "maxLat": 48.1443,
+    "minLon": -3.61998,
+    "maxLon": -2.101
   },
   {
     "dep": "12",
@@ -96,12 +96,12 @@
     "maxLon": 2.589
   },
   {
-    "dep": "25",
-    "nbStations": 102,
-    "minLat": 46.716,
-    "maxLat": 47.54907,
-    "minLon": 5.785,
-    "maxLon": 6.916
+    "dep": "27",
+    "nbStations": 96,
+    "minLat": 48.733,
+    "maxLat": 49.41228,
+    "minLon": 0.32107,
+    "maxLon": 1.7865
   },
   {
     "dep": "40",
@@ -120,6 +120,14 @@
     "maxLon": 6.127
   },
   {
+    "dep": "60",
+    "nbStations": 117,
+    "minLat": 49.0967,
+    "maxLat": 49.666,
+    "minLon": 1.72299,
+    "maxLon": 3.05
+  },
+  {
     "dep": "77",
     "nbStations": 175,
     "minLat": 48.14513,
@@ -136,14 +144,6 @@
     "maxLon": 2.00547
   },
   {
-    "dep": "59",
-    "nbStations": 253,
-    "minLat": 50.01785,
-    "maxLat": 51.06257,
-    "minLon": 2.1123,
-    "maxLon": 4.1488
-  },
-  {
     "dep": "07",
     "nbStations": 72,
     "minLat": 44.305,
@@ -152,20 +152,20 @@
     "maxLon": 4.86654
   },
   {
+    "dep": "59",
+    "nbStations": 253,
+    "minLat": 50.01785,
+    "maxLat": 51.06257,
+    "minLon": 2.1123,
+    "maxLon": 4.1488
+  },
+  {
     "dep": "42",
     "nbStations": 127,
     "minLat": 45.29793,
     "maxLat": 46.17623,
     "minLon": 3.755,
     "maxLon": 4.752
-  },
-  {
-    "dep": "60",
-    "nbStations": 117,
-    "minLat": 49.0967,
-    "maxLat": 49.666,
-    "minLon": 1.72299,
-    "maxLon": 3.05
   },
   {
     "dep": "04",
@@ -312,20 +312,20 @@
     "maxLon": -3.55481
   },
   {
-    "dep": "87",
-    "nbStations": 84,
-    "minLat": 45.5,
-    "maxLat": 46.31712,
-    "minLon": 0.763,
-    "maxLon": 1.739
-  },
-  {
     "dep": "79",
     "nbStations": 70,
     "minLat": 46.107,
     "maxLat": 46.996,
     "minLon": -0.739,
     "maxLon": 0.12
+  },
+  {
+    "dep": "87",
+    "nbStations": 84,
+    "minLat": 45.5,
+    "maxLat": 46.31712,
+    "minLon": 0.763,
+    "maxLon": 1.739
   },
   {
     "dep": "69",
@@ -384,20 +384,20 @@
     "maxLon": 3.11959
   },
   {
-    "dep": "73",
-    "nbStations": 92,
-    "minLat": 45.166,
-    "maxLat": 45.84642,
-    "minLon": 5.636,
-    "maxLon": 6.97718
-  },
-  {
     "dep": "67",
     "nbStations": 148,
     "minLat": 48.161,
     "maxLat": 49.02917,
     "minLon": 7.06428,
     "maxLon": 8.15625
+  },
+  {
+    "dep": "73",
+    "nbStations": 92,
+    "minLat": 45.166,
+    "maxLat": 45.84642,
+    "minLon": 5.636,
+    "maxLon": 6.97718
   },
   {
     "dep": "20",
@@ -456,6 +456,14 @@
     "maxLon": 4.787
   },
   {
+    "dep": "53",
+    "nbStations": 56,
+    "minLat": 47.793,
+    "maxLat": 48.475,
+    "minLon": -1.067,
+    "maxLon": -0.105
+  },
+  {
     "dep": "65",
     "nbStations": 50,
     "minLat": 42.799,
@@ -470,14 +478,6 @@
     "maxLat": 49.513,
     "minLon": 4.993,
     "maxLon": 5.726
-  },
-  {
-    "dep": "53",
-    "nbStations": 56,
-    "minLat": 47.793,
-    "maxLat": 48.475,
-    "minLon": -1.067,
-    "maxLon": -0.105
   },
   {
     "dep": "76",
