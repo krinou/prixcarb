@@ -1,0 +1,446 @@
+[
+  {
+    "id": "90500001",
+    "dep": "90",
+    "enseigne": "Avia",
+    "adresse": "37 Rue Alfred Péchin",
+    "cp": "90500",
+    "ville": "Beaucourt",
+    "latitude": 47.48973,
+    "longitude": 6.92225,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.180",
+        "maj": "2026-11-25 09:20:37"
+      },
+      "SP95": {
+        "valeur": "2.200",
+        "maj": "2026-11-25 09:20:37"
+      },
+      "SP98": {
+        "valeur": "2.250",
+        "maj": "2026-11-25 09:20:37"
+      }
+    }
+  },
+  {
+    "id": "90000015",
+    "dep": "90",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "56, AVENUE DU GENERAL LECLERC",
+    "cp": "90000",
+    "ville": "BELFORT",
+    "latitude": 47.636,
+    "longitude": 6.838,
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.998",
+        "maj": "2026-11-27 07:45:18"
+      }
+    }
+  },
+  {
+    "id": "90008001",
+    "dep": "90",
+    "enseigne": "Leclerc",
+    "adresse": "1 avenue du général de Gaulle",
+    "cp": "90000",
+    "ville": "Belfort",
+    "latitude": 47.628,
+    "longitude": 6.862,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.015",
+        "maj": "2026-11-27 09:38:00"
+      },
+      "SP95": {
+        "valeur": "1.997",
+        "maj": "2026-11-27 09:38:00"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-11-27 09:38:00"
+      },
+      "E10": {
+        "valeur": "1.883",
+        "maj": "2026-11-27 09:38:00"
+      },
+      "SP98": {
+        "valeur": "2.001",
+        "maj": "2026-11-27 09:38:00"
+      }
+    }
+  },
+  {
+    "id": "90500002",
+    "dep": "90",
+    "enseigne": "Système U",
+    "adresse": "Rue Alfred Péchin",
+    "cp": "90500",
+    "ville": "BEAUCOURT",
+    "latitude": 47.49,
+    "longitude": 6.922,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.139",
+        "maj": "2026-11-20 13:29:35"
+      },
+      "SP95": {
+        "valeur": "2.000",
+        "maj": "2026-11-20 13:29:35"
+      },
+      "E10": {
+        "valeur": "1.972",
+        "maj": "2026-11-20 13:29:35"
+      },
+      "SP98": {
+        "valeur": "2.319",
+        "maj": "2026-11-20 13:29:35"
+      }
+    }
+  },
+  {
+    "id": "90000009",
+    "dep": "90",
+    "enseigne": "Avia",
+    "adresse": "57 Avenue d'Altkirch",
+    "cp": "90000",
+    "ville": "Belfort",
+    "latitude": 47.636,
+    "longitude": 6.873,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.299",
+        "maj": "2026-11-25 16:02:57"
+      },
+      "SP95": {
+        "valeur": "2.259",
+        "maj": "2026-11-25 16:02:57"
+      },
+      "E85": {
+        "valeur": "0.999",
+        "maj": "2026-11-25 16:02:57"
+      },
+      "SP98": {
+        "valeur": "2.299",
+        "maj": "2026-11-25 16:02:57"
+      }
+    }
+  },
+  {
+    "id": "90100004",
+    "dep": "90",
+    "enseigne": "Avia",
+    "adresse": "62 faubourg de Belfort",
+    "cp": "90100",
+    "ville": "Delle",
+    "latitude": 47.511,
+    "longitude": 7.001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.239",
+        "maj": "2026-11-21 09:30:00"
+      },
+      "SP95": {
+        "valeur": "2.199",
+        "maj": "2026-11-21 09:30:00"
+      },
+      "GPLc": {
+        "valeur": "1.090",
+        "maj": "2026-11-20 14:55:49"
+      },
+      "SP98": {
+        "valeur": "2.239",
+        "maj": "2026-11-21 09:30:00"
+      }
+    }
+  },
+  {
+    "id": "90300004",
+    "dep": "90",
+    "enseigne": "Intermarché Contact",
+    "adresse": "21 RUE ARISTIDE BRIARD",
+    "cp": "90300",
+    "ville": "OFFEMONT",
+    "latitude": 47.658916,
+    "longitude": 6.866529,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.080",
+        "maj": "2026-11-27 09:31:22"
+      },
+      "E85": {
+        "valeur": "0.858",
+        "maj": "2026-11-27 09:31:22"
+      },
+      "E10": {
+        "valeur": "1.911",
+        "maj": "2026-11-27 09:31:22"
+      }
+    }
+  },
+  {
+    "id": "90300002",
+    "dep": "90",
+    "enseigne": "Système U",
+    "adresse": "30, rue de Turenne",
+    "cp": "90300",
+    "ville": "VALDOIE",
+    "latitude": 47.66862601099999,
+    "longitude": 6.842203087160001,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.056",
+        "maj": "2026-11-27 08:54:02"
+      },
+      "SP95": {
+        "valeur": "1.997",
+        "maj": "2026-11-27 08:54:02"
+      },
+      "GPLc": {
+        "valeur": "1.069",
+        "maj": "2026-11-21 19:44:38"
+      },
+      "SP98": {
+        "valeur": "2.039",
+        "maj": "2026-11-27 08:54:02"
+      }
+    }
+  },
+  {
+    "id": "90100003",
+    "dep": "90",
+    "enseigne": "Intermarché",
+    "adresse": "37 FAUBOURG DE BELFORT",
+    "cp": "90100",
+    "ville": "DELLE",
+    "latitude": 47.512,
+    "longitude": 6.999,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.007",
+        "maj": "2026-11-26 08:30:00"
+      },
+      "E85": {
+        "valeur": "0.858",
+        "maj": "2026-11-13 09:59:10"
+      },
+      "E10": {
+        "valeur": "1.885",
+        "maj": "2026-11-26 08:30:00"
+      },
+      "SP98": {
+        "valeur": "1.988",
+        "maj": "2026-11-26 08:30:00"
+      }
+    }
+  },
+  {
+    "id": "90150001",
+    "dep": "90",
+    "enseigne": "TotalEnergies",
+    "adresse": "Rue de la baume, RD83",
+    "cp": "90150",
+    "ville": "MENONCOURT",
+    "latitude": 47.688,
+    "longitude": 6.955,
+    "carburants": {
+      "E10": {
+        "valeur": "1.902",
+        "maj": "2026-11-27 05:58:33"
+      }
+    }
+  },
+  {
+    "id": "90200003",
+    "dep": "90",
+    "enseigne": "TotalEnergies",
+    "adresse": "72 Faubourg de Belfort",
+    "cp": "90200",
+    "ville": "GIROMAGNY",
+    "latitude": 47.735,
+    "longitude": 6.83,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.034",
+        "maj": "2026-11-27 06:38:46"
+      },
+      "E10": {
+        "valeur": "1.919",
+        "maj": "2026-11-27 06:38:46"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-27 06:38:46"
+      }
+    }
+  },
+  {
+    "id": "90160001",
+    "dep": "90",
+    "enseigne": "Auchan hypermarché",
+    "adresse": "CD 419",
+    "cp": "90160",
+    "ville": "BESSONCOURT",
+    "latitude": 47.641,
+    "longitude": 6.916,
+    "carburants": {
+      "Gazole": {
+        "valeur": "1.986",
+        "maj": "2026-11-27 09:45:49"
+      },
+      "GPLc": {
+        "valeur": "1.079",
+        "maj": "2026-11-26 09:49:56"
+      },
+      "E10": {
+        "valeur": "1.888",
+        "maj": "2026-11-27 09:45:49"
+      },
+      "SP98": {
+        "valeur": "2.001",
+        "maj": "2026-11-27 09:45:49"
+      }
+    }
+  },
+  {
+    "id": "90200002",
+    "dep": "90",
+    "enseigne": "Intermarché",
+    "adresse": "3 ZAC du Mont Jean",
+    "cp": "90200",
+    "ville": "GIROMAGNY",
+    "latitude": 47.737,
+    "longitude": 6.836,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.052",
+        "maj": "2026-11-26 09:57:11"
+      },
+      "SP95": {
+        "valeur": "1.970",
+        "maj": "2026-11-26 09:57:11"
+      },
+      "SP98": {
+        "valeur": "2.054",
+        "maj": "2026-11-26 09:57:11"
+      }
+    }
+  },
+  {
+    "id": "90000002",
+    "dep": "90",
+    "enseigne": "TotalEnergies",
+    "adresse": "4 Faubourg de Brisach",
+    "cp": "90000",
+    "ville": "Belfort",
+    "latitude": 47.64,
+    "longitude": 6.868,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.190",
+        "maj": "2026-11-27 08:51:08"
+      },
+      "E10": {
+        "valeur": "1.990",
+        "maj": "2026-11-27 08:51:08"
+      }
+    }
+  },
+  {
+    "id": "90000014",
+    "dep": "90",
+    "enseigne": "TotalEnergies Access",
+    "adresse": "3 rue de Besançon",
+    "cp": "90000",
+    "ville": "BELFORT",
+    "latitude": 47.626,
+    "longitude": 6.86,
+    "carburants": {
+      "E85": {
+        "valeur": "0.953",
+        "maj": "2026-11-27 00:01:00"
+      },
+      "E10": {
+        "valeur": "1.874",
+        "maj": "2026-11-27 00:01:00"
+      }
+    }
+  },
+  {
+    "id": "90400001",
+    "dep": "90",
+    "enseigne": "Carrefour",
+    "adresse": "Route de montbéliard",
+    "cp": "90400",
+    "ville": "ANDELNANS",
+    "latitude": 47.60022,
+    "longitude": 6.86124,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.016",
+        "maj": "2026-11-26 11:32:39"
+      },
+      "E85": {
+        "valeur": "0.879",
+        "maj": "2026-11-26 11:32:39"
+      },
+      "GPLc": {
+        "valeur": "1.079",
+        "maj": "2026-11-26 11:32:40"
+      },
+      "E10": {
+        "valeur": "1.888",
+        "maj": "2026-11-26 11:32:40"
+      },
+      "SP98": {
+        "valeur": "2.001",
+        "maj": "2026-11-26 11:32:40"
+      }
+    }
+  },
+  {
+    "id": "90000013",
+    "dep": "90",
+    "enseigne": "TotalEnergies",
+    "adresse": "AVENUE D'ALTKIRCH",
+    "cp": "90000",
+    "ville": "BELFORT",
+    "latitude": 47.631,
+    "longitude": 6.867,
+    "carburants": {
+      "E85": {
+        "valeur": "0.952",
+        "maj": "2026-11-27 00:01:00"
+      },
+      "GPLc": {
+        "valeur": "1.079",
+        "maj": "2026-11-27 00:01:00"
+      },
+      "SP98": {
+        "valeur": "1.990",
+        "maj": "2026-11-27 06:38:37"
+      }
+    }
+  },
+  {
+    "id": "90130002",
+    "dep": "90",
+    "enseigne": "Intermarché Contact",
+    "adresse": "1 RUE DU GENERAL DE GAULLE",
+    "cp": "90130",
+    "ville": "MONTREUX CHATEAU",
+    "latitude": 47.606879000000006,
+    "longitude": 7.004091,
+    "carburants": {
+      "Gazole": {
+        "valeur": "2.119",
+        "maj": "2026-11-24 18:28:13"
+      },
+      "E10": {
+        "valeur": "1.939",
+        "maj": "2026-11-24 18:28:13"
+      }
+    }
+  }
+]
